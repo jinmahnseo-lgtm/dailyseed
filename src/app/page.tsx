@@ -85,7 +85,6 @@ export default function Home() {
   const submitAnswer = () => {
     if (!selectedUser || !answer.trim() || !seed) return;
 
-    // 출석 처리
     const yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);
     const yesterdayStr = `${yesterday.getFullYear()}-${String(yesterday.getMonth() + 1).padStart(2, "0")}-${String(yesterday.getDate()).padStart(2, "0")}`;
@@ -100,8 +99,7 @@ export default function Home() {
     setStreaks(updated);
     saveStreaks(updated);
 
-    // 시트에 기록
-    sendToSheet(today, selectedUser, seed.question.text, answer.trim());
+    sendToSheet(today, selectedUser, seed.classic.question, answer.trim());
 
     setSubmitted(true);
     setTimeout(() => {
@@ -135,7 +133,24 @@ export default function Home() {
         </div>
       </header>
 
-      {/* 오늘의 질문 — 맨 위로 이동 */}
+      {/* 오늘의 고전 — 항상 펼쳐짐 */}
+      <section className="mb-4">
+        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xl">📖</span>
+            <span className="font-semibold text-[var(--accent)]">오늘의 고전</span>
+          </div>
+          <p className="text-lg font-medium">{seed.classic.title}</p>
+          <p className="text-sm text-[var(--text-muted)] mb-3">
+            {seed.classic.author} · {seed.classic.year > 0 ? `${seed.classic.year}년` : `BC ${Math.abs(seed.classic.year)}년경`}
+          </p>
+          <div className="text-sm leading-relaxed whitespace-pre-line">
+            {seed.classic.summary}
+          </div>
+        </div>
+      </section>
+
+      {/* 오늘의 질문 — 고전에서 파생 */}
       <section className="mb-4">
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-2">
@@ -143,10 +158,7 @@ export default function Home() {
             <span className="font-semibold text-[var(--accent)]">오늘의 질문</span>
           </div>
           <p className="text-lg font-medium leading-relaxed">
-            {seed.question.text}
-          </p>
-          <p className="mt-2 text-sm text-[var(--text-muted)] bg-[var(--accent-light)] rounded-lg p-3">
-            💡 힌트: {seed.question.hint}
+            {seed.classic.question}
           </p>
         </div>
       </section>
@@ -188,7 +200,6 @@ export default function Home() {
             })}
           </div>
 
-          {/* 답변 입력 */}
           {selectedUser && !submitted && (
             <div className="space-y-3">
               <p className="text-sm text-center text-[var(--text-muted)]">
@@ -197,9 +208,9 @@ export default function Home() {
               <textarea
                 value={answer}
                 onChange={(e) => setAnswer(e.target.value)}
-                placeholder="여기에 한 줄로 적어봐..."
+                placeholder="여기에 적어봐..."
                 className="w-full border border-gray-200 rounded-xl p-3 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:border-transparent"
-                rows={2}
+                rows={3}
               />
               <button
                 onClick={submitAnswer}
@@ -215,38 +226,12 @@ export default function Home() {
             </div>
           )}
 
-          {/* 제출 완료 */}
           {submitted && (
             <p className="text-center text-sm font-semibold text-green-600 py-3">
               🎉 {selectedUser} 출석 완료!
             </p>
           )}
         </div>
-      </section>
-
-      {/* 오늘의 고전 */}
-      <section className="mb-4">
-        <button
-          onClick={() => toggle("classic")}
-          className="w-full bg-white rounded-2xl p-5 shadow-sm text-left hover:shadow-md transition-shadow"
-        >
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-xl">📖</span>
-            <span className="font-semibold text-[var(--accent)]">오늘의 고전</span>
-          </div>
-          <p className="text-lg font-medium">{seed.classic.title}</p>
-          <p className="text-sm text-[var(--text-muted)]">
-            {seed.classic.author} · {seed.classic.year > 0 ? `${seed.classic.year}년` : `BC ${Math.abs(seed.classic.year)}년경`}
-          </p>
-          {openSection === "classic" && (
-            <div className="mt-3 space-y-3">
-              <p className="text-sm leading-relaxed">{seed.classic.summary}</p>
-              <p className="text-sm bg-[var(--accent-light)] rounded-lg p-3 font-medium">
-                🤔 {seed.classic.think_about}
-              </p>
-            </div>
-          )}
-        </button>
       </section>
 
       {/* 오늘의 영상 */}
@@ -271,24 +256,30 @@ export default function Home() {
         </button>
       </section>
 
-      {/* 오늘의 단어 */}
+      {/* 오늘의 문장 */}
       <section className="mb-8">
         <button
-          onClick={() => toggle("word")}
+          onClick={() => toggle("sentence")}
           className="w-full bg-white rounded-2xl p-5 shadow-sm text-left hover:shadow-md transition-shadow"
         >
           <div className="flex items-center gap-2 mb-2">
-            <span className="text-xl">✏️</span>
-            <span className="font-semibold text-[var(--accent)]">오늘의 단어</span>
+            <span className="text-xl">📝</span>
+            <span className="font-semibold text-[var(--accent)]">오늘의 문장</span>
           </div>
-          <p className="text-lg font-medium">{seed.word.korean}</p>
-          {openSection === "word" && (
-            <div className="mt-3 space-y-2 text-sm">
-              <p>{seed.word.meaning}</p>
-              <p className="text-[var(--text-muted)]">English: {seed.word.english}</p>
-              <p className="bg-[var(--accent-light)] rounded-lg p-3">
-                &ldquo;{seed.word.example}&rdquo;
-              </p>
+          <p className="text-lg font-medium italic text-gray-800">
+            &ldquo;{seed.sentence.english}&rdquo;
+          </p>
+          {openSection === "sentence" && (
+            <div className="mt-3 space-y-3 text-sm">
+              <p className="font-medium">{seed.sentence.translation}</p>
+              <div className="bg-[var(--accent-light)] rounded-lg p-3">
+                <p className="font-semibold text-[var(--accent)] mb-1">
+                  📌 {seed.sentence.grammar_point}
+                </p>
+                <p className="leading-relaxed">
+                  {seed.sentence.grammar_explanation}
+                </p>
+              </div>
             </div>
           )}
         </button>
