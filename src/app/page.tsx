@@ -253,6 +253,25 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 오늘의 연결 — 항상 펼쳐짐 */}
+      <section className="mb-8">
+        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xl">🔗</span>
+            <span className="font-semibold text-[var(--accent)]">오늘의 연결</span>
+          </div>
+          <div className="flex items-center gap-2 mb-2">
+            <p className="text-lg font-medium">{seed.connection.title}</p>
+            <span className="text-xs bg-[var(--accent-light)] text-[var(--accent)] px-2 py-0.5 rounded-full">
+              {seed.connection.type}
+            </span>
+          </div>
+          <p className="text-sm leading-relaxed">
+            {seed.connection.description}
+          </p>
+        </div>
+      </section>
+
       {/* 푸터 */}
       <footer className="text-center text-xs text-[var(--text-muted)]">
         <p>{seed.date}</p>
