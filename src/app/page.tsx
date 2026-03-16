@@ -10,6 +10,8 @@ type UserStreaks = {
 };
 
 const USERS = ["이준", "이수"];
+const SHEET_URL =
+  "https://script.google.com/macros/s/AKfycbw62PVzyPfArE44XRS3mZqbC082OuL5-JgsL9l-HSrxp9ONOkkydca-o9Wz7ZtLnSySRQ/exec";
 
 function getToday() {
   const d = new Date();
@@ -38,11 +40,23 @@ function saveStreaks(streaks: UserStreaks) {
   localStorage.setItem("dailyseed-streaks", JSON.stringify(streaks));
 }
 
+function sendToSheet(date: string, name: string, question: string, answer: string) {
+  fetch(SHEET_URL, {
+    method: "POST",
+    mode: "no-cors",
+    headers: { "Content-Type": "text/plain" },
+    body: JSON.stringify({ date, name, question, answer }),
+  }).catch(() => {});
+}
+
 export default function Home() {
   const [seed, setSeed] = useState<Seed | null>(null);
   const [openSection, setOpenSection] = useState<string | null>(null);
   const [streaks, setStreaks] = useState<UserStreaks>({});
   const [today, setToday] = useState("");
+  const [selectedUser, setSelectedUser] = useState<string | null>(null);
+  const [answer, setAnswer] = useState("");
+  const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
     const t = getToday();
@@ -51,7 +65,6 @@ export default function Home() {
     setSeed(todaySeed || seeds[0]);
 
     const saved = loadStreaks();
-    // 날짜 변경 시 checkedToday 리셋
     USERS.forEach((name) => {
       if (saved[name]) {
         saved[name].checkedToday = saved[name].last === t;
@@ -62,22 +75,39 @@ export default function Home() {
     setStreaks(saved);
   }, []);
 
-  const checkIn = (name: string) => {
+  const selectUser = (name: string) => {
     if (streaks[name]?.checkedToday) return;
+    setSelectedUser(name);
+    setAnswer("");
+    setSubmitted(false);
+  };
 
+  const submitAnswer = () => {
+    if (!selectedUser || !answer.trim() || !seed) return;
+
+    // 출석 처리
     const yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);
     const yesterdayStr = `${yesterday.getFullYear()}-${String(yesterday.getMonth() + 1).padStart(2, "0")}-${String(yesterday.getDate()).padStart(2, "0")}`;
 
-    const prev = streaks[name] || { last: "", streak: 0, checkedToday: false };
+    const prev = streaks[selectedUser] || { last: "", streak: 0, checkedToday: false };
     const newStreak = prev.last === yesterdayStr ? prev.streak + 1 : 1;
 
     const updated = {
       ...streaks,
-      [name]: { last: today, streak: newStreak, checkedToday: true },
+      [selectedUser]: { last: today, streak: newStreak, checkedToday: true },
     };
     setStreaks(updated);
     saveStreaks(updated);
+
+    // 시트에 기록
+    sendToSheet(today, selectedUser, seed.question.text, answer.trim());
+
+    setSubmitted(true);
+    setTimeout(() => {
+      setSelectedUser(null);
+      setSubmitted(false);
+    }, 2000);
   };
 
   if (!seed) return null;
@@ -105,46 +135,9 @@ export default function Home() {
         </div>
       </header>
 
-      {/* 출석 체크 */}
-      <section className="mb-6">
-        <div className="bg-white rounded-2xl p-4 shadow-sm">
-          <p className="text-center text-sm font-semibold text-[var(--accent)] mb-3">
-            오늘의 출석
-          </p>
-          <div className="flex justify-center gap-4">
-            {USERS.map((name) => {
-              const info = streaks[name];
-              const checked = info?.checkedToday;
-              return (
-                <button
-                  key={name}
-                  onClick={() => checkIn(name)}
-                  className={`flex flex-col items-center gap-1 px-5 py-3 rounded-xl transition-all ${
-                    checked
-                      ? "bg-[var(--accent)] text-white shadow-md"
-                      : "bg-[var(--accent-light)] text-[var(--foreground)] hover:shadow-md"
-                  }`}
-                >
-                  <span className="text-2xl">{checked ? "✅" : "👋"}</span>
-                  <span className="font-semibold text-sm">{name}</span>
-                  <span className="text-xs opacity-80">
-                    {checked
-                      ? `🔥 ${info.streak}일 연속`
-                      : "탭해서 출석!"}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* 오늘의 질문 */}
+      {/* 오늘의 질문 — 맨 위로 이동 */}
       <section className="mb-4">
-        <button
-          onClick={() => toggle("question")}
-          className="w-full bg-white rounded-2xl p-5 shadow-sm text-left hover:shadow-md transition-shadow"
-        >
+        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-2">
             <span className="text-xl">💭</span>
             <span className="font-semibold text-[var(--accent)]">오늘의 질문</span>
@@ -152,12 +145,83 @@ export default function Home() {
           <p className="text-lg font-medium leading-relaxed">
             {seed.question.text}
           </p>
-          {openSection === "question" && (
-            <p className="mt-3 text-sm text-[var(--text-muted)] bg-[var(--accent-light)] rounded-lg p-3">
-              💡 힌트: {seed.question.hint}
+          <p className="mt-2 text-sm text-[var(--text-muted)] bg-[var(--accent-light)] rounded-lg p-3">
+            💡 힌트: {seed.question.hint}
+          </p>
+        </div>
+      </section>
+
+      {/* 출석 체크 — 답변으로 출석 */}
+      <section className="mb-6">
+        <div className="bg-white rounded-2xl p-4 shadow-sm">
+          <p className="text-center text-sm font-semibold text-[var(--accent)] mb-3">
+            질문에 답하고 출석하기
+          </p>
+          <div className="flex justify-center gap-4 mb-4">
+            {USERS.map((name) => {
+              const info = streaks[name];
+              const checked = info?.checkedToday;
+              const isSelected = selectedUser === name;
+              return (
+                <button
+                  key={name}
+                  onClick={() => selectUser(name)}
+                  className={`flex flex-col items-center gap-1 px-5 py-3 rounded-xl transition-all ${
+                    checked
+                      ? "bg-[var(--accent)] text-white shadow-md"
+                      : isSelected
+                        ? "bg-[var(--accent)] text-white shadow-md ring-2 ring-offset-2 ring-[var(--accent)]"
+                        : "bg-[var(--accent-light)] text-[var(--foreground)] hover:shadow-md"
+                  }`}
+                >
+                  <span className="text-2xl">{checked ? "✅" : isSelected ? "✍️" : "👋"}</span>
+                  <span className="font-semibold text-sm">{name}</span>
+                  <span className="text-xs opacity-80">
+                    {checked
+                      ? `🔥 ${info.streak}일 연속`
+                      : isSelected
+                        ? "답변 작성 중"
+                        : "탭해서 시작!"}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* 답변 입력 */}
+          {selectedUser && !submitted && (
+            <div className="space-y-3">
+              <p className="text-sm text-center text-[var(--text-muted)]">
+                <strong>{selectedUser}</strong>의 생각을 적어봐!
+              </p>
+              <textarea
+                value={answer}
+                onChange={(e) => setAnswer(e.target.value)}
+                placeholder="여기에 한 줄로 적어봐..."
+                className="w-full border border-gray-200 rounded-xl p-3 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:border-transparent"
+                rows={2}
+              />
+              <button
+                onClick={submitAnswer}
+                disabled={!answer.trim()}
+                className={`w-full py-2.5 rounded-xl text-sm font-semibold transition-all ${
+                  answer.trim()
+                    ? "bg-[var(--accent)] text-white hover:shadow-md"
+                    : "bg-gray-100 text-gray-400 cursor-not-allowed"
+                }`}
+              >
+                제출하고 출석! 🎉
+              </button>
+            </div>
+          )}
+
+          {/* 제출 완료 */}
+          {submitted && (
+            <p className="text-center text-sm font-semibold text-green-600 py-3">
+              🎉 {selectedUser} 출석 완료!
             </p>
           )}
-        </button>
+        </div>
       </section>
 
       {/* 오늘의 고전 */}
