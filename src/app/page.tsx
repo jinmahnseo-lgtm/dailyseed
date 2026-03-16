@@ -51,7 +51,6 @@ function sendToSheet(date: string, name: string, question: string, answer: strin
 
 export default function Home() {
   const [seed, setSeed] = useState<Seed | null>(null);
-  const [openSection, setOpenSection] = useState<string | null>(null);
   const [streaks, setStreaks] = useState<UserStreaks>({});
   const [today, setToday] = useState("");
   const [selectedUser, setSelectedUser] = useState<string | null>(null);
@@ -112,10 +111,6 @@ export default function Home() {
 
   const dayNum = getDayNumber(seed.date);
 
-  const toggle = (section: string) => {
-    setOpenSection(openSection === section ? null : section);
-  };
-
   return (
     <div className="min-h-screen px-4 py-8 max-w-lg mx-auto">
       {/* 헤더 */}
@@ -123,7 +118,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold tracking-tight">
           🌱 DailySeed
         </h1>
-        <p className="text-[var(--text-muted)] mt-1 text-sm">
+        <p className="text-[var(--text-muted)] mt-1 text-base">
           이준 · 이수를 위한 매일의 씨앗
         </p>
         <div className="mt-3">
@@ -144,7 +139,7 @@ export default function Home() {
           <p className="text-sm text-[var(--text-muted)] mb-3">
             {seed.classic.author} · {seed.classic.year > 0 ? `${seed.classic.year}년` : `BC ${Math.abs(seed.classic.year)}년경`}
           </p>
-          <div className="text-sm leading-relaxed whitespace-pre-line">
+          <div className="text-base leading-relaxed whitespace-pre-line">
             {seed.classic.summary}
           </div>
         </div>
@@ -234,34 +229,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 오늘의 영상 */}
-      <section className="mb-4">
-        <button
-          onClick={() => toggle("video")}
-          className="w-full bg-white rounded-2xl p-5 shadow-sm text-left hover:shadow-md transition-shadow"
-        >
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-xl">🎬</span>
-            <span className="font-semibold text-[var(--accent)]">오늘의 영상</span>
-          </div>
-          <p className="text-lg font-medium">{seed.video.title}</p>
-          <p className="text-sm text-[var(--text-muted)]">
-            {seed.video.channel} · {seed.video.duration}
-          </p>
-          {openSection === "video" && (
-            <p className="mt-3 text-sm leading-relaxed">
-              {seed.video.description}
-            </p>
-          )}
-        </button>
-      </section>
-
-      {/* 오늘의 문장 */}
+      {/* 오늘의 문장 — 항상 펼쳐짐 */}
       <section className="mb-8">
-        <button
-          onClick={() => toggle("sentence")}
-          className="w-full bg-white rounded-2xl p-5 shadow-sm text-left hover:shadow-md transition-shadow"
-        >
+        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-2">
             <span className="text-xl">📝</span>
             <span className="font-semibold text-[var(--accent)]">오늘의 문장</span>
@@ -269,20 +239,18 @@ export default function Home() {
           <p className="text-lg font-medium italic text-gray-800">
             &ldquo;{seed.sentence.english}&rdquo;
           </p>
-          {openSection === "sentence" && (
-            <div className="mt-3 space-y-3 text-sm">
-              <p className="font-medium">{seed.sentence.translation}</p>
-              <div className="bg-[var(--accent-light)] rounded-lg p-3">
-                <p className="font-semibold text-[var(--accent)] mb-1">
-                  📌 {seed.sentence.grammar_point}
-                </p>
-                <p className="leading-relaxed">
-                  {seed.sentence.grammar_explanation}
-                </p>
-              </div>
+          <div className="mt-3 space-y-3 text-sm">
+            <p className="font-medium">{seed.sentence.translation}</p>
+            <div className="bg-[var(--accent-light)] rounded-lg p-3">
+              <p className="font-semibold text-[var(--accent)] mb-1">
+                📌 {seed.sentence.grammar_point}
+              </p>
+              <p className="leading-relaxed">
+                {seed.sentence.grammar_explanation}
+              </p>
             </div>
-          )}
-        </button>
+          </div>
+        </div>
       </section>
 
       {/* 푸터 */}
