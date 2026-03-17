@@ -69,6 +69,15 @@ const MENUS = [
     border: "border-emerald-200",
     accent: "text-emerald-600",
   },
+  {
+    href: "/why",
+    icon: "🔬",
+    title: "왜왜왜 연구소",
+    desc: "과학 · 호기심 · 실험 · 놀라운 사실",
+    color: "from-orange-50 to-red-50",
+    border: "border-orange-200",
+    accent: "text-orange-600",
+  },
 ];
 
 export default function Home() {

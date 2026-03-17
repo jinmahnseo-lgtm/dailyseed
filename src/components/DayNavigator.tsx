@@ -36,17 +36,17 @@ export default function DayNavigator({
         <button
           onClick={onPrev}
           disabled={!canPrev}
-          className="text-[var(--accent)] disabled:opacity-30 text-xl font-bold px-2"
+          className="text-[var(--accent)] disabled:opacity-30 text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
         >
           ‹
         </button>
-        <span className="bg-[var(--accent-light)] text-[var(--accent)] px-3 py-1 rounded-full text-sm font-semibold">
+        <span className="bg-[var(--accent-light)] text-[var(--accent)] px-4 py-1.5 rounded-full text-sm font-semibold">
           Day {dayNum}
         </span>
         <button
           onClick={onNext}
           disabled={!canNext}
-          className="text-[var(--accent)] disabled:opacity-30 text-xl font-bold px-2"
+          className="text-[var(--accent)] disabled:opacity-30 text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
         >
           ›
         </button>
