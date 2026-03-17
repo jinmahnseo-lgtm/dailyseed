@@ -7,7 +7,6 @@ const MENUS = [
   { href: "/", icon: "🏠", label: "홈" },
   { href: "/seed", icon: "🌱", label: "씨앗" },
   { href: "/art", icon: "🎨", label: "명화" },
-  { href: "/puzzle", icon: "🧩", label: "퍼즐" },
   { href: "/world", icon: "🌍", label: "세계" },
   { href: "/why", icon: "🔬", label: "왜?" },
 ];

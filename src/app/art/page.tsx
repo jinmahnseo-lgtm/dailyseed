@@ -60,20 +60,24 @@ export default function ArtPage() {
           <p className="text-sm text-[var(--text-muted)] mb-3">
             {art.artist} · {art.year}년 · {art.country}
           </p>
-          {art.image_url ? (
-            <div className="rounded-xl overflow-hidden mb-3 bg-gray-100">
-              <img
-                src={art.image_url}
-                alt={`${art.title} — ${art.artist}`}
-                className="w-full h-auto object-contain max-h-[400px]"
-                loading="lazy"
-              />
-            </div>
-          ) : (
-            <div className="bg-gray-50 rounded-xl p-4 mb-3">
-              <p className="text-sm leading-relaxed italic text-gray-600">
-                🎨 {art.image_desc}
-              </p>
+          {art.image_url && (
+            <div className="mb-3">
+              <div className="rounded-xl overflow-hidden bg-gray-100">
+                <img
+                  src={art.image_url}
+                  alt={`${art.title} — ${art.artist}`}
+                  className="w-full h-auto object-contain max-h-[400px]"
+                  loading="lazy"
+                />
+              </div>
+              {art.source_url && (
+                <p className="text-[10px] text-gray-400 mt-1 text-right">
+                  출처:{" "}
+                  <a href={art.source_url} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-500">
+                    {art.source_label || "Wikipedia"}
+                  </a>
+                </p>
+              )}
             </div>
           )}
           <div className="text-[1.05rem] leading-[1.8]">{art.story}</div>

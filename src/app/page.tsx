@@ -2,12 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-
-const USERS = ["이준", "이수"];
-
-type UserStreaks = {
-  [name: string]: { last: string; streak: number };
-};
+import themes from "@/data/themes.json";
 
 function getToday() {
   const d = new Date();
@@ -18,18 +13,6 @@ function getDayNumber(dateStr: string) {
   const start = new Date("2026-03-16");
   const current = new Date(dateStr);
   return Math.floor((current.getTime() - start.getTime()) / 86400000) + 1;
-}
-
-function loadStreaks(): UserStreaks {
-  try {
-    const saved = localStorage.getItem("dailyseed-streaks");
-    if (saved) return JSON.parse(saved);
-  } catch {}
-  const initial: UserStreaks = {};
-  USERS.forEach((name) => {
-    initial[name] = { last: "", streak: 0 };
-  });
-  return initial;
 }
 
 const MENUS = [
@@ -50,15 +33,6 @@ const MENUS = [
     color: "from-violet-50 to-purple-50",
     border: "border-violet-200",
     accent: "text-violet-600",
-  },
-  {
-    href: "/puzzle",
-    icon: "🧩",
-    title: "오늘의 퍼즐",
-    desc: "수학 · 논리 · 사고력",
-    color: "from-cyan-50 to-teal-50",
-    border: "border-cyan-200",
-    accent: "text-cyan-600",
   },
   {
     href: "/world",
@@ -82,54 +56,46 @@ const MENUS = [
 
 export default function Home() {
   const [today, setToday] = useState("");
-  const [streaks, setStreaks] = useState<UserStreaks>({});
 
   useEffect(() => {
     setToday(getToday());
-    setStreaks(loadStreaks());
   }, []);
 
   const dayNum = getDayNumber(today);
+  const theme = themes.find((t) => t.date === today) || themes[0];
 
   return (
     <div className="min-h-screen px-4 py-8 max-w-lg mx-auto">
-      {/* 헤더 */}
-      <header className="text-center mb-8">
+      <header className="text-center mb-6">
         <h1 className="text-4xl font-bold tracking-tight">🌱 DailySeed</h1>
-        <p className="text-[var(--text-muted)] mt-1 text-lg font-medium">
-          이준 · 이수를 위한 매일의 씨앗
+        <p className="text-[var(--text-muted)] mt-1 text-base">
+          청소년을 위한 매일의 씨앗
         </p>
-        <div className="mt-3 flex items-center justify-center gap-3">
+        <p className="text-xs text-[var(--text-muted)] mt-0.5">
+          by 이준 이수 아빠
+        </p>
+        <div className="mt-3">
           <span className="bg-[var(--accent-light)] text-[var(--accent)] px-4 py-1.5 rounded-full text-sm font-semibold">
             Day {dayNum > 0 ? dayNum : "–"}
           </span>
-          <span className="text-sm text-[var(--text-muted)]">{today}</span>
         </div>
       </header>
 
-      {/* 연속 출석 */}
       <section className="mb-6">
-        <div className="bg-white rounded-2xl p-4 shadow-sm">
-          <div className="flex justify-center gap-6">
-            {USERS.map((name) => {
-              const info = streaks[name];
-              return (
-                <div key={name} className="flex flex-col items-center gap-1">
-                  <span className="text-2xl">
-                    {info?.last === today ? "✅" : "👋"}
-                  </span>
-                  <span className="font-semibold text-sm">{name}</span>
-                  <span className="text-xs text-[var(--text-muted)]">
-                    {info?.streak ? `🔥 ${info.streak}일 연속` : "오늘도 파이팅!"}
-                  </span>
-                </div>
-              );
-            })}
-          </div>
+        <div className="bg-white rounded-2xl p-6 shadow-sm text-center">
+          <p className="text-xs font-semibold text-[var(--accent)] tracking-widest mb-2">
+            오늘의 단어
+          </p>
+          <h2 className="text-4xl font-black tracking-tight mb-2">
+            {theme?.keyword || "–"}
+          </h2>
+          <p className="text-[var(--text-muted)] text-sm">
+            {theme?.desc || ""}
+          </p>
+          <div className="mt-3 w-12 h-0.5 bg-[var(--accent)] mx-auto rounded-full" />
         </div>
       </section>
 
-      {/* 메뉴 카드 */}
       <section className="space-y-3">
         {MENUS.map((menu) => (
           <Link key={menu.href} href={menu.href}>
@@ -153,9 +119,8 @@ export default function Home() {
         ))}
       </section>
 
-      {/* 푸터 */}
       <footer className="text-center text-xs text-[var(--text-muted)] mt-8">
-        <p>매일 새로운 콘텐츠가 업데이트돼요</p>
+        <p>매일 하나의 단어로, 세상을 깊이 보는 눈을 키워요</p>
       </footer>
     </div>
   );
