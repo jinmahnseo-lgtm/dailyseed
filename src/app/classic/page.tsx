@@ -133,7 +133,7 @@ export default function ClassicPage() {
               />
               <button
                 onClick={() => {
-                  if (answer.trim()) complete();
+                  if (answer.trim()) complete(answer.trim());
                 }}
                 disabled={!answer.trim()}
                 className={`w-full py-3 rounded-xl text-sm font-semibold transition-all ${

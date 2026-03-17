@@ -100,7 +100,7 @@ export default function WhyPage() {
             </div>
           ) : (
             <button
-              onClick={complete}
+              onClick={() => complete("실험 완료")}
               className="w-full py-3 rounded-xl text-sm font-semibold bg-orange-500 text-white hover:shadow-md transition-all active:scale-[0.98]"
             >
               직접 해봤어! 🎉

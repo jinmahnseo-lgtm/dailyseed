@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, useEffect, useCallback } from "react";
 import { useSharedDate, formatDateShort, formatDateCompact } from "@/hooks/useSharedDate";
 import { isMissionDone } from "@/hooks/useMission";
+import MissionComplete from "@/components/MissionComplete";
 
 const MENUS = [
   {
@@ -101,6 +102,7 @@ export default function Home() {
 
   const isToday = date === today;
   const dateLabel = date ? formatDateShort(date) : "–";
+  const allDone = date && Object.keys(missions).length === 6 && Object.values(missions).every(Boolean);
 
   return (
     <div className="min-h-screen px-4 py-8 max-w-lg mx-auto">
@@ -160,6 +162,11 @@ export default function Home() {
           <div className="mt-3 w-12 h-0.5 bg-[var(--accent)] mx-auto rounded-full" />
         </div>
       </section>
+
+      {/* 미션 완수 */}
+      {allDone && (
+        <MissionComplete date={date} keyword={theme?.keyword || ""} />
+      )}
 
       {/* Menu cards */}
       <section className="space-y-3">

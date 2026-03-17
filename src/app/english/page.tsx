@@ -67,7 +67,8 @@ export default function EnglishPage() {
 
   const handleSubmit = () => {
     if (allFilled) {
-      complete();
+      const answerSummary = vocab.map((v, i) => `${v.word}: ${(answers[i] || "").trim()}`).join(" / ");
+      complete(answerSummary);
       setShowAnswers(true);
     }
   };

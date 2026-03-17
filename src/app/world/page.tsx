@@ -22,14 +22,15 @@ export default function WorldPage() {
 
   if (!world) return null;
 
+  const isCorrect = selectedAnswer === world.quiz.answer;
+
   const handleQuizSubmit = () => {
     if (selectedAnswer !== null) {
       setQuizSubmitted(true);
-      complete();
+      const correct = selectedAnswer === world.quiz.answer;
+      complete(correct ? "정답" : `오답 (선택: ${world.quiz.options[selectedAnswer]})`);
     }
   };
-
-  const isCorrect = selectedAnswer === world.quiz.answer;
 
   return (
     <div

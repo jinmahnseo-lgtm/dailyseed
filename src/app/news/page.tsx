@@ -45,7 +45,8 @@ export default function NewsPage() {
 
   const handleSubmitDebate = () => {
     if (side && reason.trim()) {
-      complete();
+      const label = side === "pro" ? "찬성" : "반대";
+      complete(`[${label}] ${reason.trim()}`);
     }
   };
 

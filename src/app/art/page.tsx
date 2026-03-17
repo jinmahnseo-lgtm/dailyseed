@@ -135,7 +135,7 @@ export default function ArtPage() {
               />
               <button
                 onClick={() => {
-                  if (review.trim()) complete();
+                  if (review.trim()) complete(review.trim());
                 }}
                 disabled={!review.trim()}
                 className={`w-full py-3 rounded-xl text-sm font-semibold transition-all ${
