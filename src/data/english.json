@@ -1,0 +1,464 @@
+[
+  {
+    "date": "2026-03-16",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "Starting this March, all smartphones are banned during class in Korean schools.",
+        "ko": "올해 3월부터 한국 학교에서 수업 중 모든 스마트폰 사용이 금지됐다.",
+        "note": "'are banned'는 수동태로 '금지되다'라는 뜻이야. ban(금지하다)의 과거분사 banned가 be동사와 결합해 '금지된 상태'를 나타내."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "But I don't want comfort. I want God, I want poetry, I want real danger, I want freedom, I want goodness. I want sin.",
+        "ko": "나는 편안함을 원하지 않아요. 나는 신을, 시를, 진짜 위험을, 자유를, 선함을 원해요. 죄악도 원해요.",
+        "note": "'I want + 명사'가 반복되는 병렬 구조(Parallel Structure)야. 같은 패턴의 반복이 리듬감과 절박함을 만들어."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Delacroix painted Liberty as a woman leading the people over the barricades, holding a flag in one hand and a rifle in the other.",
+        "ko": "들라크루아는 자유를 한 손에는 깃발을, 다른 손에는 총을 든 채 바리케이드를 넘어 민중을 이끄는 여인으로 그렸다.",
+        "note": "'holding A in one hand and B in the other'는 '한 손에 A를, 다른 손에 B를 들고'라는 표현이야. in one hand / in the other 짝을 기억해두면 유용해."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "The French Revolution declared that all human beings are born free and equal in rights.",
+        "ko": "프랑스 대혁명은 모든 인간이 자유롭고 평등하게 태어난다고 선언했다.",
+        "note": "'are born free and equal'에서 born 뒤에 형용사가 와서 '~한 상태로 태어나다'를 표현해. be born + 형용사 패턴을 기억해둬."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-17",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "AI-generated deepfake fraud has caused over 579 billion dollars in damages worldwide.",
+        "ko": "AI가 만든 딥페이크 사기로 인한 전 세계 피해액이 5,790억 달러를 넘었다.",
+        "note": "'AI-generated'는 복합형용사로 'AI가 생성한'이라는 뜻이야. 명사 앞에 하이픈(-)으로 연결된 복합어가 형용사 역할을 해."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "Who controls the past controls the future. Who controls the present controls the past.",
+        "ko": "과거를 지배하는 자가 미래를 지배한다. 현재를 지배하는 자가 과거를 지배한다.",
+        "note": "'Who controls ~'에서 who 앞에 'He'나 'The person'이 생략돼 있어. 'Who = ~하는 사람은'으로, 격언이나 속담에서 자주 쓰이는 구문이야."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "No one knows who the girl in Vermeer's painting really was — her true identity remains a mystery to this day.",
+        "ko": "베르메르 그림 속 소녀가 실제로 누구인지 아무도 모른다 — 그녀의 진짜 정체는 오늘날까지 미스터리로 남아 있다.",
+        "note": "'remains a mystery'는 '미스터리로 남아 있다'라는 뜻이야. remain은 '~인 상태로 남다'로, stay와 비슷하지만 더 격식체야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "In ancient Egypt, the heart of the dead was weighed against the feather of Ma'at, the goddess of truth.",
+        "ko": "고대 이집트에서는 죽은 자의 심장을 진실의 여신 마트의 깃털과 저울에 달았다.",
+        "note": "'was weighed against'는 '~와 비교하여 달다'라는 수동태 표현이야. weigh against는 '~에 대해 무게를 재다/비교하다'라는 뜻이야."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "The Earth is warming 75 percent faster than before, and may cross the 1.5-degree limit by 2029.",
+        "ko": "지구가 이전보다 75% 빠르게 온난화되고 있으며, 2029년까지 1.5도 한계를 넘을 수 있다.",
+        "note": "'75 percent faster than before'에서 비교급 + than 구문을 숫자와 함께 쓰는 패턴이야. 배수/퍼센트 + 비교급 + than은 차이를 구체적으로 표현할 때 유용해."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "In nature, nothing exists alone.",
+        "ko": "자연에서, 어떤 것도 홀로 존재하지 않는다.",
+        "note": "'nothing exists alone'은 이중 부정으로 강한 긍정을 만들어. '아무것도 혼자 존재하지 않는다' = '모든 것이 연결되어 있다'라는 뜻이야."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Monet painted the same water lily pond over 250 times, capturing how light changes from morning to evening.",
+        "ko": "모네는 같은 수련 연못을 250번 넘게 그리며, 아침부터 저녁까지 빛이 어떻게 변하는지를 포착했다.",
+        "note": "'capturing how light changes'에서 how는 간접의문문을 이끌어. capture(포착하다) + how/what/when 절은 '~하는 방식을 잡아내다'라는 뜻이야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "Costa Rica abolished its army in 1948 and invested the military budget in education and nature conservation.",
+        "ko": "코스타리카는 1948년에 군대를 폐지하고 군사비를 교육과 자연 보전에 투자했다.",
+        "note": "'abolished'는 abolish(폐지하다)의 과거형이야. 법이나 제도를 공식적으로 없앨 때 쓰는 격식체 단어야. cancel보다 훨씬 강한 표현이지."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-19",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "As military conflict between Israel and Iran escalates, oil prices have surged past 100 dollars per barrel.",
+        "ko": "이스라엘-이란 간 군사 충돌이 확대되면서, 유가가 배럴당 100달러를 넘어 급등했다.",
+        "note": "'As ~ escalates'에서 as는 '~함에 따라'라는 시간/원인의 접속사야. surge past는 '~을 돌파하며 급등하다'라는 뜻으로, 가격 상승 뉴스에 자주 나오는 표현이야."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "History followed different courses for different peoples because of differences among peoples' environments, not because of biological differences among peoples themselves.",
+        "ko": "역사가 민족마다 다른 경로를 밟은 건 환경의 차이 때문이지, 민족 간의 생물학적 차이 때문이 아니다.",
+        "note": "'because of A, not because of B'는 '진짜 이유는 A이지, B가 아니다'라는 강력한 대조 구문이야. because of 뒤에는 명사(구)가 온다는 점도 기억해."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "The wanderer stands on the mountaintop, gazing into a sea of fog — we cannot see his face, only his back.",
+        "ko": "방랑자는 산꼭대기에 서서 안개 바다를 바라본다 — 우리는 그의 얼굴을 볼 수 없고, 등만 보인다.",
+        "note": "'gazing into'는 '~을 응시하며'라는 현재분사 구문이야. gaze는 look보다 오래, 깊이 바라보는 느낌이야. stare(쳐다보다)와 달리 부정적 느낌이 없어."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "In Indian philosophy, karma means that every action you take shapes your future destiny.",
+        "ko": "인도 철학에서 카르마는 네가 하는 모든 행동이 미래의 운명을 만든다는 뜻이다.",
+        "note": "'every action you take'에서 관계대명사 that이 생략돼 있어. shapes는 '형성하다/만들다'라는 동사로, 추상적인 것을 구체적으로 표현할 때 유용해."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "Schools should teach students not just how to use AI, but what AI cannot do — critical thinking, ethical judgment, and creative questioning.",
+        "ko": "학교는 학생들에게 AI를 사용하는 법뿐 아니라, AI가 할 수 없는 것 — 비판적 사고, 윤리적 판단, 창의적 질문 — 을 가르쳐야 한다.",
+        "note": "'not just A, but B'는 'A뿐만 아니라 B도'라는 뜻이야. not only ~ but also와 같은 패턴인데, 일상에서는 just/but 조합이 더 자연스러워."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "You could never convince a monkey to give you a banana by promising him limitless bananas after death in monkey heaven.",
+        "ko": "원숭이에게 '죽으면 원숭이 천국에서 바나나를 무한히 받을 거야'라고 약속해서 바나나를 얻어낼 수는 없어.",
+        "note": "'could never'는 '절대로 ~할 수 없다'는 불가능을 강조해. 'by promising'에서 by + ~ing는 '~함으로써'로 수단/방법을 나타내."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Bosch painted a world of pure imagination — giant fruits, flying fish, and humans riding on birds — over 500 years ago.",
+        "ko": "보스는 500년도 더 전에 거대한 과일, 하늘을 나는 물고기, 새를 타는 인간이 있는 순수한 상상의 세계를 그렸다.",
+        "note": "'a world of pure imagination'에서 of는 '~으로 이루어진'이라는 뜻이야. pure(순수한)는 imagination을 꾸며주는 형용사로, 자주 쓰이는 콜로케이션이야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "In Iceland, more than 10 percent of the population has published a book, making it the world's highest per capita publishing rate.",
+        "ko": "아이슬란드에서는 인구의 10% 이상이 책을 출판해서, 세계 1인당 출판율 1위다.",
+        "note": "'making it ~'은 분사구문으로 결과를 나타내. per capita는 라틴어에서 온 표현으로 '1인당'이라는 뜻이야. 뉴스와 논문에서 자주 등장해."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-21",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "Since the 1970s, the rate at which species replace each other in ecosystems has slowed to about one third.",
+        "ko": "1970년대 이후, 생태계에서 종이 서로를 대체하는 속도가 약 3분의 1로 느려졌다.",
+        "note": "'the rate at which ~'는 '~하는 속도/비율'이라는 뜻이야. 전치사 + which 구문은 격식체 글에서 자주 쓰이니 패턴을 익혀둬."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "We are survival machines — robot vehicles blindly programmed to preserve the selfish molecules known as genes.",
+        "ko": "우리는 생존 기계야 — 유전자라 불리는 이기적인 분자를 보존하도록 맹목적으로 프로그래밍된 로봇 운송체.",
+        "note": "대시(—) 뒤에 동격 구문이 와서 앞의 명사를 보충 설명해. 'known as ~'는 '~로 알려진'이라는 과거분사구야."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Géricault interviewed survivors and even studied real corpses to paint the horrifying truth of the Medusa shipwreck.",
+        "ko": "제리코는 메두사호 난파의 끔찍한 진실을 그리기 위해 생존자를 직접 만나고 실제 시체까지 연구했다.",
+        "note": "'even'은 '심지어/~까지도'라는 강조 부사야. 여기서는 '시체까지 연구했다'는 놀라움을 더해줘. to paint는 목적을 나타내는 to부정사야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "Mongolian nomads have survived harsh winters of minus 40 degrees by living in portable tents called gers.",
+        "ko": "몽골 유목민들은 게르라 불리는 이동식 천막에서 생활하며 영하 40도의 혹독한 겨울을 견뎌왔다.",
+        "note": "'have survived'는 현재완료로 '과거부터 지금까지 살아남아왔다'는 계속을 나타내. called gers는 과거분사구로 '게르라 불리는'이라는 뜻이야."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-22",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "Scientists discovered that sea levels are 30 centimeters higher than previously predicted, putting a billion coastal residents at risk.",
+        "ko": "과학자들은 해수면이 이전 예측보다 30cm 더 높다는 사실을 발견했고, 이로 인해 10억 해안 주민이 위험에 처해 있다.",
+        "note": "'than previously predicted'는 '이전에 예측된 것보다'라는 비교 구문이야. putting은 분사구문으로 결과를 나타내. at risk는 '위험에 처한' 상태를 뜻해."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "The answers you get depend on the questions you ask.",
+        "ko": "네가 얻는 답은 네가 던지는 질문에 달려 있다.",
+        "note": "'The answers (that) you get'에서 목적격 관계대명사 that이 생략돼 있어. depend on은 '~에 달려 있다'로, 매우 자주 쓰이는 핵심 표현이야."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Vermeer captured the moment of discovery — an astronomer gently reaching for a celestial globe, lit by soft window light.",
+        "ko": "베르메르는 발견의 순간을 포착했다 — 부드러운 창문 빛을 받으며 천구의에 조심스럽게 손을 뻗는 천문학자.",
+        "note": "'lit by ~'는 light의 과거분사로 '~에 의해 비춰진'이라는 뜻이야. reaching for는 '~를 향해 손을 뻗다'라는 표현으로, reach for your dreams처럼 비유적으로도 쓰여."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "Polynesian sailors crossed thousands of kilometers of open ocean using only the stars, waves, and bird flights to navigate.",
+        "ko": "폴리네시안 항해자들은 별, 파도, 새의 비행만으로 항해하며 수천 킬로미터의 바다를 건넜다.",
+        "note": "'using only ~'는 분사구문으로 수단을 나타내. to navigate는 목적의 to부정사야. navigate는 '항해하다'에서 확장되어 '길을 찾다'라는 뜻으로도 쓰여."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "If a self-driving taxi causes an accident, who should be held responsible — the company, the passenger, or the AI itself?",
+        "ko": "자율주행 택시가 사고를 내면, 누가 책임을 져야 할까 — 회사, 승객, 아니면 AI 자체?",
+        "note": "'be held responsible'는 '책임을 지다/책임이 있다고 여겨지다'라는 수동태 표현이야. hold someone responsible는 '~에게 책임을 묻다'라는 뜻이야."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "I ought to be thy Adam, but I am rather the fallen angel.",
+        "ko": "나는 당신의 아담이어야 하지만, 오히려 타락한 천사에 가깝습니다.",
+        "note": "'ought to'는 should와 비슷하지만 도덕적 의무를 더 강조하는 격식체야. rather는 '오히려/차라리'로 대조를 만들어."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "In Goya's painting, French soldiers fire at unarmed Spanish civilians — the executioners have no faces, showing that violence is impersonal.",
+        "ko": "고야의 그림에서 프랑스 군인들이 비무장 스페인 시민들에게 총을 쏜다 — 처형자들에게 얼굴이 없어, 폭력이 비인간적임을 보여준다.",
+        "note": "'unarmed'는 un-(부정접두사) + armed(무장한)로 '비무장의'라는 뜻이야. impersonal은 '비인간적인/개인적이지 않은'으로, 폭력의 익명성을 표현해."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "Bhutan is the only country in the world that measures Gross National Happiness instead of GDP.",
+        "ko": "부탄은 세계에서 GDP 대신 국민총행복을 측정하는 유일한 나라다.",
+        "note": "'the only country that ~'는 '~하는 유일한 나라'라는 한정 표현이야. instead of는 '~ 대신에'로, 대안을 제시할 때 자주 쓰이는 전치사구야."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "A study found that when anxious teenagers reduced social media use to one hour a day, their loneliness significantly decreased.",
+        "ko": "한 연구에서, 불안한 청소년들이 SNS 사용을 하루 1시간으로 줄이자 외로움이 유의미하게 감소했다.",
+        "note": "'significantly decreased'에서 significantly는 '유의미하게/상당히'라는 부사야. 학술 논문이나 뉴스에서 '통계적으로 의미 있다'는 뜻으로 매우 자주 쓰여."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "The bird fights its way out of the egg. The egg is the world. Who would be born must first destroy a world.",
+        "ko": "새는 알에서 나오려고 투쟁한다. 알은 세계다. 태어나려는 자는 하나의 세계를 깨뜨려야 한다.",
+        "note": "'fights its way out of'는 '싸워서 ~에서 빠져나오다'라는 숙어야. 'Who would ~ must ~'는 고전 영어 격언체로, '~하고자 하는 자는 반드시 ~해야 한다'는 뜻이야."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Van Gogh painted over 40 self-portraits throughout his life — for him, painting himself was a way of searching for his own identity.",
+        "ko": "반 고흐는 평생 40점 넘는 자화상을 그렸다 — 그에게 자신을 그리는 것은 자기 정체성을 찾는 방법이었다.",
+        "note": "'a way of ~ing'는 '~하는 방법/방식'이라는 표현이야. searching for는 '~을 찾다/탐색하다'로, looking for보다 더 깊이 있는 탐구의 뉘앙스가 있어."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "On Mexico's Day of the Dead, families celebrate their ancestors with music, food, and colorful sugar skulls.",
+        "ko": "멕시코의 죽은 자의 날에, 가족들은 음악, 음식, 형형색색의 설탕 해골로 조상을 기린다.",
+        "note": "'celebrate'는 '축하하다'뿐 아니라 '기리다/기념하다'라는 뜻도 있어. colorful sugar skulls에서 형용사 두 개가 명사를 수식하는 구조를 봐."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-25",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "PFAS chemicals, known as 'forever chemicals,' were found in 40 percent of California's non-organic produce.",
+        "ko": "'영원한 화학물질'로 알려진 PFAS 화학물질이 캘리포니아 비유기농 농산물의 40%에서 발견됐다.",
+        "note": "'known as ~'는 '~로 알려진'이라는 과거분사구야. non-organic의 접두사 non-은 '비(非)/~이 아닌'이라는 뜻으로, 다양한 단어와 결합해."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "Two souls, alas, are dwelling in my breast.",
+        "ko": "아아, 두 개의 영혼이 내 가슴 속에 살고 있구나.",
+        "note": "'alas'는 '아아, 슬프도다'라는 격식체 감탄사야. are dwelling은 현재진행형으로 '지금 이 순간 살고 있다'는 생생함을 줘."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Klimt covered his painting with real gold leaf — but look closely, and you'll see the couple is standing at the edge of a cliff.",
+        "ko": "클림트는 진짜 금박으로 그림을 덮었다 — 하지만 자세히 보면, 두 사람이 절벽 끝에 서 있다는 걸 알 수 있다.",
+        "note": "'look closely, and you'll see ~'는 '자세히 보면 ~이 보일 거야'라는 구문이야. 명령문 + and는 '~하면 ~할 것이다'라는 조건을 나타내."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "Italians call it 'dolce far niente' — the sweetness of doing nothing — and consider it an essential part of a good life.",
+        "ko": "이탈리아인들은 그것을 '돌체 파르 니엔테' — 아무것도 하지 않는 달콤함 — 라 부르며, 좋은 삶의 필수 요소로 여긴다.",
+        "note": "'consider it + 명사'는 '~를 ~로 여기다'라는 5형식 구문이야. an essential part of는 '~의 필수적인 부분'이라는 뜻으로 에세이에서 유용한 표현이야."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-26",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "SpaceX's Starship V3 exploded during a pressure test, but the company sees failure as a necessary step toward success.",
+        "ko": "스페이스X의 스타십 V3가 압력 테스트 중 폭발했지만, 회사는 실패를 성공을 향한 필수 단계로 본다.",
+        "note": "'sees failure as ~'에서 see A as B는 'A를 B로 보다/여기다'라는 뜻이야. a necessary step toward는 '~을 향한 필수 단계'로, 목표를 향한 과정을 표현할 때 유용해."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "A man can be destroyed but not defeated.",
+        "ko": "인간은 파괴될 수 있지만, 패배할 수는 없다.",
+        "note": "'can be destroyed'는 수동태 + 가능을 나타내. but으로 대조하여 '몸은 부서져도 정신은 지지 않는다'는 의미를 만들어."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Hokusai created his masterpiece 'The Great Wave' at the age of 70, proving that the desire to grow never has to end.",
+        "ko": "호쿠사이는 70세에 걸작 '큰 파도'를 만들었고, 성장하려는 욕구에는 끝이 없음을 증명했다.",
+        "note": "'at the age of ~'는 '~세에'라는 표현이야. proving은 분사구문으로 결과를 나타내. never has to end는 '절대 끝날 필요가 없다'라는 뜻이야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "Ethiopia is the only African country that was never colonized — it defeated the Italian army at the Battle of Adwa in 1896.",
+        "ko": "에티오피아는 한 번도 식민지배를 받지 않은 유일한 아프리카 국가로, 1896년 아드와 전투에서 이탈리아군을 물리쳤다.",
+        "note": "'was never colonized'는 수동태 + never로 '한 번도 식민지배를 받지 않았다'는 뜻이야. colonize(식민지화하다)는 역사 관련 글에서 핵심 어휘야."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-27",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "The more time AI saves us, the more important it becomes to decide what we do with that time.",
+        "ko": "AI가 우리의 시간을 아껴줄수록, 그 시간으로 무엇을 할지 결정하는 것이 더 중요해진다.",
+        "note": "'The more ~, the more ~'는 '~할수록 더 ~하다'라는 비례 구문이야. 비교급끼리 짝을 이루는 이 구조는 영작에서 아주 유용해."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "Time is life itself, and life resides in the human heart.",
+        "ko": "시간은 곧 삶 자체이고, 삶은 인간의 마음속에 깃들어 있다.",
+        "note": "'itself'는 강조용 재귀대명사로 '그 자체'라는 뜻이야. reside in은 '~에 깃들다/거주하다'로, live in보다 문학적인 표현이야."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Van Gogh painted 'The Starry Night' from a mental hospital, yet the swirling sky he imagined matches real patterns of turbulence discovered by scientists.",
+        "ko": "반 고흐는 정신병원에서 '별이 빛나는 밤'을 그렸는데, 그가 상상한 소용돌이치는 하늘은 과학자들이 발견한 실제 난류 패턴과 일치한다.",
+        "note": "'yet'은 접속사로 '그런데도/하지만'이라는 뜻이야. but보다 격식체이고 놀라운 대조를 강조해. matches는 '~와 일치하다'라는 뜻이야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "Aboriginal Australians have passed down oral stories for over 65,000 years — the oldest continuous culture on Earth.",
+        "ko": "호주 원주민들은 6만 5천 년 넘게 구전 이야기를 전해왔다 — 지구에서 가장 오래된 연속 문명이다.",
+        "note": "'have passed down'은 현재완료로 '전해 내려왔다'는 계속을 나타내. pass down은 '(다음 세대에) 전하다'라는 의미의 구동사야."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-28",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "Under the new credit-based system, Korean high schoolers can now choose their own subjects, just like university students.",
+        "ko": "새로운 학점제 하에서, 한국 고등학생들은 이제 대학생처럼 직접 과목을 선택할 수 있다.",
+        "note": "'just like ~'는 '꼭 ~처럼'이라는 비유 표현이야. credit-based system에서 -based는 '~에 기반한'이라는 뜻의 접미사야."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "I went to the woods because I wished to live deliberately.",
+        "ko": "나는 의도적으로 살기 위해 숲으로 갔다.",
+        "note": "'wished to'는 'wanted to'보다 격식 있고 신중한 표현이야. deliberately(의도적으로/신중하게)는 소로 철학의 핵심 단어로, 에세이에서 쓰면 인상적이야."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "In Raphael's 'School of Athens,' Plato points up to the sky while Aristotle gestures toward the earth — idealism versus realism in a single frame.",
+        "ko": "라파엘로의 '아테네 학당'에서, 플라톤은 하늘을 가리키고 아리스토텔레스는 땅을 가리킨다 — 한 화면에 이상주의와 현실주의가 담겨 있다.",
+        "note": "'while'은 '~하는 반면에'라는 대조의 접속사야. versus(vs.)는 '대(對)'라는 뜻으로 두 가지를 비교할 때 써. 'in a single frame'은 '한 화면 안에'라는 표현이야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "Istanbul is the only city in the world that spans two continents — Europe on the west and Asia on the east.",
+        "ko": "이스탄불은 세계에서 유일하게 두 대륙에 걸친 도시다 — 서쪽은 유럽, 동쪽은 아시아.",
+        "note": "'spans'는 '~에 걸치다/~을 아우르다'라는 뜻이야. 시간에도 쓸 수 있어: His career spans 30 years. (그의 경력은 30년에 걸쳐 있다.)"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "When humans and AI designed together, the results were more creative than when either worked alone.",
+        "ko": "인간과 AI가 함께 디자인했을 때, 결과는 어느 쪽이 혼자 작업했을 때보다 더 창의적이었다.",
+        "note": "'more creative than when ~'은 비교급 + than + 절 구문이야. either는 '둘 중 어느 쪽이든'이라는 뜻으로, 두 대상을 모두 포함할 때 써."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "Happiness is the absence of the striving for happiness.",
+        "ko": "행복은 행복을 추구하지 않는 상태이다.",
+        "note": "'the absence of ~'는 '~이 없는 상태/부재'라는 뜻이야. striving for는 '~을 향한 분투/추구'로, strive for + 명사는 '~을 위해 노력하다'야."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Mondrian spent 20 years stripping away details until only lines and primary colors remained — proving that empty space speaks louder than decoration.",
+        "ko": "몬드리안은 20년에 걸쳐 세부 사항을 벗겨내 선과 원색만 남겼다 — 빈 공간이 장식보다 더 크게 말한다는 것을 증명하며.",
+        "note": "'strip away'는 '벗겨내다/제거하다'라는 구동사야. 'speaks louder than'은 '~보다 더 크게 말하다'로, Actions speak louder than words(행동이 말보다 웅변이다)에서 쓰이는 패턴이야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "The Japanese concept of 'ma' teaches us that the space between things is just as important as the things themselves.",
+        "ko": "일본의 '마(間)' 개념은 사물 사이의 공간이 사물 자체만큼이나 중요하다고 가르쳐준다.",
+        "note": "'just as important as ~'는 '~만큼이나 중요한'이라는 동등 비교 구문이야. as + 형용사 + as는 '~만큼 ~한'으로, 영작에서 아주 자주 쓰이는 패턴이야."
+      }
+    ]
+  }
+]

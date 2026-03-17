@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import arts from "@/data/arts.json";
+import themes from "@/data/themes.json";
 import DayNavigator from "@/components/DayNavigator";
 
 function getToday() {
@@ -30,6 +31,7 @@ export default function ArtPage() {
   if (!art) return null;
 
   const dayNum = getDayNumber(art.date);
+  const theme = themes.find((t) => t.date === art.date);
 
   return (
     <div className="theme-art min-h-screen px-4 py-8 max-w-lg mx-auto" style={{ background: "var(--background)" }}>
@@ -39,6 +41,7 @@ export default function ArtPage() {
         dayNum={dayNum}
         date={art.date}
         today={today}
+        keyword={theme?.keyword}
         canPrev={artIndex > 0}
         canNext={artIndex < arts.length - 1}
         onPrev={() => setArtIndex(artIndex - 1)}

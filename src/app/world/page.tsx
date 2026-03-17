@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import worlds from "@/data/worlds.json";
+import themes from "@/data/themes.json";
 import DayNavigator from "@/components/DayNavigator";
 
 function getToday() {
@@ -37,6 +38,7 @@ export default function WorldPage() {
   if (!world) return null;
 
   const dayNum = getDayNumber(world.date);
+  const theme = themes.find((t) => t.date === world.date);
 
   const handleQuizSubmit = () => {
     if (selectedAnswer !== null) setQuizSubmitted(true);
@@ -52,6 +54,7 @@ export default function WorldPage() {
         dayNum={dayNum}
         date={world.date}
         today={today}
+        keyword={theme?.keyword}
         canPrev={worldIndex > 0}
         canNext={worldIndex < worlds.length - 1}
         onPrev={() => setWorldIndex(worldIndex - 1)}

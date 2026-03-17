@@ -17,13 +17,22 @@ function getDayNumber(dateStr: string) {
 
 const MENUS = [
   {
-    href: "/seed",
-    icon: "🌱",
-    title: "오늘의 씨앗",
-    desc: "뉴스 · 고전 · 문장 · 질문",
-    color: "from-amber-50 to-orange-50",
+    href: "/news",
+    icon: "📰",
+    title: "오늘의 뉴스",
+    desc: "시사 뉴스 · 시사점 · 질문",
+    color: "from-blue-50 to-sky-50",
+    border: "border-blue-200",
+    accent: "text-blue-600",
+  },
+  {
+    href: "/classic",
+    icon: "📖",
+    title: "오늘의 고전",
+    desc: "동서양 고전 · 명작 요약 · 질문",
+    color: "from-amber-50 to-yellow-50",
     border: "border-amber-200",
-    accent: "text-amber-600",
+    accent: "text-amber-700",
   },
   {
     href: "/art",
@@ -51,6 +60,15 @@ const MENUS = [
     color: "from-orange-50 to-red-50",
     border: "border-orange-200",
     accent: "text-orange-600",
+  },
+  {
+    href: "/english",
+    icon: "📝",
+    title: "오늘의 영어",
+    desc: "핵심 문장 · 번역 · 문법 포인트",
+    color: "from-cyan-50 to-teal-50",
+    border: "border-cyan-200",
+    accent: "text-cyan-700",
   },
 ];
 

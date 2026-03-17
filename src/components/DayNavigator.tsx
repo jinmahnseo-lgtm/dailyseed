@@ -6,6 +6,7 @@ type DayNavigatorProps = {
   dayNum: number;
   date: string;
   today: string;
+  keyword?: string;
   canPrev: boolean;
   canNext: boolean;
   onPrev: () => void;
@@ -19,6 +20,7 @@ export default function DayNavigator({
   dayNum,
   date,
   today,
+  keyword,
   canPrev,
   canNext,
   onPrev,
@@ -41,7 +43,7 @@ export default function DayNavigator({
           ‹
         </button>
         <span className="bg-[var(--accent-light)] text-[var(--accent)] px-4 py-1.5 rounded-full text-sm font-semibold">
-          Day {dayNum}
+          Day {dayNum}{keyword ? ` — "${keyword}"` : ""}
         </span>
         <button
           onClick={onNext}
