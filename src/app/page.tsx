@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect, useCallback } from "react";
-import { useSharedDate, formatDateShort } from "@/hooks/useSharedDate";
+import { useSharedDate, formatDateShort, formatDateCompact } from "@/hooks/useSharedDate";
 import { isMissionDone } from "@/hooks/useMission";
 
 const MENUS = [
@@ -29,8 +29,8 @@ const MENUS = [
   {
     href: "/art",
     icon: "🎨",
-    title: "오늘의 명화",
-    desc: "명화 · 감상 포인트 · 그림평",
+    title: "오늘의 예술 감상",
+    desc: "명화 · 감상 포인트 · 작품평",
     key: "art",
     color: "from-violet-50 to-purple-50",
     border: "border-violet-200",
@@ -49,7 +49,7 @@ const MENUS = [
   {
     href: "/why",
     icon: "🔬",
-    title: "왜왜왜 연구소",
+    title: "오늘의 왜왜왜?",
     desc: "과학 · 실험 · 놀라운 사실",
     key: "why",
     color: "from-orange-50 to-red-50",
@@ -65,7 +65,6 @@ const MENUS = [
     color: "from-cyan-50 to-teal-50",
     border: "border-cyan-200",
     accent: "text-cyan-700",
-    noMission: true,
   },
 ];
 
@@ -82,6 +81,7 @@ export default function Home() {
         art: isMissionDone("art", date),
         world: isMissionDone("world", date),
         why: isMissionDone("why", date),
+        english: isMissionDone("english", date),
       });
     }
   }, [date]);
@@ -140,7 +140,7 @@ export default function Home() {
             onClick={goToday}
             className="text-xs text-[var(--accent)] underline"
           >
-            오늘로 돌아가기
+            오늘({formatDateCompact(today)})로 돌아가기
           </button>
         </div>
       )}
@@ -181,15 +181,11 @@ export default function Home() {
                       {menu.desc}
                     </p>
                   </div>
-                  {"noMission" in menu && menu.noMission ? (
-                    <span className="text-gray-300 text-xl">›</span>
-                  ) : (
-                    <span
-                      className={`text-2xl ${isDone ? "text-green-500" : "text-gray-300"}`}
-                    >
-                      {isDone ? "✅" : "○"}
-                    </span>
-                  )}
+                  <span
+                    className={`text-2xl ${isDone ? "text-green-500" : "text-gray-300"}`}
+                  >
+                    {isDone ? "✅" : "○"}
+                  </span>
                 </div>
               </div>
             </Link>

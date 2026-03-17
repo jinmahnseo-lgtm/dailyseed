@@ -19,7 +19,7 @@ export default function WhyPage() {
       style={{ background: "#fff7ed" }}
     >
       <DayNavigator
-        title="왜왜왜 연구소"
+        title="오늘의 왜왜왜?"
         emoji="🔬"
         date={why.date}
         today={today}
@@ -88,7 +88,7 @@ export default function WhyPage() {
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-3">
             <span className="text-xl">🧪</span>
-            <span className="font-semibold text-orange-600">직접 해보기</span>
+            <span className="font-semibold text-orange-600">미션! - 오늘의 실험</span>
           </div>
           <div className="bg-orange-50 rounded-xl p-4 mb-4">
             <p className="text-base leading-relaxed">{why.experiment}</p>
@@ -109,7 +109,7 @@ export default function WhyPage() {
         </div>
       </section>
 
-      <footer className="text-center text-xs text-[var(--text-muted)]">
+      <footer className="text-center text-xs text-[var(--text-muted)] mt-4">
         <p>{why.date}</p>
       </footer>
     </div>

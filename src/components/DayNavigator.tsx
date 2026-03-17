@@ -1,6 +1,7 @@
 "use client";
 
-import { formatDateShort } from "@/hooks/useSharedDate";
+import Link from "next/link";
+import { formatDateShort, formatDateCompact } from "@/hooks/useSharedDate";
 
 type DayNavigatorProps = {
   title: string;
@@ -29,6 +30,7 @@ export default function DayNavigator({
 }: DayNavigatorProps) {
   const isToday = date === today;
   const dateLabel = date ? formatDateShort(date) : "–";
+  const todayCompact = today ? formatDateCompact(today) : "";
 
   return (
     <header className="text-center mb-6">
@@ -59,9 +61,17 @@ export default function DayNavigator({
           onClick={onToday}
           className="mt-2 text-xs text-[var(--accent)] underline"
         >
-          오늘로 돌아가기
+          오늘({todayCompact})로 돌아가기
         </button>
       )}
+      <div className="mt-3">
+        <Link
+          href="/"
+          className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors"
+        >
+          🏠 홈으로 돌아가기
+        </Link>
+      </div>
     </header>
   );
 }

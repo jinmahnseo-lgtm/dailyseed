@@ -124,7 +124,7 @@ export default function NewsPage() {
           <div className="flex items-center gap-2 mb-3">
             <span className="text-xl">⚖️</span>
             <span className="font-semibold text-[var(--accent)]">
-              찬반 토론
+              미션! - 오늘의 찬반토론
             </span>
           </div>
           {item.debate ? (
@@ -201,7 +201,7 @@ export default function NewsPage() {
         </div>
       </section>
 
-      <footer className="text-center text-xs text-[var(--text-muted)]">
+      <footer className="text-center text-xs text-[var(--text-muted)] mt-4">
         <p>{item.date}</p>
       </footer>
     </div>

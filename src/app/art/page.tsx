@@ -27,7 +27,7 @@ export default function ArtPage() {
       style={{ background: "var(--background)" }}
     >
       <DayNavigator
-        title="오늘의 명화"
+        title="오늘의 예술 감상"
         emoji="🎨"
         date={art.date}
         today={today}
@@ -115,7 +115,7 @@ export default function ArtPage() {
           <div className="flex items-center gap-2 mb-2">
             <span className="text-xl">✏️</span>
             <span className="font-semibold text-[var(--accent)]">
-              나의 그림평
+              미션! - 오늘의 작품평
             </span>
           </div>
           {done ? (
@@ -129,7 +129,7 @@ export default function ArtPage() {
                 type="text"
                 value={review}
                 onChange={(e) => setReview(e.target.value)}
-                placeholder="이 그림에 대한 감상을 한 줄로 적어봐!"
+                placeholder="이 작품에 대한 감상을 한 줄로 적어봐!"
                 className="w-full p-3 rounded-xl border-2 border-gray-200 text-sm focus:border-[var(--accent)] focus:outline-none bg-white"
                 maxLength={200}
               />
@@ -151,7 +151,7 @@ export default function ArtPage() {
         </div>
       </section>
 
-      <footer className="text-center text-xs text-[var(--text-muted)]">
+      <footer className="text-center text-xs text-[var(--text-muted)] mt-4">
         <p>{art.date}</p>
       </footer>
     </div>

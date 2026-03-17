@@ -7,9 +7,9 @@ const MENUS = [
   { href: "/", icon: "🏠", label: "홈" },
   { href: "/news", icon: "📰", label: "뉴스" },
   { href: "/classic", icon: "📖", label: "고전" },
-  { href: "/art", icon: "🎨", label: "명화" },
+  { href: "/art", icon: "🎨", label: "예술" },
   { href: "/world", icon: "🌍", label: "세계" },
-  { href: "/why", icon: "🔬", label: "왜?" },
+  { href: "/why", icon: "🔬", label: "왜왜왜" },
   { href: "/english", icon: "📝", label: "영어" },
 ];
 

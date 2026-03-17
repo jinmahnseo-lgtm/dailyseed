@@ -29,7 +29,21 @@
         "en": "The French Revolution declared that all human beings are born free and equal in rights.",
         "ko": "프랑스 대혁명은 모든 인간이 자유롭고 평등하게 태어난다고 선언했다.",
         "note": "'are born free and equal'에서 born 뒤에 형용사가 와서 '~한 상태로 태어나다'를 표현해. be born + 형용사 패턴을 기억해둬."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Birds have hollow bones, aerodynamic wings, and powerful chest muscles — their entire body is designed for flight.",
+        "ko": "새는 속이 빈 뼈, 공기역학적 날개, 강력한 가슴 근육을 가지고 있어 — 몸 전체가 비행을 위해 설계되어 있다.",
+        "note": "'hollow'는 '속이 빈'이라는 형용사야. 'is designed for ~'는 '~을 위해 설계되었다'라는 수동태 표현으로, 목적에 맞게 만들어졌다는 뜻이야."
       }
+    ],
+    "vocab": [
+      { "word": "banned", "meaning": "금지된" },
+      { "word": "comfort", "meaning": "편안함" },
+      { "word": "barricades", "meaning": "바리케이드" },
+      { "word": "revolution", "meaning": "혁명" },
+      { "word": "aerodynamic", "meaning": "공기역학적인" }
     ]
   },
   {
@@ -62,7 +76,21 @@
         "en": "In ancient Egypt, the heart of the dead was weighed against the feather of Ma'at, the goddess of truth.",
         "ko": "고대 이집트에서는 죽은 자의 심장을 진실의 여신 마트의 깃털과 저울에 달았다.",
         "note": "'was weighed against'는 '~와 비교하여 달다'라는 수동태 표현이야. weigh against는 '~에 대해 무게를 재다/비교하다'라는 뜻이야."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Your brain fills in gaps in what your eyes see, which is why optical illusions can trick you so easily.",
+        "ko": "뇌는 눈이 보는 것의 빈틈을 채워 넣기 때문에, 착시가 우리를 쉽게 속일 수 있다.",
+        "note": "'fills in gaps'는 '빈틈을 메우다'라는 표현이야. 'which is why ~'는 '그래서 ~인 것이다'로, 앞 문장의 결과를 설명하는 관계절이야."
       }
+    ],
+    "vocab": [
+      { "word": "fraud", "meaning": "사기" },
+      { "word": "controls", "meaning": "지배하다" },
+      { "word": "identity", "meaning": "정체" },
+      { "word": "weighed", "meaning": "무게를 달다" },
+      { "word": "illusions", "meaning": "착시, 환상" }
     ]
   },
   {
@@ -95,7 +123,21 @@
         "en": "Costa Rica abolished its army in 1948 and invested the military budget in education and nature conservation.",
         "ko": "코스타리카는 1948년에 군대를 폐지하고 군사비를 교육과 자연 보전에 투자했다.",
         "note": "'abolished'는 abolish(폐지하다)의 과거형이야. 법이나 제도를 공식적으로 없앨 때 쓰는 격식체 단어야. cancel보다 훨씬 강한 표현이지."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Trees communicate through an underground fungal network called the 'Wood Wide Web,' sharing nutrients and warning signals.",
+        "ko": "나무들은 '우드 와이드 웹'이라 불리는 지하 균류 네트워크를 통해 영양분과 경고 신호를 주고받으며 소통한다.",
+        "note": "'fungal network'는 '균류 네트워크'라는 뜻이야. 'called ~'는 과거분사로 '~라 불리는'을 의미해. sharing은 분사구문으로 부가 설명을 해."
       }
+    ],
+    "vocab": [
+      { "word": "warming", "meaning": "온난화" },
+      { "word": "exists", "meaning": "존재하다" },
+      { "word": "capturing", "meaning": "포착하는" },
+      { "word": "abolished", "meaning": "폐지했다" },
+      { "word": "fungal", "meaning": "균류의" }
     ]
   },
   {
@@ -128,7 +170,21 @@
         "en": "In Indian philosophy, karma means that every action you take shapes your future destiny.",
         "ko": "인도 철학에서 카르마는 네가 하는 모든 행동이 미래의 운명을 만든다는 뜻이다.",
         "note": "'every action you take'에서 관계대명사 that이 생략돼 있어. shapes는 '형성하다/만들다'라는 동사로, 추상적인 것을 구체적으로 표현할 때 유용해."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Your DNA is a blueprint, not a destiny — identical twins grow apart because environment switches genes on and off.",
+        "ko": "DNA는 설계도이지 운명이 아니야 — 일란성 쌍둥이도 환경이 유전자를 켜고 끄기 때문에 달라진다.",
+        "note": "'blueprint'는 '설계도'라는 뜻이야. 'switches ~ on and off'는 '~을 켜고 끄다'라는 구동사 표현으로, 일상에서도 비유적으로 자주 쓰여."
       }
+    ],
+    "vocab": [
+      { "word": "escalates", "meaning": "확대되다" },
+      { "word": "biological", "meaning": "생물학적인" },
+      { "word": "gazing", "meaning": "응시하는" },
+      { "word": "destiny", "meaning": "운명" },
+      { "word": "blueprint", "meaning": "설계도" }
     ]
   },
   {
@@ -161,7 +217,21 @@
         "en": "In Iceland, more than 10 percent of the population has published a book, making it the world's highest per capita publishing rate.",
         "ko": "아이슬란드에서는 인구의 10% 이상이 책을 출판해서, 세계 1인당 출판율 1위다.",
         "note": "'making it ~'은 분사구문으로 결과를 나타내. per capita는 라틴어에서 온 표현으로 '1인당'이라는 뜻이야. 뉴스와 논문에서 자주 등장해."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "An octopus has three hearts, blue blood, and two-thirds of its neurons in its arms — each tentacle can 'think' independently.",
+        "ko": "문어는 심장이 세 개, 파란 피를 가지고 있고, 뉴런의 2/3가 팔에 있어서 — 각 촉수가 독립적으로 '생각'할 수 있다.",
+        "note": "'independently'는 '독립적으로'라는 부사야. 'two-thirds of ~'는 '~의 3분의 2'로, 분수 표현은 영어에서 하이픈으로 연결해."
       }
+    ],
+    "vocab": [
+      { "word": "ethical", "meaning": "윤리적인" },
+      { "word": "convince", "meaning": "설득하다" },
+      { "word": "imagination", "meaning": "상상력" },
+      { "word": "per capita", "meaning": "1인당" },
+      { "word": "tentacle", "meaning": "촉수" }
     ]
   },
   {
@@ -194,7 +264,21 @@
         "en": "Mongolian nomads have survived harsh winters of minus 40 degrees by living in portable tents called gers.",
         "ko": "몽골 유목민들은 게르라 불리는 이동식 천막에서 생활하며 영하 40도의 혹독한 겨울을 견뎌왔다.",
         "note": "'have survived'는 현재완료로 '과거부터 지금까지 살아남아왔다'는 계속을 나타내. called gers는 과거분사구로 '게르라 불리는'이라는 뜻이야."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "A Namib Desert beetle collects drinking water from fog by using tiny bumps on its back that attract and repel moisture.",
+        "ko": "나미브 사막 딱정벌레는 등의 작은 돌기가 수분을 끌어당기고 밀어내는 원리로 안개에서 식수를 모은다.",
+        "note": "'repel'은 '밀어내다/쫓아내다'라는 뜻이야. attract(끌어당기다)와 반의어로 자주 쌍을 이뤄. 'that attract and repel'은 bumps를 수식하는 관계절이야."
       }
+    ],
+    "vocab": [
+      { "word": "ecosystems", "meaning": "생태계" },
+      { "word": "preserve", "meaning": "보존하다" },
+      { "word": "corpses", "meaning": "시체" },
+      { "word": "nomads", "meaning": "유목민" },
+      { "word": "repel", "meaning": "밀어내다" }
     ]
   },
   {
@@ -227,7 +311,21 @@
         "en": "Polynesian sailors crossed thousands of kilometers of open ocean using only the stars, waves, and bird flights to navigate.",
         "ko": "폴리네시안 항해자들은 별, 파도, 새의 비행만으로 항해하며 수천 킬로미터의 바다를 건넜다.",
         "note": "'using only ~'는 분사구문으로 수단을 나타내. to navigate는 목적의 to부정사야. navigate는 '항해하다'에서 확장되어 '길을 찾다'라는 뜻으로도 쓰여."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Penicillin, the microwave oven, and X-rays were all discovered by accident — proving that great science often begins with unexpected mistakes.",
+        "ko": "페니실린, 전자레인지, 엑스레이는 모두 우연히 발견되었다 — 위대한 과학은 종종 뜻밖의 실수에서 시작됨을 증명한다.",
+        "note": "'by accident'는 '우연히'라는 뜻으로 on purpose(의도적으로)의 반의어야. 'proving that ~'은 분사구문으로 앞 문장의 결과/의미를 설명해."
       }
+    ],
+    "vocab": [
+      { "word": "predicted", "meaning": "예측된" },
+      { "word": "depend", "meaning": "달려 있다" },
+      { "word": "celestial", "meaning": "천체의" },
+      { "word": "navigate", "meaning": "항해하다" },
+      { "word": "accident", "meaning": "우연, 사고" }
     ]
   },
   {
@@ -260,7 +358,21 @@
         "en": "Bhutan is the only country in the world that measures Gross National Happiness instead of GDP.",
         "ko": "부탄은 세계에서 GDP 대신 국민총행복을 측정하는 유일한 나라다.",
         "note": "'the only country that ~'는 '~하는 유일한 나라'라는 한정 표현이야. instead of는 '~ 대신에'로, 대안을 제시할 때 자주 쓰이는 전치사구야."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "One gram of uranium produces as much energy as three tons of coal — that is the astonishing power behind Einstein's equation E=mc².",
+        "ko": "우라늄 1그램이 석탄 3톤과 같은 에너지를 낸다 — 이것이 아인슈타인의 E=mc² 공식 뒤에 숨은 놀라운 힘이다.",
+        "note": "'as much ~ as'는 '~만큼의'라는 동등 비교 표현이야. 'astonishing'은 '놀라운'이라는 강한 형용사로, surprising보다 충격의 강도가 커."
       }
+    ],
+    "vocab": [
+      { "word": "responsible", "meaning": "책임 있는" },
+      { "word": "fallen", "meaning": "타락한" },
+      { "word": "unarmed", "meaning": "비무장의" },
+      { "word": "measures", "meaning": "측정하다" },
+      { "word": "astonishing", "meaning": "놀라운" }
     ]
   },
   {
@@ -293,7 +405,21 @@
         "en": "On Mexico's Day of the Dead, families celebrate their ancestors with music, food, and colorful sugar skulls.",
         "ko": "멕시코의 죽은 자의 날에, 가족들은 음악, 음식, 형형색색의 설탕 해골로 조상을 기린다.",
         "note": "'celebrate'는 '축하하다'뿐 아니라 '기리다/기념하다'라는 뜻도 있어. colorful sugar skulls에서 형용사 두 개가 명사를 수식하는 구조를 봐."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Almost every cell in your body is replaced within seven to ten years, yet your identity persists because neural connections preserve your memories.",
+        "ko": "몸의 거의 모든 세포가 7~10년 안에 교체되지만, 신경 연결이 기억을 보존하기 때문에 정체성은 유지된다.",
+        "note": "'persists'는 '지속되다/고집하다'라는 뜻이야. 'within'은 '~ 이내에'로 기간을 나타내. 'neural connections'는 '신경 연결'로 뇌과학의 핵심 용어야."
       }
+    ],
+    "vocab": [
+      { "word": "loneliness", "meaning": "외로움" },
+      { "word": "destroy", "meaning": "파괴하다" },
+      { "word": "self-portraits", "meaning": "자화상" },
+      { "word": "ancestors", "meaning": "조상" },
+      { "word": "persists", "meaning": "지속되다" }
     ]
   },
   {
@@ -326,7 +452,21 @@
         "en": "Italians call it 'dolce far niente' — the sweetness of doing nothing — and consider it an essential part of a good life.",
         "ko": "이탈리아인들은 그것을 '돌체 파르 니엔테' — 아무것도 하지 않는 달콤함 — 라 부르며, 좋은 삶의 필수 요소로 여긴다.",
         "note": "'consider it + 명사'는 '~를 ~로 여기다'라는 5형식 구문이야. an essential part of는 '~의 필수적인 부분'이라는 뜻으로 에세이에서 유용한 표현이야."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Chocolate triggers a burst of dopamine in your brain — the same reward chemical released when you fall in love.",
+        "ko": "초콜릿은 뇌에서 도파민 폭발을 일으킨다 — 사랑에 빠질 때 분비되는 것과 같은 보상 화학물질이다.",
+        "note": "'triggers'는 '촉발하다/유발하다'라는 동사야. 'the same ~ released when ~'에서 released는 과거분사로 chemical을 수식하며 '분비되는'이라는 뜻이야."
       }
+    ],
+    "vocab": [
+      { "word": "produce", "meaning": "농산물" },
+      { "word": "dwelling", "meaning": "거주하는" },
+      { "word": "cliff", "meaning": "절벽" },
+      { "word": "essential", "meaning": "필수적인" },
+      { "word": "triggers", "meaning": "촉발하다" }
     ]
   },
   {
@@ -359,7 +499,21 @@
         "en": "Ethiopia is the only African country that was never colonized — it defeated the Italian army at the Battle of Adwa in 1896.",
         "ko": "에티오피아는 한 번도 식민지배를 받지 않은 유일한 아프리카 국가로, 1896년 아드와 전투에서 이탈리아군을 물리쳤다.",
         "note": "'was never colonized'는 수동태 + never로 '한 번도 식민지배를 받지 않았다'는 뜻이야. colonize(식민지화하다)는 역사 관련 글에서 핵심 어휘야."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Humans are driven to conquer mountains because overcoming extreme challenges floods the brain with dopamine, the chemical of reward.",
+        "ko": "인간이 산을 정복하려는 이유는 극한의 도전을 극복하면 뇌에 보상 화학물질인 도파민이 쏟아지기 때문이다.",
+        "note": "'are driven to ~'는 '~하도록 이끌린다'라는 수동태 표현이야. 'floods ~ with'는 '~으로 넘치게 하다'라는 비유적 표현으로, 대량으로 쏟아지는 느낌을 줘."
       }
+    ],
+    "vocab": [
+      { "word": "pressure", "meaning": "압력" },
+      { "word": "defeated", "meaning": "패배한" },
+      { "word": "masterpiece", "meaning": "걸작" },
+      { "word": "colonized", "meaning": "식민지배된" },
+      { "word": "conquer", "meaning": "정복하다" }
     ]
   },
   {
@@ -392,7 +546,21 @@
         "en": "Aboriginal Australians have passed down oral stories for over 65,000 years — the oldest continuous culture on Earth.",
         "ko": "호주 원주민들은 6만 5천 년 넘게 구전 이야기를 전해왔다 — 지구에서 가장 오래된 연속 문명이다.",
         "note": "'have passed down'은 현재완료로 '전해 내려왔다'는 계속을 나타내. pass down은 '(다음 세대에) 전하다'라는 의미의 구동사야."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Time is not absolute — gravity and speed warp it, so a clock on a mountaintop actually ticks faster than one at sea level.",
+        "ko": "시간은 절대적이지 않다 — 중력과 속도가 시간을 왜곡해서, 산꼭대기의 시계가 해수면의 시계보다 실제로 더 빨리 간다.",
+        "note": "'warp'는 '왜곡하다/휘게 하다'라는 뜻이야. 'ticks faster'에서 tick은 시계가 '째깍거리다'라는 의미로, 시간의 흐름을 구체적으로 표현해."
       }
+    ],
+    "vocab": [
+      { "word": "decade", "meaning": "10년" },
+      { "word": "resides", "meaning": "깃들다" },
+      { "word": "turbulence", "meaning": "난류" },
+      { "word": "continuous", "meaning": "연속적인" },
+      { "word": "warp", "meaning": "왜곡하다" }
     ]
   },
   {
@@ -425,7 +593,21 @@
         "en": "Istanbul is the only city in the world that spans two continents — Europe on the west and Asia on the east.",
         "ko": "이스탄불은 세계에서 유일하게 두 대륙에 걸친 도시다 — 서쪽은 유럽, 동쪽은 아시아.",
         "note": "'spans'는 '~에 걸치다/~을 아우르다'라는 뜻이야. 시간에도 쓸 수 있어: His career spans 30 years. (그의 경력은 30년에 걸쳐 있다.)"
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Your brain makes decisions about half a second before you become aware of them — raising a profound question about whether free will truly exists.",
+        "ko": "뇌는 네가 인식하기 약 0.5초 전에 이미 결정을 내린다 — 자유의지가 정말 존재하는지에 대한 깊은 질문을 던진다.",
+        "note": "'become aware of'는 '~을 인식하게 되다'라는 표현이야. 'raising a question about whether ~'에서 whether는 '~인지 아닌지'라는 간접의문을 이끌어."
       }
+    ],
+    "vocab": [
+      { "word": "credit-based", "meaning": "학점 기반의" },
+      { "word": "deliberately", "meaning": "의도적으로" },
+      { "word": "gestures", "meaning": "몸짓하다" },
+      { "word": "spans", "meaning": "걸치다" },
+      { "word": "profound", "meaning": "깊은, 심오한" }
     ]
   },
   {
@@ -458,7 +640,21 @@
         "en": "The Japanese concept of 'ma' teaches us that the space between things is just as important as the things themselves.",
         "ko": "일본의 '마(間)' 개념은 사물 사이의 공간이 사물 자체만큼이나 중요하다고 가르쳐준다.",
         "note": "'just as important as ~'는 '~만큼이나 중요한'이라는 동등 비교 구문이야. as + 형용사 + as는 '~만큼 ~한'으로, 영작에서 아주 자주 쓰이는 패턴이야."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "If you removed all the empty space from every atom in your body, the remaining matter would be smaller than a grain of dust.",
+        "ko": "네 몸의 모든 원자에서 빈 공간을 제거하면, 남는 물질은 먼지 한 알보다 작을 것이다.",
+        "note": "'If you removed ~, ~ would be'는 가정법 과거로 '만약 ~한다면, ~할 텐데'라는 비현실적 가정을 나타내. 'a grain of'는 '한 알의'로 아주 작은 양을 표현해."
       }
+    ],
+    "vocab": [
+      { "word": "creative", "meaning": "창의적인" },
+      { "word": "striving", "meaning": "분투, 추구" },
+      { "word": "primary", "meaning": "원색의, 주요한" },
+      { "word": "concept", "meaning": "개념" },
+      { "word": "atom", "meaning": "원자" }
     ]
   }
 ]

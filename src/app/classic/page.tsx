@@ -110,7 +110,7 @@ export default function ClassicPage() {
           <div className="flex items-center gap-2 mb-2">
             <span className="text-xl">💭</span>
             <span className="font-semibold text-[var(--accent)]">
-              오늘의 질문
+              미션! - 오늘의 질문
             </span>
           </div>
           <p className="text-lg font-medium leading-relaxed mb-4">
@@ -149,7 +149,7 @@ export default function ClassicPage() {
         </div>
       </section>
 
-      <footer className="text-center text-xs text-[var(--text-muted)]">
+      <footer className="text-center text-xs text-[var(--text-muted)] mt-4">
         <p>{item.date}</p>
       </footer>
     </div>

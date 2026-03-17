@@ -113,7 +113,7 @@ export default function WorldPage() {
           <div className="flex items-center gap-2 mb-3">
             <span className="text-xl">❓</span>
             <span className="font-semibold text-[var(--accent)]">
-              오늘의 퀴즈
+              미션! - 오늘의 퀴즈
             </span>
           </div>
           <p className="text-base font-medium mb-4">{world.quiz.question}</p>
@@ -180,7 +180,7 @@ export default function WorldPage() {
         </div>
       </section>
 
-      <footer className="text-center text-xs text-[var(--text-muted)]">
+      <footer className="text-center text-xs text-[var(--text-muted)] mt-4">
         <p>{world.date}</p>
       </footer>
     </div>
