@@ -1,17 +1,13 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useEffect } from "react";
-import seeds from "@/data/seeds.json";
-
-type Seed = (typeof seeds)[number];
-
-type UserStreaks = {
-  [name: string]: { last: string; streak: number; checkedToday: boolean };
-};
 
 const USERS = ["이준", "이수"];
-const SHEET_URL =
-  "https://script.google.com/macros/s/AKfycbw62PVzyPfArE44XRS3mZqbC082OuL5-JgsL9l-HSrxp9ONOkkydca-o9Wz7ZtLnSySRQ/exec";
+
+type UserStreaks = {
+  [name: string]: { last: string; streak: number };
+};
 
 function getToday() {
   const d = new Date();
@@ -31,250 +27,126 @@ function loadStreaks(): UserStreaks {
   } catch {}
   const initial: UserStreaks = {};
   USERS.forEach((name) => {
-    initial[name] = { last: "", streak: 0, checkedToday: false };
+    initial[name] = { last: "", streak: 0 };
   });
   return initial;
 }
 
-function saveStreaks(streaks: UserStreaks) {
-  localStorage.setItem("dailyseed-streaks", JSON.stringify(streaks));
-}
-
-function sendToSheet(date: string, name: string, question: string, answer: string) {
-  fetch(SHEET_URL, {
-    method: "POST",
-    mode: "no-cors",
-    headers: { "Content-Type": "text/plain" },
-    body: JSON.stringify({ date, name, question, answer }),
-  }).catch(() => {});
-}
+const MENUS = [
+  {
+    href: "/seed",
+    icon: "🌱",
+    title: "오늘의 씨앗",
+    desc: "뉴스 · 고전 · 문장 · 질문",
+    color: "from-amber-50 to-orange-50",
+    border: "border-amber-200",
+    accent: "text-amber-600",
+  },
+  {
+    href: "/art",
+    icon: "🎨",
+    title: "오늘의 명화",
+    desc: "명화 · 작가 · 감상 포인트",
+    color: "from-violet-50 to-purple-50",
+    border: "border-violet-200",
+    accent: "text-violet-600",
+  },
+  {
+    href: "/puzzle",
+    icon: "🧩",
+    title: "오늘의 퍼즐",
+    desc: "수학 · 논리 · 사고력",
+    color: "from-cyan-50 to-teal-50",
+    border: "border-cyan-200",
+    accent: "text-cyan-600",
+  },
+  {
+    href: "/world",
+    icon: "🌍",
+    title: "오늘의 세계문화",
+    desc: "문화 · 음식 · 전통 · 퀴즈",
+    color: "from-emerald-50 to-green-50",
+    border: "border-emerald-200",
+    accent: "text-emerald-600",
+  },
+];
 
 export default function Home() {
-  const [seed, setSeed] = useState<Seed | null>(null);
-  const [streaks, setStreaks] = useState<UserStreaks>({});
   const [today, setToday] = useState("");
-  const [selectedUser, setSelectedUser] = useState<string | null>(null);
-  const [answer, setAnswer] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+  const [streaks, setStreaks] = useState<UserStreaks>({});
 
   useEffect(() => {
-    const t = getToday();
-    setToday(t);
-    const todaySeed = seeds.find((s) => s.date === t);
-    setSeed(todaySeed || seeds[0]);
-
-    const saved = loadStreaks();
-    USERS.forEach((name) => {
-      if (saved[name]) {
-        saved[name].checkedToday = saved[name].last === t;
-      } else {
-        saved[name] = { last: "", streak: 0, checkedToday: false };
-      }
-    });
-    setStreaks(saved);
+    setToday(getToday());
+    setStreaks(loadStreaks());
   }, []);
 
-  const selectUser = (name: string) => {
-    if (streaks[name]?.checkedToday) return;
-    setSelectedUser(name);
-    setAnswer("");
-    setSubmitted(false);
-  };
-
-  const submitAnswer = () => {
-    if (!selectedUser || !answer.trim() || !seed) return;
-
-    const yesterday = new Date();
-    yesterday.setDate(yesterday.getDate() - 1);
-    const yesterdayStr = `${yesterday.getFullYear()}-${String(yesterday.getMonth() + 1).padStart(2, "0")}-${String(yesterday.getDate()).padStart(2, "0")}`;
-
-    const prev = streaks[selectedUser] || { last: "", streak: 0, checkedToday: false };
-    const newStreak = prev.last === yesterdayStr ? prev.streak + 1 : 1;
-
-    const updated = {
-      ...streaks,
-      [selectedUser]: { last: today, streak: newStreak, checkedToday: true },
-    };
-    setStreaks(updated);
-    saveStreaks(updated);
-
-    sendToSheet(today, selectedUser, seed.classic.question, answer.trim());
-
-    setSubmitted(true);
-    setTimeout(() => {
-      setSelectedUser(null);
-      setSubmitted(false);
-    }, 2000);
-  };
-
-  if (!seed) return null;
-
-  const dayNum = getDayNumber(seed.date);
+  const dayNum = getDayNumber(today);
 
   return (
     <div className="min-h-screen px-4 py-8 max-w-lg mx-auto">
       {/* 헤더 */}
-      <header className="text-center mb-6">
-        <h1 className="text-3xl font-bold tracking-tight">
-          🌱 DailySeed
-        </h1>
-        <p className="text-[var(--text-muted)] mt-1 text-base">
+      <header className="text-center mb-8">
+        <h1 className="text-4xl font-bold tracking-tight">🌱 DailySeed</h1>
+        <p className="text-[var(--text-muted)] mt-1 text-lg font-medium">
           이준 · 이수를 위한 매일의 씨앗
         </p>
-        <div className="mt-3">
-          <span className="bg-[var(--accent-light)] text-[var(--accent)] px-3 py-1 rounded-full text-sm font-semibold">
-            Day {dayNum}
+        <div className="mt-3 flex items-center justify-center gap-3">
+          <span className="bg-[var(--accent-light)] text-[var(--accent)] px-4 py-1.5 rounded-full text-sm font-semibold">
+            Day {dayNum > 0 ? dayNum : "–"}
           </span>
+          <span className="text-sm text-[var(--text-muted)]">{today}</span>
         </div>
       </header>
 
-      {/* 오늘의 고전 — 항상 펼쳐짐 */}
-      <section className="mb-4">
-        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-xl">📖</span>
-            <span className="font-semibold text-[var(--accent)]">오늘의 고전</span>
-          </div>
-          <p className="text-lg font-medium">{seed.classic.title}</p>
-          <p className="text-sm text-[var(--text-muted)] mb-3">
-            {seed.classic.author} · {seed.classic.year > 0 ? `${seed.classic.year}년` : `BC ${Math.abs(seed.classic.year)}년경`}
-          </p>
-          <div className="text-base leading-relaxed whitespace-pre-line">
-            {seed.classic.summary}
-          </div>
-        </div>
-      </section>
-
-      {/* 오늘의 질문 — 고전에서 파생 */}
-      <section className="mb-4">
-        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-xl">💭</span>
-            <span className="font-semibold text-[var(--accent)]">오늘의 질문</span>
-          </div>
-          <p className="text-lg font-medium leading-relaxed">
-            {seed.classic.question}
-          </p>
-        </div>
-      </section>
-
-      {/* 출석 체크 — 답변으로 출석 */}
+      {/* 연속 출석 */}
       <section className="mb-6">
         <div className="bg-white rounded-2xl p-4 shadow-sm">
-          <p className="text-center text-sm font-semibold text-[var(--accent)] mb-3">
-            질문에 답하고 출석하기
-          </p>
-          <div className="flex justify-center gap-4 mb-4">
+          <div className="flex justify-center gap-6">
             {USERS.map((name) => {
               const info = streaks[name];
-              const checked = info?.checkedToday;
-              const isSelected = selectedUser === name;
               return (
-                <button
-                  key={name}
-                  onClick={() => selectUser(name)}
-                  className={`flex flex-col items-center gap-1 px-5 py-3 rounded-xl transition-all ${
-                    checked
-                      ? "bg-[var(--accent)] text-white shadow-md"
-                      : isSelected
-                        ? "bg-[var(--accent)] text-white shadow-md ring-2 ring-offset-2 ring-[var(--accent)]"
-                        : "bg-[var(--accent-light)] text-[var(--foreground)] hover:shadow-md"
-                  }`}
-                >
-                  <span className="text-2xl">{checked ? "✅" : isSelected ? "✍️" : "👋"}</span>
-                  <span className="font-semibold text-sm">{name}</span>
-                  <span className="text-xs opacity-80">
-                    {checked
-                      ? `🔥 ${info.streak}일 연속`
-                      : isSelected
-                        ? "답변 작성 중"
-                        : "탭해서 시작!"}
+                <div key={name} className="flex flex-col items-center gap-1">
+                  <span className="text-2xl">
+                    {info?.last === today ? "✅" : "👋"}
                   </span>
-                </button>
+                  <span className="font-semibold text-sm">{name}</span>
+                  <span className="text-xs text-[var(--text-muted)]">
+                    {info?.streak ? `🔥 ${info.streak}일 연속` : "오늘도 파이팅!"}
+                  </span>
+                </div>
               );
             })}
           </div>
-
-          {selectedUser && !submitted && (
-            <div className="space-y-3">
-              <p className="text-sm text-center text-[var(--text-muted)]">
-                <strong>{selectedUser}</strong>의 생각을 적어봐!
-              </p>
-              <textarea
-                value={answer}
-                onChange={(e) => setAnswer(e.target.value)}
-                placeholder="여기에 적어봐..."
-                className="w-full border border-gray-200 rounded-xl p-3 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:border-transparent"
-                rows={3}
-              />
-              <button
-                onClick={submitAnswer}
-                disabled={!answer.trim()}
-                className={`w-full py-2.5 rounded-xl text-sm font-semibold transition-all ${
-                  answer.trim()
-                    ? "bg-[var(--accent)] text-white hover:shadow-md"
-                    : "bg-gray-100 text-gray-400 cursor-not-allowed"
-                }`}
-              >
-                제출하고 출석! 🎉
-              </button>
-            </div>
-          )}
-
-          {submitted && (
-            <p className="text-center text-sm font-semibold text-green-600 py-3">
-              🎉 {selectedUser} 출석 완료!
-            </p>
-          )}
         </div>
       </section>
 
-      {/* 오늘의 문장 — 항상 펼쳐짐 */}
-      <section className="mb-8">
-        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-xl">📝</span>
-            <span className="font-semibold text-[var(--accent)]">오늘의 문장</span>
-          </div>
-          <p className="text-lg font-medium italic text-gray-800">
-            &ldquo;{seed.sentence.english}&rdquo;
-          </p>
-          <div className="mt-3 space-y-3 text-sm">
-            <p className="font-medium">{seed.sentence.translation}</p>
-            <div className="bg-[var(--accent-light)] rounded-lg p-3">
-              <p className="font-semibold text-[var(--accent)] mb-1">
-                📌 {seed.sentence.grammar_point}
-              </p>
-              <p className="leading-relaxed">
-                {seed.sentence.grammar_explanation}
-              </p>
+      {/* 메뉴 카드 */}
+      <section className="space-y-3">
+        {MENUS.map((menu) => (
+          <Link key={menu.href} href={menu.href}>
+            <div
+              className={`bg-gradient-to-r ${menu.color} rounded-2xl p-5 border ${menu.border} shadow-sm hover:shadow-md transition-all active:scale-[0.98] mb-3`}
+            >
+              <div className="flex items-center gap-4">
+                <span className="text-4xl">{menu.icon}</span>
+                <div>
+                  <h2 className={`text-lg font-bold ${menu.accent}`}>
+                    {menu.title}
+                  </h2>
+                  <p className="text-sm text-[var(--text-muted)] mt-0.5">
+                    {menu.desc}
+                  </p>
+                </div>
+                <span className="ml-auto text-gray-300 text-xl">›</span>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 오늘의 연결 — 항상 펼쳐짐 */}
-      <section className="mb-8">
-        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-xl">🔗</span>
-            <span className="font-semibold text-[var(--accent)]">오늘의 연결</span>
-          </div>
-          <div className="flex items-center gap-2 mb-2">
-            <p className="text-lg font-medium">{seed.connection.title}</p>
-            <span className="text-xs bg-[var(--accent-light)] text-[var(--accent)] px-2 py-0.5 rounded-full">
-              {seed.connection.type}
-            </span>
-          </div>
-          <p className="text-sm leading-relaxed">
-            {seed.connection.description}
-          </p>
-        </div>
+          </Link>
+        ))}
       </section>
 
       {/* 푸터 */}
-      <footer className="text-center text-xs text-[var(--text-muted)]">
-        <p>{seed.date}</p>
+      <footer className="text-center text-xs text-[var(--text-muted)] mt-8">
+        <p>매일 새로운 콘텐츠가 업데이트돼요</p>
       </footer>
     </div>
   );

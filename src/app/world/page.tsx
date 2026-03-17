@@ -1,0 +1,178 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import worlds from "@/data/worlds.json";
+import DayNavigator from "@/components/DayNavigator";
+
+function getToday() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+function getDayNumber(dateStr: string) {
+  const start = new Date("2026-03-16");
+  const current = new Date(dateStr);
+  return Math.floor((current.getTime() - start.getTime()) / 86400000) + 1;
+}
+
+export default function WorldPage() {
+  const [worldIndex, setWorldIndex] = useState(0);
+  const [today, setToday] = useState("");
+  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
+  const [quizSubmitted, setQuizSubmitted] = useState(false);
+
+  useEffect(() => {
+    const t = getToday();
+    setToday(t);
+    const idx = worlds.findIndex((w) => w.date === t);
+    setWorldIndex(idx >= 0 ? idx : 0);
+  }, []);
+
+  useEffect(() => {
+    setSelectedAnswer(null);
+    setQuizSubmitted(false);
+  }, [worldIndex]);
+
+  const world = worlds[worldIndex] || null;
+  if (!world) return null;
+
+  const dayNum = getDayNumber(world.date);
+
+  const handleQuizSubmit = () => {
+    if (selectedAnswer !== null) setQuizSubmitted(true);
+  };
+
+  const isCorrect = selectedAnswer === world.quiz.answer;
+
+  return (
+    <div className="theme-world min-h-screen px-4 py-8 max-w-lg mx-auto" style={{ background: "var(--background)" }}>
+      <DayNavigator
+        title="오늘의 세계문화"
+        emoji="🌍"
+        dayNum={dayNum}
+        date={world.date}
+        today={today}
+        canPrev={worldIndex > 0}
+        canNext={worldIndex < worlds.length - 1}
+        onPrev={() => setWorldIndex(worldIndex - 1)}
+        onNext={() => setWorldIndex(worldIndex + 1)}
+        onToday={() => {
+          const idx = worlds.findIndex((w) => w.date === today);
+          if (idx >= 0) setWorldIndex(idx);
+        }}
+      />
+
+      {/* 나라 소개 */}
+      <section className="mb-4">
+        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-3xl">{world.flag}</span>
+            <div>
+              <h2 className="text-xl font-bold">{world.country}</h2>
+              <p className="text-xs text-[var(--text-muted)]">{world.region}</p>
+            </div>
+          </div>
+          <h3 className="text-lg font-semibold text-[var(--accent)] mb-3">{world.title}</h3>
+          <p className="text-[1.05rem] leading-[1.8]">{world.story}</p>
+        </div>
+      </section>
+
+      {/* 문화 포인트 */}
+      <section className="mb-4">
+        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xl">🎭</span>
+            <span className="font-semibold text-[var(--accent)]">문화 포인트</span>
+          </div>
+          <p className="text-base leading-relaxed">{world.culture_point}</p>
+        </div>
+      </section>
+
+      {/* 음식 */}
+      <section className="mb-4">
+        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xl">🍽️</span>
+            <span className="font-semibold text-[var(--accent)]">이 나라 음식</span>
+          </div>
+          <p className="text-base leading-relaxed">{world.food}</p>
+        </div>
+      </section>
+
+      {/* 재미있는 사실 */}
+      <section className="mb-4">
+        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xl">🤯</span>
+            <span className="font-semibold text-[var(--accent)]">놀라운 사실</span>
+          </div>
+          <p className="text-base leading-relaxed">{world.fun_fact}</p>
+        </div>
+      </section>
+
+      {/* 퀴즈 */}
+      <section className="mb-6">
+        <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-xl">❓</span>
+            <span className="font-semibold text-[var(--accent)]">오늘의 퀴즈</span>
+          </div>
+          <p className="text-base font-medium mb-4">{world.quiz.question}</p>
+          <div className="space-y-2 mb-4">
+            {world.quiz.options.map((option, i) => {
+              let btnClass = "bg-gray-50 border-gray-200 text-gray-800";
+              if (quizSubmitted) {
+                if (i === world.quiz.answer) {
+                  btnClass = "bg-green-50 border-green-400 text-green-800";
+                } else if (i === selectedAnswer && !isCorrect) {
+                  btnClass = "bg-red-50 border-red-400 text-red-800";
+                }
+              } else if (i === selectedAnswer) {
+                btnClass = "bg-[var(--accent-light)] border-[var(--accent)] text-[var(--accent)]";
+              }
+              return (
+                <button
+                  key={i}
+                  onClick={() => {
+                    if (!quizSubmitted) setSelectedAnswer(i);
+                  }}
+                  className={`w-full text-left p-3 rounded-xl border-2 text-sm font-medium transition-all ${btnClass}`}
+                >
+                  <span className="mr-2">{String.fromCharCode(65 + i)}.</span>
+                  {option}
+                  {quizSubmitted && i === world.quiz.answer && " ✅"}
+                  {quizSubmitted && i === selectedAnswer && !isCorrect && i !== world.quiz.answer && " ❌"}
+                </button>
+              );
+            })}
+          </div>
+          {!quizSubmitted ? (
+            <button
+              onClick={handleQuizSubmit}
+              disabled={selectedAnswer === null}
+              className={`w-full py-2.5 rounded-xl text-sm font-semibold transition-all ${
+                selectedAnswer !== null
+                  ? "bg-[var(--accent)] text-white hover:shadow-md"
+                  : "bg-gray-100 text-gray-400 cursor-not-allowed"
+              }`}
+            >
+              정답 확인!
+            </button>
+          ) : (
+            <div
+              className={`text-center py-3 rounded-xl text-sm font-semibold ${
+                isCorrect ? "bg-green-50 text-green-600" : "bg-orange-50 text-orange-600"
+              }`}
+            >
+              {isCorrect ? "🎉 정답! 대단해!" : "😅 아쉽지만 다음엔 맞출 수 있어!"}
+            </div>
+          )}
+        </div>
+      </section>
+
+      <footer className="text-center text-xs text-[var(--text-muted)]">
+        <p>{world.date}</p>
+      </footer>
+    </div>
+  );
+}
