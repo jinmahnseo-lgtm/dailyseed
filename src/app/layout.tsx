@@ -11,6 +11,15 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "DailySeed — 매일의 씨앗",
   description: "매일 하나씩, 생각의 씨앗을 심어요",
+  metadataBase: new URL("https://dailyseed.net"),
+  openGraph: {
+    title: "DailySeed — 매일의 씨앗",
+    description: "매일 하나씩, 생각의 씨앗을 심어요",
+    url: "https://dailyseed.net",
+    siteName: "DailySeed",
+    locale: "ko_KR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

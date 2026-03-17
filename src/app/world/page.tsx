@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import worlds from "@/data/worlds.json";
 import { useSharedDate } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
@@ -28,7 +29,9 @@ export default function WorldPage() {
     if (selectedAnswer !== null) {
       setQuizSubmitted(true);
       const correct = selectedAnswer === world.quiz.answer;
-      complete(correct ? "정답" : `오답 (선택: ${world.quiz.options[selectedAnswer]})`);
+      const letter = String.fromCharCode(65 + selectedAnswer);
+      const chosen = `${letter}. ${world.quiz.options[selectedAnswer]}`;
+      complete(correct ? `정답 ${chosen}` : `오답 ${chosen}`);
     }
   };
 
@@ -38,7 +41,7 @@ export default function WorldPage() {
       style={{ background: "var(--background)" }}
     >
       <DayNavigator
-        title="오늘의 세계문화"
+        title="오늘의 세계"
         emoji="🌍"
         date={world.date}
         today={today}
@@ -181,8 +184,11 @@ export default function WorldPage() {
         </div>
       </section>
 
-      <footer className="text-center text-xs text-[var(--text-muted)] mt-4">
-        <p>{world.date}</p>
+      <footer className="text-center mt-6 space-y-2">
+        <Link href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
+          🏠 홈으로 돌아가기
+        </Link>
+        <p className="text-xs text-[var(--text-muted)]">{world.date}</p>
       </footer>
     </div>
   );

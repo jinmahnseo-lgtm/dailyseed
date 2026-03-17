@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import whys from "@/data/whys.json";
 import { useSharedDate } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
@@ -19,7 +20,7 @@ export default function WhyPage() {
       style={{ background: "#fff7ed" }}
     >
       <DayNavigator
-        title="오늘의 왜왜왜?"
+        title="오늘의 과학"
         emoji="🔬"
         date={why.date}
         today={today}
@@ -109,8 +110,11 @@ export default function WhyPage() {
         </div>
       </section>
 
-      <footer className="text-center text-xs text-[var(--text-muted)] mt-4">
-        <p>{why.date}</p>
+      <footer className="text-center mt-6 space-y-2">
+        <Link href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
+          🏠 홈으로 돌아가기
+        </Link>
+        <p className="text-xs text-[var(--text-muted)]">{why.date}</p>
       </footer>
     </div>
   );

@@ -10,19 +10,41 @@ import {
   getParentEmail,
   setParentEmail as saveParentEmail,
 } from "@/hooks/useMission";
+import newsData from "@/data/news.json";
+import classicsData from "@/data/classics.json";
+import artsData from "@/data/arts.json";
+import worldsData from "@/data/worlds.json";
 
-const ADMIN_EMAIL = "jinmahn.seo@gmail.com";
 const APPS_SCRIPT_URL =
-  "https://script.google.com/macros/s/PLACEHOLDER/exec";
+  "https://script.google.com/macros/s/AKfycbyQBeT_dn9nu1I_6xqVgjztGFisy8VyLU21UMOz4FNJvjnw4IdVFjKygMtC7CabfpOjmA/exec";
 
-const MISSION_LABELS: Record<string, string> = {
-  news: "📰 찬반토론",
-  classic: "📖 오늘의 질문",
-  art: "🎨 작품평",
-  world: "🌍 퀴즈",
-  why: "🔬 실험",
-  english: "📝 단어 퀴즈",
-};
+const MISSION_KEYS = ["news", "classic", "art", "world", "why", "english"] as const;
+
+function getMissionLabel(key: string, date: string, answer: string | null): string {
+  if (key === "news") {
+    const n = (newsData as { date: string; debate: { topic: string } }[]).find((x) => x.date === date);
+    return n ? `📰 오늘의 뉴스 - 찬반토론 '${n.debate.topic}'` : "📰 오늘의 뉴스 - 찬반토론";
+  }
+  if (key === "classic") {
+    const c = (classicsData as { date: string; question: string }[]).find((x) => x.date === date);
+    return c ? `📖 오늘의 고전 - '${c.question}'` : "📖 오늘의 고전 - 질문";
+  }
+  if (key === "art") {
+    const a = (artsData as { date: string; title: string }[]).find((x) => x.date === date);
+    return a ? `🎨 오늘의 예술 - '${a.title}'에 대한 작품평` : "🎨 오늘의 예술 - 작품평";
+  }
+  if (key === "world") {
+    const w = (worldsData as { date: string; quiz: { question: string; options: string[]; answer: number } }[]).find((x) => x.date === date);
+    if (w) {
+      const label = `🌍 오늘의 세계 - 퀴즈: '${w.quiz.question}'`;
+      return label;
+    }
+    return "🌍 오늘의 세계 - 퀴즈";
+  }
+  if (key === "why") return "🔬 오늘의 과학 - 실험";
+  if (key === "english") return "📝 오늘의 영어 - 단어 퀴즈";
+  return key;
+}
 
 type Props = {
   date: string;
@@ -43,10 +65,14 @@ export default function MissionComplete({ date, keyword }: Props) {
     setEmail(getParentEmail());
   }, [date]);
 
-  const missionData = Object.entries(MISSION_LABELS).map(([key, label]) => ({
-    label,
-    answer: getMissionData(key, date),
-  }));
+  const missionData = MISSION_KEYS.map((key) => {
+    const answer = getMissionData(key, date);
+    return {
+      key,
+      label: getMissionLabel(key, date, answer),
+      answer,
+    };
+  });
 
   const handleSend = async () => {
     if (!studentName.trim()) {
@@ -68,7 +94,6 @@ export default function MissionComplete({ date, keyword }: Props) {
     const payload = {
       studentName: studentName.trim(),
       parentEmail: parentEmail.trim(),
-      adminEmail: ADMIN_EMAIL,
       date,
       keyword,
       missions: missionData,
@@ -105,18 +130,18 @@ export default function MissionComplete({ date, keyword }: Props) {
         </div>
 
         {/* 미션 요약 */}
-        <div className="bg-white rounded-xl p-4 mb-4 space-y-2">
+        <div className="bg-white rounded-xl p-4 mb-4 space-y-3">
           {missionData.map((m, i) => (
-            <div key={i} className="flex items-start gap-2 text-sm">
-              <span className="text-green-500 mt-0.5">✅</span>
-              <div>
-                <span className="font-semibold text-gray-700">{m.label}</span>
-                {m.answer && (
-                  <p className="text-gray-500 text-xs mt-0.5 line-clamp-1">
-                    {m.answer}
-                  </p>
-                )}
+            <div key={i} className="bg-gray-50 rounded-lg p-3">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-green-500">✅</span>
+                <span className="font-semibold text-gray-700 text-sm">{m.label}</span>
               </div>
+              {m.answer && (
+                <p className="text-gray-600 text-sm ml-7 leading-relaxed">
+                  {m.answer}
+                </p>
+              )}
             </div>
           ))}
         </div>

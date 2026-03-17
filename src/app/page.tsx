@@ -11,7 +11,7 @@ const MENUS = [
     href: "/news",
     icon: "📰",
     title: "오늘의 뉴스",
-    desc: "시사 뉴스 · 시사용어 · 찬반 토론",
+    desc: "뉴스 · 시사 용어 · 시사점 · 찬반 토론",
     key: "news",
     color: "from-blue-50 to-sky-50",
     border: "border-blue-200",
@@ -21,7 +21,7 @@ const MENUS = [
     href: "/classic",
     icon: "📖",
     title: "오늘의 고전",
-    desc: "동서양 고전 · 작가 소개 · 질문",
+    desc: "고전 · 작가 소개 · 작품 배경 · 질문",
     key: "classic",
     color: "from-amber-50 to-yellow-50",
     border: "border-amber-200",
@@ -30,8 +30,8 @@ const MENUS = [
   {
     href: "/art",
     icon: "🎨",
-    title: "오늘의 예술 감상",
-    desc: "명화 · 감상 포인트 · 작품평",
+    title: "오늘의 예술",
+    desc: "예술 작품 · 감상 포인트 · 작품평",
     key: "art",
     color: "from-violet-50 to-purple-50",
     border: "border-violet-200",
@@ -40,8 +40,8 @@ const MENUS = [
   {
     href: "/world",
     icon: "🌍",
-    title: "오늘의 세계문화",
-    desc: "문화 · 음식 · 전통 · 퀴즈",
+    title: "오늘의 세계",
+    desc: "문화 · 음식 · 놀라운 사실 · 퀴즈",
     key: "world",
     color: "from-emerald-50 to-green-50",
     border: "border-emerald-200",
@@ -50,8 +50,8 @@ const MENUS = [
   {
     href: "/why",
     icon: "🔬",
-    title: "오늘의 왜왜왜?",
-    desc: "과학 · 실험 · 놀라운 사실",
+    title: "오늘의 과학",
+    desc: "과학 · 놀라운 사실 · 실험",
     key: "why",
     color: "from-orange-50 to-red-50",
     border: "border-orange-200",
@@ -61,7 +61,7 @@ const MENUS = [
     href: "/english",
     icon: "📝",
     title: "오늘의 영어",
-    desc: "핵심 문장 · 번역 · 문법 포인트",
+    desc: "핵심 문장 · 문법 · 단어 퀴즈",
     key: "english",
     color: "from-cyan-50 to-teal-50",
     border: "border-cyan-200",
@@ -107,12 +107,17 @@ export default function Home() {
   return (
     <div className="min-h-screen px-4 py-8 max-w-lg mx-auto">
       <header className="text-center mb-6">
-        <h1 className="text-4xl font-bold tracking-tight">🌱 DailySeed</h1>
+        <h1
+          className="text-4xl font-bold tracking-tight cursor-pointer"
+          onClick={goToday}
+        >
+          🌱 DailySeed
+        </h1>
         <p className="text-[var(--text-muted)] mt-1 text-base">
           청소년을 위한 매일의 씨앗
         </p>
         <p className="text-xs text-[var(--text-muted)] mt-0.5">
-          by 이준·이수 아빠
+          by 준·수 아빠
         </p>
       </header>
 
@@ -125,8 +130,8 @@ export default function Home() {
         >
           ‹
         </button>
-        <span className="bg-[var(--accent-light)] text-[var(--accent)] px-4 py-1.5 rounded-full text-sm font-semibold">
-          {dateLabel}
+        <span className="bg-[var(--accent-light)] text-[var(--accent)] px-5 py-1.5 rounded-full text-sm font-semibold whitespace-nowrap">
+          {dateLabel}{isToday ? " (오늘)" : ""}
         </span>
         <button
           onClick={goNext}
@@ -136,17 +141,6 @@ export default function Home() {
           ›
         </button>
       </div>
-      {!isToday && date && (
-        <div className="text-center mb-4">
-          <button
-            onClick={goToday}
-            className="text-xs text-[var(--accent)] underline"
-          >
-            오늘({formatDateCompact(today)})로 돌아가기
-          </button>
-        </div>
-      )}
-
       {/* 오늘의 단어 */}
       <section className="mb-6">
         <div className="bg-white rounded-2xl p-6 shadow-sm text-center">

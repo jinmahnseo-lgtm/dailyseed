@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import arts from "@/data/arts.json";
 import { useSharedDate } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
@@ -27,7 +28,7 @@ export default function ArtPage() {
       style={{ background: "var(--background)" }}
     >
       <DayNavigator
-        title="오늘의 예술 감상"
+        title="오늘의 예술"
         emoji="🎨"
         date={art.date}
         today={today}
@@ -49,9 +50,24 @@ export default function ArtPage() {
             </span>
           </div>
           <h2 className="text-xl font-bold">{art.title}</h2>
-          <p className="text-sm text-[var(--text-muted)] mb-3">
+          <p className="text-sm text-[var(--text-muted)] mb-1">
             {art.artist} · {art.year}년 · {art.country}
           </p>
+          <div className="flex items-center justify-between mb-3">
+            <p className="text-[10px] text-gray-400">
+              그림이 로딩되지 않으면 출처 링크를 클릭해주세요
+            </p>
+            {art.source_url && (
+              <a
+                href={art.source_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[10px] text-gray-400 underline hover:text-gray-500 whitespace-nowrap ml-2"
+              >
+                출처: {art.source_label || "Wikipedia"}
+              </a>
+            )}
+          </div>
           {art.image_url && !imgError && (
             <div className="mb-3">
               <div className="rounded-xl overflow-hidden bg-gray-100">
@@ -64,19 +80,6 @@ export default function ArtPage() {
                   onError={() => setImgError(true)}
                 />
               </div>
-              {art.source_url && (
-                <p className="text-[10px] text-gray-400 mt-1 text-right">
-                  출처:{" "}
-                  <a
-                    href={art.source_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline hover:text-gray-500"
-                  >
-                    {art.source_label || "Wikipedia"}
-                  </a>
-                </p>
-              )}
             </div>
           )}
           <div className="text-[1.05rem] leading-[1.8]">{art.story}</div>
@@ -151,8 +154,11 @@ export default function ArtPage() {
         </div>
       </section>
 
-      <footer className="text-center text-xs text-[var(--text-muted)] mt-4">
-        <p>{art.date}</p>
+      <footer className="text-center mt-6 space-y-2">
+        <Link href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
+          🏠 홈으로 돌아가기
+        </Link>
+        <p className="text-xs text-[var(--text-muted)]">{art.date}</p>
       </footer>
     </div>
   );

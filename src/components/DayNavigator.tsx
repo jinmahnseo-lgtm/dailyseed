@@ -56,22 +56,6 @@ export default function DayNavigator({
           ›
         </button>
       </div>
-      {!isToday && (
-        <button
-          onClick={onToday}
-          className="mt-2 text-xs text-[var(--accent)] underline"
-        >
-          오늘({todayCompact})로 돌아가기
-        </button>
-      )}
-      <div className="mt-3">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors"
-        >
-          🏠 홈으로 돌아가기
-        </Link>
-      </div>
     </header>
   );
 }

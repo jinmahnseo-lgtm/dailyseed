@@ -39,9 +39,9 @@
       }
     ],
     "vocab": [
-      { "word": "banned", "meaning": "금지된" },
+      { "word": "ban", "meaning": "금지하다" },
       { "word": "comfort", "meaning": "편안함" },
-      { "word": "barricades", "meaning": "바리케이드" },
+      { "word": "barricade", "meaning": "바리케이드" },
       { "word": "revolution", "meaning": "혁명" },
       { "word": "aerodynamic", "meaning": "공기역학적인" }
     ]
@@ -87,10 +87,10 @@
     ],
     "vocab": [
       { "word": "fraud", "meaning": "사기" },
-      { "word": "controls", "meaning": "지배하다" },
+      { "word": "control", "meaning": "지배하다" },
       { "word": "identity", "meaning": "정체" },
-      { "word": "weighed", "meaning": "무게를 달다" },
-      { "word": "illusions", "meaning": "착시, 환상" }
+      { "word": "weigh", "meaning": "무게를 달다" },
+      { "word": "illusion", "meaning": "착시, 환상" }
     ]
   },
   {
@@ -133,10 +133,10 @@
       }
     ],
     "vocab": [
-      { "word": "warming", "meaning": "온난화" },
-      { "word": "exists", "meaning": "존재하다" },
-      { "word": "capturing", "meaning": "포착하는" },
-      { "word": "abolished", "meaning": "폐지했다" },
+      { "word": "warm", "meaning": "온난화되다" },
+      { "word": "exist", "meaning": "존재하다" },
+      { "word": "capture", "meaning": "포착하다" },
+      { "word": "abolish", "meaning": "폐지하다" },
       { "word": "fungal", "meaning": "균류의" }
     ]
   },
@@ -180,9 +180,9 @@
       }
     ],
     "vocab": [
-      { "word": "escalates", "meaning": "확대되다" },
+      { "word": "escalate", "meaning": "확대되다" },
       { "word": "biological", "meaning": "생물학적인" },
-      { "word": "gazing", "meaning": "응시하는" },
+      { "word": "gaze", "meaning": "응시하다" },
       { "word": "destiny", "meaning": "운명" },
       { "word": "blueprint", "meaning": "설계도" }
     ]
@@ -274,10 +274,10 @@
       }
     ],
     "vocab": [
-      { "word": "ecosystems", "meaning": "생태계" },
+      { "word": "ecosystem", "meaning": "생태계" },
       { "word": "preserve", "meaning": "보존하다" },
-      { "word": "corpses", "meaning": "시체" },
-      { "word": "nomads", "meaning": "유목민" },
+      { "word": "corpse", "meaning": "시체" },
+      { "word": "nomad", "meaning": "유목민" },
       { "word": "repel", "meaning": "밀어내다" }
     ]
   },
@@ -321,7 +321,7 @@
       }
     ],
     "vocab": [
-      { "word": "predicted", "meaning": "예측된" },
+      { "word": "predict", "meaning": "예측하다" },
       { "word": "depend", "meaning": "달려 있다" },
       { "word": "celestial", "meaning": "천체의" },
       { "word": "navigate", "meaning": "항해하다" },
@@ -369,9 +369,9 @@
     ],
     "vocab": [
       { "word": "responsible", "meaning": "책임 있는" },
-      { "word": "fallen", "meaning": "타락한" },
+      { "word": "fall", "meaning": "타락하다, 떨어지다" },
       { "word": "unarmed", "meaning": "비무장의" },
-      { "word": "measures", "meaning": "측정하다" },
+      { "word": "measure", "meaning": "측정하다" },
       { "word": "astonishing", "meaning": "놀라운" }
     ]
   },
@@ -417,9 +417,9 @@
     "vocab": [
       { "word": "loneliness", "meaning": "외로움" },
       { "word": "destroy", "meaning": "파괴하다" },
-      { "word": "self-portraits", "meaning": "자화상" },
-      { "word": "ancestors", "meaning": "조상" },
-      { "word": "persists", "meaning": "지속되다" }
+      { "word": "self-portrait", "meaning": "자화상" },
+      { "word": "ancestor", "meaning": "조상" },
+      { "word": "persist", "meaning": "지속되다" }
     ]
   },
   {
@@ -463,10 +463,10 @@
     ],
     "vocab": [
       { "word": "produce", "meaning": "농산물" },
-      { "word": "dwelling", "meaning": "거주하는" },
+      { "word": "dwell", "meaning": "거주하다" },
       { "word": "cliff", "meaning": "절벽" },
       { "word": "essential", "meaning": "필수적인" },
-      { "word": "triggers", "meaning": "촉발하다" }
+      { "word": "trigger", "meaning": "촉발하다" }
     ]
   },
   {
@@ -510,9 +510,9 @@
     ],
     "vocab": [
       { "word": "pressure", "meaning": "압력" },
-      { "word": "defeated", "meaning": "패배한" },
+      { "word": "defeat", "meaning": "패배시키다" },
       { "word": "masterpiece", "meaning": "걸작" },
-      { "word": "colonized", "meaning": "식민지배된" },
+      { "word": "colonize", "meaning": "식민지배하다" },
       { "word": "conquer", "meaning": "정복하다" }
     ]
   },
@@ -557,7 +557,7 @@
     ],
     "vocab": [
       { "word": "decade", "meaning": "10년" },
-      { "word": "resides", "meaning": "깃들다" },
+      { "word": "reside", "meaning": "깃들다" },
       { "word": "turbulence", "meaning": "난류" },
       { "word": "continuous", "meaning": "연속적인" },
       { "word": "warp", "meaning": "왜곡하다" }
@@ -605,8 +605,8 @@
     "vocab": [
       { "word": "credit-based", "meaning": "학점 기반의" },
       { "word": "deliberately", "meaning": "의도적으로" },
-      { "word": "gestures", "meaning": "몸짓하다" },
-      { "word": "spans", "meaning": "걸치다" },
+      { "word": "gesture", "meaning": "몸짓하다" },
+      { "word": "span", "meaning": "걸치다" },
       { "word": "profound", "meaning": "깊은, 심오한" }
     ]
   },

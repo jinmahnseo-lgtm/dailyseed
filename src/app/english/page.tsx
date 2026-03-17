@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import english from "@/data/english.json";
 import newsData from "@/data/news.json";
 import classicsData from "@/data/classics.json";
@@ -33,15 +34,15 @@ function getSourceTitle(source: string, date: string): string {
   }
   if (source === "명화") {
     const a = (artsData as { date: string; title: string }[]).find((x) => x.date === date);
-    return a ? `작품 — '${a.title}'` : "작품";
+    return a ? `예술 — '${a.title}'` : "예술";
   }
   if (source === "세계문화") {
     const w = (worldsData as { date: string; country: string }[]).find((x) => x.date === date);
-    return w ? `세계 문화 — '${w.country}'` : "세계 문화";
+    return w ? `세계 — '${w.country}'` : "세계";
   }
   if (source === "왜왜왜") {
     const wh = (whysData as { date: string; question: string }[]).find((x) => x.date === date);
-    return wh ? `왜왜왜 — '${wh.question}'` : "왜왜왜";
+    return wh ? `과학 — '${wh.question}'` : "과학";
   }
   return source;
 }
@@ -186,8 +187,11 @@ export default function EnglishPage() {
         </section>
       )}
 
-      <footer className="text-center text-xs text-[var(--text-muted)] mt-4">
-        <p>{item.date}</p>
+      <footer className="text-center mt-6 space-y-2">
+        <Link href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
+          🏠 홈으로 돌아가기
+        </Link>
+        <p className="text-xs text-[var(--text-muted)]">{item.date}</p>
       </footer>
     </div>
   );
