@@ -1,9 +1,10 @@
 "use client";
 
+import { formatDateShort } from "@/hooks/useSharedDate";
+
 type DayNavigatorProps = {
   title: string;
   emoji: string;
-  dayNum: number;
   date: string;
   today: string;
   keyword?: string;
@@ -17,7 +18,6 @@ type DayNavigatorProps = {
 export default function DayNavigator({
   title,
   emoji,
-  dayNum,
   date,
   today,
   keyword,
@@ -28,6 +28,7 @@ export default function DayNavigator({
   onToday,
 }: DayNavigatorProps) {
   const isToday = date === today;
+  const dateLabel = date ? formatDateShort(date) : "–";
 
   return (
     <header className="text-center mb-6">
@@ -43,7 +44,7 @@ export default function DayNavigator({
           ‹
         </button>
         <span className="bg-[var(--accent-light)] text-[var(--accent)] px-4 py-1.5 rounded-full text-sm font-semibold">
-          Day {dayNum}{keyword ? ` — "${keyword}"` : ""}
+          {dateLabel}{keyword ? ` — "${keyword}"` : ""}
         </span>
         <button
           onClick={onNext}

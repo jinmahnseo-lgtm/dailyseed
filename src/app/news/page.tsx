@@ -1,55 +1,70 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import news from "@/data/news.json";
-import themes from "@/data/themes.json";
+import newsRaw from "@/data/news.json";
+import { useSharedDate } from "@/hooks/useSharedDate";
+import { useMission } from "@/hooks/useMission";
 import DayNavigator from "@/components/DayNavigator";
 
-function getToday() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+interface GlossaryItem {
+  term: string;
+  def: string;
+}
+interface DebateItem {
+  topic: string;
+  pro: string;
+  con: string;
+}
+interface NewsItem {
+  date: string;
+  title: string;
+  summary: string;
+  insight: string;
+  question: string;
+  glossary?: GlossaryItem[];
+  debate?: DebateItem;
 }
 
-function getDayNumber(dateStr: string) {
-  const start = new Date("2026-03-16");
-  const current = new Date(dateStr);
-  return Math.floor((current.getTime() - start.getTime()) / 86400000) + 1;
-}
+const news = newsRaw as NewsItem[];
 
 export default function NewsPage() {
-  const [idx, setIdx] = useState(0);
-  const [today, setToday] = useState("");
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday } =
+    useSharedDate();
+  const item = news.find((n) => n.date === date) || news[0];
+  const { done, complete } = useMission("news", item?.date || "");
+
+  const [side, setSide] = useState<"pro" | "con" | null>(null);
+  const [reason, setReason] = useState("");
 
   useEffect(() => {
-    const t = getToday();
-    setToday(t);
-    const i = news.findIndex((n) => n.date === t);
-    setIdx(i >= 0 ? i : 0);
-  }, []);
+    setSide(null);
+    setReason("");
+  }, [date]);
 
-  const item = news[idx] || null;
   if (!item) return null;
 
-  const dayNum = getDayNumber(item.date);
-  const theme = themes.find((t) => t.date === item.date);
+  const handleSubmitDebate = () => {
+    if (side && reason.trim()) {
+      complete();
+    }
+  };
 
   return (
-    <div className="theme-news min-h-screen px-4 py-8 max-w-lg mx-auto" style={{ background: "var(--background)" }}>
+    <div
+      className="theme-news min-h-screen px-4 py-8 max-w-lg mx-auto"
+      style={{ background: "var(--background)" }}
+    >
       <DayNavigator
         title="오늘의 뉴스"
         emoji="📰"
-        dayNum={dayNum}
         date={item.date}
         today={today}
         keyword={theme?.keyword}
-        canPrev={idx > 0}
-        canNext={idx < news.length - 1}
-        onPrev={() => setIdx(idx - 1)}
-        onNext={() => setIdx(idx + 1)}
-        onToday={() => {
-          const i = news.findIndex((n) => n.date === today);
-          if (i >= 0) setIdx(i);
-        }}
+        canPrev={canPrev}
+        canNext={canNext}
+        onPrev={goPrev}
+        onNext={goNext}
+        onToday={goToday}
       />
 
       {/* 뉴스 요약 */}
@@ -57,12 +72,40 @@ export default function NewsPage() {
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-2">
             <span className="text-xl">📰</span>
-            <span className="font-semibold text-[var(--accent)]">오늘의 뉴스</span>
+            <span className="font-semibold text-[var(--accent)]">
+              오늘의 뉴스
+            </span>
           </div>
           <h2 className="text-lg font-bold mb-3">{item.title}</h2>
-          <div className="text-[1.05rem] leading-[1.8]">{item.summary}</div>
+          <div className="text-[1.05rem] leading-[1.8] whitespace-pre-line">
+            {item.summary}
+          </div>
         </div>
       </section>
+
+      {/* 시사용어 */}
+      {item.glossary && item.glossary.length > 0 && (
+        <section className="mb-4">
+          <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="text-xl">📚</span>
+              <span className="font-semibold text-[var(--accent)]">
+                시사용어
+              </span>
+            </div>
+            <div className="space-y-3">
+              {item.glossary.map((g, i) => (
+                <div key={i} className="bg-blue-50 rounded-xl p-3">
+                  <p className="font-bold text-blue-700 text-sm mb-0.5">
+                    {g.term}
+                  </p>
+                  <p className="text-sm text-gray-700">{g.def}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* 시사점 */}
       <section className="mb-4">
@@ -75,14 +118,86 @@ export default function NewsPage() {
         </div>
       </section>
 
-      {/* 오늘의 질문 */}
+      {/* 찬반 토론 */}
       <section className="mb-6">
         <div className="w-full bg-[var(--accent-light)] rounded-2xl p-5 shadow-sm">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-xl">💭</span>
-            <span className="font-semibold text-[var(--accent)]">오늘의 질문</span>
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-xl">⚖️</span>
+            <span className="font-semibold text-[var(--accent)]">
+              찬반 토론
+            </span>
           </div>
-          <p className="text-lg font-medium leading-relaxed">{item.question}</p>
+          {item.debate ? (
+            <>
+              <p className="text-base font-medium mb-4">{item.debate.topic}</p>
+              {done ? (
+                <div className="bg-green-50 rounded-xl p-4 text-center">
+                  <span className="text-2xl">✅</span>
+                  <p className="text-green-700 font-semibold mt-1">
+                    미션 완료!
+                  </p>
+                </div>
+              ) : (
+                <>
+                  <div className="grid grid-cols-2 gap-3 mb-4">
+                    <button
+                      onClick={() => setSide("pro")}
+                      className={`p-3 rounded-xl border-2 text-sm font-semibold transition-all text-left ${
+                        side === "pro"
+                          ? "bg-blue-100 border-blue-400 text-blue-700"
+                          : "bg-white border-gray-200 text-gray-600"
+                      }`}
+                    >
+                      👍 찬성
+                      <p className="text-xs font-normal mt-1 text-gray-500">
+                        {item.debate.pro}
+                      </p>
+                    </button>
+                    <button
+                      onClick={() => setSide("con")}
+                      className={`p-3 rounded-xl border-2 text-sm font-semibold transition-all text-left ${
+                        side === "con"
+                          ? "bg-red-100 border-red-400 text-red-700"
+                          : "bg-white border-gray-200 text-gray-600"
+                      }`}
+                    >
+                      👎 반대
+                      <p className="text-xs font-normal mt-1 text-gray-500">
+                        {item.debate.con}
+                      </p>
+                    </button>
+                  </div>
+                  {side && (
+                    <div className="space-y-3">
+                      <input
+                        type="text"
+                        value={reason}
+                        onChange={(e) => setReason(e.target.value)}
+                        placeholder="이유를 한 줄로 적어봐!"
+                        className="w-full p-3 rounded-xl border-2 border-gray-200 text-sm focus:border-[var(--accent)] focus:outline-none"
+                        maxLength={200}
+                      />
+                      <button
+                        onClick={handleSubmitDebate}
+                        disabled={!reason.trim()}
+                        className={`w-full py-3 rounded-xl text-sm font-semibold transition-all ${
+                          reason.trim()
+                            ? "bg-[var(--accent)] text-white hover:shadow-md"
+                            : "bg-gray-100 text-gray-400 cursor-not-allowed"
+                        }`}
+                      >
+                        미션 완료! 🎉
+                      </button>
+                    </div>
+                  )}
+                </>
+              )}
+            </>
+          ) : (
+            <p className="text-lg font-medium leading-relaxed">
+              {item.question}
+            </p>
+          )}
         </div>
       </section>
 

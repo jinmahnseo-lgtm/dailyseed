@@ -2,67 +2,51 @@
 
 import { useState, useEffect } from "react";
 import worlds from "@/data/worlds.json";
-import themes from "@/data/themes.json";
+import { useSharedDate } from "@/hooks/useSharedDate";
+import { useMission } from "@/hooks/useMission";
 import DayNavigator from "@/components/DayNavigator";
 
-function getToday() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-}
-
-function getDayNumber(dateStr: string) {
-  const start = new Date("2026-03-16");
-  const current = new Date(dateStr);
-  return Math.floor((current.getTime() - start.getTime()) / 86400000) + 1;
-}
-
 export default function WorldPage() {
-  const [worldIndex, setWorldIndex] = useState(0);
-  const [today, setToday] = useState("");
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday } =
+    useSharedDate();
+  const world = worlds.find((w) => w.date === date) || worlds[0];
+  const { done, complete } = useMission("world", world?.date || "");
+
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [quizSubmitted, setQuizSubmitted] = useState(false);
 
   useEffect(() => {
-    const t = getToday();
-    setToday(t);
-    const idx = worlds.findIndex((w) => w.date === t);
-    setWorldIndex(idx >= 0 ? idx : 0);
-  }, []);
-
-  useEffect(() => {
     setSelectedAnswer(null);
     setQuizSubmitted(false);
-  }, [worldIndex]);
+  }, [date]);
 
-  const world = worlds[worldIndex] || null;
   if (!world) return null;
 
-  const dayNum = getDayNumber(world.date);
-  const theme = themes.find((t) => t.date === world.date);
-
   const handleQuizSubmit = () => {
-    if (selectedAnswer !== null) setQuizSubmitted(true);
+    if (selectedAnswer !== null) {
+      setQuizSubmitted(true);
+      complete();
+    }
   };
 
   const isCorrect = selectedAnswer === world.quiz.answer;
 
   return (
-    <div className="theme-world min-h-screen px-4 py-8 max-w-lg mx-auto" style={{ background: "var(--background)" }}>
+    <div
+      className="theme-world min-h-screen px-4 py-8 max-w-lg mx-auto"
+      style={{ background: "var(--background)" }}
+    >
       <DayNavigator
         title="오늘의 세계문화"
         emoji="🌍"
-        dayNum={dayNum}
         date={world.date}
         today={today}
         keyword={theme?.keyword}
-        canPrev={worldIndex > 0}
-        canNext={worldIndex < worlds.length - 1}
-        onPrev={() => setWorldIndex(worldIndex - 1)}
-        onNext={() => setWorldIndex(worldIndex + 1)}
-        onToday={() => {
-          const idx = worlds.findIndex((w) => w.date === today);
-          if (idx >= 0) setWorldIndex(idx);
-        }}
+        canPrev={canPrev}
+        canNext={canNext}
+        onPrev={goPrev}
+        onNext={goNext}
+        onToday={goToday}
       />
 
       {/* 나라 소개 */}
@@ -72,10 +56,14 @@ export default function WorldPage() {
             <span className="text-3xl">{world.flag}</span>
             <div>
               <h2 className="text-xl font-bold">{world.country}</h2>
-              <p className="text-xs text-[var(--text-muted)]">{world.region}</p>
+              <p className="text-xs text-[var(--text-muted)]">
+                {world.region}
+              </p>
             </div>
           </div>
-          <h3 className="text-lg font-semibold text-[var(--accent)] mb-3">{world.title}</h3>
+          <h3 className="text-lg font-semibold text-[var(--accent)] mb-3">
+            {world.title}
+          </h3>
           <p className="text-[1.05rem] leading-[1.8]">{world.story}</p>
         </div>
       </section>
@@ -85,7 +73,9 @@ export default function WorldPage() {
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-2">
             <span className="text-xl">🎭</span>
-            <span className="font-semibold text-[var(--accent)]">문화 포인트</span>
+            <span className="font-semibold text-[var(--accent)]">
+              문화 포인트
+            </span>
           </div>
           <p className="text-base leading-relaxed">{world.culture_point}</p>
         </div>
@@ -96,7 +86,9 @@ export default function WorldPage() {
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-2">
             <span className="text-xl">🍽️</span>
-            <span className="font-semibold text-[var(--accent)]">이 나라 음식</span>
+            <span className="font-semibold text-[var(--accent)]">
+              이 나라 음식
+            </span>
           </div>
           <p className="text-base leading-relaxed">{world.food}</p>
         </div>
@@ -107,18 +99,22 @@ export default function WorldPage() {
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-2">
             <span className="text-xl">🤯</span>
-            <span className="font-semibold text-[var(--accent)]">놀라운 사실</span>
+            <span className="font-semibold text-[var(--accent)]">
+              놀라운 사실
+            </span>
           </div>
           <p className="text-base leading-relaxed">{world.fun_fact}</p>
         </div>
       </section>
 
-      {/* 퀴즈 */}
+      {/* 퀴즈 (미션) */}
       <section className="mb-6">
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-3">
             <span className="text-xl">❓</span>
-            <span className="font-semibold text-[var(--accent)]">오늘의 퀴즈</span>
+            <span className="font-semibold text-[var(--accent)]">
+              오늘의 퀴즈
+            </span>
           </div>
           <p className="text-base font-medium mb-4">{world.quiz.question}</p>
           <div className="space-y-2 mb-4">
@@ -131,7 +127,8 @@ export default function WorldPage() {
                   btnClass = "bg-red-50 border-red-400 text-red-800";
                 }
               } else if (i === selectedAnswer) {
-                btnClass = "bg-[var(--accent-light)] border-[var(--accent)] text-[var(--accent)]";
+                btnClass =
+                  "bg-[var(--accent-light)] border-[var(--accent)] text-[var(--accent)]";
               }
               return (
                 <button
@@ -141,10 +138,16 @@ export default function WorldPage() {
                   }}
                   className={`w-full text-left p-3 rounded-xl border-2 text-sm font-medium transition-all ${btnClass}`}
                 >
-                  <span className="mr-2">{String.fromCharCode(65 + i)}.</span>
+                  <span className="mr-2">
+                    {String.fromCharCode(65 + i)}.
+                  </span>
                   {option}
                   {quizSubmitted && i === world.quiz.answer && " ✅"}
-                  {quizSubmitted && i === selectedAnswer && !isCorrect && i !== world.quiz.answer && " ❌"}
+                  {quizSubmitted &&
+                    i === selectedAnswer &&
+                    !isCorrect &&
+                    i !== world.quiz.answer &&
+                    " ❌"}
                 </button>
               );
             })}
@@ -164,10 +167,14 @@ export default function WorldPage() {
           ) : (
             <div
               className={`text-center py-3 rounded-xl text-sm font-semibold ${
-                isCorrect ? "bg-green-50 text-green-600" : "bg-orange-50 text-orange-600"
+                isCorrect
+                  ? "bg-green-50 text-green-600"
+                  : "bg-orange-50 text-orange-600"
               }`}
             >
-              {isCorrect ? "🎉 정답! 대단해!" : "😅 아쉽지만 다음엔 맞출 수 있어!"}
+              {isCorrect
+                ? "🎉 정답! 미션 완료!"
+                : "😅 아쉽지만 미션 완료! 다음엔 맞춰봐!"}
             </div>
           )}
         </div>
