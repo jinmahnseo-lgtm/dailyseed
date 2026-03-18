@@ -41,7 +41,7 @@ export default function DayNavigator({
         <button
           onClick={onPrev}
           disabled={!canPrev}
-          className="text-[var(--accent)] disabled:opacity-30 text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
+          className="text-[var(--accent)] disabled:opacity-30 text-4xl font-bold w-14 h-14 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
         >
           ‹
         </button>
@@ -51,7 +51,7 @@ export default function DayNavigator({
         <button
           onClick={onNext}
           disabled={!canNext}
-          className="text-[var(--accent)] disabled:opacity-30 text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
+          className="text-[var(--accent)] disabled:opacity-30 text-4xl font-bold w-14 h-14 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
         >
           ›
         </button>

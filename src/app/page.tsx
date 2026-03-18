@@ -126,7 +126,7 @@ export default function Home() {
         <button
           onClick={goPrev}
           disabled={!canPrev}
-          className="text-[var(--accent)] disabled:opacity-30 text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
+          className="text-[var(--accent)] disabled:opacity-30 text-4xl font-bold w-14 h-14 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
         >
           ‹
         </button>
@@ -136,7 +136,7 @@ export default function Home() {
         <button
           onClick={goNext}
           disabled={!canNext}
-          className="text-[var(--accent)] disabled:opacity-30 text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
+          className="text-[var(--accent)] disabled:opacity-30 text-4xl font-bold w-14 h-14 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
         >
           ›
         </button>
@@ -183,9 +183,13 @@ export default function Home() {
                     </p>
                   </div>
                   <span
-                    className={`text-2xl ${isDone ? "text-green-500" : "text-gray-300"}`}
+                    className={`text-sm font-bold rounded-full flex items-center justify-center ${
+                      isDone
+                        ? "w-9 h-9 bg-green-500 text-white shadow-md shadow-green-200"
+                        : "w-9 h-9 border-2 border-gray-300 text-gray-300"
+                    }`}
                   >
-                    {isDone ? "✅" : "○"}
+                    {isDone ? "✓" : "○"}
                   </span>
                 </div>
               </div>
