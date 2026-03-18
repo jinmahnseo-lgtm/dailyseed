@@ -1,15 +1,20 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import worlds from "@/data/worlds.json";
 import { useSharedDate } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
+import { useAuthContext } from "@/contexts/AuthContext";
 import DayNavigator from "@/components/DayNavigator";
 
 export default function WorldPage() {
+  const router = useRouter();
+  const { user } = useAuthContext();
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
     useSharedDate();
+  const requireLogin = useCallback(() => router.push("/login"), [router]);
   const world = worlds.find((w) => w.date === date) || worlds[0];
   const { done, complete } = useMission("world", world?.date || "");
 
@@ -53,6 +58,8 @@ export default function WorldPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="world"
+        isLoggedIn={!!user}
+        onRequireLogin={requireLogin}
       />
 
       {/* 나라 소개 */}

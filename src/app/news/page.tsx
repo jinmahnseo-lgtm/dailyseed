@@ -1,10 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import newsRaw from "@/data/news.json";
 import { useSharedDate } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
+import { useAuthContext } from "@/contexts/AuthContext";
 import DayNavigator from "@/components/DayNavigator";
 
 interface GlossaryItem {
@@ -29,8 +31,11 @@ interface NewsItem {
 const news = newsRaw as NewsItem[];
 
 export default function NewsPage() {
+  const router = useRouter();
+  const { user } = useAuthContext();
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
     useSharedDate();
+  const requireLogin = useCallback(() => router.push("/login"), [router]);
   const item = news.find((n) => n.date === date) || null;
   const { done, complete } = useMission("news", item?.date || "");
 
@@ -67,6 +72,8 @@ export default function NewsPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="news"
+        isLoggedIn={!!user}
+        onRequireLogin={requireLogin}
       />
 
       {!item ? (

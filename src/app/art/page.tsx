@@ -1,15 +1,20 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import arts from "@/data/arts.json";
 import { useSharedDate } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
+import { useAuthContext } from "@/contexts/AuthContext";
 import DayNavigator from "@/components/DayNavigator";
 
 export default function ArtPage() {
+  const router = useRouter();
+  const { user } = useAuthContext();
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
     useSharedDate();
+  const requireLogin = useCallback(() => router.push("/login"), [router]);
   const art = arts.find((a) => a.date === date) || arts[0];
   const { done, complete } = useMission("art", art?.date || "");
   const [review, setReview] = useState("");
@@ -40,6 +45,8 @@ export default function ArtPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="art"
+        isLoggedIn={!!user}
+        onRequireLogin={requireLogin}
       />
 
       {/* 작품 정보 */}

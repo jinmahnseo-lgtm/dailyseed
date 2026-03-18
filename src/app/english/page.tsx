@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import english from "@/data/english.json";
 import classicsData from "@/data/classics.json";
 import artsData from "@/data/arts.json";
@@ -9,6 +10,7 @@ import worldsData from "@/data/worlds.json";
 import whysData from "@/data/whys.json";
 import { useSharedDate } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
+import { useAuthContext } from "@/contexts/AuthContext";
 import DayNavigator from "@/components/DayNavigator";
 
 interface VocabItem {
@@ -43,8 +45,11 @@ function getSourceTitle(source: string, date: string): string {
 }
 
 export default function EnglishPage() {
+  const router = useRouter();
+  const { user } = useAuthContext();
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
     useSharedDate();
+  const requireLogin = useCallback(() => router.push("/login"), [router]);
   const item = (english as EnglishItem[]).find((e) => e.date === date) || (english as EnglishItem[])[0];
   const { done, complete } = useMission("english", item?.date || "");
 
@@ -87,6 +92,8 @@ export default function EnglishPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="english"
+        isLoggedIn={!!user}
+        onRequireLogin={requireLogin}
       />
 
       {item.sentences.map((s, i) => (
