@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { useState, useEffect, useCallback } from "react";
 import { useSharedDate, formatDateShort } from "@/hooks/useSharedDate";
-import { isMissionDone } from "@/hooks/useMission";
+import { isMissionDone, setCurrentUserId } from "@/hooks/useMission";
+import { useAuthContext } from "@/contexts/AuthContext";
+import { pullMissionsFromSupabase, migrateLocalStorageToSupabase, flushSyncQueue } from "@/lib/sync";
 import MissionComplete from "@/components/MissionComplete";
 
 const MENUS = [
@@ -102,7 +104,22 @@ const MENUS = [
 export default function Home() {
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday } =
     useSharedDate();
+  const { user, profile, loading: authLoading } = useAuthContext();
   const [missions, setMissions] = useState<Record<string, boolean>>({});
+
+  // Keep useMission's global userId in sync
+  useEffect(() => {
+    setCurrentUserId(user?.id || null);
+  }, [user]);
+
+  // On login: migrate localStorage → Supabase, pull remote data
+  useEffect(() => {
+    if (user?.id) {
+      migrateLocalStorageToSupabase(user.id).catch(() => {});
+      pullMissionsFromSupabase(user.id).catch(() => {});
+      flushSyncQueue(user.id).catch(() => {});
+    }
+  }, [user?.id]);
 
   const refreshMissions = useCallback(() => {
     if (date) {
@@ -142,7 +159,25 @@ export default function Home() {
   return (
     <div className="min-h-screen max-w-lg mx-auto px-5 pb-4">
       {/* Hero Header */}
-      <header className="pt-8 pb-2 text-center">
+      <header className="pt-8 pb-2 text-center relative">
+        {/* Login/Profile icon */}
+        <div className="absolute right-0 top-8">
+          {user ? (
+            <Link href="/profile">
+              <div className="w-9 h-9 bg-gradient-to-br from-amber-400 to-orange-400 rounded-full flex items-center justify-center text-sm text-white font-bold hover:scale-105 transition-transform">
+                {profile?.display_name?.[0] || "🌱"}
+              </div>
+            </Link>
+          ) : (
+            <Link href="/login">
+              <div className="w-9 h-9 bg-gray-100 rounded-full flex items-center justify-center text-gray-400 hover:bg-gray-200 transition-colors">
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0" />
+                </svg>
+              </div>
+            </Link>
+          )}
+        </div>
         <div
           className="inline-flex items-center gap-2 cursor-pointer group"
           onClick={goToday}

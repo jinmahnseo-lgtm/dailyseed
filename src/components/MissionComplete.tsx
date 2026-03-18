@@ -10,6 +10,8 @@ import {
   getParentEmail,
   setParentEmail as saveParentEmail,
 } from "@/hooks/useMission";
+import { useAuthContext } from "@/contexts/AuthContext";
+import { syncReportToSupabase } from "@/lib/sync";
 import newsData from "@/data/news.json";
 import classicsData from "@/data/classics.json";
 import artsData from "@/data/arts.json";
@@ -53,6 +55,7 @@ type Props = {
 };
 
 export default function MissionComplete({ date, keyword, onGoNext }: Props) {
+  const { user, profile } = useAuthContext();
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
   const [studentName, setName] = useState("");
@@ -62,9 +65,10 @@ export default function MissionComplete({ date, keyword, onGoNext }: Props) {
 
   useEffect(() => {
     setSent(isReportSent(date));
-    setName(getStudentName());
+    // Use profile display_name if logged in, otherwise localStorage
+    setName(profile?.display_name || getStudentName());
     setEmail(getParentEmail());
-  }, [date]);
+  }, [date, profile]);
 
   const missionData = MISSION_KEYS.map((key) => {
     const answer = getMissionData(key, date);
@@ -110,6 +114,11 @@ export default function MissionComplete({ date, keyword, onGoNext }: Props) {
       // no-cors always returns opaque response, so we assume success
       markReportSent(date);
       setSent(true);
+
+      // Sync report to Supabase (background)
+      if (user?.id) {
+        syncReportToSupabase(user.id, date, parentEmail.trim()).catch(() => {});
+      }
     } catch {
       setError("전송 실패. 다시 시도해줘!");
     } finally {

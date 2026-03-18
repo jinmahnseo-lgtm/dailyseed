@@ -1,6 +1,14 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { syncMissionToSupabase } from "@/lib/sync";
+
+// We access auth from a global getter to avoid changing hook signatures
+let _currentUserId: string | null = null;
+
+export function setCurrentUserId(userId: string | null) {
+  _currentUserId = userId;
+}
 
 export function useMission(page: string, date: string) {
   const [done, setDoneState] = useState(false);
@@ -14,12 +22,18 @@ export function useMission(page: string, date: string) {
   }, [date, key]);
 
   const complete = useCallback((answerData?: string) => {
+    // 1. localStorage (instant, always works)
     localStorage.setItem(key, "done");
     if (answerData) {
       localStorage.setItem(dataKey, answerData);
     }
     setDoneState(true);
-  }, [key, dataKey]);
+
+    // 2. Supabase sync (background, fire-and-forget)
+    if (_currentUserId) {
+      syncMissionToSupabase(_currentUserId, page, date, answerData).catch(() => {});
+    }
+  }, [key, dataKey, page, date]);
 
   return { done, complete };
 }

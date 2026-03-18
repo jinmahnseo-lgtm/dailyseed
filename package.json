@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.79.0",
+    "@supabase/supabase-js": "^2.99.2",
     "autoprefixer": "^10.4.27",
     "dotenv": "^17.3.1",
     "lightningcss": "^1.32.0",
