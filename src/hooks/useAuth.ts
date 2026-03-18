@@ -55,45 +55,60 @@ export function useAuth() {
       return;
     }
 
-    // onAuthStateChange handles EVERYTHING:
-    // - Initial session from localStorage
-    // - OAuth callback code exchange (detectSessionInUrl: true)
-    // - Token refresh
-    const {
-      data: { subscription },
-    } = supabase!.auth.onAuthStateChange(async (event, session) => {
-      console.log("[Auth]", event, session?.user?.id);
+    let isMounted = true;
 
+    const updateState = async (session: Session | null) => {
+      if (!isMounted) return;
       if (session?.user) {
         const profile = await fetchOrCreateProfile(session.user);
-        setState({
-          user: session.user,
-          session,
-          profile,
-          loading: false,
-        });
-
-        // Clean up URL after OAuth callback
-        if (event === "SIGNED_IN") {
-          const url = new URL(window.location.href);
-          if (url.searchParams.has("code")) {
-            url.searchParams.delete("code");
-            window.history.replaceState({}, "", url.pathname);
-          }
+        if (isMounted) {
+          setState({ user: session.user, session, profile, loading: false });
         }
       } else {
-        setState({ user: null, session: null, profile: null, loading: false });
+        if (isMounted) {
+          setState({ user: null, session: null, profile: null, loading: false });
+        }
       }
+    };
+
+    // Step 1: Handle OAuth callback code if present
+    const init = async () => {
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get("code");
+
+      if (code) {
+        console.log("[Auth] Exchanging code...");
+        const { data, error } = await supabase!.auth.exchangeCodeForSession(code);
+        console.log("[Auth] Exchange result:", error?.message || "success");
+
+        // Clean URL regardless of result
+        window.history.replaceState({}, "", window.location.pathname);
+
+        if (data.session) {
+          await updateState(data.session);
+          return; // Done, session is set
+        }
+      }
+
+      // Step 2: Check existing session from localStorage
+      const { data: { session } } = await supabase!.auth.getSession();
+      console.log("[Auth] Existing session:", session?.user?.id || "none");
+      await updateState(session);
+    };
+
+    init();
+
+    // Step 3: Listen for future auth changes (token refresh, sign out)
+    const {
+      data: { subscription },
+    } = supabase!.auth.onAuthStateChange(async (_event, session) => {
+      console.log("[Auth] State change:", _event);
+      await updateState(session);
     });
 
-    // Fallback: if no auth event fires within 3s, stop loading spinner
-    const timeout = setTimeout(() => {
-      setState((s) => (s.loading ? { ...s, loading: false } : s));
-    }, 3000);
-
     return () => {
+      isMounted = false;
       subscription.unsubscribe();
-      clearTimeout(timeout);
     };
   }, [fetchOrCreateProfile]);
 
