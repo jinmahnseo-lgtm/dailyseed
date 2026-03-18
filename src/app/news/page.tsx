@@ -31,7 +31,7 @@ const news = newsRaw as NewsItem[];
 export default function NewsPage() {
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday } =
     useSharedDate();
-  const item = news.find((n) => n.date === date) || news[0];
+  const item = news.find((n) => n.date === date) || null;
   const { done, complete } = useMission("news", item?.date || "");
 
   const [side, setSide] = useState<"pro" | "con" | null>(null);
@@ -41,8 +41,6 @@ export default function NewsPage() {
     setSide(null);
     setReason("");
   }, [date]);
-
-  if (!item) return null;
 
   const handleSubmitDebate = () => {
     if (side && reason.trim()) {
@@ -59,7 +57,7 @@ export default function NewsPage() {
       <DayNavigator
         title="오늘의 뉴스"
         emoji="📰"
-        date={item.date}
+        date={date}
         today={today}
         keyword={theme?.keyword}
         canPrev={canPrev}
@@ -69,6 +67,21 @@ export default function NewsPage() {
         onToday={goToday}
       />
 
+      {!item ? (
+        <section className="mb-6">
+          <div className="w-full bg-white rounded-2xl p-8 shadow-sm text-center">
+            <span className="text-5xl block mb-4">📰</span>
+            <h2 className="text-lg font-bold text-gray-700 mb-2">
+              아직 뉴스가 준비되지 않았어요
+            </h2>
+            <p className="text-sm text-gray-500 leading-relaxed">
+              이 날의 뉴스 콘텐츠는 아직 나오지 않았어요.<br />
+              다른 날짜를 확인하거나, 나중에 다시 방문해 주세요!
+            </p>
+          </div>
+        </section>
+      ) : (
+      <>
       {/* 뉴스 요약 */}
       <section className="mb-4">
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
@@ -209,6 +222,8 @@ export default function NewsPage() {
         </Link>
         <p className="text-xs text-[var(--text-muted)]">{item.date}</p>
       </footer>
+      </>
+      )}
     </div>
   );
 }
