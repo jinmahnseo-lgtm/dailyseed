@@ -811,68 +811,6 @@
       {
         "source": "뉴스",
         "emoji": "📰",
-        "en": "When humans and AI designed together, the results were more creative than when either worked alone.",
-        "ko": "인간과 AI가 함께 디자인했을 때, 결과는 어느 쪽이 혼자 작업했을 때보다 더 창의적이었다.",
-        "note": "'more creative than when ~'은 비교급 + than + 절 구문이야. either는 '둘 중 어느 쪽이든'이라는 뜻으로, 두 대상을 모두 포함할 때 써."
-      },
-      {
-        "source": "고전",
-        "emoji": "📖",
-        "en": "Happiness is the absence of the striving for happiness.",
-        "ko": "행복은 행복을 추구하지 않는 상태이다.",
-        "note": "'the absence of ~'는 '~이 없는 상태/부재'라는 뜻이야. striving for는 '~을 향한 분투/추구'로, strive for + 명사는 '~을 위해 노력하다'야."
-      },
-      {
-        "source": "명화",
-        "emoji": "🎨",
-        "en": "Mondrian spent 20 years stripping away details until only lines and primary colors remained — proving that empty space speaks louder than decoration.",
-        "ko": "몬드리안은 20년에 걸쳐 세부 사항을 벗겨내 선과 원색만 남겼다 — 빈 공간이 장식보다 더 크게 말한다는 것을 증명하며.",
-        "note": "'strip away'는 '벗겨내다/제거하다'라는 구동사야. 'speaks louder than'은 '~보다 더 크게 말하다'로, Actions speak louder than words(행동이 말보다 웅변이다)에서 쓰이는 패턴이야."
-      },
-      {
-        "source": "세계문화",
-        "emoji": "🌍",
-        "en": "The Japanese concept of 'ma' teaches us that the space between things is just as important as the things themselves.",
-        "ko": "일본의 '마(間)' 개념은 사물 사이의 공간이 사물 자체만큼이나 중요하다고 가르쳐준다.",
-        "note": "'just as important as ~'는 '~만큼이나 중요한'이라는 동등 비교 구문이야. as + 형용사 + as는 '~만큼 ~한'으로, 영작에서 아주 자주 쓰이는 패턴이야."
-      },
-      {
-        "source": "왜왜왜",
-        "emoji": "🔬",
-        "en": "If you removed all the empty space from every atom in your body, the remaining matter would be smaller than a grain of dust.",
-        "ko": "네 몸의 모든 원자에서 빈 공간을 제거하면, 남는 물질은 먼지 한 알보다 작을 것이다.",
-        "note": "'If you removed ~, ~ would be'는 가정법 과거로 '만약 ~한다면, ~할 텐데'라는 비현실적 가정을 나타내. 'a grain of'는 '한 알의'로 아주 작은 양을 표현해."
-      }
-    ],
-    "vocab": [
-      {
-        "word": "creative",
-        "meaning": "창의적인"
-      },
-      {
-        "word": "striving",
-        "meaning": "분투, 추구"
-      },
-      {
-        "word": "primary",
-        "meaning": "원색의, 주요한"
-      },
-      {
-        "word": "concept",
-        "meaning": "개념"
-      },
-      {
-        "word": "atom",
-        "meaning": "원자"
-      }
-    ]
-  },
-  {
-    "date": "2026-03-29",
-    "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
         "en": "A high school environmental activist urged world leaders to phase out fossil fuels during her speech at the UN climate summit.",
         "ko": "한 고등학생 환경 운동가가 UN 기후 정상회담에서 연설을 통해 세계 지도자들에게 화석연료를 단계적으로 퇴출할 것을 촉구했다.",
         "note": "'urged + 목적어 + to부정사' 구조로 '~에게 ...하도록 촉구하다'를 표현해. 'phase out'은 '단계적으로 없애다'라는 뜻의 구동사야."
