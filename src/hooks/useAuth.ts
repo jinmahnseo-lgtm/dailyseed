@@ -73,27 +73,37 @@ export function useAuth() {
 
     // Step 1: Handle OAuth callback code if present
     const init = async () => {
-      const params = new URLSearchParams(window.location.search);
-      const code = params.get("code");
+      try {
+        const params = new URLSearchParams(window.location.search);
+        const code = params.get("code");
 
-      if (code) {
-        console.log("[Auth] Exchanging code...");
-        const { data, error } = await supabase!.auth.exchangeCodeForSession(code);
-        console.log("[Auth] Exchange result:", error?.message || "success");
+        if (code) {
+          console.log("[Auth] Exchanging code...");
+          try {
+            const { data, error } = await supabase!.auth.exchangeCodeForSession(code);
+            console.log("[Auth] Exchange result:", error?.message || "success");
+            // Clean URL regardless of result
+            window.history.replaceState({}, "", window.location.pathname);
+            if (data?.session) {
+              await updateState(data.session);
+              return;
+            }
+          } catch (e) {
+            console.error("[Auth] Exchange error:", e);
+            window.history.replaceState({}, "", window.location.pathname);
+          }
+        }
 
-        // Clean URL regardless of result
-        window.history.replaceState({}, "", window.location.pathname);
-
-        if (data.session) {
-          await updateState(data.session);
-          return; // Done, session is set
+        // Step 2: Check existing session from localStorage
+        const { data: { session } } = await supabase!.auth.getSession();
+        console.log("[Auth] Existing session:", session?.user?.id || "none");
+        await updateState(session);
+      } catch (e) {
+        console.error("[Auth] Init error:", e);
+        if (isMounted) {
+          setState({ user: null, session: null, profile: null, loading: false });
         }
       }
-
-      // Step 2: Check existing session from localStorage
-      const { data: { session } } = await supabase!.auth.getSession();
-      console.log("[Auth] Existing session:", session?.user?.id || "none");
-      await updateState(session);
     };
 
     init();
