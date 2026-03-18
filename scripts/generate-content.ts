@@ -207,11 +207,15 @@ JSON 배열로 응답해. 다른 텍스트 없이 JSON만:
 \`\`\``;
 }
 
-function classicsPrompt(themes: Theme[]): string {
+function classicsPrompt(themes: Theme[], existingClassics: ClassicEntry[]): string {
+  const usedList = existingClassics.map((c) => `${c.title} - ${c.author}`).join(", ");
   return `너는 세계 고전문학 큐레이터야. 한국 청소년에게 고전의 매력을 전달해.
 
 각 날짜의 키워드와 연결되는 고전을 골라줘:
 ${themes.map((t) => `- ${t.date}: 키워드 "${t.keyword}" (${t.desc})`).join("\n")}
+
+⚠️ 다음 작품은 이미 사용했으므로 절대 중복하지 마세요 (작품+작가 모두 다르게):
+${usedList}
 
 각 항목 요구사항:
 - title: 작품 제목 (한국어)
@@ -230,11 +234,15 @@ JSON 배열로 응답해. 다른 텍스트 없이 JSON만:
 \`\`\``;
 }
 
-function artsPrompt(themes: Theme[]): string {
+function artsPrompt(themes: Theme[], existingArts: ArtEntry[]): string {
+  const usedList = existingArts.map((a) => `${a.title} - ${a.artist}`).join(", ");
   return `너는 미술사 큐레이터야. 한국 청소년에게 명화의 매력을 전달해.
 
 각 날짜의 키워드와 연결되는 유명 회화/조각 작품을 골라줘:
 ${themes.map((t) => `- ${t.date}: 키워드 "${t.keyword}" (${t.desc})`).join("\n")}
+
+⚠️ 다음 작품은 이미 사용했으므로 절대 중복하지 마세요 (작품+작가 모두 다르게):
+${usedList}
 
 각 항목 요구사항:
 - title: 작품명 (한국어)
@@ -257,11 +265,15 @@ JSON 배열로 응답해. 다른 텍스트 없이 JSON만:
 \`\`\``;
 }
 
-function worldsPrompt(themes: Theme[]): string {
+function worldsPrompt(themes: Theme[], existingWorlds: WorldEntry[]): string {
+  const usedCountries = [...new Set(existingWorlds.map((w) => w.country))].join(", ");
   return `너는 세계문화 큐레이터야. 한국 청소년에게 세계 각국의 문화를 소개해.
 
 각 날짜의 키워드와 연결되는 나라/문화를 골라줘:
 ${themes.map((t) => `- ${t.date}: 키워드 "${t.keyword}" (${t.desc})`).join("\n")}
+
+⚠️ 다음 국가는 이미 사용했으므로 절대 중복하지 마세요:
+${usedCountries}
 
 각 항목 요구사항:
 - country: 나라 이름 (한국어)
@@ -282,11 +294,15 @@ JSON 배열로 응답해. 다른 텍스트 없이 JSON만:
 \`\`\``;
 }
 
-function whysPrompt(themes: Theme[]): string {
+function whysPrompt(themes: Theme[], existingWhys: WhyEntry[]): string {
+  const usedQuestions = existingWhys.map((w) => w.question).join(", ");
   return `너는 과학 교육 콘텐츠 작가야. 한국 청소년의 호기심을 자극하는 과학 질문을 만들어.
 
 각 날짜의 키워드와 연결되는 과학 질문을 만들어줘:
 ${themes.map((t) => `- ${t.date}: 키워드 "${t.keyword}" (${t.desc})`).join("\n")}
+
+⚠️ 다음 질문은 이미 사용했으므로 절대 중복하지 마세요 (비슷한 주제도 피하기):
+${usedQuestions}
 
 각 항목 요구사항:
 - emoji: 주제와 어울리는 이모지 1개
@@ -416,6 +432,12 @@ async function main() {
     `  ✓ ${newThemes.length}개 테마: ${newThemes.map((t) => t.keyword).join(", ")}`
   );
 
+  // Read existing data for deduplication
+  const existingClassics = readJson<ClassicEntry>("classics.json");
+  const existingArts = readJson<ArtEntry>("arts.json");
+  const existingWorlds = readJson<WorldEntry>("worlds.json");
+  const existingWhys = readJson<WhyEntry>("whys.json");
+
   // 4. Generate all content types
   console.log("2/7 뉴스 생성 중...");
   const newNews = extractJson<NewsEntry[]>(await callClaude(newsPrompt(newThemes)));
@@ -423,22 +445,22 @@ async function main() {
 
   console.log("3/7 고전 생성 중...");
   const newClassics = extractJson<ClassicEntry[]>(
-    await callClaude(classicsPrompt(newThemes))
+    await callClaude(classicsPrompt(newThemes, existingClassics))
   );
   console.log(`  ✓ ${newClassics.length}개 고전`);
 
   console.log("4/7 예술 생성 중...");
-  const newArts = extractJson<ArtEntry[]>(await callClaude(artsPrompt(newThemes)));
+  const newArts = extractJson<ArtEntry[]>(await callClaude(artsPrompt(newThemes, existingArts)));
   console.log(`  ✓ ${newArts.length}개 예술`);
 
   console.log("5/7 세계문화 생성 중...");
   const newWorlds = extractJson<WorldEntry[]>(
-    await callClaude(worldsPrompt(newThemes))
+    await callClaude(worldsPrompt(newThemes, existingWorlds))
   );
   console.log(`  ✓ ${newWorlds.length}개 세계문화`);
 
   console.log("6/7 과학 생성 중...");
-  const newWhys = extractJson<WhyEntry[]>(await callClaude(whysPrompt(newThemes)));
+  const newWhys = extractJson<WhyEntry[]>(await callClaude(whysPrompt(newThemes, existingWhys)));
   console.log(`  ✓ ${newWhys.length}개 과학`);
 
   console.log("7/7 영어 생성 중...");
@@ -471,10 +493,6 @@ async function main() {
   console.log("\nJSON 파일 업데이트 중...");
 
   const existingNews = readJson<NewsEntry>("news.json");
-  const existingClassics = readJson<ClassicEntry>("classics.json");
-  const existingArts = readJson<ArtEntry>("arts.json");
-  const existingWorlds = readJson<WorldEntry>("worlds.json");
-  const existingWhys = readJson<WhyEntry>("whys.json");
   const existingEnglish = readJson<EnglishEntry>("english.json");
   const existingSeeds = readJson<SeedEntry>("seeds.json");
 
