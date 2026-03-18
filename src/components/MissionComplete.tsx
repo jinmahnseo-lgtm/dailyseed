@@ -49,9 +49,10 @@ function getMissionLabel(key: string, date: string, answer: string | null): stri
 type Props = {
   date: string;
   keyword: string;
+  onGoNext?: () => void;
 };
 
-export default function MissionComplete({ date, keyword }: Props) {
+export default function MissionComplete({ date, keyword, onGoNext }: Props) {
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
   const [studentName, setName] = useState("");
@@ -152,6 +153,14 @@ export default function MissionComplete({ date, keyword }: Props) {
             <p className="text-green-700 font-semibold mt-1 text-sm">
               리포트가 발송되었어!
             </p>
+            {onGoNext && (
+              <button
+                onClick={onGoNext}
+                className="text-xs text-amber-600 font-semibold mt-2 hover:underline"
+              >
+                다음 날짜로 이동하기 →
+              </button>
+            )}
           </div>
         ) : !showForm ? (
           <button
@@ -192,7 +201,7 @@ export default function MissionComplete({ date, keyword }: Props) {
               <p className="text-xs text-red-500 font-semibold">{error}</p>
             )}
             <p className="text-[11px] text-gray-400 text-center leading-relaxed">
-              리포트 보내기 버튼을 누르면, 향후 위의 메일로<br />
+              리포트 보내기 버튼을 누르며, 향후 위의 메일로<br />
               DailySeed 안내가 발송되는 것에 동의합니다
             </p>
             <button

@@ -164,7 +164,7 @@ export default function Home() {
         <button
           onClick={goPrev}
           disabled={!canPrev}
-          className="w-10 h-10 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-xl font-medium"
+          className="w-14 h-14 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-4xl font-bold"
         >
           ‹
         </button>
@@ -184,7 +184,7 @@ export default function Home() {
         <button
           onClick={goNext}
           disabled={!canNext}
-          className="w-10 h-10 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-xl font-medium"
+          className="w-14 h-14 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-4xl font-bold"
         >
           ›
         </button>
@@ -234,7 +234,7 @@ export default function Home() {
 
       {/* Mission Complete */}
       {allDone && (
-        <MissionComplete date={date} keyword={theme?.keyword || ""} />
+        <MissionComplete date={date} keyword={theme?.keyword || ""} onGoNext={canNext ? goNext : undefined} />
       )}
 
       {/* Menu Cards - 2x3 Grid */}
