@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState, useEffect, useCallback } from "react";
 import { useSharedDate, formatDateShort } from "@/hooks/useSharedDate";
 import { isMissionDone, setCurrentUserId } from "@/hooks/useMission";
@@ -104,8 +105,10 @@ const MENUS = [
 export default function Home() {
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday } =
     useSharedDate();
+  const router = useRouter();
   const { user, profile, loading: authLoading } = useAuthContext();
   const [missions, setMissions] = useState<Record<string, boolean>>({});
+  const isLoggedIn = !!user;
 
   // Keep useMission's global userId in sync
   useEffect(() => {
@@ -246,7 +249,7 @@ export default function Home() {
       </section>
 
       {/* Progress Section */}
-      {doneCount > 0 && !allDone && (
+      {isLoggedIn && doneCount > 0 && !allDone && (
         <section className="mb-5 fade-up">
           <div className="bg-white rounded-2xl px-5 py-4 border border-[var(--border-light)]" style={{ boxShadow: 'var(--shadow-sm)' }}>
             <div className="flex items-center justify-between mb-2.5">
@@ -268,7 +271,7 @@ export default function Home() {
       )}
 
       {/* Mission Complete */}
-      {allDone && (
+      {isLoggedIn && allDone && (
         <MissionComplete date={date} keyword={theme?.keyword || ""} onGoNext={canNext ? goNext : undefined} />
       )}
 
@@ -277,10 +280,18 @@ export default function Home() {
         {MENUS.map((menu, i) => {
           const mKey = menu.key as string;
           const isDone = missions[mKey];
+
+          const handleClick = (e: React.MouseEvent) => {
+            if (!isLoggedIn) {
+              e.preventDefault();
+              router.push("/login");
+            }
+          };
+
           return (
-            <Link key={menu.href} href={menu.href}>
+            <Link key={menu.href} href={menu.href} onClick={handleClick}>
               <div
-                className={`fade-up fade-up-delay-${i + 1} group relative bg-white rounded-2xl p-4 border border-[var(--border-light)] hover:shadow-md transition-all duration-200 active:scale-[0.97] h-full`}
+                className={`fade-up fade-up-delay-${i + 1} group relative bg-white rounded-2xl p-4 border border-[var(--border-light)] hover:shadow-md transition-all duration-200 active:scale-[0.97] h-full ${!isLoggedIn ? "opacity-80" : ""}`}
                 style={{ boxShadow: 'var(--shadow-sm)' }}
               >
                 {/* Icon + Check */}
@@ -290,7 +301,7 @@ export default function Home() {
                   >
                     {menu.icon}
                   </div>
-                  {isDone ? (
+                  {isLoggedIn && isDone ? (
                     <div
                       className={`w-6 h-6 ${menu.checkBg} rounded-full flex items-center justify-center shadow-sm ${menu.checkShadow}`}
                     >
@@ -298,8 +309,12 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                  ) : (
+                  ) : isLoggedIn ? (
                     <div className="w-6 h-6 rounded-full border-2 border-gray-200" />
+                  ) : (
+                    <svg className="w-5 h-5 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                    </svg>
                   )}
                 </div>
 
@@ -312,7 +327,7 @@ export default function Home() {
                 </p>
 
                 {/* Bottom accent line when done */}
-                {isDone && (
+                {isDone && isLoggedIn && (
                   <div className={`absolute bottom-0 left-3 right-3 h-0.5 bg-gradient-to-r ${menu.gradient} rounded-full opacity-40`} />
                 )}
               </div>
@@ -320,6 +335,18 @@ export default function Home() {
           );
         })}
       </section>
+
+      {/* Login prompt for non-logged-in users */}
+      {!isLoggedIn && !authLoading && (
+        <div className="mt-4 text-center">
+          <button
+            onClick={() => router.push("/login")}
+            className="text-xs text-amber-600 font-semibold hover:underline"
+          >
+            로그인하고 오늘의 학습을 시작해보세요 →
+          </button>
+        </div>
+      )}
 
       {/* Footer */}
       <footer className="text-center mt-8 mb-2">
