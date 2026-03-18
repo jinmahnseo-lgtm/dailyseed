@@ -34,7 +34,8 @@ export default function ProfilePage() {
 
   const handleSave = async () => {
     setSaving(true);
-    await updateProfile({ display_name: displayName.trim() || null });
+    // Optimistic: show success immediately, DB saves in background
+    updateProfile({ display_name: displayName.trim() || null }).catch(() => {});
     setSaving(false);
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
