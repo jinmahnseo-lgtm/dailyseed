@@ -168,7 +168,7 @@ export default function Home() {
           {user ? (
             <Link href="/profile">
               <div className="w-9 h-9 bg-gradient-to-br from-amber-400 to-orange-400 rounded-full flex items-center justify-center text-sm text-white font-bold hover:scale-105 transition-transform">
-                {profile?.display_name?.[0] || "🌱"}
+                {profile?.display_name?.[0] || user?.user_metadata?.name?.[0] || user?.user_metadata?.full_name?.[0] || "U"}
               </div>
             </Link>
           ) : (

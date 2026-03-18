@@ -24,7 +24,7 @@ export default function ProfilePage() {
     }
   }, [profile]);
 
-  if (loading || !user || !profile) {
+  if (loading || !user) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="animate-spin w-8 h-8 border-4 border-amber-400 border-t-transparent rounded-full" />
@@ -51,6 +51,7 @@ export default function ProfilePage() {
 
   const provider = user.app_metadata?.provider || "email";
   const email = user.email || "";
+  const userName = displayName || user.user_metadata?.name || user.user_metadata?.full_name || "";
 
   return (
     <div className="min-h-screen max-w-lg mx-auto px-5 pb-24">
@@ -70,11 +71,11 @@ export default function ProfilePage() {
         {/* Avatar */}
         <div className="flex items-center gap-4 mb-5">
           <div className="w-14 h-14 bg-gradient-to-br from-amber-400 to-orange-400 rounded-full flex items-center justify-center text-2xl text-white font-bold">
-            {displayName ? displayName[0] : "🌱"}
+            {userName ? userName[0] : "U"}
           </div>
           <div>
             <p className="font-bold text-gray-800">
-              {displayName || "이름을 입력해주세요"}
+              {userName || "이름을 입력해주세요"}
             </p>
             <p className="text-xs text-gray-400">
               {provider === "kakao" ? "카카오" : provider === "google" ? "Google" : provider} 로그인 · {email}
