@@ -8,7 +8,7 @@ import { useMission } from "@/hooks/useMission";
 import DayNavigator from "@/components/DayNavigator";
 
 export default function WorldPage() {
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
     useSharedDate();
   const world = worlds.find((w) => w.date === date) || worlds[0];
   const { done, complete } = useMission("world", world?.date || "");
@@ -51,6 +51,7 @@ export default function WorldPage() {
         onPrev={goPrev}
         onNext={goNext}
         onToday={goToday}
+        onSelectDate={setDate}
       />
 
       {/* 나라 소개 */}

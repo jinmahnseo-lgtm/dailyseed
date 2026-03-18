@@ -7,7 +7,7 @@ import { useMission } from "@/hooks/useMission";
 import DayNavigator from "@/components/DayNavigator";
 
 export default function WhyPage() {
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
     useSharedDate();
   const why = whys.find((w) => w.date === date) || whys[0];
   const { done, complete } = useMission("why", why?.date || "");
@@ -30,6 +30,7 @@ export default function WhyPage() {
         onPrev={goPrev}
         onNext={goNext}
         onToday={goToday}
+        onSelectDate={setDate}
       />
 
       {/* 오늘의 질문 */}

@@ -21,7 +21,7 @@ interface ClassicItem {
 const classics = classicsRaw as ClassicItem[];
 
 export default function ClassicPage() {
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
     useSharedDate();
   const item = classics.find((c) => c.date === date) || classics[0];
   const { done, complete } = useMission("classic", item?.date || "");
@@ -49,6 +49,7 @@ export default function ClassicPage() {
         onPrev={goPrev}
         onNext={goNext}
         onToday={goToday}
+        onSelectDate={setDate}
       />
 
       {/* 작품 정보 & 줄거리 */}

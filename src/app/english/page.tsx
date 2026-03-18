@@ -43,7 +43,7 @@ function getSourceTitle(source: string, date: string): string {
 }
 
 export default function EnglishPage() {
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
     useSharedDate();
   const item = (english as EnglishItem[]).find((e) => e.date === date) || (english as EnglishItem[])[0];
   const { done, complete } = useMission("english", item?.date || "");
@@ -85,6 +85,7 @@ export default function EnglishPage() {
         onPrev={goPrev}
         onNext={goNext}
         onToday={goToday}
+        onSelectDate={setDate}
       />
 
       {item.sentences.map((s, i) => (

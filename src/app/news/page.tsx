@@ -29,7 +29,7 @@ interface NewsItem {
 const news = newsRaw as NewsItem[];
 
 export default function NewsPage() {
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
     useSharedDate();
   const item = news.find((n) => n.date === date) || null;
   const { done, complete } = useMission("news", item?.date || "");
@@ -65,6 +65,7 @@ export default function NewsPage() {
         onPrev={goPrev}
         onNext={goNext}
         onToday={goToday}
+        onSelectDate={setDate}
       />
 
       {!item ? (
