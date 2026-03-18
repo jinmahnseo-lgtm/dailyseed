@@ -95,6 +95,7 @@ export function useAuth() {
   const signOut = useCallback(async () => {
     if (!supabase) return;
     await supabase.auth.signOut();
+    setState({ user: null, session: null, profile: null, loading: false });
   }, []);
 
   const updateProfile = useCallback(
