@@ -65,10 +65,10 @@ export function useAuth() {
       }
     });
 
-    // Safety: stop loading after 5s no matter what
+    // Safety: stop loading after 1.5s no matter what
     const timeout = setTimeout(() => {
       setState((s) => (s.loading ? { ...s, loading: false } : s));
-    }, 5000);
+    }, 1500);
 
     return () => {
       subscription.unsubscribe();
