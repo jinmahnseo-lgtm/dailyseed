@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { formatDateShort } from "@/hooks/useSharedDate";
+import { formatDateShort, getMaxDate } from "@/hooks/useSharedDate";
 import themes from "@/data/themes.json";
 
 type DayNavigatorProps = {
@@ -109,9 +109,11 @@ export default function DayNavigator({
     }
   };
 
+  const maxDate = getMaxDate();
+
   const handleDayClick = (day: number) => {
     const dateStr = `${calYear}-${pad(calMonth + 1)}-${pad(day)}`;
-    if (themeSet.has(dateStr) && onSelectDate) {
+    if (themeSet.has(dateStr) && dateStr <= maxDate && onSelectDate) {
       onSelectDate(dateStr);
       setOpen(false);
     }
@@ -192,7 +194,7 @@ export default function DayNavigator({
                 if (day === null) return <div key={ci} className="h-9" />;
 
                 const dateStr = `${calYear}-${pad(calMonth + 1)}-${pad(day)}`;
-                const hasTheme = themeSet.has(dateStr);
+                const hasTheme = themeSet.has(dateStr) && dateStr <= maxDate;
                 const isSelected = dateStr === date;
                 const isToday = dateStr === today;
 

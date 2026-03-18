@@ -26,6 +26,13 @@ export function getDayNumber(dateStr: string) {
   return Math.floor((current.getTime() - start.getTime()) / 86400000) + 1;
 }
 
+/** 콘텐츠 노출 상한: 오늘 + 7일 */
+export function getMaxDate() {
+  const d = new Date();
+  d.setDate(d.getDate() + 7);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 export function useSharedDate() {
   const [date, setDateRaw] = useState("");
   const [today, setTodayVal] = useState("");
@@ -42,10 +49,12 @@ export function useSharedDate() {
     }
   }, []);
 
+  const maxDate = getMaxDate();
   const dateIndex = themes.findIndex((t) => t.date === date);
   const theme = dateIndex >= 0 ? themes[dateIndex] : undefined;
   const canPrev = dateIndex > 0;
-  const canNext = dateIndex >= 0 && dateIndex < themes.length - 1;
+  const canNext = dateIndex >= 0 && dateIndex < themes.length - 1
+    && themes[dateIndex + 1].date <= maxDate;
 
   const setDate = useCallback((d: string) => {
     setDateRaw(d);
