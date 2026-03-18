@@ -92,6 +92,13 @@ export default function LoginPage() {
           </button>
         </div>
 
+        {/* Back */}
+        <button
+          onClick={() => router.back()}
+          className="block mx-auto mt-8 text-sm text-gray-400 hover:text-gray-600 transition-colors"
+        >
+          ← 로그인 없이 계속하기
+        </button>
       </div>
     </div>
   );
