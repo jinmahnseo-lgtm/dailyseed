@@ -1,0 +1,17 @@
+{
+  "name": "DailySeed — 매일의 씨앗",
+  "short_name": "DailySeed",
+  "description": "청소년의 교양을 위한 매일의 씨앗",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8F0",
+  "theme_color": "#E67E22",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
