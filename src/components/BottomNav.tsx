@@ -17,28 +17,43 @@ export default function BottomNav() {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-gray-100 z-50">
-      <div className="max-w-lg mx-auto flex justify-around py-2 px-0">
-        {MENUS.map((menu) => {
-          const isActive = pathname === menu.href;
-          return (
-            <Link
-              key={menu.href}
-              href={menu.href}
-              className={`flex flex-col items-center gap-0.5 px-1.5 py-1 rounded-xl transition-all ${
-                isActive
-                  ? "text-[var(--accent)] scale-110"
-                  : "text-gray-400 hover:text-gray-600"
-              }`}
-            >
-              <span className="text-lg">{menu.icon}</span>
-              <span className={`text-[9px] font-semibold ${isActive ? "text-[var(--accent)]" : ""}`}>
-                {menu.label}
-              </span>
-            </Link>
-          );
-        })}
+    <nav className="fixed bottom-0 left-0 right-0 z-50">
+      <div className="bg-white/90 backdrop-blur-xl border-t border-gray-100/80">
+        <div className="max-w-lg mx-auto flex justify-around py-1.5 px-1">
+          {MENUS.map((menu) => {
+            const isActive = pathname === menu.href;
+            return (
+              <Link
+                key={menu.href}
+                href={menu.href}
+                className={`flex flex-col items-center gap-0.5 px-2 py-1.5 rounded-xl transition-all duration-200 active:scale-90`}
+              >
+                <span
+                  className={`text-lg transition-transform ${
+                    isActive ? "scale-110" : "grayscale opacity-40"
+                  }`}
+                >
+                  {menu.icon}
+                </span>
+                <span
+                  className={`text-[9px] font-semibold transition-colors ${
+                    isActive
+                      ? "text-[var(--accent)]"
+                      : "text-gray-400"
+                  }`}
+                >
+                  {menu.label}
+                </span>
+                {isActive && (
+                  <div className="w-1 h-1 rounded-full bg-[var(--accent)] -mt-0.5" />
+                )}
+              </Link>
+            );
+          })}
+        </div>
       </div>
+      {/* Safe area for notched devices */}
+      <div className="bg-white/90 backdrop-blur-xl h-[env(safe-area-inset-bottom)]" />
     </nav>
   );
 }

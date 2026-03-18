@@ -191,6 +191,10 @@ export default function MissionComplete({ date, keyword }: Props) {
             {error && (
               <p className="text-xs text-red-500 font-semibold">{error}</p>
             )}
+            <p className="text-[11px] text-gray-400 text-center leading-relaxed">
+              리포트 보내기 버튼을 누르면, 향후 위의 메일로<br />
+              DailySeed 안내가 발송되는 것에 동의합니다
+            </p>
             <button
               onClick={handleSend}
               disabled={sending}
