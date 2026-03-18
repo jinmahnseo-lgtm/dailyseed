@@ -68,7 +68,6 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       body: JSON.stringify({
         from: "DailySeed <noreply@dailyseed.net>",
         to: [parentEmail],
-        cc: adminEmail !== parentEmail ? [adminEmail] : undefined,
         subject,
         html,
       }),
