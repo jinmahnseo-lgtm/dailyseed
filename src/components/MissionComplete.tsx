@@ -17,8 +17,7 @@ import classicsData from "@/data/classics.json";
 import artsData from "@/data/arts.json";
 import worldsData from "@/data/worlds.json";
 
-const APPS_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbyQBeT_dn9nu1I_6xqVgjztGFisy8VyLU21UMOz4FNJvjnw4IdVFjKygMtC7CabfpOjmA/exec";
+const REPORT_API_URL = "/api/send-report";
 
 const MISSION_KEYS = ["news", "classic", "art", "world", "why", "english"] as const;
 
@@ -105,13 +104,13 @@ export default function MissionComplete({ date, keyword, onGoNext }: Props) {
     };
 
     try {
-      await fetch(APPS_SCRIPT_URL, {
+      const res = await fetch(REPORT_API_URL, {
         method: "POST",
-        mode: "no-cors",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
-      // no-cors always returns opaque response, so we assume success
+      const result = await res.json();
+      if (!result.success) throw new Error(result.error || "Send failed");
       markReportSent(date);
       setSent(true);
 
