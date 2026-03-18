@@ -27,6 +27,9 @@ type DayNavigatorProps = {
   onToday: () => void;
   onSelectDate?: (date: string) => void;
   topicKey?: string;
+  /** If set, date changes require login. Called when user tries to change date without login. */
+  onRequireLogin?: () => void;
+  isLoggedIn?: boolean;
 };
 
 const themeSet = new Set(themes.map((t) => t.date));
@@ -51,8 +54,15 @@ function pad(n: number) { return String(n).padStart(2, "0"); }
 export default function DayNavigator({
   title, emoji, date, today, keyword,
   canPrev, canNext, onPrev, onNext, onToday, onSelectDate, topicKey,
+  onRequireLogin, isLoggedIn,
 }: DayNavigatorProps) {
   const router = useRouter();
+  // Require login only when trying to navigate away from today
+  const guardLogin = () => {
+    if (isLoggedIn !== false || !onRequireLogin) return false;
+    onRequireLogin();
+    return true;
+  };
   const [open, setOpen] = useState(false);
   const calRef = useRef<HTMLDivElement>(null);
   const parsedDate = date ? new Date(date + "T00:00:00") : new Date();
@@ -75,9 +85,13 @@ export default function DayNavigator({
   const maxDate = getMaxDate();
 
   const handleDayClick = (day: number) => {
+    if (guardLogin()) return;
     const dateStr = `${calYear}-${pad(calMonth + 1)}-${pad(day)}`;
     if (themeSet.has(dateStr) && dateStr <= maxDate && onSelectDate) { onSelectDate(dateStr); setOpen(false); }
   };
+
+  const handlePrev = () => { if (guardLogin()) return; onPrev(); };
+  const handleNext = () => { if (guardLogin()) return; onNext(); };
 
   const currentTopicIdx = TOPICS.findIndex((t) => t.key === topicKey);
   const prevTopic = currentTopicIdx > 0 ? TOPICS[currentTopicIdx - 1] : null;
@@ -124,18 +138,18 @@ export default function DayNavigator({
       {/* Date navigator */}
       <div className="mt-3 flex items-center justify-center gap-3">
         <button
-          onClick={onPrev} disabled={!canPrev}
+          onClick={handlePrev} disabled={!canPrev}
           className="text-[var(--accent)] disabled:opacity-30 text-4xl font-bold w-14 h-14 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
         >‹</button>
         <button
-          onClick={() => setOpen(!open)}
+          onClick={() => { if (guardLogin()) return; setOpen(!open); }}
           className="bg-[var(--accent-light)] text-[var(--accent)] px-4 py-1.5 rounded-full text-sm font-semibold hover:shadow-md active:scale-95 transition-all flex items-center gap-1.5 cursor-pointer"
         >
           {dateLabel}{keyword ? ` — "${keyword}"` : ""}
           <span className="text-xs opacity-60">{open ? "▲" : "▼"}</span>
         </button>
         <button
-          onClick={onNext} disabled={!canNext}
+          onClick={handleNext} disabled={!canNext}
           className="text-[var(--accent)] disabled:opacity-30 text-4xl font-bold w-14 h-14 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
         >›</button>
       </div>
