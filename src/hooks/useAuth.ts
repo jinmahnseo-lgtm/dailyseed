@@ -28,7 +28,6 @@ export function useAuth() {
 
   const fetchOrCreateProfile = useCallback(async (user: User) => {
     if (!supabase) return null;
-    // Try fetch first
     const { data: existing } = await supabase
       .from("profiles")
       .select("*")
@@ -36,7 +35,6 @@ export function useAuth() {
       .single();
     if (existing) return existing as Profile;
 
-    // Create if not found
     const name =
       user.user_metadata?.full_name ||
       user.user_metadata?.name ||
@@ -55,70 +53,26 @@ export function useAuth() {
       return;
     }
 
-    let isMounted = true;
-
-    const updateState = async (session: Session | null) => {
-      if (!isMounted) return;
-      if (session?.user) {
-        const profile = await fetchOrCreateProfile(session.user);
-        if (isMounted) {
-          setState({ user: session.user, session, profile, loading: false });
-        }
-      } else {
-        if (isMounted) {
-          setState({ user: null, session: null, profile: null, loading: false });
-        }
-      }
-    };
-
-    // Step 1: Handle OAuth callback code if present
-    const init = async () => {
-      try {
-        const params = new URLSearchParams(window.location.search);
-        const code = params.get("code");
-
-        if (code) {
-          console.log("[Auth] Exchanging code...");
-          try {
-            const { data, error } = await supabase!.auth.exchangeCodeForSession(code);
-            console.log("[Auth] Exchange result:", error?.message || "success");
-            // Clean URL regardless of result
-            window.history.replaceState({}, "", window.location.pathname);
-            if (data?.session) {
-              await updateState(data.session);
-              return;
-            }
-          } catch (e) {
-            console.error("[Auth] Exchange error:", e);
-            window.history.replaceState({}, "", window.location.pathname);
-          }
-        }
-
-        // Step 2: Check existing session from localStorage
-        const { data: { session } } = await supabase!.auth.getSession();
-        console.log("[Auth] Existing session:", session?.user?.id || "none");
-        await updateState(session);
-      } catch (e) {
-        console.error("[Auth] Init error:", e);
-        if (isMounted) {
-          setState({ user: null, session: null, profile: null, loading: false });
-        }
-      }
-    };
-
-    init();
-
-    // Step 3: Listen for future auth changes (token refresh, sign out)
+    // Just listen for auth state changes - Supabase handles everything
     const {
       data: { subscription },
-    } = supabase!.auth.onAuthStateChange(async (_event, session) => {
-      console.log("[Auth] State change:", _event);
-      await updateState(session);
+    } = supabase!.auth.onAuthStateChange(async (event, session) => {
+      if (session?.user) {
+        const profile = await fetchOrCreateProfile(session.user);
+        setState({ user: session.user, session, profile, loading: false });
+      } else {
+        setState({ user: null, session: null, profile: null, loading: false });
+      }
     });
 
+    // Safety: stop loading after 5s no matter what
+    const timeout = setTimeout(() => {
+      setState((s) => (s.loading ? { ...s, loading: false } : s));
+    }, 5000);
+
     return () => {
-      isMounted = false;
       subscription.unsubscribe();
+      clearTimeout(timeout);
     };
   }, [fetchOrCreateProfile]);
 
@@ -141,7 +95,6 @@ export function useAuth() {
   const signOut = useCallback(async () => {
     if (!supabase) return;
     await supabase.auth.signOut();
-    setState({ user: null, session: null, profile: null, loading: false });
   }, []);
 
   const updateProfile = useCallback(
