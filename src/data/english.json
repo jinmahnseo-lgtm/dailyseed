@@ -39,11 +39,26 @@
       }
     ],
     "vocab": [
-      { "word": "ban", "meaning": "금지하다" },
-      { "word": "comfort", "meaning": "편안함" },
-      { "word": "barricade", "meaning": "바리케이드" },
-      { "word": "revolution", "meaning": "혁명" },
-      { "word": "aerodynamic", "meaning": "공기역학적인" }
+      {
+        "word": "ban",
+        "meaning": "금지하다"
+      },
+      {
+        "word": "comfort",
+        "meaning": "편안함"
+      },
+      {
+        "word": "barricade",
+        "meaning": "바리케이드"
+      },
+      {
+        "word": "revolution",
+        "meaning": "혁명"
+      },
+      {
+        "word": "aerodynamic",
+        "meaning": "공기역학적인"
+      }
     ]
   },
   {
@@ -86,11 +101,26 @@
       }
     ],
     "vocab": [
-      { "word": "fraud", "meaning": "사기" },
-      { "word": "control", "meaning": "지배하다" },
-      { "word": "identity", "meaning": "정체" },
-      { "word": "weigh", "meaning": "무게를 달다" },
-      { "word": "illusion", "meaning": "착시, 환상" }
+      {
+        "word": "fraud",
+        "meaning": "사기"
+      },
+      {
+        "word": "control",
+        "meaning": "지배하다"
+      },
+      {
+        "word": "identity",
+        "meaning": "정체"
+      },
+      {
+        "word": "weigh",
+        "meaning": "무게를 달다"
+      },
+      {
+        "word": "illusion",
+        "meaning": "착시, 환상"
+      }
     ]
   },
   {
@@ -133,11 +163,26 @@
       }
     ],
     "vocab": [
-      { "word": "warm", "meaning": "온난화되다" },
-      { "word": "exist", "meaning": "존재하다" },
-      { "word": "capture", "meaning": "포착하다" },
-      { "word": "abolish", "meaning": "폐지하다" },
-      { "word": "fungal", "meaning": "균류의" }
+      {
+        "word": "warm",
+        "meaning": "온난화되다"
+      },
+      {
+        "word": "exist",
+        "meaning": "존재하다"
+      },
+      {
+        "word": "capture",
+        "meaning": "포착하다"
+      },
+      {
+        "word": "abolish",
+        "meaning": "폐지하다"
+      },
+      {
+        "word": "fungal",
+        "meaning": "균류의"
+      }
     ]
   },
   {
@@ -180,11 +225,26 @@
       }
     ],
     "vocab": [
-      { "word": "escalate", "meaning": "확대되다" },
-      { "word": "biological", "meaning": "생물학적인" },
-      { "word": "gaze", "meaning": "응시하다" },
-      { "word": "destiny", "meaning": "운명" },
-      { "word": "blueprint", "meaning": "설계도" }
+      {
+        "word": "escalate",
+        "meaning": "확대되다"
+      },
+      {
+        "word": "biological",
+        "meaning": "생물학적인"
+      },
+      {
+        "word": "gaze",
+        "meaning": "응시하다"
+      },
+      {
+        "word": "destiny",
+        "meaning": "운명"
+      },
+      {
+        "word": "blueprint",
+        "meaning": "설계도"
+      }
     ]
   },
   {
@@ -227,11 +287,26 @@
       }
     ],
     "vocab": [
-      { "word": "ethical", "meaning": "윤리적인" },
-      { "word": "convince", "meaning": "설득하다" },
-      { "word": "imagination", "meaning": "상상력" },
-      { "word": "per capita", "meaning": "1인당" },
-      { "word": "tentacle", "meaning": "촉수" }
+      {
+        "word": "ethical",
+        "meaning": "윤리적인"
+      },
+      {
+        "word": "convince",
+        "meaning": "설득하다"
+      },
+      {
+        "word": "imagination",
+        "meaning": "상상력"
+      },
+      {
+        "word": "per capita",
+        "meaning": "1인당"
+      },
+      {
+        "word": "tentacle",
+        "meaning": "촉수"
+      }
     ]
   },
   {
@@ -274,11 +349,26 @@
       }
     ],
     "vocab": [
-      { "word": "ecosystem", "meaning": "생태계" },
-      { "word": "preserve", "meaning": "보존하다" },
-      { "word": "corpse", "meaning": "시체" },
-      { "word": "nomad", "meaning": "유목민" },
-      { "word": "repel", "meaning": "밀어내다" }
+      {
+        "word": "ecosystem",
+        "meaning": "생태계"
+      },
+      {
+        "word": "preserve",
+        "meaning": "보존하다"
+      },
+      {
+        "word": "corpse",
+        "meaning": "시체"
+      },
+      {
+        "word": "nomad",
+        "meaning": "유목민"
+      },
+      {
+        "word": "repel",
+        "meaning": "밀어내다"
+      }
     ]
   },
   {
@@ -321,11 +411,26 @@
       }
     ],
     "vocab": [
-      { "word": "predict", "meaning": "예측하다" },
-      { "word": "depend", "meaning": "달려 있다" },
-      { "word": "celestial", "meaning": "천체의" },
-      { "word": "navigate", "meaning": "항해하다" },
-      { "word": "accident", "meaning": "우연, 사고" }
+      {
+        "word": "predict",
+        "meaning": "예측하다"
+      },
+      {
+        "word": "depend",
+        "meaning": "달려 있다"
+      },
+      {
+        "word": "celestial",
+        "meaning": "천체의"
+      },
+      {
+        "word": "navigate",
+        "meaning": "항해하다"
+      },
+      {
+        "word": "accident",
+        "meaning": "우연, 사고"
+      }
     ]
   },
   {
@@ -368,11 +473,26 @@
       }
     ],
     "vocab": [
-      { "word": "responsible", "meaning": "책임 있는" },
-      { "word": "fall", "meaning": "타락하다, 떨어지다" },
-      { "word": "unarmed", "meaning": "비무장의" },
-      { "word": "measure", "meaning": "측정하다" },
-      { "word": "astonishing", "meaning": "놀라운" }
+      {
+        "word": "responsible",
+        "meaning": "책임 있는"
+      },
+      {
+        "word": "fall",
+        "meaning": "타락하다, 떨어지다"
+      },
+      {
+        "word": "unarmed",
+        "meaning": "비무장의"
+      },
+      {
+        "word": "measure",
+        "meaning": "측정하다"
+      },
+      {
+        "word": "astonishing",
+        "meaning": "놀라운"
+      }
     ]
   },
   {
@@ -415,11 +535,26 @@
       }
     ],
     "vocab": [
-      { "word": "loneliness", "meaning": "외로움" },
-      { "word": "destroy", "meaning": "파괴하다" },
-      { "word": "self-portrait", "meaning": "자화상" },
-      { "word": "ancestor", "meaning": "조상" },
-      { "word": "persist", "meaning": "지속되다" }
+      {
+        "word": "loneliness",
+        "meaning": "외로움"
+      },
+      {
+        "word": "destroy",
+        "meaning": "파괴하다"
+      },
+      {
+        "word": "self-portrait",
+        "meaning": "자화상"
+      },
+      {
+        "word": "ancestor",
+        "meaning": "조상"
+      },
+      {
+        "word": "persist",
+        "meaning": "지속되다"
+      }
     ]
   },
   {
@@ -462,11 +597,26 @@
       }
     ],
     "vocab": [
-      { "word": "produce", "meaning": "농산물" },
-      { "word": "dwell", "meaning": "거주하다" },
-      { "word": "cliff", "meaning": "절벽" },
-      { "word": "essential", "meaning": "필수적인" },
-      { "word": "trigger", "meaning": "촉발하다" }
+      {
+        "word": "produce",
+        "meaning": "농산물"
+      },
+      {
+        "word": "dwell",
+        "meaning": "거주하다"
+      },
+      {
+        "word": "cliff",
+        "meaning": "절벽"
+      },
+      {
+        "word": "essential",
+        "meaning": "필수적인"
+      },
+      {
+        "word": "trigger",
+        "meaning": "촉발하다"
+      }
     ]
   },
   {
@@ -509,11 +659,26 @@
       }
     ],
     "vocab": [
-      { "word": "pressure", "meaning": "압력" },
-      { "word": "defeat", "meaning": "패배시키다" },
-      { "word": "masterpiece", "meaning": "걸작" },
-      { "word": "colonize", "meaning": "식민지배하다" },
-      { "word": "conquer", "meaning": "정복하다" }
+      {
+        "word": "pressure",
+        "meaning": "압력"
+      },
+      {
+        "word": "defeat",
+        "meaning": "패배시키다"
+      },
+      {
+        "word": "masterpiece",
+        "meaning": "걸작"
+      },
+      {
+        "word": "colonize",
+        "meaning": "식민지배하다"
+      },
+      {
+        "word": "conquer",
+        "meaning": "정복하다"
+      }
     ]
   },
   {
@@ -556,11 +721,26 @@
       }
     ],
     "vocab": [
-      { "word": "decade", "meaning": "10년" },
-      { "word": "reside", "meaning": "깃들다" },
-      { "word": "turbulence", "meaning": "난류" },
-      { "word": "continuous", "meaning": "연속적인" },
-      { "word": "warp", "meaning": "왜곡하다" }
+      {
+        "word": "decade",
+        "meaning": "10년"
+      },
+      {
+        "word": "reside",
+        "meaning": "깃들다"
+      },
+      {
+        "word": "turbulence",
+        "meaning": "난류"
+      },
+      {
+        "word": "continuous",
+        "meaning": "연속적인"
+      },
+      {
+        "word": "warp",
+        "meaning": "왜곡하다"
+      }
     ]
   },
   {
@@ -603,11 +783,26 @@
       }
     ],
     "vocab": [
-      { "word": "credit-based", "meaning": "학점 기반의" },
-      { "word": "deliberately", "meaning": "의도적으로" },
-      { "word": "gesture", "meaning": "몸짓하다" },
-      { "word": "span", "meaning": "걸치다" },
-      { "word": "profound", "meaning": "깊은, 심오한" }
+      {
+        "word": "credit-based",
+        "meaning": "학점 기반의"
+      },
+      {
+        "word": "deliberately",
+        "meaning": "의도적으로"
+      },
+      {
+        "word": "gesture",
+        "meaning": "몸짓하다"
+      },
+      {
+        "word": "span",
+        "meaning": "걸치다"
+      },
+      {
+        "word": "profound",
+        "meaning": "깊은, 심오한"
+      }
     ]
   },
   {
@@ -650,11 +845,460 @@
       }
     ],
     "vocab": [
-      { "word": "creative", "meaning": "창의적인" },
-      { "word": "striving", "meaning": "분투, 추구" },
-      { "word": "primary", "meaning": "원색의, 주요한" },
-      { "word": "concept", "meaning": "개념" },
-      { "word": "atom", "meaning": "원자" }
+      {
+        "word": "creative",
+        "meaning": "창의적인"
+      },
+      {
+        "word": "striving",
+        "meaning": "분투, 추구"
+      },
+      {
+        "word": "primary",
+        "meaning": "원색의, 주요한"
+      },
+      {
+        "word": "concept",
+        "meaning": "개념"
+      },
+      {
+        "word": "atom",
+        "meaning": "원자"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "A high school environmental activist urged world leaders to phase out fossil fuels during her speech at the UN climate summit.",
+        "ko": "한 고등학생 환경 운동가가 UN 기후 정상회담에서 연설을 통해 세계 지도자들에게 화석연료를 단계적으로 퇴출할 것을 촉구했다.",
+        "note": "'urged + 목적어 + to부정사' 구조로 '~에게 ...하도록 촉구하다'를 표현해. 'phase out'은 '단계적으로 없애다'라는 뜻의 구동사야."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "Atticus taught Scout that real courage is when you fight for what's right, even when you know you might lose.",
+        "ko": "애티커스는 스카우트에게 진정한 용기란 질 수도 있다는 걸 알면서도 옳은 것을 위해 싸우는 것이라고 가르쳤다.",
+        "note": "'when you know you might lose'에서 'might'는 가능성을 나타내는 조동사야. 'even when'은 '~일 때조차도'라는 양보의 뜻이지."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Delacroix's masterpiece depicts Liberty leading the people forward with unwavering determination during the revolution.",
+        "ko": "들라크루아의 걸작은 혁명 중에 자유가 흔들리지 않는 결의로 민중을 앞으로 이끄는 모습을 묘사한다.",
+        "note": "'depict'는 '묘사하다'는 뜻이고, 'leading the people forward'에서 현재분사 'leading'이 Liberty를 수식하고 있어."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "The Highland warriors of Scotland were known for their fierce bravery and willingness to defend their homeland.",
+        "ko": "스코틀랜드의 하이랜드 전사들은 그들의 치열한 용맹심과 고향을 지키려는 의지로 유명했다.",
+        "note": "'be known for'는 '~로 유명하다'는 수동형 표현이야. 'willingness to'는 '~하려는 의지'를 나타내지."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Animals can overcome their natural fear through evolutionary adaptations that help them survive dangerous situations.",
+        "ko": "동물들은 위험한 상황에서 생존하는 데 도움이 되는 진화적 적응을 통해 타고난 두려움을 극복할 수 있다.",
+        "note": "'can overcome'에서 조동사 can은 능력을 나타내고, 'that help them survive'는 관계대명사절로 앞의 명사를 수식해."
+      }
+    ],
+    "vocab": [
+      {
+        "word": "urge",
+        "meaning": "촉구하다"
+      },
+      {
+        "word": "courage",
+        "meaning": "용기"
+      },
+      {
+        "word": "depict",
+        "meaning": "묘사하다"
+      },
+      {
+        "word": "bravery",
+        "meaning": "용맹"
+      },
+      {
+        "word": "overcome",
+        "meaning": "극복하다"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "Generation communication projects are spreading nationwide to bridge the gap between MZ generation and older generations.",
+        "ko": "MZ세대와 기성세대 간의 격차를 메우기 위한 세대 소통 프로젝트가 전국적으로 확산되고 있다.",
+        "note": "'to bridge the gap'에서 to부정사가 목적을 나타내고, 'bridge'가 동사로 쓰여서 '다리를 놓다, 메우다'라는 뜻이야."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "Elizabeth and Darcy's relationship improved significantly once they began communicating honestly about their feelings.",
+        "ko": "엘리자베스와 다시의 관계는 그들이 자신들의 감정에 대해 솔직하게 소통하기 시작하자 크게 개선되었다.",
+        "note": "'once'는 '~하자마자'라는 뜻의 접속사야. 'began communicating'에서 동명사가 목적어로 사용되었어."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Raphael's fresco illustrates how great minds from different eras can engage in timeless philosophical dialogue.",
+        "ko": "라파엘의 프레스코화는 서로 다른 시대의 위대한 정신들이 어떻게 시대를 초월한 철학적 대화에 참여할 수 있는지를 보여준다.",
+        "note": "'how'가 간접의문문을 이끌고 있고, 'engage in'은 '~에 참여하다'라는 뜻의 구동사야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "In India, the greeting 'Namaste' represents a deep respect for the divine spirit within each person.",
+        "ko": "인도에서 '나마스테'라는 인사는 각 사람 안의 신성한 영혼에 대한 깊은 존경을 나타낸다.",
+        "note": "'represent'는 '나타내다, 상징하다'는 뜻이고, 'within each person'에서 'within'은 '~의 안에'라는 전치사야."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Animals use various forms of non-verbal communication, including body language, chemical signals, and sound patterns.",
+        "ko": "동물들은 몸짓 언어, 화학적 신호, 소리 패턴을 포함한 다양한 형태의 비언어적 소통을 사용한다.",
+        "note": "'including'은 전치사로 '~을 포함한'이라는 뜻이야. 'various forms of'는 '다양한 형태의'를 나타내는 표현이지."
+      }
+    ],
+    "vocab": [
+      {
+        "word": "bridge",
+        "meaning": "메우다"
+      },
+      {
+        "word": "communicate",
+        "meaning": "소통하다"
+      },
+      {
+        "word": "engage",
+        "meaning": "참여하다"
+      },
+      {
+        "word": "respect",
+        "meaning": "존경"
+      },
+      {
+        "word": "pattern",
+        "meaning": "패턴"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-31",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "University students from the COVID generation are finally recovering their employment rates and making up for their lost youth.",
+        "ko": "코로나 세대 대학생들이 마침내 취업률을 회복하고 잃어버린 청춘을 만회하고 있다.",
+        "note": "'are recovering'은 현재진행형으로 지속적인 회복 과정을 나타내고, 'make up for'는 '만회하다'라는 뜻의 구동사야."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "Hermann Hesse wrote that every person must find their own path to become who they are meant to be.",
+        "ko": "헤르만 헤세는 모든 사람이 자신이 되어야 할 존재가 되기 위해 자신만의 길을 찾아야 한다고 썼다.",
+        "note": "'who they are meant to be'에서 'be meant to'는 '~하기로 되어 있다'는 뜻이야. 관계대명사 who가 이끄는 절이 their own path를 설명해."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Van Gogh's sunflowers symbolize the artist's continuous growth and his passionate pursuit of beauty despite hardships.",
+        "ko": "반 고흐의 해바라기는 어려움에도 불구하고 계속된 성장과 아름다움에 대한 열정적인 추구를 상징한다.",
+        "note": "'despite'는 전치사로 '~에도 불구하고'라는 뜻이야. 'pursuit of'는 '~의 추구'를 나타내는 표현이지."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "In Finland, the concept of 'sisu' represents the determination to keep growing stronger through life's challenges.",
+        "ko": "핀란드에서 '시수'라는 개념은 삶의 도전을 통해 계속 더 강해지려는 결심을 나타낸다.",
+        "note": "'keep growing stronger'에서 'keep + 동명사'는 '계속 ~하다'를 의미하고, 'through'는 '~을 통해'라는 전치사야."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Plants achieve remarkable growth by efficiently converting sunlight, water, and nutrients into energy for cellular development.",
+        "ko": "식물들은 햇빛, 물, 영양분을 세포 발달을 위한 에너지로 효율적으로 전환함으로써 놀라운 성장을 이룬다.",
+        "note": "'by converting'에서 전치사 by + 동명사가 방법을 나타내고, 'convert A into B'는 'A를 B로 전환하다'는 뜻이야."
+      }
+    ],
+    "vocab": [
+      {
+        "word": "recover",
+        "meaning": "회복하다"
+      },
+      {
+        "word": "symbolize",
+        "meaning": "상징하다"
+      },
+      {
+        "word": "pursuit",
+        "meaning": "추구"
+      },
+      {
+        "word": "determination",
+        "meaning": "결심"
+      },
+      {
+        "word": "convert",
+        "meaning": "전환하다"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "High schools nationwide are introducing 'failure learning' curricula to highlight the value of trial and error in education.",
+        "ko": "전국의 고등학교들이 교육에서 시행착오의 가치를 부각시키기 위해 '실패 학습' 교육과정을 도입하고 있다.",
+        "note": "'are introducing'은 현재진행형으로 진행 중인 변화를 나타내고, 'to highlight'는 목적을 나타내는 to부정사야."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "Robinson Crusoe learned to survive on the island through countless experiences of making mistakes and finding solutions.",
+        "ko": "로빈슨 크루소는 실수를 하고 해결책을 찾는 수많은 경험을 통해 섬에서 생존하는 법을 배웠다.",
+        "note": "'learned to survive'에서 'learn to do'는 '~하는 법을 배우다'이고, 'through experiences of making'에서 전치사 of 다음에 동명사가 와."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Vermeer's masterpiece captures a fleeting moment that seems to hold centuries of human experience and emotion.",
+        "ko": "베르메르의 걸작은 수 세기의 인간 경험과 감정을 담고 있는 것처럼 보이는 덧없는 순간을 포착한다.",
+        "note": "'that seems to hold'에서 관계대명사 that이 moment를 수식하고, 'seem to'는 '~인 것 같다'는 뜻이야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "The Inca practiced 'ayni', a tradition of sharing experiences and knowledge to strengthen their entire community.",
+        "ko": "잉카족은 전체 공동체를 강화하기 위해 경험과 지식을 나누는 전통인 '아이니'를 실천했다.",
+        "note": "'practiced'는 과거형이고, 'a tradition of sharing'에서 전치사 of 다음에 동명사가 와서 tradition을 구체적으로 설명해."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Our brain processes experiences by forming neural connections that can be retrieved and applied to future situations.",
+        "ko": "우리의 뇌는 미래 상황에 회상하고 적용될 수 있는 신경 연결을 형성함으로써 경험을 처리한다.",
+        "note": "'by forming'에서 전치사 by + 동명사가 방법을 나타내고, 'that can be retrieved'는 관계대명사절로 connections를 수식해."
+      }
+    ],
+    "vocab": [
+      {
+        "word": "introduce",
+        "meaning": "도입하다"
+      },
+      {
+        "word": "survive",
+        "meaning": "생존하다"
+      },
+      {
+        "word": "capture",
+        "meaning": "포착하다"
+      },
+      {
+        "word": "strengthen",
+        "meaning": "강화하다"
+      },
+      {
+        "word": "retrieve",
+        "meaning": "회상하다"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "Middle and high schools nationwide are making emotional education mandatory, starting with learning to read people's feelings.",
+        "ko": "전국의 중고등학교들이 사람들의 감정을 읽는 법을 배우는 것부터 시작하여 감정 교육을 의무화하고 있다.",
+        "note": "'are making ~ mandatory'에서 'make + 목적어 + 형용사'는 '~을 ...하게 만들다'는 뜻이야. 'starting with'는 '~부터 시작하여'라는 의미지."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "Atticus demonstrated true empathy by teaching his children to understand others' perspectives before judging them.",
+        "ko": "애티커스는 자신의 아이들에게 다른 사람들을 판단하기 전에 그들의 관점을 이해하도록 가르침으로써 진정한 공감을 보여주었다.",
+        "note": "'by teaching'에서 전치사 by + 동명사가 방법을 나타내고, 'before judging'에서 전치사 before 다음에 동명사가 와."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Munch's 'The Scream' powerfully expresses the universal human experience of anxiety that everyone can relate to.",
+        "ko": "뭉크의 '절규'는 모든 사람이 공감할 수 있는 불안이라는 보편적인 인간 경험을 강력하게 표현한다.",
+        "note": "'that everyone can relate to'에서 관계대명사 that이 anxiety를 수식하고, 'relate to'는 '~에 공감하다'라는 뜻의 구동사야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "The Ubuntu philosophy from Kenya teaches that we become more human through our connections and empathy with others.",
+        "ko": "케냐의 우분투 철학은 우리가 다른 사람들과의 연결과 공감을 통해 더욱 인간다워진다고 가르친다.",
+        "note": "'teaches that'에서 that절이 목적어 역할을 하고, 'through our connections'에서 전치사 through가 방법을 나타내."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Mirror neurons activate when we observe others' actions, allowing us to literally feel what another person is experiencing.",
+        "ko": "거울 뉴런은 우리가 다른 사람의 행동을 관찰할 때 활성화되어, 우리가 문자 그대로 다른 사람이 경험하는 것을 느끼게 해준다.",
+        "note": "'when we observe'는 시간을 나타내는 부사절이고, 'allowing us to feel'에서 현재분사가 결과를 나타내는 부사구 역할을 해."
+      }
+    ],
+    "vocab": [
+      {
+        "word": "mandatory",
+        "meaning": "의무적인"
+      },
+      {
+        "word": "empathy",
+        "meaning": "공감"
+      },
+      {
+        "word": "universal",
+        "meaning": "보편적인"
+      },
+      {
+        "word": "connection",
+        "meaning": "연결"
+      },
+      {
+        "word": "activate",
+        "meaning": "활성화하다"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "Companies implementing four-day work weeks are achieving both improved productivity and higher employee satisfaction simultaneously.",
+        "ko": "주 4일 근무제를 도입하는 기업들이 생산성 향상과 더 높은 직원 만족도를 동시에 달성하고 있다.",
+        "note": "'implementing'은 현재분사로 companies를 수식하고, 'both A and B'는 'A와 B 둘 다'라는 뜻이야. 'simultaneously'는 '동시에'라는 부사지."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "The ancient Chinese philosophy of the Golden Mean emphasizes finding balance between extremes in all aspects of life.",
+        "ko": "중용이라는 고대 중국 철학은 삶의 모든 측면에서 극단 사이의 균형을 찾는 것을 강조한다.",
+        "note": "'emphasizes finding'에서 동명사 finding이 목적어 역할을 하고, 'between extremes'에서 전치사 between이 '~사이에'를 나타내."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Botticelli's 'Birth of Venus' represents the perfect harmony between divine beauty and earthly grace.",
+        "ko": "보티첼리의 '비너스의 탄생'은 신적인 아름다움과 세속적인 우아함 사이의 완벽한 조화를 나타낸다.",
+        "note": "'represents'는 '나타내다'는 뜻이고, 'between A and B'가 'A와 B 사이의'를 의미해. 'divine'과 'earthly'는 대조를 이루는 형용사야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "The Danish concept of 'hygge' encourages people to find balance by enjoying simple pleasures and cozy moments.",
+        "ko": "덴마크의 '휘게' 개념은 사람들이 단순한 즐거움과 아늑한 순간들을 즐김으로써 균형을 찾도록 격려한다.",
+        "note": "'encourages people to find'에서 'encourage + 목적어 + to부정사'는 '~이 ...하도록 격려하다'이고, 'by enjoying'은 방법을 나타내."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Our body maintains perfect balance through homeostasis, constantly adjusting thousands of chemical reactions every second.",
+        "ko": "우리 몸은 항상성을 통해 완벽한 균형을 유지하며, 매초마다 수천 개의 화학 반응을 지속적으로 조정한다.",
+        "note": "'maintains perfect balance through'에서 전치사 through가 방법을 나타내고, 'constantly adjusting'은 현재분사로 동시 상황을 표현해."
+      }
+    ],
+    "vocab": [
+      {
+        "word": "achieve",
+        "meaning": "달성하다"
+      },
+      {
+        "word": "emphasize",
+        "meaning": "강조하다"
+      },
+      {
+        "word": "harmony",
+        "meaning": "조화"
+      },
+      {
+        "word": "encourage",
+        "meaning": "격려하다"
+      },
+      {
+        "word": "maintain",
+        "meaning": "유지하다"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-04",
+    "sentences": [
+      {
+        "source": "뉴스",
+        "emoji": "📰",
+        "en": "The rapid advancement of AI technology is accelerating digital transformation and creating entirely new career fields.",
+        "ko": "AI 기술의 급속한 발전이 디지털 전환을 가속화하고 완전히 새로운 직업 분야를 창조하고 있다.",
+        "note": "'is accelerating'은 현재진행형으로 지속적인 변화를 나타내고, 'entirely new'에서 entirely가 new를 강조하는 부사야."
+      },
+      {
+        "source": "고전",
+        "emoji": "📖",
+        "en": "Kafka's 'Metamorphosis' explores how sudden change can completely transform both identity and relationships.",
+        "ko": "카프카의 '변신'은 갑작스러운 변화가 어떻게 정체성과 관계를 완전히 변화시킬 수 있는지를 탐구한다.",
+        "note": "'explores how'에서 how가 간접의문문을 이끌고, 'both A and B'는 'A와 B 둘 다'를 의미해. 'completely'는 정도를 나타내는 부사야."
+      },
+      {
+        "source": "명화",
+        "emoji": "🎨",
+        "en": "Dalí's melting clocks symbolize how our perception of time changes depending on our psychological state.",
+        "ko": "달리의 녹는 시계는 우리의 시간에 대한 인식이 심리적 상태에 따라 어떻게 변화하는지를 상징한다.",
+        "note": "'how our perception changes'에서 how가 간접의문문을 이끌고, 'depending on'은 '~에 따라'라는 뜻의 분사구문이야."
+      },
+      {
+        "source": "세계문화",
+        "emoji": "🌍",
+        "en": "Brazilian samba embodies the art of transformation, constantly evolving while preserving its cultural essence.",
+        "ko": "브라질의 삼바는 변화의 예술을 구현하며, 문화적 본질을 보존하면서 지속적으로 진화한다.",
+        "note": "'embodies'는 '구현하다'는 뜻이고, 'while preserving'에서 while + 현재분사가 동시 상황을 나타내."
+      },
+      {
+        "source": "왜왜왜",
+        "emoji": "🔬",
+        "en": "Butterflies undergo complete metamorphosis while somehow retaining memories from their caterpillar stage through neural restructuring.",
+        "ko": "나비는 신경 재구성을 통해 어떻게든 애벌레 시절의 기억을 보유하면서 완전한 변태를 겪는다.",
+        "note": "'while retaining'에서 while + 현재분사가 동시 상황을 나타내고, 'somehow'는 '어떻게든'이라는 뜻의 부사야."
+      }
+    ],
+    "vocab": [
+      {
+        "word": "accelerate",
+        "meaning": "가속화하다"
+      },
+      {
+        "word": "transform",
+        "meaning": "변화시키다"
+      },
+      {
+        "word": "symbolize",
+        "meaning": "상징하다"
+      },
+      {
+        "word": "embody",
+        "meaning": "구현하다"
+      },
+      {
+        "word": "retain",
+        "meaning": "보유하다"
+      }
     ]
   }
 ]
