@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useAuthContext } from "@/contexts/AuthContext";
 
 export default function LoginPage() {
@@ -92,10 +93,18 @@ export default function LoginPage() {
           </button>
         </div>
 
+        {/* Terms */}
+        <p className="text-center text-[11px] text-gray-400 mt-6 leading-relaxed">
+          시작하기 버튼을 누르면{" "}
+          <Link href="/terms" className="underline hover:text-gray-600">이용약관</Link> 및{" "}
+          <Link href="/privacy" className="underline hover:text-gray-600">개인정보 처리방침</Link>에<br />
+          동의하는 것으로 간주합니다.
+        </p>
+
         {/* Back */}
         <button
           onClick={() => router.back()}
-          className="block mx-auto mt-8 text-sm text-gray-400 hover:text-gray-600 transition-colors"
+          className="block mx-auto mt-6 text-sm text-gray-400 hover:text-gray-600 transition-colors"
         >
           ← 로그인 없이 계속하기
         </button>
