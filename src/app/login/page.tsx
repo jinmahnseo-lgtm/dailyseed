@@ -47,7 +47,7 @@ export default function LoginPage() {
             DailySeed
           </h1>
           <p className="text-sm text-gray-500 mt-1">
-            로그인하면 학습 기록이 저장돼요
+            학습 기록 저장을 위해 로그인해주세요.
           </p>
         </div>
 
@@ -92,19 +92,6 @@ export default function LoginPage() {
           </button>
         </div>
 
-        {/* Info */}
-        <p className="text-[11px] text-gray-400 text-center mt-6 leading-relaxed">
-          로그인 없이도 DailySeed를 이용할 수 있어요.<br />
-          로그인하면 여러 기기에서 학습 기록을 동기화할 수 있어요.
-        </p>
-
-        {/* Back */}
-        <button
-          onClick={() => router.back()}
-          className="block mx-auto mt-6 text-sm text-gray-400 hover:text-gray-600 transition-colors"
-        >
-          ← 로그인 없이 계속하기
-        </button>
       </div>
     </div>
   );
