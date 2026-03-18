@@ -155,7 +155,7 @@ export default function Home() {
           </h1>
         </div>
         <p className="text-[13px] text-[var(--text-muted)] mt-0.5 font-medium">
-          청소년을 위한 매일의 씨앗
+          청소년의 교양을 위한 매일의 씨앗
         </p>
       </header>
 
@@ -289,7 +289,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="text-center mt-8 mb-2">
         <p className="text-xs text-[var(--text-subtle)] font-medium">
-          매일 하나의 키워드로, 세상을 깊이 보는 눈을 키워요
+          하나의 키워드, 여섯 가지 시선으로 세상을 넓혀요
         </p>
         <p className="text-[10px] text-[var(--text-subtle)]/50 mt-1">
           by 준·수 아빠
