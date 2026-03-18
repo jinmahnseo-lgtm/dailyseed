@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState, useEffect, useCallback, useRef } from "react";
-import { useSharedDate, formatDateShort, getMaxDate, isAdminEmail } from "@/hooks/useSharedDate";
+import { useSharedDate, formatDateShort, isAdminEmail } from "@/hooks/useSharedDate";
 import themes from "@/data/themes.json";
 import { isMissionDone, setCurrentUserId } from "@/hooks/useMission";
 import { useAuthContext } from "@/contexts/AuthContext";
@@ -107,7 +107,7 @@ export default function Home() {
   const router = useRouter();
   const { user, profile, loading: authLoading } = useAuthContext();
   const admin = isAdminEmail(user?.email);
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
     useSharedDate(admin);
   const [missions, setMissions] = useState<Record<string, boolean>>({});
   const isLoggedIn = !!user;
@@ -159,7 +159,6 @@ export default function Home() {
   const parsedDate = date ? new Date(date + "T00:00:00") : new Date();
   const [calYear, setCalYear] = useState(parsedDate.getFullYear());
   const [calMonth, setCalMonth] = useState(parsedDate.getMonth());
-  const maxDate = getMaxDate(admin);
   const themeSet = new Set(themes.map((t: { date: string }) => t.date));
   const DAYS_LABEL = ["일", "월", "화", "수", "목", "금", "토"];
 

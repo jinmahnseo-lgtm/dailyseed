@@ -1,8 +1,7 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import english from "@/data/english.json";
 import classicsData from "@/data/classics.json";
 import artsData from "@/data/arts.json";
@@ -45,12 +44,10 @@ function getSourceTitle(source: string, date: string): string {
 }
 
 export default function EnglishPage() {
-  const router = useRouter();
   const { user } = useAuthContext();
   const admin = isAdminEmail(user?.email);
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
     useSharedDate(admin);
-  const requireLogin = useCallback(() => router.push("/login"), [router]);
   const item = (english as EnglishItem[]).find((e) => e.date === date) || (english as EnglishItem[])[0];
   const { done, complete } = useMission("english", item?.date || "");
 
@@ -93,8 +90,7 @@ export default function EnglishPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="english"
-        isLoggedIn={!!user}
-        onRequireLogin={requireLogin}
+        maxDate={maxDate}
       />
 
       {item.sentences.map((s, i) => (

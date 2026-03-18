@@ -3,8 +3,9 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import classicsRaw from "@/data/classics.json";
-import { useSharedDate } from "@/hooks/useSharedDate";
+import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
+import { useAuthContext } from "@/contexts/AuthContext";
 import DayNavigator from "@/components/DayNavigator";
 
 interface ClassicItem {
@@ -21,8 +22,10 @@ interface ClassicItem {
 const classics = classicsRaw as ClassicItem[];
 
 export default function ClassicPage() {
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
-    useSharedDate();
+  const { user } = useAuthContext();
+  const admin = isAdminEmail(user?.email);
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
+    useSharedDate(admin);
   const item = classics.find((c) => c.date === date) || classics[0];
   const { done, complete } = useMission("classic", item?.date || "");
   const [answer, setAnswer] = useState("");
@@ -51,6 +54,7 @@ export default function ClassicPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="classic"
+        maxDate={maxDate}
       />
 
       {/* 작품 정보 & 줄거리 */}

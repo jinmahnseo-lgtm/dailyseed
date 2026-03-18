@@ -1,8 +1,7 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import worlds from "@/data/worlds.json";
 import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
@@ -10,12 +9,10 @@ import { useAuthContext } from "@/contexts/AuthContext";
 import DayNavigator from "@/components/DayNavigator";
 
 export default function WorldPage() {
-  const router = useRouter();
   const { user } = useAuthContext();
   const admin = isAdminEmail(user?.email);
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
     useSharedDate(admin);
-  const requireLogin = useCallback(() => router.push("/login"), [router]);
   const world = worlds.find((w) => w.date === date) || worlds[0];
   const { done, complete } = useMission("world", world?.date || "");
 
@@ -59,8 +56,7 @@ export default function WorldPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="world"
-        isLoggedIn={!!user}
-        onRequireLogin={requireLogin}
+        maxDate={maxDate}
       />
 
       {/* 나라 소개 */}

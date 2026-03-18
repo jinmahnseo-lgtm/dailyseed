@@ -1,8 +1,7 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import newsRaw from "@/data/news.json";
 import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
@@ -31,12 +30,10 @@ interface NewsItem {
 const news = newsRaw as NewsItem[];
 
 export default function NewsPage() {
-  const router = useRouter();
   const { user } = useAuthContext();
   const admin = isAdminEmail(user?.email);
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
     useSharedDate(admin);
-  const requireLogin = useCallback(() => router.push("/login"), [router]);
   const item = news.find((n) => n.date === date) || null;
   const { done, complete } = useMission("news", item?.date || "");
 
@@ -73,8 +70,7 @@ export default function NewsPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="news"
-        isLoggedIn={!!user}
-        onRequireLogin={requireLogin}
+        maxDate={maxDate}
       />
 
       {!item ? (
