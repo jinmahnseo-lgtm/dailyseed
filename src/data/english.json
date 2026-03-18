@@ -3,13 +3,6 @@
     "date": "2026-03-16",
     "sentences": [
       {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "Starting this March, all smartphones are banned during class in Korean schools.",
-        "ko": "올해 3월부터 한국 학교에서 수업 중 모든 스마트폰 사용이 금지됐다.",
-        "note": "'are banned'는 수동태로 '금지되다'라는 뜻이야. ban(금지하다)의 과거분사 banned가 be동사와 결합해 '금지된 상태'를 나타내."
-      },
-      {
         "source": "고전",
         "emoji": "📖",
         "en": "But I don't want comfort. I want God, I want poetry, I want real danger, I want freedom, I want goodness. I want sin.",
@@ -40,10 +33,6 @@
     ],
     "vocab": [
       {
-        "word": "ban",
-        "meaning": "금지하다"
-      },
-      {
         "word": "comfort",
         "meaning": "편안함"
       },
@@ -64,13 +53,6 @@
   {
     "date": "2026-03-17",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "AI-generated deepfake fraud has caused over 579 billion dollars in damages worldwide.",
-        "ko": "AI가 만든 딥페이크 사기로 인한 전 세계 피해액이 5,790억 달러를 넘었다.",
-        "note": "'AI-generated'는 복합형용사로 'AI가 생성한'이라는 뜻이야. 명사 앞에 하이픈(-)으로 연결된 복합어가 형용사 역할을 해."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -102,10 +84,6 @@
     ],
     "vocab": [
       {
-        "word": "fraud",
-        "meaning": "사기"
-      },
-      {
         "word": "control",
         "meaning": "지배하다"
       },
@@ -126,13 +104,6 @@
   {
     "date": "2026-03-18",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "The Earth is warming 75 percent faster than before, and may cross the 1.5-degree limit by 2029.",
-        "ko": "지구가 이전보다 75% 빠르게 온난화되고 있으며, 2029년까지 1.5도 한계를 넘을 수 있다.",
-        "note": "'75 percent faster than before'에서 비교급 + than 구문을 숫자와 함께 쓰는 패턴이야. 배수/퍼센트 + 비교급 + than은 차이를 구체적으로 표현할 때 유용해."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -164,10 +135,6 @@
     ],
     "vocab": [
       {
-        "word": "warm",
-        "meaning": "온난화되다"
-      },
-      {
         "word": "exist",
         "meaning": "존재하다"
       },
@@ -188,13 +155,6 @@
   {
     "date": "2026-03-19",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "As military conflict between Israel and Iran escalates, oil prices have surged past 100 dollars per barrel.",
-        "ko": "이스라엘-이란 간 군사 충돌이 확대되면서, 유가가 배럴당 100달러를 넘어 급등했다.",
-        "note": "'As ~ escalates'에서 as는 '~함에 따라'라는 시간/원인의 접속사야. surge past는 '~을 돌파하며 급등하다'라는 뜻으로, 가격 상승 뉴스에 자주 나오는 표현이야."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -226,10 +186,6 @@
     ],
     "vocab": [
       {
-        "word": "escalate",
-        "meaning": "확대되다"
-      },
-      {
         "word": "biological",
         "meaning": "생물학적인"
       },
@@ -250,13 +206,6 @@
   {
     "date": "2026-03-20",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "Schools should teach students not just how to use AI, but what AI cannot do — critical thinking, ethical judgment, and creative questioning.",
-        "ko": "학교는 학생들에게 AI를 사용하는 법뿐 아니라, AI가 할 수 없는 것 — 비판적 사고, 윤리적 판단, 창의적 질문 — 을 가르쳐야 한다.",
-        "note": "'not just A, but B'는 'A뿐만 아니라 B도'라는 뜻이야. not only ~ but also와 같은 패턴인데, 일상에서는 just/but 조합이 더 자연스러워."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -288,10 +237,6 @@
     ],
     "vocab": [
       {
-        "word": "ethical",
-        "meaning": "윤리적인"
-      },
-      {
         "word": "convince",
         "meaning": "설득하다"
       },
@@ -312,13 +257,6 @@
   {
     "date": "2026-03-21",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "Since the 1970s, the rate at which species replace each other in ecosystems has slowed to about one third.",
-        "ko": "1970년대 이후, 생태계에서 종이 서로를 대체하는 속도가 약 3분의 1로 느려졌다.",
-        "note": "'the rate at which ~'는 '~하는 속도/비율'이라는 뜻이야. 전치사 + which 구문은 격식체 글에서 자주 쓰이니 패턴을 익혀둬."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -350,10 +288,6 @@
     ],
     "vocab": [
       {
-        "word": "ecosystem",
-        "meaning": "생태계"
-      },
-      {
         "word": "preserve",
         "meaning": "보존하다"
       },
@@ -374,13 +308,6 @@
   {
     "date": "2026-03-22",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "Scientists discovered that sea levels are 30 centimeters higher than previously predicted, putting a billion coastal residents at risk.",
-        "ko": "과학자들은 해수면이 이전 예측보다 30cm 더 높다는 사실을 발견했고, 이로 인해 10억 해안 주민이 위험에 처해 있다.",
-        "note": "'than previously predicted'는 '이전에 예측된 것보다'라는 비교 구문이야. putting은 분사구문으로 결과를 나타내. at risk는 '위험에 처한' 상태를 뜻해."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -412,10 +339,6 @@
     ],
     "vocab": [
       {
-        "word": "predict",
-        "meaning": "예측하다"
-      },
-      {
         "word": "depend",
         "meaning": "달려 있다"
       },
@@ -436,13 +359,6 @@
   {
     "date": "2026-03-23",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "If a self-driving taxi causes an accident, who should be held responsible — the company, the passenger, or the AI itself?",
-        "ko": "자율주행 택시가 사고를 내면, 누가 책임을 져야 할까 — 회사, 승객, 아니면 AI 자체?",
-        "note": "'be held responsible'는 '책임을 지다/책임이 있다고 여겨지다'라는 수동태 표현이야. hold someone responsible는 '~에게 책임을 묻다'라는 뜻이야."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -474,10 +390,6 @@
     ],
     "vocab": [
       {
-        "word": "responsible",
-        "meaning": "책임 있는"
-      },
-      {
         "word": "fall",
         "meaning": "타락하다, 떨어지다"
       },
@@ -498,13 +410,6 @@
   {
     "date": "2026-03-24",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "A study found that when anxious teenagers reduced social media use to one hour a day, their loneliness significantly decreased.",
-        "ko": "한 연구에서, 불안한 청소년들이 SNS 사용을 하루 1시간으로 줄이자 외로움이 유의미하게 감소했다.",
-        "note": "'significantly decreased'에서 significantly는 '유의미하게/상당히'라는 부사야. 학술 논문이나 뉴스에서 '통계적으로 의미 있다'는 뜻으로 매우 자주 쓰여."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -536,10 +441,6 @@
     ],
     "vocab": [
       {
-        "word": "loneliness",
-        "meaning": "외로움"
-      },
-      {
         "word": "destroy",
         "meaning": "파괴하다"
       },
@@ -560,13 +461,6 @@
   {
     "date": "2026-03-25",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "PFAS chemicals, known as 'forever chemicals,' were found in 40 percent of California's non-organic produce.",
-        "ko": "'영원한 화학물질'로 알려진 PFAS 화학물질이 캘리포니아 비유기농 농산물의 40%에서 발견됐다.",
-        "note": "'known as ~'는 '~로 알려진'이라는 과거분사구야. non-organic의 접두사 non-은 '비(非)/~이 아닌'이라는 뜻으로, 다양한 단어와 결합해."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -598,10 +492,6 @@
     ],
     "vocab": [
       {
-        "word": "produce",
-        "meaning": "농산물"
-      },
-      {
         "word": "dwell",
         "meaning": "거주하다"
       },
@@ -622,13 +512,6 @@
   {
     "date": "2026-03-26",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "SpaceX's Starship V3 exploded during a pressure test, but the company sees failure as a necessary step toward success.",
-        "ko": "스페이스X의 스타십 V3가 압력 테스트 중 폭발했지만, 회사는 실패를 성공을 향한 필수 단계로 본다.",
-        "note": "'sees failure as ~'에서 see A as B는 'A를 B로 보다/여기다'라는 뜻이야. a necessary step toward는 '~을 향한 필수 단계'로, 목표를 향한 과정을 표현할 때 유용해."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -660,10 +543,6 @@
     ],
     "vocab": [
       {
-        "word": "pressure",
-        "meaning": "압력"
-      },
-      {
         "word": "defeat",
         "meaning": "패배시키다"
       },
@@ -684,13 +563,6 @@
   {
     "date": "2026-03-27",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "The more time AI saves us, the more important it becomes to decide what we do with that time.",
-        "ko": "AI가 우리의 시간을 아껴줄수록, 그 시간으로 무엇을 할지 결정하는 것이 더 중요해진다.",
-        "note": "'The more ~, the more ~'는 '~할수록 더 ~하다'라는 비례 구문이야. 비교급끼리 짝을 이루는 이 구조는 영작에서 아주 유용해."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -722,10 +594,6 @@
     ],
     "vocab": [
       {
-        "word": "decade",
-        "meaning": "10년"
-      },
-      {
         "word": "reside",
         "meaning": "깃들다"
       },
@@ -746,13 +614,6 @@
   {
     "date": "2026-03-28",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "Under the new credit-based system, Korean high schoolers can now choose their own subjects, just like university students.",
-        "ko": "새로운 학점제 하에서, 한국 고등학생들은 이제 대학생처럼 직접 과목을 선택할 수 있다.",
-        "note": "'just like ~'는 '꼭 ~처럼'이라는 비유 표현이야. credit-based system에서 -based는 '~에 기반한'이라는 뜻의 접미사야."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -784,10 +645,6 @@
     ],
     "vocab": [
       {
-        "word": "credit-based",
-        "meaning": "학점 기반의"
-      },
-      {
         "word": "deliberately",
         "meaning": "의도적으로"
       },
@@ -808,13 +665,6 @@
   {
     "date": "2026-03-29",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "A high school environmental activist urged world leaders to phase out fossil fuels during her speech at the UN climate summit.",
-        "ko": "한 고등학생 환경 운동가가 UN 기후 정상회담에서 연설을 통해 세계 지도자들에게 화석연료를 단계적으로 퇴출할 것을 촉구했다.",
-        "note": "'urged + 목적어 + to부정사' 구조로 '~에게 ...하도록 촉구하다'를 표현해. 'phase out'은 '단계적으로 없애다'라는 뜻의 구동사야."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -846,10 +696,6 @@
     ],
     "vocab": [
       {
-        "word": "urge",
-        "meaning": "촉구하다"
-      },
-      {
         "word": "courage",
         "meaning": "용기"
       },
@@ -870,13 +716,6 @@
   {
     "date": "2026-03-30",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "Generation communication projects are spreading nationwide to bridge the gap between MZ generation and older generations.",
-        "ko": "MZ세대와 기성세대 간의 격차를 메우기 위한 세대 소통 프로젝트가 전국적으로 확산되고 있다.",
-        "note": "'to bridge the gap'에서 to부정사가 목적을 나타내고, 'bridge'가 동사로 쓰여서 '다리를 놓다, 메우다'라는 뜻이야."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -908,10 +747,6 @@
     ],
     "vocab": [
       {
-        "word": "bridge",
-        "meaning": "메우다"
-      },
-      {
         "word": "communicate",
         "meaning": "소통하다"
       },
@@ -932,13 +767,6 @@
   {
     "date": "2026-03-31",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "University students from the COVID generation are finally recovering their employment rates and making up for their lost youth.",
-        "ko": "코로나 세대 대학생들이 마침내 취업률을 회복하고 잃어버린 청춘을 만회하고 있다.",
-        "note": "'are recovering'은 현재진행형으로 지속적인 회복 과정을 나타내고, 'make up for'는 '만회하다'라는 뜻의 구동사야."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -970,10 +798,6 @@
     ],
     "vocab": [
       {
-        "word": "recover",
-        "meaning": "회복하다"
-      },
-      {
         "word": "symbolize",
         "meaning": "상징하다"
       },
@@ -994,13 +818,6 @@
   {
     "date": "2026-04-01",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "High schools nationwide are introducing 'failure learning' curricula to highlight the value of trial and error in education.",
-        "ko": "전국의 고등학교들이 교육에서 시행착오의 가치를 부각시키기 위해 '실패 학습' 교육과정을 도입하고 있다.",
-        "note": "'are introducing'은 현재진행형으로 진행 중인 변화를 나타내고, 'to highlight'는 목적을 나타내는 to부정사야."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -1032,10 +849,6 @@
     ],
     "vocab": [
       {
-        "word": "introduce",
-        "meaning": "도입하다"
-      },
-      {
         "word": "survive",
         "meaning": "생존하다"
       },
@@ -1056,13 +869,6 @@
   {
     "date": "2026-04-02",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "Middle and high schools nationwide are making emotional education mandatory, starting with learning to read people's feelings.",
-        "ko": "전국의 중고등학교들이 사람들의 감정을 읽는 법을 배우는 것부터 시작하여 감정 교육을 의무화하고 있다.",
-        "note": "'are making ~ mandatory'에서 'make + 목적어 + 형용사'는 '~을 ...하게 만들다'는 뜻이야. 'starting with'는 '~부터 시작하여'라는 의미지."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -1094,10 +900,6 @@
     ],
     "vocab": [
       {
-        "word": "mandatory",
-        "meaning": "의무적인"
-      },
-      {
         "word": "empathy",
         "meaning": "공감"
       },
@@ -1118,13 +920,6 @@
   {
     "date": "2026-04-03",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "Companies implementing four-day work weeks are achieving both improved productivity and higher employee satisfaction simultaneously.",
-        "ko": "주 4일 근무제를 도입하는 기업들이 생산성 향상과 더 높은 직원 만족도를 동시에 달성하고 있다.",
-        "note": "'implementing'은 현재분사로 companies를 수식하고, 'both A and B'는 'A와 B 둘 다'라는 뜻이야. 'simultaneously'는 '동시에'라는 부사지."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -1156,10 +951,6 @@
     ],
     "vocab": [
       {
-        "word": "achieve",
-        "meaning": "달성하다"
-      },
-      {
         "word": "emphasize",
         "meaning": "강조하다"
       },
@@ -1180,13 +971,6 @@
   {
     "date": "2026-04-04",
     "sentences": [
-      {
-        "source": "뉴스",
-        "emoji": "📰",
-        "en": "The rapid advancement of AI technology is accelerating digital transformation and creating entirely new career fields.",
-        "ko": "AI 기술의 급속한 발전이 디지털 전환을 가속화하고 완전히 새로운 직업 분야를 창조하고 있다.",
-        "note": "'is accelerating'은 현재진행형으로 지속적인 변화를 나타내고, 'entirely new'에서 entirely가 new를 강조하는 부사야."
-      },
       {
         "source": "고전",
         "emoji": "📖",
@@ -1217,10 +1001,6 @@
       }
     ],
     "vocab": [
-      {
-        "word": "accelerate",
-        "meaning": "가속화하다"
-      },
       {
         "word": "transform",
         "meaning": "변화시키다"

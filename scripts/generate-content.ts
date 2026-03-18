@@ -320,7 +320,6 @@ JSON 배열로 응답해. 다른 텍스트 없이 JSON만:
 
 function englishPrompt(
   themes: Theme[],
-  newsData: NewsEntry[],
   classicsData: ClassicEntry[],
   artsData: ArtEntry[],
   worldsData: WorldEntry[],
@@ -328,13 +327,11 @@ function englishPrompt(
 ): string {
   const context = themes
     .map((t) => {
-      const news = newsData.find((n) => n.date === t.date);
       const classic = classicsData.find((c) => c.date === t.date);
       const art = artsData.find((a) => a.date === t.date);
       const world = worldsData.find((w) => w.date === t.date);
       const why = whysData.find((w) => w.date === t.date);
       return `${t.date} (${t.keyword}):
-  뉴스: ${news?.title || "N/A"}
   고전: ${classic?.title || "N/A"} by ${classic?.author || "N/A"}
   명화: ${art?.title || "N/A"} by ${art?.artist || "N/A"}
   세계: ${world?.country || "N/A"} - ${world?.title || "N/A"}
@@ -342,20 +339,20 @@ function englishPrompt(
     })
     .join("\n\n");
 
-  return `너는 영어 교육 콘텐츠 작가야. 다른 섹션(뉴스, 고전, 명화, 세계문화, 과학)의 실제 내용에서 영어 문장을 뽑아 문법을 가르쳐.
+  return `너는 영어 교육 콘텐츠 작가야. 다른 섹션(고전, 명화, 세계문화, 과학)의 실제 내용에서 영어 문장을 뽑아 문법을 가르쳐.
 
 오늘의 콘텐츠:
 ${context}
 
 각 날짜별 요구사항:
-- sentences: 5개 (뉴스, 고전, 명화, 세계문화, 왜왜왜 각 1개)
-  - source: "뉴스"|"고전"|"명화"|"세계문화"|"왜왜왜"
-  - emoji: 📰|📖|🎨|🌍|🔬
+- sentences: 4개 (고전, 명화, 세계문화, 왜왜왜 각 1개)
+  - source: "고전"|"명화"|"세계문화"|"왜왜왜"
+  - emoji: 📖|🎨|🌍|🔬
   - en: 영어 문장 (해당 콘텐츠 내용 기반)
   - ko: 한국어 번역
   - note: 문법/표현 설명 (반말체)
-- vocab: 5개 단어 (sentences에서 추출)
-  - word: 영어 단어 (동사=원형, 명사=단수형)
+- vocab: 4개 단어 (sentences에서 각 1개 추출, 동사=원형, 명사=단수형)
+  - word: 영어 단어
   - meaning: 한국어 뜻
 
 JSON 배열로 응답해. 다른 텍스트 없이 JSON만:
@@ -466,7 +463,7 @@ async function main() {
   console.log("7/7 영어 생성 중...");
   const newEnglish = extractJson<EnglishEntry[]>(
     await callClaude(
-      englishPrompt(newThemes, newNews, newClassics, newArts, newWorlds, newWhys)
+      englishPrompt(newThemes, newClassics, newArts, newWorlds, newWhys)
     )
   );
   console.log(`  ✓ ${newEnglish.length}개 영어`);

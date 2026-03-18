@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import english from "@/data/english.json";
-import newsData from "@/data/news.json";
 import classicsData from "@/data/classics.json";
 import artsData from "@/data/arts.json";
 import worldsData from "@/data/worlds.json";
@@ -24,10 +23,6 @@ interface EnglishItem {
 }
 
 function getSourceTitle(source: string, date: string): string {
-  if (source === "뉴스") {
-    const n = (newsData as { date: string; title: string }[]).find((x) => x.date === date);
-    return n ? `뉴스 — '${n.title}'` : "뉴스";
-  }
   if (source === "고전") {
     const c = (classicsData as { date: string; title: string }[]).find((x) => x.date === date);
     return c ? `고전 — '${c.title}'` : "고전";

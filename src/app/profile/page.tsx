@@ -108,7 +108,7 @@ export default function ProfilePage() {
             <button
               onClick={() => handleRoleChange("student")}
               className={`flex-1 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-                profile.role === "student"
+                profile?.role === "student"
                   ? "bg-amber-500 text-white"
                   : "bg-gray-100 text-gray-500 hover:bg-gray-200"
               }`}
@@ -118,7 +118,7 @@ export default function ProfilePage() {
             <button
               onClick={() => handleRoleChange("parent")}
               className={`flex-1 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-                profile.role === "parent"
+                profile?.role === "parent"
                   ? "bg-amber-500 text-white"
                   : "bg-gray-100 text-gray-500 hover:bg-gray-200"
               }`}
