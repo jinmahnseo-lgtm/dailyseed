@@ -369,16 +369,14 @@ export default function Home() {
           const isDone = missions[mKey];
 
           const handleClick = (e: React.MouseEvent) => {
-            if (!isLoggedIn) {
-              e.preventDefault();
-              router.push("/login");
-            }
+            // Allow access to today's content without login
+            // Only require login for other dates
           };
 
           return (
             <Link key={menu.href} href={menu.href} onClick={handleClick}>
               <div
-                className={`fade-up fade-up-delay-${i + 1} group relative bg-white rounded-2xl p-4 border border-[var(--border-light)] hover:shadow-md transition-all duration-200 active:scale-[0.97] h-full ${!isLoggedIn ? "opacity-80" : ""}`}
+                className={`fade-up fade-up-delay-${i + 1} group relative bg-white rounded-2xl p-4 border border-[var(--border-light)] hover:shadow-md transition-all duration-200 active:scale-[0.97] h-full`}
                 style={{ boxShadow: 'var(--shadow-sm)' }}
               >
                 {/* Icon + Check */}
@@ -396,12 +394,8 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                  ) : isLoggedIn ? (
-                    <div className="w-6 h-6 rounded-full border-2 border-gray-200" />
                   ) : (
-                    <svg className="w-5 h-5 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-                    </svg>
+                    <div className="w-6 h-6 rounded-full border-2 border-gray-200" />
                   )}
                 </div>
 
@@ -430,7 +424,7 @@ export default function Home() {
             onClick={() => router.push("/login")}
             className="text-xs text-amber-600 font-semibold hover:underline"
           >
-            로그인하고 오늘의 학습을 시작해보세요 →
+            로그인하면 학습 기록이 저장돼요 →
           </button>
         </div>
       )}
