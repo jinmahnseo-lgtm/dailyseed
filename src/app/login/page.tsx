@@ -106,7 +106,7 @@ export default function LoginPage() {
           onClick={() => router.back()}
           className="block mx-auto mt-6 text-sm text-gray-400 hover:text-gray-600 transition-colors"
         >
-          ← 로그인 없이 계속하기
+          ← 로그인 없이 오늘 콘텐츠만 보기
         </button>
       </div>
     </div>
