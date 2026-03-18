@@ -52,6 +52,7 @@ export default function WorldPage() {
         onNext={goNext}
         onToday={goToday}
         onSelectDate={setDate}
+        topicKey="world"
       />
 
       {/* 나라 소개 */}

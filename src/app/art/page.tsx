@@ -39,6 +39,7 @@ export default function ArtPage() {
         onNext={goNext}
         onToday={goToday}
         onSelectDate={setDate}
+        topicKey="art"
       />
 
       {/* 작품 정보 */}

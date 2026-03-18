@@ -50,6 +50,7 @@ export default function ClassicPage() {
         onNext={goNext}
         onToday={goToday}
         onSelectDate={setDate}
+        topicKey="classic"
       />
 
       {/* 작품 정보 & 줄거리 */}

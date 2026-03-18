@@ -86,6 +86,7 @@ export default function EnglishPage() {
         onNext={goNext}
         onToday={goToday}
         onSelectDate={setDate}
+        topicKey="english"
       />
 
       {item.sentences.map((s, i) => (

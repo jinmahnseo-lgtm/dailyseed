@@ -66,6 +66,7 @@ export default function NewsPage() {
         onNext={goNext}
         onToday={goToday}
         onSelectDate={setDate}
+        topicKey="news"
       />
 
       {!item ? (

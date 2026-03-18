@@ -31,6 +31,7 @@ export default function WhyPage() {
         onNext={goNext}
         onToday={goToday}
         onSelectDate={setDate}
+        topicKey="why"
       />
 
       {/* 오늘의 질문 */}
