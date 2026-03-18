@@ -8,7 +8,7 @@ import classicsData from "@/data/classics.json";
 import artsData from "@/data/arts.json";
 import worldsData from "@/data/worlds.json";
 import whysData from "@/data/whys.json";
-import { useSharedDate } from "@/hooks/useSharedDate";
+import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
 import { useAuthContext } from "@/contexts/AuthContext";
 import DayNavigator from "@/components/DayNavigator";
@@ -47,8 +47,9 @@ function getSourceTitle(source: string, date: string): string {
 export default function EnglishPage() {
   const router = useRouter();
   const { user } = useAuthContext();
+  const admin = isAdminEmail(user?.email);
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
-    useSharedDate();
+    useSharedDate(admin);
   const requireLogin = useCallback(() => router.push("/login"), [router]);
   const item = (english as EnglishItem[]).find((e) => e.date === date) || (english as EnglishItem[])[0];
   const { done, complete } = useMission("english", item?.date || "");

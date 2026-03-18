@@ -4,7 +4,7 @@ import { useCallback } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import whys from "@/data/whys.json";
-import { useSharedDate } from "@/hooks/useSharedDate";
+import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
 import { useAuthContext } from "@/contexts/AuthContext";
 import DayNavigator from "@/components/DayNavigator";
@@ -12,8 +12,9 @@ import DayNavigator from "@/components/DayNavigator";
 export default function WhyPage() {
   const router = useRouter();
   const { user } = useAuthContext();
+  const admin = isAdminEmail(user?.email);
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
-    useSharedDate();
+    useSharedDate(admin);
   const requireLogin = useCallback(() => router.push("/login"), [router]);
   const why = whys.find((w) => w.date === date) || whys[0];
   const { done, complete } = useMission("why", why?.date || "");

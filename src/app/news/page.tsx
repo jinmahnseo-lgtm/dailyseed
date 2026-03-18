@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import newsRaw from "@/data/news.json";
-import { useSharedDate } from "@/hooks/useSharedDate";
+import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
 import { useAuthContext } from "@/contexts/AuthContext";
 import DayNavigator from "@/components/DayNavigator";
@@ -33,8 +33,9 @@ const news = newsRaw as NewsItem[];
 export default function NewsPage() {
   const router = useRouter();
   const { user } = useAuthContext();
+  const admin = isAdminEmail(user?.email);
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate } =
-    useSharedDate();
+    useSharedDate(admin);
   const requireLogin = useCallback(() => router.push("/login"), [router]);
   const item = news.find((n) => n.date === date) || null;
   const { done, complete } = useMission("news", item?.date || "");
