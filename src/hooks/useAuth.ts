@@ -26,28 +26,27 @@ export function useAuth() {
     loading: true,
   });
 
-  const fetchProfile = useCallback(async (userId: string) => {
+  const fetchOrCreateProfile = useCallback(async (user: User) => {
     if (!supabase) return null;
-    const { data } = await supabase
+    // Try fetch first
+    const { data: existing } = await supabase
       .from("profiles")
       .select("*")
-      .eq("id", userId)
+      .eq("id", user.id)
       .single();
-    return data as Profile | null;
-  }, []);
+    if (existing) return existing as Profile;
 
-  const createProfile = useCallback(async (userId: string, displayName?: string) => {
-    if (!supabase) return null;
-    const { data } = await supabase
+    // Create if not found
+    const name =
+      user.user_metadata?.full_name ||
+      user.user_metadata?.name ||
+      null;
+    const { data: created } = await supabase
       .from("profiles")
-      .insert({
-        id: userId,
-        role: "student",
-        display_name: displayName || null,
-      })
+      .insert({ id: user.id, role: "student", display_name: name })
       .select()
       .single();
-    return data as Profile | null;
+    return created as Profile | null;
   }, []);
 
   useEffect(() => {
@@ -56,74 +55,53 @@ export function useAuth() {
       return;
     }
 
-    // Handle OAuth callback (PKCE code exchange)
-    const handleAuthCallback = async () => {
-      const url = new URL(window.location.href);
-      const code = url.searchParams.get("code");
-      if (code) {
-        await supabase!.auth.exchangeCodeForSession(code);
-        // Clean up URL
-        url.searchParams.delete("code");
-        window.history.replaceState({}, "", url.pathname);
-      }
-    };
-
-    // Get initial session (after handling callback if needed)
-    handleAuthCallback().then(() => {
-      supabase!.auth.getSession().then(async ({ data: { session } }) => {
-        if (session?.user) {
-          let profile = await fetchProfile(session.user.id);
-          if (!profile) {
-            const name =
-              session.user.user_metadata?.full_name ||
-              session.user.user_metadata?.name ||
-              null;
-            profile = await createProfile(session.user.id, name);
-          }
-          setState({
-            user: session.user,
-            session,
-            profile,
-            loading: false,
-          });
-        } else {
-          setState({ user: null, session: null, profile: null, loading: false });
-        }
-      });
-    });
-
-    // Listen for auth changes
+    // onAuthStateChange handles EVERYTHING:
+    // - Initial session from localStorage
+    // - OAuth callback code exchange (detectSessionInUrl: true)
+    // - Token refresh
     const {
       data: { subscription },
-    } = supabase!.auth.onAuthStateChange(async (_event, session) => {
+    } = supabase!.auth.onAuthStateChange(async (event, session) => {
+      console.log("[Auth]", event, session?.user?.id);
+
       if (session?.user) {
-        let profile = await fetchProfile(session.user.id);
-        if (!profile) {
-          const name =
-            session.user.user_metadata?.full_name ||
-            session.user.user_metadata?.name ||
-            null;
-          profile = await createProfile(session.user.id, name);
-        }
+        const profile = await fetchOrCreateProfile(session.user);
         setState({
           user: session.user,
           session,
           profile,
           loading: false,
         });
+
+        // Clean up URL after OAuth callback
+        if (event === "SIGNED_IN") {
+          const url = new URL(window.location.href);
+          if (url.searchParams.has("code")) {
+            url.searchParams.delete("code");
+            window.history.replaceState({}, "", url.pathname);
+          }
+        }
       } else {
         setState({ user: null, session: null, profile: null, loading: false });
       }
     });
 
-    return () => subscription.unsubscribe();
-  }, [fetchProfile, createProfile]);
+    // Fallback: if no auth event fires within 3s, stop loading spinner
+    const timeout = setTimeout(() => {
+      setState((s) => (s.loading ? { ...s, loading: false } : s));
+    }, 3000);
+
+    return () => {
+      subscription.unsubscribe();
+      clearTimeout(timeout);
+    };
+  }, [fetchOrCreateProfile]);
 
   const signInWithKakao = useCallback(async () => {
     if (!supabase) return;
     await supabase.auth.signInWithOAuth({
       provider: "kakao",
-      options: { redirectTo: window.location.origin + "/" },
+      options: { redirectTo: window.location.origin },
     });
   }, []);
 
@@ -131,7 +109,7 @@ export function useAuth() {
     if (!supabase) return;
     await supabase.auth.signInWithOAuth({
       provider: "google",
-      options: { redirectTo: window.location.origin + "/" },
+      options: { redirectTo: window.location.origin },
     });
   }, []);
 
