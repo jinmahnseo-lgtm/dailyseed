@@ -56,26 +56,40 @@ export function useAuth() {
       return;
     }
 
-    // Get initial session
-    supabase!.auth.getSession().then(async ({ data: { session } }) => {
-      if (session?.user) {
-        let profile = await fetchProfile(session.user.id);
-        if (!profile) {
-          const name =
-            session.user.user_metadata?.full_name ||
-            session.user.user_metadata?.name ||
-            null;
-          profile = await createProfile(session.user.id, name);
-        }
-        setState({
-          user: session.user,
-          session,
-          profile,
-          loading: false,
-        });
-      } else {
-        setState({ user: null, session: null, profile: null, loading: false });
+    // Handle OAuth callback (PKCE code exchange)
+    const handleAuthCallback = async () => {
+      const url = new URL(window.location.href);
+      const code = url.searchParams.get("code");
+      if (code) {
+        await supabase!.auth.exchangeCodeForSession(code);
+        // Clean up URL
+        url.searchParams.delete("code");
+        window.history.replaceState({}, "", url.pathname);
       }
+    };
+
+    // Get initial session (after handling callback if needed)
+    handleAuthCallback().then(() => {
+      supabase!.auth.getSession().then(async ({ data: { session } }) => {
+        if (session?.user) {
+          let profile = await fetchProfile(session.user.id);
+          if (!profile) {
+            const name =
+              session.user.user_metadata?.full_name ||
+              session.user.user_metadata?.name ||
+              null;
+            profile = await createProfile(session.user.id, name);
+          }
+          setState({
+            user: session.user,
+            session,
+            profile,
+            loading: false,
+          });
+        } else {
+          setState({ user: null, session: null, profile: null, loading: false });
+        }
+      });
     });
 
     // Listen for auth changes
