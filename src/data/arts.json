@@ -1429,17 +1429,27 @@
   },
   {
     "date": "2026-06-26",
-    "title": "밤의 카페 (실내)",
-    "artist": "빈센트 반 고흐",
-    "year": 1888,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_Willem_van_Gogh_076.jpg/1280px-Vincent_Willem_van_Gogh_076.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Night_Caf%C3%A9",
-    "source_label": "Wikipedia",
-    "story": "아를의 한 카페 실내야. 당구대가 한가운데 있고, 벽은 빨강, 천장은 초록, 바닥은 노랑이야. 고흐는 동생에게 보낸 편지에서 '사람이 미쳐버리거나 범죄를 저지를 수 있는 장소'를 표현하고 싶었다고 썼어. 보색 대비(빨강-초록)가 불안과 긴장을 만들어. 밤의 노동자와 방황자가 앉아 있는 이 공간 — 노동의 끝에 찾는 쉼터이기도 하고 외로움의 장소이기도 해.",
-    "look_for": "원근법이 과장돼서 바닥이 관람자 쪽으로 쏟아지는 것 같아. 가스등의 노란 빛이 후광처럼 번지고 있어 — 빛 주위에 동심원이 보여. 의자와 탁자가 아무렇게나 놓여 있어 무질서한 느낌이야. 사람들은 머리를 숙이고 있거나 축 처져 있어 — 생기가 없어. 카페 주인만 서 있는데 유령 같아.",
-    "fun_fact": "고흐는 이 카페에서 밤새 작업했어. 3일 연속 밤샘해서 그린 거야! 그는 이 시기 동안 매일 한 점씩 그림을 완성했는데, 아를에서의 15개월이 그의 가장 생산적인 시기야. 이 그림은 2014년 예일대학교 미술관에서 X선 분석으로 아래에 다른 그림이 숨겨져 있다는 걸 발견했어.",
-    "question": "고흐는 밤의 카페에서 노동과 외로움을 함께 그렸어. 힘든 하루의 끝에 네가 찾는 쉼터는 어디야?"
+    "title": "이삭 줍는 여인들의 기도",
+    "title_original": "The Gleaners at Prayer",
+    "artist": "쥘 브르통",
+    "artist_original": "Jules Breton",
+    "year": "1857",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "쥘 브르통은 프랑스 농촌의 노동자들을 따뜻한 시선으로 그린 화가입니다. 이 작품에서는 하루 종일 밭에서 이삭을 주운 여인들이 저녁 종소리에 맞춰 잠시 기도하는 모습을 담았습니다. 구부린 등, 거친 손, 햇볕에 그을린 얼굴 속에서도 노동의 숭고한 가치가 느껴집니다. 브르통은 농부들의 땀 흘리는 일상이야말로 가장 아름다운 장면이라고 믿었습니다. 오늘의 테마 '노동'처럼, 이 그림은 묵묵히 일하는 사람들에 대한 깊은 존경을 표현합니다.",
+    "look_for": "석양빛이 여인들의 실루엣을 감싸는 방식과 넓은 들판의 수평선을 살펴보세요.",
+    "fun_fact": "브르통은 밀레와 같은 시대에 활동했지만, 농민을 더 이상화하여 그려 당시에는 밀레보다 더 인기가 많았습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jules_Breton_-_The_Recall_of_the_Gleaners_-_Mus%C3%A9e_d%27Orsay.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 작품에서 여인들이 기도를 시작한 계기는 무엇인가요?",
+      "options": [
+        "저녁 종소리",
+        "비가 내려서",
+        "감독관의 명령"
+      ],
+      "answer": 0
+    }
   },
   {
     "date": "2026-06-27",
@@ -1527,17 +1537,18 @@
   },
   {
     "date": "2026-07-03",
-    "title": "바벨탑",
+    "title": "사육제와 사순절의 싸움",
     "artist": "피터르 브뤼헐",
     "year": 1563,
     "country": "네덜란드",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg/1280px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Tower_of_Babel_(Bruegel)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_d._%C3%84._066.jpg",
     "source_label": "Wikipedia",
     "story": "성경 속 이야기야. 인간이 하늘에 닿는 탑을 쌓으려 하자 신이 언어를 뒤섞어 서로 말이 통하지 않게 했어. 브뤼헐은 이 신화를 놀라울 정도로 사실적인 건축 장면으로 그렸어. 탑은 거대하지만 이미 기울어져 있어 — 무너질 운명이지. 언어란 생각을 담는 그릇이야. 그릇이 깨지면 생각도 전달되지 않아. 소통의 실패가 곧 문명의 실패야.",
     "look_for": "탑의 구조를 자세히 봐 — 로마의 콜로세움을 모델로 한 나선형 건축이야. 아래층은 완성됐지만 위로 갈수록 미완성이야. 왼쪽이 오른쪽보다 높아서 이미 기울어져 있어. 수백 명의 노동자가 벌떼처럼 일하고 있는데, 각자 다른 일을 해 — 소통이 안 되니까. 왼쪽 아래에 왕과 수행원이 방문하는 장면이 보여.",
     "fun_fact": "브뤼헐은 바벨탑을 두 번 그렸어 — 큰 버전(비엔나)과 작은 버전(로테르담). 큰 버전에는 1,500명 이상의 인물이 그려져 있대! 탑의 높이를 실제 계산하면 약 300미터로 에펠탑과 비슷해. 브뤼헐은 실제로 로마를 여행하면서 콜로세움을 스케치했어.",
-    "question": "바벨탑은 언어가 달라 소통이 안 된 이야기야. 말이 통하는데도 소통이 안 됐던 경험이 있어?"
+    "question": "바벨탑은 언어가 달라 소통이 안 된 이야기야. 말이 통하는데도 소통이 안 됐던 경험이 있어?",
+    "title_original": "The Fight Between Carnival and Lent"
   },
   {
     "date": "2026-07-04",
@@ -1583,17 +1594,27 @@
   },
   {
     "date": "2026-07-07",
-    "title": "가나가와 앞바다의 큰 파도",
-    "artist": "가쓰시카 호쿠사이",
-    "year": 1831,
-    "country": "일본",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
-    "source_label": "Wikipedia",
-    "story": "거대한 파도가 작은 배들을 삼키려 해. 멀리 후지산이 조그맣게 보여 — 자연의 압도적 힘 앞에서 인간도 산도 작아져. 호쿠사이가 이 작품을 만든 건 72세 때야. 그는 '나는 70세 전에 그린 것은 아무것도 아니다'라고 했어. 바다는 끝없이 넓은 가능성이면서 동시에 끝없는 위험이야. 이 그림은 그 경외감을 완벽하게 포착했어.",
-    "look_for": "파도의 갈고리 모양 끝이 손가락처럼 뻗어 있어 — 마치 바다가 배를 '잡으려는' 것 같아. 파도의 하얀 포말이 눈처럼 흩날려 후지산의 눈과 대비돼. 세 척의 배에 노를 젓는 사람들이 보이는데, 아주 작아. 프러시안 블루 안료로 찍어낸 색이 강렬해 — 이 안료는 당시 일본에 새로 수입된 거야.",
-    "fun_fact": "이 판화는 약 5,000~8,000장 찍혔는데, 나무 판이 닳으면서 후기 인쇄본은 흐려져. 드뷔시가 이 그림에서 영감을 받아 교향시 《바다》를 작곡했어! 호쿠사이는 93번 이사하고 30번 이름을 바꿨대. 그는 임종 직전 '5년만 더 살면 진짜 화가가 될 텐데'라고 한탄했어.",
-    "question": "거대한 파도 앞의 작은 배처럼, 압도적인 상황에서 네가 느끼는 감정은 뭐야?"
+    "title": "신비로운 섬",
+    "title_original": "Isle of the Dead",
+    "artist": "아르놀트 뵈클린",
+    "artist_original": "Arnold Böcklin",
+    "year": "1880",
+    "medium": "유화",
+    "period": "상징주의",
+    "story": "스위스 화가 뵈클린의 대표작 '죽음의 섬'은 높은 절벽에 둘러싸인 신비로운 섬을 그린 작품입니다. 하얀 옷을 입은 인물이 작은 배를 타고 우뚝 솟은 바위섬으로 향하고 있습니다. 사이프러스 나무가 하늘 높이 솟아 있고, 절벽 속 어두운 입구들이 보입니다. 오늘의 테마 '바다'와 연결되듯, 잔잔한 바닷물 위에서 펼쳐지는 이 장면은 삶과 죽음의 경계, 그리고 미지의 세계로 향하는 여정을 상징합니다.",
+    "look_for": "섬의 높이감을 만들어내는 수직적 구도와 고요한 수면의 대비를 관찰해보세요.",
+    "fun_fact": "이 작품은 총 5개 버전이 있으며, 히틀러가 소장했던 버전도 있어 역사적으로 논쟁이 된 적이 있습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Arnold_B%C3%B6cklin_-_Die_Toteninsel_III_(Alte_Nationalgalerie,_Berlin).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 그림 속 섬에 높이 솟아 있는 나무는 어떤 종류인가요?",
+      "options": [
+        "소나무",
+        "사이프러스",
+        "올리브나무"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-07-08",
@@ -1625,17 +1646,27 @@
   },
   {
     "date": "2026-07-10",
-    "title": "별이 빛나는 밤",
-    "artist": "빈센트 반 고흐",
-    "year": 1889,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Starry_Night",
-    "source_label": "Wikipedia",
-    "story": "소용돌이치는 밤하늘, 거대한 별들, 그 아래 잠든 마을. 고흐가 생레미의 정신병원 창문에서 본 풍경이야. 하지만 이건 사실적인 밤이 아니야 — 고흐의 감정이 투영된 밤이지. 별빛이 소용돌이치며 살아 움직여. 고흐는 '밤을 보면 낮보다 훨씬 더 생생한 색이 보인다'고 했어. 수억 년 전 빛이 지금 우리 눈에 닿듯, 이 그림도 130년 넘게 빛나고 있어.",
-    "look_for": "하늘의 소용돌이가 11개의 별과 초승달을 감싸고 있어 — 하늘이 살아 있는 것 같아. 마을의 뾰족한 교회 첨탑이 하늘과 땅을 연결해. 왼쪽의 사이프러스 나무가 어둡고 날카롭게 솟아 있어 — 마치 불꽃 같아. 마을 집들의 불빛이 따뜻하게 반짝여 — 하늘의 차가운 빛과 대비돼.",
-    "fun_fact": "이 그림은 고흐 생전에 단 한 번도 전시되지 않았어. 고흐 자신은 이 그림을 '실패작'이라고 생각했대! 하늘의 소용돌이 패턴이 유체역학의 난류 이론과 수학적으로 일치한다는 연구가 2004년에 발표됐어. 고흐가 물리학 공식 없이 자연의 법칙을 직감적으로 포착한 거야.",
-    "question": "고흐는 밤하늘에서 낮보다 더 생생한 세계를 봤어. 밤에만 볼 수 있는 특별한 것이 있다면 뭘까?"
+    "title": "별이 빛나는 나일강",
+    "title_original": "Star of the Hero",
+    "artist": "장레옹 벨레",
+    "artist_original": "Jean-Léon Belly",
+    "year": "1861",
+    "medium": "유화",
+    "period": "오리엔탈리즘",
+    "story": "프랑스 화가 장레옹 벨레는 이집트를 여행하며 나일강의 풍경에 매료되었습니다. 이 작품은 사막의 밤하늘 아래 나일강변을 묘사합니다. 낮에는 타오르는 태양 아래 달궈진 사막이 밤이 되면 급격히 식어가듯, 별빛 아래 서늘해진 공기가 느껴집니다. 오늘의 테마 '별빛'처럼, 수억 년 전에 출발한 빛이 지금 이 순간 사막을 비추고 있다는 사실이 경이롭습니다. 벨레는 이국적 풍경 속에서 우주적 시간의 흐름을 포착했습니다.",
+    "look_for": "하늘의 별빛이 강물에 반사되는 모습과 사막의 건조한 색감 대비를 살펴보세요.",
+    "fun_fact": "벨레는 이집트에서 2년간 체류하며 현지 풍경을 직접 스케치했고, 이 경험이 그의 화풍을 완전히 바꿨습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jean-L%C3%A9on_Belly_-_Pilgrims_Going_to_Mecca_-_1861.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "장레옹 벨레가 이 작품의 영감을 얻은 나라는 어디인가요?",
+      "options": [
+        "인도",
+        "이집트",
+        "모로코"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-07-11",
@@ -1653,31 +1684,51 @@
   },
   {
     "date": "2026-07-12",
-    "title": "인상, 해돋이",
-    "artist": "클로드 모네",
-    "year": 1872,
-    "country": "프랑스",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/1280px-Monet_-_Impression%2C_Sunrise.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Impression,_Sunrise",
-    "source_label": "Wikipedia",
-    "story": "르아브르 항구의 새벽. 안개 속에 공장 굴뚝, 배, 크레인이 희미하게 보이고, 주황색 해가 물 위에 반사돼. 비평가 루이 르루아가 이 그림의 제목을 비꼬며 '인상파'라고 불렀어 — 그게 미술사에서 가장 유명한 운동의 이름이 됐지! 색깔은 단순한 시각이 아니야 — 감정의 언어야. 모네는 주황, 파랑, 회색만으로 새벽의 차갑고 촉촉한 공기를 전달했어.",
-    "look_for": "해가 물에 반사되는 주황색 선이 화면에서 가장 강렬해 — 실제로 이 그림을 흑백으로 바꾸면 해가 거의 안 보여! 밝기는 같은데 색만 다른 거야. 붓 터치가 빠르고 거칠어 — '인상'을 포착하려는 즉흥적인 터치야. 배와 건물은 형태가 불분명해서 꿈 같은 느낌이야.",
-    "fun_fact": "2014년 연구에 따르면 이 그림은 1872년 11월 13일 오전 7시 35분에 그린 것으로 추정돼 — 태양의 위치와 조수를 계산한 거야! 이 그림은 1985년에 도난당했다가 5년 후 되찾았어. 프랑스 마르모탕 미술관에 소장돼 있어. '인상파'라는 이름은 원래 조롱이었지만 화가들이 당당히 받아들였어.",
-    "question": "모네는 색깔만으로 새벽의 느낌을 전달했어. 네가 가장 좋아하는 색은 뭐고, 그 색이 주는 감정은 뭐야?"
+    "title": "색채의 원형",
+    "title_original": "Farbenkugel",
+    "artist": "필리프 오토 룽게",
+    "artist_original": "Philipp Otto Runge",
+    "year": "1809",
+    "medium": "판화 · 채색",
+    "period": "독일 낭만주의",
+    "story": "독일 낭만주의 화가 룽게는 화가이면서 동시에 색채 이론가였습니다. 그는 세계 최초로 3차원 색채 구(球)를 만들어 모든 색깔의 관계를 체계적으로 정리했습니다. 빨강, 파랑, 노랑이라는 세 가지 기본색에서 무한한 색의 세계가 펼쳐지는 것을 보여줍니다. 오늘의 테마 '색깔'처럼, 우리 눈에 보이는 감정의 언어를 과학적으로 분석하려 한 혁신적 시도였습니다. 이 색채 구는 이후 색채학 발전에 큰 영향을 미쳤습니다.",
+    "look_for": "색의 3차원 배열에서 보색과 유사색이 어떻게 위치하는지 살펴보세요.",
+    "fun_fact": "룽에는 33세에 요절했지만 그의 색채 이론은 괴테의 색채론에도 영향을 주었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Runge_Farbenkugel.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "룽게의 색채 구에서 기본색으로 사용한 세 가지 색은?",
+      "options": [
+        "빨강, 파랑, 노랑",
+        "빨강, 초록, 파랑",
+        "빨강, 보라, 노랑"
+      ],
+      "answer": 0
+    }
   },
   {
     "date": "2026-07-13",
-    "title": "영원의 문턱에서",
-    "artist": "빈센트 반 고흐",
-    "year": 1890,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Vincent_van_Gogh_-_Old_Man_in_Sorrow_%28On_the_Threshold_of_Eternity%29.jpg/800px-Vincent_van_Gogh_-_Old_Man_in_Sorrow_%28On_the_Threshold_of_Eternity%29.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/At_Eternity%27s_Gate",
-    "source_label": "Wikipedia",
-    "story": "의자에 앉은 노인이 두 손으로 얼굴을 감싸고 있어. 주먹을 쥔 손, 구부린 등, 낡은 신발 — 삶의 무게에 짓눌린 사람이야. 고흐는 이 포즈를 10년 전 연필화로도 그렸고, 죽기 두 달 전에 유화로 다시 그렸어. 제목은 '영원의 문턱에서'야. 말없는 슬픔, 소리 없는 울음 — 때로는 침묵이 가장 큰 소리야. 귀를 기울이면 이 노인의 고통이 들려.",
-    "look_for": "거친 붓 터치가 노인의 감정 상태를 전달해 — 옷의 파란색 곡선이 슬픔의 물결 같아. 손가락이 머리카락 사이로 파고들어 있어 — 절망의 제스처야. 바닥의 타일 패턴이 단순하지만 감옥 같은 공간감을 만들어. 따뜻한 주황색 불꽃이 벽난로에 있는데, 노인은 그 온기를 느끼지 못하는 것 같아.",
-    "fun_fact": "고흐는 이 그림을 생레미 정신병원에서 그렸어. 원래 연필화의 제목은 '지치다(Worn Out)'였어. 고흐는 동생 테오에게 보낸 편지에서 이 그림이 '영원히 지속되는 고통을 표현한다'고 했어. 고흐는 이 그림을 완성한 두 달 뒤인 1890년 7월 세상을 떠났어. 이 그림은 크뢸러뮐러 미술관에 있어.",
-    "question": "이 노인의 침묵에서 어떤 소리가 들려? 말하지 않아도 누군가의 마음을 읽은 경험이 있어?"
+    "title": "음악의 공간",
+    "title_original": "The Concert",
+    "artist": "제라르 판 혼트호르스트",
+    "artist_original": "Gerard van Honthorst",
+    "year": "1623",
+    "medium": "유화",
+    "period": "바로크",
+    "story": "네덜란드 화가 혼트호르스트는 '밤의 제라르트'라는 별명으로 유명했습니다. 촛불 하나로 어둠 속 인물들을 비추는 극적인 조명 기법의 대가였죠. 이 작품에서는 악사들이 촛불 아래 모여 연주하는 장면을 그렸습니다. 오늘의 테마 '소리'처럼, 그림에서 음악 소리가 들리는 듯합니다. 촛불빛에 비친 얼굴들의 표정에서 음악에 빠진 즐거움이 전해지고, 어둠 속에서 빛과 소리가 하나로 어우러집니다.",
+    "look_for": "촛불에서 나오는 빛이 각 인물의 얼굴에 닿는 방식이 어떻게 다른지 관찰해보세요.",
+    "fun_fact": "혼트호르스트는 이탈리아에서 카라바조의 기법을 배워 네덜란드로 가져온 '유트레히트 카라바지스티' 그룹의 대표 화가입니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gerard_van_Honthorst_-_The_Concert_-_WGA11656.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "혼트호르스트의 별명은 무엇이었나요?",
+      "options": [
+        "빛의 제라르트",
+        "밤의 제라르트",
+        "음악의 제라르트"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-07-14",
@@ -1709,17 +1760,27 @@
   },
   {
     "date": "2026-07-16",
-    "title": "아를의 방",
-    "artist": "빈센트 반 고흐",
-    "year": 1888,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Bedroom_in_Arles",
-    "source_label": "Wikipedia",
-    "story": "고흐가 아를에서 살던 '노란 집'의 침실이야. 파란 벽, 노란 침대, 초록 창문 — 보색이 충돌하는데 묘하게 편안해. 고흐는 동생에게 '이 방을 보면 쉬고 싶어지게 그리고 싶다'고 했어. 원근법이 일부러 왜곡돼 있어 — 방이 기울어진 것 같아. 이 방은 고흐에게 세상과의 경계이자 안식처였어. 안과 밖을 나누는 보이지 않는 선, 그것이 바로 경계야.",
-    "look_for": "바닥이 한쪽으로 기울어져 있어 — 불안정한 원근법이야. 벽에 걸린 초상화 두 점은 고흐 자신과 친구의 것이야. 침대, 의자, 탁자가 쌍으로 있어 — 누군가와 함께하고 싶은 바람이 보여. 창문이 닫혀 있는데 빛이 들어와 — 안에서도 바깥 세상이 느껴져. 물건이 단순하지만 색이 강렬해서 감정이 진하게 전달돼.",
-    "fun_fact": "고흐는 이 그림을 세 번 그렸어! 첫 번째는 물에 손상돼서 두 번째를 그렸고, 어머니와 동생에게 보낼 복사본도 만들었어. 세 버전이 각각 다른 미술관에 있어 — 암스테르담, 시카고, 파리. 이 방의 실제 월세는 한 달에 15프랑이었대 — 지금 물가로 약 6만원 정도.",
-    "question": "고흐의 침실은 세상과 나를 구분하는 경계였어. 네만의 '안전한 공간'은 어디야?"
+    "title": "경계의 다리",
+    "title_original": "The Bridge at Narni",
+    "artist": "장바티스트카미유 코로",
+    "artist_original": "Jean-Baptiste-Camille Corot",
+    "year": "1826",
+    "medium": "유화",
+    "period": "사실주의 · 풍경화",
+    "story": "코로는 프랑스 풍경화의 거장으로, 인상주의 화가들에게 큰 영향을 준 선구자입니다. 이 작품은 이탈리아 나르니에 있는 고대 로마 다리를 그린 것입니다. 다리는 강 양쪽을 이어주면서도 '이쪽'과 '저쪽'이라는 경계를 만듭니다. 오늘의 테마 '경계'처럼, 다리는 안과 밖을 나누는 동시에 연결하는 존재입니다. 코로는 야외에서 직접 스케치하는 방식을 즐겨, 자연광 아래 풍경의 진짜 모습을 포착했습니다.",
+    "look_for": "무너진 다리의 아치가 만드는 프레임과 그 너머로 보이는 풍경의 대비를 살펴보세요.",
+    "fun_fact": "코로는 3,000점 이상의 작품을 남겼지만 그중 5,000점이 미국에 있다는 우스갯소리가 있을 정도로 위작이 많았습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste-Camille_Corot_-_The_Bridge_at_Narni_-_WGA05281.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "코로가 그린 나르니의 다리는 어느 문명이 건설한 것인가요?",
+      "options": [
+        "그리스",
+        "로마",
+        "에트루리아"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-07-17",
@@ -1821,17 +1882,18 @@
   },
   {
     "date": "2026-07-24",
-    "title": "아테네 학당",
+    "title": "성체의 논의",
     "artist": "라파엘로 산치오",
     "year": 1511,
     "country": "이탈리아",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1280px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_School_of_Athens",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Raphael_-_Disputation_of_the_Holy_Sacrament.jpg",
     "source_label": "Wikipedia",
     "story": "고대 그리스의 위대한 철학자들이 한자리에 모여 있어. 중앙에 플라톤(하늘을 가리킴)과 아리스토텔레스(땅을 가리킴)가 걸어오고 있어 — 이상과 현실의 대립이야. 주변에 피타고라스, 유클리드, 디오게네스 등이 각자의 방식으로 토론하고 있어. 라파엘로는 서로 다른 생각이 부딪히는 공간을 그렸어. 토론이란 다른 생각이 부딪혀 더 밝은 빛을 만드는 과정이야.",
     "look_for": "건축 공간이 실제 건물처럼 깊이감이 있어 — 브라만테의 성 베드로 대성당 설계를 참고했어. 플라톤의 얼굴은 다 빈치, 헤라클레이토스는 미켈란젤로를 모델로 했어. 오른쪽 아래에 라파엘로 자신이 검은 모자를 쓰고 살짝 보고 있어. 50명 이상의 인물이 각자 다른 동작을 하며 생동감이 넘쳐.",
     "fun_fact": "라파엘로는 이 그림을 그릴 때 27세였어. 미켈란젤로가 옆 방에서 시스티나 성당 천장화를 그리고 있었는데, 라파엘로가 몰래 들여다보고 감탄해서 헤라클레이토스를 미켈란젤로 얼굴로 급히 추가했대! 이 그림은 바티칸 교황 서재에 있어. 학교 건물, 법원, 도서관 등에 가장 많이 복제된 그림 중 하나야.",
-    "question": "아테네 학당에서는 다른 생각을 가진 사람들이 자유롭게 토론해. 생각이 다른 사람과 토론해서 배운 적 있어?"
+    "question": "아테네 학당에서는 다른 생각을 가진 사람들이 자유롭게 토론해. 생각이 다른 사람과 토론해서 배운 적 있어?",
+    "title_original": "Disputation of the Holy Sacrament"
   },
   {
     "date": "2026-07-25",
@@ -1919,17 +1981,27 @@
   },
   {
     "date": "2026-07-31",
-    "title": "이카로스의 추락이 있는 풍경",
-    "artist": "피터르 브뤼헐",
-    "year": 1558,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Pieter_Bruegel_de_Oude_-_De_val_van_Icarus.jpg/1280px-Pieter_Bruegel_de_Oude_-_De_val_van_Icarus.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Landscape_with_the_Fall_of_Icarus",
-    "source_label": "Wikipedia",
-    "story": "그리스 신화의 이카로스가 밀랍 날개로 태양에 너무 가까이 날아가 바다에 추락했어. 하지만 이 그림에서 그걸 찾기 어려워 — 오른쪽 아래 구석에 다리 두 개만 물에 빠져 있거든! 농부는 밭을 갈고, 양치기는 하늘을 보고, 어부는 낚시해. 아무도 이카로스의 비극을 눈치채지 못해. 가설이란 대담한 상상이야 — 이카로스는 날 수 있다는 가설을 세웠고, 실패했지만 도전 자체는 위대했어.",
-    "look_for": "오른쪽 아래를 자세히 봐 — 물 위로 다리 두 개가 허우적거리고 있어. 깃털이 몇 개 흩어져 있어. 농부의 붉은 셔츠가 가장 눈에 띄어 — 주인공이 아닌데! 바다 위의 범선이 이카로스 바로 옆을 지나가지만 모른 척해. 하늘은 맑고 아름다워 — 비극과 일상이 공존하는 아이러니야.",
-    "fun_fact": "이 그림은 브뤼헐의 작품인지 논란이 있어 — 16세기 모사본일 수 있다는 설이 있어. 시인 오든이 이 그림을 보고 유명한 시를 썼어. 원래 하늘에 이카로스와 다이달로스가 날고 있는 부분이 있었는데 덧칠로 지워졌다는 X선 분석 결과가 있어. 벨기에 왕립미술관에 소장돼 있어.",
-    "question": "이카로스는 대담한 가설을 세우고 도전했어. 아직 증명되지 않았지만 네가 믿는 대담한 상상이 있어?"
+    "title": "그로스 클리닉",
+    "title_original": "The Anatomy Lesson of Dr. Tulp",
+    "artist": "토마스 에이킨스",
+    "artist_original": "Thomas Eakins",
+    "year": "1875",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "미국 사실주의 화가 에이킨스는 과학적 관찰을 예술에 접목한 선구자입니다. 그의 대표작 '그로스 클리닉'은 외과 수술 장면을 극도로 사실적으로 묘사했습니다. 의사가 메스를 든 손, 학생들의 집중하는 눈빛, 환자의 열린 상처까지 모든 것을 정확하게 관찰하고 기록했습니다. 오늘의 테마 '가설'처럼, 의학의 발전은 대담한 가설을 세우고 관찰을 통해 검증하는 과정에서 이루어졌습니다.",
+    "look_for": "수술실의 극적인 조명과 관찰하는 학생들의 다양한 표정을 비교해보세요.",
+    "fun_fact": "에이킨스는 이 작품의 사실적 묘사 때문에 전시회에서 퇴짜를 맞았지만, 오늘날에는 미국 미술사 최고의 걸작으로 평가받습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Thomas_Eakins,_American_-_Portrait_of_Dr._Samuel_D._Gross_(The_Gross_Clinic)_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "에이킨스가 예술에 접목하려 한 것은 무엇인가요?",
+      "options": [
+        "종교적 상징",
+        "과학적 관찰",
+        "추상적 감정"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-08-01",
@@ -1947,17 +2019,27 @@
   },
   {
     "date": "2026-08-02",
-    "title": "인구조사의 배들레헴",
-    "artist": "피터르 브뤼헐",
-    "year": 1566,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pieter_Brueghel_the_Elder_-_The_Census_at_Bethlehem_-_WGA03379.jpg/1280px-Pieter_Brueghel_the_Elder_-_The_Census_at_Bethlehem_-_WGA03379.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Census_at_Bethlehem",
-    "source_label": "Wikipedia",
-    "story": "성경 속 배들레헴 인구조사를 16세기 플랑드르 겨울 마을로 옮겼어. 수백 명의 사람이 세금을 내러 줄을 서고, 아이들은 눈 위에서 놀고, 마차가 지나가. 이 그림은 숫자로 사람을 세는 '통계'의 원형이야 — 로마 제국은 인구조사로 제국을 관리했거든. 브뤼헐은 이 무미건조한 행정 행위를 생동감 넘치는 인간 드라마로 바꿨어.",
-    "look_for": "화면에 100명 이상의 인물이 있어 — 각자 다른 일을 하고 있어. 왼쪽 건물에 세금 징수소가 있는데 줄이 길어. 마리아와 요셉이 어디 있는지 찾아봐 — 당나귀를 탄 여인과 남자가 군중 속에 숨어 있어! 얼어붙은 강에서 스케이트 타는 사람들이 보여. 눈 내린 풍경이 평화롭지만, 사람들의 표정에서 추위와 고단함이 읽혀.",
-    "fun_fact": "브뤼헐은 성경 이야기를 자기 시대의 플랑드르 풍경으로 그려서 검열을 피하며 스페인 통치에 대한 비판을 숨겼어. 마리아와 요셉이 눈에 띄지 않게 그려진 건 의도적이야 — 위대한 이야기도 일상에 묻힐 수 있다는 뜻이지. 이 그림의 풍경은 '소빙하기'의 실제 추위를 반영한 것으로 기후 역사 연구에도 활용돼.",
-    "question": "인구조사는 숫자로 세상을 파악하는 시도야. 통계나 숫자가 네 생각을 바꾼 경험이 있어?"
+    "title": "인구조사를 위한 베들레헴의 등록",
+    "title_original": "The Census at Bethlehem",
+    "artist": "피터르 브뤼헐 2세",
+    "artist_original": "Pieter Brueghel the Younger",
+    "year": "1610",
+    "medium": "유화",
+    "period": "플랑드르 르네상스",
+    "story": "브뤼헐 2세는 아버지의 유명한 구도를 재해석한 화가입니다. 이 작품은 성경 속 인구조사 장면을 16세기 플랑드르 마을로 옮겨놓았습니다. 마을 사람들이 세금 징수소 앞에 줄을 서고, 관리가 숫자를 기록합니다. 오늘의 테마 '통계'와 정확히 맞닿아 있죠. 인구조사는 인류 최초의 통계 활동 중 하나였고, 이 그림은 숫자로 사람을 세고 기록하는 행위가 얼마나 오래된 것인지를 보여줍니다.",
+    "look_for": "마을 곳곳에서 벌어지는 일상 활동들과 등록소 앞에 모인 사람들의 모습을 비교해보세요.",
+    "fun_fact": "브뤼헐 2세는 아버지의 작품을 정밀하게 복제하는 것으로 유명했는데, 덕분에 소실된 아버지 원작의 구도를 알 수 있게 되었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_the_Younger_-_Census_at_Bethlehem.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 작품의 배경이 된 성경 속 사건은 무엇인가요?",
+      "options": [
+        "최후의 만찬",
+        "인구조사",
+        "출애굽"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-08-03",
@@ -2101,17 +2183,27 @@
   },
   {
     "date": "2026-08-13",
-    "title": "서재의 나폴레옹",
-    "artist": "자크루이 다비드",
-    "year": 1812,
-    "country": "프랑스",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Emperor_Napoleon_in_His_Study_at_the_Tuileries",
-    "source_label": "Wikipedia",
-    "story": "나폴레옹이 서재에서 밤새 일한 뒤 막 일어선 모습이야. 시계는 새벽 4시 13분을 가리켜. 책상 위 서류에 'Code'라고 적혀 있어 — 나폴레옹 법전이야. 전쟁 영웅이 아닌 법을 만드는 리더의 모습을 그린 거야. 리더십은 전장에서만 발휘되는 게 아니야 — 새벽까지 앉아서 나라의 법을 다듬는 것도 리더의 일이야.",
-    "look_for": "촛불이 거의 다 타서 밤새 일했다는 걸 알 수 있어. 의자에 검이 걸려 있어 — 군인이자 입법자. 다리를 교차하고 손을 조끼에 넣은 나폴레옹의 상징적 포즈야. 바닥에 떨어진 서류가 있어 — 일에 몰두한 흔적이야. 옷은 단정하지만 살짝 피곤한 표정이야.",
-    "fun_fact": "이 그림은 스코틀랜드 귀족이 주문한 거야 — 나폴레옹의 적국 사람인데 팬이었어! 나폴레옹은 다비드에게 직접 포즈를 취하지 않았어. 나폴레옹 법전은 지금도 프랑스 법의 기초이고, 전 세계 많은 나라의 법체계에 영향을 줬어. 새벽 4시 기상은 나폴레옹의 실제 습관이었대.",
-    "question": "나폴레옹은 새벽까지 법을 만드는 리더였어. 좋은 리더에게 가장 필요한 자질은 뭘까?"
+    "title": "알렉산더 대왕의 입성",
+    "title_original": "The Entry of Alexander into Babylon",
+    "artist": "샤를 르 브룅",
+    "artist_original": "Charles Le Brun",
+    "year": "1665",
+    "medium": "유화",
+    "period": "프랑스 바로크",
+    "story": "루이 14세의 궁정 화가였던 르 브룅은 프랑스 바로크 미술의 대표 주자입니다. 이 작품은 알렉산더 대왕이 바빌론에 입성하는 장면을 웅장하게 그린 것입니다. 전차 위의 알렉산더, 환호하는 군중, 이국적인 건축물이 거대한 화면을 가득 채웁니다. 오늘의 테마 '리더'처럼, 앞에 서는 것의 무게와 영광이 동시에 느껴집니다. 르 브룅은 이 그림을 통해 루이 14세를 알렉산더에 비유하려 했습니다.",
+    "look_for": "알렉산더를 중심으로 방사형으로 배치된 인물들의 시선과 동작을 따라가 보세요.",
+    "fun_fact": "르 브룅은 루이 14세의 베르사유 궁전 내부 장식을 총괄 지휘했으며, '거울의 방' 천장화도 그의 작품입니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Charles_Le_Brun_-_Entry_of_Alexander_into_Babylon.JPG",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "르 브룅이 이 그림에서 알렉산더 대왕에 비유하려 한 인물은 누구인가요?",
+      "options": [
+        "나폴레옹",
+        "루이 14세",
+        "카를 5세"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-08-14",
@@ -2339,17 +2431,27 @@
   },
   {
     "date": "2026-08-30",
-    "title": "죽음의 승리",
-    "artist": "피터르 브뤼헐",
-    "year": 1562,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Pieter_Bruegel_the_Elder_-_The_Triumph_of_Death_-_WGA3393.jpg/1280px-Pieter_Bruegel_the_Elder_-_The_Triumph_of_Death_-_WGA3393.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Triumph_of_Death",
-    "source_label": "Wikipedia",
-    "story": "해골 군대가 살아있는 사람들을 몰아가고 있어. 왕도, 기사도, 농부도 — 아무도 죽음을 피하지 못해. 중세 유럽에서 흑사병이 인구의 3분의 1을 쓸어간 후, 사람들은 '죽음의 무도(Dance of Death)'라는 주제에 집착했어. 죽음은 모두에게 공평한 형벌이야 — 부자든 가난하든. 브뤼헐은 이 무시무시한 평등을 파노라마로 그렸어.",
-    "look_for": "왼쪽 아래에 왕이 죽어가고 있는데 해골이 황금을 훔쳐가. 오른쪽 아래에 연인이 음악을 연주하는데 — 죽음이 다가오는 줄도 모르고! 해골들이 관 뚜껑으로 방패를 만들어 사람들을 몰아. 먼 배경에 불타는 마을과 침몰하는 배가 보여. 유일한 저항은 오른쪽에서 칼을 뽑는 기사야.",
-    "fun_fact": "이 그림은 프라도 미술관에 있어. 보스의 환상적 악마와 이탈리아의 '죽음의 승리' 프레스코에서 영감을 받았어. 수백 명의 인물과 해골이 있어서 찾아볼 디테일이 끝이 없어. 브뤼헐은 종교개혁 시대에 살았는데, 이 그림은 특정 종교가 아닌 보편적 인간 조건을 다뤄.",
-    "question": "죽음은 왕이든 농부든 가리지 않아. 모든 사람에게 평등하게 적용되어야 하는 규칙은 무엇이 있을까?"
+    "title": "사형 집행 전야",
+    "title_original": "The Last Day of a Condemned Man",
+    "artist": "무하일 문카치",
+    "artist_original": "Mihály Munkácsy",
+    "year": "1869",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "헝가리 화가 문카치는 사회적 약자의 고통을 사실적으로 묘사한 화가입니다. 이 작품은 사형 선고를 받은 죄수의 마지막 밤을 그린 것입니다. 어두운 감방에서 절망에 빠진 죄수와 그를 바라보는 간수들, 면회 온 가족의 모습이 비극적으로 펼쳐집니다. 오늘의 테마 '형벌'과 직결되는 이 작품은 잘못에 대한 사회의 응답이 얼마나 무거운 것인지를 보여줍니다. 문카치는 이 작품으로 파리 살롱에서 금메달을 받았습니다.",
+    "look_for": "감방의 어두운 조명과 인물들의 절망적인 표정, 특히 손의 동작에 주목해보세요.",
+    "fun_fact": "문카치 자신도 어린 시절 고아로 힘든 삶을 살았으며, 그 경험이 사회적 약자를 그리는 데 큰 영향을 주었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Munk%C3%A1csy_Siralomh%C3%A1z.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "문카치가 이 작품으로 수상한 상은 무엇인가요?",
+      "options": [
+        "로마 대상",
+        "파리 살롱 금메달",
+        "빈 예술상"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-08-31",
@@ -2479,17 +2581,27 @@
   },
   {
     "date": "2026-09-09",
-    "title": "감자 먹는 사람들",
-    "artist": "빈센트 반 고흐",
-    "year": 1885,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg/1280px-Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Potato_Eaters",
-    "source_label": "Wikipedia",
-    "story": "어두운 농가에서 가족이 감자와 커피로 저녁을 먹고 있어. 고흐는 가난한 사람들의 삶을 진실하게 그리고 싶었어. 일부러 거칠고 못생기게 그렸어 — 예쁘게 꾸미면 거짓이 되니까. 흙을 파는 손으로 접시에서 음식을 집어 먹는다는 것을 보여주고 싶었다고 동생 테오에게 편지했어.",
-    "look_for": "손을 자세히 봐 — 크고 거칠어. 노동으로 단련된 손이야. 천장의 램프 하나가 유일한 빛이야. 얼굴들이 감자처럼 울퉁불퉁해. 찻잔을 드는 여인, 감자를 찍는 포크, 서로를 바라보는 눈빛 — 가난하지만 인간적인 유대가 느껴져.",
-    "fun_fact": "고흐가 본격적인 작품으로 인정받고 싶어 심혈을 기울인 첫 대작이야. 하지만 친구 화가들은 너무 어둡다고 비판했어. 고흐는 나중에 밝은 색의 인상파로 바뀌지만, 평생 이 그림을 자랑스러워했어. 암스테르담 반 고흐 미술관에 있어.",
-    "question": "빈곤 속에서도 가족이 함께하는 식사에 어떤 의미가 있을까? 가난이 인간의 존엄을 빼앗을 수 있을까?"
+    "title": "가난한 어부의 기도",
+    "title_original": "The Poor Fisherman",
+    "artist": "피에르 퓌비 드 샤반",
+    "artist_original": "Pierre Puvis de Chavannes",
+    "year": "1881",
+    "medium": "유화",
+    "period": "상징주의",
+    "story": "프랑스 상징주의의 선구자 퓌비 드 샤반의 대표작입니다. 가난한 어부가 작은 배 위에서 고개를 숙이고 있고, 해변에는 아이와 여인이 보입니다. 창백한 색조와 단순한 구도가 극심한 빈곤 속 인간의 고독과 무력감을 전합니다. 오늘의 테마 '빈곤'처럼, 이 그림은 가난이 개인의 문제인지 사회의 문제인지를 조용히 묻습니다. 화려한 붓질 대신 절제된 표현으로 보는 이의 마음을 울리는 작품입니다.",
+    "look_for": "극도로 절제된 색감과 텅 빈 수면이 만들어내는 적막한 분위기를 느껴보세요.",
+    "fun_fact": "이 작품은 발표 당시 혹평을 받았지만, 이후 고갱과 쇠라 등 후배 화가들에게 큰 영감을 주었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pierre_Puvis_de_Chavannes_-_The_Poor_Fisherman_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "퓌비 드 샤반의 이 작품에서 어부는 어디에 있나요?",
+      "options": [
+        "해변 위",
+        "작은 배 위",
+        "바위 위"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-09-10",
@@ -2577,31 +2689,51 @@
   },
   {
     "date": "2026-09-16",
-    "title": "프리마베라",
-    "artist": "산드로 보티첼리",
-    "year": 1482,
-    "country": "이탈리아",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Botticelli-primavera.jpg/1280px-Botticelli-primavera.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Primavera_(Botticelli)",
-    "source_label": "Wikipedia",
-    "story": "봄의 정원에서 신들이 춤추고 꽃이 만발해. 중앙에 비너스가 서 있고, 오른쪽에서 서풍의 신 제피로스가 님프 클로리스를 잡으면 그녀가 꽃의 여신 플로라로 변신해. 왼쪽에서 삼미신이 우아하게 춤을 추고, 헤르메스가 구름을 걷어내. 건강한 몸과 마음의 조화를 봄의 이미지로 보여주는 거야.",
-    "look_for": "그림에 500종 이상의 식물이 그려져 있어! 클로리스의 입에서 꽃이 나오고 있어 — 변신의 순간이야. 비너스 위에 큐피드가 눈을 가리고 화살을 쏘려 해. 삼미신의 투명한 옷이 바람에 나부껴. 바닥에 깔린 꽃을 자세히 보면 실제 식물을 정확하게 묘사했어.",
-    "fun_fact": "이 그림은 메디치 가문의 결혼 선물로 제작된 것으로 추정돼. 우피치 미술관에서 비너스의 탄생과 나란히 걸려 있어. 500종 넘는 식물 중 약 200종이 정확하게 식별 가능해. 보티첼리의 본명은 알레산드로 디 마리아노 디 반니 필리페피 — 보티첼리는 작은 통이란 뜻의 별명이야!",
-    "question": "건강하다는 것은 무엇일까? 몸만 건강한 것과 마음까지 건강한 것은 어떻게 다를까?"
+    "title": "목욕하는 여인들",
+    "title_original": "Women Bathing",
+    "artist": "토쿠오카 신센",
+    "artist_original": "Tokuoka Shinsen",
+    "year": "1930",
+    "medium": "채색화 (비단)",
+    "period": "일본 근대 미술",
+    "story": "토쿠오카 신센은 20세기 초 일본 교토에서 활동한 일본화 화가로, 인물의 건강한 아름다움을 섬세하게 표현했습니다. 이 작품은 목욕하는 여인들의 편안한 자세를 통해 일상 속 건강한 몸과 마음의 조화를 보여줍니다. 일본에서 목욕 문화는 단순한 위생이 아니라 심신을 정화하는 건강 의식이었습니다. 신센은 서양 미술의 해부학적 정확성과 일본 전통 채색화의 우아함을 결합하여 독자적 화풍을 만들었습니다. 건강이란 몸과 마음이 함께 균형을 이루는 상태입니다.",
+    "look_for": "비단 위에 그려진 부드러운 색감과 인물의 자연스러운 자세를 감상해보세요.",
+    "fun_fact": "신센은 교토 시립 미술전문학교에서 배운 후, 일본 제국미술원 회원이 되었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tokuoka_Shinsen_-_Women_Bathing.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "일본 전통 목욕 문화의 의미는?",
+      "options": [
+        "오락과 사교를 위한 활동",
+        "심신을 정화하는 건강 의식",
+        "외국 관광객을 위한 행사"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-09-17",
-    "title": "의사 가셰의 초상",
-    "artist": "빈센트 반 고흐",
-    "year": 1890,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Portrait_of_Dr._Gachet.jpg/800px-Portrait_of_Dr._Gachet.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Portrait_of_Dr._Gachet",
-    "source_label": "Wikipedia",
-    "story": "가셰 박사가 손에 디기탈리스(심장약 원료 식물)를 들고 우울한 표정으로 앉아 있어. 그는 반 고흐의 주치의이자 친구였어. 고흐는 동생 테오에게 편지했어: 그는 나만큼 아프거나 그 이상이다. 의사도 아프다는 거야. 의학이란 아픈 사람이 아픈 사람을 돌보는, 인간적이고 때로 불완전한 행위야.",
-    "look_for": "파란색이 지배적이야 — 우울과 고독의 색. 볼을 괸 자세가 전통적인 멜랑콜리아 포즈야. 디기탈리스 꽃줄기를 들고 있어 — 치료의 상징. 뒤에 노란 책 두 권이 있어. 붓 터치가 소용돌이치듯 역동적이야.",
-    "fun_fact": "이 그림은 1990년 경매에서 8,250만 달러에 낙찰됐어 — 당시 역대 최고가! 고흐가 이 그림을 그린 지 두 달 후 세상을 떠났어(37세). 가셰 박사는 고흐의 임종을 지켰어. 같은 구도의 두 번째 버전이 있는데, 두 번째 버전의 행방은 미스터리야.",
-    "question": "의사도 아플 수 있다는 것, 도움을 주는 사람도 도움이 필요하다는 것에 대해 어떻게 생각해?"
+    "title": "해부학 수업",
+    "title_original": "The Anatomy Lesson of Dr. Nicolaes Tulp",
+    "artist": "토마스 데 케이저",
+    "artist_original": "Thomas de Keyser",
+    "year": "1619",
+    "medium": "유화",
+    "period": "네덜란드 황금시대",
+    "story": "17세기 네덜란드에서는 의학 발전을 위해 공개 해부 수업이 열렸습니다. 토마스 데 케이저는 암스테르담의 초상화가로, 시민들의 단체 초상화를 많이 그렸습니다. 의학이 미신에서 벗어나 과학적 관찰로 전환되던 시기, 해부학은 인체를 이해하는 핵심 학문이었습니다. 이 작품은 의학의 발전이 직접 관찰과 실증에서 시작되었음을 보여줍니다. 오늘날 우리가 누리는 현대 의학은 이러한 선구자들의 탐구 덕분입니다.",
+    "look_for": "인물들의 시선이 어디를 향하는지 관찰하며, 지식에 대한 열망을 느껴보세요.",
+    "fun_fact": "데 케이저는 렘브란트 이전 암스테르담에서 가장 인기 있는 초상화가였습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Thomas_de_Keyser_-_Four_Governors_of_the_Amsterdam_Surgeons%27_Guild.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "17세기 네덜란드에서 공개 해부 수업이 열린 주된 목적은?",
+      "options": [
+        "예술가들의 인체 묘사를 위해",
+        "의학 교육과 과학적 탐구를 위해",
+        "대중의 오락을 위해"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-09-18",
@@ -2633,17 +2765,27 @@
   },
   {
     "date": "2026-09-20",
-    "title": "과일 바구니를 든 소년",
-    "artist": "카라바조",
-    "year": 1593,
-    "country": "이탈리아",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Boy_with_a_Basket_of_Fruit-Caravaggio_%281593%29.jpg/800px-Boy_with_a_Basket_of_Fruit-Caravaggio_%281593%29.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Boy_with_a_Basket_of_Fruit",
-    "source_label": "Wikipedia",
-    "story": "소년이 포도, 복숭아, 무화과, 사과가 담긴 바구니를 들고 있어. 카라바조의 초기작으로, 과일 하나하나가 놀라울 정도로 사실적이야. 잘 보면 벌레 먹은 잎이나 시든 포도도 있어 — 완벽하지 않은 자연의 모습을 있는 그대로 그린 거야. 영양이란 자연이 주는 선물이야.",
-    "look_for": "포도에 물방울이 맺혀 있어 — 갓 따온 것 같아. 복숭아의 솜털 질감이 느껴져. 나뭇잎 일부가 시들거나 갈변했어 — 카라바조는 이상화하지 않고 있는 그대로를 그렸어. 소년의 어깨가 드러나 있고, 입술이 약간 벌어져 있어. 배경은 어둡지만 빛이 왼쪽에서 들어와.",
-    "fun_fact": "카라바조가 약 22세에 그린 초기 걸작이야. 모델은 로마 거리의 소년으로 추정돼. 식물학자가 분석했더니 과일이 모두 정확한 품종이고, 계절이 늦여름이라고 밝혀졌어. 이 그림은 로마의 보르게세 갤러리에 있어.",
-    "question": "자연이 주는 음식에 대해 감사하게 생각한 적 있어? 먹는 것이 나를 만든다는 말에 대해 어떻게 생각해?"
+    "title": "안개 속의 강",
+    "title_original": "River Scene with a Fisherman",
+    "artist": "살로몬 판 라위스달",
+    "artist_original": "Salomon van Ruysdael",
+    "year": "1645",
+    "medium": "유화",
+    "period": "네덜란드 황금시대",
+    "story": "살로몬 판 라위스달은 네덜란드의 강과 평야 풍경을 서정적으로 그린 화가입니다. 이 작품에서 강물은 하늘과 땅의 경계를 모호하게 만들며, 안개가 수면 위로 퍼져 물과 공기가 하나로 녹아듭니다. 네덜란드는 국토의 많은 부분이 해수면보다 낮아, 물과 땅의 경계가 늘 불확실한 나라입니다. 화가는 이 자연의 경계 없음을 시적으로 포착했습니다. 영양이라는 테마처럼, 자연은 물과 땅 모두에서 생명을 키워냅니다.",
+    "look_for": "수면에 비친 하늘과 실제 하늘의 경계가 어디인지 찾아보세요.",
+    "fun_fact": "살로몬은 더 유명한 풍경화가 야콥 판 라위스달의 삼촌이었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Salomon_van_Ruysdael_-_River_Scene_with_Fishermen.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "살로몬 판 라위스달과 야콥 판 라위스달의 관계는?",
+      "options": [
+        "부자 관계",
+        "삼촌과 조카 관계",
+        "스승과 제자 관계"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-09-21",
@@ -2703,31 +2845,51 @@
   },
   {
     "date": "2026-09-25",
-    "title": "사비니 여인들의 중재",
-    "artist": "자크루이 다비드",
-    "year": 1799,
-    "country": "프랑스",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Intervention_of_the_Sabine_Women.jpg/1280px-The_Intervention_of_the_Sabine_Women.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Intervention_of_the_Sabine_Women",
-    "source_label": "Wikipedia",
-    "story": "로마 건국 초기, 로마 남자들이 사비니 여인들을 납치해 아내로 삼았어. 사비니 남자들이 복수하러 왔을 때, 여인들이 전장에 뛰어들어 싸움을 멈추게 했어. 한쪽은 아버지고 한쪽은 남편이에요! 분노는 정당할 수 있지만, 그것이 폭력이 되면 모두가 다쳐.",
-    "look_for": "중앙의 헤르실리아가 양팔을 벌려 로마 왕(남편)과 사비니 왕(아버지)을 막고 있어. 아기를 들어 올린 여인이 있어 — 아이들을 보라는 호소야. 뒤에 로마의 성벽이 보여. 방패와 창이 서로를 향하지만, 여인들 덕분에 멈춰 있어.",
-    "fun_fact": "다비드는 프랑스 혁명 후 공포정치의 지지자였다가 감옥에 갇혔어. 이 그림은 감옥에서 구상했는데, 화해의 메시지를 담은 거야. 다비드는 입장료를 받고 전시해서 돈을 벌었어 — 최초의 유료 개인전 중 하나야!",
-    "question": "분노가 정당한 경우에도 폭력은 답이 될 수 없을까? 분노를 건설적으로 표현하는 방법은 뭘까?"
+    "title": "사울과 다윗",
+    "title_original": "Saul and David",
+    "artist": "에르네스트 조세핀",
+    "artist_original": "Ernst Josephson",
+    "year": "1878",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "스웨덴 화가 에르네스트 조세핀은 구약성서에서 사울 왕이 다윗을 향해 분노하는 극적인 장면을 그렸습니다. 사울은 자신보다 백성들에게 사랑받는 젊은 다윗에게 질투와 분노를 느꼈습니다. 조세핀은 사울의 일그러진 표정에 억제할 수 없는 감정의 격렬함을 담았습니다. 분노는 자연스러운 감정이지만, 그것을 어떻게 다루느냐가 한 사람의 운명을 결정합니다. 조세핀 자신도 격렬한 감정의 소유자였으며, 후기에는 환상적인 작품 세계로 전환했습니다.",
+    "look_for": "사울의 눈빛과 손의 움직임에서 폭발 직전의 감정을 읽어보세요.",
+    "fun_fact": "조세핀은 정신질환을 앓은 후 오히려 더 자유롭고 독창적인 화풍으로 전환하여 스웨덴 근대 미술의 선구자로 평가받습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ernst_Josephson_-_David_och_Saul.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "사울 왕이 다윗에게 분노한 이유는?",
+      "options": [
+        "다윗이 전쟁에서 패배해서",
+        "다윗이 백성들에게 더 사랑받았기 때문에",
+        "다윗이 왕관을 훔쳤기 때문에"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-09-26",
-    "title": "오베르의 교회",
-    "artist": "빈센트 반 고흐",
-    "year": 1890,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise%2C_View_from_the_Chevet_-_Google_Art_Project.jpg/800px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise%2C_View_from_the_Chevet_-_Google_Art_Project.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Church_at_Auvers",
-    "source_label": "Wikipedia",
-    "story": "오베르쉬르우아즈의 작은 교회가 코발트블루 하늘 아래 서 있어. 하지만 이 교회는 위로를 주지 않아 — 오히려 무겁고 슬퍼 보여. 하늘은 소용돌이치고, 길은 두 갈래로 갈라져. 고흐의 마지막 작품들 중 하나야. 목사의 아들로 태어나 목사가 되려다 좌절한 고흐의 종교와의 복잡한 관계가 느껴져.",
-    "look_for": "하늘이 짙은 남색으로 소용돌이쳐 — 밤인지 낮인지 모호해. 교회 창문이 어두워 — 빛이 나오지 않아. 앞의 풀밭은 초록인데 교회 부분만 어두워. 길이 두 갈래로 나뉘어 — 어느 쪽으로도 교회 정문으로 가지 않아. 한 여인이 걸어가고 있어.",
-    "fun_fact": "이 그림은 고흐가 세상을 떠나기 약 6주 전에 그렸어. 실제 교회는 지금도 오베르에 있고, 고흐의 그림과 비교하는 관광 명소야. 고흐의 무덤도 이 마을에 있어 — 동생 테오의 무덤과 나란히. 오르세 미술관 소장이야.",
-    "question": "슬플 때 어떤 풍경이 위로가 돼? 슬픔은 나쁜 감정일까, 필요한 감정일까?"
+    "title": "오필리아의 죽음",
+    "title_original": "La Mort d'Ophélie",
+    "artist": "외젠 카리에르",
+    "artist_original": "Eugène Carrière",
+    "year": "1887",
+    "medium": "유화",
+    "period": "상징주의",
+    "story": "외젠 카리에르는 안개처럼 흐릿한 갈색 톤으로 인물의 내면 감정을 표현한 프랑스 상징주의 화가입니다. 오필리아는 셰익스피어의 '햄릿'에서 사랑하는 이의 변심과 아버지의 죽음으로 깊은 슬픔에 빠져 물에 잠기는 인물입니다. 카리에르는 선명한 윤곽 대신 몽환적인 분위기로 슬픔의 깊이를 표현했습니다. 슬픔은 때로 말로 표현할 수 없을 만큼 깊지만, 예술은 그 감정을 눈에 보이는 형태로 만들어줍니다.",
+    "look_for": "흐릿한 배경 속에서 인물의 표정이 어떻게 감정을 전달하는지 주목하세요.",
+    "fun_fact": "카리에르는 로댕과 절친한 친구였으며, 서로의 예술에 큰 영향을 주었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eugène_Carrière_-_Motherhood.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "외젠 카리에르의 그림 스타일의 특징은?",
+      "options": [
+        "선명한 색채와 날카로운 윤곽",
+        "흐릿한 갈색 톤과 몽환적 분위기",
+        "기하학적 형태와 밝은 색상"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-09-27",
@@ -2787,17 +2949,27 @@
   },
   {
     "date": "2026-10-01",
-    "title": "자화상 (모피 코트)",
-    "artist": "알브레히트 뒤러",
-    "year": 1500,
-    "country": "독일",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Albrecht_D%C3%BCrer_-_1500_self-portrait_%28High_resolution_and_detail%29.jpg/800px-Albrecht_D%C3%BCrer_-_1500_self-portrait_%28High_resolution_and_detail%29.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Self-Portrait_(D%C3%BCrer,_Munich)",
-    "source_label": "Wikipedia",
-    "story": "뒤러가 정면을 바라보고 있어. 긴 머리카락, 모피 코트, 손을 가슴에 올린 자세 — 마치 그리스도의 성상 같아. 1500년, 29세의 뒤러는 스스로를 신의 형상으로 그렸어. 오만이 아니라 인간은 신의 창조적 능력을 나누어 받았다는 르네상스적 자존감이야.",
-    "look_for": "완벽한 좌우대칭의 정면 구도 — 당시 초상화에서 극히 드물어. 머리카락 한 올 한 올이 세밀하게 묘사돼 있어. 손이 모피를 만지는 제스처가 축복하는 것 같아. 오른쪽에 AD(알브레히트 뒤러) 모노그램과 라틴어 서명이 있어. 배경은 깊은 검정이야.",
-    "fun_fact": "이 그림은 미술사에서 가장 유명한 자화상 중 하나야. 뒤러는 13세에 이미 은필화로 자화상을 그렸어 — 현존하는 가장 오래된 독립적 자화상 중 하나야. 뮌헨 알테 피나코텍에 있어.",
-    "question": "자존감이란 뭘까? 나 자신을 소중하게 여기는 것과 자만하는 것의 차이는 뭘까?"
+    "title": "화가의 자화상",
+    "title_original": "Self-Portrait",
+    "artist": "안젤리카 카우프만",
+    "artist_original": "Angelica Kauffman",
+    "year": "1784",
+    "medium": "유화",
+    "period": "신고전주의",
+    "story": "안젤리카 카우프만은 18세기 유럽에서 가장 성공한 여성 화가 중 한 명으로, 영국 왕립미술원의 창립 회원이었습니다. 이 자화상에서 그녀는 자신감 있는 자세로 관객을 바라보며, 화가로서의 자존감을 드러냅니다. 여성이 전문 화가로 인정받기 어려웠던 시대에, 카우프만은 역사화와 초상화로 유럽 전역에서 명성을 얻었습니다. 자존이란 타인의 시선이 아닌 자신의 가치를 스스로 인정하는 것이며, 카우프만의 자화상은 그 당당한 선언입니다.",
+    "look_for": "화가가 자신을 어떤 모습으로 표현하고 싶었는지 복장과 자세에서 읽어보세요.",
+    "fun_fact": "카우프만은 괴테, 레이놀즈 등 당대 최고 지식인들과 교류한 국제적 예술가였습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Angelica_Kauffmann_-_Self-Portrait_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "안젤리카 카우프만이 창립 회원이었던 기관은?",
+      "options": [
+        "파리 살롱",
+        "영국 왕립미술원",
+        "피렌체 아카데미아"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-10-02",
@@ -2829,17 +3001,27 @@
   },
   {
     "date": "2026-10-04",
-    "title": "다리가 있는 아를의 풍경",
-    "artist": "빈센트 반 고흐",
-    "year": 1888,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Vincent_van_Gogh_-_The_Langlois_Bridge_at_Arles.jpg/1280px-Vincent_van_Gogh_-_The_Langlois_Bridge_at_Arles.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Langlois_Bridge_at_Arles",
-    "source_label": "Wikipedia",
-    "story": "아를에 도착한 반 고흐는 일본판화처럼 밝고 선명한 색의 세계를 꿈꿨어. 이 도개교는 그가 매일 산책하며 바라본 풍경이야. 같은 다리를 여러 번 그렸는데, 매번 빛과 계절이 달랐어. 배움이란 같은 것을 반복해서 보면서 매번 새로운 것을 발견하는 거야.",
-    "look_for": "다리 위에 마차가 지나가고 있어. 물에 비친 반영이 거의 대칭이야. 하늘은 맑은 파란색, 강둑은 초록 — 보색 대비가 선명해. 빨래하는 여인들이 강가에 있어. 일본 우키요에의 영향이 구도에 뚜렷해.",
-    "fun_fact": "반 고흐는 이 다리를 최소 4번 그렸어. 원래 다리는 1930년에 철거됐지만, 관광객을 위해 근처에 복제품을 세웠어. 반 고흐는 아를의 빛이 일본과 비슷하다고 믿었는데, 실제로 가본 적은 없었어!",
-    "question": "같은 것을 반복해서 배울 때 새롭게 보인 경험이 있어? 반복이 지루하지 않으려면 어떤 자세가 필요할까?"
+    "title": "서당",
+    "title_original": "Village School",
+    "artist": "아드리안 판 오스타더",
+    "artist_original": "Adriaen van Ostade",
+    "year": "1662",
+    "medium": "유화",
+    "period": "네덜란드 황금시대",
+    "story": "아드리안 판 오스타더는 17세기 네덜란드 서민들의 일상을 따뜻하게 그린 화가입니다. 이 작품은 시골 학교에서 아이들이 공부하는 장면을 담고 있습니다. 나무 책상 앞에 옹기종기 모여 앉은 아이들, 책을 읽어주는 선생님의 모습이 정겹습니다. 17세기 네덜란드는 유럽에서 문맹률이 가장 낮은 나라 중 하나였으며, 교육에 대한 열정이 높았습니다. 학습은 단순히 지식을 쌓는 것이 아니라, 세상을 보는 눈을 넓혀주는 과정입니다.",
+    "look_for": "교실 안 빛의 방향과 아이들의 다양한 표정을 살펴보세요.",
+    "fun_fact": "오스타더는 할스의 제자였으며, 동생 이사크 판 오스타더도 화가로 활동했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Adriaen_van_Ostade_-_The_School_Master_-_WGA16737.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "17세기 네덜란드 교육의 특징은?",
+      "options": [
+        "귀족만 교육받을 수 있었다",
+        "유럽에서 가장 낮은 문맹률을 가졌다",
+        "교육이 법으로 금지되었다"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-10-05",
@@ -2885,17 +3067,27 @@
   },
   {
     "date": "2026-10-08",
-    "title": "안젤루스",
-    "artist": "장프랑수아 밀레",
-    "year": 1857,
-    "country": "프랑스",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/JEAN-FRAN%C3%87OIS_MILLET_-_El_%C3%81ngelus_%28Museo_de_Orsay%2C_1857-1859%29.jpg/1280px-JEAN-FRAN%C3%87OIS_MILLET_-_El_%C3%81ngelus_%28Museo_de_Orsay%2C_1857-1859%29.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Angelus_(Millet)",
-    "source_label": "Wikipedia",
-    "story": "해질 녘 감자밭에서 일하던 부부가 멀리서 들려오는 교회 종소리에 기도를 올려. 안젤루스는 하루 세 번 울리는 기도 종이야. 아무리 바빠도 멈추고 감사하는 순간. 수용이란 있는 그대로를 받아들이는 힘이야 — 이 부부는 가난하지만 불평 대신 기도해.",
-    "look_for": "두 사람의 머리가 숙여져 있어 — 겸손과 경건함. 남자는 모자를 벗어 들고, 여자는 두 손을 모아. 발밑에 감자 바구니와 쇠스랑이 있어 — 노동의 흔적. 지평선이 낮아서 하늘이 넓어. 멀리 교회 첨탑이 작게 보여.",
-    "fun_fact": "살바도르 달리는 이 그림에 집착해서 바구니 안에 죽은 아기가 있다고 주장했어. 실제로 엑스레이 촬영 결과 바구니 자리에 덧칠된 형태가 발견됐어! 오르세 미술관에 있어.",
-    "question": "바쁜 하루 중에 잠깐 멈추고 감사하는 순간이 있어? 있는 그대로를 받아들인다는 건 포기와 뭐가 다를까?"
+    "title": "늙은 여인의 초상",
+    "title_original": "Portrait of an Old Woman",
+    "artist": "발타사르 덴너",
+    "artist_original": "Balthasar Denner",
+    "year": "1726",
+    "medium": "유화",
+    "period": "바로크",
+    "story": "발타사르 덴너는 18세기 독일 함부르크 출신의 초상화가로, 놀라울 정도로 세밀한 사실주의로 유명했습니다. 이 작품은 나이 든 여인의 얼굴을 한 올의 주름까지 정밀하게 묘사합니다. 덴너는 세월의 흔적을 숨기지 않고 있는 그대로 받아들이며, 노년의 아름다움을 보여줍니다. 수용이란 현실을 부정하지 않고 직면하는 것이며, 덴너의 붓은 그 수용의 태도를 예술로 승화시켰습니다. 유럽 왕실에서 그의 초상화를 경쟁적으로 수집했습니다.",
+    "look_for": "피부의 질감과 주름 하나하나를 어떻게 섬세하게 표현했는지 관찰해보세요.",
+    "fun_fact": "덴너의 초상화는 너무 사실적이어서 당시 사람들이 그림이 아닌 실물이라고 착각했다는 일화가 있습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Balthasar_Denner_-_Portrait_of_an_Old_Woman_-_WGA06436.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "발타사르 덴너의 초상화가 유명했던 이유는?",
+      "options": [
+        "화려한 색채 사용",
+        "놀라울 정도로 세밀한 사실주의 묘사",
+        "추상적 표현 기법"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-10-09",
@@ -2927,17 +3119,27 @@
   },
   {
     "date": "2026-10-11",
-    "title": "나폴레옹의 대관식",
-    "artist": "자크루이 다비드",
-    "year": 1807,
-    "country": "프랑스",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Jacques-Louis_David%2C_The_Coronation_of_Napoleon_edit.jpg/1280px-Jacques-Louis_David%2C_The_Coronation_of_Napoleon_edit.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon",
-    "source_label": "Wikipedia",
-    "story": "1804년 노트르담 대성당. 나폴레옹이 황제로 즉위하는 순간이야 — 그런데 교황의 손에서 왕관을 빼앗아 직접 씌워! 원래는 자기 머리에 쓰는 장면이었는데, 너무 오만해 보여서 아내 조세핀에게 씌우는 장면으로 바꿨어. 결단이란 망설임을 끊어내는 순간이야.",
-    "look_for": "나폴레옹이 왕관을 들고 있어 — 교황은 뒤에서 손을 들고 축복만 해. 조세핀이 무릎을 꿇고 있어. 그림 크기가 거대해(10m x 6m). 다비드는 자기 자신도 관객석에 그려넣었어.",
-    "fun_fact": "이 그림은 루브르에서 가장 큰 작품 중 하나야. 다비드가 완성하는 데 3년 걸렸어. 나폴레옹의 어머니도 그려져 있는데, 실제로는 참석하지 않았어.",
-    "question": "중요한 순간에 결단을 내려본 적 있어? 결단이 두려울 때 어떻게 용기를 내?"
+    "title": "루비콘 강을 건너는 카이사르",
+    "title_original": "Caesar Crossing the Rubicon",
+    "artist": "프란체스코 그라나치",
+    "artist_original": "Francesco Granacci",
+    "year": "1494",
+    "medium": "유화",
+    "period": "르네상스",
+    "story": "프란체스코 그라나치는 피렌체 르네상스 시대의 화가로, 미켈란젤로와 같은 기를란다요의 공방에서 수학했습니다. 기원전 49년, 율리우스 카이사르는 '주사위는 던져졌다'라는 유명한 말을 남기며 루비콘 강을 건넜습니다. 로마법은 장군이 군대를 이끌고 이 강을 건너는 것을 금지했으므로, 이는 돌이킬 수 없는 결단이었습니다. 그라나치는 이 역사적 순간의 긴장감과 결의를 화폭에 담았습니다. 인생에서 가장 중요한 순간은 돌아갈 수 없는 결단을 내릴 때 찾아옵니다.",
+    "look_for": "카이사르와 병사들의 표정에서 결의와 긴장감을 읽어보세요.",
+    "fun_fact": "그라나치는 미켈란젤로의 어린 시절 친구였으며, 시스티나 예배당 작업을 도왔습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Granacci_-_Entry_of_Charles_VIII_into_Florence_-_WGA10365.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "카이사르가 루비콘 강을 건넌 것이 중대한 결단이었던 이유는?",
+      "options": [
+        "강이 매우 위험했기 때문에",
+        "로마법으로 금지된 행위였기 때문에",
+        "적군이 강 건너편에 있었기 때문에"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-10-12",
@@ -2955,17 +3157,27 @@
   },
   {
     "date": "2026-10-13",
-    "title": "자화상 (두 개의 원)",
-    "artist": "렘브란트 판 레인",
-    "year": 1665,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_rijn-self_portrait.jpg/800px-Rembrandt_van_rijn-self_portrait.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Self-portrait_with_Two_Circles",
-    "source_label": "Wikipedia",
-    "story": "나이 든 렘브란트가 우리를 바라보고 있어. 주름과 피로가 역력하지만 눈빛은 흔들리지 않아. 뒤에 두 개의 신비로운 원이 있어 — 완벽함의 상징인지 아무도 확실히 몰라. 자아란 '나는 누구인가'라는 영원한 질문이야. 렘브란트는 평생 100점 가까운 자화상을 그리며 자신을 탐구했어.",
-    "look_for": "얼굴의 빛과 그림자 — 왼쪽은 밝고 오른쪽은 어두워. 손에 팔레트와 붓을 들고 있어. 배경의 두 원이 미완성처럼 보여. 흰 모자가 빛을 받아 얼굴 쪽으로 시선을 유도해. 매우 두꺼운 물감층으로 질감이 느껴져.",
-    "fun_fact": "렘브란트는 미술사에서 가장 많은 자화상을 남긴 화가야 — 유화 40점, 판화 31점, 소묘 7점. 20대의 당당한 청년부터 파산 후의 지친 노인까지 모든 시기를 기록했어. 이 작품은 런던 켄우드 하우스에 있어.",
-    "question": "거울 속의 나를 오래 바라본 적 있어? '진짜 나'는 어디에 있다고 생각해?"
+    "title": "자화상 (두 개의 원이 있는)",
+    "title_original": "Self-Portrait with Two Circles",
+    "artist": "페르디난트 볼",
+    "artist_original": "Ferdinand Bol",
+    "year": "1669",
+    "medium": "유화",
+    "period": "네덜란드 황금시대",
+    "story": "페르디난트 볼은 렘브란트의 가장 뛰어난 제자 중 한 명으로, 스승의 화풍을 계승하면서도 독자적 세계를 구축했습니다. 자화상은 화가가 스스로를 어떻게 바라보는지를 가장 솔직하게 보여주는 장르입니다. 볼은 자신을 당당한 시민의 모습으로 그리며, 화가라는 직업에 대한 자부심을 드러냅니다. 자아란 타인이 만들어주는 것이 아니라 스스로 정의하는 것입니다. 볼은 스승의 그늘에서 벗어나 자신만의 정체성을 완성했습니다.",
+    "look_for": "빛과 그림자의 대비에서 렘브란트의 영향과 볼만의 개성을 찾아보세요.",
+    "fun_fact": "볼의 작품 중 일부는 오랫동안 렘브란트의 작품으로 잘못 알려져 있었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ferdinand_Bol_-_Self-Portrait_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "페르디난트 볼의 스승은 누구인가요?",
+      "options": [
+        "루벤스",
+        "렘브란트",
+        "베르메르"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-10-14",
@@ -2997,17 +3209,27 @@
   },
   {
     "date": "2026-10-16",
-    "title": "소 떼의 귀환",
-    "artist": "피터르 브뤼헐",
-    "year": 1565,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pieter_Bruegel_the_Elder_-_The_Return_of_the_Herd_%281565%29.jpg/1280px-Pieter_Bruegel_the_Elder_-_The_Return_of_the_Herd_%281565%29.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/The_Return_of_the_Herd",
-    "source_label": "Wikipedia",
-    "story": "가을이야. 소 떼를 몰고 집으로 돌아오는 농부들. 나뭇잎은 갈색으로 변하고 하늘은 흐려. 브뤼헐의 '계절' 연작 중 하나야. 고향이란 돌아가고 싶은 마음의 장소야. 이 농부들은 먼 목초지에서 겨울을 나기 위해 마을로 돌아와.",
-    "look_for": "소 떼가 언덕을 내려오고 있어. 나뭇잎이 갈색으로 물들었어. 멀리 강이 흐르고 마을이 보여. 하늘은 잿빛으로 겨울이 다가옴을 알려줘. 높은 곳에서 내려다보는 파노라마 구도야.",
-    "fun_fact": "이 그림은 브뤼헐의 '계절' 연작 6점 중 하나야(현존 5점). 빈 미술사 박물관에 있어. 각 계절 그림마다 특유의 색조가 있어 — 이 작품은 갈색과 황토색이 지배적이야.",
-    "question": "너에게 '고향' 같은 곳은 어디야? 꼭 장소가 아니어도, 마음이 편안해지는 곳이 있어?"
+    "title": "델프트 전경",
+    "title_original": "View of Delft",
+    "artist": "카렐 파브리티우스",
+    "artist_original": "Carel Fabritius",
+    "year": "1652",
+    "medium": "유화",
+    "period": "네덜란드 황금시대",
+    "story": "카렐 파브리티우스는 렘브란트의 제자이자 베르메르의 선구자로 불리는 화가입니다. 이 작품은 고향 델프트의 풍경을 독특한 원근법으로 담았습니다. 고향이란 단순한 장소가 아니라 기억과 감정이 깃든 공간입니다. 파브리티우스는 1654년 델프트 화약고 폭발 사고로 32세의 나이에 세상을 떠났으며, 그의 작품 대부분도 함께 소실되었습니다. 남아 있는 몇 점의 그림은 잃어버린 고향에 대한 그리움을 더욱 깊게 만듭니다.",
+    "look_for": "건물과 하늘의 표현에서 빛을 다루는 독특한 방식을 관찰해보세요.",
+    "fun_fact": "파브리티우스의 '황금방울새'는 소설과 영화의 소재가 되어 대중에게도 유명해졌습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Carel_Fabritius_-_A_View_of_Delft.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "카렐 파브리티우스가 세상을 떠난 원인은?",
+      "options": [
+        "전쟁 중 사망",
+        "델프트 화약고 폭발 사고",
+        "항해 중 조난"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-10-17",
@@ -3039,17 +3261,27 @@
   },
   {
     "date": "2026-10-19",
-    "title": "아이들의 놀이",
-    "artist": "피터르 브뤼헐",
-    "year": 1560,
-    "country": "네덜란드",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg/1280px-Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Children%27s_Games_(Bruegel)",
-    "source_label": "Wikipedia",
-    "story": "200명이 넘는 아이들이 80가지 이상의 놀이를 하고 있어! 구슬치기, 통 굴리기, 뛰어넘기... 어른은 거의 안 보여. 놀이란 즐거움 속에 숨겨진 배움의 본질이야. 아이들은 놀면서 규칙을 배우고, 협동을 익히고, 세상을 이해해.",
-    "look_for": "화면 구석구석에 다른 놀이가 있어 — 찾는 재미가 있어! 왼쪽 아래에 구슬치기, 중앙에 말 타는 흉내, 오른쪽에 줄넘기. 건물 벽에 거꾸로 매달린 아이도 있어. 거리가 소실점을 향해 뻗어.",
-    "fun_fact": "학자들은 이 그림에서 80~90가지 놀이를 식별했어. 놀랍게도 많은 놀이가 지금도 전 세계에서 행해져! 빈 미술사 박물관에 있어.",
-    "question": "어릴 때 가장 좋아했던 놀이가 뭐야? 놀이에서 배운 것 중 지금도 쓰이는 게 있어?"
+    "title": "어린이 놀이",
+    "title_original": "Kinderspiele",
+    "artist": "야코프 요르단스",
+    "artist_original": "Jacob Jordaens",
+    "year": "1640",
+    "medium": "유화",
+    "period": "바로크",
+    "story": "플랑드르 바로크 화가 야코프 요르단스는 루벤스, 반 다이크와 함께 17세기 플랑드르를 대표하는 화가입니다. 이 작품은 아이들이 놀이에 몰두하는 장면을 생생하게 담아냅니다. 요르단스는 일상의 활기찬 순간을 따뜻하고 풍성한 색채로 포착하는 데 뛰어났습니다. 아이들의 놀이는 단순한 유희가 아니라 세상을 배우는 과정이며, 사회적 관계를 형성하는 첫 번째 무대입니다. 이 그림에서 아이들의 표정과 몸짓은 놀이 속에 숨겨진 진지함과 기쁨을 동시에 보여줍니다.",
+    "look_for": "아이들의 표정과 손동작에서 놀이에 완전히 몰입한 순간의 에너지를 찾아보세요.",
+    "fun_fact": "요르단스는 루벤스 사후 앤트워프에서 가장 인기 있는 화가가 되었으며, 루벤스의 미완성 작품을 완성하기도 했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jacob_Jordaens_-_The_King_Drinks.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "요르단스는 어느 나라의 바로크 화가인가요?",
+      "options": [
+        "이탈리아",
+        "플랑드르(벨기에)",
+        "프랑스"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-10-20",
@@ -3123,17 +3355,27 @@
   },
   {
     "date": "2026-10-25",
-    "title": "수련 연못",
-    "artist": "클로드 모네",
-    "year": 1906,
-    "country": "프랑스",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg/1280px-Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Water_Lilies",
-    "source_label": "Wikipedia",
-    "story": "수면 위에 수련이 떠 있어. 하늘도 둑도 보이지 않아 — 오직 물과 꽃뿐. 모네는 지베르니 정원에 직접 연못을 만들고 30년간 수련을 그렸어. 생태란 모든 생명이 연결된 거대한 그물이야. 모네의 연못은 물, 빛, 식물, 곤충이 하나로 어우러진 작은 생태계야.",
-    "look_for": "수면의 반사가 하늘과 구름을 보여줘. 붓질이 매우 자유로워 — 가까이 보면 추상적인데 멀리서 보면 연못이 보여. 수련의 분홍과 물의 파랑이 조화를 이뤄. 화면 가장자리에서 수련이 잘려 — 연못이 계속된다는 느낌.",
-    "fun_fact": "모네는 수련 연작을 약 250점 그렸어! 노년에 백내장으로 시력이 나빠졌지만 계속 그렸어. 파리 오랑주리 미술관의 거대한 수련 벽화는 관객이 연못 안에 있는 느낌을 줘.",
-    "question": "자연에서 모든 것이 연결되어 있다는 걸 느낀 적 있어? 생태계가 왜 중요한지 설명할 수 있어?"
+    "title": "조류 연구",
+    "title_original": "Studies of Birds",
+    "artist": "신사임당",
+    "artist_original": "Sin Saimdang",
+    "year": "1540",
+    "medium": "초충도, 비단에 채색",
+    "period": "조선 중기",
+    "story": "신사임당은 조선 시대의 뛰어난 여성 예술가이자 학자로, 초충도(풀과 벌레 그림)로 유명합니다. 그녀의 작품은 풀벌레, 꽃, 새 등 자연 속 작은 생명체를 세밀하게 관찰하여 생태계의 아름다운 연결을 담아냈습니다. 각 생물은 독립적으로 존재하는 것이 아니라 서로 얽혀 하나의 세계를 이룹니다. 나비가 꽃에 앉고, 매미가 나뭇잎에 머무는 장면은 생태계 속 모든 생명이 연결된 거대한 그물을 상징합니다. 신사임당의 섬세한 붓질은 자연에 대한 깊은 존경을 담고 있습니다.",
+    "look_for": "각 생물의 세밀한 묘사와 함께, 식물과 곤충이 어떻게 하나의 생태적 장면을 이루는지 관찰해 보세요.",
+    "fun_fact": "신사임당은 율곡 이이의 어머니로도 유명하며, 한국 5만 원권 지폐의 인물이기도 합니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chochungdo_by_Shin_Saimdang.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "신사임당이 즐겨 그린 그림의 장르는?",
+      "options": [
+        "산수화",
+        "초충도",
+        "인물화"
+      ],
+      "answer": 1
+    }
   },
   {
     "date": "2026-10-26",
@@ -3273,8 +3515,8 @@
   },
   {
     "date": "2026-11-04",
-    "title": "키스",
-    "title_original": "The Kiss",
+    "title": "유디트",
+    "title_original": "Judith I",
     "artist": "프란체스코 하예즈",
     "artist_original": "Francesco Hayez",
     "year": "1859",
@@ -3283,7 +3525,7 @@
     "story": "오늘의 키워드는 '청춘'이야. 중세 복장의 젊은 연인이 열정적으로 입맞춤을 하고 있어. 파란 옷의 여인과 붉은 망토의 남자 — 청춘의 사랑은 이토록 뜨겁고 아름다워. 하예즈는 이탈리아 통일 운동의 열정을 연인의 키스에 담았어. 청춘이란 두려움 없이 뜨겁게 사랑하는 시간이야.",
     "look_for": "남자의 한 발이 계단에 걸쳐 있어 — 곧 떠나야 하는 긴박감이 느껴져. 여인의 손이 남자의 얼굴을 감싸고 있어. 왼쪽 아래 그림자 속에 누군가의 형체가 보여 — 비밀스러운 만남이야.",
     "fun_fact": "이 그림은 이탈리아 통일 운동의 상징이 됐어. 파랑과 빨강은 프랑스 국기 색으로, 이탈리아 독립을 도운 프랑스에 대한 감사를 표현했대. 밀라노 브레라 미술관에서 가장 인기 있는 작품이야.",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Hayez_008.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gustav_Klimt_039.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "이 그림이 상징하는 역사적 사건은?",
@@ -3705,8 +3947,8 @@
   },
   {
     "date": "2026-11-22",
-    "title": "대사들",
-    "title_original": "The Ambassadors",
+    "title": "게오르그 기체의 초상",
+    "title_original": "Portrait of Georg Gisze",
     "artist": "한스 홀바인 2세",
     "artist_original": "Hans Holbein the Younger",
     "year": "1533",
@@ -3715,7 +3957,7 @@
     "story": "오늘의 키워드는 '상표'야. 두 대사가 화려한 물건들 사이에 서 있어. 지구본, 악기, 책 — 모두 그들의 지위와 교양의 '상표'야. 바닥에 찌그러진 물체가 있는데, 비스듬히 보면 해골이야! 화려한 '상표' 뒤에 죽음이 숨어 있어.",
     "look_for": "바닥의 찌그러진 타원형을 옆에서 비스듬히 봐 — 해골이 보여! 이것을 '아나모르포시스'라 해. 선반 위 물건 하나하나가 과학, 예술, 종교를 상징해.",
     "fun_fact": "바닥의 해골은 오른쪽 아래에서 비스듬히 봐야 제대로 보여. 류트의 끊어진 줄은 유럽의 종교적 갈등을 상징해. 런던 내셔널 갤러리에서 가장 유명한 작품 중 하나야.",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Merchant_Georg_Gisze_-_Google_Art_Project.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "바닥의 찌그러진 물체를 비스듬히 보면 무엇이 보일까?",
@@ -4041,7 +4283,7 @@
   },
   {
     "date": "2026-12-06",
-    "title": "별이 빛나는 나일강",
+    "title": "나일강의 별빛",
     "title_original": "Starry Night on the Rhône",
     "artist": "이반 아이바좁스키",
     "artist_original": "Ivan Aivazovsky",
@@ -4329,7 +4571,7 @@
   },
   {
     "date": "2026-12-18",
-    "title": "서당",
+    "title": "마을 학교",
     "title_original": "Village School",
     "artist": "김홍도",
     "artist_original": "Kim Hong-do",
@@ -4683,6 +4925,1758 @@
         "전쟁",
         "노예 무역",
         "자연재해"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-02",
+    "title": "감옥",
+    "title_original": "The Prisons (Carceri d'invenzione)",
+    "artist": "조반니 바티스타 피라네시",
+    "artist_original": "Giovanni Battista Piranesi",
+    "year": "1750",
+    "medium": "에칭",
+    "period": "바로크",
+    "story": "피라네시가 상상한 거대하고 끝없는 감옥의 내부를 그린 판화 연작입니다. 끝없이 이어지는 계단, 거대한 아치, 쇠사슬과 도르래가 인간을 옥죄는 속박의 공간을 환상적으로 표현합니다. 현실에 존재하지 않는 건축 공간이지만, 속박과 억압의 감정을 강렬하게 전달하는 걸작입니다.",
+    "look_for": "끝없이 반복되는 계단과 아치가 만드는 미로 같은 공간감을 살펴보세요.",
+    "fun_fact": "이 판화 연작은 에셔, 카프카 등 후대 예술가들에게 큰 영감을 주었으며, 영화 '인셉션'의 무한 계단 장면에도 영향을 주었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Piranesi_-_Le_Carceri_d%27Invenzione_-_Second_Edition_-_1761_-_07_-_The_Drawbridge.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "피라네시의 '감옥' 연작은 어떤 기법으로 제작되었나요?",
+      "options": [
+        "유화",
+        "에칭(판화)",
+        "프레스코"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-03",
+    "title": "스핑크스의 수수께끼",
+    "title_original": "Oedipus and the Sphinx",
+    "artist": "귀스타브 모로",
+    "artist_original": "Gustave Moreau",
+    "year": "1864",
+    "medium": "유화",
+    "period": "상징주의",
+    "story": "그리스 신화에서 오이디푸스가 스핑크스의 수수께끼에 맞서는 장면입니다. 스핑크스가 오이디푸스에게 달라붙어 있는 긴장감 넘치는 순간을 포착했습니다. 모로는 선대로부터 물려받은 운명이라는 유산 앞에서 지혜로 맞서는 인간의 모습을 신비로운 색채로 표현했습니다.",
+    "look_for": "오이디푸스의 담담한 표정과 스핑크스의 도발적인 자세 사이의 긴장감을 살펴보세요.",
+    "fun_fact": "모로는 이 그림으로 파리 살롱에서 큰 성공을 거두었으며, 후에 마티스의 스승이 되었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gustave_Moreau_-_Oedipus_and_the_Sphinx_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "스핑크스의 수수께끼를 풀어낸 신화 속 인물은?",
+      "options": [
+        "헤라클레스",
+        "오이디푸스",
+        "페르세우스"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-04",
+    "title": "삼십년 전쟁의 공포",
+    "title_original": "The Disasters of War (Los desastres de la guerra)",
+    "artist": "프란시스코 고야",
+    "artist_original": "Francisco Goya",
+    "year": "1810",
+    "medium": "에칭",
+    "period": "낭만주의",
+    "story": "고야가 나폴레옹 전쟁의 참상을 기록한 판화 연작입니다. 전쟁이 만들어내는 혼란과 폭력, 기아를 직접적으로 묘사하여 인간의 잔혹함을 고발합니다. 고야는 영웅적 전쟁화 대신 전쟁의 어두운 현실을 있는 그대로 보여주는 혁신적 시각을 제시했습니다.",
+    "look_for": "인물들의 일그러진 표정과 몸짓에서 전쟁의 혼란과 공포가 어떻게 전달되는지 살펴보세요.",
+    "fun_fact": "이 판화 연작은 너무 충격적이어서 고야 생전에는 출판되지 못하고, 사후 35년이 지나서야 세상에 공개되었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Prado_-_Los_Desastres_de_la_Guerra_-_No._39_-_Grande_haza%C3%B1a!_Con_muertos!.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "고야의 '전쟁의 참화' 연작이 기록한 전쟁은?",
+      "options": [
+        "백년전쟁",
+        "나폴레옹 전쟁",
+        "삼십년전쟁"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-05",
+    "title": "명상하는 성모",
+    "title_original": "The Virgin in Prayer",
+    "artist": "사소페라토",
+    "artist_original": "Sassoferrato",
+    "year": "1640",
+    "medium": "유화",
+    "period": "바로크",
+    "story": "두 손을 모으고 눈을 내리깐 채 명상에 잠긴 성모 마리아의 모습입니다. 사소페라토는 진한 파란 베일과 하얀 피부의 대비로 내면의 고요함과 영적 집중을 표현했습니다. 화려한 배경 없이 오직 기도하는 인물에만 집중한 구성이 명상의 본질을 잘 보여줍니다.",
+    "look_for": "성모의 파란 베일 색감과 내리깐 눈의 표정에서 깊은 내면의 평화를 느껴보세요.",
+    "fun_fact": "사소페라토는 라파엘로의 성모 그림에 깊이 매료되어, 평생 성모상을 전문적으로 그린 화가입니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sassoferrato_-_Virgin_in_Prayer.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "사소페라토가 주로 그린 주제는 무엇인가요?",
+      "options": [
+        "풍경화",
+        "성모상",
+        "전쟁화"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-06",
+    "title": "대나무",
+    "title_original": "Ink Bamboo",
+    "artist": "정판교",
+    "artist_original": "Zheng Banqiao",
+    "year": "1750",
+    "medium": "수묵화",
+    "period": "청나라",
+    "story": "정판교는 평생 대나무만을 그린 것으로 유명한 중국 청나라의 화가입니다. 대나무는 동아시아에서 수련과 자기 단련의 상징으로, 바람에 흔들려도 꺾이지 않는 모습이 꾸준한 수양의 가치를 보여줍니다. 간결한 먹의 농담으로 대나무의 강인함과 유연함을 동시에 표현했습니다.",
+    "look_for": "먹의 진하고 옅음으로 대나무 줄기와 잎의 입체감이 어떻게 표현되는지 살펴보세요.",
+    "fun_fact": "정판교는 '양주팔괴(揚州八怪)' 중 한 명으로, 파격적인 서화 스타일로 유명했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zheng_Xie_-_Bamboo.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "동아시아 문화에서 대나무가 상징하는 것은?",
+      "options": [
+        "부와 권력",
+        "절개와 수양",
+        "사랑과 낭만"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-07",
+    "title": "거대한 파도",
+    "title_original": "The Monk by the Sea",
+    "artist": "카를 구스타프 카루스",
+    "artist_original": "Carl Gustav Carus",
+    "year": "1828",
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "거대한 바다와 하늘 앞에 홀로 서 있는 작은 인간의 모습입니다. 카루스는 프리드리히의 영향을 받은 독일 낭만주의 화가이자 의사이며, 자연의 무한함 앞에서 느끼는 인간의 경외감을 표현했습니다. 광활한 자연과 미미한 인간의 대비가 경이와 겸손을 동시에 불러일으킵니다.",
+    "look_for": "그림의 대부분을 차지하는 하늘과 바다, 그리고 아래쪽 작은 인물의 비율을 비교해 보세요.",
+    "fun_fact": "카루스는 화가인 동시에 저명한 의학자이자 심리학자로, 괴테와도 깊은 친분을 나누었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Carl_Gustav_Carus_-_Mondnacht_bei_R%C3%BCgen.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "카루스의 직업은 화가 외에 또 무엇이었나요?",
+      "options": [
+        "변호사",
+        "의학자",
+        "건축가"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-08",
+    "title": "다섯 감각 - 청각",
+    "title_original": "Hearing (from The Lady and the Unicorn)",
+    "artist": "작자 미상 (플랑드르 직조공)",
+    "artist_original": "Unknown (Flemish Weavers)",
+    "year": "1500",
+    "medium": "태피스트리",
+    "period": "후기 고딕",
+    "story": "파리 클뤼니 미술관에 소장된 '귀부인과 유니콘' 태피스트리 연작 중 '청각' 장면입니다. 귀부인이 오르간을 연주하고 유니콘과 사자가 곁에 서 있는 신비로운 장면에서, 소리라는 보이지 않는 감각이 시각적으로 아름답게 표현됩니다.",
+    "look_for": "귀부인이 연주하는 오르간과 주변의 꽃, 동물들이 만드는 화려한 패턴을 감상해 보세요.",
+    "fun_fact": "이 태피스트리 연작은 1841년 프로스페르 메리메에 의해 재발견되기 전까지 성에서 잊혀져 있었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Lady_and_the_Unicorn_-_Hearing.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 태피스트리가 소장된 미술관은?",
+      "options": [
+        "루브르 미술관",
+        "클뤼니 미술관",
+        "오르세 미술관"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-09",
+    "title": "촉감의 알레고리",
+    "title_original": "Woman with a Mirror (Touch)",
+    "artist": "티치아노 베첼리오",
+    "artist_original": "Titian",
+    "year": "1515",
+    "medium": "유화",
+    "period": "베네치아 르네상스",
+    "story": "거울을 들고 있는 여인이 자신의 아름다움을 확인하는 장면입니다. 티치아노는 베네치아 르네상스의 대가로, 풍부한 색채와 부드러운 붓터치로 피부의 따뜻한 촉감과 비단옷의 질감을 생생하게 표현했습니다. 시각을 넘어 촉감까지 전달하는 회화의 힘을 보여줍니다.",
+    "look_for": "여인의 피부색과 옷감의 질감 차이가 어떻게 표현되는지 살펴보세요.",
+    "fun_fact": "티치아노는 90세가 넘도록 활동한 장수 화가로, 만년에는 손가락으로 직접 물감을 문질러 그렸다고 합니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Titian_-_Woman_with_a_Mirror_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "티치아노가 속한 르네상스 학파는?",
+      "options": [
+        "피렌체파",
+        "베네치아파",
+        "로마파"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-10",
+    "title": "꽃이 있는 정물",
+    "title_original": "Bouquet of Flowers in a Vase",
+    "artist": "얀 다비츠 더 헤임",
+    "artist_original": "Jan Davidsz. de Heem",
+    "year": "1650",
+    "medium": "유화",
+    "period": "바로크",
+    "story": "화려한 꽃다발에서 피어나는 향기가 느껴질 듯한 정물화입니다. 장미, 튤립, 양귀비 등 다양한 꽃들이 만개한 모습에서 보이지 않는 향기의 세계를 시각으로 표현했습니다. 17세기 네덜란드 정물화의 전통에서 꽃은 아름다움과 덧없음을 동시에 상징합니다.",
+    "look_for": "꽃잎 위의 이슬방울과 꽃 주변에 날아드는 곤충들을 찾아보세요.",
+    "fun_fact": "17세기 네덜란드에서는 꽃 정물화가 매우 인기였는데, 실제로는 계절이 다른 꽃들을 한 화병에 모아 그린 상상의 조합이었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jan_Davidsz._de_Heem_-_Vase_of_Flowers_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "17세기 네덜란드 꽃 정물화의 특징은?",
+      "options": [
+        "한 종류의 꽃만 그렸다",
+        "계절이 다른 꽃들을 함께 그렸다",
+        "꽃을 추상적으로 표현했다"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-11",
+    "title": "미각의 알레고리",
+    "title_original": "The Sense of Taste",
+    "artist": "얀 브뤼헐 1세",
+    "artist_original": "Jan Brueghel the Elder",
+    "year": "1618",
+    "medium": "유화",
+    "period": "플랑드르 바로크",
+    "story": "다섯 가지 감각 연작 중 '미각'을 주제로 한 작품입니다. 풍성한 음식이 차려진 식탁과 과일, 사냥감이 가득한 장면에서 미각의 풍요로움을 보여줍니다. 얀 브뤼헐은 아버지 피터르 브뤼헐의 아들로, 섬세한 정물 표현의 대가였습니다.",
+    "look_for": "식탁 위의 다양한 음식과 과일, 그리고 배경의 인물이 먹고 있는 장면을 살펴보세요.",
+    "fun_fact": "얀 브뤼헐은 '벨벳 브뤼헐'이라는 별명으로 불렸는데, 그의 그림이 벨벳처럼 부드럽고 섬세했기 때문입니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jan_Brueghel_I_%26_Peter_Paul_Rubens_-_Taste_(Museo_del_Prado).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "얀 브뤼헐 1세의 별명은 무엇인가요?",
+      "options": [
+        "황금 브뤼헐",
+        "벨벳 브뤼헐",
+        "꽃의 브뤼헐"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-12",
+    "title": "건초 마차",
+    "title_original": "The Hay Wain",
+    "artist": "존 컨스터블",
+    "artist_original": "John Constable",
+    "year": "1821",
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "영국 서퍽 지방의 전원 풍경을 그린 컨스터블의 대표작입니다. 시냇물을 건너는 건초 마차, 물방앗간, 푸른 하늘과 구름이 평화로운 시골의 아름다움을 전합니다. 컨스터블은 자연을 있는 그대로 관찰하고 기록하는 것을 예술의 사명으로 여겼습니다.",
+    "look_for": "하늘의 구름 표현과 물에 비친 나무와 집의 반영을 감상해 보세요.",
+    "fun_fact": "이 그림은 영국에서보다 프랑스에서 먼저 인정받았으며, 파리 살롱에서 금메달을 수상해 들라크루아에게도 영향을 주었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John_Constable_The_Hay_Wain.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 그림이 묘사하는 풍경은 어느 나라인가요?",
+      "options": [
+        "프랑스",
+        "네덜란드",
+        "영국"
+      ],
+      "answer": 2
+    }
+  },
+  {
+    "date": "2027-01-13",
+    "title": "무도회의 리듬",
+    "title_original": "Dance at Le Moulin de la Galette",
+    "artist": "피에르오귀스트 르누아르",
+    "artist_original": "Pierre-Auguste Renoir",
+    "year": "1876",
+    "medium": "유화",
+    "period": "인상주의",
+    "story": "파리 몽마르트르의 야외 무도회를 그린 인상주의 걸작입니다. 춤추는 사람들의 움직임, 나뭇잎 사이로 쏟아지는 햇빛의 반짝임이 리듬감 넘치는 화면을 만들어냅니다. 르누아르는 빛과 색채의 리듬으로 삶의 기쁨과 활기를 표현하고자 했습니다.",
+    "look_for": "나뭇잎 그림자가 만드는 빛의 반점 패턴과 춤추는 커플들의 동적인 구도를 살펴보세요.",
+    "fun_fact": "르누아르는 이 거대한 캔버스를 매일 작업실에서 무도회장까지 직접 운반하며 현장에서 그렸습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir,_Le_Moulin_de_la_Galette.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 무도회가 열린 장소는 파리의 어디인가요?",
+      "options": [
+        "샹젤리제",
+        "몽마르트르",
+        "생제르맹"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-14",
+    "title": "아테네의 현자들",
+    "title_original": "The School of Athens",
+    "artist": "라파엘로 산치오",
+    "artist_original": "Raphael",
+    "year": "1511",
+    "medium": "프레스코",
+    "period": "르네상스",
+    "story": "고대 그리스의 철학자, 수학자, 과학자들이 한자리에 모여 토론하는 이상적 장면입니다. 중앙에 플라톤과 아리스토텔레스가 서로 다른 방향을 가리키며 조화로운 대비를 이루고, 주변에 다양한 학자들이 각자의 방식으로 진리를 탐구합니다. 다양한 사상의 조화를 표현한 걸작입니다.",
+    "look_for": "중앙의 플라톤(위를 가리킴)과 아리스토텔레스(앞을 가리킴)의 손 방향이 상징하는 의미를 생각해 보세요.",
+    "fun_fact": "라파엘로는 플라톤의 얼굴에 레오나르도 다 빈치를, 헤라클레이토스에 미켈란젤로의 얼굴을 넣었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "그림 중앙에 서 있는 두 철학자는 누구인가요?",
+      "options": [
+        "소크라테스와 피타고라스",
+        "플라톤과 아리스토텔레스",
+        "에피쿠로스와 제논"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-15",
+    "title": "난파선의 표류",
+    "title_original": "The Raft of the Medusa",
+    "artist": "테오도르 제리코",
+    "artist_original": "Théodore Géricault",
+    "year": "1819",
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "1816년 프랑스 군함 메두사호의 난파 사건을 그린 충격적 작품입니다. 뗏목 위에서 생존을 위해 처절하게 투쟁하는 인간들의 충돌하는 감정—희망, 절망, 분노—이 극적으로 표현됩니다. 제리코는 이 사건을 통해 정부의 무능과 인간 극한 상황을 고발했습니다.",
+    "look_for": "피라미드형 구도의 꼭대기에서 천을 흔드는 인물과 하단의 절망에 빠진 인물들의 대비를 살펴보세요.",
+    "fun_fact": "제리코는 사실적 표현을 위해 실제 시체를 작업실에 가져와 연구했으며, 생존자들을 직접 인터뷰했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 그림의 배경이 된 실제 사건은?",
+      "options": [
+        "타이타닉호 침몰",
+        "메두사호 난파",
+        "바이킹 원정"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-16",
+    "title": "대수욕도",
+    "title_original": "The Large Bathers",
+    "artist": "폴 세잔",
+    "artist_original": "Paul Cézanne",
+    "year": "1906",
+    "medium": "유화",
+    "period": "후기인상주의",
+    "story": "자연 속에서 목욕하는 인물들을 기하학적 형태와 자연 풍경이 하나로 융합된 화면에 담았습니다. 세잔은 인상주의의 색채와 고전주의의 구조를 결합하려 했으며, 이 작품은 인체와 자연의 경계를 허무는 융합의 결정체입니다. 이후 입체주의 탄생에 결정적 영향을 주었습니다.",
+    "look_for": "나무 줄기가 만드는 아치형 구도와 인물들의 몸이 풍경과 어떻게 하나로 녹아드는지 살펴보세요.",
+    "fun_fact": "세잔은 이 그림을 7년간 작업했으며, 완성하지 못한 채 세상을 떠났습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_047.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "세잔의 이 작품이 큰 영향을 준 미술 사조는?",
+      "options": [
+        "초현실주의",
+        "입체주의",
+        "팝아트"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-17",
+    "title": "조개와 산호 수집",
+    "title_original": "Still Life with Shells",
+    "artist": "발타자르 반 데르 아스트",
+    "artist_original": "Balthasar van der Ast",
+    "year": "1640",
+    "medium": "유화",
+    "period": "네덜란드 황금시대",
+    "story": "이국적인 조개, 산호, 과일, 곤충 등을 정교하게 배열한 정물화입니다. 17세기 네덜란드인들은 대항해 시대를 통해 세계 각지의 희귀한 자연물을 수집하는 것에 열광했습니다. 반 데르 아스트는 이러한 수집 문화를 아름다운 정물화로 기록한 전문 화가였습니다.",
+    "look_for": "조개껍데기의 세밀한 무늬와 질감, 과일 위의 곤충들을 자세히 살펴보세요.",
+    "fun_fact": "17세기 네덜란드에서 희귀한 조개는 튤립만큼 비싼 가격에 거래되었으며, 수집가들의 열정은 '조개광'이라 불릴 정도였습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Balthasar_van_der_Ast_-_Still-Life_with_Shells_-_WGA01042.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "17세기 네덜란드에서 희귀한 조개의 가치는?",
+      "options": [
+        "거의 무가치했다",
+        "튤립만큼 비쌌다",
+        "금보다 비쌌다"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-18",
+    "title": "호기심의 방",
+    "title_original": "Cabinet of Curiosities",
+    "artist": "도메니코 렘프스",
+    "artist_original": "Domenico Remps",
+    "year": "1690",
+    "medium": "유화",
+    "period": "바로크",
+    "story": "17세기 유럽에서 유행한 '경이의 방(분더카머)'을 그린 작품입니다. 산호, 조개, 동전, 그림, 과학 도구 등 온갖 수집품이 진열장에 빼곡히 채워져 있습니다. 당시 지식인들은 세계의 다양한 사물을 수집하고 분류하며 지식을 쌓았는데, 이는 근대 박물관의 시초가 되었습니다.",
+    "look_for": "진열장 속 다양한 물건들을 하나하나 찾아보며, 각 물건이 어떤 분야의 수집품인지 추측해 보세요.",
+    "fun_fact": "분더카머(경이의 방)는 오늘날 자연사 박물관, 미술관의 직접적인 기원으로 여겨집니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Domenico_Remps_-_Cabinet_of_Curiosities.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "'분더카머'는 무엇의 시초인가요?",
+      "options": [
+        "도서관",
+        "박물관",
+        "극장"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-19",
+    "title": "질서의 아름다움",
+    "title_original": "The Ideal City",
+    "artist": "작자 미상 (우르비노파)",
+    "artist_original": "Unknown (Urbino School)",
+    "year": "1480",
+    "medium": "유화",
+    "period": "초기 르네상스",
+    "story": "완벽한 원근법으로 그려진 이상적 도시의 풍경입니다. 대칭적으로 배치된 건물들, 깨끗한 광장, 정돈된 원형 신전이 르네상스 시대가 꿈꾸던 이상적 질서와 정리된 도시의 모습을 보여줍니다. 자연이 아닌 인공적 질서의 아름다움을 추구한 독특한 작품입니다.",
+    "look_for": "중앙의 소실점을 향해 수렴하는 건물들의 원근법 표현을 살펴보세요.",
+    "fun_fact": "이 그림의 작가는 아직도 밝혀지지 않았으며, 피에로 델라 프란체스카나 루치아노 라우라나 등이 후보로 거론됩니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Formerly_Piero_della_Francesca_-_Ideal_City_-_Galleria_Nazionale_delle_Marche_Urbino.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 그림이 특히 강조하는 기법은?",
+      "options": [
+        "명암법",
+        "원근법",
+        "점묘법"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-20",
+    "title": "그랑드 자트 섬의 일요일 오후",
+    "title_original": "A Sunday Afternoon on the Island of La Grande Jatte",
+    "artist": "조르주 쇠라",
+    "artist_original": "Georges Seurat",
+    "year": "1886",
+    "medium": "유화",
+    "period": "신인상주의",
+    "story": "파리 근교 센 강변에서 여가를 즐기는 사람들을 점묘법으로 그린 혁신적 작품입니다. 쇠라는 당시 유행하던 인상주의를 넘어, 과학적 색채 이론에 기반한 새로운 화법을 개척했습니다. 이 작품은 미술계의 새로운 유행을 이끌며 신인상주의를 탄생시켰습니다.",
+    "look_for": "가까이서 보면 수많은 색 점들이, 멀리서 보면 하나의 형태로 합쳐지는 점묘법의 효과를 상상해 보세요.",
+    "fun_fact": "이 거대한 작품(2m × 3m)을 완성하는 데 2년이 걸렸고, 쇠라는 약 340만 개의 점을 찍었다고 추정됩니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "쇠라가 이 작품에 사용한 기법은?",
+      "options": [
+        "점묘법",
+        "임파스토",
+        "스푸마토"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "date": "2027-01-21",
+    "title": "자화상 (화가의 결의)",
+    "title_original": "Self-Portrait with Thorn Necklace and Hummingbird",
+    "artist": "프리다 칼로",
+    "artist_original": "Frida Kahlo",
+    "year": "1940",
+    "medium": "유화",
+    "period": "초현실주의",
+    "story": "가시 목걸이를 하고 정면을 응시하는 프리다 칼로의 자화상입니다. 교통사고 후유증과 이혼의 고통 속에서도 자신의 감정과 정체성을 끝까지 고집스럽게 표현한 작품입니다. 칼로는 평생 55점의 자화상을 그리며 자기 자신을 가장 잘 아는 모델이라고 말했습니다.",
+    "look_for": "가시 목걸이에서 흐르는 피, 어깨 위의 검은 고양이와 원숭이의 상징적 의미를 생각해 보세요.",
+    "fun_fact": "칼로는 '나는 꿈을 그리지 않는다. 나는 나의 현실을 그린다'라고 말하며 자신이 초현실주의자가 아니라고 주장했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "프리다 칼로가 평생 그린 자화상은 몇 점인가요?",
+      "options": [
+        "약 20점",
+        "약 55점",
+        "약 100점"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-22",
+    "title": "유연한 형태",
+    "title_original": "Unique Forms of Continuity in Space",
+    "artist": "움베르토 보초니",
+    "artist_original": "Umberto Boccioni",
+    "year": "1913",
+    "medium": "청동 조각",
+    "period": "미래주의",
+    "story": "달리는 인체의 형태가 바람에 흩날리듯 유연하게 변형된 조각입니다. 보초니는 고정된 형태를 거부하고, 움직임의 역동성과 속도감을 입체적으로 표현했습니다. 미래주의의 핵심 가치인 변화와 유연성을 청동이라는 견고한 소재로 역설적으로 구현한 걸작입니다.",
+    "look_for": "인체가 앞으로 나아가며 공기를 가르는 듯한 유동적 형태와 근육의 흐름을 살펴보세요.",
+    "fun_fact": "이 조각은 이탈리아 20센트 유로 동전의 뒷면 디자인으로 사용되고 있습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Umberto_Boccioni_-_Forme_uniche_della_continuit%C3%A0_nello_spazio_(1913).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "보초니가 속한 미술 운동은?",
+      "options": [
+        "다다이즘",
+        "미래주의",
+        "구성주의"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-23",
+    "title": "빨강, 파랑, 노랑의 구성",
+    "title_original": "Composition with Red, Blue, and Yellow",
+    "artist": "피트 몬드리안",
+    "artist_original": "Piet Mondrian",
+    "year": "1930",
+    "medium": "유화",
+    "period": "데 스틸",
+    "story": "검은 선과 세 가지 원색만으로 구성된 극도로 단순한 추상화입니다. 몬드리안은 자연의 복잡한 형태를 수직선과 수평선, 삼원색으로 환원하여 보편적 아름다움의 본질에 도달하려 했습니다. 단순함 속에서 완벽한 균형과 조화를 추구한 작품입니다.",
+    "look_for": "각 색면의 크기 비율과 검은 선의 두께가 만드는 비대칭적 균형을 느껴보세요.",
+    "fun_fact": "몬드리안은 원래 풍경화가였는데, 점차 형태를 단순화하여 결국 직선과 원색만 남기게 되었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "몬드리안이 속한 미술 운동의 이름은?",
+      "options": [
+        "바우하우스",
+        "데 스틸",
+        "다다이즘"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-24",
+    "title": "세속의 낙원",
+    "title_original": "The Garden of Earthly Delights",
+    "artist": "히에로니무스 보스",
+    "artist_original": "Hieronymus Bosch",
+    "year": "1505",
+    "medium": "유화 (삼면화)",
+    "period": "초기 네덜란드",
+    "story": "세 폭으로 이루어진 이 대작은 왼쪽에 에덴동산, 가운데에 세속적 쾌락, 오른쪽에 지옥을 그렸습니다. 수백 개의 기이한 생물과 장면이 복잡하게 얽혀 있어, 500년이 넘도록 학자들이 그 의미를 완전히 풀지 못하고 있습니다. 인간 욕망의 복잡성을 상상력의 극한으로 표현한 걸작입니다.",
+    "look_for": "가운데 패널의 기이한 생물과 인간들의 행동을 하나하나 살펴보세요. 무엇을 상징하는지 상상해 보세요.",
+    "fun_fact": "보스의 이 작품에는 약 1,000개 이상의 인물과 생물이 등장하며, 현대의 초현실주의에 500년이나 앞선 상상력을 보여줍니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Garden_of_earthly_Delights.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 삼면화의 오른쪽 패널이 묘사하는 것은?",
+      "options": [
+        "천국",
+        "지옥",
+        "바다"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-25",
+    "title": "신비의 눈",
+    "title_original": "The Eye Like a Strange Balloon Mounts toward Infinity",
+    "artist": "오딜롱 르동",
+    "artist_original": "Odilon Redon",
+    "year": "1882",
+    "medium": "석판화",
+    "period": "상징주의",
+    "story": "거대한 눈알이 풍선처럼 하늘로 떠오르는 기이한 장면입니다. 르동은 꿈과 무의식의 세계를 탐구한 상징주의 화가로, 눈에 보이지 않는 신비로운 영역을 독창적 이미지로 표현했습니다. 과학과 환상의 경계에서 인간 상상력의 무한함을 보여줍니다.",
+    "look_for": "눈동자의 사실적 묘사와 주변의 환상적 분위기 사이의 이질적 조합을 느껴보세요.",
+    "fun_fact": "르동은 초기에 흑백 석판화와 목탄화만 그리다가, 50대 이후 갑자기 화려한 색채의 파스텔과 유화로 전환했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Redon_eye-balloon.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "르동이 주로 탐구한 주제는?",
+      "options": [
+        "역사적 사건",
+        "꿈과 무의식의 세계",
+        "일상 풍경"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-26",
+    "title": "심판의 날",
+    "title_original": "The Last Judgment",
+    "artist": "미켈란젤로 부오나로티",
+    "artist_original": "Michelangelo",
+    "year": "1541",
+    "medium": "프레스코",
+    "period": "르네상스",
+    "story": "시스티나 예배당 제단벽을 가득 채운 대작으로, 그리스도가 중앙에서 인류의 선과 악을 중재하는 장면입니다. 300명이 넘는 인물이 천국으로 올라가거나 지옥으로 떨어지는 드라마틱한 순간이 펼쳐집니다. 미켈란젤로는 인체의 역동적 표현으로 심판과 중재의 엄숙함을 전달합니다.",
+    "look_for": "중앙의 그리스도를 기준으로 왼쪽(천국)과 오른쪽(지옥)의 인물들이 이동하는 방향을 살펴보세요.",
+    "fun_fact": "미켈란젤로는 자신을 비판한 의전관 비아조 다 체세나의 얼굴을 지옥의 미노스로 그려 넣었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Last_Judgement_(Michelangelo).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 프레스코화가 있는 장소는?",
+      "options": [
+        "피렌체 대성당",
+        "시스티나 예배당",
+        "산 마르코 성당"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-27",
+    "title": "불안의 외침",
+    "title_original": "The Scream",
+    "artist": "에드바르 뭉크",
+    "artist_original": "Edvard Munch",
+    "year": "1893",
+    "medium": "유화, 템페라, 파스텔",
+    "period": "표현주의",
+    "story": "다리 위에서 귀를 막고 비명을 지르는 인물의 모습으로, 내면의 불안과 공포를 극적으로 표현한 작품입니다. 뭉크는 자연을 사실적으로 묘사하는 대신, 감정을 왜곡된 형태와 강렬한 색채로 표현하는 혁신적 방식을 선택했습니다. 현대 미술에서 감정 표현의 새 지평을 연 걸작입니다.",
+    "look_for": "배경의 물결치는 하늘과 인물의 일그러진 얼굴이 어떻게 같은 리듬으로 흔들리는지 살펴보세요.",
+    "fun_fact": "뭉크는 일기에 '하늘이 피처럼 붉어지며 자연을 관통하는 끝없는 절규를 느꼈다'고 이 그림의 영감을 기록했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "뭉크가 이 작품에서 주로 표현하고자 한 것은?",
+      "options": [
+        "자연의 아름다움",
+        "내면의 불안과 공포",
+        "도시의 분주함"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-28",
+    "title": "감정을 억누른 여인",
+    "title_original": "Portrait of a Lady",
+    "artist": "로히어르 판데르 베이던",
+    "artist_original": "Rogier van der Weyden",
+    "year": "1460",
+    "medium": "유화, 나무 패널",
+    "period": "초기 네덜란드",
+    "story": "로히어르 판데르 베이던은 15세기 초기 네덜란드 회화의 거장으로, 인물의 내면 감정을 섬세하게 표현하는 데 탁월했습니다. 이 초상화 속 여인은 절제된 자세와 차분한 표정으로 감정을 억제하고 있지만, 눈가와 입술의 미세한 긴장감이 내면의 감정을 암시합니다. 중세 사회에서 여성에게 요구되던 감정의 억제와 절제의 미덕이 이 작품에 고스란히 담겨 있습니다. 감추는 것과 참는 것의 차이, 그 경계에서 인간의 존엄이 드러납니다.",
+    "look_for": "여인의 손 위치와 시선 방향에서 감정을 억누르면서도 내면의 힘을 유지하는 모습을 읽어보세요.",
+    "fun_fact": "이 작품은 워싱턴 내셔널 갤러리에 소장되어 있으며, 모델의 정체는 아직도 미스터리로 남아 있습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rogier_van_der_Weyden_-_Portrait_of_a_Lady_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "로히어르 판데르 베이던이 활동한 시기는?",
+      "options": [
+        "12세기",
+        "15세기",
+        "18세기"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-29",
+    "title": "대사들의 해석",
+    "title_original": "The Arnolfini Portrait",
+    "artist": "얀 반 에이크",
+    "artist_original": "Jan van Eyck",
+    "year": "1434",
+    "medium": "유화",
+    "period": "초기 플랑드르",
+    "story": "이탈리아 상인 아르놀피니 부부의 결혼 장면을 그린 것으로 추정되는 작품입니다. 거울, 촛불, 과일, 신발 등 수많은 상징물이 숨어 있어, 수백 년간 학자들마다 다른 해석을 내놓고 있습니다. 반 에이크는 일상의 물건 하나하나에 의미를 부여하여 해석의 깊이를 더했습니다.",
+    "look_for": "뒤쪽 벽의 볼록 거울에 비친 두 인물의 뒷모습과 거울 주위의 작은 그림들을 찾아보세요.",
+    "fun_fact": "반 에이크는 거울 위에 라틴어로 '얀 반 에이크가 여기 있었다'라고 서명했는데, 이는 그가 이 장면의 증인이었음을 암시합니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 그림에서 중요한 역할을 하는 물건은?",
+      "options": [
+        "시계",
+        "볼록 거울",
+        "악기"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-30",
+    "title": "로제타석 발견",
+    "title_original": "The Rosetta Stone",
+    "artist": "토머스 영 / 고대 이집트",
+    "artist_original": "Ancient Egyptian Artisans",
+    "year": "기원전 196년",
+    "medium": "화강섬록암 비석",
+    "period": "프톨레마이오스 왕조",
+    "story": "로제타석은 같은 내용이 세 가지 문자—이집트 상형문자, 민중문자, 그리스어—로 새겨진 비석입니다. 이 비석 덕분에 수천 년간 읽을 수 없던 이집트 상형문자가 해독될 수 있었습니다. 서로 다른 언어 사이의 번역이 고대 문명을 이해하는 열쇠가 된 역사적 유물입니다.",
+    "look_for": "비석 위에 세 가지 다른 문자 체계가 어떻게 구분되어 있는지 살펴보세요.",
+    "fun_fact": "프랑스 학자 장프랑수아 샹폴리옹이 1822년 로제타석을 이용해 이집트 상형문자를 해독하는 데 성공했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "로제타석에 새겨진 문자 체계는 몇 가지인가요?",
+      "options": [
+        "2가지",
+        "3가지",
+        "4가지"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-31",
+    "title": "설교하는 성 베르나르디노",
+    "title_original": "Saint Bernardino Preaching",
+    "artist": "사노 디 피에트로",
+    "artist_original": "Sano di Pietro",
+    "year": "1450",
+    "medium": "템페라, 나무 패널",
+    "period": "이탈리아 초기 르네상스",
+    "story": "사노 디 피에트로는 15세기 시에나 화파의 대표 화가입니다. 이 작품은 성 베르나르디노가 시에나 광장에서 군중에게 설교하는 장면을 묘사합니다. 한 사람의 말이 수많은 사람에게 전달되는 이 장면은 메시지 전달의 본질을 보여줍니다. 광장에 모인 사람들의 다양한 반응—경청하는 이, 고개를 끄덕이는 이, 옆 사람과 속삭이는 이—은 같은 메시지도 사람마다 다르게 받아들인다는 진실을 담고 있습니다.",
+    "look_for": "군중 속 개인들의 서로 다른 표정과 자세에서 메시지 수용의 다양성을 발견해 보세요.",
+    "fun_fact": "성 베르나르디노는 실제로 목소리가 약해 설교 도중 자주 쉬어야 했지만, 그의 설교는 수천 명을 감동시켰다고 전해집니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sano_di_Pietro_-_St_Bernardino_preaching_in_the_Piazza_del_Campo.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "사노 디 피에트로가 속한 이탈리아 화파는?",
+      "options": [
+        "피렌체 화파",
+        "시에나 화파",
+        "베네치아 화파"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-01",
+    "title": "절벽의 수도원",
+    "title_original": "Monastery of the Temptation",
+    "artist": "데이비드 로버츠",
+    "artist_original": "David Roberts",
+    "year": "1839",
+    "medium": "석판화",
+    "period": "오리엔탈리즘",
+    "story": "스코틀랜드 출신 화가 데이비드 로버츠는 중동과 이집트를 여행하며 수많은 풍경을 기록했습니다. 이 작품은 가파른 절벽에 위태롭게 붙어 있는 수도원을 그린 것으로, 세상과 단절된 채 고독 속에서 수행하는 수도승들의 삶을 보여줍니다. 절벽 아래 평지와 위의 수도원 사이의 거리감은 '단절'의 의미를 시각적으로 전달합니다. 로버츠의 정밀한 건축 묘사와 극적인 빛의 대비는 이 장소의 경이로움을 더욱 강조합니다.",
+    "look_for": "수도원이 절벽에 어떻게 매달려 있는지, 그리고 아래 세상과 얼마나 떨어져 있는지 주목해 보세요.",
+    "fun_fact": "로버츠는 원래 극장 무대 디자이너였는데, 그 경험이 그의 풍경화에 극적인 구도와 빛의 효과를 가져다주었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:David_Roberts_Monastery_of_Temptation.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "데이비드 로버츠가 화가가 되기 전에 했던 직업은?",
+      "options": [
+        "극장 무대 디자이너",
+        "건축가",
+        "군인"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "date": "2027-02-02",
+    "title": "성 프란치스코의 설교",
+    "title_original": "St. Francis of Assisi Preaching to the Birds",
+    "artist": "조토 디 본도네의 제자",
+    "artist_original": "Master of the St. Francis Cycle",
+    "year": "1300",
+    "medium": "프레스코",
+    "period": "고딕",
+    "story": "아시시 성당에 그려진 이 프레스코화는 성 프란치스코가 새들에게 설교하는 유명한 장면을 담고 있습니다. 인간과 자연, 성인과 동물이 서로 연결되는 순간을 포착했습니다. 중세 시대에는 인간과 동물 사이에 뚜렷한 위계가 있었지만, 프란치스코는 모든 생명이 하나로 연결되어 있다고 믿었습니다. 단순하면서도 따뜻한 구도는 '연결'이라는 주제를 아름답게 표현합니다.",
+    "look_for": "프란치스코를 향해 모여드는 새들의 자세와 성인의 손짓이 만드는 대화의 느낌을 살펴보세요.",
+    "fun_fact": "아시시의 성 프란치스코 성당 프레스코 연작의 정확한 작가에 대해서는 지금까지도 미술사학자들 사이에서 논쟁이 이어지고 있습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Giotto_-_Legend_of_St_Francis_-_-15-_-_Sermon_to_the_Birds.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "성 프란치스코는 무엇에게 설교한 것으로 유명한가요?",
+      "options": [
+        "물고기",
+        "새",
+        "꽃"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-03",
+    "title": "알렉산더 대왕의 전투",
+    "title_original": "The Battle of Alexander at Issus",
+    "artist": "알브레히트 알트도르퍼",
+    "artist_original": "Albrecht Altdorfer",
+    "year": "1529",
+    "medium": "유화",
+    "period": "북부 르네상스",
+    "story": "독일 르네상스의 거장 알트도르퍼가 그린 이 작품은 알렉산더 대왕의 이수스 전투를 거대한 우주적 스케일로 펼쳐놓았습니다. 수천 명의 병사가 뒤엉킨 전장 위로 장엄한 하늘이 펼쳐지고, 지구의 곡면까지 보이는 광활한 풍경이 화면을 채웁니다. 한 인간의 정복욕이 세계를 얼마나 넓게 확장시킬 수 있는지를 웅장하게 보여주는 역사화입니다.",
+    "look_for": "화면 위쪽의 하늘과 지평선을 보세요. 지구의 곡면과 저 멀리 지중해까지 보이는 놀라운 조감도입니다.",
+    "fun_fact": "이 그림에는 약 수만 명의 병사가 개별적으로 그려져 있어, 완성하는 데 수년이 걸렸다고 전해집니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Albrecht_Altdorfer_-_The_Battle_of_Alexander_at_Issus_-_WGA0207.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 작품에서 특별히 표현된 지리적 특징은?",
+      "options": [
+        "지구의 곡면과 넓은 지평선",
+        "정확한 건물 내부 구조",
+        "수중 세계"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "date": "2027-02-04",
+    "title": "바느질하는 여인",
+    "title_original": "Woman Sewing by Lamplight",
+    "artist": "장 프랑수아 밀레",
+    "artist_original": "Jean-François Millet",
+    "year": "1870",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "밀레는 프랑스 시골의 평범한 농민들의 삶을 존엄하게 그린 화가입니다. 이 작품에서 한 여인이 등잔불 아래 조용히 바느질을 합니다. 거대한 역사적 장면이 아닌, 작고 소박한 일상의 한 순간으로 축소된 세계가 오히려 깊은 울림을 줍니다. 등잔의 따뜻한 빛이 비추는 좁은 범위가 곧 이 여인의 전 세계이며, 그 안에서 충만한 삶이 이루어지고 있음을 느끼게 합니다.",
+    "look_for": "등잔불이 비추는 범위와 그 너머의 어둠이 만드는 친밀한 공간감에 주목해 보세요.",
+    "fun_fact": "밀레 자신도 가난한 농가 출신이었기에, 농민들의 노동을 미화하지 않고 진실되게 그릴 수 있었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Millet_-_Woman_Sewing_by_Lamplight_-_WGA15694.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "밀레가 주로 그린 대상은?",
+      "options": [
+        "귀족과 왕",
+        "프랑스 농민",
+        "신화 속 인물"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-05",
+    "title": "바벨탑의 건설",
+    "title_original": "The Tower of Babel",
+    "artist": "아벨 그리머",
+    "artist_original": "Abel Grimmer",
+    "year": "1604",
+    "medium": "유화",
+    "period": "플랑드르 매너리즘",
+    "story": "아벨 그리머는 16세기 말 플랑드르 화가로, 풍경화와 성서 주제의 작품으로 알려져 있습니다. 그의 바벨탑은 인류가 하나로 모여 거대한 건축물을 쌓아올리는 장면을 묘사합니다. 수많은 사람들이 각자의 역할을 맡아 돌을 나르고 벽을 쌓는 모습은 집합의 힘을 상징합니다. 혼자서는 불가능한 것도 모이면 이룰 수 있다는 메시지와 동시에, 소통 없는 집합은 결국 무너진다는 교훈을 담고 있습니다.",
+    "look_for": "탑의 각 층에서 일하는 사람들의 모습을 자세히 보며, 협력과 분업의 구조를 찾아보세요.",
+    "fun_fact": "아벨 그리머의 아버지 야코프 그리머 역시 유명한 화가였으며, 부자가 비슷한 주제로 그림을 그린 경우가 많습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Abel_Grimmer_-_The_Tower_of_Babel_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "바벨탑 이야기에서 인류가 흩어진 이유는?",
+      "options": [
+        "전쟁이 일어나서",
+        "언어가 달라져서",
+        "탑이 무너져서"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-06",
+    "title": "아비뇽의 처녀들",
+    "title_original": "Study for Les Demoiselles d'Avignon",
+    "artist": "파블로 피카소",
+    "artist_original": "Pablo Picasso",
+    "year": "1907",
+    "medium": "유화",
+    "period": "큐비즘 초기",
+    "story": "피카소의 이 혁명적 작품은 전통적인 인체 표현 방식을 완전히 해체했습니다. 다섯 여인의 몸은 여러 시점에서 본 모습이 하나의 화면에 동시에 담겨 있고, 아프리카 가면에서 영감을 받은 얼굴들은 기존의 아름다움 개념을 뒤흔들었습니다. 원근법과 해부학이라는 서양 미술의 오래된 규칙을 '해체'함으로써, 피카소는 미술의 새로운 시대를 열었습니다.",
+    "look_for": "각 인물의 얼굴과 몸이 어떻게 여러 각도에서 동시에 보이도록 그려졌는지 찾아보세요.",
+    "fun_fact": "피카소는 이 작품을 완성하기까지 수백 장의 습작을 그렸으며, 완성 후에도 친구들로부터 혹평을 받았습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pablo_Picasso,_1907,_Les_Demoiselles_d%27Avignon.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "피카소가 이 작품에서 영감을 받은 비서양 예술은?",
+      "options": [
+        "일본 우키요에",
+        "아프리카 가면",
+        "인도 세밀화"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-07",
+    "title": "수확자들",
+    "title_original": "The Harvesters",
+    "artist": "피터르 브뤼헐 (대)",
+    "artist_original": "Pieter Bruegel the Elder",
+    "year": "1563",
+    "medium": "유화",
+    "period": "북부 르네상스",
+    "story": "브뤼헐이 그린 바벨탑은 구약성경의 이야기를 놀라운 건축적 상상력으로 구현했습니다. 하늘을 향해 나선형으로 올라가는 거대한 탑은 로마의 콜로세움을 모델로 했으며, 수백 명의 노동자들이 각 층에서 벽돌을 쌓고 있습니다. 인간이 돌 하나하나를 쌓아 거대한 구조물을 구축해 나가는 과정을 정밀하게 묘사하면서, 동시에 인간 야망의 한계에 대한 경고도 담고 있습니다.",
+    "look_for": "탑의 각 층에서 벌어지는 다양한 건축 활동과 아래쪽의 완성된 부분과 위쪽의 미완성 부분을 비교해 보세요.",
+    "fun_fact": "브뤼헐은 바벨탑을 최소 세 점 그렸는데, 현재 두 점만 남아 있으며 가장 작은 세 번째 그림은 분실되었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "브뤼헐의 바벨탑 디자인에 영감을 준 건축물은?",
+      "options": [
+        "파르테논 신전",
+        "로마 콜로세움",
+        "피라미드"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-08",
+    "title": "러시아 겨울 풍경",
+    "title_original": "Russian Winter",
+    "artist": "카를 브률로프",
+    "artist_original": "Karl Bryullov",
+    "year": "1833",
+    "medium": "유화",
+    "period": "러시아 낭만주의",
+    "story": "러시아 화가 카를 브률로프는 실제로 폼페이 유적을 방문한 후 이 대작을 구상했습니다. 기원전 79년 베수비오 화산 폭발로 파괴되는 도시의 마지막 순간을 거대한 화폭에 담았습니다. 무너지는 건물, 도망치는 사람들, 하늘에서 쏟아지는 불과 재 속에서도 서로를 구하려는 인간들의 모습이 감동적입니다. 자연의 힘 앞에서 인간 문명의 '파괴'가 얼마나 순식간에 일어날 수 있는지를 보여줍니다.",
+    "look_for": "화면 곳곳에서 서로를 붙잡고 도망치는 가족들의 모습과 무너져 내리는 건축물의 대비를 살펴보세요.",
+    "fun_fact": "이 작품은 로마와 파리에서 전시되었을 때 엄청난 인기를 끌었고, 유럽에서 러시아 미술의 위상을 높이는 데 크게 기여했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bryullov_Karl_-_Rider_Portrait_of_Countess_Yu.P._Samoilova.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "브률로프가 이 작품을 그리기 전에 방문한 곳은?",
+      "options": [
+        "아테네의 아크로폴리스",
+        "폼페이 유적지",
+        "이집트의 피라미드"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-09",
+    "title": "전쟁 후의 드레스덴",
+    "title_original": "View of Dresden by Moonlight",
+    "artist": "요한 크리스티안 달",
+    "artist_original": "Johan Christian Dahl",
+    "year": "1839",
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "노르웨이 출신으로 드레스덴에서 활동한 요한 크리스티안 달은 북유럽 낭만주의 풍경화의 대가입니다. 달빛 아래 고요하게 빛나는 드레스덴의 스카이라인을 그린 이 작품에서, 도시의 첨탑과 돔은 어둠 속에서도 당당히 서 있습니다. 수많은 전쟁과 재난을 겪으면서도 다시 일어선 도시의 모습은 '재건'의 의미를 떠올리게 합니다. 달빛은 회복과 새로운 시작의 희망을 상징합니다.",
+    "look_for": "달빛이 엘베강 수면에 반사되는 모습과 도시의 실루엣이 만드는 고요한 분위기를 느껴보세요.",
+    "fun_fact": "달은 같은 건물에서 카스파르 다비트 프리드리히와 이웃으로 살며 서로 예술적 영감을 주고받았습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Johan_Christian_Dahl_-_View_of_Dresden_by_Moonlight_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "요한 크리스티안 달이 이웃으로 살며 교류한 화가는?",
+      "options": [
+        "렘브란트",
+        "카스파르 다비트 프리드리히",
+        "터너"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-10",
+    "title": "미지의 땅",
+    "title_original": "Landscape with the Discovery of America",
+    "artist": "얀 모스타르트",
+    "artist_original": "Jan Mostaert",
+    "year": "1535",
+    "medium": "유화",
+    "period": "북부 르네상스",
+    "story": "네덜란드 화가 얀 모스타르트가 그린 이 작품은 유럽인의 시각에서 본 아메리카 대륙의 모습으로, 가장 이른 시기의 신대륙 묘사 중 하나입니다. 기이한 바위 지형과 낯선 동식물, 원주민들의 모습이 뒤섞인 풍경은 탐험가들이 느꼈을 경이와 두려움을 동시에 전달합니다. 미지의 세계를 향한 인간의 끝없는 탐험 정신과 그에 따르는 갈등을 함께 담고 있습니다.",
+    "look_for": "유럽 화가가 상상으로 그린 아메리카의 풍경이 실제와 얼마나 다른지 생각해 보세요.",
+    "fun_fact": "모스타르트는 실제로 아메리카에 가본 적이 없으며, 탐험가들의 이야기와 상상만으로 이 풍경을 그렸습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jan_Mostaert_-_Episode_uit_de_verovering_van_Amerika.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "얀 모스타르트가 이 작품을 그릴 때 참고한 것은?",
+      "options": [
+        "직접 방문한 경험",
+        "탐험가들의 이야기와 상상",
+        "사진 자료"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-11",
+    "title": "가나안 땅의 포도",
+    "title_original": "The Grapes of the Promised Land",
+    "artist": "니콜라 푸생",
+    "artist_original": "Nicolas Poussin",
+    "year": "1664",
+    "medium": "유화",
+    "period": "고전주의",
+    "story": "프랑스 고전주의의 대가 푸생은 성경에서 모세가 보낸 정찰대가 가나안 땅에서 거대한 포도송이를 가져오는 장면을 그렸습니다. 오랜 방랑 끝에 마침내 정착할 '약속의 땅'을 발견한 기쁨이 풍성한 과일로 표현되어 있습니다. 이상적으로 조화된 풍경과 인물 배치는 '정착'이 가져다주는 안정감과 풍요를 상징합니다. 푸생 특유의 질서정연한 구도가 새로운 터전의 평화로움을 전달합니다.",
+    "look_for": "두 사람이 메고 있는 거대한 포도송이의 크기와 배경의 이상화된 풍경을 살펴보세요.",
+    "fun_fact": "푸생은 대부분의 생애를 로마에서 보냈지만, 프랑스 고전주의 회화의 아버지로 불립니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nicolas_Poussin_-_Autumn_(The_Spies_with_the_Grapes_of_the_Promised_Land)_-_WGA18334.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "푸생이 대부분의 생애를 보낸 도시는?",
+      "options": [
+        "파리",
+        "로마",
+        "런던"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-12",
+    "title": "방랑자의 노래",
+    "title_original": "The Wanderer Above the Sea of Fog",
+    "artist": "카스파르 다비트 프리드리히",
+    "artist_original": "Caspar David Friedrich",
+    "year": "1818",
+    "medium": "유화",
+    "period": "독일 낭만주의",
+    "story": "독일 낭만주의를 대표하는 이 작품에서 한 남자가 안개 바다 위에 서서 끝없이 펼쳐진 풍경을 바라보고 있습니다. 등을 보인 채 서 있는 인물은 관객 자신이 될 수도 있습니다. 정해진 목적지 없이 떠도는 유랑자의 자유로움과 고독을 동시에 느끼게 하는 작품입니다. 프리드리히는 자연 앞에 선 인간의 작은 존재감을 통해 숭고함의 감정을 불러일으킵니다.",
+    "look_for": "인물이 서 있는 바위와 안개 아래 보이는 산봉우리들 사이의 스케일 차이를 느껴보세요.",
+    "fun_fact": "이 작품은 현재 낭만주의의 아이콘으로 유명하지만, 프리드리히 생전에는 그다지 주목받지 못했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 작품에서 인물은 어떤 방향을 향하고 있나요?",
+      "options": [
+        "관객을 향해 정면",
+        "관객에게 등을 보이며 풍경을 향해",
+        "옆모습으로 걸어가며"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-13",
+    "title": "폭풍우 속의 범선",
+    "title_original": "Ships in Distress off a Rocky Coast",
+    "artist": "루돌프 바쿠이젠",
+    "artist_original": "Ludolf Bakhuizen",
+    "year": "1667",
+    "medium": "유화",
+    "period": "네덜란드 황금시대",
+    "story": "네덜란드 해양화의 대가 루돌프 바쿠이젠은 바다의 거친 위력과 항해의 위험을 극적으로 묘사한 화가입니다. 폭풍우 속에서 바위 해안 가까이 밀려온 범선들이 파도와 사투를 벌이는 장면은 17세기 네덜란드인들에게 해상 무역의 위험을 생생하게 상기시켰습니다. 험난한 바다를 항해하는 것은 곧 미지의 세계를 향한 도전이었으며, 바쿠이젠은 그 긴장감을 탁월하게 화폭에 담았습니다.",
+    "look_for": "파도의 물보라와 바람에 휘어지는 돛의 표현, 그리고 어두운 하늘과 밝은 수평선의 대비를 살펴보세요.",
+    "fun_fact": "바쿠이젠은 러시아의 표트르 대제에게 직접 해양화를 가르치기도 했으며, 표트르 대제가 가장 좋아한 화가 중 한 명이었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ludolf_Bakhuizen_-_Ships_in_Distress_off_a_Rocky_Coast_-_WGA01131.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "바쿠이젠에게 해양화를 배운 유명한 인물은?",
+      "options": [
+        "루이 14세",
+        "러시아 표트르 대제",
+        "영국 찰스 2세"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-14",
+    "title": "후지산 36경 - 가이풍쾌청",
+    "title_original": "Fine Wind, Clear Morning (Red Fuji)",
+    "artist": "가쓰시카 호쿠사이",
+    "artist_original": "Katsushika Hokusai",
+    "year": "1831",
+    "medium": "목판화",
+    "period": "에도 시대 우키요에",
+    "story": "일본의 전설적 판화가 호쿠사이가 70대에 완성한 '후지산 36경' 연작 중 하나입니다. 이른 아침 햇빛을 받아 붉게 물든 후지산이 파란 하늘 아래 우뚝 솟아 있습니다. 산 정상을 향해 오르는 듯한 시선의 움직임이 '등반'의 감각을 불러일으킵니다. 단순한 선과 색면의 조합으로 자연의 장엄함을 표현한 호쿠사이의 기법은 나중에 서양 인상파 화가들에게 큰 영향을 주었습니다.",
+    "look_for": "후지산의 붉은색에서 파란색으로 이어지는 색의 변화와 산 아래 숲의 짙은 녹색 대비를 감상하세요.",
+    "fun_fact": "호쿠사이는 90세까지 살면서 평생 93번이나 이사했고, 30번 이상 이름을 바꾸었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fine_Wind,_Clear_Morning.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "호쿠사이의 '후지산 36경'이 영향을 준 서양 미술 사조는?",
+      "options": [
+        "신고전주의",
+        "인상주의",
+        "바로크"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-15",
+    "title": "진주 잡이꾼",
+    "title_original": "The Pearl Divers",
+    "artist": "막스 슬레보트",
+    "artist_original": "Max Slevogt",
+    "year": "1911",
+    "medium": "유화",
+    "period": "독일 인상주의",
+    "story": "독일 인상주의 화가 막스 슬레보트는 빛과 색채의 마술사였습니다. 이 작품에서 진주 잡이꾼들이 깊은 바다 속으로 잠수하는 모습을 생동감 넘치는 붓놀림으로 포착했습니다. 수면 위의 찬란한 빛과 수면 아래의 신비로운 세계가 대비되면서, 깊이 내려가야만 발견할 수 있는 보물의 의미를 시각적으로 전달합니다. 인상주의 특유의 빛 표현이 물속 세계를 환상적으로 만들어냅니다.",
+    "look_for": "물결에 반사되는 빛의 표현과 물속으로 들어가는 인물의 역동적인 자세에 주목하세요.",
+    "fun_fact": "슬레보트는 이집트와 북아프리카를 여행하며 이국적인 풍경과 인물을 많이 그렸고, 여행 경험이 그의 색채 감각을 크게 발전시켰습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Max_Slevogt_-_Badende_Knaben.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "막스 슬레보트의 화풍은?",
+      "options": [
+        "독일 표현주의",
+        "독일 인상주의",
+        "독일 신고전주의"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-16",
+    "title": "이카루스의 추락이 있는 풍경",
+    "title_original": "Landscape with the Fall of Icarus",
+    "artist": "피터르 브뤼헐 (대) 추종자",
+    "artist_original": "After Pieter Bruegel the Elder",
+    "year": "1560",
+    "medium": "유화",
+    "period": "북부 르네상스",
+    "story": "그리스 신화에서 밀랍 날개로 하늘을 날았던 이카루스가 태양에 너무 가까이 다가가 추락하는 이야기를 담은 작품입니다. 그러나 놀랍게도 이카루스의 추락은 화면 오른쪽 아래 구석에 작게 처리되어 있고, 농부와 양치기, 어부는 자기 일에 몰두하며 이 비극을 눈치채지 못합니다. 하늘을 나는 꿈, 즉 '비행'의 실패가 세상에 아무런 파장도 일으키지 않는 냉정한 현실을 보여줍니다.",
+    "look_for": "오른쪽 아래 바다에서 허우적거리는 이카루스의 다리를 찾아보세요. 얼마나 작게 그려졌는지 놀랄 것입니다.",
+    "fun_fact": "시인 W.H. 오든은 이 그림에 영감을 받아 유명한 시를 썼습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_de_Oude_-_De_val_van_Icarus.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 그림에서 이카루스의 추락은 어디에 표현되어 있나요?",
+      "options": [
+        "화면 중앙에 크게",
+        "오른쪽 아래 바다에 작게",
+        "하늘 위에 극적으로"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-17",
+    "title": "콜럼버스의 상륙",
+    "title_original": "Landing of Columbus",
+    "artist": "존 밴더린",
+    "artist_original": "John Vanderlyn",
+    "year": "1847",
+    "medium": "유화",
+    "period": "신고전주의",
+    "story": "미국 화가 존 밴더린이 미국 국회의사당 로턴다에 걸기 위해 그린 대형 역사화입니다. 1492년 콜럼버스가 신대륙에 처음 발을 디디는 순간, 즉 긴 항해 끝에 마침내 '착륙'하는 역사적 순간을 장엄하게 묘사했습니다. 스페인 국기를 들고 해안에 선 콜럼버스와 경외심에 찬 선원들, 그리고 숲 속에서 지켜보는 원주민들의 모습이 대비적으로 표현되어 있습니다.",
+    "look_for": "콜럼버스의 당당한 자세와 배경에서 조심스럽게 지켜보는 원주민들 사이의 대조를 살펴보세요.",
+    "fun_fact": "밴더린은 미국 화가 최초로 파리에서 미술을 공부했으며, 이 작품은 현재까지 미국 국회의사당에 전시되어 있습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Landing_of_Columbus_(2).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 작품이 현재 전시되어 있는 곳은?",
+      "options": [
+        "메트로폴리탄 미술관",
+        "미국 국회의사당",
+        "스미소니언 미술관"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-18",
+    "title": "십자로",
+    "title_original": "Crossroads",
+    "artist": "리오타르",
+    "artist_original": "Jean-Étienne Liotard",
+    "year": "1745",
+    "medium": "파스텔",
+    "period": "로코코",
+    "story": "장에티엔 리오타르는 18세기 스위스 출신의 파스텔 화가로, 유럽과 오스만 제국을 여행하며 동서양 문화가 교차하는 장면을 많이 그렸습니다. 그는 터키 복장을 즐겨 입어 '터키인 화가'라는 별명을 얻었습니다. 리오타르의 작품은 서로 다른 문화와 길이 만나는 교차의 순간을 포착합니다. 동양의 복식과 서양의 화법이 하나의 화면에 공존하는 그의 그림은 문화적 경계를 넘는 예술의 힘을 보여줍니다.",
+    "look_for": "인물의 복장과 배경 소품에서 동서양 문화의 교차를 찾아보세요.",
+    "fun_fact": "리오타르의 대표작 '초콜릿을 나르는 하녀'는 현재까지도 유럽 파스텔화의 걸작으로 손꼽힙니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Liotard_-_La_belle_chocolati%C3%A8re.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "리오타르가 받은 별명은?",
+      "options": [
+        "프랑스인 화가",
+        "터키인 화가",
+        "이집트인 화가"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-19",
+    "title": "숲속의 갈림길",
+    "title_original": "A Birch Grove",
+    "artist": "이반 시슈킨",
+    "artist_original": "Ivan Shishkin",
+    "year": "1896",
+    "medium": "유화",
+    "period": "러시아 사실주의",
+    "story": "러시아 풍경화의 대가 시슈킨은 '숲의 화가'로 불릴 만큼 나무와 숲을 사실적으로 그렸습니다. 이 작품에서 자작나무 숲 사이로 햇빛이 들어오며, 길은 여러 갈래로 나뉩니다. 각각의 나무가 다른 방향으로 자라나듯, 인생의 갈림길에서 어디로 갈지 선택해야 하는 '분기'의 순간을 자연의 언어로 표현합니다. 시슈킨의 정밀한 나무 묘사는 마치 식물학 도감처럼 정확합니다.",
+    "look_for": "각 자작나무의 껍질 질감과 빛이 투과하는 잎사이의 녹색 빛 변화를 관찰해 보세요.",
+    "fun_fact": "시슈킨은 숲을 그릴 때 나무의 종류를 정확하게 구분하여 그렸으며, 식물학자들도 그의 그림에서 수종을 정확히 판별할 수 있었다고 합니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ivan_Shishkin_-_Birch_grove_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "시슈킨의 별명은?",
+      "options": [
+        "바다의 화가",
+        "숲의 화가",
+        "빛의 화가"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-20",
+    "title": "세느강의 합류",
+    "title_original": "The Seine and the Marne at Joinville",
+    "artist": "아르망 기요맹",
+    "artist_original": "Armand Guillaumin",
+    "year": "1868",
+    "medium": "유화",
+    "period": "인상주의",
+    "story": "프랑스 인상파 화가 기요맹은 모네, 피사로와 함께 활동했지만 상대적으로 덜 알려진 화가입니다. 이 작품은 두 강이 하나로 합류하는 지점의 풍경을 담았습니다. 서로 다른 물줄기가 만나 하나의 더 큰 흐름을 이루는 모습은 '합류'의 아름다운 시각적 은유입니다. 기요맹 특유의 대담한 색채와 힘 있는 붓놀림이 강물의 에너지를 생생하게 전달합니다.",
+    "look_for": "두 강물의 색이 미묘하게 다른 점과 합류 지점에서 물결이 만드는 패턴을 살펴보세요.",
+    "fun_fact": "기요맹은 낮에는 파리시 도로국에서 일하고 밤에 그림을 그렸으며, 복권에 당첨된 후에야 전업 화가가 될 수 있었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Armand_Guillaumin_-_Sunset_at_Ivry_(Soleil_couchant_%C3%A0_Ivry)_-_BF724_-_Barnes_Foundation.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "기요맹이 전업 화가가 될 수 있었던 계기는?",
+      "options": [
+        "그림이 고가에 팔려서",
+        "복권에 당첨되어서",
+        "왕실의 후원을 받아서"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-21",
+    "title": "수도승들의 행렬",
+    "title_original": "Procession of the Monks",
+    "artist": "프라 안젤리코",
+    "artist_original": "Fra Angelico",
+    "year": "1440",
+    "medium": "프레스코",
+    "period": "초기 르네상스",
+    "story": "도미니코회 수도사이자 화가였던 프라 안젤리코는 피렌체 산 마르코 수도원의 벽에 경건한 프레스코화를 남겼습니다. 수도승들이 질서정연하게 줄을 지어 걸어가는 모습은 수도원 생활의 규율과 '순서'를 시각적으로 보여줍니다. 금빛 후광과 부드러운 파스텔 톤의 색채는 천상의 평화를 지상에 옮겨놓은 듯합니다. 각자의 자리에서 역할을 충실히 수행하는 삶의 아름다움이 담겨 있습니다.",
+    "look_for": "수도승들의 옷 주름과 발걸음이 만드는 리듬감 있는 반복 패턴을 감상해 보세요.",
+    "fun_fact": "프라 안젤리코는 '천사 같은 수사'라는 뜻의 별명이며, 본명은 귀도 디 피에트로입니다. 2차 바티칸 공의회에서 복자로 시복되었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_Coronation_of_the_Virgin_-_WGA00631.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "프라 안젤리코의 본업은?",
+      "options": [
+        "군인",
+        "도미니코회 수도사",
+        "궁정 음악가"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-22",
+    "title": "다양한 과일이 있는 정물",
+    "title_original": "Still Life with Fruit",
+    "artist": "세비야의 후안 산체스 코탄",
+    "artist_original": "Juan Sánchez Cotán",
+    "year": "1602",
+    "medium": "유화",
+    "period": "스페인 바로크",
+    "story": "스페인 초기 바로크의 정물화가 후안 산체스 코탄은 소박한 과일과 채소를 극적인 명암 속에 배치하여 놀라운 작품을 만들어냈습니다. 어두운 벽감 앞에 매달리거나 놓인 메론, 양배추, 모과 등이 마치 기하학적 곡선을 그리듯 정밀하게 배치되어 있습니다. 서로 다른 형태, 색, 질감의 과일과 채소가 하나의 화면에 '혼합'되어 수학적 아름다움을 만들어냅니다.",
+    "look_for": "매달린 과일들이 만드는 포물선 곡선과 어두운 배경 속에서 빛나는 과일의 질감 대비를 살펴보세요.",
+    "fun_fact": "코탄은 화가로 성공한 후 카르투시오 수도회에 들어가 수도사가 되었으며, 수도원에서도 계속 그림을 그렸습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Juan_S%C3%A1nchez_Cot%C3%A1n_-_Still_Life_with_Quince%2C_Cabbage%2C_Melon_and_Cucumber_-_WGA20697.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "코탄이 화가 생활 후에 선택한 길은?",
+      "options": [
+        "궁정 화가",
+        "수도사",
+        "미술 교사"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-23",
+    "title": "백자 달항아리",
+    "title_original": "White Porcelain Moon Jar",
+    "artist": "조선 도공",
+    "artist_original": "Joseon Dynasty Potter",
+    "year": "1700",
+    "medium": "백자",
+    "period": "조선 후기",
+    "story": "조선 백자 달항아리는 한국 도자 예술의 정수입니다. 순백의 표면에 어떤 장식도 없이 오직 형태의 아름다움만으로 감동을 주는 이 항아리는 '순도'의 가치를 완벽하게 구현합니다. 위아래 두 개의 반구를 이어 붙여 만들기 때문에 완전한 원이 아닌 미세한 비대칭이 생기는데, 이 불완전함이 오히려 따뜻하고 인간적인 매력을 줍니다. 군더더기를 모두 덜어낸 절제의 미학이 담겨 있습니다.",
+    "look_for": "항아리의 좌우가 완벽하게 대칭이 아닌 미세한 차이를 찾아보세요. 이것이 달항아리만의 매력입니다.",
+    "fun_fact": "달항아리는 높이 약 40cm 이상의 대형 백자로, 두 반구를 이어 붙이는 기법 때문에 가마에서 실패하는 비율이 매우 높았습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:White_Porcelain_Jar_in_Full_Moon_Shape.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "달항아리의 미세한 비대칭은 어디서 생기나요?",
+      "options": [
+        "일부러 비대칭으로 만들어서",
+        "두 반구를 이어 붙이는 제작 과정에서",
+        "가마에서 구울 때 변형되어서"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-24",
+    "title": "베네치아의 대운하",
+    "title_original": "The Grand Canal, Venice",
+    "artist": "카날레토",
+    "artist_original": "Canaletto",
+    "year": "1730",
+    "medium": "유화",
+    "period": "베두타",
+    "story": "이탈리아 화가 카날레토는 베네치아의 풍경을 놀라울 정도로 정밀하게 기록한 화가입니다. 투명한 빛이 운하의 물에 반사되고, 건물의 세부까지 선명하게 보이는 이 작품은 마치 사진처럼 맑고 깨끗합니다. 베네치아의 맑은 공기와 물 위에서 반짝이는 빛의 '투명'함이 화면 전체를 감싸고 있습니다. 카날레토는 카메라 옵스큐라를 활용해 정확한 원근감을 표현했습니다.",
+    "look_for": "물에 비친 건물들의 반영과 하늘의 투명한 빛이 어떻게 전체 분위기를 만드는지 살펴보세요.",
+    "fun_fact": "카날레토의 본명은 조반니 안토니오 카날이며, '카날레토'는 역시 화가였던 아버지와 구분하기 위한 별명으로 '작은 카날'이라는 뜻입니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Canaletto_-_The_Grand_Canal_and_the_Church_of_the_Salute.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "카날레토가 정밀한 원근감을 위해 사용한 도구는?",
+      "options": [
+        "망원경",
+        "카메라 옵스큐라",
+        "확대경"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-25",
+    "title": "비의 효과",
+    "title_original": "A Sudden Shower over Shin-Ōhashi Bridge and Atake",
+    "artist": "우타가와 히로시게",
+    "artist_original": "Utagawa Hiroshige",
+    "year": "1857",
+    "medium": "목판화",
+    "period": "에도 시대 우키요에",
+    "story": "일본 우키요에의 거장 히로시게가 '명소 에도 백경' 연작에서 선보인 걸작입니다. 갑작스러운 소나기가 쏟아지는 다리 위에서 사람들이 허둥지둥 뛰어가는 순간을 포착했습니다. 빗줄기가 화면을 가득 채워 저편의 풍경이 흐릿하게 보이는 '불투명'한 효과를 만들어냅니다. 사선으로 내리치는 빗줄기의 대담한 표현은 서양 인상파 화가들, 특히 반 고흐에게 깊은 영감을 주었습니다.",
+    "look_for": "사선으로 내리는 빗줄기가 만드는 시각적 리듬과 비에 가려 흐릿해진 먼 풍경의 대비를 살펴보세요.",
+    "fun_fact": "빈센트 반 고흐는 이 작품에 감탄하여 유화로 모사했으며, 그 모사본은 현재 반 고흐 미술관에 소장되어 있습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hiroshige_-_Evening_Shower_at_Atake_and_the_Great_Bridge.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 작품에 감탄하여 유화로 모사한 서양 화가는?",
+      "options": [
+        "클로드 모네",
+        "빈센트 반 고흐",
+        "폴 세잔"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-26",
+    "title": "회화의 예술",
+    "title_original": "The Art of Painting",
+    "artist": "요하네스 페르메이르",
+    "artist_original": "Johannes Vermeer",
+    "year": "1666",
+    "medium": "유화",
+    "period": "네덜란드 황금시대",
+    "story": "페르메이르의 이 작품은 화가가 이젤 앞에 앉아 모델을 그리는 장면을 담은 '그림 속의 그림'입니다. 커튼이 걷혀 우리가 화가의 작업실을 엿보는 듯한 구도, 지도가 걸린 벽, 빛이 쏟아지는 창문 등이 세밀하게 묘사되어 있습니다. 그림이란 무엇인가, 그림 그리는 행위의 의미는 무엇인가라는 근본적 질문을 회화 자체를 주제로 삼아 탐구합니다.",
+    "look_for": "페르메이르 특유의 부드러운 빛이 왼쪽 창에서 들어와 모델의 얼굴과 화가의 캔버스를 비추는 모습을 감상하세요.",
+    "fun_fact": "페르메이르는 이 작품을 팔지 않고 평생 간직했으며, 그의 사후 빚을 갚기 위해 경매에 부쳐졌습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "페르메이르가 이 작품을 대한 태도는?",
+      "options": [
+        "완성 즉시 팔았다",
+        "평생 팔지 않고 간직했다",
+        "왕실에 기증했다"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-27",
+    "title": "피에타",
+    "title_original": "Pietà",
+    "artist": "미켈란젤로 부오나로티",
+    "artist_original": "Michelangelo Buonarroti",
+    "year": "1499",
+    "medium": "대리석 조각",
+    "period": "르네상스",
+    "story": "미켈란젤로가 24세에 완성한 이 걸작은 십자가에서 내려진 예수를 안고 있는 성모 마리아를 대리석으로 조각한 작품입니다. 차가운 돌에서 따뜻한 피부의 질감과 옷감의 부드러운 주름이 살아 있습니다. 거친 대리석 덩어리에서 이토록 섬세한 형태를 '조각'해낸 미켈란젤로의 기술은 인간의 손이 도달할 수 있는 예술적 경지의 정점을 보여줍니다.",
+    "look_for": "성모의 옷 주름이 만드는 빛과 그림자의 흐름, 그리고 예수의 축 늘어진 몸의 자연스러운 무게감을 느껴보세요.",
+    "fun_fact": "이 작품은 미켈란젤로가 자신의 이름을 새긴 유일한 작품입니다. 성모의 어깨띠에 라틴어로 서명이 새겨져 있습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Michelangelo%27s_Piet%C3%A0,_St_Peter%27s_Basilica_(1498%E2%80%9399).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "미켈란젤로가 피에타를 완성한 나이는?",
+      "options": [
+        "18세",
+        "24세",
+        "40세"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-02-28",
+    "title": "삼채마",
+    "title_original": "Tang Sancai Horse",
+    "artist": "당나라 도공",
+    "artist_original": "Tang Dynasty Potter",
+    "year": "750",
+    "medium": "삼채 도자기",
+    "period": "당나라",
+    "story": "중국 당나라의 삼채(三彩) 도자기는 녹색, 갈색, 흰색 세 가지 유약을 사용해 만든 화려한 도자 예술입니다. 특히 말 형태의 삼채 도자기는 실크로드를 통해 들어온 서역의 명마를 본떠 만든 것으로, 당나라의 개방적이고 국제적인 문화를 보여줍니다. 흙과 불이 만나 예술이 되는 '도자'의 마법을 가장 화려하게 구현한 작품으로, 세 가지 색의 유약이 가마 안에서 자연스럽게 흘러내리며 독특한 무늬를 만듭니다.",
+    "look_for": "세 가지 색 유약이 자연스럽게 흘러내리며 만든 우연의 아름다움을 관찰해 보세요.",
+    "fun_fact": "삼채 도자기는 주로 무덤에 부장품으로 넣기 위해 만들었기 때문에, 대부분 고분에서 발견되었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Horse_Tang_Dynasty.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "당삼채 도자기의 주된 용도는?",
+      "options": [
+        "일상 식기",
+        "무덤 부장품",
+        "궁전 장식"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-01",
+    "title": "베 짜는 여인",
+    "title_original": "The Weaver",
+    "artist": "디에고 벨라스케스",
+    "artist_original": "Diego Velázquez",
+    "year": "1657",
+    "medium": "유화",
+    "period": "바로크",
+    "story": "벨라스케스의 '아라크네의 우화'로도 불리는 이 작품은 왕실 직조 공방에서 실을 잣고 베를 짜는 여인들의 모습을 생생하게 담았습니다. 전경에는 물레를 돌리며 실을 잣는 노동자들이, 배경에는 완성된 태피스트리 앞에 선 귀부인들이 보입니다. 벨라스케스는 직조라는 일상적 노동 속에 그리스 신화를 숨겨두어, 보이는 것 이면의 이야기를 찾는 즐거움을 선사합니다. 실 한 올 한 올이 모여 거대한 천이 되듯, 작은 노력이 모여 위대한 결과를 만들어냅니다.",
+    "look_for": "전경의 물레에서 실이 풀려나가는 움직임과, 배경의 밝은 빛이 만드는 깊이감을 관찰해 보세요.",
+    "fun_fact": "이 그림의 배경 태피스트리는 티치아노의 '에우로페의 납치'를 재현한 것으로, 그림 속에 또 다른 그림이 숨어 있습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Las_hilanderas_(Vel%C3%A1zquez).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 작품에서 전경의 여인들이 하고 있는 작업은 무엇인가요?",
+      "options": [
+        "실을 잣고 베를 짜고 있다",
+        "그림을 그리고 있다",
+        "음식을 준비하고 있다"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "date": "2027-03-02",
+    "title": "인쇄소 풍경",
+    "title_original": "A Printer's Workshop",
+    "artist": "요스트 암만",
+    "artist_original": "Jost Amman",
+    "year": "1568",
+    "medium": "목판화",
+    "period": "독일 르네상스",
+    "story": "요스트 암만은 16세기 독일의 판화가이자 삽화가로, 당시 직업과 기술을 기록한 《직업의 책》으로 유명합니다. 이 목판화는 인쇄소에서 일하는 장인들의 모습을 세밀하게 묘사합니다. 활자를 조판하고, 잉크를 바르고, 종이를 눌러 찍는 일련의 과정이 한 화면에 담겨 있습니다. 구텐베르크가 발명한 금속 활자 인쇄술이 어떻게 지식 혁명을 이끌었는지, 이 한 장의 판화가 생생하게 전해줍니다.",
+    "look_for": "인쇄 과정의 각 단계를 맡은 장인들의 역할 분담을 화면 속에서 따라가 보세요.",
+    "fun_fact": "암만의 《직업의 책》에는 130개 이상의 직업이 목판화로 기록되어 있어, 16세기 유럽 사회를 이해하는 귀중한 사료입니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jost_Amman_-_Buchdruckerei.png",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "요스트 암만이 기록한 책의 이름은?",
+      "options": [
+        "직업의 책",
+        "예술의 역사",
+        "기계의 시대"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "date": "2027-03-03",
+    "title": "편지를 읽는 푸른 옷의 여인",
+    "title_original": "Woman Reading a Letter",
+    "artist": "요하네스 페르메이르",
+    "artist_original": "Johannes Vermeer",
+    "year": "1663",
+    "medium": "유화",
+    "period": "네덜란드 황금시대",
+    "story": "페르메이르의 이 작품에서 젊은 여인은 창가에 서서 편지를 읽고 있습니다. 활자로 인쇄된 책과 달리, 손으로 쓴 편지는 보낸 사람의 마음이 직접 담긴 매체입니다. 푸른 재킷을 입은 여인의 집중된 표정에서 글자 하나하나를 음미하는 모습이 느껴집니다. 페르메이르는 왼쪽에서 들어오는 부드러운 자연광으로 여인의 얼굴과 편지를 밝히며, 사적인 순간의 고요한 아름다움을 포착했습니다.",
+    "look_for": "여인의 입술이 살짝 벌어진 것에서 편지를 소리 내어 읽고 있는 듯한 생동감을 느껴보세요.",
+    "fun_fact": "X선 촬영 결과, 원래 배경에는 벽에 걸린 큰 지도가 있었으나 페르메이르가 나중에 빈 벽으로 덧칠한 것으로 밝혀졌습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Woman_reading_a_letter_-_ca._1662-1663.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 작품에서 여인이 하고 있는 행동은?",
+      "options": [
+        "피아노를 치고 있다",
+        "편지를 읽고 있다",
+        "거울을 보고 있다"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-04",
+    "title": "수도사의 필사",
+    "title_original": "A Dominican Friar at His Desk",
+    "artist": "토마소 다 모데나",
+    "artist_original": "Tommaso da Modena",
+    "year": "1352",
+    "medium": "프레스코",
+    "period": "고딕",
+    "story": "토마소 다 모데나는 트레비소 산 니콜로 성당의 수도원 회의실 벽면에 도미니크회 수도사 40인의 초상을 그렸습니다. 그중 이 프레스코는 책상에 앉아 깃펜으로 필사에 몰두하는 수도사의 모습을 담고 있습니다. 인쇄술 발명 이전, 손으로 한 글자 한 글자 베껴 쓰는 필기는 지식을 보존하고 전달하는 유일한 방법이었습니다. 수도사의 진지한 표정에서 필사라는 행위에 담긴 경건함과 헌신을 느낄 수 있습니다.",
+    "look_for": "수도사가 쓰고 있는 안경에 주목해 보세요. 이것은 서양 미술사에서 안경이 등장하는 가장 이른 그림 중 하나입니다.",
+    "fun_fact": "이 프레스코는 1352년 작품으로, 안경이 그려진 최초의 미술 작품 중 하나로 미술사에서 중요한 기록입니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tommaso_da_modena,_ritratti_di_domenicani_(vescovo)_1352,_150cm_x_99,5cm,_treviso,_sala_del_capitolo_di_san_nicol%C3%B2.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "인쇄술 발명 이전에 책을 만드는 주된 방법은 무엇이었나요?",
+      "options": [
+        "목판 인쇄",
+        "손으로 베껴 쓰는 필사",
+        "구두 전달"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-05",
+    "title": "바이올린을 든 소녀",
+    "title_original": "Girl with a Violin",
+    "artist": "오레스트 키프렌스키",
+    "artist_original": "Orest Kiprensky",
+    "year": "1816",
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "러시아 낭만주의의 선구자 키프렌스키는 인물의 내면을 포착하는 데 뛰어났습니다. 이 초상화에서 소녀는 바이올린을 들고 있지만 연주하지 않고, 무언가를 깊이 기억하거나 떠올리는 듯한 표정을 짓고 있습니다. 음악을 암기하는 것은 단순한 반복이 아니라 선율을 몸과 마음에 새기는 과정입니다. 어두운 배경 위에 부드럽게 빛나는 소녀의 얼굴은 내면의 집중과 사색의 순간을 아름답게 보여줍니다.",
+    "look_for": "소녀의 시선이 관람자가 아닌 먼 곳을 향하고 있는 점에서 내면의 집중을 느껴보세요.",
+    "fun_fact": "키프렌스키는 러시아의 반 다이크라 불릴 정도로 초상화에 뛰어났으며, 시인 푸시킨의 유명한 초상화도 그의 작품입니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kiprensky_OrlandoPortrait.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 작품을 그린 키프렌스키는 어느 나라 화가인가요?",
+      "options": [
+        "프랑스",
+        "러시아",
+        "이탈리아"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-06",
+    "title": "서재의 성 제롬",
+    "title_original": "Saint Jerome in His Study",
+    "artist": "콜랑토니오",
+    "artist_original": "Colantonio",
+    "year": "1445",
+    "medium": "유화, 나무 패널",
+    "period": "이탈리아 초기 르네상스",
+    "story": "콜랑토니오는 15세기 나폴리 화파의 선구자로, 플랑드르 회화의 사실적 기법을 이탈리아에 도입한 화가입니다. 이 작품은 성 제롬이 서재에서 깊은 사색에 잠긴 모습을 보여줍니다. 책과 양피지가 가득한 공간에서 학자가 진리를 탐구하는 장면은 사색의 가치를 상징합니다. 혼자 조용히 생각하는 시간이야말로 지혜의 씨앗이 자라는 토양임을 이 그림은 말해줍니다.",
+    "look_for": "서재의 책과 도구들이 어떻게 배치되어 있는지 살펴보며, 학자의 일상을 상상해 보세요.",
+    "fun_fact": "콜랑토니오의 제자가 바로 이탈리아 르네상스의 거장 안토넬로 다 메시나입니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Colantonio_-_San_Girolamo_nello_studio.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "콜랑토니오가 활동한 이탈리아 도시는?",
+      "options": [
+        "피렌체",
+        "나폴리",
+        "베네치아"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-07",
+    "title": "씨 뿌리는 사람 (밀레)",
+    "title_original": "The Sower (Millet)",
+    "artist": "장 프랑수아 밀레",
+    "artist_original": "Jean-François Millet",
+    "year": "1857",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "밀레의 대표작 '이삭 줍는 사람들'은 수확이 끝난 밀밭에서 땅에 떨어진 이삭을 줍는 세 여인의 모습을 담았습니다. 그들이 허리를 굽혀 이삭을 줍는 대지는 모든 생명의 토양이자 삶의 기반입니다. 뒤편으로는 풍요로운 수확 장면이 펼쳐지지만, 전경의 세 여인은 가난한 농민으로서 토양에 가장 가까이 몸을 낮추고 있습니다. 밀레는 소외된 노동자의 존엄함을 격조 높게 표현하여 당시 화단에 큰 반향을 일으켰습니다.",
+    "look_for": "세 여인의 허리 굽힌 자세가 만드는 리듬감과, 배경의 풍요로운 수확 장면과의 대비를 살펴보세요.",
+    "fun_fact": "이 그림은 발표 당시 농민의 비참함을 부각한다는 이유로 상류층의 비난을 받았지만, 오늘날 프랑스 미술의 보물로 여겨집니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Millet_-_The_Sower_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 그림의 세 여인이 하고 있는 일은 무엇인가요?",
+      "options": [
+        "씨앗을 뿌리고 있다",
+        "밀을 수확하고 있다",
+        "떨어진 이삭을 줍고 있다"
+      ],
+      "answer": 2
+    }
+  },
+  {
+    "date": "2027-03-08",
+    "title": "파종하는 사람",
+    "title_original": "The Sower",
+    "artist": "그레고리 마이소예도프",
+    "artist_original": "Grigory Myasoyedov",
+    "year": "1888",
+    "medium": "유화",
+    "period": "러시아 사실주의",
+    "story": "그레고리 마이소예도프는 19세기 러시아 이동파(페레드비쥬니키)의 창립 멤버로, 러시아 농민의 삶을 사실적으로 그렸습니다. 이 작품은 넓은 들판에서 씨를 뿌리는 농부의 모습을 묘사합니다. 한 줌의 씨앗을 땅에 던지는 단순한 동작 속에 미래를 향한 믿음이 담겨 있습니다. 씨앗은 작지만 그 안에 거대한 가능성을 품고 있으며, 파종하는 사람의 땀과 희망이 결실의 시작입니다.",
+    "look_for": "농부의 팔 동작과 씨앗이 흩뿌려지는 궤적에서 노동의 리듬감을 느껴보세요.",
+    "fun_fact": "이동파 화가들은 러시아 각지를 순회하며 전시회를 열어 예술을 대중에게 가까이 가져간 혁신적인 그룹이었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Grigoriy_Myasoyedov_Stradnaya_pora_(Kosocy)_1887.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "마이소예도프가 속한 러시아 미술 운동은?",
+      "options": [
+        "아방가르드",
+        "이동파",
+        "구성주의"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-09",
+    "title": "과일 바구니가 있는 정물",
+    "title_original": "Still Life with Fruit Basket",
+    "artist": "루이즈 무아용",
+    "artist_original": "Louise Moillon",
+    "year": "1637",
+    "medium": "유화",
+    "period": "프랑스 바로크",
+    "story": "루이즈 무아용은 17세기 프랑스의 정물화 전문 여성 화가로, 과일과 채소를 놀라운 사실감으로 묘사했습니다. 이 작품에는 풍성하게 익은 과일들이 바구니에 가득 담겨 있습니다. 복숭아, 포도, 자두 등 각각의 열매는 오랜 기다림 끝에 맺힌 결실을 상징합니다. 인내와 정성이 만들어낸 성과의 달콤함이 화면 가득 느껴지며, 자연이 주는 풍요로움에 대한 감사가 담겨 있습니다.",
+    "look_for": "각 과일의 표면 질감과 빛의 반사를 비교하며 화가의 관찰력을 감상해 보세요.",
+    "fun_fact": "루이즈 무아용은 10대에 이미 전문 화가로 활동을 시작했으며, 당시 프랑스에서 가장 비싼 정물화를 그리는 화가 중 한 명이었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Louise_Moillon_-_Still_Life_with_a_Bowl_of_Curacao_Oranges_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "루이즈 무아용이 주로 그린 장르는?",
+      "options": [
+        "풍경화",
+        "정물화",
+        "초상화"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-10",
+    "title": "생명의 나무",
+    "title_original": "The Tree of Life",
+    "artist": "구스타프 클림트",
+    "artist_original": "Gustav Klimt",
+    "year": "1909",
+    "medium": "템페라, 수채, 금박",
+    "period": "아르누보 / 빈 분리파",
+    "story": "클림트의 '생명의 나무'는 소용돌이치며 뻗어나가는 가지들이 화면을 가득 채운 장식적 걸작입니다. 나무의 뿌리는 땅속 깊이 뻗어 있고, 가지는 하늘로 소용돌이치며 올라갑니다. 보이지 않는 곳에서 온 나무를 지탱하는 뿌리처럼, 우리의 성장도 보이지 않는 기반 위에 서 있습니다. 클림트는 금박과 화려한 장식 패턴으로 생명의 영원한 순환과 연결을 표현하여, 스토클레 저택 식당 벽화로 제작했습니다.",
+    "look_for": "나무 가지의 소용돌이 패턴이 반복되며 만드는 리듬감과 금색의 화려한 장식을 감상해 보세요.",
+    "fun_fact": "이 작품은 벨기에 브뤼셀의 스토클레 저택 식당 벽면을 장식하기 위한 밑그림으로, 실제 벽화에는 대리석과 보석이 사용되었습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gustav_Klimt_032.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "클림트의 '생명의 나무'에 사용된 특별한 재료는?",
+      "options": [
+        "은박",
+        "금박",
+        "동박"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-11",
+    "title": "대나무 숲",
+    "title_original": "Bamboo",
+    "artist": "정섭",
+    "artist_original": "Zheng Xie",
+    "year": "1750",
+    "medium": "수묵화",
+    "period": "청대 문인화",
+    "story": "청대 양주팔괴 중 한 명인 정섭은 대나무 그림의 대가였습니다. 그의 대나무는 곧게 뻗은 줄기와 바람에 흔들리는 잎사귀로 선비의 굳은 절개를 상징합니다. 대나무의 줄기는 비어 있지만 단단하고, 마디마다 성장의 흔적을 남기며 위로 뻗어갑니다. 정섭은 먹의 농담만으로 줄기의 강인함과 잎의 유연함을 동시에 표현하여, 단단해져야만 위로 자랄 수 있다는 메시지를 전합니다.",
+    "look_for": "붓의 한 획으로 표현된 대나무 줄기의 힘찬 선과, 잎사귀의 가벼운 터치의 대비를 관찰해 보세요.",
+    "fun_fact": "정섭은 관직에서 물러난 후 대나무 그림을 팔아 생계를 유지했는데, 그림 값을 미리 정해놓고 흥정을 거부한 것으로 유명합니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zheng_Xie_-_Bamboo.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "정섭이 속했던 화가 그룹의 이름은?",
+      "options": [
+        "양주팔괴",
+        "원사대가",
+        "오파"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "date": "2027-03-12",
+    "title": "물 위의 오필리아",
+    "title_original": "Ophelia",
+    "artist": "존 에버렛 밀레이",
+    "artist_original": "John Everett Millais",
+    "year": "1852",
+    "medium": "유화",
+    "period": "라파엘 전파",
+    "story": "밀레이의 '오필리아'는 셰익스피어 '햄릿'에서 미쳐버린 오필리아가 꽃을 따다 시냇물에 빠져 죽어가는 장면을 그린 것입니다. 물 위에 떠 있는 오필리아 주변으로 장미, 데이지, 양귀비 등의 꽃잎이 흩어져 있습니다. 아름답지만 곧 사라질 꽃잎들은 짧지만 찬란한 순간의 아름다움을 상징합니다. 밀레이는 실제 강가에서 수개월간 풀과 꽃을 관찰하며 놀라운 사실성으로 자연을 묘사했습니다.",
+    "look_for": "물 위에 떠 있는 다양한 꽃들의 종류와 오필리아의 평온한 표정이 만드는 아름다우면서도 슬픈 분위기를 느껴보세요.",
+    "fun_fact": "모델 엘리자베스 시달은 욕조에 누워 포즈를 취했는데, 물이 식는 바람에 심한 감기에 걸렸고 밀레이가 의료비를 물어야 했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "'오필리아'는 어떤 문학 작품에 등장하는 인물인가요?",
+      "options": [
+        "로미오와 줄리엣",
+        "햄릿",
+        "한여름 밤의 꿈"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-13",
+    "title": "가을 풍경",
+    "title_original": "Autumn Landscape",
+    "artist": "에곤 실레",
+    "artist_original": "Egon Schiele",
+    "year": "1912",
+    "medium": "유화",
+    "period": "표현주의",
+    "story": "에곤 실레는 인체 드로잉으로 유명하지만, 섬세한 풍경화도 많이 남겼습니다. 이 작품에서 앙상한 나무들이 낙엽을 떨구고 서 있는 모습은 쓸쓸하지만 동시에 강인한 아름다움을 품고 있습니다. 낙엽은 끝이 아니라 새로운 시작을 위한 준비입니다. 떨어진 잎들은 다시 토양의 양분이 되어 봄에 새로운 생명을 키울 것입니다. 실레는 거칠고 표현적인 선으로 자연의 순환 속 고요한 전환의 순간을 포착했습니다.",
+    "look_for": "나뭇가지의 거친 선과 붉은 낙엽의 색감이 만드는 을씨년스럽지만 아름다운 분위기를 감상해 보세요.",
+    "fun_fact": "실레는 불과 28세에 스페인 독감으로 세상을 떠났지만, 짧은 생애 동안 300점이 넘는 유화와 수천 점의 드로잉을 남겼습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Egon_Schiele_-_Herbstlandschaft_-_4722_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "에곤 실레가 활동한 미술 사조는?",
+      "options": [
+        "인상주의",
+        "표현주의",
+        "사실주의"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-14",
+    "title": "프리마베라 (봄)",
+    "title_original": "Primavera",
+    "artist": "산드로 보티첼리",
+    "artist_original": "Sandro Botticelli",
+    "year": "1482",
+    "medium": "템페라",
+    "period": "이탈리아 르네상스",
+    "story": "보티첼리의 '봄(프리마베라)'은 르네상스 회화의 걸작으로, 꽃이 만발한 정원에서 신화 속 인물들이 봄의 도래를 축하하는 장면입니다. 오른쪽에서 서풍 제피로스가 님프 클로리스를 안으면, 그녀의 입에서 꽃이 피어나 꽃의 여신 플로라로 변합니다. 겨울을 이기고 올라오는 새싹처럼, 그림 속 500여 종의 식물이 생명의 부활을 노래합니다. 중앙의 비너스는 이 모든 생명력을 관장하는 존재로 서 있습니다.",
+    "look_for": "발밑에 피어난 500여 종의 꽃과 식물을 자세히 들여다보고, 실제로 존재하는 종인지 찾아보세요.",
+    "fun_fact": "학자들이 이 그림에서 확인한 식물은 약 500종으로, 당시 피렌체 근교에서 실제로 볼 수 있던 종들이 정확하게 묘사되어 있습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Botticelli-primavera.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "'프리마베라'의 중앙에 서 있는 신화 속 인물은?",
+      "options": [
+        "아테나",
+        "비너스",
+        "디아나"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-03-15",
+    "title": "추수하는 사람들",
+    "title_original": "The Gleaners",
+    "artist": "레옹 레르미트",
+    "artist_original": "Léon Lhermitte",
+    "year": "1887",
+    "medium": "유화",
+    "period": "프랑스 자연주의",
+    "story": "레옹 레르미트는 19세기 프랑스 자연주의 화가로, 농촌 생활과 노동의 아름다움을 따뜻한 시선으로 그렸습니다. 이 작품은 밀밭에서 수확하는 농민들의 모습을 묘사합니다. 황금빛 들판에서 곡식을 거두는 장면은 한 해 동안 정성껏 가꾼 것을 거두는 보람과 기쁨을 담고 있습니다. 구부린 등과 분주한 손길 속에서 노동의 존엄과 수확의 감격이 느껴집니다. 레르미트는 반 고흐가 존경한 화가 중 한 명이기도 합니다.",
+    "look_for": "인물들의 자세와 황금빛 밀밭의 색감에서 수확의 풍요로움과 노동의 존엄을 느껴보세요.",
+    "fun_fact": "빈센트 반 고흐는 레르미트의 작품을 보고 '현존하는 가장 위대한 화가'라고 극찬했습니다.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:L%C3%A9on_Augustin_Lhermitte_-_La_Moisson.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "레르미트의 작품을 극찬한 화가는 누구인가요?",
+      "options": [
+        "클로드 모네",
+        "빈센트 반 고흐",
+        "폴 세잔"
       ],
       "answer": 1
     }
