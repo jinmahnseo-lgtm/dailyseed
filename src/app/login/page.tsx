@@ -29,7 +29,7 @@ export default function LoginPage() {
       <div className="min-h-screen max-w-lg mx-auto px-5 flex flex-col items-center justify-center">
         <p className="text-gray-500 text-sm">로그인 서비스가 아직 설정되지 않았어요.</p>
         <button
-          onClick={() => router.back()}
+          onClick={() => router.push("/")}
           className="mt-4 text-sm text-amber-600 font-semibold hover:underline"
         >
           ← 돌아가기
@@ -103,7 +103,7 @@ export default function LoginPage() {
 
         {/* Back */}
         <button
-          onClick={() => router.back()}
+          onClick={() => router.push("/")}
           className="block mx-auto mt-6 text-sm text-gray-400 hover:text-gray-600 transition-colors"
         >
           ← 로그인 없이 오늘 콘텐츠만 보기

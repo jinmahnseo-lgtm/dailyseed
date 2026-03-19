@@ -26,33 +26,58 @@ export function getDayNumber(dateStr: string) {
   return Math.floor((current.getTime() - start.getTime()) / 86400000) + 1;
 }
 
-/** 콘텐츠 노출 상한: 오늘 + 7일 */
-export function getMaxDate() {
-  const d = new Date();
-  d.setDate(d.getDate() + 7);
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+const ADMIN_EMAILS = ["mahn823@empal.com"];
+
+export function isAdminEmail(email: string | undefined | null): boolean {
+  return !!email && ADMIN_EMAILS.includes(email);
 }
 
-export function useSharedDate() {
+/**
+ * 날짜 접근 범위 계산
+ * - 비로그인: 오늘만 (min=오늘, max=오늘)
+ * - 일반 로그인: 과거 전체 ~ 오늘+7일
+ * - 관리자: 전체
+ */
+export function getDateRange(role: "guest" | "user" | "admin") {
+  const todayStr = getToday();
+  if (role === "admin") return { minDate: "2000-01-01", maxDate: "2099-12-31" };
+  if (role === "guest") return { minDate: todayStr, maxDate: todayStr };
+  // user: 과거 전체 ~ 오늘+7일
+  const d = new Date();
+  d.setDate(d.getDate() + 7);
+  const maxDate = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  return { minDate: "2000-01-01", maxDate };
+}
+
+/** 하위 호환용 */
+export function getMaxDate(role: "guest" | "user" | "admin") {
+  return getDateRange(role).maxDate;
+}
+
+/**
+ * 날짜 관리 훅
+ *
+ * 접근 규칙:
+ * - 비로그인(guest): 오늘 하루만. 화살표/달력 비활성.
+ * - 일반 로그인(user): 과거 전체 + 오늘 + 미래 7일.
+ * - 관리자(admin): 전체 1년.
+ */
+export function useSharedDate(role: "guest" | "user" | "admin" = "guest") {
   const [date, setDateRaw] = useState("");
   const [today, setTodayVal] = useState("");
 
   useEffect(() => {
     const t = getToday();
     setTodayVal(t);
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored && themes.some((th) => th.date === stored)) {
-      setDateRaw(stored);
-    } else {
-      const fallback = themes.find((th) => th.date === t) ? t : themes[0]?.date || t;
-      setDateRaw(fallback);
-    }
+    const fallback = themes.find((th) => th.date === t) ? t : themes[0]?.date || t;
+    setDateRaw(fallback);
   }, []);
 
-  const maxDate = getMaxDate();
+  const { minDate, maxDate } = getDateRange(role);
   const dateIndex = themes.findIndex((t) => t.date === date);
   const theme = dateIndex >= 0 ? themes[dateIndex] : undefined;
-  const canPrev = dateIndex > 0;
+
+  const canPrev = dateIndex > 0 && themes[dateIndex - 1].date >= minDate;
   const canNext = dateIndex >= 0 && dateIndex < themes.length - 1
     && themes[dateIndex + 1].date <= maxDate;
 
@@ -84,5 +109,5 @@ export function useSharedDate() {
     localStorage.setItem(STORAGE_KEY, fallback);
   }, []);
 
-  return { date, today: today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate };
+  return { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate };
 }

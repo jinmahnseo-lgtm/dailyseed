@@ -27,8 +27,10 @@ type DayNavigatorProps = {
   onToday: () => void;
   onSelectDate?: (date: string) => void;
   topicKey?: string;
-  /** Pass maxDate so calendar respects admin override */
   maxDate?: string;
+  minDate?: string;
+  /** If true, show login prompt when tapping disabled dates */
+  isGuest?: boolean;
 };
 
 const themeSet = new Set(themes.map((t) => t.date));
@@ -53,10 +55,11 @@ function pad(n: number) { return String(n).padStart(2, "0"); }
 export default function DayNavigator({
   title, emoji, date, today, keyword,
   canPrev, canNext, onPrev, onNext, onToday, onSelectDate, topicKey,
-  maxDate: maxDateProp,
+  maxDate: maxDateProp, minDate: minDateProp, isGuest,
 }: DayNavigatorProps) {
   const router = useRouter();
   const [open, setOpen] = useState(false);
+  const [loginToast, setLoginToast] = useState(false);
   const calRef = useRef<HTMLDivElement>(null);
   const parsedDate = date ? new Date(date + "T00:00:00") : new Date();
   const [calYear, setCalYear] = useState(parsedDate.getFullYear());
@@ -76,10 +79,20 @@ export default function DayNavigator({
   const dateLabel = date ? formatDateShort(date) : "–";
   const calDays = getCalendarDays(calYear, calMonth);
   const maxDate = maxDateProp || getMaxDate("guest");
+  const minDate = minDateProp || "2000-01-01";
+
+  const isDateAllowed = (ds: string) => themeSet.has(ds) && ds >= minDate && ds <= maxDate;
 
   const handleDayClick = (day: number) => {
     const dateStr = `${calYear}-${pad(calMonth + 1)}-${pad(day)}`;
-    if (themeSet.has(dateStr) && dateStr <= maxDate && onSelectDate) { onSelectDate(dateStr); setOpen(false); }
+    if (isDateAllowed(dateStr) && onSelectDate) {
+      onSelectDate(dateStr);
+      setOpen(false);
+    } else if (isGuest && themeSet.has(dateStr)) {
+      // Date exists but locked for guest — show login prompt
+      setLoginToast(true);
+      setTimeout(() => setLoginToast(false), 2500);
+    }
   };
 
   const currentTopicIdx = TOPICS.findIndex((t) => t.key === topicKey);
@@ -135,20 +148,23 @@ export default function DayNavigator({
               {row.map((day, ci) => {
                 if (day === null) return <div key={ci} className="h-9" />;
                 const dateStr = `${calYear}-${pad(calMonth + 1)}-${pad(day)}`;
-                const hasTheme = themeSet.has(dateStr) && dateStr <= maxDate;
+                const allowed = isDateAllowed(dateStr);
+                const hasButLocked = !allowed && themeSet.has(dateStr) && isGuest;
                 const isSelected = dateStr === date;
                 const isToday = dateStr === today;
                 return (
-                  <button key={ci} onClick={() => handleDayClick(day)} disabled={!hasTheme}
+                  <button key={ci} onClick={() => handleDayClick(day)} disabled={!allowed && !hasButLocked}
                     className={`h-9 w-full rounded-lg text-sm font-medium transition-all relative
                       ${isSelected ? "bg-[var(--accent)] text-white font-bold shadow-md"
                         : isToday ? "bg-[var(--accent-light)] text-[var(--accent)] font-bold ring-2 ring-[var(--accent)] ring-opacity-40"
-                        : hasTheme ? "hover:bg-gray-100 text-gray-700 cursor-pointer" : "text-gray-200 cursor-default"}
+                        : allowed ? "hover:bg-gray-100 text-gray-700 cursor-pointer"
+                        : hasButLocked ? "text-gray-400 cursor-pointer" : "text-gray-200 cursor-default"}
                       ${ci === 0 && !isSelected ? "text-red-400" : ""} ${ci === 6 && !isSelected ? "text-blue-400" : ""}
                     `}
                   >
                     {day}
-                    {hasTheme && !isSelected && <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-[var(--accent)] opacity-40" />}
+                    {allowed && !isSelected && <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-[var(--accent)] opacity-40" />}
+                    {hasButLocked && <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-gray-300" />}
                   </button>
                 );
               })}
@@ -157,6 +173,14 @@ export default function DayNavigator({
           <button onClick={() => { onToday(); setOpen(false); }} className="mt-3 w-full py-2 rounded-xl text-sm font-semibold bg-[var(--accent-light)] text-[var(--accent)] hover:shadow-md transition-all">
             📍 오늘로 이동
           </button>
+          {loginToast && (
+            <button
+              onClick={() => { router.push("/login"); setOpen(false); }}
+              className="mt-2 w-full py-2.5 rounded-xl text-sm font-semibold bg-amber-500 text-white hover:bg-amber-600 transition-all animate-in fade-in"
+            >
+              🔒 로그인하면 다른 날짜도 볼 수 있어요
+            </button>
+          )}
         </div>
       )}
     </header>
