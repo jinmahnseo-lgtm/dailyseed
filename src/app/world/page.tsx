@@ -102,7 +102,9 @@ export default function WorldPage() {
               이 나라 음식
             </span>
           </div>
-          <p className="text-base leading-relaxed">{world.food}</p>
+          <p className="text-base leading-relaxed">
+            {typeof world.food === 'string' ? world.food : `${world.food.name} — ${world.food.description}`}
+          </p>
         </div>
       </section>
 
