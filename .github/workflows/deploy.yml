@@ -3,6 +3,12 @@ name: Deploy to Cloudflare Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'src/data/*.json'
+      - 'classics-plan.*'
+      - 'public/classics-plan.*'
+      - '*.md'
+  workflow_dispatch: # 수동 배포 지원
 
 jobs:
   deploy:
