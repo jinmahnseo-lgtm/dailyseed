@@ -3248,6 +3248,726 @@
     "question": "다른 세대 사람과 이야기할 때 뭐가 달라? 세대 차이를 좁히는 방법은 뭘까?"
   },
   {
+    "date": "2026-11-03",
+    "title": "할아버지와 손자",
+    "title_original": "An Old Man and his Grandson",
+    "artist": "도메니코 기를란다요",
+    "artist_original": "Domenico Ghirlandaio",
+    "year": "1490",
+    "medium": "템페라",
+    "period": "르네상스",
+    "story": "오늘의 키워드는 '노년'이야. 혹이 가득한 빨간 코의 노인이 어린 손자를 다정하게 내려다보고, 손자는 할아버지를 올려다봐. 외모의 결함을 숨기지 않고 그대로 그린 게 놀라워. 노년의 주름과 흠은 살아온 이야기야. 두 세대 사이의 순수한 사랑이 세월의 무게를 따뜻하게 만들어.",
+    "look_for": "할아버지 코의 울퉁불퉁한 혹(주사비)을 자세히 봐 — 기를란다요는 이것을 숨기지 않았어. 손자의 맑은 눈과 할아버지의 깊은 눈이 만나는 시선을 따라가 봐. 창밖 풍경이 평화로운 토스카나 언덕이야.",
+    "fun_fact": "할아버지는 실제로 주사비 환자였어. 사후에 데스마스크를 떠서 그린 거라는 설이 있어. 루브르 박물관에 있어. 기를란다요는 미켈란젤로의 스승이기도 해!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Domenico_ghirlandaio,_ritratto_di_vecchio_con_nipote.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 그림에서 할아버지의 코에 보이는 특징은?",
+      "options": [
+        "상처 자국",
+        "울퉁불퉁한 혹(주사비)",
+        "문신"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "키스",
+    "title_original": "The Kiss",
+    "artist": "프란체스코 하예즈",
+    "artist_original": "Francesco Hayez",
+    "year": "1859",
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "오늘의 키워드는 '청춘'이야. 중세 복장의 젊은 연인이 열정적으로 입맞춤을 하고 있어. 파란 옷의 여인과 붉은 망토의 남자 — 청춘의 사랑은 이토록 뜨겁고 아름다워. 하예즈는 이탈리아 통일 운동의 열정을 연인의 키스에 담았어. 청춘이란 두려움 없이 뜨겁게 사랑하는 시간이야.",
+    "look_for": "남자의 한 발이 계단에 걸쳐 있어 — 곧 떠나야 하는 긴박감이 느껴져. 여인의 손이 남자의 얼굴을 감싸고 있어. 왼쪽 아래 그림자 속에 누군가의 형체가 보여 — 비밀스러운 만남이야.",
+    "fun_fact": "이 그림은 이탈리아 통일 운동의 상징이 됐어. 파랑과 빨강은 프랑스 국기 색으로, 이탈리아 독립을 도운 프랑스에 대한 감사를 표현했대. 밀라노 브레라 미술관에서 가장 인기 있는 작품이야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Hayez_008.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 그림이 상징하는 역사적 사건은?",
+      "options": [
+        "프랑스 혁명",
+        "이탈리아 통일 운동",
+        "십자군 전쟁"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "어린이의 놀이",
+    "title_original": "A Meeting",
+    "artist": "마리아 바시키르체바",
+    "artist_original": "Marie Bashkirtseff",
+    "year": "1884",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "오늘의 키워드는 '유년'이야. 파리 뒷골목에서 아이들이 자유롭게 놀고 있어. 바시키르체바는 우크라이나 출신으로 파리에서 활동한 화가야. 23세에 결핵으로 세상을 떠났지만 강렬한 작품을 남겼어. 유년이란 뒷골목 먼지 속에서도 세상 전체를 즐기는 순수한 시간이야.",
+    "look_for": "아이들이 각자 다른 행동을 하고 있어. 파리 서민 거리의 회색 벽과 흙바닥이 사실적이야. 빛이 아이들의 모습을 따뜻하게 감싸고 있어.",
+    "fun_fact": "바시키르체바는 화가이자 일기 작가였어. 그녀의 일기는 사후 출판되어 베스트셀러가 됐어! 23세에 세상을 떠나 '잃어버린 천재'로 불려. 이 그림은 오르세 미술관에 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Bashkirtseff_-_In_the_Studio.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "바시키르체바가 세상을 떠난 나이는?",
+      "options": [
+        "18세",
+        "23세",
+        "35세"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "독서하는 막달레나",
+    "title_original": "The Magdalen Reading",
+    "artist": "안토넬로 다 메시나",
+    "artist_original": "Antonello da Messina",
+    "year": "1475",
+    "medium": "유화",
+    "period": "르네상스",
+    "story": "오늘의 키워드는 '교육'이야. 성 막달레나가 고요한 공간에서 책을 읽으며 깊이 몰입해 있어. 15세기에 여성이 책을 읽는 모습은 교육의 가치를 상징했어. 안토넬로는 플랑드르 유화 기법을 이탈리아에 전한 선구자야. 교육이란 책 한 권으로 세상을 바꿀 수 있는 힘이야.",
+    "look_for": "막달레나가 읽는 책의 페이지가 글자가 보일 만큼 정밀해. 빛이 왼쪽에서 부드럽게 들어와 얼굴을 비춰. 섬세한 머리카락 묘사와 반투명한 피부 표현이 놀라워. 단순한 배경이 인물에 집중하게 해.",
+    "fun_fact": "안토넬로는 이탈리아에 유화 기법을 전파한 사람으로 여겨져. 플랑드르 기법을 배워와 이탈리아 미술에 혁명을 일으켰어. 현재 여러 미술관에 조각으로 나뉘어 있는 제단화의 일부였을 거야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Antonello_da_Messina_-_Virgin_Annunciate_-_Galleria_Regionale_della_Sicilia,_Palermo.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "안토넬로 다 메시나가 이탈리아에 전한 기법은?",
+      "options": [
+        "프레스코 기법",
+        "유화 기법",
+        "수채화 기법"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "title": "책 읽는 소녀",
+    "title_original": "The Reader",
+    "artist": "카미유 코로",
+    "artist_original": "Jean-Baptiste-Camille Corot",
+    "year": "1868",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "오늘의 키워드는 '독서'야. 소녀가 풀밭에 앉아 책에 몰입하고 있어. 코로는 풍경화의 대가이지만 인물화에서도 놀라운 깊이를 보여줘. 나무와 풀의 부드러운 초록빛 속에서 읽는 소녀의 모습이 평화로워. 독서란 자연처럼 고요한 시간 속에서 마음을 가꾸는 일이야.",
+    "look_for": "소녀가 한 손으로 턱을 괴고 책을 보고 있어. 코로 특유의 은빛 녹색 톤이 배경을 감싸. 빛이 소녀의 어깨와 책 위에 집중돼 있어. 부드러운 붓질이 몽환적인 분위기를 만들어.",
+    "fun_fact": "코로는 인상주의의 선구자로 불려 — 모네와 피사로가 그를 존경했어. 평생 독신으로 살며 300점 이상의 그림을 자선 목적으로 기부했대. '자연 앞에서는 항상 겸손해야 한다'고 했어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste-Camille_Corot_-_The_Reader_-_WGA05291.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "코로가 선구자로 영향을 준 미술 운동은?",
+      "options": [
+        "바로크",
+        "인상주의",
+        "초현실주의"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "서신을 쓰는 학자",
+    "title_original": "A Scholar Sharpening His Quill",
+    "artist": "헤리트 다우",
+    "artist_original": "Gerrit Dou",
+    "year": "1630",
+    "medium": "유화",
+    "period": "네덜란드 황금시대",
+    "story": "오늘의 키워드는 '작문'이야. 창가에서 학자가 깃털펜을 깎으며 글 쓸 준비를 하고 있어. 촛불과 창빛이 작은 서재를 비춰. 다우는 렘브란트의 첫 번째 제자로 초정밀 세밀화의 대가야. 작문이란 도구를 준비하고, 생각을 가다듬고, 한 글자 한 글자 정성스럽게 적는 과정이야.",
+    "look_for": "깃털펜의 깃이 한 올 한 올 보여 — 놀라운 세밀함이야. 책상 위 두꺼운 책, 잉크병, 안경이 학자의 도구야. 창에서 들어오는 빛이 학자의 얼굴 반쪽만 비추는 명암법이 보여.",
+    "fun_fact": "다우는 그림 하나를 완성하는 데 몇 주에서 몇 달이 걸렸대. 먼지가 그림에 앉을까 봐 작업실 문을 천으로 덮었어! 당시 네덜란드에서 가장 비싼 화가 중 한 명이었어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gerrit_Dou_-_Scholar_sharpening_a_quill_pen.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "헤리트 다우는 누구의 첫 번째 제자였을까?",
+      "options": [
+        "베르메르",
+        "렘브란트",
+        "루벤스"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "자화상",
+    "title_original": "Self-Portrait with Beret",
+    "artist": "엘리자베트 비제 르 브룅",
+    "artist_original": "Élisabeth Vigée Le Brun",
+    "year": "1790",
+    "medium": "유화",
+    "period": "신고전주의",
+    "story": "오늘의 키워드는 '미술'이야. 비제 르 브룅이 팔레트와 붓을 든 채 자신의 모습을 그렸어. 마리 앙투아네트의 전속 화가였던 그녀는 프랑스 혁명 때 유럽 전역을 여행하며 660점 이상의 초상화를 남겼어. 미술이란 자기 자신을 담는 거울이기도 해.",
+    "look_for": "자신감 넘치는 미소와 당당한 자세를 봐. 팔레트와 붓을 들고 있어 — 화가로서의 정체성을 보여줘. 검은 베레모와 흰 리본이 세련돼. 배경이 단순해서 인물에 집중하게 돼.",
+    "fun_fact": "비제 르 브룅은 마리 앙투아네트의 초상화를 30점 이상 그렸어. 혁명 때 아이를 데리고 밤에 몰래 파리를 탈출했대! 유럽 각국 궁정에서 환영받으며 78세까지 살았어. 우피치 미술관에 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Self-portrait_in_a_Straw_Hat_by_Elisabeth-Louise_Vig%C3%A9e-Lebrun.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "비제 르 브룅이 전속 화가였던 왕비는?",
+      "options": [
+        "빅토리아 여왕",
+        "마리 앙투아네트",
+        "엘리자베스 1세"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "플라멩코 무용수",
+    "title_original": "A Spanish Girl",
+    "artist": "로버트 앙리",
+    "artist_original": "Robert Henri",
+    "year": "1908",
+    "medium": "유화",
+    "period": "애쉬캔 화파",
+    "story": "오늘의 키워드는 '무용'이야. 스페인 무용수가 당당한 포즈를 취하고 있어. 앙리는 미국 '애쉬캔 화파'의 지도자로, 살아 있는 사람의 생동감을 포착하는 데 뛰어났어. 무용수의 강렬한 눈빛과 자세에서 춤의 열정이 느껴져.",
+    "look_for": "무용수의 강렬한 눈빛과 자신감 넘치는 자세를 봐. 어두운 배경에서 무용수의 얼굴과 의상이 빛나. 빠르고 자유로운 붓질이 생동감을 전해.",
+    "fun_fact": "앙리는 '예술의 정신'이란 책을 써서 수많은 미국 화가에게 영향을 줬어. 에드워드 호퍼도 그의 제자야! 미국 현대미술의 기초를 놓은 교육자이기도 해.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Robert_Henri_-_Spanish_Girl_of_Segovia_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "로버트 앙리가 이끈 미술 운동은?",
+      "options": [
+        "인상주의",
+        "애쉬캔 화파",
+        "큐비즘"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "title": "배우 사라 베르나르",
+    "title_original": "Sarah Bernhardt",
+    "artist": "조르주 클랭",
+    "artist_original": "Georges Clairin",
+    "year": "1876",
+    "medium": "유화",
+    "period": "아카데미즘",
+    "story": "오늘의 키워드는 '연극'이야. 전설적인 프랑스 여배우 사라 베르나르가 화려한 소파 위에 누워 있어. '신성한 사라'로 불린 그녀는 19세기 최고의 연극 배우였어. 클랭은 그녀의 친구이자 전속 화가였지. 연극이란 한 사람이 무대 위에서 수천 명의 감정을 움직이는 마법이야.",
+    "look_for": "사라가 러시안 보르조이 개와 함께 있어. 하얀 드레스와 풍성한 머리카락이 인상적이야. 이국적인 직물과 쿠션이 그녀의 화려한 취향을 보여줘. 자신감 넘치는 포즈에서 스타의 카리스마가 느껴져.",
+    "fun_fact": "사라 베르나르는 최초의 세계적 슈퍼스타였어. 영화에도 출연한 최초의 유명 배우 중 한 명이야. 70대에 다리를 절단한 후에도 무대에 계속 섰어! 클랭은 이 초상화로 살롱전에서 큰 성공을 거뒀어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Georges_Clairin_-_Portrait_of_Sarah_Bernhardt.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "사라 베르나르는 어떤 예술 분야의 스타였을까?",
+      "options": [
+        "오페라",
+        "연극",
+        "발레"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "비, 증기, 속도",
+    "title_original": "Rain, Steam and Speed",
+    "artist": "조지프 말로드 윌리엄 터너",
+    "artist_original": "J.M.W. Turner",
+    "year": "1844",
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "오늘의 키워드는 '영화'야. 기차가 폭풍우 속을 질주하고 있어! 비, 증기, 속도가 뒤엉켜 형체를 알아보기 어려울 정도야. 터너는 영화보다 50년 먼저 '움직임과 속도'를 화폭에 담았어. 기계의 힘이 자연을 뚫고 달리는 장면은 마치 영화의 한 장면 같아.",
+    "look_for": "기차는 화면 중앙을 향해 돌진해. 비와 안개가 다리와 강을 흐릿하게 만들어. 왼쪽에 작은 보트가 있고, 기차 앞에 토끼 한 마리가 달리고 있어 — 찾을 수 있겠어?",
+    "fun_fact": "터너는 기차 창밖으로 머리를 10분간 내밀어 비바람을 직접 체험했다는 전설이 있어! 추상화의 선구자로 모네에게 큰 영향을 줬어. 런던 내셔널 갤러리에 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "그림 속 기차 앞에서 달리고 있는 동물은?",
+      "options": [
+        "개",
+        "토끼",
+        "여우"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "달밤의 드네프르 강",
+    "title_original": "Moonlight Night on the Dnieper",
+    "artist": "아르힙 쿠인지",
+    "artist_original": "Arkhip Kuindzhi",
+    "year": "1880",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "오늘의 키워드는 '사진'이야. 이 그림은 사진처럼 실제 달빛을 재현했어. 드네프르 강 위에 달빛이 반사되는데, 처음 본 사람들은 캔버스 뒤에 램프가 있는 줄 알았대! 쿠인지는 빛의 물리학을 연구해서 실제 발광하는 것 같은 효과를 냈어. 사진이 할 수 없는 것을 그림으로 해낸 거야.",
+    "look_for": "달과 강물의 초록빛 반사에 집중해 봐 — 정말 빛나는 것처럼 보여. 하늘의 구름 사이로 달빛이 스며드는 방식이 놀라워. 어두운 강둑과 빛나는 물의 대비가 극적이야.",
+    "fun_fact": "쿠인지는 이 그림 단 한 점만으로 전시회를 열었어 — 방을 완전히 어둡게 하고 그림에만 스포트라이트를 비췄어. 관객들이 진짜 달빛인 줄 알고 캔버스 뒤를 확인했대! 러시아 최초의 '설치 미술'이었던 셈이야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kuindzhi-Moonlight_night_on_the_Dnieper-1880.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "쿠인지의 전시회에서 특별했던 점은?",
+      "options": [
+        "100점을 동시에 전시했다",
+        "이 그림 한 점만 어두운 방에 전시했다",
+        "야외에서 전시했다"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "title": "체스 두는 사람들",
+    "title_original": "The Chess Game",
+    "artist": "소포니스바 안귀솔라",
+    "artist_original": "Sofonisba Anguissola",
+    "year": "1555",
+    "medium": "유화",
+    "period": "르네상스",
+    "story": "오늘의 키워드는 '게임'이야. 세 자매가 체스를 두고 있고, 하녀가 지켜보고 있어. 안귀솔라는 르네상스 시대 최초의 성공한 여성 화가 중 한 명이야! 체스는 단순한 놀이가 아니라 지략과 전략의 게임이지. 자매들의 활기찬 표정에서 게임의 즐거움이 느껴져.",
+    "look_for": "이기고 있는 언니의 자신만만한 미소와, 지고 있는 동생의 당황한 표정이 대비돼. 가장 어린 아이가 옆에서 구경하며 웃고 있어. 체스판 위 말의 배치가 실제 게임처럼 정확해. 배경의 풍경이 밝고 평화로워.",
+    "fun_fact": "안귀솔라는 미켈란젤로에게 편지를 보내 그림 조언을 구했고, 미켈란젤로가 실제로 답장했어! 스페인 필리페 2세의 궁정 화가가 됐어. 이 그림은 폴란드 포즈난 국립미술관에 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sofonisba_Anguissola_-_Portrait_of_the_Artist%27s_Sisters_Playing_Chess_-_WGA00697.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "소포니스바 안귀솔라의 특별한 점은?",
+      "options": [
+        "최초의 남성 화가",
+        "르네상스 최초의 성공한 여성 화가 중 한 명",
+        "왕족 출신 화가"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "title": "전보 배달부",
+    "title_original": "The Automaton",
+    "artist": "조반니 벨리니",
+    "artist_original": "Giovanni Bellini",
+    "year": "1490",
+    "medium": "유화",
+    "period": "르네상스",
+    "story": "오늘의 키워드는 '로봇'이야. 벨리니의 성모자 그림에서 아기 예수가 마치 정교한 인형처럼 완벽한 포즈를 취하고 있어. 르네상스 시대에도 사람들은 '자동인형(오토마톤)'을 만들어 — 로봇의 조상이야. 벨리니는 인체를 놀라운 정밀함으로 묘사해서 마치 살아 움직이는 기계 같은 느낌을 줬어.",
+    "look_for": "아기 예수의 피부가 마치 도자기처럼 매끈하게 표현돼 있어. 성모의 파란 옷이 베네치아 특유의 풍부한 색감이야. 배경의 풍경이 섬세하고 멀리까지 펼쳐져 있어. 황금빛 후광이 부드럽게 빛나.",
+    "fun_fact": "벨리니는 베네치아 화파의 아버지야. 티치아노와 조르조네의 스승이었어! 80세까지 살면서 베네치아 미술을 혁신했어. 유화 기법을 베네치아에 도입해 색채 혁명을 일으켰어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Giovanni_Bellini_-_Madonna_with_Child_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "조반니 벨리니는 어느 도시 화파의 아버지로 불릴까?",
+      "options": [
+        "피렌체",
+        "베네치아",
+        "로마"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "낙원",
+    "title_original": "Paradise",
+    "artist": "루카스 크라나흐",
+    "artist_original": "Lucas Cranach the Elder",
+    "year": "1530",
+    "medium": "유화",
+    "period": "북방 르네상스",
+    "story": "오늘의 키워드는 '인공'이야. 에덴동산의 아담과 이브가 자연 속에서 동물들과 어울려 있어. 인공적인 문명 이전의 순수한 '자연 상태'를 그렸어. 크라나흐는 독일 종교개혁의 화가로 루터의 친구였어. 인공과 자연 중 무엇이 진짜 낙원일까?",
+    "look_for": "다양한 동물이 평화롭게 공존해 — 사자와 사슴이 나란히 있어. 아담과 이브가 선악과 나무 아래 서 있어. 크라나흐 특유의 날씬한 인체 비율이 독특해.",
+    "fun_fact": "크라나흐는 마르틴 루터의 초상화를 여러 점 그린 절친이었어. 비텐베르크에서 인쇄소와 약국도 운영한 사업가이기도 했어! 빈 미술사 박물관에 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Adam_and_Eve-Paradise_-_Kunsthistorisches_Museum.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "크라나흐의 친구였던 종교개혁가는?",
+      "options": [
+        "칼뱅",
+        "루터",
+        "츠빙글리"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "서재의 성 아우구스티누스",
+    "title_original": "Saint Augustine in His Study",
+    "artist": "비토레 카르파초",
+    "artist_original": "Vittore Carpaccio",
+    "year": "1502",
+    "medium": "유화",
+    "period": "르네상스",
+    "story": "오늘의 키워드는 '정보'야. 성 아우구스티누스가 책과 악기가 가득한 서재에서 글을 쓰고 있어. 카르파초는 베네치아의 이야기꾼 화가야. 정보란 지식을 모으고 정리하고 전달하는 과정이야 — 이 서재는 지식의 보고야.",
+    "look_for": "서재에 책, 조개, 지구본, 악기가 빼곡해. 빛이 창에서 들어와 책상을 비춰. 작은 강아지가 주인을 올려다보고 있어. 원근법이 정밀해.",
+    "fun_fact": "카르파초는 베네치아의 일상과 축제를 연작으로 그린 것으로 유명해. 이탈리아 요리 '카르파초'는 그의 그림에서 자주 보이는 붉은 색감에서 이름을 따왔대! 베네치아에 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vittore_Carpaccio_-_Vision_of_St_Augustine_-_WGA04324.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이탈리아 요리 '카르파초'의 이름은 어디서 유래했을까?",
+      "options": [
+        "지역 이름",
+        "이 화가의 그림 색감",
+        "재료 이름"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "자수 놓는 여인",
+    "title_original": "The Embroiderer",
+    "artist": "게오르크 프리드리히 케르스팅",
+    "artist_original": "Georg Friedrich Kersting",
+    "year": "1812",
+    "medium": "유화",
+    "period": "비더마이어",
+    "story": "오늘의 키워드는 '코딩'이야. 여인이 창가에서 자수를 놓고 있어 — 바늘과 실로 패턴을 '프로그래밍'하는 거야. 자수의 한 땀 한 땀은 코드의 한 줄 한 줄과 같아 — 하나의 실수가 전체 패턴을 바꿔. 케르스팅은 독일 비더마이어 시대의 조용한 실내 풍경 전문가야.",
+    "look_for": "창에서 들어오는 밝은 빛이 여인의 작업대를 비춰. 방 안의 소박한 가구와 화분이 일상의 평화를 전해. 바느질 바구니의 실과 도구가 정밀하게 묘사돼 있어.",
+    "fun_fact": "케르스팅은 카스파르 다비트 프리드리히의 친구이자 그의 초상화를 그린 화가야. 조용한 실내 풍경을 전문으로 해서 '독일의 베르메르'라 불려. 나폴레옹 전쟁에 자원입대해 전투에도 참여했어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Kersting_-_The_Embroiderer_-_WGA12122.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "케르스팅의 친구이자 독일 낭만주의 화가는?",
+      "options": [
+        "고야",
+        "카스파르 다비트 프리드리히",
+        "들라크루아"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "title": "편지",
+    "title_original": "The Letter",
+    "artist": "피에르 보나르",
+    "artist_original": "Pierre Bonnard",
+    "year": "1906",
+    "medium": "유화",
+    "period": "나비파",
+    "story": "오늘의 키워드는 '서신'이야. 여인이 테이블에 앉아 편지를 읽고 있어. 보나르는 일상의 친밀한 순간을 따뜻한 색채로 담아냈어. 편지란 마음을 담아 보내는 가장 오래된 소통 방식이야. 오늘날 메시지와 달리, 편지에는 기다림의 설렘과 종이의 온기가 있어.",
+    "look_for": "보나르 특유의 노란빛 따뜻한 색조가 방 전체를 감싸. 편지를 읽는 여인의 집중한 표정이 인상적이야. 테이블 위 과일과 꽃이 생활의 아름다움을 더해. 빛이 부드럽게 퍼져 있어.",
+    "fun_fact": "보나르는 '나비파' 그룹의 일원으로, 일본 판화의 영향을 많이 받았어. 사진에도 관심이 많아 코닥 카메라로 일상을 찍었지. 색채의 마법사로 불리며 '눈을 즐겁게 하는 것이 가장 중요하다'고 했어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pierre_Bonnard_-_Two_Dogs_in_a_Deserted_Street.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "피에르 보나르가 속한 미술 그룹은?",
+      "options": [
+        "야수파",
+        "나비파",
+        "큐비즘"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "신문 읽는 남자",
+    "title_original": "The Newspaper Reader",
+    "artist": "칼 슈피츠베그",
+    "artist_original": "Carl Spitzweg",
+    "year": "1845",
+    "medium": "유화",
+    "period": "비더마이어",
+    "story": "오늘의 키워드는 '방송'이야. 한 남자가 좁은 다락방에서 신문을 읽고 있어. TV와 라디오가 없던 시대, 신문이 유일한 '방송 매체'였어. 슈피츠베그는 독일 비더마이어 시대의 소시민 생활을 유머와 따뜻함으로 그린 화가야.",
+    "look_for": "좁은 다락방의 경사진 천장이 아늑한 분위기를 만들어. 창에서 들어오는 빛이 신문 위를 비춰. 화분과 새장이 소시민의 소박한 취미를 보여줘. 책과 물건들이 가득한 방이 개성적이야.",
+    "fun_fact": "슈피츠베그는 원래 약사였는데 독학으로 화가가 됐어! '가난한 시인' 등 소시민의 일상을 유머러스하게 그려 독일에서 가장 인기 있는 화가 중 한 명이야. 뮌헨 노이에 피나코텍에 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Carl_Spitzweg_-_The_Bookworm_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "슈피츠베그의 원래 직업은?",
+      "options": [
+        "교사",
+        "약사",
+        "목수"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "물랭 루주 포스터",
+    "title_original": "Moulin Rouge: La Goulue",
+    "artist": "앙리 드 툴루즈로트레크",
+    "artist_original": "Henri de Toulouse-Lautrec",
+    "year": "1891",
+    "medium": "석판 포스터",
+    "period": "아르누보",
+    "story": "오늘의 키워드는 '광고'야. 파리 캬바레 물랭 루주의 광고 포스터야. 로트레크는 미술을 '광고'에 접목한 선구자야. 댄서 라 굴뤼가 캉캉 춤을 추고, 앞에 길쭉한 실루엣의 인물이 서 있어. 대담한 윤곽선과 평면적 색채가 눈에 확 들어와 — 현대 광고 디자인의 시작이야.",
+    "look_for": "회색 실루엣의 남자가 앞에 크게 배치돼 있어. 뒤에서 추는 라 굴뤼의 흰 속치마가 눈길을 끌어. 글씨체도 그림의 일부야. 일본 판화의 영향이 느껴지는 평면적 구성이야.",
+    "fun_fact": "로트레크는 귀족 출신이지만 어린 시절 두 번의 다리 골절로 성장이 멈춰 키가 152cm에 머물렀어. 몽마르트의 밤 문화를 사랑해 캬바레 포스터를 수없이 만들었어. 현대 그래픽 디자인의 아버지로 불려.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Toulouse-Lautrec_-_Moulin_Rouge_-_La_Goulue.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 포스터가 광고하는 장소는?",
+      "options": [
+        "오페라 극장",
+        "물랭 루주 캬바레",
+        "루브르 박물관"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "대사들",
+    "title_original": "The Ambassadors",
+    "artist": "한스 홀바인 2세",
+    "artist_original": "Hans Holbein the Younger",
+    "year": "1533",
+    "medium": "유화",
+    "period": "북방 르네상스",
+    "story": "오늘의 키워드는 '상표'야. 두 대사가 화려한 물건들 사이에 서 있어. 지구본, 악기, 책 — 모두 그들의 지위와 교양의 '상표'야. 바닥에 찌그러진 물체가 있는데, 비스듬히 보면 해골이야! 화려한 '상표' 뒤에 죽음이 숨어 있어.",
+    "look_for": "바닥의 찌그러진 타원형을 옆에서 비스듬히 봐 — 해골이 보여! 이것을 '아나모르포시스'라 해. 선반 위 물건 하나하나가 과학, 예술, 종교를 상징해.",
+    "fun_fact": "바닥의 해골은 오른쪽 아래에서 비스듬히 봐야 제대로 보여. 류트의 끊어진 줄은 유럽의 종교적 갈등을 상징해. 런던 내셔널 갤러리에서 가장 유명한 작품 중 하나야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "바닥의 찌그러진 물체를 비스듬히 보면 무엇이 보일까?",
+      "options": [
+        "꽃",
+        "해골",
+        "왕관"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "빨강과 파랑의 대위법",
+    "title_original": "Counter-Composition V",
+    "artist": "테오 판 두스뷔르흐",
+    "artist_original": "Theo van Doesburg",
+    "year": "1924",
+    "medium": "유화",
+    "period": "데 스테일",
+    "story": "오늘의 키워드는 '설계'야. 판 두스뷔르흐는 데 스테일 운동의 공동 창시자야. 몬드리안이 수직과 수평만 쓴 반면, 판 두스뷔르흐는 대각선을 도입해 더 역동적인 구성을 만들었어. 설계란 규칙을 세우되, 때로는 새로운 규칙에 도전하는 것이야.",
+    "look_for": "사각형들이 45도로 기울어져 있어 — 몬드리안의 직각 구성과 달라. 검은색, 빨간색, 파란색 면이 대각선으로 배치돼 역동적이야. 흰색 배경이 공간감을 줘.",
+    "fun_fact": "판 두스뷔르흐는 대각선 때문에 몬드리안과 결별했어! 두 사람은 절친이었지만 예술적 견해 차이로 갈라섰지. '데 스테일' 잡지를 창간하고 바우하우스에서도 강의했어. 47세에 요절했어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_Counter-CompositionV_(1924).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "판 두스뷔르흐가 몬드리안과 다르게 사용한 요소는?",
+      "options": [
+        "곡선",
+        "대각선",
+        "원형"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "키케로와 아르키메데스의 무덤",
+    "title_original": "Cicero Discovering the Tomb of Archimedes",
+    "artist": "피에르 앙리 드 발랑시엔",
+    "artist_original": "Pierre-Henri de Valenciennes",
+    "year": "1787",
+    "medium": "유화",
+    "period": "신고전주의",
+    "story": "오늘의 키워드는 '발표'야. 로마의 정치가 키케로가 아르키메데스의 잊혀진 무덤을 발견하는 장면이야. 수백 년 잊혀진 천재의 무덤을 세상에 '발표'하는 순간의 감격이 느껴져. 발랑시엔은 풍경화의 이론을 체계화한 프랑스 화가야.",
+    "look_for": "키케로가 팔을 뻗어 무덤을 가리키고 있어. 시칠리아의 자연 속에 숨겨진 유적이 보여. 신고전주의 특유의 장엄한 구도와 이상적 풍경이야.",
+    "fun_fact": "발랑시엔은 야외 유화 스케치의 선구자야 — 인상주의보다 100년 앞서 야외에서 직접 그렸어! '풍경화 원론'이란 책을 써서 코로 등 후대 화가에게 큰 영향을 줬어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pierre-Henri_de_Valenciennes_-_Cicero_Discovering_the_Tomb_of_Archimedes.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "발랑시엔이 선구자적으로 시도한 것은?",
+      "options": [
+        "추상화",
+        "야외 유화 스케치",
+        "사진 촬영"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "title": "임종의 소크라테스",
+    "title_original": "The Death of Socrates",
+    "artist": "지아쿼이사르 드 퀸시",
+    "artist_original": "Giambettino Cignaroli",
+    "year": "1759",
+    "medium": "유화",
+    "period": "신고전주의",
+    "story": "오늘의 키워드는 '면접'이야. 소크라테스가 독배를 마시기 직전, 제자들 앞에서 마지막 가르침을 전하고 있어. 치냐롤리는 이탈리아 베로나의 화가로 고전적 주제를 장엄하게 그렸어. 인생 최후의 '면접' 앞에서 소크라테스는 전혀 두려워하지 않아.",
+    "look_for": "소크라테스가 당당하게 앉아 제자들에게 말하고 있어. 제자들은 슬퍼하며 눈물을 흘려. 독배를 든 시종이 옆에 서 있어. 신고전주의 특유의 이상적 인체 묘사가 보여.",
+    "fun_fact": "소크라테스는 아테네 법정에서 사형 선고를 받고 독당근 즙을 마셨어. 도망칠 수 있었지만 '법을 어기는 것은 옳지 않다'며 거부했지. 소크라테스의 죽음은 서양 철학의 가장 극적인 순간이야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Giambettino_Cignaroli_-_The_Death_of_Socrates.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "소크라테스가 마시려는 것은?",
+      "options": [
+        "와인",
+        "독배(독당근 즙)",
+        "물"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-26",
+    "title": "무도회",
+    "title_original": "The Ball Supper",
+    "artist": "아돌프 폰 멘첼",
+    "artist_original": "Adolph von Menzel",
+    "year": "1878",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "오늘의 키워드는 '환희'야. 화려한 궁정 무도회에서 사람들이 춤추고 대화하며 즐기고 있어. 샹들리에 불빛이 금빛으로 반짝여. 멘첼은 독일 사실주의의 거장으로, 수천 개의 빛의 반사를 놀라운 정밀함으로 그렸어.",
+    "look_for": "샹들리에와 거울에 반사되는 빛이 수백 개의 반짝임을 만들어. 다양한 인물들의 표정이 생동감 있어. 여성들의 드레스 색이 화려하게 어우러져.",
+    "fun_fact": "멘첼은 170cm도 안 되는 작은 체구였지만 엄청난 관찰력을 가졌어. 항상 스케치북을 들고 다녔어. 프로이센의 프리드리히 대왕을 주제로 한 역사화로도 유명해. 베를린 국립미술관에 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Adolph_Menzel_-_Ballsouper_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "멘첼이 주로 활동한 나라는?",
+      "options": [
+        "프랑스",
+        "독일",
+        "오스트리아"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-27",
+    "title": "귀향",
+    "title_original": "Home Again",
+    "artist": "알마타데마",
+    "artist_original": "Lawrence Alma-Tadema",
+    "year": "1887",
+    "medium": "유화",
+    "period": "아카데미즘",
+    "story": "오늘의 키워드는 '감동'이야. 고대 로마의 대리석 테라스에서 가족이 재회하는 따뜻한 순간을 그렸어. 알마타데마는 고대 세계를 놀라울 만큼 사실적으로 재현한 화가야. 오랜 기다림 끝에 만나는 기쁨 — 이것이야말로 진정한 감동이야.",
+    "look_for": "대리석 질감이 사진처럼 사실적이야. 지중해의 파란 바다가 배경에 펼쳐져 있어. 꽃과 과일이 풍요로움을 상징해. 인물들의 표정에서 재회의 기쁨이 느껴져.",
+    "fun_fact": "알마타데마는 네덜란드 출신으로 런던에서 활동했어. 대리석 질감을 그리는 데 천재적이어서 '대리석의 화가'로 불렸어. 할리우드 영화 '벤허'와 '글래디에이터'의 세트 디자인이 그의 그림에서 영감을 받았어!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alma_Tadema_A_Favourite_Custom.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "알마타데마가 특히 잘 표현한 재질은?",
+      "options": [
+        "나무",
+        "대리석",
+        "천"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "title": "악몽",
+    "title_original": "The Nightmare",
+    "artist": "요한 하인리히 퓌슬리",
+    "artist_original": "Henry Fuseli",
+    "year": "1781",
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "오늘의 키워드는 '영감'이야. 잠든 여인의 가슴 위에 악마가 앉아 있고, 뒤에서 유령 같은 말이 커튼 사이로 얼굴을 내밀어. 퓌슬리는 꿈과 무의식의 세계에서 영감을 받았어. 무서운 꿈마저도 예술의 영감이 될 수 있어. 이 그림은 프로이트가 '무의식'을 연구하기 100년 전에 그려졌어!",
+    "look_for": "여인이 뒤로 축 늘어진 자세가 무방비 상태를 보여줘. 가슴 위 악마의 작은 몸이 압박감을 줘. 말의 하얀 눈이 초자연적 공포를 만들어. 전체적으로 어두운 색조지만 여인의 흰 드레스가 빛나.",
+    "fun_fact": "이 그림은 너무 유명해져서 당시 수많은 패러디가 만들어졌어. 퓌슬리는 스위스 출신으로 런던에서 활동했어. 영어 이름이 '헨리 퓨슬리'야. 이 그림은 프로이트 박물관에도 걸려 있었대! 디트로이트 미술관에 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John_Henry_Fuseli_-_The_Nightmare.JPG",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "잠든 여인의 가슴 위에 앉아 있는 것은?",
+      "options": [
+        "고양이",
+        "악마(인큐버스)",
+        "아기 천사"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-29",
+    "title": "생각하는 사람",
+    "title_original": "The Thinker",
+    "artist": "오귀스트 로댕",
+    "artist_original": "Auguste Rodin",
+    "year": "1904",
+    "medium": "청동 조각",
+    "period": "근대 조각",
+    "story": "오늘의 키워드는 '성찰'이야. 근육질의 남성이 턱을 괴고 깊은 생각에 잠겨 있어. 원래 로댕의 대작 '지옥의 문' 꼭대기에 앉아 아래의 지옥을 내려다보는 단테였어. 성찰이란 자기 자신과 세상을 깊이 들여다보는 거야 — 인류 역사상 '생각함'의 가장 유명한 이미지야.",
+    "look_for": "오른팔 팔꿈치가 왼쪽 무릎 위에 놓여 있어 — 몸이 꼬인 자세가 내면의 갈등을 표현해. 근육의 긴장감이 생각의 무게를 느끼게 해. 발가락이 바닥을 움켜쥐고 있어.",
+    "fun_fact": "세계 곳곳에 약 28개의 청동 복제본이 있어! 원래 이름은 '시인'이었어 — 단테를 묘사한 거거든. 로댕은 '대리석에서 살아있는 것을 꺼내는 것'이 조각이라고 했어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Rodin_1.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "생각하는 사람이 원래 속해 있던 작품은?",
+      "options": [
+        "칼레의 시민",
+        "지옥의 문",
+        "입맞춤"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-11-30",
+    "title": "인왕제색도",
+    "title_original": "After Rain at Inwangsan",
+    "artist": "겸재 정선",
+    "artist_original": "Jeong Seon",
+    "year": "1751",
+    "medium": "수묵화",
+    "period": "조선 후기",
+    "story": "오늘의 키워드는 '목표'야. 비 갠 뒤 인왕산의 바위가 먹빛으로 빛나고 있어. 겸재 정선은 중국 산수화를 답습하지 않고 조선의 실제 산천을 직접 보고 그린 선구자야 — '진경산수화'의 창시자야. 자기만의 길을 가는 것, 그것이 진정한 목표야.",
+    "look_for": "거침없는 먹의 농담이 바위의 질감을 살려. 바위는 세로 붓질로, 나무는 점을 찍어 표현했어. 구도가 대담하고 힘이 넘쳐. 한국 전통 산수화의 정수야.",
+    "fun_fact": "정선은 80세가 넘도록 그림을 그렸어 — 금강산을 직접 여행하며 수십 점의 명작을 남겼지. '진경'이란 '진짜 풍경'이라는 뜻이야. 한국 미술사의 가장 위대한 화가 중 한 명이야. 국보 제216호야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Inwangjesaekdo.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "겸재 정선이 창시한 화풍은?",
+      "options": [
+        "문인화",
+        "진경산수화",
+        "민화"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "title": "바이올린 연습",
+    "title_original": "The Zither Player",
+    "artist": "프란츠 폰 데프레거",
+    "artist_original": "Franz von Defregger",
+    "year": "1890",
+    "medium": "유화",
+    "period": "사실주의",
+    "story": "오늘의 키워드는 '연습'이야. 소녀가 진지한 표정으로 치터(현악기)를 연습하고 있어. 데프레거는 오스트리아 티롤 지방의 농민 생활을 따뜻하게 그린 화가야. 연습은 지루하지만, 한 음 한 음 쌓아가면 언젠가 아름다운 선율이 탄생해.",
+    "look_for": "소녀의 집중한 표정과 악기를 잡은 손의 자세를 봐. 따뜻한 실내 조명이 소녀의 얼굴을 부드럽게 비춰. 소박한 방의 디테일이 일상의 따뜻함을 전해.",
+    "fun_fact": "데프레거는 티롤 농민의 아들로 태어나 뮌헨 미술 아카데미에서 공부했어. 농민의 삶을 존엄하게 그려 오스트리아 국민 화가가 됐어. 빈과 인스브루크 미술관에서 작품을 볼 수 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Franz_von_Defregger_Zitherspielerin.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "데프레거가 주로 그린 주제는?",
+      "options": [
+        "궁정 생활",
+        "티롤 농민의 삶",
+        "해양 풍경"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "title": "다비드",
+    "title_original": "David",
+    "artist": "도나텔로",
+    "artist_original": "Donatello",
+    "year": "1440",
+    "medium": "청동 조각",
+    "period": "르네상스",
+    "story": "오늘의 키워드는 '완성'이야. 소년 다비드가 거인 골리앗의 머리를 밟고 서 있어. 르네상스 최초의 자립형 청동 누드 조각이야. 도나텔로는 고대 이후 처음으로 벌거벗은 인체 조각을 완성해냈어. 완성이란 누구도 하지 않은 것을 처음으로 이뤄내는 거야.",
+    "look_for": "소년의 모자 아래 곱슬머리가 보여. 한 손에 검, 한 발로 골리앗의 머리를 밟고 있어. 몸의 균형이 한쪽으로 기울어진 '콘트라포스토' 자세야.",
+    "fun_fact": "이 조각은 메디치 가문의 주문으로 만들어졌어. 약자가 강자를 이긴 이야기는 피렌체 공화국의 상징이었지. 피렌체 바르젤로 미술관에 있어. 미켈란젤로도 나중에 자신만의 다비드를 만들었어!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Donatello_-_David_-_Floren%C3%A7a.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 조각이 르네상스에서 최초인 이유는?",
+      "options": [
+        "최초의 대리석 조각",
+        "고대 이후 최초의 자립형 청동 누드 조각",
+        "최초의 종교 조각"
+      ],
+      "answer": 1
+    }
+  },
+  {
     "date": "2026-12-03",
     "title": "겨울의 사냥꾼",
     "title_original": "Hunters in the Snow",
