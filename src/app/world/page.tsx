@@ -11,7 +11,7 @@ import DayNavigator from "@/components/DayNavigator";
 export default function WorldPage() {
   const { user } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
     useSharedDate(role);
   const world = worlds.find((w) => w.date === date) || null;
   const { done, complete } = useMission("world", world?.date || "");
@@ -56,7 +56,9 @@ export default function WorldPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="world"
+        minDate={minDate}
         maxDate={maxDate}
+        isGuest={role === "guest"}
       />
 
       {/* 나라 소개 */}

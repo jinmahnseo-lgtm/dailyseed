@@ -10,7 +10,7 @@ import DayNavigator from "@/components/DayNavigator";
 export default function WhyPage() {
   const { user } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
     useSharedDate(role);
   const why = whys.find((w) => w.date === date) || null;
   const { done, complete } = useMission("why", why?.date || "");
@@ -35,7 +35,9 @@ export default function WhyPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="why"
+        minDate={minDate}
         maxDate={maxDate}
+        isGuest={role === "guest"}
       />
 
       {/* 오늘의 질문 */}

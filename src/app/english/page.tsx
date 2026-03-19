@@ -46,7 +46,7 @@ function getSourceTitle(source: string, date: string): string {
 export default function EnglishPage() {
   const { user } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
     useSharedDate(role);
   const item = (english as EnglishItem[]).find((e) => e.date === date) || null;
   const { done, complete } = useMission("english", item?.date || "");
@@ -90,7 +90,9 @@ export default function EnglishPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="english"
+        minDate={minDate}
         maxDate={maxDate}
+        isGuest={role === "guest"}
       />
 
       {item.sentences.map((s, i) => (

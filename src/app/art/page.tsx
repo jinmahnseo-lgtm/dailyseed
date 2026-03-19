@@ -11,7 +11,7 @@ import DayNavigator from "@/components/DayNavigator";
 export default function ArtPage() {
   const { user } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
     useSharedDate(role);
   const art = arts.find((a) => a.date === date) || null;
   const { done, complete } = useMission("art", art?.date || "");
@@ -43,7 +43,9 @@ export default function ArtPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="art"
+        minDate={minDate}
         maxDate={maxDate}
+        isGuest={role === "guest"}
       />
 
       {/* 작품 정보 */}

@@ -107,7 +107,7 @@ export default function Home() {
   const router = useRouter();
   const { user, profile, loading: authLoading } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
     useSharedDate(role);
   const [missions, setMissions] = useState<Record<string, boolean>>({});
   const isLoggedIn = !!user;
@@ -288,16 +288,17 @@ export default function Home() {
                 {row.map((day, ci) => {
                   if (day === null) return <div key={ci} className="h-9" />;
                   const ds = `${calYear}-${pad2(calMonth+1)}-${pad2(day)}`;
-                  const has = themeSet.has(ds) && ds <= maxDate;
+                  const has = themeSet.has(ds) && ds >= minDate && ds <= maxDate;
                   const sel = ds === date;
                   const isTod = ds === today;
                   return (
-                    <button key={ci} disabled={!has}
-                      onClick={() => { if (has) { setDate(ds); setCalOpen(false); } }}
+                    <button key={ci} disabled={!has && !(themeSet.has(ds) && role === "guest")}
+                      onClick={() => { if (has) { setDate(ds); setCalOpen(false); } else if (themeSet.has(ds) && role === "guest") { router.push("/login"); } }}
                       className={`h-9 w-full rounded-lg text-sm font-medium transition-all relative
                         ${sel ? "bg-amber-500 text-white font-bold shadow-md"
                           : isTod ? "bg-amber-50 text-amber-600 font-bold ring-2 ring-amber-400 ring-opacity-40"
-                          : has ? "hover:bg-gray-100 text-gray-700 cursor-pointer" : "text-gray-200 cursor-default"}
+                          : has ? "hover:bg-gray-100 text-gray-700 cursor-pointer"
+                          : themeSet.has(ds) && role === "guest" ? "text-gray-400 cursor-pointer" : "text-gray-200 cursor-default"}
                         ${ci === 0 && !sel ? "text-red-400" : ""} ${ci === 6 && !sel ? "text-blue-400" : ""}
                       `}
                     >

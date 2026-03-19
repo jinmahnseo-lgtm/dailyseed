@@ -24,9 +24,9 @@ const classics = classicsRaw as ClassicItem[];
 export default function ClassicPage() {
   const { user } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
     useSharedDate(role);
-  const item = classics.find((c) => c.date === date) || classics[0];
+  const item = classics.find((c) => c.date === date) || null;
   const { done, complete } = useMission("classic", item?.date || "");
   const [answer, setAnswer] = useState("");
 
@@ -54,7 +54,9 @@ export default function ClassicPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="classic"
+        minDate={minDate}
         maxDate={maxDate}
+        isGuest={role === "guest"}
       />
 
       {/* 작품 정보 & 줄거리 */}

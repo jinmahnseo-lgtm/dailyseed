@@ -32,7 +32,7 @@ const news = newsRaw as NewsItem[];
 export default function NewsPage() {
   const { user } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
+  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
     useSharedDate(role);
   const item = news.find((n) => n.date === date) || null;
   const { done, complete } = useMission("news", item?.date || "");
@@ -70,7 +70,9 @@ export default function NewsPage() {
         onToday={goToday}
         onSelectDate={setDate}
         topicKey="news"
+        minDate={minDate}
         maxDate={maxDate}
+        isGuest={role === "guest"}
       />
 
       {!item ? (
