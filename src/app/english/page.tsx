@@ -48,7 +48,7 @@ export default function EnglishPage() {
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
     useSharedDate(role);
-  const item = (english as EnglishItem[]).find((e) => e.date === date) || (english as EnglishItem[])[0];
+  const item = (english as EnglishItem[]).find((e) => e.date === date) || null;
   const { done, complete } = useMission("english", item?.date || "");
 
   const [answers, setAnswers] = useState<Record<number, string>>({});

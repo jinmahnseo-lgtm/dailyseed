@@ -13,7 +13,7 @@ export default function ArtPage() {
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
     useSharedDate(role);
-  const art = arts.find((a) => a.date === date) || arts[0];
+  const art = arts.find((a) => a.date === date) || null;
   const { done, complete } = useMission("art", art?.date || "");
   const [review, setReview] = useState("");
   const [imgError, setImgError] = useState(false);

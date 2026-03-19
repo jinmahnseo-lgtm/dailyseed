@@ -12,7 +12,7 @@ export default function WhyPage() {
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
     useSharedDate(role);
-  const why = whys.find((w) => w.date === date) || whys[0];
+  const why = whys.find((w) => w.date === date) || null;
   const { done, complete } = useMission("why", why?.date || "");
 
   if (!why) return null;

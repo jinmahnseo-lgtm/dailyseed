@@ -13,7 +13,7 @@ export default function WorldPage() {
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
     useSharedDate(role);
-  const world = worlds.find((w) => w.date === date) || worlds[0];
+  const world = worlds.find((w) => w.date === date) || null;
   const { done, complete } = useMission("world", world?.date || "");
 
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
