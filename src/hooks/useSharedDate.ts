@@ -74,9 +74,10 @@ export function useSharedDate(role: "guest" | "user" | "admin" = "guest") {
   const theme = dateIndex >= 0 ? themes[dateIndex] : undefined;
 
   const canPrev = dateIndex > 0;
-  const canNext = dateIndex >= 0 && dateIndex < themes.length - 1 && (dateIndex + 1) < maxDay;
+  // canNext/canNext7: 테마 범위 끝이면 disabled, 접근 제한은 클릭 시 toast로 처리
+  const canNext = dateIndex >= 0 && dateIndex < themes.length - 1;
   const canPrev7 = dateIndex > 0;
-  const canNext7 = dateIndex >= 0 && dateIndex < themes.length - 1 && (dateIndex + 1) < maxDay;
+  const canNext7 = dateIndex >= 0 && dateIndex < themes.length - 1;
 
   const showToast = useCallback((msg: string) => {
     setAccessToast(msg);
