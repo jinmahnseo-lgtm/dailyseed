@@ -3,28 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import themes from "@/data/themes.json";
 
-const STORAGE_KEY = "dailyseed-selected-date";
-
-export function getToday() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-}
-
-export function formatDateShort(dateStr: string) {
-  const d = new Date(dateStr + "T00:00:00");
-  return `${d.getMonth() + 1}월 ${d.getDate()}일`;
-}
-
-export function formatDateCompact(dateStr: string) {
-  const d = new Date(dateStr + "T00:00:00");
-  return `${d.getMonth() + 1}/${d.getDate()}`;
-}
-
-export function getDayNumber(dateStr: string) {
-  const start = new Date("2026-03-16");
-  const current = new Date(dateStr);
-  return Math.floor((current.getTime() - start.getTime()) / 86400000) + 1;
-}
+const STORAGE_KEY = "dailyseed-selected-day";
 
 const ADMIN_EMAILS = ["mahn823@empal.com"];
 
@@ -44,7 +23,7 @@ export function getAccessMessage(role: "guest" | "user" | "admin"): string {
   return "";
 }
 
-/** 하위 호환용 - 기존 코드에서 minDate/maxDate 참조하는 곳 */
+/** 하위 호환용 */
 export function getDateRange(role: "guest" | "user" | "admin") {
   const maxDay = getMaxDay(role);
   const maxIdx = Math.min(maxDay - 1, themes.length - 1);
@@ -56,90 +35,103 @@ export function getMaxDate(role: "guest" | "user" | "admin") {
   return getDateRange(role).maxDate;
 }
 
+// 하위 호환용 - 사용하지 않지만 import 에러 방지
+export function getToday() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+export function formatDateShort(dateStr: string) {
+  const d = new Date(dateStr + "T00:00:00");
+  return `${d.getMonth() + 1}월 ${d.getDate()}일`;
+}
+export function formatDateCompact(dateStr: string) {
+  const d = new Date(dateStr + "T00:00:00");
+  return `${d.getMonth() + 1}/${d.getDate()}`;
+}
+export function getDayNumber(dateStr: string) {
+  const idx = themes.findIndex((t) => t.date === dateStr);
+  return idx >= 0 ? idx + 1 : 0;
+}
+
 export function useSharedDate(role: "guest" | "user" | "admin" = "guest") {
-  const [date, setDateRaw] = useState("");
-  const [today, setTodayVal] = useState("");
+  const [dayIndex, setDayIndex] = useState(-1); // -1 = not initialized
   const [accessToast, setAccessToast] = useState("");
 
+  // 초기화: localStorage에서 마지막 학습 Day 복원, 없으면 Day 1 (index 0)
   useEffect(() => {
-    const t = getToday();
-    setTodayVal(t);
-    const fallback = themes.find((th) => th.date === t) ? t : themes[0]?.date || t;
-    setDateRaw(fallback);
+    const saved = localStorage.getItem(STORAGE_KEY);
+    const savedIdx = saved ? parseInt(saved, 10) : 0;
+    // 유효 범위 확인
+    if (savedIdx >= 0 && savedIdx < themes.length) {
+      setDayIndex(savedIdx);
+    } else {
+      setDayIndex(0);
+    }
   }, []);
 
   const maxDay = getMaxDay(role);
-  const dateIndex = themes.findIndex((t) => t.date === date);
-  const dayNumber = dateIndex >= 0 ? dateIndex + 1 : 0;
-  const theme = dateIndex >= 0 ? themes[dateIndex] : undefined;
+  const dayNumber = dayIndex >= 0 ? dayIndex + 1 : 0;
+  const date = dayIndex >= 0 ? themes[dayIndex]?.date || "" : "";
+  const theme = dayIndex >= 0 ? themes[dayIndex] : undefined;
 
-  const canPrev = dateIndex > 0;
-  // canNext/canNext7: 테마 범위 끝이면 disabled, 접근 제한은 클릭 시 toast로 처리
-  const canNext = dateIndex >= 0 && dateIndex < themes.length - 1;
-  const canPrev7 = dateIndex > 0;
-  const canNext7 = dateIndex >= 0 && dateIndex < themes.length - 1;
+  const canPrev = dayIndex > 0;
+  const canNext = dayIndex >= 0 && dayIndex < themes.length - 1;
+  const canPrev7 = dayIndex > 0;
+  const canNext7 = dayIndex >= 0 && dayIndex < themes.length - 1;
 
   const showToast = useCallback((msg: string) => {
     setAccessToast(msg);
     setTimeout(() => setAccessToast(""), 3000);
   }, []);
 
+  const saveDayIndex = useCallback((idx: number) => {
+    setDayIndex(idx);
+    localStorage.setItem(STORAGE_KEY, String(idx));
+  }, []);
+
   const setDate = useCallback((d: string) => {
     const idx = themes.findIndex((t) => t.date === d);
     if (idx >= 0 && idx < maxDay) {
-      setDateRaw(d);
-      localStorage.setItem(STORAGE_KEY, d);
+      saveDayIndex(idx);
     }
-  }, [maxDay]);
+  }, [maxDay, saveDayIndex]);
 
   const goPrev = useCallback(() => {
-    if (dateIndex > 0) {
-      const nd = themes[dateIndex - 1].date;
-      setDateRaw(nd);
-      localStorage.setItem(STORAGE_KEY, nd);
-    }
-  }, [dateIndex]);
+    if (dayIndex > 0) saveDayIndex(dayIndex - 1);
+  }, [dayIndex, saveDayIndex]);
 
   const goNext = useCallback(() => {
-    if (dateIndex >= 0 && dateIndex < themes.length - 1) {
-      if (dateIndex + 1 >= maxDay) {
+    if (dayIndex >= 0 && dayIndex < themes.length - 1) {
+      if (dayIndex + 1 >= maxDay) {
         showToast(getAccessMessage(role));
         return;
       }
-      const nd = themes[dateIndex + 1].date;
-      setDateRaw(nd);
-      localStorage.setItem(STORAGE_KEY, nd);
+      saveDayIndex(dayIndex + 1);
     }
-  }, [dateIndex, maxDay, role, showToast]);
+  }, [dayIndex, maxDay, role, showToast, saveDayIndex]);
 
   const goPrev7 = useCallback(() => {
-    const targetIdx = Math.max(0, dateIndex - 7);
-    const nd = themes[targetIdx].date;
-    setDateRaw(nd);
-    localStorage.setItem(STORAGE_KEY, nd);
-  }, [dateIndex]);
+    saveDayIndex(Math.max(0, dayIndex - 7));
+  }, [dayIndex, saveDayIndex]);
 
   const goNext7 = useCallback(() => {
-    if (dateIndex >= 0) {
-      const targetIdx = Math.min(themes.length - 1, dateIndex + 7);
+    if (dayIndex >= 0) {
+      const targetIdx = Math.min(themes.length - 1, dayIndex + 7);
       if (targetIdx >= maxDay) {
         showToast(getAccessMessage(role));
         return;
       }
-      const nd = themes[targetIdx].date;
-      setDateRaw(nd);
-      localStorage.setItem(STORAGE_KEY, nd);
+      saveDayIndex(targetIdx);
     }
-  }, [dateIndex, maxDay, role, showToast]);
+  }, [dayIndex, maxDay, role, showToast, saveDayIndex]);
 
+  // goToday는 더 이상 "오늘 날짜"가 아니라 Day 1로 리셋
   const goToday = useCallback(() => {
-    const t = getToday();
-    const fallback = themes.find((th) => th.date === t) ? t : themes[0]?.date || t;
-    setDateRaw(fallback);
-    localStorage.setItem(STORAGE_KEY, fallback);
-  }, []);
+    saveDayIndex(0);
+  }, [saveDayIndex]);
 
   const { minDate, maxDate } = getDateRange(role);
+  const today = ""; // 더 이상 사용하지 않음
 
   return {
     date, today, theme, dayNumber,
