@@ -3246,5 +3246,725 @@
     "look_for": "여인의 피부가 매끄럽고 생기 있는 반면 해골은 건조하고 부서지고 있어. 해골이 여인의 머리카락을 잡아당기고 있어 — 죽음은 피할 수 없어. 배경이 어두워 두 인물이 부각돼.",
     "fun_fact": "한스 발둥은 뒤러의 제자이자 친구였어. 마녀, 죽음, 에로티시즘 등 당시로서는 파격적인 주제를 즐겨 그렸어. '그린(Grien)'은 별명으로, 초록색 옷을 즐겨 입어서 붙었대. 바젤 미술관에 있어.",
     "question": "다른 세대 사람과 이야기할 때 뭐가 달라? 세대 차이를 좁히는 방법은 뭘까?"
+  },
+  {
+    "date": "2026-12-03",
+    "title": "겨울의 사냥꾼",
+    "title_original": "Hunters in the Snow",
+    "artist": "요아힘 파티니르",
+    "artist_original": "Joachim Patinir",
+    "year": "1520",
+    "medium": "유화",
+    "period": "북유럽 르네상스",
+    "story": "파티니르는 풍경화를 독립된 장르로 확립한 선구자야. 이 작품은 광활한 풍경 속에 작은 인물들이 길을 떠나는 장면을 담고 있어. 높은 곳에서 내려다본 새의 시선(조감도)으로 그려져 있어서 세상이 무한히 넓어 보여. '출발'이라는 건 이렇게 거대한 세계를 향해 한 걸음 내딛는 거야. 파티니르는 풍경 속에 인간을 아주 작게 그려 넣어, 세상의 광대함과 인간의 겸손함을 동시에 보여줬어.",
+    "look_for": "화면을 세 부분으로 나눠서 봐 — 전경(갈색), 중경(초록), 원경(파란색). 이 색의 변화가 깊이감을 만들어. 아주 먼 곳에 있는 산과 강이 파랗게 보이는 건 '공기 원근법'이라고 해.",
+    "fun_fact": "파티니르는 알브레히트 뒤러와 친구였어. 뒤러는 그를 '좋은 풍경 화가'라고 불렀는데, 당시엔 풍경만 전문으로 그리는 화가가 거의 없었기 때문에 특별한 칭찬이었어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Joachim_Patinir_-_Landscape_with_the_Flight_into_Egypt_-_WGA17095.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "파티니르가 회화사에서 개척한 장르는?",
+      "options": [
+        "초상화",
+        "풍경화",
+        "정물화"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "title": "빛의 제국",
+    "title_original": "The Empire of Light",
+    "artist": "르네 마그리트",
+    "artist_original": "René Magritte",
+    "year": "1954",
+    "medium": "유화",
+    "period": "초현실주의",
+    "story": "낮과 밤이 동시에 존재하는 이상한 그림이야. 하늘은 밝은 낮인데, 아래는 어두운 밤이야. 마그리트는 이 '빛의 제국' 시리즈를 여러 점 그렸어. 하나의 장면을 아름답게 '마무리'하듯, 낮과 밤이라는 두 시간이 한 화면에서 완벽하게 마무리돼. 현실에서는 불가능하지만, 그림 속에서는 이상하게 평화로워 보여.",
+    "look_for": "가로등 불빛이 물에 반사되는 모습을 봐. 밤의 어둠 속에서도 빛은 존재해. 하늘의 구름은 분명 낮인데, 우리 눈은 이 모순을 자연스럽게 받아들여. 마그리트는 이런 '익숙한 것의 낯설게 하기'를 즐겼어.",
+    "fun_fact": "마그리트는 이 주제를 너무 좋아해서 16점 이상의 버전을 그렸어. 2022년 경매에서 한 버전이 약 900억 원에 팔렸대! 그는 '그림은 보이는 것이 아니라 생각하게 만드는 것'이라고 했어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Magritte_TheSonOfMan.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "마그리트의 '빛의 제국'에서 동시에 나타나는 것은?",
+      "options": [
+        "봄과 가을",
+        "낮과 밤",
+        "과거와 미래"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-05",
+    "title": "사계절 연작 — 겨울",
+    "title_original": "The Seasons – Winter",
+    "artist": "니콜라 랑크레",
+    "artist_original": "Nicolas Lancret",
+    "year": "1738",
+    "medium": "유화",
+    "period": "로코코",
+    "story": "랑크레는 사계절을 각각 한 점의 그림으로 그렸어. 겨울 풍경 속 사람들이 스케이트를 타고 즐기는 모습이야. 계절은 끝없이 순환해 — 봄이 오면 여름이 오고, 가을이 지나면 겨울이 와. 그리고 다시 봄이 돌아와. 이 '순환'의 아름다움을 랑크레는 우아하고 경쾌한 로코코 스타일로 표현했어.",
+    "look_for": "인물들의 옷차림을 봐 — 화려한 18세기 귀족 복장이야. 추운 겨울인데도 즐거운 표정이야. 나무는 앙상하지만 사람들은 생기가 넘쳐. 겨울이 끝이 아니라 또 다른 시작이라는 걸 보여줘.",
+    "fun_fact": "랑크레는 앙투안 와토의 제자였어. '페트 갈랑트(우아한 축제)'라는 장르를 이어받아, 귀족들의 야외 놀이 장면을 많이 그렸어. 프랑스 혁명 전 귀족 문화의 마지막 화려함을 기록한 셈이야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nicolas_Lancret_-_Winter_-_WGA12424.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "랑크레가 속한 미술 사조는?",
+      "options": [
+        "바로크",
+        "로코코",
+        "신고전주의"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-06",
+    "title": "별이 빛나는 나일강",
+    "title_original": "Starry Night on the Rhône",
+    "artist": "이반 아이바좁스키",
+    "artist_original": "Ivan Aivazovsky",
+    "year": "1880",
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "아이바좁스키는 바다와 물을 6000점 넘게 그린 '바다의 화가'야. 이 작품은 달빛 아래 잔잔한 바다를 보여줘. 물 위에 반짝이는 달빛은 마치 영원히 사라지지 않을 것 같아. 바다는 수천 년 전이나 지금이나 같은 모습으로 파도치고 있어 — 자연의 '영원'을 보여주는 거야.",
+    "look_for": "달빛이 수면에 반사되어 만드는 빛의 길을 봐. 아이바좁스키는 물 위의 빛을 표현하는 데 천재적이었어. 투명한 파도 속으로 빛이 스며드는 효과를 잘 살펴봐.",
+    "fun_fact": "아이바좁스키는 아르메니아계 러시아인이야. 생전에 이미 엄청난 부자였고, 고향 페오도시아에 미술관을 세웠어. 터키 술탄조차 그의 그림을 수집했대! 총 6000점 이상을 그려서 역사상 가장 다작한 화가 중 하나야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ivan_Constantinovich_Aivazovsky_-_The_Bay_of_Naples_at_moonlit_night.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "아이바좁스키가 평생 주로 그린 소재는?",
+      "options": [
+        "산",
+        "바다",
+        "도시"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-07",
+    "title": "불사조",
+    "title_original": "Phoenix",
+    "artist": "이토 자쿠추",
+    "artist_original": "Itō Jakuchū",
+    "year": "1765",
+    "medium": "비단에 채색",
+    "period": "에도 시대",
+    "story": "일본 에도 시대의 천재 화가 이토 자쿠추가 그린 화려한 불사조야. 불사조는 불에 타서 죽었다가 재에서 다시 태어나는 전설의 새야. '재생'의 상징이지. 자쿠추는 닭과 새를 관찰하는 데 평생을 바쳤어. 이 불사조도 상상의 새지만, 실제 새를 관찰한 경험을 바탕으로 깃털 하나하나를 놀라울 정도로 세밀하게 그렸어.",
+    "look_for": "깃털의 색을 봐 — 빨강, 파랑, 초록, 금색이 겹겹이 쌓여 있어. 자쿠추는 일본 전통 안료를 여러 겹 쌓아 올리는 기법으로 보석 같은 색감을 만들었어. 꼬리 깃털의 곡선이 만들어내는 리듬감도 아름다워.",
+    "fun_fact": "자쿠추는 부유한 채소 가게 주인이었어. 장사를 동생에게 넘기고 그림에만 전념했지. 그의 '동식채회(動植綵繪)' 30폭은 일본 국보로, 사후 200년 넘게 잊혀졌다가 20세기에 재발견되어 폭발적 인기를 얻었어!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ito_Jakuchu_Phoenix.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이토 자쿠추가 주로 관찰하고 그린 동물은?",
+      "options": [
+        "말",
+        "새(닭)",
+        "고양이"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-08",
+    "title": "게이샤의 초상",
+    "title_original": "A Beauty Looking Back",
+    "artist": "히시카와 모로노부",
+    "artist_original": "Hishikawa Moronobu",
+    "year": "1690",
+    "medium": "비단에 채색",
+    "period": "에도 시대",
+    "story": "뒤를 돌아보는 아름다운 여인의 모습이야. 히시카와 모로노부는 일본 우키요에(浮世繪) 판화의 창시자로 불리는 화가야. 300년이 넘은 이 작품이 아직까지 사랑받는 건, '고전'의 힘 때문이야. 시간이 아무리 흘러도 아름다운 것은 아름답고, 좋은 작품은 좋은 작품이야. 모로노부의 우아한 선은 시간을 초월해.",
+    "look_for": "여인의 옷 주름을 봐 — 단 몇 개의 곡선으로 옷감의 흐름과 몸의 움직임을 동시에 표현했어. 뒤를 돌아보는 자세에서 순간적인 움직임이 포착돼. 배경 없이 인물만으로 완성된 구도가 놀라워.",
+    "fun_fact": "모로노부는 에도(도쿄)에서 출판 삽화를 그리다가 독립적인 판화 작품을 만들기 시작했어. 그가 없었다면 우타가와 히로시게나 가쓰시카 호쿠사이 같은 우키요에 거장들도 없었을 거야! 일본 우표에도 실린 작품이야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Beauty_looking_back.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "히시카와 모로노부가 개척한 일본 미술 장르는?",
+      "options": [
+        "수묵화",
+        "우키요에",
+        "야마토에"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-09",
+    "title": "아기 예수의 경배",
+    "title_original": "Adoration of the Child",
+    "artist": "코레조",
+    "artist_original": "Correggio",
+    "year": "1524",
+    "medium": "유화",
+    "period": "르네상스",
+    "story": "갓 태어난 아기 예수에게서 빛이 나와 어머니 마리아의 얼굴을 비추고 있어. 코레조는 빛의 마술사로, 어두운 밤에 아기에게서 나오는 빛만으로 전체 장면을 밝혔어. '탄생'의 순간은 어둠 속에서도 스스로 빛을 내는 거야. 새로운 존재가 세상에 나오는 기적적인 순간을 코레조는 따뜻하고 감동적으로 표현했어.",
+    "look_for": "빛의 원천을 찾아봐 — 아기 예수가 빛 자체가 돼서 주변을 비추고 있어. 마리아의 표정에서 기쁨과 경외감이 동시에 보여. 배경의 천사들도 이 빛에 이끌려 날아오고 있어.",
+    "fun_fact": "코레조는 르네상스 거장이지만 로마에 간 적이 없대! 작은 도시 파르마에서 활동했는데, 그의 빛 표현 기법은 100년 후 카라바조와 바로크 화가들에게 큰 영향을 줬어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Correggio_-_Nativity_(Holy_Night)_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "코레조의 이 작품에서 빛의 원천은?",
+      "options": [
+        "촛불",
+        "아기 예수",
+        "별빛"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-10",
+    "title": "죽음의 섬",
+    "title_original": "Isle of the Dead",
+    "artist": "아르놀트 뵈클린",
+    "artist_original": "Arnold Böcklin",
+    "year": "1880",
+    "medium": "유화",
+    "period": "상징주의",
+    "story": "조용한 바다 위, 하얀 옷을 입은 인물이 관을 실은 배를 타고 어두운 섬으로 향하고 있어. 이 섬은 높은 절벽과 측백나무(묘지 나무)로 둘러싸여 있어. '죽음'이라는 주제를 공포가 아닌 고요하고 장엄한 분위기로 표현한 거야. 뵈클린은 이 그림을 다섯 가지 버전으로 그렸는데, 매번 조금씩 분위기가 달라.",
+    "look_for": "섬의 측백나무가 마치 수호병처럼 서 있어. 물 위의 반사가 묘한 정적을 만들어. 하얀 인물의 자세를 봐 — 서 있지만 고개를 숙이고 있어, 마치 경건한 의식을 치르듯.",
+    "fun_fact": "히틀러가 이 그림의 원본 한 점을 소유했고, 라흐마니노프는 이 그림에서 영감을 받아 교향시를 작곡했어. 프로이트도 이 그림을 진료실에 걸어뒀대! 20세기 가장 많이 복제된 그림 중 하나야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Arnold_B%C3%B6cklin_-_Die_Toteninsel_III_(Alte_Nationalgalerie,_Berlin).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "뵈클린이 '죽음의 섬'을 그린 버전 수는?",
+      "options": [
+        "3가지",
+        "5가지",
+        "7가지"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-11",
+    "title": "비탄",
+    "title_original": "Grief",
+    "artist": "조지 프레드릭 와츠",
+    "artist_original": "George Frederic Watts",
+    "year": "1867",
+    "medium": "유화",
+    "period": "빅토리아 시대 상징주의",
+    "story": "한 여인이 온몸을 웅크리고 깊은 슬픔에 빠져 있어. 와츠는 빅토리아 시대의 '도덕 화가'라 불렸어. 그는 추상적 개념 — 희망, 사랑, 죽음, 슬픔 — 을 인물로 표현했어. 이 작품에서 '애도'는 말이 필요 없어. 몸의 자세 하나로 슬픔의 무게가 전해져. 떠난 이를 기억하는 마음은 이렇게 온몸으로 느끼는 거야.",
+    "look_for": "여인의 자세를 봐 — 머리를 감싸 안고 몸을 구부린 모습이 마치 태아 같아. 어두운 배경과 인물이 하나로 녹아들어, 슬픔이 공간 전체를 삼키는 느낌이야.",
+    "fun_fact": "와츠의 또 다른 유명한 작품 '희망'은 오바마 대통령이 연설에서 언급해 유명해졌어! 와츠는 자신의 작품을 팔기보다 국가에 기증하는 것을 좋아해서, 런던 테이트 미술관에 많은 작품이 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:George_Frederic_Watts_-_Hope_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "조지 프레드릭 와츠가 주로 표현한 것은?",
+      "options": [
+        "역사적 사건",
+        "추상적 감정과 개념",
+        "자연 풍경"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-12",
+    "title": "지나간 날들의 꿈",
+    "title_original": "The Days of Creation",
+    "artist": "에드워드 번 존스",
+    "artist_original": "Edward Burne-Jones",
+    "year": "1876",
+    "medium": "수채화",
+    "period": "라파엘 전파",
+    "story": "번 존스는 라파엘 전파 운동의 중심 인물이야. 이 연작은 천사가 투명한 구슬 안에 담긴 세계를 바라보는 모습이야. 각 구슬에는 이미 지나가버린 창조의 날들이 담겨 있어. 되돌릴 수 없는 시간에 대한 '회한'과 아름다움이 동시에 느껴져. 이미 완성된 세계는 아름답지만, 그 과정은 다시 오지 않아.",
+    "look_for": "천사의 표정을 봐 — 기쁨이 아니라 약간 슬퍼 보여. 구슬 안에 갇힌 세계는 완벽하지만 이미 지나간 것이야. 천사의 날개와 옷의 섬세한 주름은 번 존스 특유의 장식적 아름다움이야.",
+    "fun_fact": "번 존스는 옥스퍼드에서 윌리엄 모리스와 평생 친구가 됐어. 둘 다 산업혁명의 기계 생산에 반대하고 수공예의 아름다움을 추구했어. 번 존스의 그림은 나중에 톨킨의 판타지 세계에 영감을 줬다고 해!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Edward_Burne-Jones_-_The_Days_of_Creation_-_The_Sixth_Day.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "에드워드 번 존스가 속한 미술 운동은?",
+      "options": [
+        "인상주의",
+        "라파엘 전파",
+        "큐비즘"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-13",
+    "title": "바다와 하늘",
+    "title_original": "Sky and Water I",
+    "artist": "M.C. 에셔",
+    "artist_original": "M.C. Escher",
+    "year": "1938",
+    "medium": "목판화",
+    "period": "현대 판화",
+    "story": "위쪽에서는 새들이 날고, 아래쪽에서는 물고기들이 헤엄쳐. 그런데 중간 부분을 자세히 보면, 새와 물고기가 서로의 배경이 되고 있어! 하나가 분리되면 다른 하나가 나타나. '분리'와 '연결'이 동시에 일어나는 거야. 에셔는 수학과 미술을 결합한 독특한 예술가로, 우리의 인식을 흔드는 작품을 많이 만들었어.",
+    "look_for": "화면 가운데를 봐 — 새의 모양이 점점 단순해지면서 물고기의 배경(빈 공간)이 돼. 위와 아래는 완전히 다른 세계인데, 그 경계가 자연스럽게 연결돼 있어. 이것을 '테셀레이션'이라고 해.",
+    "fun_fact": "에셔는 수학을 전혀 배우지 않았지만, 수학자들이 그의 작품을 보고 깜짝 놀랐어! 그의 작품은 위상수학, 결정학 교과서에 실리기도 해. 스페인 알함브라 궁전의 이슬람 타일 문양에서 영감을 받았대.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Escher%27s_Relativity.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "에셔의 '바다와 하늘'에서 사용된 기법은?",
+      "options": [
+        "원근법",
+        "테셀레이션",
+        "점묘법"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-14",
+    "title": "입맞춤 (조각)",
+    "title_original": "The Kiss",
+    "artist": "콘스탄틴 브랑쿠시",
+    "artist_original": "Constantin Brâncuși",
+    "year": "1907",
+    "medium": "석조",
+    "period": "모더니즘 조각",
+    "story": "두 사람이 서로를 꼭 안고 있어. 하나의 돌덩어리에서 두 사람이 결합된 모습을 조각했는데, 어디서부터가 한 사람이고 어디까지가 다른 사람인지 구분이 안 돼. '결합'의 가장 순수한 모습이야. 브랑쿠시는 로댕의 사실적 조각과 완전히 다른 길을 갔어 — 형태를 최대한 단순화해서 본질만 남겼어.",
+    "look_for": "두 사람의 팔이 서로를 감싸고 있어. 눈은 하나로 합쳐져 보이고, 입술도 하나가 됐어. 돌의 거친 질감이 그대로 남아 있어서 자연스럽고 원시적인 힘이 느껴져.",
+    "fun_fact": "브랑쿠시는 루마니아 시골 출신이야. 파리까지 걸어서 갔다는 전설이 있어! 로댕이 조수로 일하라고 했지만, '큰 나무 그늘에서는 아무것도 자라지 못한다'며 거절했대. 현대 조각의 아버지라 불려.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brancusi_-_The_Kiss_1907.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "브랑쿠시가 조각에서 추구한 것은?",
+      "options": [
+        "극도의 사실성",
+        "형태의 단순화",
+        "거대한 규모"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-15",
+    "title": "바이올린 연주자",
+    "title_original": "The Violin Player",
+    "artist": "마르크 샤갈",
+    "artist_original": "Marc Chagall",
+    "year": "1912",
+    "medium": "유화",
+    "period": "표현주의/큐비즘",
+    "story": "지붕 위에서 바이올린을 연주하는 남자. 샤갈은 고향 비테프스크(벨라루스)의 유대인 마을을 평생 그렸어. 유대 전통에서 바이올린 연주자는 결혼식, 장례식, 축제 등 모든 의식을 '조율'하는 존재야. 서로 다른 감정과 사람들을 음악으로 하나로 맞추는 거지. 이 연주자의 발밑에는 작은 마을이 펼쳐져 있어 — 음악이 마을 전체를 감싸고 있어.",
+    "look_for": "연주자의 크기를 봐 — 집보다 커! 샤갈은 중요한 것을 크게 그렸어. 색이 경계를 넘어 섞이고, 하늘과 땅이 구분되지 않아. 이것이 샤갈 특유의 '꿈의 논리'야.",
+    "fun_fact": "이 그림은 뮤지컬 《지붕 위의 바이올린》에 직접적 영감을 줬어! 샤갈은 러시아 혁명 후 문화부 장관까지 됐지만, 말레비치와의 갈등으로 파리로 떠났어. 97세까지 살며 평생 작품 활동을 했어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chagall_Fiddler.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "샤갈의 바이올린 연주자가 영감을 준 뮤지컬은?",
+      "options": [
+        "오페라의 유령",
+        "지붕 위의 바이올린",
+        "캣츠"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-16",
+    "title": "장애물 경주",
+    "title_original": "Steeplechase – The Fallen Jockey",
+    "artist": "앙리 드 툴루즈 로트레크",
+    "artist_original": "Henri de Toulouse-Lautrec",
+    "year": "1899",
+    "medium": "석판화",
+    "period": "후기 인상주의",
+    "story": "경마에서 떨어진 기수가 다시 일어서려는 장면이야. 로트레크는 어릴 때 다리가 부러져 성장이 멈춘 장애를 가졌어. 하지만 그 한계를 극복하고 당대 최고의 포스터 아티스트가 됐어. 이 작품에서 떨어진 기수는 로트레크 자신이기도 해. 넘어져도 다시 일어서는 것, 그것이 '극복'이야.",
+    "look_for": "말의 역동적인 움직임을 봐 — 로트레크는 동물의 움직임을 포착하는 데 뛰어났어. 기수의 자세에서 포기하지 않으려는 의지가 보여. 과감한 구도와 단순화된 형태가 인상적이야.",
+    "fun_fact": "로트레크는 파리 물랭루즈의 포스터를 그려 유명해졌어. 152cm의 작은 키에도 불구하고 파리 밤문화의 중심에 있었어. 36세에 세상을 떠났지만, 짧은 생에 737점의 캔버스 작품과 수천 점의 소묘를 남겼어!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec_-_At_the_Races_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "로트레크가 유명해진 계기는?",
+      "options": [
+        "궁중 초상화",
+        "물랭루즈 포스터",
+        "종교화"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-17",
+    "title": "어머니의 초상",
+    "title_original": "Whistler's Mother",
+    "artist": "제임스 맥닐 휘슬러",
+    "artist_original": "James McNeill Whistler",
+    "year": "1871",
+    "medium": "유화",
+    "period": "사실주의/톤주의",
+    "story": "검은 옷을 입은 노모가 의자에 앉아 있어. 세상에서 가장 유명한 어머니 초상화야. 휘슬러의 어머니 안나는 엄격한 청교도였지만, 예술가 아들을 이해하고 포용했어. 이 그림은 '포용'의 조용한 힘을 보여줘. 어머니의 단정한 자세와 차분한 색조에서 묵묵한 사랑과 수용이 느껴져.",
+    "look_for": "색을 봐 — 검정, 회색, 흰색만 사용했어. 휘슬러는 이 그림의 공식 제목을 '회색과 검정의 배열 1번'이라고 했어. 그에게 중요한 건 감정이 아니라 색의 조화였어. 벽에 걸린 액자와 커튼의 패턴이 단조로움을 깨줘.",
+    "fun_fact": "이 그림은 미국에서 가장 유명한 그림 중 하나로, 우표에도 실렸어! 원래 서 있는 모델을 그리려 했는데, 어머니가 너무 힘들어해서 앉은 자세로 바꿨대. 영화와 광고에서 수없이 패러디됐어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Whistlers_Mother_high_res.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "휘슬러가 이 그림에 붙인 공식 제목은?",
+      "options": [
+        "나의 어머니",
+        "회색과 검정의 배열",
+        "검은 의자의 여인"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-18",
+    "title": "서당",
+    "title_original": "Village School",
+    "artist": "김홍도",
+    "artist_original": "Kim Hong-do",
+    "year": "1780",
+    "medium": "종이에 수묵담채",
+    "period": "조선 후기",
+    "story": "조선 시대 서당에서 아이들이 공부하는 풍경이야. 훈장 앞에서 책을 읽다 울고 있는 아이, 옆에서 킥킥 웃는 아이들... 김홍도는 '배움'의 현장을 생생하고 유머러스하게 포착했어. 배움은 늘 즐겁기만 한 건 아니야. 울기도 하고 웃기도 하면서 성장하는 거지.",
+    "look_for": "울고 있는 아이의 표정과 옆에서 웃는 아이들의 대비를 봐. 훈장의 표정도 엄격하지만 미묘하게 웃는 것 같아. 김홍도는 최소한의 선으로 각 인물의 성격을 완벽하게 표현했어.",
+    "fun_fact": "김홍도(단원)는 정조 임금이 가장 아끼던 궁중 화가야. 풍속화, 산수화, 인물화, 불화까지 못 그리는 게 없었어. 이 '서당' 그림은 한국 교과서에 가장 많이 실린 그림 중 하나야!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Danwon-Seodang.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "김홍도의 호는?",
+      "options": [
+        "겸재",
+        "단원",
+        "추사"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-19",
+    "title": "빵을 나누는 성 마르틴",
+    "title_original": "Saint Martin Sharing his Cloak",
+    "artist": "엘 그레코",
+    "artist_original": "El Greco",
+    "year": "1597",
+    "medium": "유화",
+    "period": "매너리즘",
+    "story": "로마 군인 마르틴이 말 위에서 가난한 거지에게 자신의 망토를 반으로 잘라 나눠주는 장면이야. 엘 그레코는 길쭉하게 늘어난 인체와 극적인 색채로 유명해. 이 장면에서 '나눔'의 의미가 분명해 — 가진 것의 절반을 아낌없이 내주는 거야. 마르틴의 칼이 망토를 자르는 순간, 그의 삶도 변했어.",
+    "look_for": "마르틴의 흰 말을 봐 — 화면의 대부분을 차지해. 말 위의 마르틴과 땅 위의 거지 사이의 대비가 극적이야. 엘 그레코 특유의 길쭉한 인체와 하늘의 극적인 구름을 살펴봐.",
+    "fun_fact": "엘 그레코는 그리스 크레타섬 출신이야! 본명은 도메니코스 테오토코풀로스인데, 스페인에서 '그리스인'이라는 뜻의 '엘 그레코'로 불렸어. 사후 300년간 잊혀졌다가 20세기 표현주의 화가들이 재발견했어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:El_Greco_-_San_Mart%C3%ADn_y_el_mendigo.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "엘 그레코의 출신 국가는?",
+      "options": [
+        "스페인",
+        "그리스",
+        "이탈리아"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-20",
+    "title": "자선의 알레고리",
+    "title_original": "Charity",
+    "artist": "윌리엄 아돌프 부게로",
+    "artist_original": "William-Adolphe Bouguereau",
+    "year": "1878",
+    "medium": "유화",
+    "period": "아카데미즘",
+    "story": "한 여인이 네 명의 아이를 안고 있어. 이 여인은 실제 인물이 아니라 '자선(봉사)'을 의인화한 거야. 대가 없이 베푸는 마음을 부게로는 따뜻한 모성으로 표현했어. 부게로는 당대 최고의 기술적 완성도를 가진 화가였어. 아이들의 부드러운 피부와 여인의 자애로운 표정이 사실적이면서도 이상적이야.",
+    "look_for": "아이들이 여인에게 매달리는 자세를 봐 — 각각 다른 포즈지만 모두 편안해 보여. 여인의 발은 맨발이야. 가진 것이 없어도 베푸는 마음은 가득하다는 뜻이야.",
+    "fun_fact": "부게로는 생전에 가장 성공한 화가였지만, 인상주의가 떠오르면서 '구식'이라고 비판받았어. 하지만 21세기에 다시 재평가받고 있어. 그는 평생 826점의 그림을 그렸고, 학생들을 가르치며 여성 화가의 교육에도 힘썼어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:William-Adolphe_Bouguereau_(1825-1905)_-_Charity_(1878).jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "부게로의 '자선'에서 여인이 상징하는 것은?",
+      "options": [
+        "정의",
+        "봉사와 자선",
+        "지혜"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-21",
+    "title": "워싱턴이 델라웨어 강을 건너다",
+    "title_original": "Washington Crossing the Delaware",
+    "artist": "에마뉘엘 로이체",
+    "artist_original": "Emanuel Leutze",
+    "year": "1851",
+    "medium": "유화",
+    "period": "역사화",
+    "story": "조지 워싱턴이 크리스마스 밤, 얼어붙은 강을 건너 적진을 기습하는 장면이야. 이 기습은 미국 독립전쟁의 전환점이었어. 워싱턴은 '정직'한 지도자의 상징이야 — '벚나무를 잘라놓고 거짓말하지 않았다'는 전설처럼. 그의 정직함과 용기가 절망적인 상황에서 군대를 이끌 수 있게 했어.",
+    "look_for": "워싱턴이 배 앞에 서서 앞을 바라보는 자세를 봐. 주변 사람들은 고개를 숙이거나 힘들어하지만, 워싱턴만 꿋꿋이 서 있어. 미국 국기를 들고 있는 인물도 눈에 띄어.",
+    "fun_fact": "이 그림은 실제로 독일에서 그려졌어! 로이체는 독일계 미국인으로, 유럽의 민주화 운동에 영감을 주려고 이 그림을 그렸어. 원본은 화재로 소실됐고, 현재 메트로폴리탄 미술관에 있는 건 두 번째 버전이야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Washington_Crossing_the_Delaware_by_Emanuel_Leutze,_MMA-NYC,_1851.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "워싱턴의 델라웨어 강 도하는 몇 월에 일어났을까?",
+      "options": [
+        "7월",
+        "12월",
+        "3월"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-22",
+    "title": "하치코 동상",
+    "title_original": "Loyal Dog Hachikō",
+    "artist": "안도 테루",
+    "artist_original": "Andō Teru",
+    "year": "1934",
+    "medium": "청동 조각",
+    "period": "근대 일본",
+    "story": "도쿄 시부야역 앞에 서 있는 하치코 동상이야. 하치코는 주인이 세상을 떠난 후에도 9년 동안 매일 역에 나가 주인을 기다린 개야. '충성'의 가장 순수한 형태지. 조각가 안도 테루는 하치코가 살아 있을 때 직접 만나서 이 동상을 만들었어. 한결같은 마음을 지키는 것의 의미를 생각하게 해.",
+    "look_for": "하치코의 자세를 봐 — 귀를 세우고 무언가를 기다리는 듯한 모습이야. 눈에 기대와 그리움이 담겨 있어. 단순한 형태지만, 보는 사람의 마음을 움직이는 힘이 있어.",
+    "fun_fact": "첫 번째 동상은 태평양 전쟁 중 금속 회수를 위해 녹여졌어. 현재 동상은 1948년에 안도 테루의 아들이 다시 만든 거야. 하치코는 실제로 안도 테루의 작업실에도 방문했는데, 안도 테루가 먹이로 유인했대!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hachiko.JPG",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "하치코가 주인을 기다린 기간은?",
+      "options": [
+        "3년",
+        "9년",
+        "15년"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-23",
+    "title": "유다의 입맞춤",
+    "title_original": "The Kiss of Judas",
+    "artist": "조토 디 본도네",
+    "artist_original": "Giotto di Bondone",
+    "year": "1305",
+    "medium": "프레스코",
+    "period": "프로토 르네상스",
+    "story": "유다가 예수에게 입맞춤을 하는 순간이야. 이 입맞춤은 사랑이 아니라 배신의 신호였어. 유다는 이 신호로 적들에게 예수를 넘긴 거야. 조토는 중세 미술에서 벗어나 인물의 감정을 처음으로 사실적으로 표현한 화가야. 예수의 평온한 눈빛과 유다의 교활한 표정이 극적으로 대비돼.",
+    "look_for": "예수와 유다의 눈을 봐 — 서로를 똑바로 바라보고 있어. 예수는 모든 것을 알면서도 받아들이는 표정이야. 주변 인물들의 횃불과 창이 혼란스러운 분위기를 만들어.",
+    "fun_fact": "조토는 르네상스 미술의 아버지라 불려. 그 전까지 그림은 평면적이었는데, 조토가 처음으로 인물에 부피감과 감정을 넣었어. 이 프레스코가 있는 파도바의 스크로베니 예배당은 유네스코 세계유산이야!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "조토 이전 중세 미술과 비교한 그의 혁신은?",
+      "options": [
+        "추상적 표현",
+        "감정과 입체감 표현",
+        "금박 사용"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-24",
+    "title": "금각사",
+    "title_original": "Kinkaku-ji (Golden Pavilion)",
+    "artist": "아시카가 요시미쓰",
+    "artist_original": "Ashikaga Yoshimitsu",
+    "year": "1397",
+    "medium": "건축 (금박 입힌 목조)",
+    "period": "무로마치 시대",
+    "story": "교토의 금각사는 세 층이 각각 다른 건축 양식이야. 1층은 귀족 양식, 2층은 무사 양식, 3층은 선종 양식이야. 서로 다른 양식이 하나의 건물에서 완벽하게 조화를 이루고 있어. '복원'의 상징이기도 해 — 1950년에 한 승려가 불을 질러 전소됐는데, 1955년에 원래 모습대로 정확하게 복원됐어.",
+    "look_for": "건물이 연못에 비치는 모습을 봐 — 위아래 대칭이 완벽해. 금박이 물 위에 반짝여서 현실과 반영의 경계가 흐릿해져. 주변 정원은 '가레산수이' 양식의 일본 전통 정원이야.",
+    "fun_fact": "금각사를 불태운 승려의 이야기는 미시마 유키오의 소설 《금각사》의 소재가 됐어. 현재 건물에 사용된 금박은 원래보다 다섯 배나 두꺼운 금박이야. 유네스코 세계유산에 등재되어 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kinkaku-ji_the_Golden_Temple_in_Kyoto_overlooking_the_lake_-_high_res.JPG",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "금각사가 전소된 후 복원된 연도는?",
+      "options": [
+        "1950년",
+        "1955년",
+        "1960년"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-25",
+    "title": "감옥에서",
+    "title_original": "In Prison",
+    "artist": "케테 콜비츠",
+    "artist_original": "Käthe Kollwitz",
+    "year": "1908",
+    "medium": "에칭",
+    "period": "표현주의",
+    "story": "감옥에 갇힌 여인이 아이를 품에 안고 있어. 콜비츠는 가난하고 억압받는 사람들의 고통을 평생 그린 화가야. 이 여인은 감옥이라는 물리적 속박 안에 있지만, 아이를 향한 사랑은 갇혀 있지 않아. '탈출'은 물리적 공간만의 문제가 아니야 — 마음까지 가둘 수는 없는 거지.",
+    "look_for": "여인이 아이를 안는 방식을 봐 — 온 몸으로 감싸고 있어. 감옥의 어둠 속에서 아이의 얼굴만 밝아. 콜비츠 특유의 강렬한 흑백 대비가 감정을 극대화해.",
+    "fun_fact": "콜비츠는 1차 세계대전에서 아들을 잃었어. 이후 전쟁과 가난에 맞서는 작품을 더 강렬하게 만들었지. 나치는 그녀의 작품을 '퇴폐 예술'로 금지했어. 독일 최초의 여성 미술 아카데미 교수였어!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kollwitz_Raped_Woman.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "케테 콜비츠가 주로 그린 주제는?",
+      "options": [
+        "귀족의 화려한 생활",
+        "가난과 억압받는 사람들",
+        "자연 풍경"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-26",
+    "title": "화전놀이",
+    "title_original": "Picnic by the Lotus Pond",
+    "artist": "신윤복",
+    "artist_original": "Shin Yun-bok",
+    "year": "1805",
+    "medium": "종이에 수묵담채",
+    "period": "조선 후기",
+    "story": "연못가에서 사람들이 모여 음식을 나누며 즐기는 장면이야. 신윤복은 조선 시대의 남녀 간 감정과 일상을 섬세하게 그린 화가야. '귀속'이라는 건 어딘가에 함께 속해 있다는 느낌이야. 이 그림 속 사람들은 자연 속에 모여 같은 음식을 먹고 같은 풍경을 바라보며, 하나의 공동체에 속한다는 안도감을 느끼고 있어.",
+    "look_for": "인물들의 자세를 봐 — 편안하게 앉아 있고, 서로를 바라보거나 자연을 감상하고 있어. 신윤복 특유의 부드러운 선과 은은한 색감이 평화로운 분위기를 만들어.",
+    "fun_fact": "신윤복(혜원)은 김홍도와 함께 조선 최고의 풍속 화가로 꼽혀. 하지만 김홍도가 서민의 일상을 밝게 그린 반면, 신윤복은 남녀 간의 은밀한 감정과 기생 문화를 그려서 논란이 됐어. 도화서에서 쫓겨났다는 기록도 있어!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hyewon-Ssanggeum.daemu.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "신윤복의 호는?",
+      "options": [
+        "단원",
+        "혜원",
+        "겸재"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-27",
+    "title": "기억과 시간",
+    "title_original": "Mnemosyne",
+    "artist": "단테 가브리엘 로세티",
+    "artist_original": "Dante Gabriel Rossetti",
+    "year": "1881",
+    "medium": "유화",
+    "period": "라파엘 전파",
+    "story": "므네모시네는 그리스 신화에서 기억의 여신이야. 로세티는 이 여신을 몽환적이고 신비로운 여인으로 그렸어. 기억의 반대편에는 '망각'이 있어. 우리가 무엇을 기억하고 무엇을 잊는지가 우리를 만들어. 이 여신의 깊은 눈빛은 모든 것을 기억하는 존재의 무게를 담고 있어.",
+    "look_for": "여인이 들고 있는 등을 봐 — 기억의 빛이야. 어두운 배경 속에서 이 빛이 유일한 광원이야. 풍성한 머리카락과 몽환적인 표정은 로세티 특유의 스타일이야.",
+    "fun_fact": "로세티의 모델은 제인 모리스(윌리엄 모리스의 아내)야. 로세티는 그녀를 사랑했고, 수많은 그림의 모델로 삼았어. 로세티는 아내가 죽었을 때 함께 묻은 시집을 7년 후 파내서 출판한 적도 있어!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dante_Gabriel_Rossetti_-_Mnemosyne_(Lamp_of_Memory)_-_Google_Art_Project.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "므네모시네는 그리스 신화에서 무엇의 여신인가?",
+      "options": [
+        "사랑",
+        "기억",
+        "운명"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-28",
+    "title": "과거의 축제",
+    "title_original": "Fête Champêtre",
+    "artist": "앙투안 와토",
+    "artist_original": "Antoine Watteau",
+    "year": "1718",
+    "medium": "유화",
+    "period": "로코코",
+    "story": "귀족들이 아름다운 정원에서 음악을 듣고 대화하며 즐기는 장면이야. 와토는 이런 '우아한 축제(페트 갈랑트)' 장르를 만든 화가야. 하지만 이 즐거운 장면에는 묘한 쓸쓸함이 있어. 마치 이 순간이 곧 끝날 것을 알고 있는 듯한. '추억'이란 이렇게 아름답지만 이미 지나간 것에 대한 그리움이야.",
+    "look_for": "인물들의 표정을 봐 — 즐거워 보이지만 어딘가 멍한 듯해. 와토 특유의 부드러운 색조가 꿈결 같은 분위기를 만들어. 나무와 하늘의 경계가 흐릿해서 현실과 환상이 섞인 느낌이야.",
+    "fun_fact": "와토는 36세에 결핵으로 세상을 떠났어. 짧은 생이었지만, 그가 만든 '페트 갈랑트' 장르는 프랑스 로코코의 핵심이 됐어. 죽기 직전 많은 그림을 불태워버렸대 — 그래서 현존하는 작품이 더 귀해.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Antoine_Watteau_-_The_Embarkation_for_Cythera_-_WGA25451.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "와토가 만든 회화 장르의 이름은?",
+      "options": [
+        "바니타스",
+        "페트 갈랑트",
+        "트롱프뢰유"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-29",
+    "title": "시골 콘서트",
+    "title_original": "The Pastoral Concert",
+    "artist": "조르조네",
+    "artist_original": "Giorgione",
+    "year": "1509",
+    "medium": "유화",
+    "period": "르네상스",
+    "story": "두 남자와 두 여인이 자연 속에서 음악을 즐기고 있어. 하지만 이상한 점이 있어 — 남자들은 옷을 입고 있는데 여인들은 옷을 입지 않았어. 학자들은 여인들이 실제 인물이 아니라 음악의 정령(뮤즈)이라고 해석해. '향수'란 이렇게 현실과 꿈이 뒤섞인 아련한 기억 속에 있는 거야.",
+    "look_for": "왼쪽 여인이 물을 붓고 있고, 오른쪽 여인은 피리를 들고 있어. 남자들은 서로를 바라보며 대화 중이야. 배경의 목가적 풍경이 꿈같은 분위기를 만들어.",
+    "fun_fact": "이 그림의 작가가 조르조네인지 티치아노인지 500년간 논쟁이 계속되고 있어! 루브르에서는 현재 티치아노 작품으로 분류하기도 해. 마네의 유명한 '풀밭 위의 점심'은 이 그림에서 영감을 받았어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Titien_-_Le_Concert_champ%C3%AAtre.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "이 그림에서 여인들이 상징하는 것은?",
+      "options": [
+        "농부",
+        "음악의 정령(뮤즈)",
+        "왕비"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-30",
+    "title": "검은 사각형",
+    "title_original": "Black Square",
+    "artist": "카지미르 말레비치",
+    "artist_original": "Kazimir Malevich",
+    "year": "1915",
+    "medium": "유화",
+    "period": "절대주의",
+    "story": "하얀 캔버스 위에 검은 사각형 하나. 그게 전부야. 말레비치는 이 한 점으로 미술의 모든 전통을 '혁파'했어. 그림에 꼭 무엇인가를 그려야 한다는 규칙, 아름다운 풍경이나 인물이 있어야 한다는 고정관념을 완전히 깨뜨린 거야. 그는 이것을 '회화의 영점(zero point)'이라고 불렀어 — 모든 것을 지우고 처음부터 시작하겠다는 선언이야.",
+    "look_for": "사각형이 완벽한 정사각형이 아니야 — 약간 기울어져 있어. 가장자리도 완벽하지 않아. 흰색 배경과 검은 사각형의 관계를 봐. 단순해 보이지만, 이 긴장감이 보이니?",
+    "fun_fact": "1915년 전시에서 이 그림은 방 모서리 높은 곳에 걸렸어 — 러시아 가정에서 성화(이콘)를 거는 자리야. 말레비치는 예술의 새로운 성화를 선언한 거야! X선 촬영 결과, 검은 페인트 아래에 두 개의 다른 그림이 숨겨져 있었대.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "말레비치가 '검은 사각형'을 부른 별명은?",
+      "options": [
+        "예술의 정점",
+        "회화의 영점",
+        "무한의 문"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2026-12-31",
+    "title": "라스코 동굴 벽화",
+    "title_original": "Lascaux Cave Paintings",
+    "artist": "구석기 시대 인류",
+    "artist_original": "Paleolithic Artists",
+    "year": "기원전 15000",
+    "medium": "동굴 벽화 (천연 안료)",
+    "period": "구석기 시대",
+    "story": "프랑스 라스코 동굴에는 17,000년 전 인류가 그린 그림이 남아 있어. 소, 말, 사슴이 생생하게 그려져 있어. 인류 최초의 예술이야. '보존'의 의미를 생각하게 해 — 이 그림은 어둡고 밀폐된 동굴 속에서 수만 년간 보존됐어. 누가 왜 그렸는지는 아무도 모르지만, 인간의 창조 본능은 문명 이전부터 존재했어.",
+    "look_for": "동물들의 움직임을 봐 — 마치 달리는 것처럼 다리가 여러 개로 그려진 것도 있어. 구석기인들은 움직임을 표현하려고 했던 거야! 동굴 벽의 울퉁불퉁한 면을 이용해 입체감을 만든 것도 놀라워.",
+    "fun_fact": "라스코 동굴은 1940년 소년 네 명이 우연히 발견했어! 너무 많은 관광객이 방문해서 이산화탄소로 벽화가 손상되기 시작했고, 1963년부터 일반 공개가 중단됐어. 대신 정확한 복제 동굴 '라스코 II'를 만들어 공개하고 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lascaux_painting.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "라스코 동굴 벽화의 나이는 약?",
+      "options": [
+        "5,000년",
+        "17,000년",
+        "100,000년"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "date": "2027-01-01",
+    "title": "노예선",
+    "title_original": "The Slave Ship",
+    "artist": "윌리엄 터너",
+    "artist_original": "J.M.W. Turner",
+    "year": "1840",
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "폭풍 속 바다에 노예를 실은 배가 보여. 배 뒤로 사슬에 묶인 사람들이 바다에 버려지고 있어. 터너는 1781년 실제로 일어난 '종 호' 학살 사건을 바탕으로 이 그림을 그렸어. '해방'은 이런 비인간적 현실에서 벗어나는 것이야. 터너는 자연의 거대한 힘(폭풍)이 인간의 악행을 심판하는 듯한 장면을 만들었어.",
+    "look_for": "하늘의 붉은 색을 봐 — 석양인지 불인지 구분이 안 돼. 바다 속에 사슬과 손이 보여. 자연은 압도적이고, 배는 그 속에서 작게 보여. 터너는 자연의 힘을 통해 도덕적 메시지를 전했어.",
+    "fun_fact": "이 그림은 영국의 노예제 폐지 운동에 큰 영향을 줬어. 미술평론가 존 러스킨이 '터너의 가장 위대한 작품'이라고 극찬했지만, 나중에 그림이 너무 고통스러워서 팔아버렸대! 현재 보스턴 미술관에 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Slave-ship.jpg",
+    "source_label": "Wikimedia Commons",
+    "quiz": {
+      "question": "터너의 '노예선'이 다룬 역사적 문제는?",
+      "options": [
+        "전쟁",
+        "노예 무역",
+        "자연재해"
+      ],
+      "answer": 1
+    }
   }
 ]
