@@ -32,39 +32,34 @@ export function isAdminEmail(email: string | undefined | null): boolean {
   return !!email && ADMIN_EMAILS.includes(email);
 }
 
-/**
- * 날짜 접근 범위 계산
- * - 비로그인: 오늘만 (min=오늘, max=오늘)
- * - 일반 로그인: 과거 전체 ~ 오늘+7일
- * - 관리자: 전체
- */
-export function getDateRange(role: "guest" | "user" | "admin") {
-  const todayStr = getToday();
-  if (role === "admin") return { minDate: "2000-01-01", maxDate: "2099-12-31" };
-  if (role === "guest") return { minDate: todayStr, maxDate: todayStr };
-  // user: 과거 전체 ~ 오늘+7일
-  const d = new Date();
-  d.setDate(d.getDate() + 7);
-  const maxDate = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-  return { minDate: "2000-01-01", maxDate };
+export function getMaxDay(role: "guest" | "user" | "admin"): number {
+  if (role === "admin") return 365;
+  if (role === "user") return 30;
+  return 5; // guest
 }
 
-/** 하위 호환용 */
+export function getAccessMessage(role: "guest" | "user" | "admin"): string {
+  if (role === "guest") return "로그인을 하시면 첫 30일의 콘텐츠를 보실 수 있습니다";
+  if (role === "user") return "콘텐츠 준비중입니다";
+  return "";
+}
+
+/** 하위 호환용 - 기존 코드에서 minDate/maxDate 참조하는 곳 */
+export function getDateRange(role: "guest" | "user" | "admin") {
+  const maxDay = getMaxDay(role);
+  const maxIdx = Math.min(maxDay - 1, themes.length - 1);
+  const maxDate = themes[maxIdx]?.date || "2099-12-31";
+  return { minDate: themes[0]?.date || "2026-03-16", maxDate };
+}
+
 export function getMaxDate(role: "guest" | "user" | "admin") {
   return getDateRange(role).maxDate;
 }
 
-/**
- * 날짜 관리 훅
- *
- * 접근 규칙:
- * - 비로그인(guest): 오늘 하루만. 화살표/달력 비활성.
- * - 일반 로그인(user): 과거 전체 + 오늘 + 미래 7일.
- * - 관리자(admin): 전체 1년.
- */
 export function useSharedDate(role: "guest" | "user" | "admin" = "guest") {
   const [date, setDateRaw] = useState("");
   const [today, setTodayVal] = useState("");
+  const [accessToast, setAccessToast] = useState("");
 
   useEffect(() => {
     const t = getToday();
@@ -73,18 +68,28 @@ export function useSharedDate(role: "guest" | "user" | "admin" = "guest") {
     setDateRaw(fallback);
   }, []);
 
-  const { minDate, maxDate } = getDateRange(role);
+  const maxDay = getMaxDay(role);
   const dateIndex = themes.findIndex((t) => t.date === date);
+  const dayNumber = dateIndex >= 0 ? dateIndex + 1 : 0;
   const theme = dateIndex >= 0 ? themes[dateIndex] : undefined;
 
-  const canPrev = dateIndex > 0 && themes[dateIndex - 1].date >= minDate;
-  const canNext = dateIndex >= 0 && dateIndex < themes.length - 1
-    && themes[dateIndex + 1].date <= maxDate;
+  const canPrev = dateIndex > 0;
+  const canNext = dateIndex >= 0 && dateIndex < themes.length - 1 && (dateIndex + 1) < maxDay;
+  const canPrev7 = dateIndex > 0;
+  const canNext7 = dateIndex >= 0 && dateIndex < themes.length - 1 && (dateIndex + 1) < maxDay;
+
+  const showToast = useCallback((msg: string) => {
+    setAccessToast(msg);
+    setTimeout(() => setAccessToast(""), 3000);
+  }, []);
 
   const setDate = useCallback((d: string) => {
-    setDateRaw(d);
-    localStorage.setItem(STORAGE_KEY, d);
-  }, []);
+    const idx = themes.findIndex((t) => t.date === d);
+    if (idx >= 0 && idx < maxDay) {
+      setDateRaw(d);
+      localStorage.setItem(STORAGE_KEY, d);
+    }
+  }, [maxDay]);
 
   const goPrev = useCallback(() => {
     if (dateIndex > 0) {
@@ -96,11 +101,35 @@ export function useSharedDate(role: "guest" | "user" | "admin" = "guest") {
 
   const goNext = useCallback(() => {
     if (dateIndex >= 0 && dateIndex < themes.length - 1) {
+      if (dateIndex + 1 >= maxDay) {
+        showToast(getAccessMessage(role));
+        return;
+      }
       const nd = themes[dateIndex + 1].date;
       setDateRaw(nd);
       localStorage.setItem(STORAGE_KEY, nd);
     }
+  }, [dateIndex, maxDay, role, showToast]);
+
+  const goPrev7 = useCallback(() => {
+    const targetIdx = Math.max(0, dateIndex - 7);
+    const nd = themes[targetIdx].date;
+    setDateRaw(nd);
+    localStorage.setItem(STORAGE_KEY, nd);
   }, [dateIndex]);
+
+  const goNext7 = useCallback(() => {
+    if (dateIndex >= 0) {
+      const targetIdx = Math.min(themes.length - 1, dateIndex + 7);
+      if (targetIdx >= maxDay) {
+        showToast(getAccessMessage(role));
+        return;
+      }
+      const nd = themes[targetIdx].date;
+      setDateRaw(nd);
+      localStorage.setItem(STORAGE_KEY, nd);
+    }
+  }, [dateIndex, maxDay, role, showToast]);
 
   const goToday = useCallback(() => {
     const t = getToday();
@@ -109,5 +138,14 @@ export function useSharedDate(role: "guest" | "user" | "admin" = "guest") {
     localStorage.setItem(STORAGE_KEY, fallback);
   }, []);
 
-  return { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate };
+  const { minDate, maxDate } = getDateRange(role);
+
+  return {
+    date, today, theme, dayNumber,
+    canPrev, canNext, canPrev7, canNext7,
+    goPrev, goNext, goPrev7, goNext7,
+    goToday, setDate,
+    minDate, maxDate,
+    accessToast,
+  };
 }

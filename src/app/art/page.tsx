@@ -11,8 +11,12 @@ import DayNavigator from "@/components/DayNavigator";
 export default function ArtPage() {
   const { user } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
-    useSharedDate(role);
+  const {
+    date, today, theme, dayNumber,
+    canPrev, canNext, canPrev7, canNext7,
+    goPrev, goNext, goPrev7, goNext7,
+    goToday, accessToast,
+  } = useSharedDate(role);
   const art = arts.find((a) => a.date === date) || null;
   const { done, complete } = useMission("art", art?.date || "");
   const [review, setReview] = useState("");
@@ -31,21 +35,11 @@ export default function ArtPage() {
       style={{ background: "var(--background)" }}
     >
       <DayNavigator
-        title="오늘의 예술"
-        emoji="🎨"
-        date={art.date}
-        today={today}
-        keyword={theme?.keyword}
-        canPrev={canPrev}
-        canNext={canNext}
-        onPrev={goPrev}
-        onNext={goNext}
-        onToday={goToday}
-        onSelectDate={setDate}
-        topicKey="art"
-        minDate={minDate}
-        maxDate={maxDate}
-        isGuest={role === "guest"}
+        title="오늘의 예술" emoji="🎨" date={art.date} today={today}
+        keyword={theme?.keyword} dayNumber={dayNumber}
+        canPrev={canPrev} canNext={canNext} canPrev7={canPrev7} canNext7={canNext7}
+        onPrev={goPrev} onNext={goNext} onPrev7={goPrev7} onNext7={goNext7}
+        onToday={goToday} topicKey="art" accessToast={accessToast}
       />
 
       {/* 작품 정보 */}

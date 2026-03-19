@@ -10,8 +10,12 @@ import DayNavigator from "@/components/DayNavigator";
 export default function WhyPage() {
   const { user } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
-    useSharedDate(role);
+  const {
+    date, today, theme, dayNumber,
+    canPrev, canNext, canPrev7, canNext7,
+    goPrev, goNext, goPrev7, goNext7,
+    goToday, accessToast,
+  } = useSharedDate(role);
   const why = whys.find((w) => w.date === date) || null;
   const { done, complete } = useMission("why", why?.date || "");
 
@@ -23,21 +27,11 @@ export default function WhyPage() {
       style={{ background: "#fff7ed" }}
     >
       <DayNavigator
-        title="오늘의 과학"
-        emoji="🔬"
-        date={why.date}
-        today={today}
-        keyword={theme?.keyword}
-        canPrev={canPrev}
-        canNext={canNext}
-        onPrev={goPrev}
-        onNext={goNext}
-        onToday={goToday}
-        onSelectDate={setDate}
-        topicKey="why"
-        minDate={minDate}
-        maxDate={maxDate}
-        isGuest={role === "guest"}
+        title="오늘의 과학" emoji="🔬" date={why.date} today={today}
+        keyword={theme?.keyword} dayNumber={dayNumber}
+        canPrev={canPrev} canNext={canNext} canPrev7={canPrev7} canNext7={canNext7}
+        onPrev={goPrev} onNext={goNext} onPrev7={goPrev7} onNext7={goNext7}
+        onToday={goToday} topicKey="why" accessToast={accessToast}
       />
 
       {/* 오늘의 질문 */}

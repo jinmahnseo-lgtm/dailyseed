@@ -2,9 +2,8 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState, useEffect, useCallback, useRef } from "react";
-import { useSharedDate, formatDateShort, isAdminEmail } from "@/hooks/useSharedDate";
-import themes from "@/data/themes.json";
+import { useState, useEffect, useCallback } from "react";
+import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { isMissionDone, setCurrentUserId } from "@/hooks/useMission";
 import { useAuthContext } from "@/contexts/AuthContext";
 import { pullMissionsFromSupabase, migrateLocalStorageToSupabase, flushSyncQueue } from "@/lib/sync";
@@ -107,8 +106,12 @@ export default function Home() {
   const router = useRouter();
   const { user, profile, loading: authLoading } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
-    useSharedDate(role);
+  const {
+    date, today, theme, dayNumber,
+    canPrev, canNext, canPrev7, canNext7,
+    goPrev, goNext, goPrev7, goNext7,
+    goToday, setDate, accessToast,
+  } = useSharedDate(role);
   const [missions, setMissions] = useState<Record<string, boolean>>({});
   const isLoggedIn = !!user;
 
@@ -152,48 +155,6 @@ export default function Home() {
     };
   }, [refreshMissions]);
 
-  const isToday = date === today;
-  const dateLabel = date ? formatDateShort(date) : "–";
-  const [calOpen, setCalOpen] = useState(false);
-  const calRef = useRef<HTMLDivElement>(null);
-  const parsedDate = date ? new Date(date + "T00:00:00") : new Date();
-  const [calYear, setCalYear] = useState(parsedDate.getFullYear());
-  const [calMonth, setCalMonth] = useState(parsedDate.getMonth());
-  const themeSet = new Set(themes.map((t: { date: string }) => t.date));
-  const DAYS_LABEL = ["일", "월", "화", "수", "목", "금", "토"];
-
-  useEffect(() => {
-    if (date) {
-      const d = new Date(date + "T00:00:00");
-      setCalYear(d.getFullYear());
-      setCalMonth(d.getMonth());
-    }
-  }, [date]);
-
-  useEffect(() => {
-    if (!calOpen) return;
-    const handler = (e: MouseEvent) => {
-      if (calRef.current && !calRef.current.contains(e.target as Node)) setCalOpen(false);
-    };
-    document.addEventListener("mousedown", handler);
-    return () => document.removeEventListener("mousedown", handler);
-  }, [calOpen]);
-
-  function getCalDays(year: number, month: number) {
-    const first = new Date(year, month, 1);
-    const lastDay = new Date(year, month + 1, 0).getDate();
-    const startDow = first.getDay();
-    const rows: (number | null)[][] = [];
-    let row: (number | null)[] = Array(startDow).fill(null);
-    for (let d = 1; d <= lastDay; d++) {
-      row.push(d);
-      if (row.length === 7) { rows.push(row); row = []; }
-    }
-    if (row.length > 0) { while (row.length < 7) row.push(null); rows.push(row); }
-    return rows;
-  }
-  function pad2(n: number) { return String(n).padStart(2, "0"); }
-  const calDays = getCalDays(calYear, calMonth);
   const doneCount = Object.values(missions).filter(Boolean).length;
   const allDone =
     date &&
@@ -239,82 +200,42 @@ export default function Home() {
         </p>
       </header>
 
-      {/* Date Navigator with Calendar */}
-      <div className="flex items-center justify-center gap-2 mt-4 mb-5 relative">
-        <button
-          onClick={goPrev}
-          disabled={!canPrev}
-          className="w-14 h-14 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-4xl font-bold"
-        >
-          ‹
-        </button>
-        <button
-          onClick={() => setCalOpen(!calOpen)}
-          className="flex items-center gap-2 bg-white px-5 py-2 rounded-full border border-[var(--border-light)] cursor-pointer hover:shadow-sm transition-all"
-        >
-          <span className="text-sm font-semibold text-[var(--foreground)]">
-            {dateLabel}
+      {/* D-number Navigator */}
+      <div className="flex items-center justify-center gap-1 mt-4 mb-5">
+        <button onClick={goPrev7} disabled={!canPrev7}
+          className="w-10 h-10 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-2xl font-bold"
+          title="7일 전"
+        >«</button>
+        <button onClick={goPrev} disabled={!canPrev}
+          className="w-12 h-12 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-3xl font-bold"
+        >‹</button>
+        <div className="flex items-center gap-2 bg-white px-5 py-2 rounded-full border border-[var(--border-light)] min-w-[140px] justify-center">
+          <span className="text-sm font-bold text-[var(--foreground)]">
+            D{dayNumber}
           </span>
-          {isToday && (
+          {date === today && (
             <span className="text-[10px] font-bold bg-amber-400 text-white px-2 py-0.5 rounded-full">
               TODAY
             </span>
           )}
-          <span className="text-xs text-gray-400">{calOpen ? "▲" : "▼"}</span>
-        </button>
-        <button
-          onClick={goNext}
-          disabled={!canNext}
-          className="w-14 h-14 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-4xl font-bold"
-        >
-          ›
-        </button>
-
-        {/* Calendar popup */}
-        {calOpen && (
-          <div ref={calRef} className="absolute left-1/2 -translate-x-1/2 top-full mt-2 z-50 bg-white rounded-2xl shadow-xl border border-gray-100 p-4 w-[320px]">
-            <div className="flex items-center justify-between mb-3">
-              <button onClick={() => { if (calMonth === 0) { setCalYear(calYear-1); setCalMonth(11); } else setCalMonth(calMonth-1); }} className="w-8 h-8 rounded-full hover:bg-gray-100 flex items-center justify-center text-gray-500 font-bold">‹</button>
-              <span className="font-bold text-gray-800">{calYear}년 {calMonth + 1}월</span>
-              <button onClick={() => { if (calMonth === 11) { setCalYear(calYear+1); setCalMonth(0); } else setCalMonth(calMonth+1); }} className="w-8 h-8 rounded-full hover:bg-gray-100 flex items-center justify-center text-gray-500 font-bold">›</button>
-            </div>
-            <div className="grid grid-cols-7 gap-0 mb-1">
-              {DAYS_LABEL.map((d, i) => (
-                <div key={d} className={`text-center text-xs font-medium py-1 ${i === 0 ? "text-red-400" : i === 6 ? "text-blue-400" : "text-gray-400"}`}>{d}</div>
-              ))}
-            </div>
-            {calDays.map((row, ri) => (
-              <div key={ri} className="grid grid-cols-7 gap-0">
-                {row.map((day, ci) => {
-                  if (day === null) return <div key={ci} className="h-9" />;
-                  const ds = `${calYear}-${pad2(calMonth+1)}-${pad2(day)}`;
-                  const has = themeSet.has(ds) && ds >= minDate && ds <= maxDate;
-                  const sel = ds === date;
-                  const isTod = ds === today;
-                  return (
-                    <button key={ci} disabled={!has && !(themeSet.has(ds) && role === "guest")}
-                      onClick={() => { if (has) { setDate(ds); setCalOpen(false); } else if (themeSet.has(ds) && role === "guest") { router.push("/login"); } }}
-                      className={`h-9 w-full rounded-lg text-sm font-medium transition-all relative
-                        ${sel ? "bg-amber-500 text-white font-bold shadow-md"
-                          : isTod ? "bg-amber-50 text-amber-600 font-bold ring-2 ring-amber-400 ring-opacity-40"
-                          : has ? "hover:bg-gray-100 text-gray-700 cursor-pointer"
-                          : themeSet.has(ds) && role === "guest" ? "text-gray-400 cursor-pointer" : "text-gray-200 cursor-default"}
-                        ${ci === 0 && !sel ? "text-red-400" : ""} ${ci === 6 && !sel ? "text-blue-400" : ""}
-                      `}
-                    >
-                      {day}
-                      {has && !sel && <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-amber-400 opacity-40" />}
-                    </button>
-                  );
-                })}
-              </div>
-            ))}
-            <button onClick={() => { goToday(); setCalOpen(false); }} className="mt-3 w-full py-2 rounded-xl text-sm font-semibold bg-amber-50 text-amber-600 hover:shadow-md transition-all">
-              📍 오늘로 이동
-            </button>
-          </div>
-        )}
+        </div>
+        <button onClick={goNext} disabled={!canNext}
+          className="w-12 h-12 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-3xl font-bold"
+        >›</button>
+        <button onClick={goNext7} disabled={!canNext7}
+          className="w-10 h-10 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-2xl font-bold"
+          title="7일 후"
+        >»</button>
       </div>
+
+      {/* Access restriction toast */}
+      {accessToast && (
+        <div className="mb-4 mx-auto max-w-xs animate-in fade-in text-center">
+          <p className="text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded-xl px-4 py-2 font-medium">
+            🔒 {accessToast}
+          </p>
+        </div>
+      )}
 
       {/* Keyword Card */}
       <section className="mb-5">

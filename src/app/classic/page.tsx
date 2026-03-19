@@ -24,8 +24,12 @@ const classics = classicsRaw as ClassicItem[];
 export default function ClassicPage() {
   const { user } = useAuthContext();
   const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, minDate, maxDate } =
-    useSharedDate(role);
+  const {
+    date, today, theme, dayNumber,
+    canPrev, canNext, canPrev7, canNext7,
+    goPrev, goNext, goPrev7, goNext7,
+    goToday, accessToast,
+  } = useSharedDate(role);
   const item = classics.find((c) => c.date === date) || null;
   const { done, complete } = useMission("classic", item?.date || "");
   const [answer, setAnswer] = useState("");
@@ -42,21 +46,11 @@ export default function ClassicPage() {
       style={{ background: "var(--background)" }}
     >
       <DayNavigator
-        title="오늘의 고전"
-        emoji="📖"
-        date={item.date}
-        today={today}
-        keyword={theme?.keyword}
-        canPrev={canPrev}
-        canNext={canNext}
-        onPrev={goPrev}
-        onNext={goNext}
-        onToday={goToday}
-        onSelectDate={setDate}
-        topicKey="classic"
-        minDate={minDate}
-        maxDate={maxDate}
-        isGuest={role === "guest"}
+        title="오늘의 고전" emoji="📖" date={item.date} today={today}
+        keyword={theme?.keyword} dayNumber={dayNumber}
+        canPrev={canPrev} canNext={canNext} canPrev7={canPrev7} canNext7={canNext7}
+        onPrev={goPrev} onNext={goNext} onPrev7={goPrev7} onNext7={goNext7}
+        onToday={goToday} topicKey="classic" accessToast={accessToast}
       />
 
       {/* 작품 정보 & 줄거리 */}
