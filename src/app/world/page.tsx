@@ -1,24 +1,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import worlds from "@/data/worlds.json";
-import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
-import { useAuthContext } from "@/contexts/AuthContext";
+import { useDayContext } from "@/contexts/DayContext";
+
 import DayNavigator from "@/components/DayNavigator";
 
 export default function WorldPage() {
-  const { user } = useAuthContext();
-  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const {
-    date, today, theme, dayNumber,
-    canPrev, canNext, canPrev7, canNext7,
-    goPrev, goNext, goPrev7, goNext7,
-    goToday, accessToast,
-  } = useSharedDate(role);
-  const world = worlds.find((w) => w.date === date) || null;
-  const { done, complete } = useMission("world", world?.date || "");
+  const { dayIndex } = useDayContext();
+  const item = worlds[dayIndex] || null;
+  const { done, complete } = useMission("world", dayIndex);
 
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [quizSubmitted, setQuizSubmitted] = useState(false);
@@ -26,18 +18,16 @@ export default function WorldPage() {
   useEffect(() => {
     setSelectedAnswer(null);
     setQuizSubmitted(false);
-  }, [date]);
+  }, [dayIndex]);
 
-  if (!world) return null;
-
-  const isCorrect = selectedAnswer === world.quiz.answer;
+  const isCorrect = item ? selectedAnswer === item.quiz.answer : false;
 
   const handleQuizSubmit = () => {
     if (selectedAnswer !== null) {
       setQuizSubmitted(true);
-      const correct = selectedAnswer === world.quiz.answer;
+      const correct = selectedAnswer === item.quiz.answer;
       const letter = String.fromCharCode(65 + selectedAnswer);
-      const chosen = `${letter}. ${world.quiz.options[selectedAnswer]}`;
+      const chosen = `${letter}. ${item.quiz.options[selectedAnswer]}`;
       complete(correct ? `정답 ${chosen}` : `오답 ${chosen}`);
     }
   };
@@ -47,30 +37,34 @@ export default function WorldPage() {
       className="theme-world min-h-screen px-4 py-8 max-w-lg mx-auto"
       style={{ background: "var(--background)" }}
     >
-      <DayNavigator
-        title="오늘의 세계" emoji="🌍" date={world.date} today={today}
-        keyword={theme?.keyword} dayNumber={dayNumber}
-        canPrev={canPrev} canNext={canNext} canPrev7={canPrev7} canNext7={canNext7}
-        onPrev={goPrev} onNext={goNext} onPrev7={goPrev7} onNext7={goNext7}
-        onToday={goToday} topicKey="world" accessToast={accessToast}
-      />
+      <DayNavigator title="오늘의 세계" emoji="🌍" topicKey="world" />
 
+      {!item ? (
+        <section className="mb-6">
+          <div className="w-full bg-white rounded-2xl p-8 shadow-sm text-center">
+            <span className="text-5xl block mb-4">🌍</span>
+            <h2 className="text-lg font-bold text-gray-700 mb-2">아직 세계 콘텐츠가 준비되지 않았어요</h2>
+            <p className="text-sm text-gray-500 leading-relaxed">다른 날짜를 확인하거나, 나중에 다시 방문해 주세요!</p>
+          </div>
+        </section>
+      ) : (
+      <>
       {/* 나라 소개 */}
       <section className="mb-4">
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-3xl">{world.flag}</span>
+            <span className="text-3xl">{item.flag}</span>
             <div>
-              <h2 className="text-xl font-bold">{world.country}</h2>
+              <h2 className="text-xl font-bold">{item.country}</h2>
               <p className="text-xs text-[var(--text-muted)]">
-                {world.region}
+                {item.region}
               </p>
             </div>
           </div>
           <h3 className="text-lg font-semibold text-[var(--accent)] mb-3">
-            {world.title}
+            {item.title}
           </h3>
-          <p className="text-[1.05rem] leading-[1.8]">{world.story}</p>
+          <p className="text-[1.05rem] leading-[1.8]">{item.story}</p>
         </div>
       </section>
 
@@ -83,7 +77,7 @@ export default function WorldPage() {
               문화 포인트
             </span>
           </div>
-          <p className="text-base leading-relaxed">{world.culture_point}</p>
+          <p className="text-base leading-relaxed">{item.culture_point}</p>
         </div>
       </section>
 
@@ -97,7 +91,7 @@ export default function WorldPage() {
             </span>
           </div>
           <p className="text-base leading-relaxed">
-            {typeof world.food === 'string' ? world.food : `${world.food.name} — ${world.food.description}`}
+            {typeof item.food === 'string' ? item.food : `${item.food.name} — ${item.food.description}`}
           </p>
         </div>
       </section>
@@ -111,7 +105,7 @@ export default function WorldPage() {
               놀라운 사실
             </span>
           </div>
-          <p className="text-base leading-relaxed">{world.fun_fact}</p>
+          <p className="text-base leading-relaxed">{item.fun_fact}</p>
         </div>
       </section>
 
@@ -124,12 +118,12 @@ export default function WorldPage() {
               미션! - 오늘의 퀴즈
             </span>
           </div>
-          <p className="text-base font-medium mb-4">{world.quiz.question}</p>
+          <p className="text-base font-medium mb-4">{item.quiz.question}</p>
           <div className="space-y-2 mb-4">
-            {world.quiz.options.map((option, i) => {
+            {item.quiz.options.map((option, i) => {
               let btnClass = "bg-gray-50 border-gray-200 text-gray-800";
               if (quizSubmitted) {
-                if (i === world.quiz.answer) {
+                if (i === item.quiz.answer) {
                   btnClass = "bg-green-50 border-green-400 text-green-800";
                 } else if (i === selectedAnswer && !isCorrect) {
                   btnClass = "bg-red-50 border-red-400 text-red-800";
@@ -150,11 +144,11 @@ export default function WorldPage() {
                     {String.fromCharCode(65 + i)}.
                   </span>
                   {option}
-                  {quizSubmitted && i === world.quiz.answer && " ✅"}
+                  {quizSubmitted && i === item.quiz.answer && " ✅"}
                   {quizSubmitted &&
                     i === selectedAnswer &&
                     !isCorrect &&
-                    i !== world.quiz.answer &&
+                    i !== item.quiz.answer &&
                     " ❌"}
                 </button>
               );
@@ -189,11 +183,12 @@ export default function WorldPage() {
       </section>
 
       <footer className="text-center mt-6 space-y-2">
-        <Link href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
+        <a href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
           🏠 홈으로 돌아가기
-        </Link>
-        <p className="text-xs text-[var(--text-muted)]">{world.date}</p>
+        </a>
       </footer>
+      </>
+      )}
     </div>
   );
 }

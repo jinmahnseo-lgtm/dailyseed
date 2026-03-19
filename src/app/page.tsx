@@ -1,13 +1,13 @@
 "use client";
 
-import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState, useEffect, useCallback } from "react";
-import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
+
+import { useDayContext } from "@/contexts/DayContext";
 import { isMissionDone, setCurrentUserId } from "@/hooks/useMission";
 import { useAuthContext } from "@/contexts/AuthContext";
 import { pullMissionsFromSupabase, migrateLocalStorageToSupabase, flushSyncQueue } from "@/lib/sync";
 import MissionComplete from "@/components/MissionComplete";
+import LoginModal from "@/components/LoginModal";
 
 const MENUS = [
   {
@@ -103,16 +103,13 @@ const MENUS = [
 ];
 
 export default function Home() {
-  const router = useRouter();
   const { user, profile, loading: authLoading } = useAuthContext();
-  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
   const {
-    date, today, theme, dayNumber,
-    canPrev, canNext, canPrev7, canNext7,
-    goPrev, goNext, goPrev7, goNext7,
-    goToday, setDate, accessToast,
-  } = useSharedDate(role);
+    dayIndex, theme, dayNumber, canPrev, canNext,
+    goPrev, goNext, goPrev7, goNext7, goToday, accessToast,
+  } = useDayContext();
   const [missions, setMissions] = useState<Record<string, boolean>>({});
+  const [showLogin, setShowLogin] = useState(false);
   const isLoggedIn = !!user;
 
   // Keep useMission's global userId in sync
@@ -130,17 +127,15 @@ export default function Home() {
   }, [user?.id]);
 
   const refreshMissions = useCallback(() => {
-    if (date) {
-      setMissions({
-        news: isMissionDone("news", date),
-        classic: isMissionDone("classic", date),
-        art: isMissionDone("art", date),
-        world: isMissionDone("world", date),
-        why: isMissionDone("why", date),
-        english: isMissionDone("english", date),
-      });
-    }
-  }, [date]);
+    setMissions({
+      news: isMissionDone("news", dayIndex),
+      classic: isMissionDone("classic", dayIndex),
+      art: isMissionDone("art", dayIndex),
+      world: isMissionDone("world", dayIndex),
+      why: isMissionDone("why", dayIndex),
+      english: isMissionDone("english", dayIndex),
+    });
+  }, [dayIndex]);
 
   useEffect(() => {
     refreshMissions();
@@ -157,7 +152,6 @@ export default function Home() {
 
   const doneCount = Object.values(missions).filter(Boolean).length;
   const allDone =
-    date &&
     Object.keys(missions).length === 6 &&
     Object.values(missions).every(Boolean);
   const progressPercent = (doneCount / 6) * 100;
@@ -169,19 +163,19 @@ export default function Home() {
         {/* Login/Profile icon */}
         <div className="absolute right-0 top-8">
           {user ? (
-            <Link href="/profile">
+            <a href="/profile">
               <div className="w-9 h-9 bg-gradient-to-br from-amber-400 to-orange-400 rounded-full flex items-center justify-center text-sm text-white font-bold hover:scale-105 transition-transform">
                 {profile?.display_name?.[0] || user?.user_metadata?.name?.[0] || user?.user_metadata?.full_name?.[0] || "U"}
               </div>
-            </Link>
+            </a>
           ) : (
-            <Link href="/login">
+            <button onClick={() => setShowLogin(true)}>
               <div className="w-9 h-9 bg-gray-100 rounded-full flex items-center justify-center text-gray-400 hover:bg-gray-200 transition-colors">
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0" />
                 </svg>
               </div>
-            </Link>
+            </button>
           )}
         </div>
         <div
@@ -202,22 +196,23 @@ export default function Home() {
 
       {/* D-number Navigator */}
       <div className="flex items-center justify-center gap-1 mt-4 mb-5">
-        <button onClick={goPrev7} disabled={!canPrev7}
+        <button onClick={goPrev7} disabled={!canPrev}
           className="w-10 h-10 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-2xl font-bold"
           title="7일 전"
         >«</button>
         <button onClick={goPrev} disabled={!canPrev}
           className="w-12 h-12 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-3xl font-bold"
         >‹</button>
-        <div className="flex items-center gap-2 bg-white px-5 py-2 rounded-full border border-[var(--border-light)] min-w-[140px] justify-center">
-          <span className="text-sm font-bold text-[var(--foreground)]">
-            Day {dayNumber}
+        <div className="flex items-center gap-2 bg-white px-5 py-2 rounded-full border border-[var(--border-light)] min-w-[140px] justify-center"
+          suppressHydrationWarning>
+          <span className="text-sm font-bold text-[var(--foreground)]" suppressHydrationWarning>
+            {`Day ${dayNumber}`}
           </span>
         </div>
         <button onClick={goNext} disabled={!canNext}
           className="w-12 h-12 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-3xl font-bold"
         >›</button>
-        <button onClick={goNext7} disabled={!canNext7}
+        <button onClick={goNext7} disabled={!canNext}
           className="w-10 h-10 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-2xl font-bold"
           title="7일 후"
         >»</button>
@@ -276,7 +271,7 @@ export default function Home() {
 
       {/* Mission Complete */}
       {isLoggedIn && allDone && (
-        <MissionComplete date={date} keyword={theme?.keyword || ""} onGoNext={canNext ? goNext : undefined} />
+        <MissionComplete dayIndex={dayIndex} keyword={theme?.keyword || ""} onGoNext={canNext ? goNext : undefined} />
       )}
 
       {/* Menu Cards - 2x3 Grid */}
@@ -291,7 +286,7 @@ export default function Home() {
           };
 
           return (
-            <Link key={menu.href} href={menu.href} onClick={handleClick}>
+            <a key={menu.href} href={menu.href} onClick={handleClick}>
               <div
                 className={`fade-up fade-up-delay-${i + 1} group relative bg-white rounded-2xl p-4 border border-[var(--border-light)] hover:shadow-md transition-all duration-200 active:scale-[0.97] h-full`}
                 style={{ boxShadow: 'var(--shadow-sm)' }}
@@ -329,7 +324,7 @@ export default function Home() {
                   <div className={`absolute bottom-0 left-3 right-3 h-0.5 bg-gradient-to-r ${menu.gradient} rounded-full opacity-40`} />
                 )}
               </div>
-            </Link>
+            </a>
           );
         })}
       </section>
@@ -338,13 +333,16 @@ export default function Home() {
       {!isLoggedIn && !authLoading && (
         <div className="mt-4 text-center">
           <button
-            onClick={() => router.push("/login")}
+            onClick={() => setShowLogin(true)}
             className="text-xs text-amber-600 font-semibold hover:underline"
           >
             로그인하면 매일 새로운 콘텐츠를 볼 수 있어요 →
           </button>
         </div>
       )}
+
+      {/* Login Modal */}
+      <LoginModal open={showLogin} onClose={() => setShowLogin(false)} />
 
       {/* Footer */}
       <footer className="text-center mt-8 mb-2">

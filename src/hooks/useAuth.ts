@@ -18,13 +18,27 @@ interface AuthState {
   loading: boolean;
 }
 
+// localStorage에서 Supabase 세션을 동기적으로 읽어 초기값으로 사용
+// → 캐시/네트워크 상태와 무관하게 즉시 로그인 상태 표시
+function getInitialAuthState(): AuthState {
+  if (typeof window === "undefined" || !isSupabaseConfigured()) {
+    return { user: null, session: null, profile: null, loading: true };
+  }
+  try {
+    const raw = localStorage.getItem("dailyseed-auth");
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      const user = parsed?.user;
+      if (user?.id) {
+        return { user, session: parsed, profile: null, loading: false };
+      }
+    }
+  } catch { /* ignore */ }
+  return { user: null, session: null, profile: null, loading: true };
+}
+
 export function useAuth() {
-  const [state, setState] = useState<AuthState>({
-    user: null,
-    session: null,
-    profile: null,
-    loading: true,
-  });
+  const [state, setState] = useState<AuthState>(getInitialAuthState);
 
   const fetchOrCreateProfile = useCallback(async (user: User) => {
     if (!supabase) return null;
@@ -53,7 +67,20 @@ export function useAuth() {
       return;
     }
 
-    // Just listen for auth state changes - Supabase handles everything
+    // 1) 기존 세션 복원 (새로고침 시 localStorage에서 읽기)
+    supabase!.auth.getSession().then(async ({ data: { session } }) => {
+      if (session?.user) {
+        // 세션 즉시 반영 → 로그인 상태 빠르게 표시
+        setState((s) => ({ ...s, user: session.user, session, loading: false }));
+        // 프로필은 백그라운드에서 fetch
+        const profile = await fetchOrCreateProfile(session.user);
+        if (profile) setState((s) => ({ ...s, profile }));
+      } else {
+        setState((s) => ({ ...s, loading: false }));
+      }
+    });
+
+    // 2) 이후 변경사항 구독 (로그인/로그아웃 등)
     const {
       data: { subscription },
     } = supabase!.auth.onAuthStateChange(async (event, session) => {
@@ -65,10 +92,10 @@ export function useAuth() {
       }
     });
 
-    // Safety: stop loading after 1.5s no matter what
+    // Safety: stop loading after 3s no matter what
     const timeout = setTimeout(() => {
       setState((s) => (s.loading ? { ...s, loading: false } : s));
-    }, 1500);
+    }, 3000);
 
     return () => {
       subscription.unsubscribe();

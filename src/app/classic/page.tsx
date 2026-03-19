@@ -1,11 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import classicsRaw from "@/data/classics.json";
-import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
+import { useDayContext } from "@/contexts/DayContext";
 import { useMission } from "@/hooks/useMission";
-import { useAuthContext } from "@/contexts/AuthContext";
+
 import DayNavigator from "@/components/DayNavigator";
 
 interface ClassicItem {
@@ -22,37 +21,32 @@ interface ClassicItem {
 const classics = classicsRaw as ClassicItem[];
 
 export default function ClassicPage() {
-  const { user } = useAuthContext();
-  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const {
-    date, today, theme, dayNumber,
-    canPrev, canNext, canPrev7, canNext7,
-    goPrev, goNext, goPrev7, goNext7,
-    goToday, accessToast,
-  } = useSharedDate(role);
-  const item = classics.find((c) => c.date === date) || null;
-  const { done, complete } = useMission("classic", item?.date || "");
+  const { dayIndex } = useDayContext();
+  const item = classics[dayIndex] || null;
+  const { done, complete } = useMission("classic", dayIndex);
   const [answer, setAnswer] = useState("");
 
   useEffect(() => {
     setAnswer("");
-  }, [date]);
-
-  if (!item) return null;
+  }, [dayIndex]);
 
   return (
     <div
       className="theme-classic min-h-screen px-4 py-8 max-w-lg mx-auto"
       style={{ background: "var(--background)" }}
     >
-      <DayNavigator
-        title="오늘의 고전" emoji="📖" date={item.date} today={today}
-        keyword={theme?.keyword} dayNumber={dayNumber}
-        canPrev={canPrev} canNext={canNext} canPrev7={canPrev7} canNext7={canNext7}
-        onPrev={goPrev} onNext={goNext} onPrev7={goPrev7} onNext7={goNext7}
-        onToday={goToday} topicKey="classic" accessToast={accessToast}
-      />
+      <DayNavigator title="오늘의 고전" emoji="📖" topicKey="classic" />
 
+      {!item ? (
+        <section className="mb-6">
+          <div className="w-full bg-white rounded-2xl p-8 shadow-sm text-center">
+            <span className="text-5xl block mb-4">📖</span>
+            <h2 className="text-lg font-bold text-gray-700 mb-2">아직 고전 콘텐츠가 준비되지 않았어요</h2>
+            <p className="text-sm text-gray-500 leading-relaxed">다른 날짜를 확인하거나, 나중에 다시 방문해 주세요!</p>
+          </div>
+        </section>
+      ) : (
+      <>
       {/* 작품 정보 & 줄거리 */}
       <section className="mb-4">
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
@@ -153,11 +147,12 @@ export default function ClassicPage() {
       </section>
 
       <footer className="text-center mt-6 space-y-2">
-        <Link href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
+        <a href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
           🏠 홈으로 돌아가기
-        </Link>
-        <p className="text-xs text-[var(--text-muted)]">{item.date}</p>
+        </a>
       </footer>
+      </>
+      )}
     </div>
   );
 }

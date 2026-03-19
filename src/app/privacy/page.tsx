@@ -1,11 +1,10 @@
 "use client";
 
-import Link from "next/link";
 
 export default function PrivacyPage() {
   return (
     <div className="min-h-screen max-w-lg mx-auto px-5 py-8">
-      <Link href="/login" className="text-sm text-gray-400 hover:text-gray-600 mb-6 inline-block">← 돌아가기</Link>
+      <a href="/login" className="text-sm text-gray-400 hover:text-gray-600 mb-6 inline-block">← 돌아가기</a>
       <h1 className="text-2xl font-bold mb-6">개인정보 처리방침</h1>
       <div className="prose prose-sm text-gray-700 space-y-6">
         <section>

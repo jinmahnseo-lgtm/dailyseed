@@ -1,6 +1,25 @@
-/*
-  Cache-Control: no-cache, no-store, must-revalidate
-  Pragma: no-cache
+/
+  Cache-Control: no-store
+/news
+  Cache-Control: no-store
+/classic
+  Cache-Control: no-store
+/art
+  Cache-Control: no-store
+/world
+  Cache-Control: no-store
+/why
+  Cache-Control: no-store
+/english
+  Cache-Control: no-store
+/login
+  Cache-Control: no-store
+/profile
+  Cache-Control: no-store
+/privacy
+  Cache-Control: no-store
+/terms
+  Cache-Control: no-store
 
 /_next/static/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: no-cache

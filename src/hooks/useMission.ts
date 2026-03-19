@@ -3,58 +3,53 @@
 import { useState, useEffect, useCallback } from "react";
 import { syncMissionToSupabase } from "@/lib/sync";
 
-// We access auth from a global getter to avoid changing hook signatures
 let _currentUserId: string | null = null;
 
 export function setCurrentUserId(userId: string | null) {
   _currentUserId = userId;
 }
 
-export function useMission(page: string, date: string) {
+export function useMission(page: string, dayIndex: number) {
   const [done, setDoneState] = useState(false);
-  const key = `dailyseed-${page}-${date}`;
-  const dataKey = `dailyseed-${page}-${date}-data`;
+  const key = `dailyseed-${page}-day${dayIndex}`;
+  const dataKey = `dailyseed-${page}-day${dayIndex}-data`;
 
   useEffect(() => {
-    if (date) {
-      setDoneState(localStorage.getItem(key) === "done");
-    }
-  }, [date, key]);
+    setDoneState(localStorage.getItem(key) === "done");
+  }, [key]);
 
   const complete = useCallback((answerData?: string) => {
-    // 1. localStorage (instant, always works)
     localStorage.setItem(key, "done");
     if (answerData) {
       localStorage.setItem(dataKey, answerData);
     }
     setDoneState(true);
 
-    // 2. Supabase sync (background, fire-and-forget)
     if (_currentUserId) {
-      syncMissionToSupabase(_currentUserId, page, date, answerData).catch(() => {});
+      syncMissionToSupabase(_currentUserId, page, String(dayIndex), answerData).catch(() => {});
     }
-  }, [key, dataKey, page, date]);
+  }, [key, dataKey, page, dayIndex]);
 
   return { done, complete };
 }
 
-export function isMissionDone(page: string, date: string): boolean {
+export function isMissionDone(page: string, dayIndex: number): boolean {
   if (typeof window === "undefined") return false;
-  return localStorage.getItem(`dailyseed-${page}-${date}`) === "done";
+  return localStorage.getItem(`dailyseed-${page}-day${dayIndex}`) === "done";
 }
 
-export function getMissionData(page: string, date: string): string {
+export function getMissionData(page: string, dayIndex: number): string {
   if (typeof window === "undefined") return "";
-  return localStorage.getItem(`dailyseed-${page}-${date}-data`) || "";
+  return localStorage.getItem(`dailyseed-${page}-day${dayIndex}-data`) || "";
 }
 
-export function isReportSent(date: string): boolean {
+export function isReportSent(dayIndex: number): boolean {
   if (typeof window === "undefined") return false;
-  return localStorage.getItem(`dailyseed-report-${date}`) === "sent";
+  return localStorage.getItem(`dailyseed-report-day${dayIndex}`) === "sent";
 }
 
-export function markReportSent(date: string): void {
-  localStorage.setItem(`dailyseed-report-${date}`, "sent");
+export function markReportSent(dayIndex: number): void {
+  localStorage.setItem(`dailyseed-report-day${dayIndex}`, "sent");
 }
 
 export function getStudentName(): string {

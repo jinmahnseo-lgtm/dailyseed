@@ -1,11 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import newsRaw from "@/data/news.json";
-import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
+import { useDayContext } from "@/contexts/DayContext";
 import { useMission } from "@/hooks/useMission";
-import { useAuthContext } from "@/contexts/AuthContext";
+
 import DayNavigator from "@/components/DayNavigator";
 
 interface GlossaryItem {
@@ -30,16 +29,9 @@ interface NewsItem {
 const news = newsRaw as NewsItem[];
 
 export default function NewsPage() {
-  const { user } = useAuthContext();
-  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const {
-    date, today, theme, dayNumber,
-    canPrev, canNext, canPrev7, canNext7,
-    goPrev, goNext, goPrev7, goNext7,
-    goToday, accessToast,
-  } = useSharedDate(role);
-  const item = news.find((n) => n.date === date) || null;
-  const { done, complete } = useMission("news", item?.date || "");
+  const { dayIndex } = useDayContext();
+  const item = news[dayIndex] || null;
+  const { done, complete } = useMission("news", dayIndex);
 
   const [side, setSide] = useState<"pro" | "con" | null>(null);
   const [reason, setReason] = useState("");
@@ -47,7 +39,7 @@ export default function NewsPage() {
   useEffect(() => {
     setSide(null);
     setReason("");
-  }, [date]);
+  }, [dayIndex]);
 
   const handleSubmitDebate = () => {
     if (side && reason.trim()) {
@@ -61,25 +53,7 @@ export default function NewsPage() {
       className="theme-news min-h-screen px-4 py-8 max-w-lg mx-auto"
       style={{ background: "var(--background)" }}
     >
-      <DayNavigator
-        title="오늘의 뉴스"
-        emoji="📰"
-        date={date}
-        today={today}
-        keyword={theme?.keyword}
-        dayNumber={dayNumber}
-        canPrev={canPrev}
-        canNext={canNext}
-        canPrev7={canPrev7}
-        canNext7={canNext7}
-        onPrev={goPrev}
-        onNext={goNext}
-        onPrev7={goPrev7}
-        onNext7={goNext7}
-        onToday={goToday}
-        topicKey="news"
-        accessToast={accessToast}
-      />
+      <DayNavigator title="오늘의 뉴스" emoji="📰" topicKey="news" />
 
       {!item ? (
         <section className="mb-6">
@@ -231,10 +205,9 @@ export default function NewsPage() {
       </section>
 
       <footer className="text-center mt-6 space-y-2">
-        <Link href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
+        <a href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
           🏠 홈으로 돌아가기
-        </Link>
-        <p className="text-xs text-[var(--text-muted)]">{item.date}</p>
+        </a>
       </footer>
       </>
       )}

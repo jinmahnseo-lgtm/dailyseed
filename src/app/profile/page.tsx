@@ -1,11 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { useAuthContext } from "@/contexts/AuthContext";
 
 export default function ProfilePage() {
-  const router = useRouter();
   const { user, profile, loading, isConfigured, signOut, updateProfile } =
     useAuthContext();
   const [displayName, setDisplayName] = useState("");
@@ -14,9 +12,9 @@ export default function ProfilePage() {
 
   useEffect(() => {
     if (!loading && !user) {
-      router.replace("/login");
+      window.location.replace("/login");
     }
-  }, [loading, user, router]);
+  }, [loading, user]);
 
   useEffect(() => {
     if (profile?.display_name) {
@@ -46,7 +44,8 @@ export default function ProfilePage() {
   };
 
   const handleSignOut = async () => {
-    await signOut();
+    try { await signOut(); } catch { /* ignore */ }
+    localStorage.removeItem("dailyseed-auth");
     window.location.href = "/";
   };
 
@@ -59,7 +58,7 @@ export default function ProfilePage() {
       {/* Header */}
       <header className="pt-8 pb-6">
         <button
-          onClick={() => router.back()}
+          onClick={() => window.history.back()}
           className="text-sm text-gray-400 hover:text-gray-600 mb-4 block"
         >
           ← 돌아가기

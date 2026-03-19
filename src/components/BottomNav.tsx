@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const MENUS = [
@@ -23,7 +22,7 @@ export default function BottomNav() {
           {MENUS.map((menu) => {
             const isActive = pathname === menu.href;
             return (
-              <Link
+              <a
                 key={menu.href}
                 href={menu.href}
                 className={`flex flex-col items-center gap-0.5 px-2 py-1.5 rounded-xl transition-all duration-200 active:scale-90`}
@@ -47,7 +46,7 @@ export default function BottomNav() {
                 {isActive && (
                   <div className="w-1 h-1 rounded-full bg-[var(--accent)] -mt-0.5" />
                 )}
-              </Link>
+              </a>
             );
           })}
         </div>

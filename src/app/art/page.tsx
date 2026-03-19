@@ -1,47 +1,41 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import arts from "@/data/arts.json";
-import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
-import { useAuthContext } from "@/contexts/AuthContext";
+import { useDayContext } from "@/contexts/DayContext";
+
 import DayNavigator from "@/components/DayNavigator";
 
 export default function ArtPage() {
-  const { user } = useAuthContext();
-  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const {
-    date, today, theme, dayNumber,
-    canPrev, canNext, canPrev7, canNext7,
-    goPrev, goNext, goPrev7, goNext7,
-    goToday, accessToast,
-  } = useSharedDate(role);
-  const art = arts.find((a) => a.date === date) || null;
-  const { done, complete } = useMission("art", art?.date || "");
+  const { dayIndex } = useDayContext();
+  const item = arts[dayIndex] || null;
+  const { done, complete } = useMission("art", dayIndex);
   const [review, setReview] = useState("");
   const [imgError, setImgError] = useState(false);
 
   useEffect(() => {
     setReview("");
     setImgError(false);
-  }, [date]);
-
-  if (!art) return null;
+  }, [dayIndex]);
 
   return (
     <div
       className="theme-art min-h-screen px-4 py-8 max-w-lg mx-auto"
       style={{ background: "var(--background)" }}
     >
-      <DayNavigator
-        title="오늘의 예술" emoji="🎨" date={art.date} today={today}
-        keyword={theme?.keyword} dayNumber={dayNumber}
-        canPrev={canPrev} canNext={canNext} canPrev7={canPrev7} canNext7={canNext7}
-        onPrev={goPrev} onNext={goNext} onPrev7={goPrev7} onNext7={goNext7}
-        onToday={goToday} topicKey="art" accessToast={accessToast}
-      />
+      <DayNavigator title="오늘의 예술" emoji="🎨" topicKey="art" />
 
+      {!item ? (
+        <section className="mb-6">
+          <div className="w-full bg-white rounded-2xl p-8 shadow-sm text-center">
+            <span className="text-5xl block mb-4">🎨</span>
+            <h2 className="text-lg font-bold text-gray-700 mb-2">아직 예술 콘텐츠가 준비되지 않았어요</h2>
+            <p className="text-sm text-gray-500 leading-relaxed">다른 날짜를 확인하거나, 나중에 다시 방문해 주세요!</p>
+          </div>
+        </section>
+      ) : (
+      <>
       {/* 작품 정보 */}
       <section className="mb-4">
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
@@ -51,31 +45,31 @@ export default function ArtPage() {
               작품 소개
             </span>
           </div>
-          <h2 className="text-xl font-bold">{art.title}</h2>
+          <h2 className="text-xl font-bold">{item.title}</h2>
           <p className="text-sm text-[var(--text-muted)] mb-1">
-            {art.artist} · {art.year}년 · {art.country}
+            {item.artist} · {item.year}년 · {item.country}
           </p>
           <div className="flex items-center justify-between mb-3">
             <p className="text-[10px] text-gray-400">
               그림이 로딩되지 않으면 출처 링크를 클릭해주세요
             </p>
-            {art.source_url && (
+            {item.source_url && (
               <a
-                href={art.source_url}
+                href={item.source_url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[10px] text-gray-400 underline hover:text-gray-500 whitespace-nowrap ml-2"
               >
-                출처: {art.source_label || "Wikipedia"}
+                출처: {item.source_label || "Wikipedia"}
               </a>
             )}
           </div>
-          {art.image_url && !imgError && (
+          {item.image_url && !imgError && (
             <div className="mb-3">
               <div className="rounded-xl overflow-hidden bg-gray-100">
                 <img
-                  src={art.image_url}
-                  alt={`${art.title} — ${art.artist}`}
+                  src={item.image_url}
+                  alt={`${item.title} — ${item.artist}`}
                   className="w-full h-auto object-contain max-h-[400px]"
                   loading="lazy"
                   referrerPolicy="no-referrer"
@@ -84,7 +78,7 @@ export default function ArtPage() {
               </div>
             </div>
           )}
-          <div className="text-[1.05rem] leading-[1.8]">{art.story}</div>
+          <div className="text-[1.05rem] leading-[1.8]">{item.story}</div>
         </div>
       </section>
 
@@ -97,7 +91,7 @@ export default function ArtPage() {
               이것만은 봐!
             </span>
           </div>
-          <p className="text-base leading-relaxed">{art.look_for}</p>
+          <p className="text-base leading-relaxed">{item.look_for}</p>
         </div>
       </section>
 
@@ -110,7 +104,7 @@ export default function ArtPage() {
               알고 보면 더 재밌는
             </span>
           </div>
-          <p className="text-base leading-relaxed">{art.fun_fact}</p>
+          <p className="text-base leading-relaxed">{item.fun_fact}</p>
         </div>
       </section>
 
@@ -157,11 +151,12 @@ export default function ArtPage() {
       </section>
 
       <footer className="text-center mt-6 space-y-2">
-        <Link href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
+        <a href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
           🏠 홈으로 돌아가기
-        </Link>
-        <p className="text-xs text-[var(--text-muted)]">{art.date}</p>
+        </a>
       </footer>
+      </>
+      )}
     </div>
   );
 }

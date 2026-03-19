@@ -1,54 +1,48 @@
 "use client";
 
-import Link from "next/link";
 import whys from "@/data/whys.json";
-import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
-import { useAuthContext } from "@/contexts/AuthContext";
+import { useDayContext } from "@/contexts/DayContext";
+
 import DayNavigator from "@/components/DayNavigator";
 
 export default function WhyPage() {
-  const { user } = useAuthContext();
-  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const {
-    date, today, theme, dayNumber,
-    canPrev, canNext, canPrev7, canNext7,
-    goPrev, goNext, goPrev7, goNext7,
-    goToday, accessToast,
-  } = useSharedDate(role);
-  const why = whys.find((w) => w.date === date) || null;
-  const { done, complete } = useMission("why", why?.date || "");
-
-  if (!why) return null;
+  const { dayIndex } = useDayContext();
+  const item = whys[dayIndex] || null;
+  const { done, complete } = useMission("why", dayIndex);
 
   return (
     <div
-      className="min-h-screen px-4 py-8 max-w-lg mx-auto"
-      style={{ background: "#fff7ed" }}
+      className="theme-why min-h-screen px-4 py-8 max-w-lg mx-auto"
+      style={{ background: "var(--background)" }}
     >
-      <DayNavigator
-        title="오늘의 과학" emoji="🔬" date={why.date} today={today}
-        keyword={theme?.keyword} dayNumber={dayNumber}
-        canPrev={canPrev} canNext={canNext} canPrev7={canPrev7} canNext7={canNext7}
-        onPrev={goPrev} onNext={goNext} onPrev7={goPrev7} onNext7={goNext7}
-        onToday={goToday} topicKey="why" accessToast={accessToast}
-      />
+      <DayNavigator title="오늘의 과학" emoji="🔬" topicKey="why" />
 
+      {!item ? (
+        <section className="mb-6">
+          <div className="w-full bg-white rounded-2xl p-8 shadow-sm text-center">
+            <span className="text-5xl block mb-4">🔬</span>
+            <h2 className="text-lg font-bold text-gray-700 mb-2">아직 과학 콘텐츠가 준비되지 않았어요</h2>
+            <p className="text-sm text-gray-500 leading-relaxed">다른 날짜를 확인하거나, 나중에 다시 방문해 주세요!</p>
+          </div>
+        </section>
+      ) : (
+      <>
       {/* 오늘의 질문 */}
       <section className="mb-4">
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="text-center mb-3">
-            <span className="text-5xl">{why.emoji}</span>
+            <span className="text-5xl">{item.emoji}</span>
           </div>
           <h2 className="text-2xl font-bold text-center text-orange-600 mb-4">
-            {why.question}
+            {item.question}
           </h2>
           <div className="bg-orange-50 rounded-xl p-4">
             <p className="text-sm font-semibold text-orange-500 mb-1">
               💬 짧은 답
             </p>
             <p className="text-base leading-relaxed font-medium">
-              {why.short_answer}
+              {item.short_answer}
             </p>
           </div>
         </div>
@@ -64,12 +58,12 @@ export default function WhyPage() {
             </span>
           </div>
           <div className="text-[1.05rem] leading-[1.8] whitespace-pre-line">
-            {why.deep_dive}
+            {item.deep_dive}
           </div>
         </div>
       </section>
 
-      {/* 이건 진짜 놀라워 (순서 변경: 직접 해보기 앞으로) */}
+      {/* 이건 진짜 놀라워 */}
       <section className="mb-4">
         <div className="w-full bg-white rounded-2xl p-5 shadow-sm">
           <div className="flex items-center gap-2 mb-3">
@@ -80,7 +74,7 @@ export default function WhyPage() {
           </div>
           <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-xl p-4 border border-orange-200">
             <p className="text-base leading-relaxed font-medium">
-              {why.mind_blown}
+              {item.mind_blown}
             </p>
           </div>
         </div>
@@ -94,7 +88,7 @@ export default function WhyPage() {
             <span className="font-semibold text-orange-600">미션! - 오늘의 실험</span>
           </div>
           <div className="bg-orange-50 rounded-xl p-4 mb-4">
-            <p className="text-base leading-relaxed">{why.experiment}</p>
+            <p className="text-base leading-relaxed">{item.experiment}</p>
           </div>
           {done ? (
             <div className="bg-green-50 rounded-xl p-4 text-center">
@@ -113,11 +107,12 @@ export default function WhyPage() {
       </section>
 
       <footer className="text-center mt-6 space-y-2">
-        <Link href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
+        <a href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
           🏠 홈으로 돌아가기
-        </Link>
-        <p className="text-xs text-[var(--text-muted)]">{why.date}</p>
+        </a>
       </footer>
+      </>
+      )}
     </div>
   );
 }

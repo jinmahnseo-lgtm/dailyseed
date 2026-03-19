@@ -21,26 +21,22 @@ const REPORT_API_URL = "/api/send-report";
 
 const MISSION_KEYS = ["news", "classic", "art", "world", "why", "english"] as const;
 
-function getMissionLabel(key: string, date: string, answer: string | null): string {
+function getMissionLabel(key: string, dayIndex: number): string {
   if (key === "news") {
-    const n = (newsData as { date: string; debate: { topic: string } }[]).find((x) => x.date === date);
-    return n ? `📰 오늘의 뉴스 - 찬반토론 '${n.debate.topic}'` : "📰 오늘의 뉴스 - 찬반토론";
+    const n = newsData[dayIndex];
+    return n?.debate ? `📰 오늘의 뉴스 - 찬반토론 '${n.debate.topic}'` : "📰 오늘의 뉴스 - 찬반토론";
   }
   if (key === "classic") {
-    const c = (classicsData as { date: string; question: string }[]).find((x) => x.date === date);
+    const c = classicsData[dayIndex];
     return c ? `📖 오늘의 고전 - '${c.question}'` : "📖 오늘의 고전 - 질문";
   }
   if (key === "art") {
-    const a = (artsData as { date: string; title: string }[]).find((x) => x.date === date);
+    const a = artsData[dayIndex];
     return a ? `🎨 오늘의 예술 - '${a.title}'에 대한 작품평` : "🎨 오늘의 예술 - 작품평";
   }
   if (key === "world") {
-    const w = (worldsData as { date: string; quiz: { question: string; options: string[]; answer: number } }[]).find((x) => x.date === date);
-    if (w) {
-      const label = `🌍 오늘의 세계 - 퀴즈: '${w.quiz.question}'`;
-      return label;
-    }
-    return "🌍 오늘의 세계 - 퀴즈";
+    const w = worldsData[dayIndex];
+    return w ? `🌍 오늘의 세계 - 퀴즈: '${w.quiz.question}'` : "🌍 오늘의 세계 - 퀴즈";
   }
   if (key === "why") return "🔬 오늘의 과학 - 실험";
   if (key === "english") return "📝 오늘의 영어 - 단어 퀴즈";
@@ -48,12 +44,12 @@ function getMissionLabel(key: string, date: string, answer: string | null): stri
 }
 
 type Props = {
-  date: string;
+  dayIndex: number;
   keyword: string;
   onGoNext?: () => void;
 };
 
-export default function MissionComplete({ date, keyword, onGoNext }: Props) {
+export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) {
   const { user, profile } = useAuthContext();
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
@@ -63,17 +59,17 @@ export default function MissionComplete({ date, keyword, onGoNext }: Props) {
   const [showForm, setShowForm] = useState(false);
 
   useEffect(() => {
-    setSent(isReportSent(date));
+    setSent(isReportSent(dayIndex));
     // Use profile display_name if logged in, otherwise localStorage
     setName(profile?.display_name || getStudentName());
     setEmail(getParentEmail());
-  }, [date, profile]);
+  }, [dayIndex, profile]);
 
   const missionData = MISSION_KEYS.map((key) => {
-    const answer = getMissionData(key, date);
+    const answer = getMissionData(key, dayIndex);
     return {
       key,
-      label: getMissionLabel(key, date, answer),
+      label: getMissionLabel(key, dayIndex),
       answer,
     };
   });
@@ -98,7 +94,7 @@ export default function MissionComplete({ date, keyword, onGoNext }: Props) {
     const payload = {
       studentName: studentName.trim(),
       parentEmail: parentEmail.trim(),
-      date,
+      dayLabel: `Day ${dayIndex + 1}`,
       keyword,
       missions: missionData,
     };
@@ -111,12 +107,12 @@ export default function MissionComplete({ date, keyword, onGoNext }: Props) {
       });
       const result = await res.json();
       if (!result.success) throw new Error(result.error || "Send failed");
-      markReportSent(date);
+      markReportSent(dayIndex);
       setSent(true);
 
       // Sync report to Supabase (background)
       if (user?.id) {
-        syncReportToSupabase(user.id, date, parentEmail.trim()).catch(() => {});
+        syncReportToSupabase(user.id, `day${dayIndex}`, parentEmail.trim()).catch(() => {});
       }
     } catch {
       setError("전송 실패. 다시 시도해줘!");

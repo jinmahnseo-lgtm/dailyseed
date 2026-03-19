@@ -1,15 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import english from "@/data/english.json";
 import classicsData from "@/data/classics.json";
 import artsData from "@/data/arts.json";
 import worldsData from "@/data/worlds.json";
 import whysData from "@/data/whys.json";
-import { useSharedDate, isAdminEmail } from "@/hooks/useSharedDate";
 import { useMission } from "@/hooks/useMission";
-import { useAuthContext } from "@/contexts/AuthContext";
+import { useDayContext } from "@/contexts/DayContext";
+
 import DayNavigator from "@/components/DayNavigator";
 
 interface VocabItem {
@@ -23,37 +22,30 @@ interface EnglishItem {
   vocab?: VocabItem[];
 }
 
-function getSourceTitle(source: string, date: string): string {
+function getSourceTitle(source: string, dayIndex: number): string {
   if (source === "고전") {
-    const c = (classicsData as { date: string; title: string }[]).find((x) => x.date === date);
+    const c = classicsData[dayIndex];
     return c ? `고전 — '${c.title}'` : "고전";
   }
   if (source === "명화") {
-    const a = (artsData as { date: string; title: string }[]).find((x) => x.date === date);
+    const a = artsData[dayIndex];
     return a ? `예술 — '${a.title}'` : "예술";
   }
   if (source === "세계문화") {
-    const w = (worldsData as { date: string; country: string }[]).find((x) => x.date === date);
+    const w = worldsData[dayIndex];
     return w ? `세계 — '${w.country}'` : "세계";
   }
   if (source === "왜왜왜") {
-    const wh = (whysData as { date: string; question: string }[]).find((x) => x.date === date);
+    const wh = whysData[dayIndex];
     return wh ? `과학 — '${wh.question}'` : "과학";
   }
   return source;
 }
 
 export default function EnglishPage() {
-  const { user } = useAuthContext();
-  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
-  const {
-    date, today, theme, dayNumber,
-    canPrev, canNext, canPrev7, canNext7,
-    goPrev, goNext, goPrev7, goNext7,
-    goToday, accessToast,
-  } = useSharedDate(role);
-  const item = (english as EnglishItem[]).find((e) => e.date === date) || null;
-  const { done, complete } = useMission("english", item?.date || "");
+  const { dayIndex } = useDayContext();
+  const item = (english as EnglishItem[])[dayIndex] || null;
+  const { done, complete } = useMission("english", dayIndex);
 
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [showAnswers, setShowAnswers] = useState(false);
@@ -61,9 +53,20 @@ export default function EnglishPage() {
   useEffect(() => {
     setAnswers({});
     setShowAnswers(false);
-  }, [date]);
+  }, [dayIndex]);
 
-  if (!item) return null;
+  if (!item) return (
+    <div className="theme-english min-h-screen px-4 py-8 max-w-lg mx-auto" style={{ background: "var(--background)" }}>
+      <DayNavigator title="오늘의 영어" emoji="📝" topicKey="english" />
+      <section className="mb-6">
+        <div className="w-full bg-white rounded-2xl p-8 shadow-sm text-center">
+          <span className="text-5xl block mb-4">📝</span>
+          <h2 className="text-lg font-bold text-gray-700 mb-2">아직 영어 콘텐츠가 준비되지 않았어요</h2>
+          <p className="text-sm text-gray-500 leading-relaxed">다른 날짜를 확인하거나, 나중에 다시 방문해 주세요!</p>
+        </div>
+      </section>
+    </div>
+  );
 
   const vocab = item.vocab || [];
   const allFilled = vocab.length > 0 && vocab.every((_, i) => (answers[i] || "").trim());
@@ -81,13 +84,7 @@ export default function EnglishPage() {
       className="theme-english min-h-screen px-4 py-8 max-w-lg mx-auto"
       style={{ background: "var(--background)" }}
     >
-      <DayNavigator
-        title="오늘의 영어" emoji="📝" date={item.date} today={today}
-        keyword={theme?.keyword} dayNumber={dayNumber}
-        canPrev={canPrev} canNext={canNext} canPrev7={canPrev7} canNext7={canNext7}
-        onPrev={goPrev} onNext={goNext} onPrev7={goPrev7} onNext7={goNext7}
-        onToday={goToday} topicKey="english" accessToast={accessToast}
-      />
+      <DayNavigator title="오늘의 영어" emoji="📝" topicKey="english" />
 
       {item.sentences.map((s, i) => (
         <section key={i} className="mb-4">
@@ -95,7 +92,7 @@ export default function EnglishPage() {
             <div className="flex items-center gap-2 mb-3">
               <span className="text-xl">{s.emoji}</span>
               <span className="font-semibold text-[var(--accent)] text-sm">
-                {getSourceTitle(s.source, item.date)}
+                {getSourceTitle(s.source, dayIndex)}
               </span>
             </div>
             <p className="text-lg font-medium italic text-gray-800 mb-2">
@@ -185,10 +182,9 @@ export default function EnglishPage() {
       )}
 
       <footer className="text-center mt-6 space-y-2">
-        <Link href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
+        <a href="/" className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors">
           🏠 홈으로 돌아가기
-        </Link>
-        <p className="text-xs text-[var(--text-muted)]">{item.date}</p>
+        </a>
       </footer>
     </div>
   );

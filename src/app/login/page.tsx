@@ -1,20 +1,18 @@
 "use client";
 
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
-import Link from "next/link";
+
 import { useAuthContext } from "@/contexts/AuthContext";
 
 export default function LoginPage() {
-  const router = useRouter();
   const { user, loading, isConfigured, signInWithKakao, signInWithGoogle } =
     useAuthContext();
 
   useEffect(() => {
     if (!loading && user) {
-      router.replace("/");
+      window.location.replace("/");
     }
-  }, [loading, user, router]);
+  }, [loading, user]);
 
   if (loading) {
     return (
@@ -29,7 +27,7 @@ export default function LoginPage() {
       <div className="min-h-screen max-w-lg mx-auto px-5 flex flex-col items-center justify-center">
         <p className="text-gray-500 text-sm">로그인 서비스가 아직 설정되지 않았어요.</p>
         <button
-          onClick={() => router.push("/")}
+          onClick={() => { window.location.href = "/"; }}
           className="mt-4 text-sm text-amber-600 font-semibold hover:underline"
         >
           ← 돌아가기
@@ -96,14 +94,14 @@ export default function LoginPage() {
         {/* Terms */}
         <p className="text-center text-[11px] text-gray-400 mt-6 leading-relaxed">
           시작하기 버튼을 누르면{" "}
-          <Link href="/terms" className="underline hover:text-gray-600">이용약관</Link> 및{" "}
-          <Link href="/privacy" className="underline hover:text-gray-600">개인정보 처리방침</Link>에<br />
+          <a href="/terms" className="underline hover:text-gray-600">이용약관</a> 및{" "}
+          <a href="/privacy" className="underline hover:text-gray-600">개인정보 처리방침</a>에<br />
           동의하는 것으로 간주합니다.
         </p>
 
         {/* Back */}
         <button
-          onClick={() => router.push("/")}
+          onClick={() => { window.location.href = "/"; }}
           className="block mx-auto mt-6 text-sm text-gray-400 hover:text-gray-600 transition-colors"
         >
           ← 로그인 없이 오늘 콘텐츠만 보기
