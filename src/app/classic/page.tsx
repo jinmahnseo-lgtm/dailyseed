@@ -23,9 +23,9 @@ const classics = classicsRaw as ClassicItem[];
 
 export default function ClassicPage() {
   const { user } = useAuthContext();
-  const admin = isAdminEmail(user?.email);
+  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
-    useSharedDate(admin);
+    useSharedDate(role);
   const item = classics.find((c) => c.date === date) || classics[0];
   const { done, complete } = useMission("classic", item?.date || "");
   const [answer, setAnswer] = useState("");

@@ -10,9 +10,9 @@ import DayNavigator from "@/components/DayNavigator";
 
 export default function WorldPage() {
   const { user } = useAuthContext();
-  const admin = isAdminEmail(user?.email);
+  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
-    useSharedDate(admin);
+    useSharedDate(role);
   const world = worlds.find((w) => w.date === date) || worlds[0];
   const { done, complete } = useMission("world", world?.date || "");
 

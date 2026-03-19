@@ -45,9 +45,9 @@ function getSourceTitle(source: string, date: string): string {
 
 export default function EnglishPage() {
   const { user } = useAuthContext();
-  const admin = isAdminEmail(user?.email);
+  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
-    useSharedDate(admin);
+    useSharedDate(role);
   const item = (english as EnglishItem[]).find((e) => e.date === date) || (english as EnglishItem[])[0];
   const { done, complete } = useMission("english", item?.date || "");
 

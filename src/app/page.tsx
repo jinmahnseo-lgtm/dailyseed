@@ -106,9 +106,9 @@ const MENUS = [
 export default function Home() {
   const router = useRouter();
   const { user, profile, loading: authLoading } = useAuthContext();
-  const admin = isAdminEmail(user?.email);
+  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
-    useSharedDate(admin);
+    useSharedDate(role);
   const [missions, setMissions] = useState<Record<string, boolean>>({});
   const isLoggedIn = !!user;
 

@@ -9,9 +9,9 @@ import DayNavigator from "@/components/DayNavigator";
 
 export default function WhyPage() {
   const { user } = useAuthContext();
-  const admin = isAdminEmail(user?.email);
+  const role = isAdminEmail(user?.email) ? "admin" : user ? "user" : "guest";
   const { date, today, theme, canPrev, canNext, goPrev, goNext, goToday, setDate, maxDate } =
-    useSharedDate(admin);
+    useSharedDate(role);
   const why = whys.find((w) => w.date === date) || whys[0];
   const { done, complete } = useMission("why", why?.date || "");
 
