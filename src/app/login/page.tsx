@@ -48,7 +48,7 @@ export default function LoginPage() {
             DailySeed
           </h1>
           <p className="text-sm text-gray-500 mt-1">
-            학습 기록 저장을 위해 로그인해주세요.
+            로그인하면 매일 새로운 콘텐츠를 만나볼 수 있어요.
           </p>
         </div>
 

@@ -424,7 +424,7 @@ export default function Home() {
             onClick={() => router.push("/login")}
             className="text-xs text-amber-600 font-semibold hover:underline"
           >
-            로그인하면 학습 기록이 저장돼요 →
+            로그인하면 매일 새로운 콘텐츠를 볼 수 있어요 →
           </button>
         </div>
       )}
