@@ -211,13 +211,8 @@ export default function Home() {
         >‹</button>
         <div className="flex items-center gap-2 bg-white px-5 py-2 rounded-full border border-[var(--border-light)] min-w-[140px] justify-center">
           <span className="text-sm font-bold text-[var(--foreground)]">
-            D{dayNumber}
+            Day {dayNumber}
           </span>
-          {date === today && (
-            <span className="text-[10px] font-bold bg-amber-400 text-white px-2 py-0.5 rounded-full">
-              TODAY
-            </span>
-          )}
         </div>
         <button onClick={goNext} disabled={!canNext}
           className="w-12 h-12 rounded-full flex items-center justify-center text-[var(--text-muted)] disabled:opacity-20 hover:bg-gray-100 active:scale-90 transition-all text-3xl font-bold"

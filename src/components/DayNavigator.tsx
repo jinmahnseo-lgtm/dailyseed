@@ -76,7 +76,7 @@ export default function DayNavigator({
           className="text-[var(--accent)] disabled:opacity-20 text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
         >‹</button>
         <div className="bg-[var(--accent-light)] text-[var(--accent)] px-4 py-1.5 rounded-full text-sm font-semibold min-w-[140px] text-center">
-          D{dayNumber}{keyword ? ` — ${keyword}` : ""}
+          Day {dayNumber}{keyword ? ` — ${keyword}` : ""}
         </div>
         <button onClick={onNext} disabled={!canNext}
           className="text-[var(--accent)] disabled:opacity-20 text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
