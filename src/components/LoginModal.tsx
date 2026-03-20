@@ -94,6 +94,13 @@ export default function LoginModal({ open, onClose }: LoginModalProps) {
               <a href="/privacy" className="underline hover:text-gray-600">개인정보 처리방침</a>에
               동의하는 것으로 간주합니다.
             </p>
+
+            <button
+              onClick={onClose}
+              className="w-full mt-4 text-center text-xs text-gray-400 hover:text-gray-600 transition-colors"
+            >
+              로그인 없이 Day 1-5의 콘텐츠만 보기
+            </button>
           </>
         )}
       </div>
