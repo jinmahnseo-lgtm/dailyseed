@@ -179,8 +179,7 @@ export default function Home() {
           )}
         </div>
         <div
-          className="inline-flex items-center gap-2 cursor-pointer group"
-          onClick={goToday}
+          className="inline-flex items-center gap-2 group"
         >
           <span className="text-3xl group-hover:scale-110 transition-transform">
             🌱
@@ -353,7 +352,7 @@ export default function Home() {
             onClick={() => setShowLogin(true)}
             className="text-xs text-amber-600 font-semibold hover:underline"
           >
-            비회원은 5일간 체험할 수 있어요. 로그인하면 50일로! →
+            비회원은 Day 1-5 체험 가능. 로그인하면 Day 1-50까지! →
           </button>
         </div>
       )}

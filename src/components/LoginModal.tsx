@@ -99,7 +99,7 @@ export default function LoginModal({ open, onClose }: LoginModalProps) {
               onClick={onClose}
               className="w-full mt-4 text-center text-xs text-gray-400 hover:text-gray-600 transition-colors"
             >
-              로그인 없이 Day 1-5의 콘텐츠만 보기
+              로그인 없이 Day 1-5의 콘텐츠 보기
             </button>
           </>
         )}
