@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useDayContext } from "@/contexts/DayContext";
 import { useAuthContext } from "@/contexts/AuthContext";
 import LoginModal from "@/components/LoginModal";
@@ -31,6 +31,38 @@ export default function DayNavigator({ title, emoji, topicKey }: DayNavigatorPro
   const currentTopicIdx = TOPICS.findIndex((t) => t.key === topicKey);
   const prevTopic = currentTopicIdx > 0 ? TOPICS[currentTopicIdx - 1] : null;
   const nextTopic = currentTopicIdx >= 0 && currentTopicIdx < TOPICS.length - 1 ? TOPICS[currentTopicIdx + 1] : null;
+
+  const touchRef = useRef<{ x: number; y: number } | null>(null);
+
+  useEffect(() => {
+    if (!topicKey) return;
+
+    const onTouchStart = (e: TouchEvent) => {
+      touchRef.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    };
+
+    const onTouchEnd = (e: TouchEvent) => {
+      if (!touchRef.current) return;
+      const dx = e.changedTouches[0].clientX - touchRef.current.x;
+      const dy = e.changedTouches[0].clientY - touchRef.current.y;
+      touchRef.current = null;
+
+      if (Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy)) return;
+
+      if (dx < 0 && nextTopic) {
+        window.location.href = nextTopic.href;
+      } else if (dx > 0 && prevTopic) {
+        window.location.href = prevTopic.href;
+      }
+    };
+
+    document.addEventListener("touchstart", onTouchStart, { passive: true });
+    document.addEventListener("touchend", onTouchEnd, { passive: true });
+    return () => {
+      document.removeEventListener("touchstart", onTouchStart);
+      document.removeEventListener("touchend", onTouchEnd);
+    };
+  }, [topicKey, prevTopic, nextTopic]);
 
   return (
     <header className="text-center mb-6 relative">
