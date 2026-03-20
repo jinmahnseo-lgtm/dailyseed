@@ -54,8 +54,11 @@ export default function ProfilePage() {
             <p className="font-bold text-gray-800">
               {userName || "사용자"}
             </p>
-            <p className="text-xs text-gray-400">
+            <p className="text-xs text-gray-400 flex items-center gap-1.5">
               {provider === "kakao" ? "카카오" : provider === "google" ? "Google" : provider} 로그인
+              {profile?.tier === "premium" && (
+                <span className="bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded-full text-[10px] font-bold">365일 이용권</span>
+              )}
             </p>
             {email && (
               <p className="text-xs text-gray-400">{email}</p>

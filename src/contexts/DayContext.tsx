@@ -12,15 +12,17 @@ function isAdmin(email: string | undefined | null): boolean {
   return !!email && ADMIN_EMAILS.includes(email);
 }
 
-function getMaxDay(role: "guest" | "user" | "admin"): number {
-  if (role === "admin") return 365;
-  if (role === "user") return 50;
+type AccessRole = "guest" | "free" | "premium" | "admin";
+
+function getMaxDay(role: AccessRole): number {
+  if (role === "admin" || role === "premium") return 365;
+  if (role === "free") return 50;
   return 5;
 }
 
-function getAccessMessage(role: "guest" | "user" | "admin"): string {
+function getAccessMessage(role: AccessRole): string {
   if (role === "guest") return "로그인하면 Day 1-50의 콘텐츠를 이용할 수 있어요";
-  if (role === "user") return "SNS에 DailySeed를 공유하고 dailyseed.net@gmail.com으로 보내주시면 Day 1-365의 전체 이용권을 드려요!";
+  if (role === "free") return "SNS에 DailySeed를 공유하고 dailyseed.net@gmail.com으로 보내주시면 Day 1-365의 전체 이용권을 드려요!";
   return "";
 }
 
@@ -47,8 +49,14 @@ const DayContext = createContext<DayContextValue | null>(null);
 
 /* ── Provider ─────────────────────────────────── */
 export function DayProvider({ children }: { children: React.ReactNode }) {
-  const { user } = useAuthContext();
-  const role = isAdmin(user?.email) ? "admin" : user ? "user" : "guest";
+  const { user, profile } = useAuthContext();
+  const role: AccessRole = isAdmin(user?.email)
+    ? "admin"
+    : profile?.tier === "premium"
+      ? "premium"
+      : user
+        ? "free"
+        : "guest";
   const maxDay = getMaxDay(role);
 
   // SSR 빌드와 동일한 초기값(0)으로 시작 → hydration 불일치 방지

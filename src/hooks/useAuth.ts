@@ -6,7 +6,9 @@ import type { User, Session } from "@supabase/supabase-js";
 
 export interface Profile {
   id: string;
+  email: string | null;
   role: "student" | "parent";
+  tier: "free" | "premium";
   display_name: string | null;
   created_at: string;
 }
@@ -47,7 +49,14 @@ export function useAuth() {
       .select("*")
       .eq("id", user.id)
       .single();
-    if (existing) return existing as Profile;
+    if (existing) {
+      // 기존 회원: email이 비어있으면 업데이트
+      if (!existing.email && user.email) {
+        await supabase.from("profiles").update({ email: user.email }).eq("id", user.id);
+        existing.email = user.email;
+      }
+      return existing as Profile;
+    }
 
     const name =
       user.user_metadata?.full_name ||
@@ -55,7 +64,7 @@ export function useAuth() {
       null;
     const { data: created } = await supabase
       .from("profiles")
-      .insert({ id: user.id, role: "student", display_name: name })
+      .insert({ id: user.id, email: user.email || null, role: "student", display_name: name })
       .select()
       .single();
     return created as Profile | null;
