@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
+  manifest: "/manifest.json",
   metadataBase: new URL("https://dailyseed.net"),
   openGraph: {
     title: "DailySeed — 매일의 씨앗",
