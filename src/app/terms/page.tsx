@@ -20,7 +20,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-lg font-bold">제3조 (회원가입 및 탈퇴)</h2>
           <p>1. 회원가입은 카카오 또는 Google 계정을 통한 소셜 로그인으로 이루어집니다.</p>
-          <p>2. 회원은 언제든지 서비스 내 프로필 페이지에서 탈퇴를 요청할 수 있으며, 탈퇴 시 개인정보는 지체 없이 파기됩니다.</p>
+          <p>2. 회원은 언제든지 dailyseed.net@gmail.com으로 탈퇴를 요청할 수 있으며, 탈퇴 시 개인정보는 지체 없이 파기됩니다.</p>
         </section>
 
         <section>
