@@ -47,12 +47,12 @@ export default function DayNavigator({ title, emoji, topicKey }: DayNavigatorPro
           </a>
         )}
         {prevTopic ? (
-          <a href={prevTopic.href} className="text-gray-300 hover:text-gray-500 text-2xl font-bold transition-colors" title={prevTopic.label}>‹</a>
-        ) : topicKey ? <span className="w-4" /> : null}
+          <a href={prevTopic.href} className="text-gray-400 hover:text-gray-600 text-3xl font-bold transition-colors mr-2" title={prevTopic.label}>‹</a>
+        ) : topicKey ? <span className="w-6" /> : null}
         <h1 className="text-3xl font-bold tracking-tight">{emoji} {title}</h1>
         {nextTopic ? (
-          <a href={nextTopic.href} className="text-gray-300 hover:text-gray-500 text-2xl font-bold transition-colors" title={nextTopic.label}>›</a>
-        ) : topicKey ? <span className="w-4" /> : null}
+          <a href={nextTopic.href} className="text-gray-400 hover:text-gray-600 text-3xl font-bold transition-colors ml-2" title={nextTopic.label}>›</a>
+        ) : topicKey ? <span className="w-6" /> : null}
       </div>
 
       {/* Day 내비게이션: « ‹ Day 42 — 용기 › » */}
