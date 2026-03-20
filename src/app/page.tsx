@@ -350,7 +350,7 @@ export default function Home() {
             onClick={() => setShowLogin(true)}
             className="text-xs text-amber-600 font-semibold hover:underline"
           >
-            비회원은 5일간 체험할 수 있어요. 로그인하면 100일로! →
+            비회원은 5일간 체험할 수 있어요. 로그인하면 50일로! →
           </button>
         </div>
       )}

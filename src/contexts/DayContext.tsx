@@ -14,13 +14,13 @@ function isAdmin(email: string | undefined | null): boolean {
 
 function getMaxDay(role: "guest" | "user" | "admin"): number {
   if (role === "admin") return 365;
-  if (role === "user") return 30;
+  if (role === "user") return 50;
   return 5;
 }
 
 function getAccessMessage(role: "guest" | "user" | "admin"): string {
-  if (role === "guest") return "로그인을 하시면 첫 30일의 콘텐츠를 보실 수 있습니다";
-  if (role === "user") return "콘텐츠 준비중입니다";
+  if (role === "guest") return "로그인하면 50일간 콘텐츠를 이용할 수 있어요";
+  if (role === "user") return "SNS에 DailySeed를 공유하고 dailyseed.net@gmail.com으로 보내주시면 365일 사용권을 드려요!";
   return "";
 }
 
