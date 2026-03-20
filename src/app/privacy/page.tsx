@@ -18,7 +18,7 @@ export default function PrivacyPage() {
           <h2 className="text-lg font-bold">2. 수집 및 이용 목적</h2>
           <ul className="list-disc pl-5 space-y-1">
             <li>회원 식별 및 서비스 제공</li>
-            <li>학습 진도 관리 및 미션 리포트 발송</li>
+            <li>학습 진도 관리 및 내 생각 공유 메일 발송</li>
             <li>서비스 개선 및 신규 서비스 안내</li>
             <li>교육 관련 정보 및 이벤트 안내 (동의 시)</li>
           </ul>
