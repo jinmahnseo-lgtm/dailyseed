@@ -171,7 +171,7 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
             onClick={() => setShowForm(true)}
             className="w-full py-3 rounded-xl text-sm font-semibold bg-amber-500 text-white hover:bg-amber-600 hover:shadow-md transition-all active:scale-[0.98]"
           >
-            ✉️ 내 생각 공유하기
+            ✉️ 이메일로 공유하기
           </button>
         ) : (
           <div className="space-y-3">
@@ -216,7 +216,7 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
                   : "bg-amber-500 text-white hover:bg-amber-600 hover:shadow-md active:scale-[0.98]"
               }`}
             >
-              {sending ? "전송 중..." : "✉️ 공유하기"}
+              {sending ? "전송 중..." : "✉️ 내 생각 공유하기"}
             </button>
           </div>
         )}
