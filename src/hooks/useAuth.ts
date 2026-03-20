@@ -20,6 +20,8 @@ interface AuthState {
   loading: boolean;
 }
 
+const PROFILE_CACHE_KEY = "dailyseed-profile";
+
 // localStorage에서 Supabase 세션을 동기적으로 읽어 초기값으로 사용
 // → 캐시/네트워크 상태와 무관하게 즉시 로그인 상태 표시
 function getInitialAuthState(): AuthState {
@@ -32,7 +34,16 @@ function getInitialAuthState(): AuthState {
       const parsed = JSON.parse(raw);
       const user = parsed?.user;
       if (user?.id) {
-        return { user, session: parsed, profile: null, loading: false };
+        // 캐시된 프로필 복원 (tier 등 즉시 반영)
+        let cachedProfile: Profile | null = null;
+        try {
+          const profileRaw = localStorage.getItem(PROFILE_CACHE_KEY);
+          if (profileRaw) {
+            const p = JSON.parse(profileRaw);
+            if (p?.id === user.id) cachedProfile = p;
+          }
+        } catch { /* ignore */ }
+        return { user, session: parsed, profile: cachedProfile, loading: false };
       }
     }
   } catch { /* ignore */ }
@@ -83,7 +94,10 @@ export function useAuth() {
         setState((s) => ({ ...s, user: session.user, session, loading: false }));
         // 프로필은 백그라운드에서 fetch
         const profile = await fetchOrCreateProfile(session.user);
-        if (profile) setState((s) => ({ ...s, profile }));
+        if (profile) {
+          localStorage.setItem(PROFILE_CACHE_KEY, JSON.stringify(profile));
+          setState((s) => ({ ...s, profile }));
+        }
       } else {
         setState((s) => ({ ...s, loading: false }));
       }
@@ -95,8 +109,10 @@ export function useAuth() {
     } = supabase!.auth.onAuthStateChange(async (event, session) => {
       if (session?.user) {
         const profile = await fetchOrCreateProfile(session.user);
+        if (profile) localStorage.setItem(PROFILE_CACHE_KEY, JSON.stringify(profile));
         setState({ user: session.user, session, profile, loading: false });
       } else {
+        localStorage.removeItem(PROFILE_CACHE_KEY);
         setState({ user: null, session: null, profile: null, loading: false });
       }
     });
@@ -131,6 +147,7 @@ export function useAuth() {
   const signOut = useCallback(async () => {
     // 1) 먼저 로컬 상태와 localStorage를 즉시 정리 (네트워크 무관)
     localStorage.removeItem("dailyseed-auth");
+    localStorage.removeItem(PROFILE_CACHE_KEY);
     Object.keys(localStorage).filter(k => k.startsWith("sb-")).forEach(k => localStorage.removeItem(k));
     setState({ user: null, session: null, profile: null, loading: false });
     // 2) 서버 세션 해제 시도 (실패해도 로컬은 이미 정리됨)
@@ -149,6 +166,7 @@ export function useAuth() {
         .select()
         .single();
       if (data) {
+        localStorage.setItem(PROFILE_CACHE_KEY, JSON.stringify(data));
         setState((s) => ({ ...s, profile: data as Profile }));
       }
     },
