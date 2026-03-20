@@ -61,12 +61,12 @@ export default function PrivacyPage() {
             <li>회원 탈퇴</li>
             <li>이메일 수신 거부</li>
           </ul>
-          <p>문의: <a href="mailto:dailyseed.com@gmail.com" className="text-amber-600">dailyseed.com@gmail.com</a></p>
+          <p>문의: <a href="mailto:dailyseed.net@gmail.com" className="text-amber-600">dailyseed.net@gmail.com</a></p>
         </section>
 
         <section>
           <h2 className="text-lg font-bold">7. 개인정보 보호책임자</h2>
-          <p>이메일: dailyseed.com@gmail.com</p>
+          <p>이메일: dailyseed.net@gmail.com</p>
         </section>
 
         <p className="text-xs text-gray-400 pt-4 border-t">시행일: 2026년 3월 16일</p>

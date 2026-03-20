@@ -21,7 +21,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
 
     const { studentName, parentEmail, keyword, missions } = data;
     const dayLabel = data.dayLabel || data.date || "Day ?";
-    const adminEmail = "dailyseed.com@gmail.com";
+    const adminEmail = "dailyseed.net@gmail.com";
 
     // Build HTML email
     let html = `<div style="max-width:600px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,sans-serif;color:#333;">`;

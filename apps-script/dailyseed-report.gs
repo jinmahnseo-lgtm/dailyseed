@@ -16,7 +16,7 @@ function doPost(e) {
 
     var studentName = data.studentName || "학생";
     var parentEmail = data.parentEmail;
-    var adminEmail = "dailyseed.com@gmail.com";
+    var adminEmail = "dailyseed.net@gmail.com";
     var date = data.date;
     var keyword = data.keyword;
     var missions = data.missions || [];
