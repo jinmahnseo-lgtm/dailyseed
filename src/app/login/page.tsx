@@ -46,7 +46,7 @@ export default function LoginPage() {
             DailySeed
           </h1>
           <p className="text-sm text-gray-500 mt-1">
-            로그인하면 매일 새로운 콘텐츠를 만나볼 수 있어요.
+            로그인하면 Day 1-50의 콘텐츠를 계속 이용할 수 있어요.
           </p>
         </div>
 
@@ -104,7 +104,7 @@ export default function LoginPage() {
           onClick={() => { window.location.href = "/"; }}
           className="block mx-auto mt-6 text-sm text-gray-400 hover:text-gray-600 transition-colors"
         >
-          ← 로그인 없이 오늘 콘텐츠만 보기
+          로그인 없이 Day 1-5의 콘텐츠 보기
         </button>
       </div>
     </div>
