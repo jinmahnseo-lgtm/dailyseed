@@ -20,7 +20,7 @@ function getMaxDay(role: "guest" | "user" | "admin"): number {
 
 function getAccessMessage(role: "guest" | "user" | "admin"): string {
   if (role === "guest") return "로그인하면 Day 1-50까지의 콘텐츠를 이용할 수 있어요";
-  if (role === "user") return "SNS에 DailySeed를 공유하고 dailyseed.net@gmail.com으로 보내주시면 365일 사용권을 드려요!";
+  if (role === "user") return "SNS에 DailySeed를 공유하고 dailyseed.net@gmail.com으로 보내주시면 Day 1-365까지의 사용권을 드려요!";
   return "";
 }
 

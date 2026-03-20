@@ -237,7 +237,7 @@ export default function Home() {
         <div className="mb-4 mx-auto max-w-xs animate-in fade-in text-center">
           <p className="text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded-xl px-4 py-2 font-medium">
             🔒 {accessToast}
-            {accessToast.includes("365일") && (
+            {accessToast.includes("365") && (
               <> (<a href="/notice/2" className="underline font-bold hover:text-amber-800">공지 보기</a>)</>
             )}
           </p>
