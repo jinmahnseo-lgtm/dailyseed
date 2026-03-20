@@ -171,7 +171,7 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
             onClick={() => setShowForm(true)}
             className="w-full py-3 rounded-xl text-sm font-semibold bg-amber-500 text-white hover:bg-amber-600 hover:shadow-md transition-all active:scale-[0.98]"
           >
-            ✉️ 부모님께 리포트 보내기
+            ✉️ 내 생각 공유하기
           </button>
         ) : (
           <div className="space-y-3">
@@ -190,7 +190,7 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
             </div>
             <div>
               <label className="text-xs font-semibold text-gray-600 mb-1 block">
-                부모님 이메일
+                받는 사람 이메일
               </label>
               <input
                 type="email"
@@ -205,7 +205,7 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
               <p className="text-xs text-red-500 font-semibold">{error}</p>
             )}
             <p className="text-[11px] text-gray-400 text-center leading-relaxed">
-              리포트 보내기 버튼을 누르며, 향후 위의 메일로<br />
+              공유하기 버튼을 누르면, 향후 위의 메일로<br />
               DailySeed 안내가 발송되는 것에 동의합니다
             </p>
             <button
@@ -217,7 +217,7 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
                   : "bg-amber-500 text-white hover:bg-amber-600 hover:shadow-md active:scale-[0.98]"
               }`}
             >
-              {sending ? "전송 중..." : "✉️ 리포트 보내기"}
+              {sending ? "전송 중..." : "✉️ 공유하기"}
             </button>
           </div>
         )}

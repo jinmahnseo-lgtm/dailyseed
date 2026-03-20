@@ -10,7 +10,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-lg font-bold mt-0">1. 수집하는 개인정보</h2>
           <p><strong>필수 항목:</strong> 이메일 주소, 이름(닉네임), 소셜 로그인 식별자</p>
-          <p><strong>선택 항목:</strong> 부모(보호자) 이메일 주소 (리포트 발송 시)</p>
+          <p><strong>선택 항목:</strong> 받는 사람 이메일 주소 (내 생각 공유 시)</p>
           <p><strong>자동 수집:</strong> 학습 진도(미션 완수 기록), 서비스 이용 기록</p>
         </section>
 
