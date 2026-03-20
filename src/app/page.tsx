@@ -265,7 +265,7 @@ export default function Home() {
       </section>
 
       {/* Progress Section */}
-      {isLoggedIn && doneCount > 0 && !allDone && (
+      {doneCount > 0 && !allDone && (
         <section className="mb-5 fade-up">
           <div className="bg-white rounded-2xl px-5 py-4 border border-[var(--border-light)]" style={{ boxShadow: 'var(--shadow-sm)' }}>
             <div className="flex items-center justify-between mb-2.5">
@@ -287,7 +287,7 @@ export default function Home() {
       )}
 
       {/* Mission Complete */}
-      {isLoggedIn && allDone && (
+      {allDone && (
         <MissionComplete dayIndex={dayIndex} keyword={theme?.keyword || ""} onGoNext={canNext ? goNext : undefined} />
       )}
 
@@ -315,7 +315,7 @@ export default function Home() {
                   >
                     {menu.icon}
                   </div>
-                  {isLoggedIn && isDone ? (
+                  {isDone ? (
                     <div
                       className={`w-6 h-6 ${menu.checkBg} rounded-full flex items-center justify-center shadow-sm ${menu.checkShadow}`}
                     >
@@ -337,7 +337,7 @@ export default function Home() {
                 </p>
 
                 {/* Bottom accent line when done */}
-                {isDone && isLoggedIn && (
+                {isDone && (
                   <div className={`absolute bottom-0 left-3 right-3 h-0.5 bg-gradient-to-r ${menu.gradient} rounded-full opacity-40`} />
                 )}
               </div>
