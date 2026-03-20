@@ -194,6 +194,20 @@ export default function Home() {
         </p>
       </header>
 
+      {/* Notice Banner */}
+      <a href="/notice" className="block mt-3">
+        <div className="flex items-center gap-3 bg-amber-50 border border-amber-100 rounded-2xl px-4 py-3 hover:shadow-sm active:scale-[0.98] transition-all">
+          <span className="text-lg">📢</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-xs font-bold text-amber-800 truncate">공지사항</p>
+            <p className="text-[11px] text-amber-600/70 truncate">이벤트, 제휴 문의 등 새로운 소식을 확인하세요</p>
+          </div>
+          <svg className="w-4 h-4 text-amber-300 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </div>
+      </a>
+
       {/* D-number Navigator */}
       <div className="flex items-center justify-center gap-1 mt-4 mb-5">
         <button onClick={goPrev7} disabled={!canPrev}
@@ -336,7 +350,7 @@ export default function Home() {
             onClick={() => setShowLogin(true)}
             className="text-xs text-amber-600 font-semibold hover:underline"
           >
-            로그인하면 매일 새로운 콘텐츠를 볼 수 있어요 →
+            비회원은 5일간 체험할 수 있어요. 로그인하면 100일로! →
           </button>
         </div>
       )}

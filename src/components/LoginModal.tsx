@@ -53,7 +53,7 @@ export default function LoginModal({ open, onClose }: LoginModalProps) {
             DailySeed
           </h2>
           <p className="text-sm text-gray-500 mt-1">
-            로그인하면 매일 새로운 콘텐츠를 만나볼 수 있어요.
+            로그인하면 100일간 매일 새로운 콘텐츠를 만나볼 수 있어요.
           </p>
         </div>
 
