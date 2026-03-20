@@ -240,6 +240,14 @@ export default function Home() {
               <> (<a href="/notice/3" className="underline font-bold hover:text-amber-800">공지 보기</a>)</>
             )}
           </p>
+          {accessToast.includes("로그인하면") && (
+            <button
+              onClick={() => setShowLogin(true)}
+              className="mt-1.5 text-[11px] text-amber-700 font-bold underline hover:text-amber-900 transition-colors"
+            >
+              (로그인으로 이동하기)
+            </button>
+          )}
         </div>
       )}
 
