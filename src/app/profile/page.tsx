@@ -45,7 +45,6 @@ export default function ProfilePage() {
 
   const handleSignOut = async () => {
     try { await signOut(); } catch { /* ignore */ }
-    localStorage.removeItem("dailyseed-auth");
     window.location.href = "/";
   };
 
