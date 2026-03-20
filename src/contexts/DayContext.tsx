@@ -79,7 +79,7 @@ export function DayProvider({ children }: { children: React.ReactNode }) {
   /* 내비게이션 함수 */
   const showToast = useCallback((msg: string) => {
     setAccessToast(msg);
-    setTimeout(() => setAccessToast(""), 3000);
+    setTimeout(() => setAccessToast(""), 7000);
   }, []);
 
   const saveDayIndex = useCallback((idx: number) => {
