@@ -1,6 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import { useDayContext } from "@/contexts/DayContext";
+import { useAuthContext } from "@/contexts/AuthContext";
+import LoginModal from "@/components/LoginModal";
 
 const TOPICS = [
   { key: "news", emoji: "📰", label: "뉴스", href: "/news" },
@@ -22,6 +25,8 @@ export default function DayNavigator({ title, emoji, topicKey }: DayNavigatorPro
     dayNumber, keyword, canPrev, canNext,
     goPrev, goNext, goPrev7, goNext7, accessToast,
   } = useDayContext();
+  const { user } = useAuthContext();
+  const [showLogin, setShowLogin] = useState(false);
 
   const currentTopicIdx = TOPICS.findIndex((t) => t.key === topicKey);
   const prevTopic = currentTopicIdx > 0 ? TOPICS[currentTopicIdx - 1] : null;
@@ -74,15 +79,26 @@ export default function DayNavigator({ title, emoji, topicKey }: DayNavigatorPro
 
       {/* Access restriction toast */}
       {accessToast && (
-        <div className="mt-2 mx-auto max-w-xs animate-in fade-in">
+        <div className="mt-2 mx-auto max-w-xs animate-in fade-in text-center">
           <p className="text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded-xl px-4 py-2 font-medium">
             🔒 {accessToast}
             {accessToast.includes("365") && (
               <> (<a href="/notice/3" className="underline font-bold hover:text-amber-800">공지 보기</a>)</>
             )}
           </p>
+          {accessToast.includes("로그인하면") && !user && (
+            <button
+              onClick={() => setShowLogin(true)}
+              className="mt-1.5 text-[11px] text-amber-700 font-bold underline hover:text-amber-900 transition-colors"
+            >
+              (로그인으로 이동하기)
+            </button>
+          )}
         </div>
       )}
+
+      {/* Login Modal */}
+      <LoginModal open={showLogin} onClose={() => setShowLogin(false)} />
     </header>
   );
 }
