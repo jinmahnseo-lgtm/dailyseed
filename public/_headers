@@ -1,25 +1,29 @@
 /
-  Cache-Control: no-store
+  Cache-Control: no-cache
 /news
-  Cache-Control: no-store
+  Cache-Control: no-cache
 /classic
-  Cache-Control: no-store
+  Cache-Control: no-cache
 /art
-  Cache-Control: no-store
+  Cache-Control: no-cache
 /world
-  Cache-Control: no-store
+  Cache-Control: no-cache
 /why
-  Cache-Control: no-store
+  Cache-Control: no-cache
 /english
-  Cache-Control: no-store
+  Cache-Control: no-cache
 /login
-  Cache-Control: no-store
+  Cache-Control: no-cache
 /profile
-  Cache-Control: no-store
+  Cache-Control: no-cache
 /privacy
-  Cache-Control: no-store
+  Cache-Control: no-cache
 /terms
-  Cache-Control: no-store
+  Cache-Control: no-cache
+/notice
+  Cache-Control: no-cache
+/notice/*
+  Cache-Control: no-cache
 
 /_next/static/*
-  Cache-Control: no-cache
+  Cache-Control: public, max-age=31536000, immutable
