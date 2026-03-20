@@ -205,8 +205,8 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
               <p className="text-xs text-red-500 font-semibold">{error}</p>
             )}
             <p className="text-[11px] text-gray-400 text-center leading-relaxed">
-              공유하기 버튼을 누르면, 향후 위의 메일로<br />
-              DailySeed 안내가 발송되는 것에 동의합니다
+              공유하기 버튼 클릭을 통해, 향후 위의 메일로<br />
+              DailySeed 안내가 발송되는 것에 동의합니다.
             </p>
             <button
               onClick={handleSend}
