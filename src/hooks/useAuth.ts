@@ -120,13 +120,14 @@ export function useAuth() {
   }, []);
 
   const signOut = useCallback(async () => {
-    if (!supabase) return;
-    await supabase.auth.signOut({ scope: "global" });
-    // 커스텀 캐시 + Supabase localStorage 키 모두 정리
+    // 1) 먼저 로컬 상태와 localStorage를 즉시 정리 (네트워크 무관)
     localStorage.removeItem("dailyseed-auth");
-    const keysToRemove = Object.keys(localStorage).filter(k => k.startsWith("sb-"));
-    keysToRemove.forEach(k => localStorage.removeItem(k));
+    Object.keys(localStorage).filter(k => k.startsWith("sb-")).forEach(k => localStorage.removeItem(k));
     setState({ user: null, session: null, profile: null, loading: false });
+    // 2) 서버 세션 해제 시도 (실패해도 로컬은 이미 정리됨)
+    try {
+      if (supabase) await supabase.auth.signOut({ scope: "local" });
+    } catch { /* ignore */ }
   }, []);
 
   const updateProfile = useCallback(
