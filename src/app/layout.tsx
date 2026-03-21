@@ -24,17 +24,20 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/manifest.json",
-  metadataBase: new URL("https://dailyseed.net"),
+  metadataBase: new URL("https://www.dailyseed.net"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "DailySeed — 매일의 씨앗",
     description: "매일 10분, 뉴스·고전·예술·세계·과학·영어 6개 분야 교양 콘텐츠",
-    url: "https://dailyseed.net",
+    url: "https://www.dailyseed.net",
     siteName: "DailySeed",
     locale: "ko_KR",
     type: "website",
     images: [
       {
-        url: "https://dailyseed.net/og-image.png",
+        url: "https://www.dailyseed.net/og-image.png",
         width: 1200,
         height: 630,
         alt: "DailySeed — 청소년의 교양을 위한 매일의 씨앗",
@@ -45,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "DailySeed — 매일의 씨앗",
     description: "매일 10분, 뉴스·고전·예술·세계·과학·영어 6개 분야 교양 콘텐츠",
-    images: ["https://dailyseed.net/og-image.png"],
+    images: ["https://www.dailyseed.net/og-image.png"],
   },
 };
 
