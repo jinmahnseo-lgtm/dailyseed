@@ -1,11 +1,40 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { useAuthContext } from "@/contexts/AuthContext";
+import { isMissionDone } from "@/hooks/useMission";
+import themes from "@/data/themes.json";
+
+const SECTIONS = [
+  { key: "news", emoji: "📰", href: "/news" },
+  { key: "classic", emoji: "📖", href: "/classic" },
+  { key: "art", emoji: "🎨", href: "/art" },
+  { key: "world", emoji: "🌍", href: "/world" },
+  { key: "why", emoji: "🔬", href: "/why" },
+  { key: "english", emoji: "📝", href: "/english" },
+];
+
+const ADMIN_EMAILS = (process.env.NEXT_PUBLIC_ADMIN_EMAILS || "mahn823@empal.com").split(",");
+
+function getMaxDay(role: string): number {
+  if (role === "admin" || role === "premium") return 365;
+  if (role === "free") return 50;
+  return 5;
+}
 
 export default function ProfilePage() {
-  const { user, profile, loading, signOut } =
-    useAuthContext();
+  const { user, profile, loading, signOut } = useAuthContext();
+  const [search, setSearch] = useState("");
+  const [missionCache, setMissionCache] = useState<Record<string, boolean>>({});
+
+  const role = ADMIN_EMAILS.includes(user?.email || "")
+    ? "admin"
+    : profile?.tier === "premium"
+      ? "premium"
+      : user
+        ? "free"
+        : "guest";
+  const maxDay = getMaxDay(role);
 
   useEffect(() => {
     if (!loading && !user) {
@@ -13,22 +42,77 @@ export default function ProfilePage() {
     }
   }, [loading, user]);
 
-  if (loading || !user) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="animate-spin w-8 h-8 border-4 border-amber-400 border-t-transparent rounded-full" />
-      </div>
-    );
-  }
+  // Build mission cache for all days
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const cache: Record<string, boolean> = {};
+    for (let i = 0; i < themes.length && i < maxDay; i++) {
+      for (const s of SECTIONS) {
+        cache[`${s.key}-${i}`] = isMissionDone(s.key, i);
+      }
+    }
+    setMissionCache(cache);
+  }, [maxDay]);
+
+  // Compute stats
+  const stats = useMemo(() => {
+    let totalDone = 0;
+    let perfectDays = 0;
+    let activeDays = 0;
+    const sectionCounts: Record<string, number> = {};
+    SECTIONS.forEach(s => { sectionCounts[s.key] = 0; });
+
+    for (let i = 0; i < themes.length && i < maxDay; i++) {
+      let dayDone = 0;
+      for (const s of SECTIONS) {
+        if (missionCache[`${s.key}-${i}`]) {
+          dayDone++;
+          sectionCounts[s.key]++;
+          totalDone++;
+        }
+      }
+      if (dayDone === 6) perfectDays++;
+      if (dayDone > 0) activeDays++;
+    }
+    return { totalDone, perfectDays, activeDays, sectionCounts };
+  }, [missionCache, maxDay]);
+
+  // Filter themes by search
+  const filteredThemes = useMemo(() => {
+    const list: { dayIndex: number; keyword: string; desc: string }[] = [];
+    for (let i = Math.min(themes.length, maxDay) - 1; i >= 0; i--) {
+      list.push({ dayIndex: i, keyword: themes[i].keyword, desc: themes[i].desc });
+    }
+    if (!search.trim()) return list;
+    const q = search.trim().toLowerCase();
+    return list.filter(t => t.keyword.toLowerCase().includes(q) || t.desc.toLowerCase().includes(q));
+  }, [search, maxDay]);
+
+  // if (loading || !user) {
+  //   return (
+  //     <div className="min-h-screen flex items-center justify-center">
+  //       <div className="animate-spin w-8 h-8 border-4 border-amber-400 border-t-transparent rounded-full" />
+  //     </div>
+  //   );
+  // }
 
   const handleSignOut = async () => {
     try { await signOut(); } catch { /* ignore */ }
     window.location.href = "/";
   };
 
-  const provider = user.app_metadata?.provider || "email";
-  const email = user.email || "";
-  const userName = profile?.display_name || user.user_metadata?.name || user.user_metadata?.full_name || "";
+  const handleSectionClick = (dayIndex: number, sectionKey: string) => {
+    // Set the dayIndex in localStorage so the page loads to that day
+    localStorage.setItem("dailyseed-selected-day", String(dayIndex));
+    const section = SECTIONS.find(s => s.key === sectionKey);
+    if (section) {
+      window.location.href = section.href;
+    }
+  };
+
+  const provider = user?.app_metadata?.provider || "email";
+  const email = user?.email || "";
+  const userName = profile?.display_name || user?.user_metadata?.name || user?.user_metadata?.full_name || "";
 
   return (
     <div className="min-h-screen max-w-lg mx-auto px-5 pb-24">
@@ -45,7 +129,6 @@ export default function ProfilePage() {
 
       {/* Profile Card */}
       <div className="bg-white rounded-2xl border border-gray-100 p-5 mb-4" style={{ boxShadow: 'var(--shadow-sm)' }}>
-        {/* Avatar */}
         <div className="flex items-center gap-4">
           <div className="w-14 h-14 bg-gradient-to-br from-amber-400 to-orange-400 rounded-full flex items-center justify-center text-2xl text-white font-bold">
             {userName ? userName[0] : "U"}
@@ -64,6 +147,130 @@ export default function ProfilePage() {
               <p className="text-xs text-gray-400">{email}</p>
             )}
           </div>
+        </div>
+      </div>
+
+      {/* Stats Summary */}
+      <div className="grid grid-cols-3 gap-2 mb-4">
+        <div className="bg-white rounded-xl border border-gray-100 p-3 text-center" style={{ boxShadow: 'var(--shadow-sm)' }}>
+          <p className="text-xl font-black text-amber-500">{stats.activeDays}</p>
+          <p className="text-[11px] text-gray-400 font-medium">학습한 날</p>
+        </div>
+        <div className="bg-white rounded-xl border border-gray-100 p-3 text-center" style={{ boxShadow: 'var(--shadow-sm)' }}>
+          <p className="text-xl font-black text-orange-500">{stats.perfectDays}</p>
+          <p className="text-[11px] text-gray-400 font-medium">완벽한 날</p>
+        </div>
+        <div className="bg-white rounded-xl border border-gray-100 p-3 text-center" style={{ boxShadow: 'var(--shadow-sm)' }}>
+          <p className="text-xl font-black text-rose-500">{stats.totalDone}</p>
+          <p className="text-[11px] text-gray-400 font-medium">총 완료</p>
+        </div>
+      </div>
+
+      {/* Learning History */}
+      <div className="bg-white rounded-2xl border border-gray-100 p-4 mb-4" style={{ boxShadow: 'var(--shadow-sm)' }}>
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="text-sm font-bold text-gray-800">학습 기록</h2>
+          <span className="text-[11px] text-gray-400">{filteredThemes.length}개</span>
+        </div>
+
+        {/* Search */}
+        <div className="relative mb-3">
+          <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="키워드 검색..."
+            className="w-full pl-9 pr-3 py-2 text-sm bg-gray-50 border border-gray-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-200 focus:border-amber-300 transition-all"
+          />
+          {search && (
+            <button
+              onClick={() => setSearch("")}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-300 hover:text-gray-500"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          )}
+        </div>
+
+        {/* Column Headers */}
+        <div className="flex items-center gap-1 px-1 mb-1.5">
+          <span className="w-[52px] text-[10px] text-gray-300 font-medium shrink-0">Day</span>
+          <span className="w-[52px] text-[10px] text-gray-300 font-medium shrink-0 text-center">키워드</span>
+          <div className="flex-1 flex items-center justify-end gap-[6px]">
+            {SECTIONS.map(s => (
+              <span key={s.key} className="w-[28px] text-center text-[10px]">{s.emoji}</span>
+            ))}
+            <span className="w-[28px] text-[10px] text-gray-300 font-medium text-center">합계</span>
+          </div>
+        </div>
+
+        {/* Day Rows */}
+        <div className="max-h-[400px] overflow-y-auto space-y-0.5">
+          {filteredThemes.length === 0 && (
+            <p className="text-center text-xs text-gray-300 py-6">검색 결과가 없습니다</p>
+          )}
+          {filteredThemes.map(({ dayIndex, keyword }) => {
+            const doneCount = SECTIONS.filter(s => missionCache[`${s.key}-${dayIndex}`]).length;
+            const isLocked = dayIndex >= maxDay;
+            const isPerfect = doneCount === 6;
+
+            return (
+              <div
+                key={dayIndex}
+                className={`flex items-center gap-1 px-1 py-1.5 rounded-lg transition-colors ${
+                  isPerfect ? "bg-amber-50/60" : "hover:bg-gray-50"
+                } ${isLocked ? "opacity-40" : ""}`}
+              >
+                {/* Day number */}
+                <span className="w-[52px] text-[11px] font-mono font-bold text-gray-400 shrink-0 tabular-nums">
+                  Day {dayIndex + 1}
+                </span>
+
+                {/* Keyword */}
+                <span className="w-[52px] text-[11px] font-bold text-gray-700 shrink-0 text-center truncate">
+                  {keyword}
+                </span>
+
+                {/* Section icons */}
+                <div className="flex-1 flex items-center justify-end gap-[6px]">
+                  {SECTIONS.map(s => {
+                    const done = missionCache[`${s.key}-${dayIndex}`];
+                    return (
+                      <button
+                        key={s.key}
+                        onClick={() => !isLocked && handleSectionClick(dayIndex, s.key)}
+                        disabled={isLocked}
+                        className="w-[28px] h-[28px] flex items-center justify-center shrink-0"
+                        title={`Day ${dayIndex + 1} ${s.key}`}
+                      >
+                        {done ? (
+                          <div className="w-5 h-5 bg-amber-400 rounded-full flex items-center justify-center">
+                            <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                        ) : (
+                          <div className="w-5 h-5 rounded-full border-2 border-gray-200 hover:border-amber-300 transition-colors" />
+                        )}
+                      </button>
+                    );
+                  })}
+
+                  {/* Count */}
+                  <span className={`w-[28px] text-[11px] font-mono font-bold text-center tabular-nums ${
+                    isPerfect ? "text-amber-500" : doneCount > 0 ? "text-gray-500" : "text-gray-200"
+                  }`}>
+                    {doneCount}/6
+                  </span>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
 
