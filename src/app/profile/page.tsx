@@ -80,12 +80,12 @@ export default function ProfilePage() {
   // Filter themes by search
   const filteredThemes = useMemo(() => {
     const list: { dayIndex: number; keyword: string; desc: string }[] = [];
-    for (let i = Math.min(themes.length, maxDay) - 1; i >= 0; i--) {
+    for (let i = 0; i < Math.min(themes.length, maxDay); i++) {
       list.push({ dayIndex: i, keyword: themes[i].keyword, desc: themes[i].desc });
     }
     if (!search.trim()) return list;
-    const q = search.trim().toLowerCase();
-    return list.filter(t => t.keyword.toLowerCase().includes(q) || t.desc.toLowerCase().includes(q));
+    const q = search.trim();
+    return list.filter(t => t.keyword.includes(q));
   }, [search, maxDay]);
 
   // if (loading || !user) {
@@ -150,6 +150,14 @@ export default function ProfilePage() {
         </div>
       </div>
 
+      {/* Logout */}
+      <button
+        onClick={handleSignOut}
+        className="w-full py-3 rounded-xl text-sm font-semibold bg-white border border-gray-200 text-gray-500 hover:bg-gray-50 transition-all mb-4"
+      >
+        로그아웃
+      </button>
+
       {/* Stats Summary */}
       <div className="grid grid-cols-3 gap-2 mb-4">
         <div className="bg-white rounded-xl border border-gray-100 p-3 text-center" style={{ boxShadow: 'var(--shadow-sm)' }}>
@@ -168,10 +176,11 @@ export default function ProfilePage() {
 
       {/* Learning History */}
       <div className="bg-white rounded-2xl border border-gray-100 p-4 mb-4" style={{ boxShadow: 'var(--shadow-sm)' }}>
-        <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center justify-between mb-1">
           <h2 className="text-sm font-bold text-gray-800">학습 기록</h2>
           <span className="text-[11px] text-gray-400">{filteredThemes.length}개</span>
         </div>
+        <p className="text-[10px] text-gray-400 mb-3">학습 기록은 로그인한 회원에게만 정확하게 적용됩니다.</p>
 
         {/* Search */}
         <div className="relative mb-3">
@@ -274,13 +283,6 @@ export default function ProfilePage() {
         </div>
       </div>
 
-      {/* Logout */}
-      <button
-        onClick={handleSignOut}
-        className="w-full py-3 rounded-xl text-sm font-semibold bg-white border border-gray-200 text-gray-500 hover:bg-gray-50 transition-all"
-      >
-        로그아웃
-      </button>
     </div>
   );
 }
