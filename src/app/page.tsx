@@ -199,7 +199,7 @@ export default function Home() {
           <span className="text-lg">📢</span>
           <div className="flex-1 min-w-0">
             <p className="text-xs font-bold text-amber-800 truncate">공지사항</p>
-            <p className="text-[11px] text-amber-600/70 truncate">이벤트, 제휴 문의 등 새로운 소식을 확인하세요</p>
+            <p className="text-[11px] font-semibold text-amber-700/80 truncate">이벤트, 제휴 문의 등 새로운 소식을 확인하세요</p>
           </div>
           <svg className="w-4 h-4 text-amber-300 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
@@ -339,7 +339,7 @@ export default function Home() {
                 <h2 className={`text-sm font-bold ${menu.accent} leading-snug`}>
                   {menu.title}
                 </h2>
-                <p className={`text-[11px] ${menu.descColor} mt-0.5 leading-relaxed`}>
+                <p className={`text-[11px] font-semibold ${menu.descColor} mt-0.5 leading-relaxed`}>
                   {menu.desc}
                 </p>
 
