@@ -8,6 +8,7 @@ import { useAuthContext } from "@/contexts/AuthContext";
 import { pullMissionsFromSupabase, migrateLocalStorageToSupabase, flushSyncQueue } from "@/lib/sync";
 import MissionComplete from "@/components/MissionComplete";
 import LoginModal from "@/components/LoginModal";
+import { notices } from "@/data/notices";
 
 const MENUS = [
   {
@@ -112,6 +113,14 @@ export default function Home() {
   const [showLogin, setShowLogin] = useState(false);
   const isLoggedIn = !!user;
 
+  // NEW badge for notice banner
+  const latestNoticeDate = notices.reduce((max, n) => n.date > max ? n.date : max, "");
+  const [hasNewNotice, setHasNewNotice] = useState(false);
+  useEffect(() => {
+    const lastSeen = localStorage.getItem("notice-last-seen") || "";
+    setHasNewNotice(latestNoticeDate > lastSeen);
+  }, [latestNoticeDate]);
+
   // Keep useMission's global userId in sync
   useEffect(() => {
     setCurrentUserId(user?.id || null);
@@ -188,17 +197,24 @@ export default function Home() {
             DailySeed
           </h1>
         </div>
-        <p className="text-[13px] text-[var(--text-muted)] mt-0.5 font-medium">
-          청소년의 교양을 위한 매일의 씨앗
+        <p className="text-[12px] text-[var(--text-muted)] mt-0.5 font-medium">
+          데일리시드, 청소년의 교양을 위한 매일의 씨앗
         </p>
       </header>
 
       {/* Notice Banner */}
-      <a href="/notice" className="block mt-3">
+      <a href="/notice" className="block mt-3" onClick={() => localStorage.setItem("notice-last-seen", latestNoticeDate)}>
         <div className="flex items-center gap-3 bg-amber-50 border border-amber-100 rounded-2xl px-4 py-3 hover:shadow-sm active:scale-[0.98] transition-all">
           <span className="text-lg">📢</span>
           <div className="flex-1 min-w-0">
-            <p className="text-xs font-bold text-amber-800 truncate">공지사항</p>
+            <p className="text-xs font-bold text-amber-800 truncate flex items-center gap-1.5">
+              공지사항
+              {hasNewNotice && (
+                <span className="inline-flex items-center bg-red-500 text-white text-[9px] font-bold px-1.5 py-0.5 rounded-full animate-pulse">
+                  NEW
+                </span>
+              )}
+            </p>
             <p className="text-[11px] font-semibold text-amber-700/80 truncate">이벤트, 제휴 문의 등 새로운 소식을 확인하세요</p>
           </div>
           <svg className="w-4 h-4 text-amber-300 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
