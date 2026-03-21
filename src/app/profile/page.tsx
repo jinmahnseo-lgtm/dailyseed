@@ -207,14 +207,14 @@ export default function ProfilePage() {
         </div>
 
         {/* Column Headers */}
-        <div className="flex items-center gap-1 px-1 mb-1.5">
-          <span className="w-[52px] text-[10px] text-gray-300 font-medium shrink-0">Day</span>
-          <span className="w-[52px] text-[10px] text-gray-300 font-medium shrink-0 text-center">키워드</span>
-          <div className="flex-1 flex items-center justify-end gap-[6px]">
+        <div className="flex items-center gap-0.5 px-0.5 mb-1.5">
+          <span className="w-[38px] text-[10px] text-gray-300 font-medium shrink-0">Day</span>
+          <span className="w-[40px] text-[10px] text-gray-300 font-medium shrink-0 text-center">키워드</span>
+          <div className="flex-1 flex items-center justify-end gap-[3px]">
             {SECTIONS.map(s => (
-              <span key={s.key} className="w-[28px] text-center text-[10px]">{s.emoji}</span>
+              <span key={s.key} className="w-[24px] text-center text-[10px]">{s.emoji}</span>
             ))}
-            <span className="w-[28px] text-[10px] text-gray-300 font-medium text-center">합계</span>
+            <span className="w-[24px] text-[10px] text-gray-300 font-medium text-center">합계</span>
           </div>
         </div>
 
@@ -231,22 +231,22 @@ export default function ProfilePage() {
             return (
               <div
                 key={dayIndex}
-                className={`flex items-center gap-1 px-1 py-1.5 rounded-lg transition-colors ${
+                className={`flex items-center gap-0.5 px-0.5 py-1 rounded-lg transition-colors ${
                   isPerfect ? "bg-amber-50/60" : "hover:bg-gray-50"
                 } ${isLocked ? "opacity-40" : ""}`}
               >
                 {/* Day number */}
-                <span className="w-[52px] text-[11px] font-mono font-bold text-gray-400 shrink-0 tabular-nums">
-                  Day {dayIndex + 1}
+                <span className="w-[38px] text-[11px] font-mono font-bold text-gray-400 shrink-0 tabular-nums">
+                  {dayIndex + 1}
                 </span>
 
                 {/* Keyword */}
-                <span className="w-[52px] text-[11px] font-bold text-gray-700 shrink-0 text-center truncate">
+                <span className="w-[40px] text-[11px] font-bold text-gray-700 shrink-0 text-center truncate">
                   {keyword}
                 </span>
 
                 {/* Section icons */}
-                <div className="flex-1 flex items-center justify-end gap-[6px]">
+                <div className="flex-1 flex items-center justify-end gap-[3px]">
                   {SECTIONS.map(s => {
                     const done = missionCache[`${s.key}-${dayIndex}`];
                     return (
@@ -254,24 +254,24 @@ export default function ProfilePage() {
                         key={s.key}
                         onClick={() => !isLocked && handleSectionClick(dayIndex, s.key)}
                         disabled={isLocked}
-                        className="w-[28px] h-[28px] flex items-center justify-center shrink-0"
+                        className="w-[24px] h-[24px] flex items-center justify-center shrink-0"
                         title={`Day ${dayIndex + 1} ${s.key}`}
                       >
                         {done ? (
-                          <div className="w-5 h-5 bg-amber-400 rounded-full flex items-center justify-center">
-                            <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                          <div className="w-4 h-4 bg-amber-400 rounded-full flex items-center justify-center">
+                            <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                               <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                             </svg>
                           </div>
                         ) : (
-                          <div className="w-5 h-5 rounded-full border-2 border-gray-200 hover:border-amber-300 transition-colors" />
+                          <div className="w-4 h-4 rounded-full border-2 border-gray-200 hover:border-amber-300 transition-colors" />
                         )}
                       </button>
                     );
                   })}
 
                   {/* Count */}
-                  <span className={`w-[28px] text-[11px] font-mono font-bold text-center tabular-nums ${
+                  <span className={`w-[24px] text-[10px] font-mono font-bold text-center tabular-nums ${
                     isPerfect ? "text-amber-500" : doneCount > 0 ? "text-gray-500" : "text-gray-200"
                   }`}>
                     {doneCount}/6
