@@ -392,6 +392,9 @@ export default function Home() {
         <p className="text-[10px] text-[var(--text-subtle)]/50 mt-1">
           by 준·수 아빠
         </p>
+        <p className="text-[10px] text-[var(--text-subtle)]/40">
+          dailyseed.net@gmail.com
+        </p>
       </footer>
     </div>
   );
