@@ -172,13 +172,13 @@ export default function NewsPage() {
                   </div>
                   {side && (
                     <div className="space-y-3">
-                      <input
-                        type="text"
+                      <textarea
+                        rows={3}
                         value={reason}
                         onChange={(e) => setReason(e.target.value)}
-                        placeholder="이유를 한 줄로 적어봐!"
-                        className="w-full p-3 rounded-xl border-2 border-gray-200 text-sm focus:border-[var(--accent)] focus:outline-none"
-                        maxLength={200}
+                        placeholder="이유를 적어봐!"
+                        className="w-full p-3 rounded-xl border-2 border-gray-200 text-sm focus:border-[var(--accent)] focus:outline-none resize-none"
+                        maxLength={300}
                       />
                       <button
                         onClick={handleSubmitDebate}

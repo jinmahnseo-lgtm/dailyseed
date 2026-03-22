@@ -124,13 +124,13 @@ export default function ArtPage() {
             </div>
           ) : (
             <div className="space-y-3">
-              <input
-                type="text"
+              <textarea
+                rows={3}
                 value={review}
                 onChange={(e) => setReview(e.target.value)}
-                placeholder="이 작품에 대한 감상을 한 줄로 적어봐!"
-                className="w-full p-3 rounded-xl border-2 border-gray-200 text-sm focus:border-[var(--accent)] focus:outline-none bg-white"
-                maxLength={200}
+                placeholder="이 작품에 대한 감상을 적어봐!"
+                className="w-full p-3 rounded-xl border-2 border-gray-200 text-sm focus:border-[var(--accent)] focus:outline-none bg-white resize-none"
+                maxLength={300}
               />
               <button
                 onClick={() => {
