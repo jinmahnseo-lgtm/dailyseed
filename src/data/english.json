@@ -9396,9 +9396,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Daumier depicted ordinary workers bathing in the Seine River, reminding us that in the 19th century, access to basic hygiene was itself a matter of health.",
-        "ko": "도미에는 세느강에서 목욕하는 평범한 노동자들을 그리며, 19세기에는 기본적인 위생에 접근하는 것 자체가 건강의 문제였음을 상기시켜준다.",
-        "note": "'access to ~'는 '~에 대한 접근'이라는 뜻이야. access는 명사로 쓰일 때 항상 to와 함께 쓰여. 'a matter of ~'는 '~의 문제'야."
+        "en": "Eakins painted The Gross Clinic to show a surgeon teaching students in an operating theater, capturing medicine's dedication to preserving human health.",
+        "ko": "에이킨스는 <그로스 클리닉>에서 수술실에서 학생들을 가르치는 외과의사를 그리며, 인간의 건강을 지키려는 의학의 헌신을 포착했다.",
+        "note": "'dedication to preserving'에서 dedication to는 '~에 대한 헌신'이야. to 뒤에 동명사(preserving)가 와 — to부정사가 아니라 전치사 to야."
       },
       {
         "source": "세계문화",
@@ -9417,8 +9417,8 @@
     ],
     "vocab": [
       {
-        "word": "hygiene",
-        "meaning": "위생"
+        "word": "surgeon",
+        "meaning": "외과의사"
       },
       {
         "word": "imbalance",
@@ -13884,9 +13884,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Pollock separated painting from tradition by dripping paint onto a canvas laid on the floor, never letting the brush touch the surface.",
-        "ko": "폴록은 바닥에 놓인 캔버스 위에 물감을 흘리며 붓이 표면에 닿지 않게 해, 전통으로부터 회화를 분리시켰다.",
-        "note": "'never letting the brush touch the surface'에서 'let + 목적어 + 동사원형'은 '~가 ~하게 하다(허용하다)'야. never와 함께 '결코 ~하지 않게 했다'는 뜻이 돼."
+        "en": "Seurat separated colors into millions of tiny dots, trusting the viewer's eye to blend them together from a distance into a complete scene.",
+        "ko": "쇠라는 색을 수백만 개의 작은 점으로 분리하고, 멀리서 보면 관객의 눈이 그것을 하나의 완전한 장면으로 합쳐줄 것이라 믿었다.",
+        "note": "'trusting the viewer's eye to blend'에서 trust + 목적어 + to부정사는 '~가 ~할 것이라 믿다'야. blend는 '섞다, 혼합하다'라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -13905,12 +13905,12 @@
     ],
     "vocab": [
       {
-        "word": "worthy",
-        "meaning": "자격 있는"
+        "word": "blend",
+        "meaning": "섞다, 혼합하다"
       },
       {
-        "word": "partition",
-        "meaning": "분할하다"
+        "word": "separate",
+        "meaning": "분리하다"
       },
       {
         "word": "polar",
@@ -13935,9 +13935,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Klimt wrapped the two lovers in The Kiss within a single golden cloak, making it impossible to tell where one person ends and the other begins.",
-        "ko": "클림트는 <키스>에서 두 연인을 하나의 황금빛 망토로 감싸, 한 사람이 어디에서 끝나고 다른 사람이 어디서 시작하는지 구분할 수 없게 했다.",
-        "note": "'making it impossible to tell where ~'에서 make it + 형용사 + to부정사는 '~하는 것을 ~하게 만들다'야. tell은 여기서 '구분하다, 알아보다'라는 뜻이야."
+        "en": "Rodin carved The Kiss from a single block of marble, sculpting two lovers whose bodies merge so naturally that the stone seems to come alive.",
+        "ko": "로댕은 하나의 대리석 덩어리에서 <키스>를 조각했으며, 두 연인의 몸이 너무 자연스럽게 결합돼 돌이 살아있는 것처럼 보인다.",
+        "note": "'whose bodies merge so naturally that ~'에서 so ~ that 구문은 '너무 ~해서 ~하다'야. merge는 '합치다, 결합하다'라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -13960,8 +13960,8 @@
         "meaning": "결합하다"
       },
       {
-        "word": "cloak",
-        "meaning": "망토"
+        "word": "merge",
+        "meaning": "합치다, 결합하다"
       },
       {
         "word": "union",
