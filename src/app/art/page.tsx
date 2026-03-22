@@ -51,7 +51,7 @@ export default function ArtPage() {
           </p>
           <div className="flex items-center justify-between mb-3">
             <p className="text-[10px] text-gray-400">
-              그림이 로딩되지 않으면 출처 링크를 클릭해주세요
+              저작권이 만료된 작품을 Wikimedia Commons에서 제공합니다
             </p>
             {item.source_url && (
               <a
