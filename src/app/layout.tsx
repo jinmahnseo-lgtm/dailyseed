@@ -60,6 +60,10 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XF5Z5W2SZZ" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XF5Z5W2SZZ');
+        `}} />
         <script dangerouslySetInnerHTML={{ __html: `
           if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(function(r){r.forEach(function(s){s.unregister()})})}
         `}} />
