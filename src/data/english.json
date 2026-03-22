@@ -3072,9 +3072,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Zaha Hadid envisioned buildings that seemed to defy gravity, with flowing curves instead of straight lines.",
-        "ko": "자하 하디드는 직선 대신 흐르는 곡선으로 중력을 거스르는 듯한 건축물을 구상했다.",
-        "note": "'seemed to defy'에서 seem to는 '~인 것 같다'야. 'defy gravity'는 '중력을 거스르다'라는 뜻으로, defy는 '~에 저항하다, 무시하다'야."
+        "en": "Elsheimer painted the first realistic night sky in Western art, showing the Milky Way as a band of individual stars rather than a bright smear.",
+        "ko": "엘스하이머는 서양 미술 최초로 은하수를 밝은 얼룩이 아닌 개별 별들의 띠로 그려 사실적인 밤하늘을 표현했다.",
+        "note": "'rather than ~'은 '~가 아니라, ~보다는'이라는 뜻이야. 두 가지를 대조할 때 쓰는 표현으로, instead of와 비슷해."
       },
       {
         "source": "세계문화",
@@ -3097,8 +3097,8 @@
         "meaning": "비전, 전망"
       },
       {
-        "word": "defy",
-        "meaning": "거스르다, 저항하다"
+        "word": "realistic",
+        "meaning": "사실적인"
       },
       {
         "word": "character",
@@ -3174,9 +3174,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Goya's painting shows the horror of soldiers executing unarmed civilians, forcing the viewer to confront the cruelty of war.",
-        "ko": "고야의 그림은 군인들이 무장하지 않은 민간인을 처형하는 공포를 보여주며, 관객이 전쟁의 잔인함과 마주하게 한다.",
-        "note": "'forcing the viewer to confront'은 분사구문이야. 'force A to ~'는 'A에게 ~하도록 강요하다'라는 사역 표현이야."
+        "en": "La Tour painted the Penitent Magdalene by candlelight, using a single flame to reveal the quiet struggle of a woman confronting her own conscience.",
+        "ko": "라 투르는 촛불 하나로 참회하는 막달라 마리아를 그리며, 양심과 마주하는 여인의 고요한 내면적 갈등을 드러냈다.",
+        "note": "'confronting her own conscience'에서 confront는 '~와 마주하다, 직면하다'라는 뜻이야. face와 비슷하지만 더 적극적인 뉘앙스가 있어."
       },
       {
         "source": "세계문화",
@@ -3199,8 +3199,8 @@
         "meaning": "양심"
       },
       {
-        "word": "execute",
-        "meaning": "처형하다"
+        "word": "flame",
+        "meaning": "불꽃"
       },
       {
         "word": "defendant",
@@ -3480,9 +3480,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "In Starry Night, van Gogh transformed his view from a hospital window into a swirling sky that seems to pulse with emotion.",
-        "ko": "별이 빛나는 밤에서, 반 고흐는 병원 창문에서 본 풍경을 감정으로 맥박치는 듯한 소용돌이치는 하늘로 변환시켰다.",
-        "note": "'that seems to pulse with emotion'에서 관계절이 sky를 수식해. 'pulse with ~'는 '~으로 맥박치다/진동하다'라는 생생한 표현이야."
+        "en": "Munch painted The Sick Child six times throughout his life, returning again and again to the memory of his dying sister as a way of processing grief.",
+        "ko": "뭉크는 평생 동안 <아픈 아이>를 여섯 번이나 그렸으며, 죽어가는 누나의 기억으로 반복해서 돌아가 슬픔을 다루었다.",
+        "note": "'as a way of processing grief'에서 'as a way of ~'는 '~하는 방법으로서'야. process는 여기서 감정을 '처리하다, 소화하다'라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -3633,9 +3633,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Chagall filled his paintings with floating lovers and dreamlike villages, expressing his longing for the homeland he had lost.",
-        "ko": "샤갈은 떠다니는 연인들과 꿈같은 마을로 그림을 채우며, 잃어버린 고향에 대한 그리움을 표현했다.",
-        "note": "'his longing for ~'에서 longing은 '그리움, 갈망'이라는 명사야. 'long for ~'(~를 갈망하다)에서 온 표현이야."
+        "en": "In Watts's painting Hope, a blindfolded woman sits on a globe, playing a lyre with only one string left, yet still making music.",
+        "ko": "와츠의 그림 <희망>에서 눈이 가려진 여인이 지구 위에 앉아 줄 하나만 남은 리라로 여전히 음악을 만들어낸다.",
+        "note": "'yet still making music'에서 yet은 '그럼에도 불구하고'야. 'still'과 함께 쓰여 역경 속에서도 계속하는 모습을 강조해."
       },
       {
         "source": "세계문화",
@@ -3654,8 +3654,8 @@
     ],
     "vocab": [
       {
-        "word": "longing",
-        "meaning": "그리움, 갈망"
+        "word": "blindfolded",
+        "meaning": "눈이 가려진"
       },
       {
         "word": "perch",
@@ -5367,9 +5367,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Gaudí's Sagrada Família in Barcelona looks as though it grew from the earth, with columns shaped like giant tree trunks.",
-        "ko": "바르셀로나의 가우디 사그라다 파밀리아는 거대한 나무 기둥처럼 생긴 기둥과 함께 마치 땅에서 자라난 것처럼 보인다.",
-        "note": "'as though it grew from ~'는 '마치 ~에서 자란 것처럼'이라는 가정법 표현이야. as though(= as if)는 비현실적 비유를 만들 때 써."
+        "en": "The Renaissance painting of an Ideal City uses perfect perspective to create a vision of architectural harmony, with every building precisely aligned.",
+        "ko": "르네상스 시대의 <이상적인 도시>는 완벽한 원근법으로 모든 건물이 정확히 정렬된 건축적 조화의 비전을 만들어낸다.",
+        "note": "'with every building precisely aligned'는 'with + 목적어 + 과거분사' 구문이야. '모든 건물이 정확히 정렬된 채로'라는 부대상황을 나타내."
       },
       {
         "source": "세계문화",
@@ -5392,8 +5392,8 @@
         "meaning": "수도교"
       },
       {
-        "word": "column",
-        "meaning": "기둥"
+        "word": "perspective",
+        "meaning": "원근법, 관점"
       },
       {
         "word": "distribute",
@@ -8784,9 +8784,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Picasso painted Guernica in shades of gray to show the horror and chaos of bombing.",
-        "ko": "피카소는 폭격의 공포와 혼란을 보여주기 위해 게르니카를 회색 톤으로 그렸다.",
-        "note": "'in shades of ~'는 '~색 톤으로'라는 뜻이야. shade는 '색조, 명암'을 뜻하고, 'in shades of gray'는 '회색 음영으로'라는 표현이야."
+        "en": "Rubens portrayed Mars breaking free from Venus's embrace and trampling books, instruments, and buildings beneath his feet, showing how war destroys civilization.",
+        "ko": "루벤스는 마르스가 비너스의 포옹을 뿌리치고 발아래 책, 악기, 건물을 짓밟는 모습을 그려 전쟁이 문명을 파괴하는 방식을 보여주었다.",
+        "note": "'breaking free from ~'은 '~에서 벗어나다, 탈출하다'라는 뜻이야. break free는 물리적·심리적 속박에서 벗어날 때 모두 쓸 수 있어."
       },
       {
         "source": "세계문화",
@@ -8813,8 +8813,8 @@
         "meaning": "주권"
       },
       {
-        "word": "chaos",
-        "meaning": "혼란"
+        "word": "trample",
+        "meaning": "짓밟다"
       },
       {
         "word": "gunpowder",
@@ -9396,9 +9396,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Renaissance artists studied human anatomy by dissecting bodies, striving to depict the human form as accurately as possible.",
-        "ko": "르네상스 예술가들은 인체를 가능한 한 정확하게 묘사하기 위해 시신을 해부하며 인체 해부학을 연구했다.",
-        "note": "'as ~ as possible'은 '가능한 한 ~하게'라는 뜻이야. 'strive to ~'는 '~하려고 노력하다'로, try보다 더 강한 노력을 의미해."
+        "en": "Daumier depicted ordinary workers bathing in the Seine River, reminding us that in the 19th century, access to basic hygiene was itself a matter of health.",
+        "ko": "도미에는 세느강에서 목욕하는 평범한 노동자들을 그리며, 19세기에는 기본적인 위생에 접근하는 것 자체가 건강의 문제였음을 상기시켜준다.",
+        "note": "'access to ~'는 '~에 대한 접근'이라는 뜻이야. access는 명사로 쓰일 때 항상 to와 함께 쓰여. 'a matter of ~'는 '~의 문제'야."
       },
       {
         "source": "세계문화",
@@ -9417,8 +9417,8 @@
     ],
     "vocab": [
       {
-        "word": "anatomy",
-        "meaning": "해부학"
+        "word": "hygiene",
+        "meaning": "위생"
       },
       {
         "word": "imbalance",
@@ -9702,9 +9702,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Munch's famous figure stands on a bridge with its mouth wide open, expressing an overwhelming sense of anxiety.",
-        "ko": "뭉크의 유명한 인물은 입을 크게 벌린 채 다리 위에 서서, 압도적인 불안감을 표현하고 있다.",
-        "note": "'with its mouth wide open'은 'with + 명사 + 형용사' 구조로 '~을 ~한 상태로'라는 동시 상황을 표현해. 그림이나 장면 묘사에 자주 쓰여."
+        "en": "In Goya's painting The Colossus, a giant figure rises above the clouds while terrified crowds scatter below, capturing the invisible tension of approaching war.",
+        "ko": "고야의 <거인>에서 거대한 인물이 구름 위로 솟아오르고 공포에 질린 군중이 아래에서 흩어지며, 다가오는 전쟁의 보이지 않는 긴장을 포착했다.",
+        "note": "'while terrified crowds scatter below'에서 while은 동시 동작을 나타내. 'terrified'는 '공포에 질린'으로, terrifying(공포를 주는)과 구분해서 써야 해."
       },
       {
         "source": "세계문화",
@@ -9723,12 +9723,12 @@
     ],
     "vocab": [
       {
-        "word": "anxiety",
-        "meaning": "불안"
+        "word": "terrified",
+        "meaning": "공포에 질린"
       },
       {
-        "word": "overwhelming",
-        "meaning": "압도적인"
+        "word": "scatter",
+        "meaning": "흩어지다"
       },
       {
         "word": "cortisol",
@@ -10263,9 +10263,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Frida Kahlo continued to paint even while lying in a hospital bed, using a mirror attached to the ceiling above her.",
-        "ko": "프리다 칼로는 병원 침대에 누워서도 천장에 붙인 거울을 이용해 계속 그림을 그렸다.",
-        "note": "'even while + ~ing'는 '~하는 와중에도'라는 뜻이야. even이 while을 강조해서 어려운 상황에서도 계속했다는 의지를 보여줘."
+        "en": "Doré illustrated Don Quixote charging at windmills he believed were giants, portraying a man whose willpower could not be broken by defeat.",
+        "ko": "도레는 풍차를 거인이라 믿고 돌진하는 돈키호테를 묘사하며, 패배에도 꺾이지 않는 의지의 인간을 표현했다.",
+        "note": "'whose willpower could not be broken'에서 whose는 소유격 관계대명사야. 'could not be broken'은 수동태로 '꺾일 수 없었다'라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -10569,9 +10569,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Marcel Duchamp rejected traditional art by placing a urinal in a gallery and calling it art, challenging everything people believed about beauty.",
-        "ko": "마르셀 뒤샹은 소변기를 갤러리에 놓고 그것을 예술이라 부르며 전통 미술을 거부했고, 사람들이 아름다움에 대해 믿던 모든 것에 도전했다.",
-        "note": "'by + ~ing'으로 거부의 방법을 설명하고, 'calling it art'에서 call + 목적어 + 보어는 '~을 …라고 부르다'야."
+        "en": "Canova sculpted Cupid lifting Psyche with a kiss, showing a god who refused to obey his mother's command in order to save the one he loved.",
+        "ko": "카노바는 큐피드가 입맞춤으로 프시케를 일으키는 조각을 만들며, 사랑하는 사람을 구하기 위해 어머니의 명령을 거부한 신을 보여주었다.",
+        "note": "'in order to ~'는 '~하기 위해'라는 목적 표현이야. to부정사만 써도 되지만, in order to는 목적을 더 명확히 강조할 때 써."
       },
       {
         "source": "세계문화",
@@ -10594,8 +10594,8 @@
         "meaning": "거부하다"
       },
       {
-        "word": "urinal",
-        "meaning": "소변기"
+        "word": "sculpt",
+        "meaning": "조각하다"
       },
       {
         "word": "spark",
@@ -10620,9 +10620,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "The architects of the Parthenon made its columns slightly curved, a subtle compromise between perfect geometry and how human eyes actually perceive straight lines.",
-        "ko": "파르테논 신전의 건축가들은 기둥을 약간 휘게 만들었는데, 이는 완벽한 기하학과 인간의 눈이 실제로 직선을 인식하는 방식 사이의 미묘한 타협이었다.",
-        "note": "'a compromise between A and B'는 'A와 B 사이의 타협'이야. between A and B는 두 가지 사이를 나타내는 필수 패턴이야."
+        "en": "Chardin chose to paint humble still lifes in an era that valued grand history paintings, yet he earned the Academy's respect by mastering his own style.",
+        "ko": "샤르댕은 웅장한 역사화가 존중받던 시대에 소박한 정물화를 택했지만, 자신만의 스타일을 완성해 아카데미의 존경을 얻었다.",
+        "note": "'in an era that valued ~'에서 that은 관계대명사로 era를 수식해. 'earn respect'은 '존경을 얻다'라는 뜻으로 자주 쓰이는 콜로케이션이야."
       },
       {
         "source": "세계문화",
@@ -10649,8 +10649,8 @@
         "meaning": "협상하다"
       },
       {
-        "word": "perceive",
-        "meaning": "인식하다"
+        "word": "humble",
+        "meaning": "소박한, 겸손한"
       },
       {
         "word": "outcome",
@@ -10722,9 +10722,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Gauguin left his comfortable life in Paris and moved to Tahiti, but he spent his final years filled with regret and loneliness.",
-        "ko": "고갱은 파리의 편안한 삶을 떠나 타히티로 갔지만, 마지막 몇 년을 후회와 외로움으로 가득 찬 채 보냈다.",
-        "note": "'filled with regret'는 과거분사구로 'his final years'를 꾸며줘. '후회로 가득 찬'이라는 뜻이야. filled는 형용사처럼 쓰이고 있어."
+        "en": "Murillo painted the Prodigal Son returning home in rags, only to be embraced by his father without a single word of blame.",
+        "ko": "무리요는 넝마를 걸치고 돌아온 탕자가 아버지에게 한마디 질책도 없이 포옹받는 모습을 그렸다.",
+        "note": "'only to be embraced'에서 'only to ~'는 '결국 ~하게 되다'라는 뜻이야. 예상 밖의 결과를 나타내. 'without a single word of ~'는 '~한 단 한마디도 없이'야."
       },
       {
         "source": "세계문화",
@@ -10747,8 +10747,8 @@
         "meaning": "후회"
       },
       {
-        "word": "loneliness",
-        "meaning": "외로움"
+        "word": "embrace",
+        "meaning": "포옹하다"
       },
       {
         "word": "dwell",
@@ -10824,9 +10824,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Edward Hopper's paintings capture the loneliness of modern life, showing solitary figures who seem unable to connect with the people around them.",
-        "ko": "에드워드 호퍼의 그림은 현대 생활의 외로움을 포착하며, 주변 사람들과 연결되지 못하는 것처럼 보이는 고독한 인물들을 보여준다.",
-        "note": "'who seem unable to ~'에서 seem + 형용사는 '~인 것처럼 보이다'야. unable to connect는 '연결할 수 없는'이야."
+        "en": "Shin Yun-bok painted people from different social classes sharing the same space in a tavern, quietly challenging the rigid boundaries of Joseon society.",
+        "ko": "신윤복은 주막에서 다른 신분의 사람들이 같은 공간을 공유하는 모습을 그리며, 조선 사회의 엄격한 경계를 조용히 도전했다.",
+        "note": "'quietly challenging ~'는 현재분사구문으로 부가 설명을 해. quietly는 '조용히, 은연중에'라는 뜻으로, 직접적이 아닌 은근한 도전을 나타내."
       },
       {
         "source": "세계문화",
@@ -10845,8 +10845,8 @@
     ],
     "vocab": [
       {
-        "word": "solitary",
-        "meaning": "고독한"
+        "word": "boundary",
+        "meaning": "경계"
       },
       {
         "word": "continent",
@@ -13425,9 +13425,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Vermeer applied the final layer of light so delicately that his paintings seem to glow from within.",
-        "ko": "베르메르는 마지막 빛의 층을 너무나 섬세하게 칠해서, 그의 그림이 안에서 빛나는 것처럼 보인다.",
-        "note": "'so ~ that …'는 '너무 ~해서 …하다'라는 결과 구문이야. so delicately that = '너무 섬세하게 해서 결국 …하다'."
+        "en": "Millais painted four girls gathering autumn leaves at dusk, creating what critic John Ruskin called the most poetic painting in existence.",
+        "ko": "밀레이는 황혼에 가을 낙엽을 모으는 네 소녀를 그려, 비평가 존 러스킨이 세상에서 가장 시적인 그림이라 부른 작품을 만들었다.",
+        "note": "'what critic John Ruskin called ~'에서 what은 '~라고 부른 것'이라는 관계대명사야. 'in existence'는 '존재하는, 세상에 있는'이라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -13446,12 +13446,12 @@
     ],
     "vocab": [
       {
-        "word": "delicately",
-        "meaning": "섬세하게"
+        "word": "dusk",
+        "meaning": "황혼"
       },
       {
-        "word": "glow",
-        "meaning": "빛나다"
+        "word": "poetic",
+        "meaning": "시적인"
       },
       {
         "word": "seal",
@@ -13884,9 +13884,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "When Picasso moved away from traditional painting, many critics rejected his new style, but that separation freed his creativity.",
-        "ko": "피카소가 전통 회화에서 벗어났을 때 많은 비평가들이 그의 새 스타일을 거부했지만, 그 분리가 그의 창의성을 자유롭게 했다.",
-        "note": "'moved away from'은 '~에서 벗어나다, 멀어지다'라는 뜻의 구동사야. 물리적·비유적 분리 모두에 쓸 수 있어."
+        "en": "Pollock separated painting from tradition by dripping paint onto a canvas laid on the floor, never letting the brush touch the surface.",
+        "ko": "폴록은 바닥에 놓인 캔버스 위에 물감을 흘리며 붓이 표면에 닿지 않게 해, 전통으로부터 회화를 분리시켰다.",
+        "note": "'never letting the brush touch the surface'에서 'let + 목적어 + 동사원형'은 '~가 ~하게 하다(허용하다)'야. never와 함께 '결코 ~하지 않게 했다'는 뜻이 돼."
       },
       {
         "source": "세계문화",
@@ -13935,9 +13935,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Gothic cathedrals were built by combining stone, glass, and light in ways that no single material could achieve alone.",
-        "ko": "고딕 성당은 돌, 유리, 빛을 어떤 단일 재료만으로는 달성할 수 없는 방식으로 결합하여 지어졌다.",
-        "note": "'in ways that no single material could achieve alone'에서 that은 관계대명사로 ways를 수식해. '어떤 단일 재료도 혼자서는 달성할 수 없는 방식으로'."
+        "en": "Klimt wrapped the two lovers in The Kiss within a single golden cloak, making it impossible to tell where one person ends and the other begins.",
+        "ko": "클림트는 <키스>에서 두 연인을 하나의 황금빛 망토로 감싸, 한 사람이 어디에서 끝나고 다른 사람이 어디서 시작하는지 구분할 수 없게 했다.",
+        "note": "'making it impossible to tell where ~'에서 make it + 형용사 + to부정사는 '~하는 것을 ~하게 만들다'야. tell은 여기서 '구분하다, 알아보다'라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -13960,8 +13960,8 @@
         "meaning": "결합하다"
       },
       {
-        "word": "cathedral",
-        "meaning": "대성당"
+        "word": "cloak",
+        "meaning": "망토"
       },
       {
         "word": "union",
@@ -13986,9 +13986,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "A conductor does not play a single instrument, yet without the conductor, the orchestra cannot produce harmony.",
-        "ko": "지휘자는 악기 하나 연주하지 않지만, 지휘자 없이는 오케스트라가 하모니를 만들어낼 수 없다.",
-        "note": "'yet'은 'but'과 비슷한 역접 접속사야. '그러나, 그럼에도 불구하고'라는 뜻으로, 격식체에서 자주 쓰여."
+        "en": "Degas captured the orchestra pit from an unusual angle, showing musicians focused on their instruments while ballerinas danced on the stage above.",
+        "ko": "드가는 독특한 각도에서 오케스트라석을 포착하며, 음악가들이 악기에 집중하는 동안 위 무대에서 발레리나들이 춤추는 모습을 보여주었다.",
+        "note": "'from an unusual angle'에서 angle은 '각도, 시각'이야. 'while ballerinas danced'에서 while은 '~하는 동안'으로 동시 동작을 나타내."
       },
       {
         "source": "세계문화",
@@ -14007,12 +14007,12 @@
     ],
     "vocab": [
       {
-        "word": "harmony",
-        "meaning": "조화"
+        "word": "pit",
+        "meaning": "(오케스트라) 연주석"
       },
       {
-        "word": "conductor",
-        "meaning": "지휘자"
+        "word": "focused",
+        "meaning": "집중한"
       },
       {
         "word": "coordinate",
@@ -16689,9 +16689,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Picasso deconstructed the human face in his cubist portraits, showing multiple angles at the same time.",
-        "ko": "피카소는 입체파 초상화에서 인간의 얼굴을 해체하여 여러 각도를 동시에 보여주었다.",
-        "note": "'at the same time'은 '동시에'라는 뜻의 부사구야. 일상 대화에서도 'I can't do two things at the same time'처럼 자주 써."
+        "en": "Blake deconstructed traditional religious imagery by creating his own mythology, painting the Great Red Dragon as both terrifying and sublime.",
+        "ko": "블레이크는 자신만의 신화를 창조해 전통 종교 이미지를 해체했으며, 거대한 붉은 용을 공포스러우면서도 숭고하게 그렸다.",
+        "note": "'both terrifying and sublime'은 'both A and B' 패턴으로 '공포스러우면서도 숭고한'이라는 뜻이야. 대조적인 두 성질을 동시에 나타낼 때 써."
       },
       {
         "source": "세계문화",
@@ -16714,8 +16714,8 @@
         "meaning": "해체하다"
       },
       {
-        "word": "portrait",
-        "meaning": "초상화"
+        "word": "mythology",
+        "meaning": "신화"
       },
       {
         "word": "independent",
