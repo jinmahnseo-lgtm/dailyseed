@@ -9396,9 +9396,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Eakins painted The Gross Clinic to show a surgeon teaching students in an operating theater, capturing medicine's dedication to preserving human health.",
-        "ko": "에이킨스는 <그로스 클리닉>에서 수술실에서 학생들을 가르치는 외과의사를 그리며, 인간의 건강을 지키려는 의학의 헌신을 포착했다.",
-        "note": "'dedication to preserving'에서 dedication to는 '~에 대한 헌신'이야. to 뒤에 동명사(preserving)가 와 — to부정사가 아니라 전치사 to야."
+        "en": "Cranach painted The Fountain of Youth, where old and sick people enter a magical pool and emerge young and healthy on the other side.",
+        "ko": "크라나흐는 <젊음의 샘>에서 늙고 병든 사람들이 마법의 샘에 들어가 반대편에서 젊고 건강하게 나오는 모습을 그렸다.",
+        "note": "'emerge young and healthy'에서 emerge는 '나타나다, 나오다'야. 뒤에 형용사가 바로 와서 '~한 상태로 나오다'라는 뜻이 돼."
       },
       {
         "source": "세계문화",
@@ -9417,8 +9417,8 @@
     ],
     "vocab": [
       {
-        "word": "surgeon",
-        "meaning": "외과의사"
+        "word": "emerge",
+        "meaning": "나타나다, 나오다"
       },
       {
         "word": "imbalance",
@@ -13884,9 +13884,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Seurat separated colors into millions of tiny dots, trusting the viewer's eye to blend them together from a distance into a complete scene.",
-        "ko": "쇠라는 색을 수백만 개의 작은 점으로 분리하고, 멀리서 보면 관객의 눈이 그것을 하나의 완전한 장면으로 합쳐줄 것이라 믿었다.",
-        "note": "'trusting the viewer's eye to blend'에서 trust + 목적어 + to부정사는 '~가 ~할 것이라 믿다'야. blend는 '섞다, 혼합하다'라는 뜻이야."
+        "en": "Malevich separated art from reality by painting nothing but a black circle on a white canvas, stripping away every trace of the visible world.",
+        "ko": "말레비치는 흰 캔버스 위에 검은 원만을 그려 보이는 세계의 모든 흔적을 벗겨내며, 예술을 현실로부터 분리시켰다.",
+        "note": "'stripping away every trace of ~'에서 strip away는 '벗겨내다, 제거하다'야. every trace of는 '~의 모든 흔적'이라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -13905,12 +13905,12 @@
     ],
     "vocab": [
       {
-        "word": "blend",
-        "meaning": "섞다, 혼합하다"
+        "word": "strip",
+        "meaning": "벗기다, 제거하다"
       },
       {
-        "word": "separate",
-        "meaning": "분리하다"
+        "word": "trace",
+        "meaning": "흔적"
       },
       {
         "word": "polar",
@@ -16689,9 +16689,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Blake deconstructed traditional religious imagery by creating his own mythology, painting the Great Red Dragon as both terrifying and sublime.",
-        "ko": "블레이크는 자신만의 신화를 창조해 전통 종교 이미지를 해체했으며, 거대한 붉은 용을 공포스러우면서도 숭고하게 그렸다.",
-        "note": "'both terrifying and sublime'은 'both A and B' 패턴으로 '공포스러우면서도 숭고한'이라는 뜻이야. 대조적인 두 성질을 동시에 나타낼 때 써."
+        "en": "Piranesi deconstructed the rules of architecture in his Imaginary Prisons, creating impossible spaces where stairs lead nowhere and bridges connect nothing.",
+        "ko": "피라네시는 <상상의 감옥>에서 건축의 규칙을 해체해, 계단이 어디로도 이어지지 않고 다리가 아무것도 연결하지 않는 불가능한 공간을 만들었다.",
+        "note": "'where stairs lead nowhere'에서 lead nowhere는 '어디로도 이어지지 않다'야. nowhere는 부정의 의미를 가진 부사로, not anywhere와 같은 뜻이야."
       },
       {
         "source": "세계문화",
@@ -16714,8 +16714,8 @@
         "meaning": "해체하다"
       },
       {
-        "word": "mythology",
-        "meaning": "신화"
+        "word": "nowhere",
+        "meaning": "어디에도 ~않는"
       },
       {
         "word": "independent",
