@@ -3735,9 +3735,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Turner's seascapes capture the terrifying power of storms at sea, where tiny ships are tossed about by enormous waves.",
-        "ko": "터너의 바다 풍경화는 바다 폭풍의 무시무시한 힘을 포착하는데, 거대한 파도에 작은 배들이 이리저리 내던져진다.",
-        "note": "'are tossed about by ~'는 수동태로 '~에 의해 이리저리 던져지다'야. 'toss about'은 '이리저리 흔들다/던지다'라는 구동사야."
+        "en": "Courbet's painting of a massive wave crashing onto the shore captures the raw power and danger of the sea through thick, textured brushstrokes.",
+        "ko": "쿠르베의 해안에 부딪히는 거대한 파도 그림은 두껍고 질감 있는 붓 터치로 바다의 거친 힘과 위험을 담아낸다.",
+        "note": "'crash onto ~'는 '~에 부딪히다'야. 'raw power'는 '날것의 힘, 거친 힘'이라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -9447,9 +9447,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Rembrandt's painting of a public anatomy lesson shows a group of surgeons observing a dissection with intense curiosity.",
-        "ko": "렘브란트의 공개 해부학 수업 그림은 외과의들이 강렬한 호기심으로 해부를 관찰하는 모습을 보여준다.",
-        "note": "'with intense curiosity'에서 with는 '~을 가지고, ~한 태도로'라는 수단/태도를 나타내는 전치사야. with + 감정 명사로 상태를 표현할 수 있어."
+        "en": "In Luke Fildes' painting The Doctor, a physician sits beside a sick child through the night, showing that true medicine is not just science but compassion.",
+        "ko": "루크 필데스의 그림 '의사'에서, 한 의사가 밤새 아픈 아이 곁에 앉아 있으며, 진정한 의학은 과학만이 아니라 연민임을 보여준다.",
+        "note": "'sit beside ~'은 '~곁에 앉다'야. 'not just A but B'는 'A만이 아니라 B이기도 하다'라는 상관접속사 구문이야."
       },
       {
         "source": "세계문화",
@@ -9476,8 +9476,8 @@
         "meaning": "인류, 인간성"
       },
       {
-        "word": "dissection",
-        "meaning": "해부"
+        "word": "compassion",
+        "meaning": "연민, 동정심"
       },
       {
         "word": "resistant",
@@ -9906,9 +9906,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Picasso's Blue Period paintings, dominated by cold blue tones, reflect the profound sadness he felt after his friend's death.",
-        "ko": "차가운 푸른 톤이 지배적인 피카소의 청색 시대 그림들은 친구의 죽음 후 느꼈던 깊은 슬픔을 반영한다.",
-        "note": "'dominated by ~'는 '~이 지배적인'이라는 과거분사구야. 'reflect'는 '반영하다'로, 예술 작품이 감정이나 시대를 담고 있다고 표현할 때 자주 써."
+        "en": "Waterhouse painted the Lady of Shalott drifting down a river toward her fate, her face filled with sorrow and quiet resolve.",
+        "ko": "워터하우스는 운명을 향해 강을 떠내려가는 샬롯의 여인을 그렸으며, 그녀의 얼굴에는 슬픔과 조용한 결의가 가득하다.",
+        "note": "'drift down ~'은 '~을 따라 떠내려가다'야. 'filled with ~'는 '~으로 가득한'이라는 과거분사 형용사구야."
       },
       {
         "source": "세계문화",
@@ -12456,9 +12456,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "The humanoid robot in Fritz Lang's film Metropolis remains one of the most memorable images of artificial beings in visual culture.",
-        "ko": "프리츠 랑의 영화 '메트로폴리스'에 나오는 인간형 로봇은 시각 문화에서 가장 기억에 남는 인공 존재 이미지 중 하나이다.",
-        "note": "'remains one of the most ~'에서 remain은 '여전히 ~이다'라는 뜻의 연결동사야. memorable은 '기억에 남는'."
+        "en": "The Turk, an eighteenth-century chess automaton, fooled audiences into believing a machine could think — it was actually operated by a hidden human player inside.",
+        "ko": "18세기 체스 자동인형 '터크'는 기계가 생각할 수 있다고 관객을 속였다 — 실제로는 내부에 숨은 사람이 조작한 것이었다.",
+        "note": "'fool ~ into -ing'는 '~을 속여서 …하게 만들다'야. 'operated by ~'는 수동태로 '~에 의해 조작된'이라는 뜻."
       },
       {
         "source": "세계문화",
@@ -12966,9 +12966,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "During a job interview, your body language communicates just as much as the words you speak, according to many hiring experts.",
-        "ko": "많은 채용 전문가에 따르면, 면접 중 몸짓 언어는 말하는 단어만큼이나 많은 것을 전달한다.",
-        "note": "'just as much as ~'는 '~만큼이나 많이'라는 동등 비교야. 'according to ~'는 '~에 따르면'이라는 출처 표현."
+        "en": "In Munkácsy's painting, Christ stands calmly before Pilate while an angry crowd demands his punishment — the ultimate test of character under pressure.",
+        "ko": "문카치의 그림에서, 그리스도는 분노한 군중이 처벌을 요구하는 가운데 필라도 앞에 차분하게 서 있다 — 압박 속 인격의 궁극적 시험이다.",
+        "note": "'stand calmly'에서 부사 calmly가 동사 stand를 수식해. 'under pressure'는 '압박 속에서'라는 전치사구야."
       },
       {
         "source": "세계문화",
@@ -14037,9 +14037,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Beethoven continued to compose masterpieces even after he lost his hearing, proving that art can overcome any obstacle.",
-        "ko": "베토벤은 청력을 잃은 후에도 걸작을 작곡했으며, 예술이 어떤 장애물도 극복할 수 있음을 증명했다.",
-        "note": "'even after he lost'에서 even은 after를 강조해 '~한 후에도'라는 뜻을 만들어. even은 놀라움이나 극단을 강조할 때 써."
+        "en": "Artemisia Gentileschi overcame personal trauma to become one of the greatest Baroque painters, channeling her pain into powerful images of strong women from mythology.",
+        "ko": "아르테미시아 젠틸레스키는 개인적 트라우마를 극복하고 가장 위대한 바로크 화가 중 한 명이 되었으며, 고통을 신화 속 강인한 여성들의 강렬한 이미지로 승화시켰다.",
+        "note": "'channel A into B'는 'A를 B로 돌리다/전환하다'라는 뜻이야. 'overcome'의 과거형은 overcame야."
       },
       {
         "source": "세계문화",
@@ -14496,9 +14496,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "In the movie, Andy crawled through a tunnel of filth to reach freedom on the other side, proving that hope can survive even in the darkest places.",
-        "ko": "영화에서 앤디는 저편의 자유에 도달하기 위해 오물 터널을 기어갔고, 가장 어두운 곳에서도 희망이 살아남을 수 있음을 증명했다.",
-        "note": "'to reach freedom'은 목적을 나타내는 to부정사야. '자유에 도달하기 위해'라는 뜻으로, 행동의 이유를 설명해."
+        "en": "Kollwitz's etching The Prisoners shows bound captives with bowed heads, capturing the desperation of those who dream of escape but see no way out.",
+        "ko": "콜비츠의 에칭 '죄수들'은 고개를 숙인 채 묶여 있는 포로들을 보여주며, 탈출을 꿈꾸지만 탈출구를 보지 못하는 이들의 절망을 담는다.",
+        "note": "'bound'는 bind의 과거분사로 '묶인'이라는 뜻이야. 'see no way out'은 '탈출구를 찾지 못하다'라는 관용 표현이야."
       },
       {
         "source": "세계문화",
@@ -15159,9 +15159,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Standing before the vast ceiling of the Sistine Chapel, visitors often feel a sense of awe that words cannot express.",
-        "ko": "시스티나 성당의 광활한 천장 앞에 서면, 방문객들은 종종 말로 표현할 수 없는 경외감을 느낀다.",
-        "note": "'a sense of awe'는 '경외감'이야. 'that words cannot express'는 관계대명사절로 awe를 꾸며줘. 'a sense of + 감정 명사' 패턴을 기억해둬."
+        "en": "Aivazovsky's The Ninth Wave captures survivors clinging to wreckage as a towering wave approaches — yet golden sunlight breaks through the clouds, filling the scene with awe and hope.",
+        "ko": "아이바조프스키의 '제9의 파도'는 거대한 파도가 다가오는 가운데 잔해에 매달린 생존자들을 담고 있다 — 하지만 금빛 햇살이 구름을 뚫고 내려와 경외감과 희망으로 장면을 채운다.",
+        "note": "'cling to ~'는 '~에 매달리다'야. 'break through ~'는 '~을 뚫고 나오다'라는 구동사야. 자연의 장엄함을 묘사할 때 자주 쓰여."
       },
       {
         "source": "세계문화",
@@ -15873,9 +15873,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Michelangelo stubbornly insisted on painting the Sistine Chapel ceiling alone, refusing all offers of assistance.",
-        "ko": "미켈란젤로는 고집스럽게 시스티나 성당 천장을 혼자 그리겠다고 고집하며 모든 도움 제안을 거부했다.",
-        "note": "'refusing all offers of assistance'는 분사구문으로 동시 동작을 나타내. 'insisted on ~ing'는 '~하는 것을 고집하다'로, insist on 뒤에는 동명사가 와."
+        "en": "Ingres painted Joan of Arc standing firm in her armor, capturing the stubborn faith of a teenage girl who refused to give up.",
+        "ko": "앵그르는 갑옷을 입고 굳건히 서 있는 잔 다르크를 그렸으며, 포기하지 않은 소녀의 고집스러운 믿음을 담았다.",
+        "note": "'stand firm'은 '굳건히 서다'야. 'refuse to give up'은 '포기를 거부하다'라는 결연한 의지의 표현이야."
       },
       {
         "source": "세계문화",
@@ -16179,9 +16179,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Van Gogh poured his emotions onto the canvas with such intensity that every brushstroke expressed his inner turmoil.",
-        "ko": "반 고흐는 모든 붓터치가 내면의 혼란을 표현할 만큼 강렬하게 감정을 캔버스 위에 쏟아부었다.",
-        "note": "'with such intensity that ~'은 'such + 명사 + that' 결과 구문이야. 'poured A onto B'는 'A를 B 위에 쏟다'라는 표현이야."
+        "en": "Kirchner's Street, Berlin uses sharp angles and clashing colors to express the anxiety of modern city life — showing not what the street looks like, but what it feels like.",
+        "ko": "키르히너의 '베를린 거리'는 날카로운 각도와 충돌하는 색채로 현대 도시 생활의 불안을 표현한다 — 거리가 어떻게 보이는지가 아니라 어떻게 느껴지는지를 보여준다.",
+        "note": "'not what ~ looks like, but what ~ feels like'는 대조 구문이야. look like은 '~처럼 보이다', feel like은 '~처럼 느껴지다'라는 감각 표현이야."
       },
       {
         "source": "세계문화",
@@ -16281,9 +16281,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Critics have interpreted Munch's The Scream in many different ways — as a cry of existential dread, a response to nature, or a reflection of modern anxiety.",
-        "ko": "비평가들은 뭉크의 절규를 실존적 공포의 외침, 자연에 대한 반응, 또는 현대적 불안의 반영 등 여러 방식으로 해석해왔다.",
-        "note": "'have interpreted ~ in many different ways'는 현재완료로 '다양한 방식으로 해석해왔다'야. 'as A, B, or C' 구조로 여러 해석을 나열해."
+        "en": "Velázquez's Las Meninas has puzzled art historians for centuries — is the painter depicting the princess, or the king and queen reflected in the mirror behind her?",
+        "ko": "벨라스케스의 '시녀들'은 수 세기 동안 미술사가들을 당혹케 했다 — 화가가 그리고 있는 건 공주인가, 아니면 뒤쪽 거울에 비친 국왕 부부인가?",
+        "note": "'has puzzled'는 현재완료로 '계속 당혹케 해왔다'야. 'is the painter depicting A, or B?'는 선택 의문문이야. depict는 '묘사하다'라는 뜻."
       },
       {
         "source": "세계문화",
@@ -16306,8 +16306,8 @@
         "meaning": "해석하다"
       },
       {
-        "word": "hieroglyph",
-        "meaning": "상형문자"
+        "word": "depict",
+        "meaning": "묘사하다, 그리다"
       },
       {
         "word": "identical",
@@ -16791,9 +16791,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Banksy shocked the art world when his painting shredded itself moments after being sold at auction.",
-        "ko": "뱅크시의 그림이 경매에서 팔린 직후 스스로 파쇄되어 미술계를 충격에 빠뜨렸다.",
-        "note": "'moments after + 동명사(-ing)'는 '~한 직후'라는 뜻이야. 'after being sold'는 수동의 동명사로, '팔린 후에'라는 뜻이야."
+        "en": "John Martin's painting shows mountains crumbling and cities destroyed — a vision of annihilation inspired by the Book of Revelation.",
+        "ko": "존 마틴의 그림은 산이 무너지고 도시가 파괴되는 모습을 보여준다 — 요한계시록에서 영감을 받은 파멸의 비전이다.",
+        "note": "'crumble'은 '부서지다, 무너지다'야. 'inspired by ~'는 '~에서 영감을 받은'이라는 과거분사 형용사구야."
       },
       {
         "source": "세계문화",
@@ -16995,9 +16995,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Van Gogh wandered from city to city throughout his life, and his restless journeys shaped the intense emotions in his paintings.",
-        "ko": "반 고흐는 평생 도시를 떠돌았고, 그의 끊임없는 여정이 그림 속 강렬한 감정을 만들어냈다.",
-        "note": "'from ~ to ~'는 '~에서 ~로'라는 이동을 나타내. 'from city to city'는 '이 도시에서 저 도시로'라는 반복적 이동을 뜻해."
+        "en": "Daumier painted Don Quixote as a lonely wanderer on a thin horse, drifting across an empty landscape in search of adventures that exist only in his imagination.",
+        "ko": "도미에는 돈키호테를 마른 말을 탄 외로운 방랑자로 그렸으며, 오직 상상 속에만 존재하는 모험을 찾아 텅 빈 풍경을 떠돈다.",
+        "note": "'drift across ~'는 '~을 떠돌다, 표류하다'라는 뜻이야. 'in search of ~'는 '~을 찾아서'라는 목적의 전치사구야."
       },
       {
         "source": "세계문화",
@@ -17301,9 +17301,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "In Escher's impossible staircases, paths cross and overlap in ways that defy the laws of physics.",
-        "ko": "에셔의 불가능한 계단에서 길들은 물리 법칙을 거스르는 방식으로 교차하고 겹친다.",
-        "note": "'in ways that ~'는 '~하는 방식으로'라는 뜻이야. that은 관계대명사로 ways를 수식해. 'in a way that'은 단수형으로도 쓸 수 있어."
+        "en": "Liotard lived in Constantinople for five years and painted scenes where European and Ottoman cultures crossed, showing how different traditions can create something new.",
+        "ko": "리오타르는 콘스탄티노플에서 5년간 살며 유럽과 오스만 문화가 교차하는 장면을 그렸으며, 서로 다른 전통이 어떻게 새로운 것을 만드는지 보여준다.",
+        "note": "'where ~ crossed'에서 where는 관계부사로 장소를 수식해. 'create something new'는 '새로운 것을 만들다'라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -17454,9 +17454,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "In classical music, each instrument enters in a specific order, building layers of sound that create a rich, harmonious whole.",
-        "ko": "클래식 음악에서 각 악기는 특정한 순서로 들어오며, 풍부하고 조화로운 전체를 만드는 소리의 층을 쌓는다.",
-        "note": "'in a specific order'는 '특정한 순서로'라는 뜻이야. in order는 '순서대로', in random order는 '무작위 순서로'라는 뜻이야."
+        "en": "Gozzoli painted the Procession of the Magi as an orderly parade across the chapel walls, with each figure placed in precise sequence from kings to servants.",
+        "ko": "고촐리는 동방박사의 행렬을 예배당 벽면을 가로지르는 질서정연한 퍼레이드로 그렸으며, 왕에서 시종까지 각 인물을 정확한 순서로 배치했다.",
+        "note": "'in precise sequence'는 '정확한 순서로'야. 'from A to B'는 '~에서 ~까지'라는 범위를 나타내는 전치사구야."
       },
       {
         "source": "세계문화",
@@ -17811,9 +17811,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Korean celadon pottery from the Goryeo dynasty is admired worldwide for its jade-green glaze and elegant crane designs.",
-        "ko": "고려 시대의 한국 청자는 비취색 유약과 우아한 학 무늬로 전 세계적으로 감탄을 받는다.",
-        "note": "'is admired for ~'는 '~로 감탄받다'라는 수동태 표현이야. admire는 '감탄하다, 존경하다'라는 뜻이고, for 뒤에 이유가 와."
+        "en": "Tang dynasty potters created Sancai horses using three-colored glazes that melted in the kiln, producing unique patterns no two pieces share.",
+        "ko": "당나라 도공들은 가마 속에서 녹는 삼채 유약으로 말 도자기를 만들었으며, 같은 무늬의 작품은 없다.",
+        "note": "'no two pieces share'는 '어떤 두 작품도 공유하지 않는다'는 부정 구문이야."
       },
       {
         "source": "세계문화",

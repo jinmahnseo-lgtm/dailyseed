@@ -1027,7 +1027,7 @@
   },
   {
     "date": "2026-05-28",
-    "title": "폭풍우 속의 배",
+    "title": "파도",
     "artist": "귀스타브 쿠르베",
     "year": 1870,
     "country": "프랑스",
@@ -1037,7 +1037,8 @@
     "story": "쿠르베는 사실주의 운동의 아버지야. 그는 '천사를 본 적이 없으니 천사를 그릴 수 없다'고 선언하고, 눈앞의 현실을 있는 그대로 그렸어. 이 작품에서 거대한 파도가 작은 배를 삼키려 하고, 하늘은 먹구름으로 뒤덮여 있어. 자연의 위험 앞에 인간은 너무나 작아. 하지만 배는 아직 떠 있어 — 위험 속에서도 포기하지 않는 것이 용기야.",
     "look_for": "파도의 질감을 봐 — 쿠르베는 팔레트 나이프로 물감을 두껍게 발라 파도의 무게감을 살렸어. 짙은 초록과 흰 거품의 대비가 극적이야. 수평선이 낮아서 파도가 더 거대하게 느껴져. 하늘의 구름도 물결치듯 움직이는 것 같아 — 바다와 하늘이 하나가 되는 순간이야.",
     "fun_fact": "쿠르베는 노르망디 해변에서 파도 연작을 20점 이상 그렸어. 그는 정치적으로도 반항아였는데, 파리 코뮌에 참여했다가 방돔 기둥 철거에 관여한 죄로 감옥에 갇혔어. 벌금을 갚지 못해 스위스로 망명했고, 그곳에서 생을 마감했어.",
-    "question": "폭풍우 속에서도 배는 떠 있어. 네가 겪었던 '위험한 순간'에서 어떻게 버텼어?"
+    "question": "폭풍우 속에서도 배는 떠 있어. 네가 겪었던 '위험한 순간'에서 어떻게 버텼어?",
+    "title_original": "The Wave"
   },
   {
     "date": "2026-05-29",
@@ -2723,17 +2724,17 @@
   },
   {
     "date": "2026-09-17",
-    "title": "닥터 튈프의 해부학 강의",
-    "title_original": "The Anatomy Lesson of Dr. Nicolaes Tulp",
-    "artist": "렘브란트 판 레인",
-    "artist_original": "Rembrandt van Rijn",
-    "year": 1632,
+    "title": "의사",
+    "title_original": "The Doctor",
+    "artist": "루크 필데스",
+    "artist_original": "Luke Fildes",
+    "year": 1891,
     "medium": "유화",
-    "period": "네덜란드 황금시대",
-    "story": "렘브란트는 26살에 이 단체 초상화를 그려 암스테르담에서 명성을 얻었어. 닥터 니콜라스 튈프가 시신의 팔 근육을 해부하며 설명하는 장면이야. 17세기 네덜란드에서는 공개 해부가 일종의 학문적 행사였어. 렘브란트는 각 인물의 시선과 표정을 다르게 표현해서, 단순한 기록화가 아닌 드라마틱한 서사를 만들어냈어. 의학이 미신에서 과학으로 전환되던 시대의 지적 열정이 느껴져.",
-    "look_for": "인물들의 시선이 각각 다른 곳을 향해 — 시신을 보는 사람, 의사를 보는 사람, 관객을 보는 사람. 렘브란트 특유의 빛과 그림자(키아로스쿠로)로 튈프 박사와 시신에 빛이 집중돼 있어. 해부되는 팔의 근육과 힘줄이 정확하게 묘사돼 있어.",
-    "fun_fact": "렘브란트는 이 그림으로 일약 스타가 됐어. 이전까지 단체 초상화는 인물들이 일렬로 서서 카메라를 보듯 정면을 향했는데, 렘브란트는 극적인 구성으로 혁신을 이뤘어. 이 작품의 시신은 실제 사형수의 것이었대.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3ADen_Haag_-_Mauritshuis_-_Rembrandt_Harmensz._van_Rijn_(1606-1669)_-_The_Anatomy_Lesson_of_Dr._Nicolaes_Tulp_1632.jpg",
+    "period": "빅토리아 시대",
+    "story": "어두운 방 안에서 한 의사가 아픈 아이의 침대 곁에 앉아 걱정스럽게 지켜보고 있어. 필데스는 자신의 아들이 어린 나이에 죽었을 때 곁을 지켜준 의사의 모습에서 영감을 받아 이 그림을 그렸어. 뒤편에서 부모가 불안하게 바라보고, 의사는 밤새 아이 곁을 떠나지 않아. 의학이란 단순한 기술이 아니라 환자를 향한 헌신이라는 걸 보여주는 작품이야.",
+    "look_for": "의사의 시선이 오직 아이에게만 향해 있어. 탁자 위의 약과 물컵, 희미한 램프 빛이 밤새 간호한 시간을 보여줘. 뒤편 그림자 속 부모의 불안한 모습도 봐. 전체적으로 어둡지만 아이에게 비치는 빛이 희망을 상징해.",
+    "fun_fact": "이 그림은 영국에서 가장 사랑받는 그림 중 하나야. 2차 세계대전 때 영국 정부는 이 그림을 국민건강서비스(NHS) 홍보에 사용했어. 필데스의 아들 필립이 크리스마스에 세상을 떠난 후, 의사 머레이 박사가 보여준 헌신에 감동받아 그린 작품이야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Luke Fildes (1891) The Doctor.png",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "17세기 네덜란드에서 공개 해부 수업이 열린 주된 목적은?",
@@ -2744,7 +2745,9 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-186.webp"
+    "image_url": "/images/arts/day-186.webp",
+    "country": "영국",
+    "question": "의사는 밤새 아이 곁을 지켜. 누군가를 위해 끝까지 곁을 지켜준 경험이 있어?"
   },
   {
     "date": "2026-09-18",
@@ -2882,17 +2885,17 @@
   },
   {
     "date": "2026-09-26",
-    "title": "오필리아의 죽음",
-    "title_original": "La Mort d'Ophélie",
-    "artist": "외젠 카리에르",
-    "artist_original": "Eugène Carrière",
-    "year": "1887",
+    "title": "샬롯의 여인",
+    "title_original": "The Lady of Shalott",
+    "artist": "존 윌리엄 워터하우스",
+    "artist_original": "John William Waterhouse",
+    "year": 1888,
     "medium": "유화",
-    "period": "상징주의",
-    "story": "외젠 카리에르는 안개처럼 흐릿한 갈색 톤으로 인물의 내면 감정을 표현한 프랑스 상징주의 화가입니다. 오필리아는 셰익스피어의 '햄릿'에서 사랑하는 이의 변심과 아버지의 죽음으로 깊은 슬픔에 빠져 물에 잠기는 인물입니다. 카리에르는 선명한 윤곽 대신 몽환적인 분위기로 슬픔의 깊이를 표현했습니다. 슬픔은 때로 말로 표현할 수 없을 만큼 깊지만, 예술은 그 감정을 눈에 보이는 형태로 만들어줍니다.",
-    "look_for": "흐릿한 배경 속에서 인물의 표정이 어떻게 감정을 전달하는지 주목하세요.",
-    "fun_fact": "카리에르는 로댕과 절친한 친구였으며, 서로의 예술에 큰 영향을 주었습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3ADelacroix_-_Ophelias_Tod%2C_1844.png",
+    "period": "라파엘 전파 계승",
+    "story": "테니슨의 시에서 영감을 받은 작품이야. 샬롯의 여인은 저주에 걸려 바깥 세상을 직접 볼 수 없고 거울에 비친 모습만 봐야 해. 하지만 랜슬롯 기사를 보는 순간 저주를 무릅쓰고 창밖을 바라보지. 이 그림은 보트에 타고 카멜롯으로 떠내려가는 그녀의 마지막 여정을 담고 있어. 사랑과 슬픔이 뒤섞인, 아름답지만 비극적인 순간이야.",
+    "look_for": "보트 위에 놓인 촛불 세 개 중 두 개가 꺼져 있어 — 다가오는 죽음을 상징해. 수련과 풀이 물 위에 떠 있고, 그녀의 드레스가 물에 펼쳐져 있어. 표정에서 체념과 결연함이 동시에 느껴져.",
+    "fun_fact": "워터하우스는 이 주제를 세 번이나 그렸어. 가장 유명한 1888년 버전은 런던 테이트 브리튼에 소장돼 있어. 테니슨의 시 자체가 아서 왕 전설에서 나온 이야기야. 워터하우스는 고대 신화와 문학의 여성 인물을 즐겨 그렸어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John William Waterhouse - I am half-sick of shadows, said the lady of shalott.JPG",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "외젠 카리에르의 그림 스타일의 특징은?",
@@ -2903,7 +2906,9 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-195.webp"
+    "image_url": "/images/arts/day-195.webp",
+    "country": "영국",
+    "question": "샬롯의 여인은 저주를 알면서도 진실을 보기로 선택했어. 결과를 알면서도 용기 내어 선택한 적이 있어?"
   },
   {
     "date": "2026-09-27",
@@ -3814,17 +3819,17 @@
   },
   {
     "date": "2026-11-15",
-    "title": "전보 배달부",
-    "title_original": "The Automaton",
-    "artist": "조반니 벨리니",
-    "artist_original": "Giovanni Bellini",
-    "year": "1490",
-    "medium": "유화",
-    "period": "르네상스",
-    "story": "오늘의 키워드는 '로봇'이야. 벨리니의 성모자 그림에서 아기 예수가 마치 정교한 인형처럼 완벽한 포즈를 취하고 있어. 르네상스 시대에도 사람들은 '자동인형(오토마톤)'을 만들어 — 로봇의 조상이야. 벨리니는 인체를 놀라운 정밀함으로 묘사해서 마치 살아 움직이는 기계 같은 느낌을 줬어.",
-    "look_for": "아기 예수의 피부가 마치 도자기처럼 매끈하게 표현돼 있어. 성모의 파란 옷이 베네치아 특유의 풍부한 색감이야. 배경의 풍경이 섬세하고 멀리까지 펼쳐져 있어. 황금빛 후광이 부드럽게 빛나.",
-    "fun_fact": "벨리니는 베네치아 화파의 아버지야. 티치아노와 조르조네의 스승이었어! 80세까지 살면서 베네치아 미술을 혁신했어. 유화 기법을 베네치아에 도입해 색채 혁명을 일으켰어.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3AMessenger_RNA_maturation.png",
+    "title": "체스 두는 터크",
+    "title_original": "The Turk (Chess Automaton)",
+    "artist": "로버트 윌리스 (삽화)",
+    "artist_original": "Robert Willis (illustration)",
+    "year": 1821,
+    "medium": "동판화",
+    "period": "산업혁명기",
+    "story": "1770년 헝가리의 볼프강 폰 켐펠렌이 만든 체스 자동인형 '터크'의 내부 구조를 보여주는 삽화야. 터번을 쓴 인형이 체스를 두는 기계로, 나폴레옹과 벤저민 프랭클린도 이 기계와 대국했어. 사실은 기계 안에 사람이 숨어 있었지만, 80년간 사람들은 '기계가 생각할 수 있다'고 믿었어. 최초의 '인공지능 사기'이자, 기계와 인간의 관계에 대한 최초의 질문이야.",
+    "look_for": "기계 내부의 톱니바퀴와 레버가 정교하게 그려져 있어. 터번을 쓴 인형의 한 손은 체스판 위에 놓여 있어. 18-19세기 기술 삽화 특유의 정밀한 선이 돋보여.",
+    "fun_fact": "터크는 1770년부터 1854년까지 84년간 유럽과 미국을 순회했어. 에드거 앨런 포는 이 기계가 사기라고 주장하는 에세이를 썼어. 아마존의 크라우드소싱 서비스 'Mechanical Turk'는 이 자동인형에서 이름을 따온 거야!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chess Automaton Willis 1821 09.png",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "조반니 벨리니는 어느 도시 화파의 아버지로 불릴까?",
@@ -3835,7 +3840,9 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-245.webp"
+    "image_url": "/images/arts/day-245.webp",
+    "country": "영국",
+    "question": "터크는 기계인 척했지만 사실 사람이었어. 인공지능 시대에 '진짜 생각'이란 뭘까?"
   },
   {
     "date": "2026-11-16",
@@ -4064,17 +4071,17 @@
   },
   {
     "date": "2026-11-25",
-    "title": "소크라테스의 죽음",
-    "title_original": "The Death of Socrates",
-    "artist": "자크루이 다비드",
-    "artist_original": "Jacques-Louis David",
-    "year": 1787,
+    "title": "필라도 앞의 그리스도",
+    "title_original": "Christ before Pilate",
+    "artist": "미하이 문카치",
+    "artist_original": "Mihály Munkácsy",
+    "year": 1881,
     "medium": "유화",
-    "period": "신고전주의",
-    "story": "자크루이 다비드는 프랑스 신고전주의의 거장이야. 소크라테스가 독배를 마시기 직전, 한 손을 하늘로 들어 진리를 가리키며 제자들 앞에서 마지막 가르침을 전하고 있어. 제자들은 슬퍼하며 눈물을 흘리지만, 소크라테스는 전혀 두려워하지 않아. 도망칠 수 있었지만 '법을 어기는 것은 옳지 않다'며 거부한 그의 모습에서 신념의 힘이 느껴져.",
-    "look_for": "소크라테스가 당당하게 앉아 한 손으로 독배를 향하고, 다른 손으로 하늘을 가리켜 — 죽음 앞에서도 진리를 가르치는 모습이야. 주변 제자들의 고통스러운 표정과 소크라테스의 평온함이 극명한 대비를 이뤄. 다비드 특유의 이상적 인체 묘사와 극적인 조명이 보여.",
-    "fun_fact": "다비드는 프랑스 혁명의 열렬한 지지자였고, 나폴레옹의 공식 화가가 됐어. 이 작품은 미국 독립 선언 직후에 그려졌는데, 신념을 위해 죽음을 택한 소크라테스의 이야기가 혁명기의 시대정신과 맞아떨어졌어.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3ADavid_-_The_Death_of_Socrates.jpg",
+    "period": "사실주의",
+    "story": "예수가 총독 필라도 앞에 서서 심판을 받는 장면이야. 문카치는 이 장면을 역사화가 아니라 인간 드라마로 그렸어. 예수는 조용히 서 있고, 필라도는 갈등하며, 군중은 소란스러워. 이것은 역사상 가장 유명한 '면접'이야 — 한 사람의 진실성이 심판대 위에 올라간 순간. 네가 누구인지를 증명해야 하는 순간, 말보다 태도가 더 많은 것을 말해줘.",
+    "look_for": "예수의 고요한 자세와 주변 군중의 소란이 극명한 대비를 이뤄. 필라도의 표정에서 갈등이 보여 — 무죄라는 걸 알면서도 결정을 내려야 하는 고뇌야. 문카치 특유의 어두운 색조와 극적인 빛이 장면의 긴장감을 높여.",
+    "fun_fact": "문카치는 헝가리 최고의 화가로, 이 그림은 높이 4미터가 넘는 대작이야. 완성 후 유럽과 미국을 순회 전시했는데, 뉴욕에서만 하루 6천 명이 관람했대. 현재 캐나다 해밀턴 미술관에 소장돼 있어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Munkacsy - Christ in front of Pilate.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "소크라테스가 마시려는 것은?",
@@ -4085,7 +4092,9 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-255.webp"
+    "image_url": "/images/arts/day-255.webp",
+    "country": "헝가리",
+    "question": "예수는 심판 앞에서 당당하게 자신의 진실을 지켰어. 네가 누군가에게 나를 증명해야 했던 순간이 있었어?"
   },
   {
     "date": "2026-11-26",
@@ -4545,17 +4554,17 @@
   },
   {
     "date": "2026-12-16",
-    "title": "장애물 경주",
-    "title_original": "Steeplechase – The Fallen Jockey",
-    "artist": "앙리 드 툴루즈 로트레크",
-    "artist_original": "Henri de Toulouse-Lautrec",
-    "year": "1899",
-    "medium": "석판화",
-    "period": "후기 인상주의",
-    "story": "경마에서 떨어진 기수가 다시 일어서려는 장면이야. 로트레크는 어릴 때 다리가 부러져 성장이 멈춘 장애를 가졌어. 하지만 그 한계를 극복하고 당대 최고의 포스터 아티스트가 됐어. 이 작품에서 떨어진 기수는 로트레크 자신이기도 해. 넘어져도 다시 일어서는 것, 그것이 '극복'이야.",
-    "look_for": "말의 역동적인 움직임을 봐 — 로트레크는 동물의 움직임을 포착하는 데 뛰어났어. 기수의 자세에서 포기하지 않으려는 의지가 보여. 과감한 구도와 단순화된 형태가 인상적이야.",
-    "fun_fact": "로트레크는 파리 물랭루즈의 포스터를 그려 유명해졌어. 152cm의 작은 키에도 불구하고 파리 밤문화의 중심에 있었어. 36세에 세상을 떠났지만, 짧은 생에 737점의 캔버스 작품과 수천 점의 소묘를 남겼어!",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3A2014_D%C3%A9caNation_-_3000_m_steeplechase_04.jpg",
+    "title": "홀로페르네스를 베는 유디트",
+    "title_original": "Judith Beheading Holofernes",
+    "artist": "아르테미시아 젠틸레스키",
+    "artist_original": "Artemisia Gentileschi",
+    "year": 1620,
+    "medium": "유화",
+    "period": "바로크",
+    "story": "유디트가 하녀와 함께 적장 홀로페르네스의 목을 베는 장면이야. 아르테미시아는 17세기에 여성으로서 극심한 차별을 극복하고 최고의 화가가 된 인물이야. 18살에 성폭행을 당하고 재판 과정에서 고문까지 받았지만, 그 고통을 예술로 승화시켰어. 이 그림의 유디트는 망설이지 않아 — 압도적인 적 앞에서도 결연하게 행동하는 극복의 상징이야.",
+    "look_for": "유디트의 표정은 냉정하고 결연해. 피가 사실적으로 분출하는데, 이전 남성 화가들의 우아한 유디트와 달리 진짜 힘을 쓰는 모습이야. 카라바조의 영향을 받은 극적인 빛과 어둠의 대비가 장면을 더욱 긴장감 있게 만들어.",
+    "fun_fact": "아르테미시아는 카라바조 이후 가장 위대한 바로크 화가 중 한 명이야. 그녀의 아버지 오라치오도 유명한 화가였어. 21세기에 재평가가 이뤄지며 지금은 미술사에서 가장 중요한 여성 화가로 인정받고 있어. 2020년 런던 내셔널 갤러리에서 대규모 회고전이 열렸어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Artemisia Gentileschi - Judith Beheading Holofernes - WGA8563.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "로트레크가 유명해진 계기는?",
@@ -4566,7 +4575,9 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-276.webp"
+    "image_url": "/images/arts/day-276.webp",
+    "country": "이탈리아",
+    "question": "아르테미시아는 끔찍한 경험을 예술로 극복했어. 힘든 경험을 다른 형태의 힘으로 바꾼 적이 있어?"
   },
   {
     "date": "2026-12-17",
@@ -4770,17 +4781,17 @@
   },
   {
     "date": "2026-12-25",
-    "title": "감옥에서",
-    "title_original": "In Prison",
+    "title": "죄수들",
+    "title_original": "Die Gefangenen (The Prisoners)",
     "artist": "케테 콜비츠",
     "artist_original": "Käthe Kollwitz",
-    "year": "1908",
+    "year": 1908,
     "medium": "에칭",
     "period": "표현주의",
-    "story": "감옥에 갇힌 여인이 아이를 품에 안고 있어. 콜비츠는 가난하고 억압받는 사람들의 고통을 평생 그린 화가야. 이 여인은 감옥이라는 물리적 속박 안에 있지만, 아이를 향한 사랑은 갇혀 있지 않아. '탈출'은 물리적 공간만의 문제가 아니야 — 마음까지 가둘 수는 없는 거지.",
-    "look_for": "여인이 아이를 안는 방식을 봐 — 온 몸으로 감싸고 있어. 감옥의 어둠 속에서 아이의 얼굴만 밝아. 콜비츠 특유의 강렬한 흑백 대비가 감정을 극대화해.",
-    "fun_fact": "콜비츠는 1차 세계대전에서 아들을 잃었어. 이후 전쟁과 가난에 맞서는 작품을 더 강렬하게 만들었지. 나치는 그녀의 작품을 '퇴폐 예술'로 금지했어. 독일 최초의 여성 미술 아카데미 교수였어!",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3AWoman_Prison_Class_II.A_Tangerang_Banten%2C_Indonesia.jpg",
+    "story": "줄에 묶인 죄수들이 고개를 숙이고 서 있어. 콜비츠는 가난하고 억눌린 사람들의 고통을 평생 그린 화가야. 이 작품은 '농민전쟁' 연작 중 하나로, 자유를 빼앗긴 사람들의 절망을 보여줘. 하지만 콜비츠가 그린 것은 절망만이 아니야 — 억압에서 벗어나려는 의지, 탈출을 향한 간절한 바람도 담겨 있어.",
+    "look_for": "인물들의 고개가 떨구어져 있지만, 일부는 고개를 들고 있어 — 포기와 저항이 공존해. 콜비츠 특유의 강렬한 흑백 대비가 감정을 극대화해. 줄에 묶인 손의 표현이 사실적이야.",
+    "fun_fact": "콜비츠는 독일 최초로 프로이센 예술원 회원이 된 여성이야. 나치는 그녀의 작품을 '퇴폐 예술'로 압수했어. 아들을 1차 세계대전에서, 손자를 2차 세계대전에서 잃었어. 그녀의 작품은 전쟁과 빈곤에 대한 가장 강렬한 시각적 증언이야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:'Die Gefangenen' (The Prisoners) by Käthe Kollwitz, Honolulu Museum of Art.JPG",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "케테 콜비츠가 주로 그린 주제는?",
@@ -4791,7 +4802,9 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-285.webp"
+    "image_url": "/images/arts/day-285.webp",
+    "country": "독일",
+    "question": "콜비츠는 억눌린 사람들의 이야기를 그렸어. 네 주변에서 목소리를 내지 못하는 사람이 있다면, 어떻게 도울 수 있을까?"
   },
   {
     "date": "2026-12-26",
@@ -5021,7 +5034,7 @@
   },
   {
     "date": "2027-01-04",
-    "title": "전쟁의 참화",
+    "title": "전쟁의 참상",
     "title_original": "The Disasters of War (Los desastres de la guerra)",
     "artist": "프란시스코 고야",
     "artist_original": "Francisco Goya",
@@ -5096,17 +5109,17 @@
   },
   {
     "date": "2027-01-07",
-    "title": "가나가와 앞바다의 큰 파도",
-    "title_original": "The Great Wave off Kanagawa",
-    "artist": "가쓰시카 호쿠사이",
-    "artist_original": "Katsushika Hokusai",
-    "year": 1831,
-    "medium": "우키요에 목판화",
-    "period": "에도 시대",
-    "story": "세계에서 가장 유명한 일본 미술 작품이야. 거대한 파도가 작은 배들을 삼킬 듯이 덮치고, 멀리 후지산이 작게 보여. 호쿠사이는 70대에 이 작품을 그렸어 — '후지산 36경' 시리즈 중 하나지. 자연의 거대한 힘 앞에 인간이 얼마나 작은지 보여주면서도, 파도 속에서 배를 잡고 버티는 어부들의 모습이 감동적이야.",
-    "look_for": "파도의 끝이 갈고리처럼 휘어져서 손가락 같아 보여 — 자연이 인간을 움켜쥐는 듯해. 멀리 보이는 후지산은 고요하게 앉아 있어 — 파도의 격렬함과 대비가 강렬해. 파도 거품이 마치 눈처럼 흩날려.",
-    "fun_fact": "호쿠사이는 90세까지 살면서 3만 점 이상의 작품을 남겼어. 75세에 '나는 73세까지 그린 것은 별것 아니다'라고 했고, 죽기 직전에 '하늘이 나에게 10년만 더 준다면... 아니 5년만 더 준다면 진정한 화가가 될 수 있을 텐데'라고 말했대. 이 작품은 인상파 화가들에게 큰 영향을 줬어.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3AGreat_Wave_off_Kanagawa2.jpg",
+    "title": "제9의 파도",
+    "title_original": "The Ninth Wave",
+    "artist": "이반 아이바조프스키",
+    "artist_original": "Ivan Aivazovsky",
+    "year": 1850,
+    "medium": "유화",
+    "period": "낭만주의",
+    "story": "폭풍이 지나간 바다 위에서 몇 명의 생존자가 부서진 돛대에 매달려 있어. 거대한 파도가 밀려오지만, 하늘에는 금빛 아침 햇살이 비치기 시작해. 아이바조프스키는 바다 그림의 대가로, 6,000점 이상의 작품을 남겼어. 이 그림은 자연의 압도적인 힘 앞에서 느끼는 경외감과 동시에, 폭풍 후에도 빛이 온다는 희망을 담고 있어.",
+    "look_for": "파도의 투명한 초록빛이 놀라워 — 아이바조프스키는 파도를 통과하는 빛을 표현하는 데 천재적이야. 하늘의 금빛 노을과 바다의 초록빛이 대비되면서 장엄한 분위기를 만들어. 작은 인물들이 파도 속에서 서로를 잡고 있어 — 절망 속 연대의 모습이야.",
+    "fun_fact": "아이바조프스키는 아르메니아계 러시아 화가로, 바다 그림만 6,000점 이상 그렸어. 그는 기억만으로 바다를 그렸는데, 작업실에서 바다를 보지 않고 그린다고 해서 동료 화가들을 놀라게 했어. 러시아 해군은 그를 명예 제독으로 임명했대!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hovhannes_Aivazovsky_-_The_Ninth_Wave_-_Google_Art_Project.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "카루스의 직업은 화가 외에 또 무엇이었나요?",
@@ -5118,8 +5131,8 @@
       "answer": 1
     },
     "image_url": "/images/arts/day-298.webp",
-    "country": "일본",
-    "question": "거대한 파도 속에서도 어부들은 배를 잡고 버텨. 네가 어려운 상황에서 포기하지 않고 버틴 적이 있어?"
+    "country": "러시아 (아르메니아계)",
+    "question": "폭풍 뒤에 빛이 비치는 이 장면처럼, 힘든 시간 뒤에 찾아온 좋은 순간이 있었어?"
   },
   {
     "date": "2027-01-08",
@@ -5448,28 +5461,30 @@
   },
   {
     "date": "2027-01-21",
-    "title": "자화상 (화가의 결의)",
-    "title_original": "Self-Portrait with Thorn Necklace and Hummingbird",
-    "artist": "프리다 칼로",
-    "artist_original": "Frida Kahlo",
-    "year": "1940",
+    "title": "샤를 7세 대관식의 잔 다르크",
+    "title_original": "Joan of Arc at the Coronation of Charles VII",
+    "artist": "장도미니크 앵그르",
+    "artist_original": "Jean-Auguste-Dominique Ingres",
+    "year": 1854,
     "medium": "유화",
-    "period": "초현실주의",
-    "story": "가시 목걸이를 하고 정면을 응시하는 프리다 칼로의 자화상입니다. 교통사고 후유증과 이혼의 고통 속에서도 자신의 감정과 정체성을 끝까지 고집스럽게 표현한 작품입니다. 칼로는 평생 55점의 자화상을 그리며 자기 자신을 가장 잘 아는 모델이라고 말했습니다.",
-    "look_for": "가시 목걸이에서 흐르는 피, 어깨 위의 검은 고양이와 원숭이의 상징적 의미를 생각해 보세요.",
-    "fun_fact": "칼로는 '나는 꿈을 그리지 않는다. 나는 나의 현실을 그린다'라고 말하며 자신이 초현실주의자가 아니라고 주장했습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3AFrida_Kahlo%2C_by_Guillermo_Kahlo_2.jpg",
+    "period": "신고전주의",
+    "story": "잔 다르크가 랭스 대성당에서 샤를 7세의 대관식을 지켜보고 있어. 갑옷을 입고 깃발을 든 그녀는 프랑스를 구한 영웅이야. 17살 소녀가 신의 목소리를 들었다고 주장하며 군대를 이끌었는데, 누구도 믿지 않았지만 끝까지 밀어붙여 승리했어.",
+    "look_for": "잔 다르크의 시선이 하늘을 향해 있어. 갑옷의 금속 질감이 사실적이고, 뒤쪽 대성당이 웅장해. 앵그르 특유의 매끄러운 붓 터치가 돋보여.",
+    "fun_fact": "앵그르는 이 그림을 75살에 그렸어. 잔 다르크는 19살에 화형당했지만, 500년 후 가톨릭 성인으로 시성됐어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ingres coronation charles vii.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
-      "question": "프리다 칼로가 평생 그린 자화상은 몇 점인가요?",
+      "question": "잔 다르크가 이끈 전쟁의 결과는?",
       "options": [
-        "약 20점",
-        "약 55점",
-        "약 100점"
+        "프랑스의 패배",
+        "샤를 7세의 대관식",
+        "영국과의 동맹"
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-312.webp"
+    "image_url": "/images/arts/day-312.webp",
+    "country": "프랑스",
+    "question": "잔 다르크는 모두가 반대해도 자신의 믿음을 지켰어. 네가 끝까지 고집한 것이 있어?"
   },
   {
     "date": "2027-01-22",
@@ -5598,28 +5613,30 @@
   },
   {
     "date": "2027-01-27",
-    "title": "절규",
-    "title_original": "The Scream",
-    "artist": "에드바르 뭉크",
-    "artist_original": "Edvard Munch",
-    "year": "1893",
-    "medium": "유화, 템페라, 파스텔",
-    "period": "표현주의",
-    "story": "다리 위에서 귀를 막고 비명을 지르는 인물의 모습으로, 내면의 불안과 공포를 극적으로 표현한 작품입니다. 뭉크는 자연을 사실적으로 묘사하는 대신, 감정을 왜곡된 형태와 강렬한 색채로 표현하는 혁신적 방식을 선택했습니다. 현대 미술에서 감정 표현의 새 지평을 연 걸작입니다.",
-    "look_for": "배경의 물결치는 하늘과 인물의 일그러진 얼굴이 어떻게 같은 리듬으로 흔들리는지 살펴보세요.",
-    "fun_fact": "뭉크는 일기에 '하늘이 피처럼 붉어지며 자연을 관통하는 끝없는 절규를 느꼈다'고 이 그림의 영감을 기록했습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3AEdvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+    "title": "베를린 거리",
+    "title_original": "Street, Berlin (Straße, Berlin)",
+    "artist": "에른스트 루트비히 키르히너",
+    "artist_original": "Ernst Ludwig Kirchner",
+    "year": 1913,
+    "medium": "유화",
+    "period": "독일 표현주의",
+    "story": "뾰족한 구두를 신은 여성들과 검은 옷의 남성들이 베를린 거리를 걷고 있어. 키르히너는 인물들을 날카롭게 왜곡하고, 불안정한 색채를 사용해 대도시의 긴장감을 표현했어. 사실적으로 그리면 보이지 않는 감정 — 불안, 소외, 흥분 — 을 왜곡과 색채로 표현하는 것이 표현주의야. 보이는 대로가 아니라 느끼는 대로 그리는 거지.",
+    "look_for": "인물들의 얼굴이 마스크처럼 날카롭게 처리돼 있어 — 개인이 아니라 군중이야. 길쭉하게 늘어난 형태와 강렬한 초록, 분홍, 검정의 대비를 봐. 원근법이 불안정해서 거리가 기울어진 것 같아 — 도시의 현기증을 느끼게 해.",
+    "fun_fact": "키르히너는 다리파(Die Brücke)의 창립 멤버로 독일 표현주의를 이끌었어. 1차 세계대전에 참전했다가 정신적 충격으로 스위스로 옮겼어. 나치는 그의 작품 639점을 퇴폐 미술로 압수했고, 이에 충격받은 키르히너는 1938년 스스로 생을 마감했어.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kirchner Berlin Street Scene 1913.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
-      "question": "뭉크가 이 작품에서 주로 표현하고자 한 것은?",
+      "question": "키르히너가 속한 독일 표현주의 그룹의 이름은?",
       "options": [
-        "자연의 아름다움",
-        "내면의 불안과 공포",
-        "도시의 분주함"
+        "청기사파",
+        "다리파 (Die Brücke)",
+        "바우하우스"
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-318.webp"
+    "image_url": "/images/arts/day-318.webp",
+    "country": "독일",
+    "question": "키르히너는 보이는 대로가 아니라 느끼는 대로 그렸어. 네가 강한 감정을 느꼈을 때, 그것을 어떻게 표현해?"
   },
   {
     "date": "2027-01-28",
@@ -5648,28 +5665,30 @@
   },
   {
     "date": "2027-01-29",
-    "title": "아르놀피니 부부의 초상",
-    "title_original": "The Arnolfini Portrait",
-    "artist": "얀 반 에이크",
-    "artist_original": "Jan van Eyck",
-    "year": "1434",
+    "title": "시녀들 (라스 메니나스)",
+    "title_original": "Las Meninas",
+    "artist": "디에고 벨라스케스",
+    "artist_original": "Diego Velázquez",
+    "year": 1656,
     "medium": "유화",
-    "period": "초기 플랑드르",
-    "story": "이탈리아 상인 아르놀피니 부부의 결혼 장면을 그린 것으로 추정되는 작품입니다. 거울, 촛불, 과일, 신발 등 수많은 상징물이 숨어 있어, 수백 년간 학자들마다 다른 해석을 내놓고 있습니다. 반 에이크는 일상의 물건 하나하나에 의미를 부여하여 해석의 깊이를 더했습니다.",
-    "look_for": "뒤쪽 벽의 볼록 거울에 비친 두 인물의 뒷모습과 거울 주위의 작은 그림들을 찾아보세요.",
-    "fun_fact": "반 에이크는 거울 위에 라틴어로 '얀 반 에이크가 여기 있었다'라고 서명했는데, 이는 그가 이 장면의 증인이었음을 암시합니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3AJan_van_Eyck_001.jpg",
+    "period": "바로크",
+    "story": "서양 미술사에서 가장 많이 분석된 그림이야. 중앙에 어린 공주 마르가리타가 서 있고, 시녀들이 둘러싸고 있어. 왼쪽에는 벨라스케스 자신이 캔버스 앞에 서 있어 — 그가 그리고 있는 건 뭘까? 뒤쪽 거울에 비친 건 국왕 부부야. 화가는 관객을 보고, 공주도 관객을 보고, 거울 속 왕도 관객을 봐 — 도대체 누가 누구를 보고 있는 거야? 이 그림은 '해석'이라는 행위 자체에 대한 그림이야.",
+    "look_for": "뒤쪽 벽의 거울에 비친 국왕 부부의 모습을 찾아봐. 벨라스케스 자신이 화면 왼쪽에 서서 관객을 바라보고 있어. 문 앞에 서 있는 남자는 왕실 관리인데, 그 역시 안을 들여다보고 있어. 빛은 오른쪽 창에서 들어와 공주를 비춰.",
+    "fun_fact": "피카소는 이 그림에 매료되어 58점의 변형 작품을 그렸어. 푸코는 《말과 사물》에서 이 그림을 서양 인식론의 핵심으로 분석했어. 벨라스케스는 가슴에 산티아고 기사단의 십자가를 그렸는데, 이 작위는 그림 완성 3년 후에 받은 거라 나중에 추가한 거야!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Las Meninas 01.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
-      "question": "이 그림에서 중요한 역할을 하는 물건은?",
+      "question": "이 그림에서 벨라스케스가 뒤쪽 거울에 반영시킨 인물은?",
       "options": [
-        "시계",
-        "볼록 거울",
-        "악기"
+        "공주 마르가리타",
+        "국왕 부부",
+        "교황"
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-320.webp"
+    "image_url": "/images/arts/day-320.webp",
+    "country": "스페인",
+    "question": "이 그림은 보는 사람마다 다르게 해석해. 같은 것을 보고 친구와 다른 생각을 한 적이 있어?"
   },
   {
     "date": "2027-01-30",
@@ -5887,28 +5906,30 @@
   },
   {
     "date": "2027-02-08",
-    "title": "러시아 겨울 풍경",
-    "title_original": "Russian Winter",
-    "artist": "카를 브률로프",
-    "artist_original": "Karl Bryullov",
-    "year": "1833",
+    "title": "분노의 위대한 날",
+    "title_original": "The Great Day of His Wrath",
+    "artist": "존 마틴",
+    "artist_original": "John Martin",
+    "year": 1853,
     "medium": "유화",
-    "period": "러시아 낭만주의",
-    "story": "러시아 화가 카를 브률로프는 실제로 폼페이 유적을 방문한 후 이 대작을 구상했습니다. 기원전 79년 베수비오 화산 폭발로 파괴되는 도시의 마지막 순간을 거대한 화폭에 담았습니다. 무너지는 건물, 도망치는 사람들, 하늘에서 쏟아지는 불과 재 속에서도 서로를 구하려는 인간들의 모습이 감동적입니다. 자연의 힘 앞에서 인간 문명의 '파괴'가 얼마나 순식간에 일어날 수 있는지를 보여줍니다.",
-    "look_for": "화면 곳곳에서 서로를 붙잡고 도망치는 가족들의 모습과 무너져 내리는 건축물의 대비를 살펴보세요.",
-    "fun_fact": "이 작품은 로마와 파리에서 전시되었을 때 엄청난 인기를 끌었고, 유럽에서 러시아 미술의 위상을 높이는 데 크게 기여했습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3ARussia._Moscow_Region._Winter_pine_wood%2C_lake_Kratovskoe_area.JPG",
+    "period": "낭만주의",
+    "story": "요한계시록의 최후의 심판 장면이야. 산이 무너지고, 바위가 하늘로 솟구치고, 도시가 부서지는 종말적 파괴를 그렸어. 존 마틴은 자연재해와 성경적 파괴를 거대한 스케일로 그리는 것으로 유명했어.",
+    "look_for": "화면 전체가 붉은 빛과 검은 그림자로 뒤덮여 있어. 산들이 마치 종이처럼 찢어지며 무너지고, 번개가 하늘을 가르고 있어.",
+    "fun_fact": "마틴은 빅토리아 시대에 엄청난 인기를 누렸어. 이 그림은 심판 3부작의 마지막 작품이야. 그의 형 조나단은 실제로 요크 대성당에 방화한 방화범이야!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John Martin - The Great Day of His Wrath - Google Art Project.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
-      "question": "브률로프가 이 작품을 그리기 전에 방문한 곳은?",
+      "question": "존 마틴의 이 작품은 어떤 텍스트에서 영감을 받았나?",
       "options": [
-        "아테네의 아크로폴리스",
-        "폼페이 유적지",
-        "이집트의 피라미드"
+        "그리스 신화",
+        "요한계시록",
+        "실낙원"
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-330.webp"
+    "image_url": "/images/arts/day-330.webp",
+    "country": "영국",
+    "question": "파괴 후에는 항상 새로운 시작이 있어. 네 인생에서 무언가가 끝나고 새로운 것이 시작된 경험이 있어?"
   },
   {
     "date": "2027-02-09",
@@ -5987,17 +6008,17 @@
   },
   {
     "date": "2027-02-12",
-    "title": "안개 바다 위의 방랑자",
-    "title_original": "The Wanderer Above the Sea of Fog",
-    "artist": "카스파르 다비트 프리드리히",
-    "artist_original": "Caspar David Friedrich",
-    "year": "1818",
+    "title": "돈키호테와 산초 판사",
+    "title_original": "Don Quixote and Sancho Panza",
+    "artist": "오노레 도미에",
+    "artist_original": "Honoré Daumier",
+    "year": 1868,
     "medium": "유화",
-    "period": "독일 낭만주의",
-    "story": "독일 낭만주의를 대표하는 이 작품에서 한 남자가 안개 바다 위에 서서 끝없이 펼쳐진 풍경을 바라보고 있습니다. 등을 보인 채 서 있는 인물은 관객 자신이 될 수도 있습니다. 정해진 목적지 없이 떠도는 유랑자의 자유로움과 고독을 동시에 느끼게 하는 작품입니다. 프리드리히는 자연 앞에 선 인간의 작은 존재감을 통해 숭고함의 감정을 불러일으킵니다.",
-    "look_for": "인물이 서 있는 바위와 안개 아래 보이는 산봉우리들 사이의 스케일 차이를 느껴보세요.",
-    "fun_fact": "이 작품은 현재 낭만주의의 아이콘으로 유명하지만, 프리드리히 생전에는 그다지 주목받지 못했습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    "period": "사실주의",
+    "story": "마른 말을 탄 돈키호테와 당나귀를 탄 산초 판사가 황량한 풍경을 가로지르고 있어. 도미에는 세르반테스의 소설 속 이 방랑자를 여러 번 그렸어. 돈키호테는 세상에서 가장 유명한 유랑자야 — 풍차를 거인으로 착각하고, 여관을 성으로 착각하지만, 그의 여정은 계속돼. 목적지가 아니라 길 위에 있는 것 자체가 의미인 삶이야.",
+    "look_for": "돈키호테의 길쭉한 실루엣과 산초의 둥근 실루엣이 대비돼 — 이상과 현실의 대조야. 도미에 특유의 과감한 붓 터치와 어두운 색조가 유랑의 고독함을 강조해. 배경의 황량한 풍경이 끝없는 여정을 암시해.",
+    "fun_fact": "도미에는 원래 정치 풍자 만화로 유명했어 — 루이 필리프 국왕을 조롱한 그림 때문에 6개월 감옥에 갔어! 그는 말년에 거의 실명했고, 친구인 코로가 집을 마련해줬어. 돈키호테 연작은 도미에의 회화 중 가장 사랑받는 작품이야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Honoré_Daumier_035.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "이 작품에서 인물은 어떤 방향을 향하고 있나요?",
@@ -6008,7 +6029,9 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-334.webp"
+    "image_url": "/images/arts/day-334.webp",
+    "country": "프랑스",
+    "question": "돈키호테는 목적지 없이 떠돌지만 매 순간 최선을 다해. 결과보다 과정이 중요했던 경험이 있어?"
   },
   {
     "date": "2027-02-13",
@@ -6137,17 +6160,17 @@
   },
   {
     "date": "2027-02-18",
-    "title": "십자로",
-    "title_original": "Crossroads",
-    "artist": "리오타르",
+    "title": "터키 복장의 여인과 하녀",
+    "title_original": "A Lady in Turkish Dress and Her Servant",
+    "artist": "장에티엔 리오타르",
     "artist_original": "Jean-Étienne Liotard",
-    "year": "1745",
-    "medium": "파스텔",
+    "year": 1750,
+    "medium": "유화",
     "period": "로코코",
-    "story": "장에티엔 리오타르는 18세기 스위스 출신의 파스텔 화가로, 유럽과 오스만 제국을 여행하며 동서양 문화가 교차하는 장면을 많이 그렸습니다. 그는 터키 복장을 즐겨 입어 '터키인 화가'라는 별명을 얻었습니다. 리오타르의 작품은 서로 다른 문화와 길이 만나는 교차의 순간을 포착합니다. 동양의 복식과 서양의 화법이 하나의 화면에 공존하는 그의 그림은 문화적 경계를 넘는 예술의 힘을 보여줍니다.",
-    "look_for": "인물의 복장과 배경 소품에서 동서양 문화의 교차를 찾아보세요.",
-    "fun_fact": "리오타르의 대표작 '초콜릿을 나르는 하녀'는 현재까지도 유럽 파스텔화의 걸작으로 손꼽힙니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3AOperation_Crossroads_Baker_Edit.jpg",
+    "story": "유럽 여인이 터키 전통 복장을 입고 앉아 있고, 터키인 하녀가 커피를 가져오는 장면이야. 리오타르는 콘스탄티노플에서 5년간 살면서 동서양 문화가 '교차'하는 모습을 직접 목격했어. 그 자신도 긴 수염에 터키 복장을 즐겨 입어 '터키인 화가'로 불렸지. 서로 다른 문화가 만나 섞이는 교차점에서 새로운 아름다움이 탄생해.",
+    "look_for": "여인의 터키 복장이 매우 사실적으로 묘사돼 있어 — 직물의 질감과 문양이 정교해. 하녀가 들고 있는 커피잔은 터키 커피 문화를 보여줘. 리오타르 특유의 섬세한 파스텔 같은 색감이 돋보여.",
+    "fun_fact": "리오타르는 유럽 각국 왕실에서 초상화를 그린 국제적 화가야. 콘스탄티노플에서 돌아온 후에도 계속 터키 복장을 입어 '이상한 화가'로 유명했어. 그의 대표작 '초콜릿 소녀'는 세계에서 가장 유명한 파스텔화 중 하나야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Etienne Liotard - A Lady in Turkish Dress and Her Servant - Google Art Project.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "리오타르가 받은 별명은?",
@@ -6158,7 +6181,9 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-340.webp"
+    "image_url": "/images/arts/day-340.webp",
+    "country": "스위스",
+    "question": "리오타르는 터키 문화에 매료되어 자신의 정체성까지 바꿨어. 다른 문화에서 영감을 받은 경험이 있어?"
   },
   {
     "date": "2027-02-19",
@@ -6212,28 +6237,30 @@
   },
   {
     "date": "2027-02-21",
-    "title": "수도승들의 행렬",
-    "title_original": "Procession of the Monks",
-    "artist": "프라 안젤리코",
-    "artist_original": "Fra Angelico",
-    "year": "1440",
+    "title": "동방박사의 행렬",
+    "title_original": "Procession of the Magi",
+    "artist": "베노초 고촐리",
+    "artist_original": "Benozzo Gozzoli",
+    "year": 1459,
     "medium": "프레스코",
     "period": "초기 르네상스",
-    "story": "도미니코회 수도사이자 화가였던 프라 안젤리코는 피렌체 산 마르코 수도원의 벽에 경건한 프레스코화를 남겼습니다. 수도승들이 질서정연하게 줄을 지어 걸어가는 모습은 수도원 생활의 규율과 '순서'를 시각적으로 보여줍니다. 금빛 후광과 부드러운 파스텔 톤의 색채는 천상의 평화를 지상에 옮겨놓은 듯합니다. 각자의 자리에서 역할을 충실히 수행하는 삶의 아름다움이 담겨 있습니다.",
-    "look_for": "수도승들의 옷 주름과 발걸음이 만드는 리듬감 있는 반복 패턴을 감상해 보세요.",
-    "fun_fact": "프라 안젤리코는 '천사 같은 수사'라는 뜻의 별명이며, 본명은 귀도 디 피에트로입니다. 2차 바티칸 공의회에서 복자로 시복되었습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3ABuddhist_monks_procession_in_front_of_a_pyre.jpg",
+    "story": "피렌체 메디치 궁전 예배당 벽에 그려진 거대한 프레스코화야. 동방박사 세 왕이 아기 예수를 찾아가는 행렬을 묘사했는데, 실제로는 메디치 가문의 인물들을 왕으로 그렸어. 행렬은 정확한 순서를 따라 벽면을 돌며 이어져 — 왕, 기사, 시종, 말이 일정한 간격으로 배치돼 있어. 순서란 아름다움을 만드는 구조야.",
+    "look_for": "인물들이 일렬로 행진하고 있어. 화려한 복장의 색채와 금박 장식이 눈부셔. 배경의 토스카나 풍경이 세밀하게 묘사돼 있어. 메디치 가문 사람들의 실제 초상이 포함돼 있어.",
+    "fun_fact": "고촐리는 프라 안젤리코의 제자였어. 이 프레스코화에는 메디치 가문의 로렌초 일 마니피코가 어린 모습으로 그려져 있어. 행렬 속에 고촐리 자신도 숨어 있는데, 모자에 자기 이름을 써놓았대!",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Benozzo Gozzoli - Procession of the Youngest King (detail) - WGA10253.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
-      "question": "프라 안젤리코의 본업은?",
+      "question": "고촐리가 이 프레스코를 그린 장소는?",
       "options": [
-        "군인",
-        "도미니코회 수도사",
-        "궁정 음악가"
+        "바티칸 궁전",
+        "메디치 궁전 예배당",
+        "피렌체 대성당"
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-343.webp"
+    "image_url": "/images/arts/day-343.webp",
+    "country": "이탈리아",
+    "question": "행렬에는 정해진 순서가 있어. 네 하루에서 꼭 지키는 순서나 루틴이 있어?"
   },
   {
     "date": "2027-02-22",
@@ -6387,28 +6414,30 @@
   },
   {
     "date": "2027-02-28",
-    "title": "삼채마",
+    "title": "당삼채마",
     "title_original": "Tang Sancai Horse",
     "artist": "당나라 도공",
-    "artist_original": "Tang Dynasty Potter",
-    "year": "750",
+    "artist_original": "Tang Dynasty Artisan",
+    "year": "8세기",
     "medium": "삼채 도자기",
     "period": "당나라",
-    "story": "중국 당나라의 삼채(三彩) 도자기는 녹색, 갈색, 흰색 세 가지 유약을 사용해 만든 화려한 도자 예술입니다. 특히 말 형태의 삼채 도자기는 실크로드를 통해 들어온 서역의 명마를 본떠 만든 것으로, 당나라의 개방적이고 국제적인 문화를 보여줍니다. 흙과 불이 만나 예술이 되는 '도자'의 마법을 가장 화려하게 구현한 작품으로, 세 가지 색의 유약이 가마 안에서 자연스럽게 흘러내리며 독특한 무늬를 만듭니다.",
-    "look_for": "세 가지 색 유약이 자연스럽게 흘러내리며 만든 우연의 아름다움을 관찰해 보세요.",
-    "fun_fact": "삼채 도자기는 주로 무덤에 부장품으로 넣기 위해 만들었기 때문에, 대부분 고분에서 발견되었습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File%3AHorses_of_three_color_flavors_(3004576849).jpg",
+    "story": "당나라의 삼채 기법으로 만든 말 도자상이야. 초록, 갈색, 황색 유약이 자연스럽게 흘러내리며 독특한 무늬를 만들어. 도자기란 흙에 불을 더해 영원한 예술을 만드는 기술이야.",
+    "look_for": "세 가지 색의 유약이 섞이며 흘러내린 패턴을 봐. 말의 자세가 당당하고, 안장과 마구의 장식이 세밀해.",
+    "fun_fact": "당삼채는 세 가지 색이라는 뜻이지만 실제로는 더 많은 색이 쓰여. 유약이 가마 속에서 녹으면서 자연스럽게 흘러내리는 효과가 핵심이야.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tang Sancai Porcelain Horse 05.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
-      "question": "당삼채 도자기의 주된 용도는?",
+      "question": "당삼채의 삼채가 의미하는 것은?",
       "options": [
-        "일상 식기",
-        "무덤 부장품",
-        "궁전 장식"
+        "세 가지 형태",
+        "세 가지 색",
+        "세 가지 재료"
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-350.webp"
+    "image_url": "/images/arts/day-350.webp",
+    "country": "중국",
+    "question": "삼채 도자기는 흙과 불의 만남으로 탄생했어. 서로 다른 것이 만나 새로운 것이 탄생한 경험이 있어?"
   },
   {
     "date": "2027-03-01",
