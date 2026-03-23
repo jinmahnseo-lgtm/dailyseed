@@ -12,8 +12,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "DailySeed — 매일의 씨앗",
-  description: "청소년의 교양을 위한 매일의 씨앗",
+  title: "데일리시드(DailySeed) — 매일의 씨앗",
+  description: "데일리시드 — 청소년을 위한 매일 10분 교양 학습. 뉴스·고전·예술·세계·과학·영어 6개 분야 무료 콘텐츠.",
+  keywords: ["데일리시드", "DailySeed", "매일의 씨앗", "청소년 교양", "매일 학습", "시사상식", "청소년 뉴스", "교양 교육", "무료 학습"],
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "32x32 48x48", type: "image/x-icon" },
@@ -29,10 +30,10 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "DailySeed — 매일의 씨앗",
-    description: "매일 10분, 뉴스·고전·예술·세계·과학·영어 6개 분야 교양 콘텐츠",
+    title: "데일리시드(DailySeed) — 매일의 씨앗",
+    description: "데일리시드 — 매일 10분, 뉴스·고전·예술·세계·과학·영어 6개 분야 청소년 교양 콘텐츠",
     url: "https://www.dailyseed.net",
-    siteName: "DailySeed",
+    siteName: "데일리시드(DailySeed)",
     locale: "ko_KR",
     type: "website",
     images: [
@@ -46,8 +47,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "DailySeed — 매일의 씨앗",
-    description: "매일 10분, 뉴스·고전·예술·세계·과학·영어 6개 분야 교양 콘텐츠",
+    title: "데일리시드(DailySeed) — 매일의 씨앗",
+    description: "데일리시드 — 매일 10분, 뉴스·고전·예술·세계·과학·영어 6개 분야 청소년 교양 콘텐츠",
     images: ["https://www.dailyseed.net/og-image.png"],
   },
 };
@@ -72,14 +73,14 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "DailySeed",
-            "alternateName": "매일의 씨앗",
+            "name": "데일리시드(DailySeed)",
+            "alternateName": ["매일의 씨앗", "데일리시드", "DailySeed"],
             "url": "https://www.dailyseed.net",
             "description": "매일 10분, 뉴스·고전·예술·세계·과학·영어 6개 분야 교양 콘텐츠. 청소년을 위한 매일의 교양 학습 서비스.",
             "inLanguage": "ko",
             "publisher": {
               "@type": "Organization",
-              "name": "DailySeed",
+              "name": "데일리시드(DailySeed)",
               "url": "https://www.dailyseed.net",
               "logo": {
                 "@type": "ImageObject",
