@@ -1,0 +1,3646 @@
+[
+  {
+    "day": 1,
+    "registered_title": "민중을 이끄는 자유의 여신",
+    "registered_artist": "외젠 들라크루아",
+    "identified_title": "민중을 이끄는 자유",
+    "identified_artist": "외젠 들라크루아",
+    "match": true,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "day": 2,
+    "registered_title": "진주 귀걸이를 한 소녀",
+    "registered_artist": "요하네스 베르메르",
+    "identified_title": "진주 귀걸이를 한 소녀",
+    "identified_artist": "요하네스 베르메르",
+    "match": true,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "day": 3,
+    "registered_title": "수련",
+    "registered_artist": "클로드 모네",
+    "identified_title": "수련",
+    "identified_artist": "클로드 모네",
+    "match": true,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "day": 4,
+    "registered_title": "안개 바다 위의 방랑자",
+    "registered_artist": "카스파르 다비트 프리드리히",
+    "identified_title": "안개 바다 위의 방랑자",
+    "identified_artist": "카스파르 다비트 프리드리히",
+    "match": true,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "day": 5,
+    "registered_title": "쾌락의 정원",
+    "registered_artist": "히에로니무스 보스",
+    "identified_title": "쾌락의 정원",
+    "identified_artist": "히에로니무스 보스",
+    "match": true,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "day": 6,
+    "registered_title": "메두사의 뗏목",
+    "registered_artist": "테오도르 제리코",
+    "identified_title": "The Raft of the Medusa",
+    "identified_artist": "Théodore Géricault",
+    "match": true,
+    "confidence": "high",
+    "note": "The composition, dramatic shipwreck scene, desperate survivors on a raft, and stormy sea are all characteristic of this iconic Romantic masterpiece."
+  },
+  {
+    "day": 7,
+    "registered_title": "천문학자",
+    "registered_artist": "요하네스 베르메르",
+    "identified_title": "The Astronomer",
+    "identified_artist": "Johannes Vermeer",
+    "match": true,
+    "confidence": "high",
+    "note": "The contemplative figure studying a celestial globe by window light, the interior setting, and Vermeer's characteristic use of light perfectly identify this work."
+  },
+  {
+    "day": 8,
+    "registered_title": "1808년 5월 3일",
+    "registered_artist": "프란시스코 고야",
+    "identified_title": "The Third of May 1808",
+    "identified_artist": "Francisco Goya",
+    "match": true,
+    "confidence": "high",
+    "note": "The execution scene with firing squad, the central figure in white with arms raised, the dramatic contrast, and the dark historical subject matter are definitive of this masterwork."
+  },
+  {
+    "day": 9,
+    "registered_title": "자화상 (귀 붕대)",
+    "registered_artist": "빈센트 반 고흐",
+    "identified_title": "자화상 (귀 붕대)",
+    "identified_artist": "빈센트 반 고흐",
+    "match": true,
+    "confidence": "high",
+    "note": "파란 모자, 붕대로 감싼 귀, 녹색 코트 등 특징적인 요소들이 일치합니다."
+  },
+  {
+    "day": 10,
+    "registered_title": "키스",
+    "registered_artist": "구스타프 클림트",
+    "identified_title": "키스",
+    "identified_artist": "구스타프 클림트",
+    "match": true,
+    "confidence": "high",
+    "note": "황금색 배경, 기하학적 패턴, 장식적 옷감, 키스하는 두 인물의 모습이 클림트의 대표작과 일치합니다."
+  },
+  {
+    "day": 11,
+    "registered_title": "큰 파도",
+    "registered_artist": "가쓰시카 호쿠사이",
+    "identified_title": "The Great Wave off Kanagawa",
+    "identified_artist": "Katsushika Hokusai",
+    "match": true,
+    "confidence": "high",
+    "note": "일본어 제목을 영어로 번역한 것. 호쿠사이의 목판화 시리즈 '36views of Mount Fuji' 중 가장 유명한 작품"
+  },
+  {
+    "day": 12,
+    "registered_title": "별이 빛나는 밤",
+    "registered_artist": "빈센트 반 고흐",
+    "identified_title": "The Starry Night",
+    "identified_artist": "Vincent van Gogh",
+    "match": true,
+    "confidence": "high",
+    "note": "고흐의 1889년 유화. 특징적인 소용돌이 모양의 하늘과 빛나는 별들이 명확함"
+  },
+  {
+    "day": 13,
+    "registered_title": "아테네 학당",
+    "registered_artist": "라파엘로 산치오",
+    "identified_title": "School of Athens",
+    "identified_artist": "Raffaello Sanzio",
+    "match": true,
+    "confidence": "high",
+    "note": "라파엘로의 르네상스 프레스코 걸작. 바티칸 아포스톨릭 궁전의 Stanza della Segnatura에 위치"
+  },
+  {
+    "day": 14,
+    "registered_title": "이삭 줍는 여인들",
+    "registered_artist": "장프랑수아 밀레",
+    "identified_title": "The Gleaners",
+    "identified_artist": "Jean-François Millet",
+    "match": true,
+    "confidence": "high",
+    "note": "1857년 작품. 농촌의 일상적인 노동을 소재로 한 리얼리즘 회화"
+  },
+  {
+    "day": 15,
+    "registered_title": "편지를 읽는 여인",
+    "registered_artist": "피터르 데 호흐",
+    "identified_title": "A Woman Reading a Letter",
+    "identified_artist": "Pieter de Hooch",
+    "match": true,
+    "confidence": "high",
+    "note": "17세기 네덜란드 화가의 특징적인 실내 장면. 빛의 표현과 건축 공간의 깊이가 돋보임"
+  },
+  {
+    "day": 16,
+    "registered_title": "해바라기",
+    "registered_artist": "빈센트 반 고흐",
+    "identified_title": "해바라기",
+    "identified_artist": "빈센트 반 고흐",
+    "match": true,
+    "confidence": "high",
+    "note": "노란색 꽃병, 강렬한 황색 톤, 특징적인 붓 터치, 해바라기 모티프가 반 고흐의 대표작과 완벽히 일치합니다."
+  },
+  {
+    "day": 17,
+    "registered_title": "오필리아",
+    "registered_artist": "존 에버렛 밀레이",
+    "identified_title": "Ophelia",
+    "identified_artist": "John Everett Millais",
+    "match": true,
+    "confidence": "high",
+    "note": "물 속에 떠있는 여인, 꽃과 자연으로 둘러싸인 구성, 라파엘 전파의 특징적 화풍이 일치함"
+  },
+  {
+    "day": 18,
+    "registered_title": "절규",
+    "registered_artist": "에드바르드 뭉크",
+    "identified_title": "The Scream",
+    "identified_artist": "Edvard Munch",
+    "match": true,
+    "confidence": "high",
+    "note": "불안감을 나타내는 붉은 하늘, 중앙의 손으로 얼굴을 감싼 인물, 왜곡된 원근법과 선으로 인한 불안정한 분위기가 특징적"
+  },
+  {
+    "day": 19,
+    "registered_title": "비너스의 탄생",
+    "registered_artist": "산드로 보티첼리",
+    "identified_title": "The Birth of Venus",
+    "identified_artist": "Sandro Botticelli",
+    "match": true,
+    "confidence": "high",
+    "note": "조개 위에 서있는 나신의 여인, 좌측의 바람의 신들, 우측의 호라이, 우아한 선형과 르네상스 고전주의적 이상미가 특징"
+  },
+  {
+    "day": 20,
+    "registered_title": "비, 증기, 그리고 속도",
+    "registered_artist": "윌리엄 터너",
+    "identified_title": "Rain, Steam, and Speed – The Great Western Railway",
+    "identified_artist": "J.M.W. Turner",
+    "match": true,
+    "confidence": "high",
+    "note": "영문 제목과 작가명의 번역 표기 차이일 뿐 동일 작품"
+  },
+  {
+    "day": 21,
+    "registered_title": "판도라",
+    "registered_artist": "단테 가브리엘 로세티",
+    "identified_title": "Pandora",
+    "identified_artist": "Dante Gabriel Rossetti",
+    "match": true,
+    "confidence": "high",
+    "note": "여인이 황금 상자를 열고 있는 판도라 신화의 정전적 표현"
+  },
+  {
+    "day": 22,
+    "registered_title": "프로세르피나",
+    "registered_artist": "단테 가브리엘 로세티",
+    "identified_title": "Proserpine",
+    "identified_artist": "Dante Gabriel Rossetti",
+    "match": true,
+    "confidence": "high",
+    "note": "석류를 들고 있는 프로세르피나, 우측에 라틴 문구와 아래 금빛 그릇 포함"
+  },
+  {
+    "day": 23,
+    "registered_title": "공자상",
+    "registered_artist": "당나라 채색 석각 (작자 미상)",
+    "identified_title": "Portrait of Confucius (孔子)",
+    "identified_artist": "Unknown Tang Dynasty artist",
+    "match": true,
+    "confidence": "high",
+    "note": "우측 한자 '至聖孔子' 명문 있음, 당나라 채색 석각 기법의 전형적 표현"
+  },
+  {
+    "day": 24,
+    "registered_title": "전쟁과 평화의 알레고리",
+    "registered_artist": "페테르 파울 루벤스",
+    "identified_title": "Allegory of War and Peace",
+    "identified_artist": "Peter Paul Rubens",
+    "match": true,
+    "confidence": "high",
+    "note": "바로크 양식의 풍부한 구성, 마스와 비너스를 중심으로 한 전쟁과 평화의 대비"
+  },
+  {
+    "day": 25,
+    "registered_title": "아담의 창조",
+    "registered_artist": "미켈란젤로 부오나로티",
+    "identified_title": "The Creation of Adam",
+    "identified_artist": "Michelangelo Buonarroti",
+    "match": true,
+    "confidence": "high",
+    "note": "시스틴 성당 천장화의 가장 유명한 장면, 신의 손과 아담의 손이 만나는 순간"
+  },
+  {
+    "day": 26,
+    "registered_title": "야경",
+    "registered_artist": "렘브란트 판 레인",
+    "identified_title": "야간 경비대 (The Night Watch)",
+    "identified_artist": "렘브란트 판 레인",
+    "match": true,
+    "confidence": "high",
+    "note": "등록된 제목은 번역명이며, 실제 작품명은 'The Night Watch'입니다. 작가는 일치합니다."
+  },
+  {
+    "day": 27,
+    "registered_title": "두 자매 (테라스에서)",
+    "registered_artist": "피에르오귀스트 르누아르",
+    "identified_title": "테라스의 두 자매 (On the Terrace)",
+    "identified_artist": "피에르오귀스트 르누아르",
+    "match": true,
+    "confidence": "high",
+    "note": "작품과 작가 모두 일치합니다. 제목의 순서만 다릅니다."
+  },
+  {
+    "day": 28,
+    "registered_title": "풍차가 있는 풍경",
+    "registered_artist": "야코프 판 라위스달",
+    "identified_title": "풍차가 있는 풍경",
+    "identified_artist": "야코프 판 라위스달",
+    "match": true,
+    "confidence": "high",
+    "note": "작품명과 작가 모두 일치합니다."
+  },
+  {
+    "day": 29,
+    "registered_title": "바벨탑",
+    "registered_artist": "피터르 브뤼헐",
+    "identified_title": "바벨탑 (The Tower of Babel)",
+    "identified_artist": "피터르 브뤼헐",
+    "match": true,
+    "confidence": "high",
+    "note": "작품과 작가 모두 일치합니다. 등록된 제목은 번역명입니다."
+  },
+  {
+    "day": 30,
+    "registered_title": "최후의 심판",
+    "registered_artist": "미켈란젤로 부오나로티",
+    "identified_title": "최후의 심판 (The Last Judgment)",
+    "identified_artist": "미켈란젤로 부오나로티",
+    "match": true,
+    "confidence": "high",
+    "note": "시스티나 성당 제단의 프레스코화로 미켈란젤로의 가장 유명한 작품입니다. 작품명과 작가 모두 일치합니다."
+  },
+  {
+    "day": 31,
+    "registered_title": "우유를 따르는 여인",
+    "registered_artist": "요하네스 베르메르",
+    "identified_title": "우유를 따르는 여인 (The Milkmaid)",
+    "identified_artist": "요하네스 베르메르",
+    "match": true,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "day": 32,
+    "registered_title": "두 프리다",
+    "registered_artist": "프리다 칼로",
+    "identified_title": "Henry Ford Hospital (The Floating Bed) 또는 자화상",
+    "identified_artist": "프리다 칼로",
+    "match": false,
+    "confidence": "medium",
+    "note": "프리다 칼로의 작품이 맞으나, 이미지는 '두 프리다(1907)'보다는 의료 기구가 포함된 다른 자화상으로 보임. 스타일과 주제(신체, 고통의 표현)는 일치하나 구체적 작품명이 다를 가능성 있음"
+  },
+  {
+    "day": 33,
+    "registered_title": "참회하는 막달레나",
+    "registered_artist": "조르주 드 라 투르",
+    "identified_title": "참회하는 막달레나 (Magdalen with the Smoking Flame)",
+    "identified_artist": "조르주 드 라 투르",
+    "match": true,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "day": 34,
+    "registered_title": "묵죽도",
+    "registered_artist": "정섭",
+    "identified_title": "묵죽도 (Ink Orchid and Bamboo)",
+    "identified_artist": "정섭",
+    "match": true,
+    "confidence": "medium",
+    "note": "동양 수묵화 전통의 난초와 대나무 그림. 한문 서예가 포함됨"
+  },
+  {
+    "day": 35,
+    "registered_title": "법학 (유리스프루덴츠)",
+    "registered_artist": "구스타프 클림트",
+    "identified_title": "법학 (Jurisprudence)",
+    "identified_artist": "구스타프 클림트",
+    "match": true,
+    "confidence": "high",
+    "note": "황금색 의상을 입은 정의의 여인이 법전을 들고 있는 알레고리 작품"
+  },
+  {
+    "day": 36,
+    "registered_title": "우정의 알레고리",
+    "registered_artist": "폼페오 바토니",
+    "identified_title": "우정의 알레고리 (Allegory of Friendship)",
+    "identified_artist": "폼페오 바토니",
+    "match": true,
+    "confidence": "high",
+    "note": "18세기 신고전주의 부조 작품으로, 비둘기, 풍요의 뿔, 꽃과 과일 등 우정의 상징물로 둘러싸인 두 여성 인물이 명확히 표현됨"
+  },
+  {
+    "day": 37,
+    "registered_title": "이카로스의 추락이 있는 풍경",
+    "registered_artist": "피터르 브뤼헐",
+    "identified_title": "Landscape with the Fall of Icarus",
+    "identified_artist": "Pieter Bruegel the Elder",
+    "match": true,
+    "confidence": "high",
+    "note": "영문 제목과 작가명의 번역 표기 차이일 뿐 동일 작품"
+  },
+  {
+    "day": 38,
+    "registered_title": "미크로그라피아 세밀화",
+    "registered_artist": "로버트 훅",
+    "identified_title": "Micrographia - Fig. X (벼룩의 현미경 관찰도)",
+    "identified_artist": "로버트 훅",
+    "match": true,
+    "confidence": "high",
+    "note": "로버트 훅의 1665년 저작 '미크로그라피아'의 삽화로, 현미경으로 관찰한 벼룩의 정교한 세밀화"
+  },
+  {
+    "day": 39,
+    "registered_title": "그랑드 오달리스크",
+    "registered_artist": "장오귀스트도미니크 앵그르",
+    "identified_title": "La Grande Odalisque",
+    "identified_artist": "Jean-Auguste-Dominique Ingres",
+    "match": true,
+    "confidence": "high",
+    "note": "완벽하게 일치합니다. 1814년 작품으로 루브르 박물관 소장."
+  },
+  {
+    "day": 40,
+    "registered_title": "물랭 드 라 갈레트의 무도회",
+    "registered_artist": "피에르오귀스트 르누아르",
+    "identified_title": "Bal du moulin de la Galette",
+    "identified_artist": "Pierre-Auguste Renoir",
+    "match": true,
+    "confidence": "high",
+    "note": "완벽하게 일치합니다. 1876년 인상주의 명작으로 musée d'Orsay 소장."
+  },
+  {
+    "day": 41,
+    "registered_title": "라오콘 군상",
+    "registered_artist": "아게산드로스, 폴리도로스, 아테나도로스",
+    "identified_title": "라오콘 군상",
+    "identified_artist": "아게산드로스, 폴리도로스, 아테나도로스",
+    "match": true,
+    "confidence": "high",
+    "note": "헬레니즘 시대의 고전 조각상으로 확실하게 식별됨"
+  },
+  {
+    "day": 42,
+    "registered_title": "회복기의 여인",
+    "registered_artist": "엘리자베스 톰슨",
+    "identified_title": "Convalescence",
+    "identified_artist": "Unknown (Lithograph by C Motte)",
+    "match": false,
+    "confidence": "medium",
+    "note": "등록된 작가와 실제 이미지의 작가가 불일치. 이미지는 C Motte의 리소그래프로 표시됨. 제목은 유사하나(회복기) 작가 정보 검증 필요"
+  },
+  {
+    "day": 43,
+    "registered_title": "테니스 코트의 서약",
+    "registered_artist": "자크루이 다비드",
+    "identified_title": "테니스 코트의 서약 (Le Serment du Jeu de Paume)",
+    "identified_artist": "자크루이 다비드",
+    "match": true,
+    "confidence": "high",
+    "note": "신고전주의 대표작으로 1789년 프랑스 혁명을 소재로 함"
+  },
+  {
+    "day": 44,
+    "registered_title": "워싱턴의 델라웨어 도하",
+    "registered_artist": "에마뉴엘 로이체",
+    "identified_title": "워싱턴의 델라웨어 도하 (Washington Crossing the Delaware)",
+    "identified_artist": "에마뉴엘 로이체",
+    "match": true,
+    "confidence": "high",
+    "note": "미국 독립전쟁의 유명한 사건을 묘사한 역사화"
+  },
+  {
+    "day": 45,
+    "registered_title": "푸른 말",
+    "registered_artist": "프란츠 마르크",
+    "identified_title": "푸른 말 (The Blue Horse)",
+    "identified_artist": "프란츠 마르크",
+    "match": true,
+    "confidence": "high",
+    "note": "표현주의 미술의 대표작으로 역동적인 색채와 형태가 특징"
+  },
+  {
+    "day": 46,
+    "registered_title": "감옥 (판타지)",
+    "registered_artist": "조반니 바티스타 피라네시",
+    "identified_title": "감옥 (판타지) - Carceri d'Invenzione",
+    "identified_artist": "조반니 바티스타 피라네시",
+    "match": true,
+    "confidence": "high",
+    "note": "피라네시의 판타지 감옥 연작의 전형적인 특징 - 거대한 석조 구조, 복잡한 계단, 깊은 원근감, 에칭 기법"
+  },
+  {
+    "day": 47,
+    "registered_title": "일본 다리 위의 수련 연못",
+    "registered_artist": "클로드 모네",
+    "identified_title": "일본 다리 위의 수련 연못",
+    "identified_artist": "클로드 모네",
+    "match": true,
+    "confidence": "high",
+    "note": "모네의 지베르니 수련 연못 연작 중 하나 - 아치형 일본 다리, 녹색과 분홍색 톤, 인상주의 필법"
+  },
+  {
+    "day": 48,
+    "registered_title": "멜랑콜리아 I",
+    "registered_artist": "알브레히트 뒤러",
+    "identified_title": "멜랑콜리아 I (Melencolia I)",
+    "identified_artist": "알브레히트 뒤러",
+    "match": true,
+    "confidence": "high",
+    "note": "뒤러의 유명한 판화 - 여성 인물, 푸토, 천사들, 사다리, 황금 사과, 상징적 물체들로 가득한 구성"
+  },
+  {
+    "day": 49,
+    "registered_title": "빙산",
+    "registered_artist": "프레더릭 에드윈 처치",
+    "identified_title": "Icebergs",
+    "identified_artist": "Frederic Edwin Church",
+    "match": true,
+    "confidence": "high",
+    "note": "북극 빙산의 웅장한 경관을 담은 작품으로 처치의 대표작"
+  },
+  {
+    "day": 50,
+    "registered_title": "대사들",
+    "registered_artist": "한스 홀바인",
+    "identified_title": "The Ambassadors",
+    "identified_artist": "Hans Holbein the Younger",
+    "match": true,
+    "confidence": "high",
+    "note": "16세기 르네상스 회화의 걸작으로 풍부한 상징물과 왜곡된 해골이 특징"
+  },
+  {
+    "day": 51,
+    "registered_title": "사무라이 갑옷",
+    "registered_artist": "일본 에도시대 장인",
+    "identified_title": "사무라이 갑옷 (요로이)",
+    "identified_artist": "일본 에도시대 장인",
+    "match": true,
+    "confidence": "high",
+    "note": "에도시대 사무라이 갑옷의 전형적인 양식 표현"
+  },
+  {
+    "day": 52,
+    "registered_title": "브로드웨이 부기우기",
+    "registered_artist": "피트 몬드리안",
+    "identified_title": "브로드웨이 부기우기 (Broadway Boogie Woogie)",
+    "identified_artist": "피에트 몬드리안",
+    "match": true,
+    "confidence": "high",
+    "note": "몬드리안의 대표작, 뉴욕의 리듬을 나타낸 기하학적 추상작품"
+  },
+  {
+    "day": 53,
+    "registered_title": "제3신분",
+    "registered_artist": "오노레 도미에",
+    "identified_title": "식탁을 읽는 사람들 또는 유사 사회풍자작",
+    "identified_artist": "오노레 도미에",
+    "match": true,
+    "confidence": "medium",
+    "note": "도미에의 사회 비판적 회화, 정확한 작품명은 확인 필요"
+  },
+  {
+    "day": 54,
+    "registered_title": "소작농의 딸",
+    "registered_artist": "윌리엄 아돌프 부게로",
+    "identified_title": "소작농의 딸 (The Shepherdess)",
+    "identified_artist": "윌리엄 아돌프 부게로",
+    "match": true,
+    "confidence": "high",
+    "note": "부게로의 신고전주의 아카데미 회화, 농촌 여성의 이상화된 초상"
+  },
+  {
+    "day": 55,
+    "registered_title": "빨간 머리의 소녀",
+    "registered_artist": "아메데오 모딜리아니",
+    "identified_title": "Girl with Red Hair (or similar portrait)",
+    "identified_artist": "Amedeo Modigliani",
+    "match": true,
+    "confidence": "high",
+    "note": "모딜리아니의 특징적인 초상화 스타일(길쭉한 얼굴, 아몬드형 눈)과 서명이 일치. 빨간 머리의 여인 초상화"
+  },
+  {
+    "day": 56,
+    "registered_title": "구성 VIII",
+    "registered_artist": "바실리 칸딘스키",
+    "identified_title": "Composition VIII",
+    "identified_artist": "Wassily Kandinsky",
+    "match": true,
+    "confidence": "high",
+    "note": "추상주의의 특징적인 기하학적 형태, 원, 삼각형, 직선과 다양한 색상의 조화가 명확함"
+  },
+  {
+    "day": 57,
+    "registered_title": "셜록 홈즈 삽화",
+    "registered_artist": "시드니 파짓",
+    "identified_title": "Sherlock Holmes Illustration (likely 'The Final Problem' or similar story)",
+    "identified_artist": "Sidney Paget",
+    "match": true,
+    "confidence": "medium",
+    "note": "시드니 파짓의 셜록 홈즈 일러스트레이션의 특징적인 스타일과 구성이 맞으나, 정확한 에피소드는 특정 불가"
+  },
+  {
+    "day": 58,
+    "registered_title": "적벽대전도",
+    "registered_artist": "전통 중국 회화",
+    "identified_title": "Battle of Red Cliffs Map (208 CE)",
+    "identified_artist": "Modern Historical Map (Persian/Farsi labels)",
+    "match": false,
+    "confidence": "low",
+    "note": "이미지는 전통 중국 회화가 아닌 현대의 지도 표현. 페르시아어 레이블이 있어 중국 전통 회화로 보기 어려움. 적벽대전 내용은 맞으나 매체와 표현 방식이 완전히 다름"
+  },
+  {
+    "day": 59,
+    "registered_title": "포옹",
+    "registered_artist": "에곤 실레",
+    "identified_title": "포옹 (Embrace)",
+    "identified_artist": "에곤 실레",
+    "match": true,
+    "confidence": "high",
+    "note": "특징적인 표현주의 스타일, 얽힌 신체의 표현, 에곤 실레의 대표작"
+  },
+  {
+    "day": 60,
+    "registered_title": "밤의 카페 테라스",
+    "registered_artist": "빈센트 반 고흐",
+    "identified_title": "The Night Café",
+    "identified_artist": "Vincent van Gogh",
+    "match": true,
+    "confidence": "high",
+    "note": "반 고흐의 특징적인 소용돌이 붓질, 황색과 파란색의 극적인 대비, 노란 카페 건물과 별이 빛나는 밤하늘이 명확함"
+  },
+  {
+    "day": 61,
+    "registered_title": "이집트에서의 피난",
+    "registered_artist": "아담 엘스하이머",
+    "identified_title": "이집트로의 피난 (Flight into Egypt)",
+    "identified_artist": "아담 엘스하이머 (Adam Elsheimer)",
+    "match": true,
+    "confidence": "high",
+    "note": "등록 정보와 일치. 성모마리아와 예수, 요셉이 당나귀를 타고 이집트로 가는 장면의 전형적인 구성"
+  },
+  {
+    "day": 62,
+    "registered_title": "죽림칠현도",
+    "registered_artist": "중국 남북조 전통",
+    "identified_title": "죽림칠현도 (Seven Sages of the Bamboo Grove)",
+    "identified_artist": "중국 남북조 시대 전통 (정확한 작가 미상)",
+    "match": true,
+    "confidence": "high",
+    "note": "대나무 숲에서 만난 일곱 명의 현인들을 묘사한 전통 동양 회화. 황색 배경과 인물 배치가 특징적"
+  },
+  {
+    "day": 63,
+    "registered_title": "참회하는 막달라 마리아",
+    "registered_artist": "조르주 드 라 투르",
+    "identified_title": "막달라 마리아 (The Penitent Magdalen)",
+    "identified_artist": "조르주 드 라 투르 (Georges de La Tour)",
+    "match": true,
+    "confidence": "high",
+    "note": "참회 중인 막달라 마리아의 전형적인 이미지로, 책, 해골, 성인의 후광 등 상징적 요소 포함"
+  },
+  {
+    "day": 64,
+    "registered_title": "호랑이 사냥",
+    "registered_artist": "외젠 들라크루아",
+    "identified_title": "호랑이 사냥 (Tiger Hunt)",
+    "identified_artist": "외젠 들라크루아",
+    "match": true,
+    "confidence": "high",
+    "note": "낭만주의 스타일, 극적인 구성, 들라크루아의 오리엔탈리즘 작품의 특징"
+  },
+  {
+    "day": 65,
+    "registered_title": "후지산 36경 (적후지)",
+    "registered_artist": "가쓰시카 호쿠사이",
+    "identified_title": "후지산 36경 중 '적후지' (Red Fuji)",
+    "identified_artist": "가쓰시카 호쿠사이 (Katsushika Hokusai)",
+    "match": true,
+    "confidence": "high",
+    "note": "호쿠사이의 '후지산 36경' 시리즈의 가장 유명한 작품. 특징적인 붉은 후지산과 파란 하늘의 대비"
+  },
+  {
+    "day": 66,
+    "registered_title": "핀치 연구 스케치",
+    "registered_artist": "존 굴드",
+    "identified_title": "핀치 연구 스케치 (Finch Research Sketch)",
+    "identified_artist": "존 굴드 (John Gould)",
+    "match": true,
+    "confidence": "high",
+    "note": "다윈의 갈라파고스 핀치 연구를 위한 삽화로, 4종의 핀치 머리 구조를 정확히 표현한 과학 일러스트레이션"
+  },
+  {
+    "day": 67,
+    "registered_title": "보물섬 삽화",
+    "registered_artist": "N.C. 와이어스",
+    "identified_title": "보물섬 삽화 (Treasure Island Illustration)",
+    "identified_artist": "N.C. 와이어스 (N.C. Wyeth)",
+    "match": true,
+    "confidence": "high",
+    "note": "로버트 루이스 스티븐슨의 '보물섬'을 위한 초판 삽화, 황폐한 농가 풍경의 따뜻한 색감 표현"
+  },
+  {
+    "day": 68,
+    "registered_title": "우르의 군기",
+    "registered_artist": "수메르 장인",
+    "identified_title": "우르의 군기 (Standard of Ur)",
+    "identified_artist": "수메르 장인",
+    "match": true,
+    "confidence": "high",
+    "note": "기원전 2600년경 우르 문명의 석판 공예품, 전쟁과 평화 장면을 세 행으로 표현한 수메르 미술의 대표작"
+  },
+  {
+    "day": 69,
+    "registered_title": "아픈 아이",
+    "registered_artist": "에드바르 뭉크",
+    "identified_title": "아픈 아이 (The Sick Child)",
+    "identified_artist": "에드바르 뭉크 (Edvard Munch)",
+    "match": true,
+    "confidence": "high",
+    "note": "표현주의 거장의 대표작, 질병과 죽음의 감정을 초록색과 붉은색의 불안정한 선으로 표현"
+  },
+  {
+    "day": 70,
+    "registered_title": "시르타키 춤 장면",
+    "registered_artist": "그리스 전통",
+    "identified_title": "시르타키 춤 (Sirtaki Dance)",
+    "identified_artist": "그리스 전통",
+    "match": true,
+    "confidence": "medium",
+    "note": "현대 그리스 전통춤, 빨강과 흰색 의상을 입은 참가자들의 집단 춤 장면, 문화 축제 모습"
+  },
+  {
+    "day": 71,
+    "registered_title": "비밀의 화원 삽화",
+    "registered_artist": "찰스 로빈슨",
+    "identified_title": "The Secret Garden",
+    "identified_artist": "Charles Robinson",
+    "match": true,
+    "confidence": "high",
+    "note": "제목과 작가명이 정확히 일치. 책 표지 삽화로 확인됨."
+  },
+  {
+    "day": 72,
+    "registered_title": "희망",
+    "registered_artist": "조지 프레더릭 와츠",
+    "identified_title": "Hope",
+    "identified_artist": "George Frederic Watts",
+    "match": true,
+    "confidence": "high",
+    "note": "한글명과 영문명이 일치. 알레고리 인물화로 확인됨."
+  },
+  {
+    "day": 73,
+    "registered_title": "사막의 대상",
+    "registered_artist": "장레옹 제롬",
+    "identified_title": "노예시장 (The Slave Market) 또는 동양풍 장면",
+    "identified_artist": "장레옹 제롬",
+    "match": false,
+    "confidence": "medium",
+    "note": "제롬의 오리엔탈리즘 작품이 맞으나, 실제 제목은 '노예시장' 또는 유사한 동양풍 장면으로 보임. 정확한 제목 확인 필요"
+  },
+  {
+    "day": 74,
+    "registered_title": "폭풍우 속의 배",
+    "registered_artist": "귀스타브 쿠르베",
+    "identified_title": "폭풍우 속의 배",
+    "identified_artist": "귀스타브 쿠르베",
+    "match": true,
+    "confidence": "high",
+    "note": "거친 파도와 어두운 하늘의 로맨틱 리얼리즘 해양화. 쿠르베의 서명 확인 가능."
+  },
+  {
+    "day": 75,
+    "registered_title": "로미오와 줄리엣",
+    "registered_artist": "프랭크 딕시",
+    "identified_title": "Romeo and Juliet",
+    "identified_artist": "Frank Dicksee",
+    "match": true,
+    "confidence": "high",
+    "note": "발코니 장면에서의 유명한 로미오와 줄리엣 묘사. 작가와 제목 모두 일치."
+  },
+  {
+    "day": 76,
+    "registered_title": "개를 데리고 산책하는 여인",
+    "registered_artist": "토마 가토르",
+    "identified_title": "산악 지형의 여행자들",
+    "identified_artist": "토마 가토르 (또는 18세기 낭만주의 풍경화가)",
+    "match": false,
+    "confidence": "medium",
+    "note": "개와 여인이 보이지 않음. 이미지는 산악 풍경에서 말을 탄 인물과 동반자를 보여주는 작품으로 보임. 제목이 정확하지 않을 가능성 있음."
+  },
+  {
+    "day": 77,
+    "registered_title": "가난한 어부",
+    "registered_artist": "피에르 퓌비 드 샤반",
+    "identified_title": "가난한 어부 (Le Pauvre Pêcheur)",
+    "identified_artist": "피에르 퓌비 드 샤반 (Pierre Puvis de Chavannes)",
+    "match": true,
+    "confidence": "high",
+    "note": "제목과 작가 모두 정확함. 해변의 어부와 가족을 그린 상징적 작품"
+  },
+  {
+    "day": 78,
+    "registered_title": "타히티의 여인들",
+    "registered_artist": "폴 고갱",
+    "identified_title": "타히티의 여인들 (Femmes de Tahiti)",
+    "identified_artist": "폴 고갱 (Paul Gauguin)",
+    "match": true,
+    "confidence": "high",
+    "note": "제목과 작가 모두 정확함. 고갱의 타히티 시기 대표작"
+  },
+  {
+    "day": 79,
+    "registered_title": "제4계급",
+    "registered_artist": "쥐세페 펠리차 다 볼페도",
+    "identified_title": "제4계급 (Il Quarto Stato)",
+    "identified_artist": "쥐세페 펠리차 다 볼페도 (Giuseppe Pellizza da Volpedo)",
+    "match": true,
+    "confidence": "high",
+    "note": "제목과 작가 모두 정확함. 사회주의 리얼리즘의 중요한 작품"
+  },
+  {
+    "day": 80,
+    "registered_title": "어머니와 아이",
+    "registered_artist": "메리 카사트",
+    "identified_title": "어머니와 아이 (Mother and Child)",
+    "identified_artist": "메리 카사트 (Mary Cassatt)",
+    "match": true,
+    "confidence": "high",
+    "note": "제목과 작가 모두 정확함. 카사트의 전형적인 주제인 모성애를 다룬 작품"
+  },
+  {
+    "day": 81,
+    "registered_title": "이프 성",
+    "registered_artist": "위베르 로베르",
+    "identified_title": "이프 성",
+    "identified_artist": "위베르 로베르",
+    "match": true,
+    "confidence": "high",
+    "note": "18세기 로베르의 전형적인 유적 풍경화. 프로방스의 이프 성을 배경으로 한 낭만적 풍경"
+  },
+  {
+    "day": 82,
+    "registered_title": "웃는 기사",
+    "registered_artist": "프란스 할스",
+    "identified_title": "웃는 기사",
+    "identified_artist": "프란스 할스",
+    "match": true,
+    "confidence": "high",
+    "note": "할스의 명작. 특징적인 미소와 우아한 복장, 역동적인 붓질이 명확함"
+  },
+  {
+    "day": 83,
+    "registered_title": "봄",
+    "registered_artist": "산드로 보티첼리",
+    "identified_title": "봄 (Primavera)",
+    "identified_artist": "산드로 보티첼리",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 대표작. 우아한 여성 인물들, 꽃과 과실로 장식된 어두운 배경, 우아로운 움직임"
+  },
+  {
+    "day": 84,
+    "registered_title": "햄릿과 호레이쇼",
+    "registered_artist": "외젠 들라크루아",
+    "identified_title": "햄릿과 호레이쇼",
+    "identified_artist": "외젠 들라크루아",
+    "match": true,
+    "confidence": "high",
+    "note": "셰익스피어의 문학 작품을 주제로 한 낭만주의 회화. 드라마틱한 빛과 감정적 표현"
+  },
+  {
+    "day": 85,
+    "registered_title": "오디세우스와 세이렌",
+    "registered_artist": "존 윌리엄 워터하우스",
+    "identified_title": "오디세우스와 세이렌",
+    "identified_artist": "존 윌리엄 워터하우스",
+    "match": true,
+    "confidence": "high",
+    "note": "고전 신화를 주제로 한 신고전주의 회화. 세이렌과 선원들, 극적인 해상 장면"
+  },
+  {
+    "day": 86,
+    "registered_title": "알프스를 넘는 나폴레옹",
+    "registered_artist": "자크루이 다비드",
+    "identified_title": "Bonaparte Crossing the Alps",
+    "identified_artist": "Jacques-Louis David",
+    "match": true,
+    "confidence": "high",
+    "note": "제목의 번역 차이만 있으며, 작가와 작품은 정확히 일치함"
+  },
+  {
+    "day": 87,
+    "registered_title": "마라의 죽음",
+    "registered_artist": "자크루이 다비드",
+    "identified_title": "The Death of Marat",
+    "identified_artist": "Jacques-Louis David",
+    "match": true,
+    "confidence": "high",
+    "note": "상자에 'À MARAT, DAVID'라고 명시되어 있으며, 제목과 작가 모두 일치"
+  },
+  {
+    "day": 88,
+    "registered_title": "피아노 치는 소녀들",
+    "registered_artist": "피에르오귀스트 르누아르",
+    "identified_title": "Two Young Girls at the Piano",
+    "identified_artist": "Pierre-Auguste Renoir",
+    "match": true,
+    "confidence": "high",
+    "note": "르누아르의 인상주의 스타일이 명확하며, 두 소녀가 피아노를 연주하는 장면이 정확히 일치"
+  },
+  {
+    "day": 89,
+    "registered_title": "나르키소스",
+    "registered_artist": "카라바조",
+    "identified_title": "Narcissus",
+    "identified_artist": "Caravaggio",
+    "match": true,
+    "confidence": "high",
+    "note": "카라바조의 특징인 극적인 명암법(키아로스쿠로)과 수면 위의 자신의 모습을 보는 나르키소스가 정확히 일치"
+  },
+  {
+    "day": 90,
+    "registered_title": "갑옷을 입은 기사",
+    "registered_artist": "밀라노 갑옷 공방",
+    "identified_title": "Suit of Armor for a Knight",
+    "identified_artist": "Milanese Armor Workshop",
+    "match": true,
+    "confidence": "high",
+    "note": "정교한 르네상스 기간의 밀라노 갑옷으로, 장식적 세공이 명확하게 보임"
+  },
+  {
+    "day": 91,
+    "registered_title": "맥베스 부인",
+    "registered_artist": "존 싱어 사전트",
+    "identified_title": "맥베스 부인",
+    "identified_artist": "존 싱어 사전트",
+    "match": true,
+    "confidence": "high",
+    "note": "녹색 드레이프와 왕관을 들고 있는 우아한 여성 인물, 사전트의 특징적인 초상화 스타일"
+  },
+  {
+    "day": 92,
+    "registered_title": "오뒤세우스의 귀환",
+    "registered_artist": "핀투리키오",
+    "identified_title": "오뒤세우스의 귀환",
+    "identified_artist": "핀투리키오",
+    "match": true,
+    "confidence": "high",
+    "note": "고전 신화의 장면, 남성 인물과 풍경, 르네상스 초기 이탈리아 회화 스타일"
+  },
+  {
+    "day": 93,
+    "registered_title": "반항하는 노예",
+    "registered_artist": "미켈란젤로",
+    "identified_title": "반항하는 노예 (The Rebellious Slave)",
+    "identified_artist": "미켈란젤로",
+    "match": true,
+    "confidence": "high",
+    "note": "박물관 캐스팅 갤러리에 전시된 미켈란젤로의 유명한 대리석 조각. 왼쪽에 서 있는 나체 남성 조각상이 특징적."
+  },
+  {
+    "day": 94,
+    "registered_title": "인상: 해돋이",
+    "registered_artist": "클로드 모네",
+    "identified_title": "인상, 해돋이 (Impression, Sunrise)",
+    "identified_artist": "클로드 모네",
+    "match": true,
+    "confidence": "high",
+    "note": "빨간 태양, 안개 낀 항구의 풍경, 인상주의의 대표작, 흐릿한 필치와 색감"
+  },
+  {
+    "day": 95,
+    "registered_title": "레오나르도의 습작 노트",
+    "registered_artist": "레오나르도 다 빈치",
+    "identified_title": "비트루비우스적 인간 (Vitruvian Man)",
+    "identified_artist": "레오나르도 다 빈치",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 과학과 예술의 결합, 기하학적 비율과 해부학적 스터디, 거울 글씨"
+  },
+  {
+    "day": 96,
+    "registered_title": "건초더미 (해질녘)",
+    "registered_artist": "클로드 모네",
+    "identified_title": "건초더미 (해질녘)",
+    "identified_artist": "클로드 모네",
+    "match": true,
+    "confidence": "high",
+    "note": "모네의 건초더미 시리즈 중 해질녘 시간대의 작품으로 특징적인 따뜻한 주황색과 황금색 톤이 명확함"
+  },
+  {
+    "day": 97,
+    "registered_title": "눈 오는 마을",
+    "registered_artist": "우타가와 히로시게",
+    "identified_title": "눈 오는 밤의 마을 (또는 눈이 내리는 들판)",
+    "identified_artist": "우타가와 히로시게",
+    "match": true,
+    "confidence": "high",
+    "note": "에도 시대 목판화의 특징적인 스타일, 강렬한 대각선 눈 표현과 인물들의 모습이 히로시게의 작품과 일치"
+  },
+  {
+    "day": 98,
+    "registered_title": "흑인 여성 초상",
+    "registered_artist": "마리기엔 브누아",
+    "identified_title": "숲 속의 여성 초상",
+    "identified_artist": "마리기엔 브누아",
+    "match": true,
+    "confidence": "medium",
+    "note": "여성 인물의 초상이며 배경의 숲 풍경과 부드러운 색감이 특징. 등록된 제목과의 완전한 일치 확인이 어려우나 작가와 장르는 일치"
+  },
+  {
+    "day": 99,
+    "registered_title": "미치광이의 초상",
+    "registered_artist": "테오도르 제리코",
+    "identified_title": "정신질환자의 초상 (또는 편집증 환자)",
+    "identified_artist": "테오도르 제리코",
+    "match": true,
+    "confidence": "high",
+    "note": "제리코의 정신질환자 초상 시리즈의 일부로, 어두운 배경과 내면의 고통을 표현한 강렬한 표정이 특징"
+  },
+  {
+    "day": 100,
+    "registered_title": "병실의 죽음",
+    "registered_artist": "에드바르드 뭉크",
+    "identified_title": "병실의 죽음",
+    "identified_artist": "에드바르드 뭉크",
+    "match": true,
+    "confidence": "high",
+    "note": "뭉크의 특징적인 표현주의 스타일, 슬픔과 죽음의 분위기를 담은 구성, 초록색 벽과 주황색 바닥의 대비가 명확"
+  },
+  {
+    "day": 101,
+    "registered_title": "가족 초상",
+    "registered_artist": "에곤 실레",
+    "identified_title": "가족 초상",
+    "identified_artist": "에곤 실레",
+    "match": true,
+    "confidence": "high",
+    "note": "어두운 배경, 특징적인 표현주의 화풍, 세 인물 구성이 실레의 작품과 일치"
+  },
+  {
+    "day": 102,
+    "registered_title": "미국 고딕",
+    "registered_artist": "그랜트 우드",
+    "identified_title": "미국 고딕",
+    "identified_artist": "그랜트 우드",
+    "match": true,
+    "confidence": "high",
+    "note": "유명한 미국 회화, 농장 부부, 고딕 양식 집, 일직선적 선 표현이 모두 일치"
+  },
+  {
+    "day": 103,
+    "registered_title": "이삭 줍는 여인들의 기도",
+    "registered_artist": "쥘 브르통",
+    "identified_title": "이삭 줍는 여인들의 기도",
+    "identified_artist": "쥘 브르통",
+    "match": true,
+    "confidence": "high",
+    "note": "19세기 사실주의 미술, 들판에서의 노동 장면, 기도하는 농촌 여인들의 모습이 일치"
+  },
+  {
+    "day": 104,
+    "registered_title": "이상한 나라의 앨리스 삽화",
+    "registered_artist": "존 테니얼",
+    "identified_title": "이상한 나라의 앨리스 삽화 - 앨리스와 뱀",
+    "identified_artist": "존 테니얼",
+    "match": true,
+    "confidence": "high",
+    "note": "존 테니얼의 원래 펜화 삽화로 확인됨"
+  },
+  {
+    "day": 105,
+    "registered_title": "피아노 레슨",
+    "registered_artist": "앙리 마티스",
+    "identified_title": "The Piano Lesson",
+    "identified_artist": "앙리 마티스",
+    "match": true,
+    "confidence": "high",
+    "note": "1916년 작품으로 확인됨"
+  },
+  {
+    "day": 106,
+    "registered_title": "이상적인 도시",
+    "registered_artist": "작자 미상 (우르비노파)",
+    "identified_title": "Ideal City",
+    "identified_artist": "페로 델라 프란체스카 또는 루치아노 로렌첸티 (귀속)",
+    "match": true,
+    "confidence": "medium",
+    "note": "우르비노파 유파의 전형적인 이상도시 작품이나 정확한 작가 귀속에 대한 학파 내 논쟁 존재"
+  },
+  {
+    "day": 107,
+    "registered_title": "정물: 과일 바구니",
+    "registered_artist": "폴 세잔",
+    "identified_title": "정물: 과일 바구니 (Still Life with Fruit Basket)",
+    "identified_artist": "폴 세잔",
+    "match": true,
+    "confidence": "high",
+    "note": "세잔의 대표적인 정물화. 노란색과 흰색의 드레이프, 바구니에 담긴 과일들, 도자기 용기들이 전형적인 세잔식 구성."
+  },
+  {
+    "day": 108,
+    "registered_title": "마담 X의 초상",
+    "registered_artist": "존 싱어 사전트",
+    "identified_title": "마담 X의 초상 (포르트레이트 오브 마담 엑스)",
+    "identified_artist": "존 싱어 사전트",
+    "match": true,
+    "confidence": "high",
+    "note": "검은색 드레스를 입은 우아한 여성의 측면 초상으로, 사전트의 유명한 초상화와 일치합니다."
+  },
+  {
+    "day": 109,
+    "registered_title": "비트루비우스적 인간",
+    "registered_artist": "레오나르도 다 빈치",
+    "identified_title": "비트루비우스적 인간 (Vitruvian Man)",
+    "identified_artist": "레오나르도 다 빈치",
+    "match": true,
+    "confidence": "high",
+    "note": "원과 정사각형 안의 인체 비례도 스케치로, 다 빈치의 가장 유명한 드로잉입니다."
+  },
+  {
+    "day": 110,
+    "registered_title": "사육제와 사순절의 싸움",
+    "registered_artist": "피터르 브뤼헐",
+    "identified_title": "사육제와 사순절의 싸움 (The Fight Between Carnival and Lent)",
+    "identified_artist": "피터르 브뤼헐 (Pieter Bruegel the Elder)",
+    "match": true,
+    "confidence": "high",
+    "note": "브뤼헬의 대표작. 중세 플랑드르 마을 광장에서 펼쳐지는 사육제(즐거움)와 사순절(절제)의 대비를 다채로운 군중 장면으로 표현."
+  },
+  {
+    "day": 111,
+    "registered_title": "춤추는 카밀라",
+    "registered_artist": "장레옹 제롬",
+    "identified_title": "춤추는 카밀라",
+    "identified_artist": "장레옹 제롬",
+    "match": true,
+    "confidence": "high",
+    "note": "현대 사진으로 보이며 등록 정보와 불일치"
+  },
+  {
+    "day": 112,
+    "registered_title": "파리의 거리, 비 오는 날",
+    "registered_artist": "귀스타브 카유보트",
+    "identified_title": "파리의 거리, 비 오는 날 (Rue de Paris, temps de pluie)",
+    "identified_artist": "귀스타브 카유보트",
+    "match": true,
+    "confidence": "high",
+    "note": "제목과 작가 모두 정확함. 우산을 든 파리지앵들이 젖은 거리를 걷는 인상파 고전작"
+  },
+  {
+    "day": 113,
+    "registered_title": "이삭 줍는 사람들",
+    "registered_artist": "장프랑수아 밀레",
+    "identified_title": "The Gleaners (이삭 줍는 사람들)",
+    "identified_artist": "Jean-François Millet",
+    "match": true,
+    "confidence": "high",
+    "note": "정확한 작품 식별. 밀레의 대표작으로 농촌의 가난한 여성들이 수확 후 남은 곡식을 줍는 장면을 묘사함"
+  },
+  {
+    "day": 114,
+    "registered_title": "신비로운 섬",
+    "registered_artist": "아르놀트 뵈클린",
+    "identified_title": "죽음의 섬 (Isle of the Dead)",
+    "identified_artist": "아르놀트 뵈클린",
+    "match": true,
+    "confidence": "high",
+    "note": "뵈클린의 유명한 작품, 제목은 영어/독일어로도 불림"
+  },
+  {
+    "day": 115,
+    "registered_title": "새와 열매가 있는 풍경",
+    "registered_artist": "앙리 루소",
+    "identified_title": "새와 열매가 있는 정물화",
+    "identified_artist": "17-18세기 플랑드르 미술가 (루소 아님)",
+    "match": false,
+    "confidence": "medium",
+    "note": "작품의 스타일과 기법이 루소의 작품과 맞지 않음. 17-18세기 유럽 정물화로 보임"
+  },
+  {
+    "day": 116,
+    "registered_title": "성모 승천",
+    "registered_artist": "티치아노 베첼리오",
+    "identified_title": "Assumption of the Virgin",
+    "identified_artist": "Titian (Tiziano Vecellio)",
+    "match": true,
+    "confidence": "high",
+    "note": "완벽한 일치. 베니스 프라리 성당의 대제단화로 유명한 작품"
+  },
+  {
+    "day": 117,
+    "registered_title": "별이 빛나는 나일강",
+    "registered_artist": "장레옹 벨레",
+    "identified_title": "The Starlit Nile",
+    "identified_artist": "Jean-Léon Gérôme",
+    "match": true,
+    "confidence": "high",
+    "note": "완벽한 일치. 오리엔탈리즘 회화의 대표작. 나일강 유역의 이집트 상인 행렬을 그린 작품"
+  },
+  {
+    "day": 118,
+    "registered_title": "사계: 여름",
+    "registered_artist": "주세페 아르침볼도",
+    "identified_title": "Summer (from Four Seasons series)",
+    "identified_artist": "Giuseppe Arcimboldo",
+    "match": true,
+    "confidence": "high",
+    "note": "완벽한 일치. 과일과 채소로 인물 초상을 만드는 아르침볼도의 대표적 양식. 여름 시즌을 표현"
+  },
+  {
+    "day": 119,
+    "registered_title": "색채의 원형",
+    "registered_artist": "필리프 오토 룽게",
+    "identified_title": "색채의 원형 (Farbenkugel)",
+    "identified_artist": "필리프 오토 룽게",
+    "match": true,
+    "confidence": "high",
+    "note": "독일어 제목 'Farbenkugel'이 명확히 보임. 색의 구체와 단면도를 보여주는 룽게의 색채 이론 저작"
+  },
+  {
+    "day": 120,
+    "registered_title": "음악의 공간",
+    "registered_artist": "제라르 판 혼트호르스트",
+    "identified_title": "A Concert (음악 연주회)",
+    "identified_artist": "제라르 판 혼트호르스트",
+    "match": false,
+    "confidence": "high",
+    "note": "작가는 일치하나 작품명이 다름. 등록명은 부정확하고 실제 제목은 'A Concert' 또는 'The Concert'"
+  },
+  {
+    "day": 121,
+    "registered_title": "수태고지",
+    "registered_artist": "프라 안젤리코",
+    "identified_title": "수태고지 (Annunciation)",
+    "identified_artist": "프라 안젤리코",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 초기의 전형적인 수태고지 도상. 분홍색 옷의 천사 가브리엘과 파란색 옷의 마리아가 주축. 회랑식 건축 배경이 특징적"
+  },
+  {
+    "day": 122,
+    "registered_title": "비 속의 다리",
+    "registered_artist": "우타가와 히로시게",
+    "identified_title": "Sudden Shower over the Atake Bridge (오흐아시 다리 위의 갑작스러운 소나기)",
+    "identified_artist": "우타가와 히로시게",
+    "match": true,
+    "confidence": "high",
+    "note": "일본식 제목과 영문 제목의 차이지만 동일 작품"
+  },
+  {
+    "day": 123,
+    "registered_title": "경계의 다리",
+    "registered_artist": "장바티스트카미유 코로",
+    "identified_title": "A Bridge and Distant Tower (다리와 먼 탑)",
+    "identified_artist": "장바티스트-카미유 코로",
+    "match": true,
+    "confidence": "high",
+    "note": "19세기 프랑스 낭만주의 풍경화, 아치형 다리와 강이 특징"
+  },
+  {
+    "day": 124,
+    "registered_title": "최후의 만찬",
+    "registered_artist": "레오나르도 다 빈치",
+    "identified_title": "The Last Supper (최후의 만찬)",
+    "identified_artist": "레오나르도 다 빈치",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 거장의 대표작, 밀라노 산타마리아 델레 그라치에 성당 벽화"
+  },
+  {
+    "day": 125,
+    "registered_title": "송림도 병풍",
+    "registered_artist": "하세가와 도하쿠",
+    "identified_title": "송림도 병풍",
+    "identified_artist": "하세가와 도하쿠",
+    "match": true,
+    "confidence": "high",
+    "note": "6폭 병풍, 먹의 농담으로 표현된 소나무 숲, 일본 센고쿠 시대 선화 대표작"
+  },
+  {
+    "day": 126,
+    "registered_title": "아라베스크 문양 타일",
+    "registered_artist": "이슬람 전통 장인",
+    "identified_title": "Tlaquepaque 출구 안내 타일",
+    "identified_artist": "현대 멕시코 공예",
+    "match": false,
+    "confidence": "high",
+    "note": "이슬람 아라베스크 타일이 아니라 멕시코 Tlaquepaque의 현대 세라믹 안내판. 꽃 문양은 이슬람 영향을 받았으나 실제 출처와 용도가 다름"
+  },
+  {
+    "day": 127,
+    "registered_title": "네델란드 속담",
+    "registered_artist": "피터르 브뤼헐",
+    "identified_title": "네델란드 속담",
+    "identified_artist": "피터르 브뤼헐 (더 엘더)",
+    "match": true,
+    "confidence": "high",
+    "note": "1559년 작품, 플랑드르 화파의 대표작, 농촌 풍경과 다양한 속담을 시각화한 구성"
+  },
+  {
+    "day": 128,
+    "registered_title": "오이디푸스와 스핑크스",
+    "registered_artist": "장오귀스트도미니크 앵그르",
+    "identified_title": "Oedipus and the Sphinx",
+    "identified_artist": "Jean-Auguste-Dominique Ingres",
+    "match": true,
+    "confidence": "high",
+    "note": "한글 표기와 영문 표기의 차이만 있으며, 작품과 작가가 일치함"
+  },
+  {
+    "day": 129,
+    "registered_title": "마르타와 마리아의 집의 그리스도",
+    "registered_artist": "요하네스 베르메르",
+    "identified_title": "Christ in the House of Martha and Mary",
+    "identified_artist": "Johannes Vermeer",
+    "match": true,
+    "confidence": "high",
+    "note": "베르메르의 대표적인 종교화 중 하나로, 작품과 작가가 정확히 일치함"
+  },
+  {
+    "day": 130,
+    "registered_title": "소크라테스의 죽음",
+    "registered_artist": "자크루이 다비드",
+    "identified_title": "The Death of Socrates",
+    "identified_artist": "Jacques-Louis David",
+    "match": true,
+    "confidence": "high",
+    "note": "신고전주의 미술의 명작으로, 작품과 작가가 일치함"
+  },
+  {
+    "day": 131,
+    "registered_title": "성체의 논의",
+    "registered_artist": "라파엘로 산치오",
+    "identified_title": "Disputation of the Holy Sacrament (성체 논의)",
+    "identified_artist": "라파엘로 산치오",
+    "match": true,
+    "confidence": "high",
+    "note": "작가와 작품이 모두 일치. 바티칸 아포스톨릭 궁전의 서명실(Stanza della Segnatura)의 프레스코화"
+  },
+  {
+    "day": 132,
+    "registered_title": "해부학 강의",
+    "registered_artist": "렘브란트 판 레인",
+    "identified_title": "The Anatomy Lesson of Dr. Nicolaes Tulp (튤프 박사의 해부학 강의)",
+    "identified_artist": "Rembrandt van Rijn (렘브란트 판 라인)",
+    "match": true,
+    "confidence": "high",
+    "note": "작가명 표기가 약간 다름(판 레인 vs 판 라인)이지만 동일 인물. 제목과 작품이 일치함."
+  },
+  {
+    "day": 133,
+    "registered_title": "성 토마스의 의심",
+    "registered_artist": "카라바조",
+    "identified_title": "The Incredulity of Saint Thomas (성 토마스의 의심)",
+    "identified_artist": "Caravaggio (카라바조)",
+    "match": true,
+    "confidence": "high",
+    "note": "완벽하게 일치함. 카라바조의 대표작으로 극적인 명암 표현과 극적 구성이 특징."
+  },
+  {
+    "day": 134,
+    "registered_title": "사울의 개종",
+    "registered_artist": "카라바조",
+    "identified_title": "사울의 개종",
+    "identified_artist": "카라바조",
+    "match": true,
+    "confidence": "high",
+    "note": "카라바조의 특징적인 극적 명암법과 종교적 주제가 명확함"
+  },
+  {
+    "day": 135,
+    "registered_title": "알 수 없는 여인의 초상",
+    "registered_artist": "이반 크람스코이",
+    "identified_title": "알 수 없는 여인의 초상",
+    "identified_artist": "이반 크람스코이",
+    "match": true,
+    "confidence": "high",
+    "note": "19세기 러시아 리얼리즘의 특징적 초상화, 우아한 의상과 도시 배경이 일치"
+  },
+  {
+    "day": 136,
+    "registered_title": "산토끼",
+    "registered_artist": "알브레히트 뒤러",
+    "identified_title": "산토끼",
+    "identified_artist": "알브레히트 뒤러",
+    "match": true,
+    "confidence": "high",
+    "note": "뒤러의 서명(AD 모노그램)과 1502년 연도가 명확히 보임. 세밀한 수채화 기법 특징적"
+  },
+  {
+    "day": 137,
+    "registered_title": "다양한 색 사각형의 구성",
+    "registered_artist": "파울 클레",
+    "identified_title": "Mystische Figur (신비로운 인물) 또는 동시대 인물 드로잉",
+    "identified_artist": "파울 클레",
+    "match": false,
+    "confidence": "medium",
+    "note": "작가는 맞으나 제목이 불일치. 이미지는 기하학적 추상화가 아닌 선묘 기법의 인물 구성으로, 사각형 중심의 색채 구성이 아닌 선과 음영으로 표현된 인물도형입니다. 클레의 초현실주의/표현주의 스타일의 인물 드로잉으로 보입니다."
+  },
+  {
+    "day": 138,
+    "registered_title": "그로스 클리닉",
+    "registered_artist": "토마스 에이킨스",
+    "identified_title": "The Gross Clinic (그로스 클리닉)",
+    "identified_artist": "토마스 에이킨스",
+    "match": true,
+    "confidence": "high",
+    "note": "완전히 일치합니다. 19세기 미국 미술의 걸작으로, 의료 강의 장면을 극적으로 표현한 작품입니다."
+  },
+  {
+    "day": 139,
+    "registered_title": "에펠탑",
+    "registered_artist": "로베르 들로네",
+    "identified_title": "Eiffel Tower (에펠탑) / Simultaneous Windows on the City",
+    "identified_artist": "로베르 들로네",
+    "match": true,
+    "confidence": "high",
+    "note": "일치합니다. 들로네의 오르피즘(Orphism) 운동을 대표하는 작품으로, 밝은 색상과 동시성의 원리를 표현한 추상화입니다."
+  },
+  {
+    "day": 140,
+    "registered_title": "인구조사를 위한 베들레헴의 등록",
+    "registered_artist": "피터르 브뤼헐 2세",
+    "identified_title": "인구조사를 위한 베들레헴의 등록",
+    "identified_artist": "피터르 브뤼헐 2세",
+    "match": true,
+    "confidence": "high",
+    "note": "눈 덮인 겨울 풍경, 건물과 수많은 인물들의 활동이 세밀하게 그려진 특징적인 작품"
+  },
+  {
+    "day": 141,
+    "registered_title": "카드 놀이하는 사람들",
+    "registered_artist": "폴 세잔",
+    "identified_title": "카드 놀이하는 사람들",
+    "identified_artist": "폴 세잔",
+    "match": true,
+    "confidence": "high",
+    "note": "진한 배경, 두 명의 남성이 테이블에서 카드를 하는 모습. 세잔의 특징적인 기하학적 형태감과 색채 사용"
+  },
+  {
+    "day": 142,
+    "registered_title": "국회의사당의 화재",
+    "registered_artist": "윌리엄 터너",
+    "identified_title": "국회의사당의 화재",
+    "identified_artist": "윌리엄 터너",
+    "match": true,
+    "confidence": "high",
+    "note": "거대한 불과 연기로 뒤덮인 건물, 물가의 군중. 터너의 특징적인 극적이고 낭만적인 표현 기법"
+  },
+  {
+    "day": 143,
+    "registered_title": "은잔",
+    "registered_artist": "장바티스트시메옹 샤르댕",
+    "identified_title": "The Silver Goblet (은잔)",
+    "identified_artist": "Jean-Baptiste-Siméon Chardin",
+    "match": true,
+    "confidence": "high",
+    "note": "still life 구성과 18세기 프랑스 회화 스타일이 일치함"
+  },
+  {
+    "day": 144,
+    "registered_title": "그랑드자트섬의 일요일 오후",
+    "registered_artist": "조르주 쇠라",
+    "identified_title": "A Sunday Afternoon on the Island of La Grande Jatte (그랑드자트섬의 일요일 오후)",
+    "identified_artist": "Georges Seurat",
+    "match": true,
+    "confidence": "high",
+    "note": "신인상주의 기법(점묘화)과 구성이 정확히 일치함"
+  },
+  {
+    "day": 145,
+    "registered_title": "목욕하는 아이",
+    "registered_artist": "메리 카사트",
+    "identified_title": "Child's Bath (목욕하는 아이)",
+    "identified_artist": "Mary Cassatt",
+    "match": true,
+    "confidence": "high",
+    "note": "인상주의 화풍과 일상적 모성의 주제가 카사트의 특징을 보여줌"
+  },
+  {
+    "day": 146,
+    "registered_title": "휘슬재킷",
+    "registered_artist": "조지 스터브스",
+    "identified_title": "Whistlejacket",
+    "identified_artist": "George Stubbs",
+    "match": true,
+    "confidence": "high",
+    "note": "18세기 영국의 유명한 경마화. 우아한 자세의 갈색 말이 흰 꼬리와 함께 묘사된 작품"
+  },
+  {
+    "day": 147,
+    "registered_title": "제국의 진로: 파괴",
+    "registered_artist": "토머스 콜",
+    "identified_title": "The Course of Empire: Destruction",
+    "identified_artist": "Thomas Cole",
+    "match": true,
+    "confidence": "high",
+    "note": "미국 허드슨 강파의 대표작. 거대한 동상, 불타는 건축물, 혼란한 군중이 표현된 5부작 중 4번째 작품"
+  },
+  {
+    "day": 148,
+    "registered_title": "꿈",
+    "registered_artist": "앙리 루소",
+    "identified_title": "The Dream (La Rêve)",
+    "identified_artist": "Henri Rousseau",
+    "match": true,
+    "confidence": "high",
+    "note": "1910년 작품. 이국적 밀림에 누워있는 누드 여성과 음악을 연주하는 뮤즈. 루소의 대표적 초현실주의 작품"
+  },
+  {
+    "day": 149,
+    "registered_title": "엡섬의 경마",
+    "registered_artist": "테오도르 제리코",
+    "identified_title": "The Derby at Epsom",
+    "identified_artist": "Théodore Géricault",
+    "match": true,
+    "confidence": "high",
+    "note": "경마장의 역동적인 장면, 영국 국기, 관중석 등 모든 요소가 일치"
+  },
+  {
+    "day": 150,
+    "registered_title": "마루를 깎는 사람들",
+    "registered_artist": "귀스타브 카유보트",
+    "identified_title": "Les Raboteurs de parquet",
+    "identified_artist": "Gustave Caillebotte",
+    "match": true,
+    "confidence": "high",
+    "note": "파리 실내 장면, 허리를 굽린 노동자들의 모습, 독특한 앙각 구도가 특징적"
+  },
+  {
+    "day": 151,
+    "registered_title": "알렉산더 대왕의 입성",
+    "registered_artist": "샤를 르 브룅",
+    "identified_title": "Alexander the Great Entering Babylon",
+    "identified_artist": "Charles Le Brun",
+    "match": true,
+    "confidence": "high",
+    "note": "고전적 구성, 헬레니즘 건축, 황금 의상의 인물, 행렬 장면 등 바로크 역사화의 특징"
+  },
+  {
+    "day": 152,
+    "registered_title": "카이사르의 개선",
+    "registered_artist": "안드레아 만테냐",
+    "identified_title": "카이사르의 개선",
+    "identified_artist": "안드레아 만테냐",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 시기의 특징적인 원근법과 고전적 주제를 보여주는 만테냐의 대표작"
+  },
+  {
+    "day": 153,
+    "registered_title": "28세의 자화상",
+    "registered_artist": "알브레히트 뒤러",
+    "identified_title": "28세의 자화상",
+    "identified_artist": "알브레히트 뒤러",
+    "match": true,
+    "confidence": "high",
+    "note": "1500년 날짜, 라틴어 서명, 우아한 의상과 세밀한 묘사가 특징"
+  },
+  {
+    "day": 154,
+    "registered_title": "키클롭스",
+    "registered_artist": "오딜롱 르동",
+    "identified_title": "키클롭스",
+    "identified_artist": "오딜롱 르동",
+    "match": true,
+    "confidence": "high",
+    "note": "상징주의 미술의 특징적인 신비로운 분위기와 신화적 주제를 표현한 르동의 걸작"
+  },
+  {
+    "day": 155,
+    "registered_title": "돌 깨는 사람들",
+    "registered_artist": "귀스타브 쿠르베",
+    "identified_title": "The Stone Breakers",
+    "identified_artist": "Gustave Courbet",
+    "match": true,
+    "confidence": "high",
+    "note": "정확히 일치. 두 명의 노동자가 도로용 돌을 깨는 리얼리즘 작품"
+  },
+  {
+    "day": 156,
+    "registered_title": "거대한 붉은 용과 태양을 입은 여인",
+    "registered_artist": "윌리엄 블레이크",
+    "identified_title": "The Great Red Dragon and the Woman Clothed with the Sun",
+    "identified_artist": "William Blake",
+    "match": true,
+    "confidence": "high",
+    "note": "정확히 일치. 계시록의 종교적 주제를 다룬 블레이크의 대표작"
+  },
+  {
+    "day": 157,
+    "registered_title": "마녀들의 안식일",
+    "registered_artist": "프란시스코 고야",
+    "identified_title": "Witches' Sabbath (Aquelarre)",
+    "identified_artist": "Francisco Goya",
+    "match": true,
+    "confidence": "high",
+    "note": "정확히 일치. 염소 악마와 마녀들을 묘사한 고야의 검은 그림 시리즈 작품"
+  },
+  {
+    "day": 158,
+    "registered_title": "오르가스 백작의 매장",
+    "registered_artist": "엘 그레코",
+    "identified_title": "오르가스 백작의 매장",
+    "identified_artist": "엘 그레코",
+    "match": true,
+    "confidence": "high",
+    "note": "16세기 후반의 대표작으로, 천상과 지상의 이원성과 독특한 신장된 인물 표현이 특징적"
+  },
+  {
+    "day": 159,
+    "registered_title": "호메로스의 흉상을 바라보는 아리스토텔레스",
+    "registered_artist": "렘브란트 판 레인",
+    "identified_title": "호메로스의 흉상을 바라보는 아리스토텔레스",
+    "identified_artist": "렘브란트 판 레인",
+    "match": true,
+    "confidence": "high",
+    "note": "1653년 작품으로, 명상적인 철학자의 모습과 르네상스식 의복, 정밀한 명암 처리가 특징"
+  },
+  {
+    "day": 160,
+    "registered_title": "울프 장군의 죽음",
+    "registered_artist": "벤저민 웨스트",
+    "identified_title": "울프 장군의 죽음",
+    "identified_artist": "벤저민 웨스트",
+    "match": true,
+    "confidence": "high",
+    "note": "1770년의 신고전주의 대표작으로, 전투장에서의 영웅적 죽음을 극적으로 표현한 역사화"
+  },
+  {
+    "day": 161,
+    "registered_title": "대금업자와 그의 아내",
+    "registered_artist": "쾅탱 마시스",
+    "identified_title": "The Moneylender and His Wife",
+    "identified_artist": "Quentin Matsys",
+    "match": true,
+    "confidence": "high",
+    "note": "작품명과 작가명의 한글/영문 표기 차이이며, 내용은 완전히 일치함"
+  },
+  {
+    "day": 162,
+    "registered_title": "미솔롱기 폐허 위의 그리스",
+    "registered_artist": "외젠 들라크루아",
+    "identified_title": "Greece Expiring on the Ruins of Missolonghi",
+    "identified_artist": "Eugène Delacroix",
+    "match": true,
+    "confidence": "high",
+    "note": "작품명과 작가명의 한글/영문 표기 차이이며, 내용은 완전히 일치함"
+  },
+  {
+    "day": 163,
+    "registered_title": "독립선언",
+    "registered_artist": "존 트럼블",
+    "identified_title": "Declaration of Independence",
+    "identified_artist": "John Trumbull",
+    "match": true,
+    "confidence": "high",
+    "note": "작품명과 작가명의 한글/영문 표기 차이이며, 내용은 완전히 일치함"
+  },
+  {
+    "day": 164,
+    "registered_title": "카운티 선거",
+    "registered_artist": "조지 캘럽 빙엄",
+    "identified_title": "County Election",
+    "identified_artist": "George Caleb Bingham",
+    "match": true,
+    "confidence": "high",
+    "note": "19세기 미국의 민주주의 장면을 묘사한 작품으로 정확히 일치함"
+  },
+  {
+    "day": 165,
+    "registered_title": "추기경의 덕목과 신학적 덕목",
+    "registered_artist": "라파엘로 산치오",
+    "identified_title": "Cardinal Virtues and Theological Virtues (Stanza della Segnatura ceiling)",
+    "identified_artist": "Raphael (Raffaello Sanzio)",
+    "match": true,
+    "confidence": "high",
+    "note": "바티칸 궁전의 서명실(Stanza della Segnatura) 천장 프레스코로 정확히 일치함"
+  },
+  {
+    "day": 166,
+    "registered_title": "아레오파고스의 프리네",
+    "registered_artist": "장레옹 제롬",
+    "identified_title": "Phryne Before the Areopagus",
+    "identified_artist": "Jean-Léon Gérôme",
+    "match": true,
+    "confidence": "high",
+    "note": "고대 그리스의 유명한 여성 인물 프리네의 법정 장면을 묘사한 신고전주의 역사화로 정확히 일치함"
+  },
+  {
+    "day": 167,
+    "registered_title": "홀로페르네스의 목을 베는 유디트",
+    "registered_artist": "카라바조",
+    "identified_title": "홀로페르네스의 목을 베는 유디트",
+    "identified_artist": "카라바조",
+    "match": true,
+    "confidence": "high",
+    "note": "카라바조의 특징적인 드라마틱한 명암법(chiaroscuro)과 폭력적인 장면의 즉시성이 명확히 드러남"
+  },
+  {
+    "day": 168,
+    "registered_title": "사형 집행 전야",
+    "registered_artist": "무하일 문카치",
+    "identified_title": "사형 집행 전야",
+    "identified_artist": "무하일 문카치",
+    "match": true,
+    "confidence": "high",
+    "note": "19세기 헝가리 역사화의 특징적인 구성과 감정적 드라마가 잘 표현됨"
+  },
+  {
+    "day": 169,
+    "registered_title": "탕자의 귀환",
+    "registered_artist": "렘브란트 판 레인",
+    "identified_title": "탕자의 귀환",
+    "identified_artist": "렘브란트 반 레인",
+    "match": true,
+    "confidence": "high",
+    "note": "렘브란트의 따뜻한 황금색 조명과 영적 깊이, 아버지의 자비로운 포용 장면이 특징적"
+  },
+  {
+    "day": 170,
+    "registered_title": "만종",
+    "registered_artist": "장프랑수아 밀레",
+    "identified_title": "만종 (The Angelus)",
+    "identified_artist": "장프랑수아 밀레 (Jean-François Millet)",
+    "match": true,
+    "confidence": "high",
+    "note": "정확한 일치. 황혼의 들판에서 기도하는 농부 부부의 모습으로 밀레의 가장 유명한 작품"
+  },
+  {
+    "day": 171,
+    "registered_title": "마지막 영국",
+    "registered_artist": "포드 매덕스 브라운",
+    "identified_title": "마지막 잉글랜드의 왕 (The Last of England)",
+    "identified_artist": "포드 매덕스 브라운 (Ford Madox Brown)",
+    "match": true,
+    "confidence": "high",
+    "note": "정확한 일치. 배를 타고 영국을 떠나는 이민자들을 그린 프리래파엘파 화가의 대표작"
+  },
+  {
+    "day": 172,
+    "registered_title": "야파의 페스트 환자를 방문하는 나폴레옹",
+    "registered_artist": "앙투안장 그로",
+    "identified_title": "야파의 역병 환자를 방문하는 나폴레옹 (Bonaparte Visiting the Plague-Stricken in Jaffa)",
+    "identified_artist": "앙투안-장 그로 (Antoine-Jean Gros)",
+    "match": true,
+    "confidence": "high",
+    "note": "정확한 일치. 신고전주의 화가 그로의 대표작으로 나폴레옹의 영웅적 이미지를 부각한 작품"
+  },
+  {
+    "day": 173,
+    "registered_title": "전쟁의 참화",
+    "registered_artist": "피터르 파울 루벤스",
+    "identified_title": "전쟁의 참화(Consequences of War)",
+    "identified_artist": "피터르 파울 루벤스",
+    "match": true,
+    "confidence": "high",
+    "note": "알레고리적 표현으로 전쟁의 폐해를 묘사한 루벤스의 대표작"
+  },
+  {
+    "day": 174,
+    "registered_title": "평화의 알레고리",
+    "registered_artist": "피터르 파울 루벤스",
+    "identified_title": "평화와 풍요로움(Peace and Plenty)",
+    "identified_artist": "피터르 파울 루벤스",
+    "match": true,
+    "confidence": "high",
+    "note": "평화의 여신과 풍요의 상징들로 표현된 바로크 알레고리"
+  },
+  {
+    "day": 175,
+    "registered_title": "카펫 상인",
+    "registered_artist": "장레온 제롬",
+    "identified_title": "카펫 상인(The Carpet Merchant)",
+    "identified_artist": "장레온 제롬",
+    "match": true,
+    "confidence": "high",
+    "note": "오리엔탈리즘 화풍의 동방 시장 장면을 정교하게 묘사한 19세기 학파 미술"
+  },
+  {
+    "day": 176,
+    "registered_title": "환전상과 그의 아내",
+    "registered_artist": "쿠엔틴 마시스",
+    "identified_title": "The Moneychanger and His Wife",
+    "identified_artist": "Quentin Matsys",
+    "match": true,
+    "confidence": "high",
+    "note": "작품 특징이 완벽히 일치함: 환전상이 동전을 달고 있고, 아내가 책을 읽고 있으며, 배경의 선반에 다양한 물품들이 배치되어 있음"
+  },
+  {
+    "day": 177,
+    "registered_title": "카드 놀이하는 두 사람",
+    "registered_artist": "폴 세잔",
+    "identified_title": "The Card Players",
+    "identified_artist": "Paul Cézanne",
+    "match": true,
+    "confidence": "high",
+    "note": "세잔의 상징적 작품으로, 두 명의 카드 플레이어가 테이블에서 카드를 들고 있는 모습이 완벽히 일치함"
+  },
+  {
+    "day": 178,
+    "registered_title": "가난한 어부의 기도",
+    "registered_artist": "피에르 퓌비 드 샤반",
+    "identified_title": "Poor Fisherman's Prayer",
+    "identified_artist": "Pierre Puvis de Chavannes",
+    "match": true,
+    "confidence": "high",
+    "note": "해안 풍경, 기도하는 어부, 가족들, 배들의 구성이 완벽히 일치함. 샤반의 특징적인 담담한 색상과 상징주의 스타일이 명확함"
+  },
+  {
+    "day": 179,
+    "registered_title": "아르놀피니 부부의 초상",
+    "registered_artist": "얀 반 에이크",
+    "identified_title": "아르놀피니 부부의 초상",
+    "identified_artist": "얀 반 에이크",
+    "match": true,
+    "confidence": "high",
+    "note": "15세기 플랑드르 미술의 걸작. 정교한 세부 표현, 볼록 거울, 상징적 요소들이 특징"
+  },
+  {
+    "day": 180,
+    "registered_title": "파리의 백화점",
+    "registered_artist": "제임스 티소",
+    "identified_title": "파리의 백화점",
+    "identified_artist": "제임스 티소",
+    "match": true,
+    "confidence": "high",
+    "note": "19세기 파리의 현대 생활을 묘사한 작품. 백화점 내부, 우아한 패션, 도시적 장면 표현"
+  },
+  {
+    "day": 181,
+    "registered_title": "방직공",
+    "registered_artist": "디에고 벨라스케스",
+    "identified_title": "방직공들 (Las Hilanderas)",
+    "identified_artist": "디에고 벨라스케스",
+    "match": true,
+    "confidence": "high",
+    "note": "17세기 스페인 회화. 어두운 배경, 촛불 조명, 일상 노동의 장면을 숭고하게 표현한 고전 명작"
+  },
+  {
+    "day": 182,
+    "registered_title": "철도",
+    "registered_artist": "에두아르 마네",
+    "identified_title": "철도 (Gare Saint-Lazare / The Railway)",
+    "identified_artist": "에두아르 마네",
+    "match": true,
+    "confidence": "high",
+    "note": "파리 생라자르 역의 대기실에서의 장면으로 마네의 대표작"
+  },
+  {
+    "day": 183,
+    "registered_title": "바니타스 정물",
+    "registered_artist": "피터르 클라스",
+    "identified_title": "바니타스 정물 (Vanitas Still Life)",
+    "identified_artist": "피터르 클라스",
+    "match": true,
+    "confidence": "high",
+    "note": "해골, 악기, 책 등 무상함을 상징하는 바니타스 모티프의 전형적인 네덜란드 정물화"
+  },
+  {
+    "day": 184,
+    "registered_title": "자화상 (가시 목걸이와 벌새)",
+    "registered_artist": "프리다 칼로",
+    "identified_title": "자화상 (가시 목걸이와 벌새) (Self-Portrait with Thorn Necklace and Hummingbird)",
+    "identified_artist": "프리다 칼로",
+    "match": true,
+    "confidence": "high",
+    "note": "칼로의 상징적인 자화상으로 벌새, 가시 목걸이, 원숭이, 검은 고양이가 등장"
+  },
+  {
+    "day": 185,
+    "registered_title": "젊음의 샘",
+    "registered_artist": "루카스 크라나흐",
+    "identified_title": "Fountain of Youth",
+    "identified_artist": "Lucas Cranach the Elder",
+    "match": true,
+    "confidence": "high",
+    "note": "16세기 독일 르네상스 작품으로 확인됨"
+  },
+  {
+    "day": 186,
+    "registered_title": "해부학 수업",
+    "registered_artist": "토마스 데 케이저",
+    "identified_title": "The Anatomy Lesson of Dr. Nicolaes Tulp",
+    "identified_artist": "Rembrandt",
+    "match": false,
+    "confidence": "high",
+    "note": "등록된 작가명이 잘못됨. 실제 작품은 렘브란트(Rembrandt)의 1632년 작품으로, 암스테르담 마우리츠하위스 미술관 소장"
+  },
+  {
+    "day": 187,
+    "registered_title": "압생트를 마시는 사람",
+    "registered_artist": "에드가 드가",
+    "identified_title": "L'Absinthe",
+    "identified_artist": "Edgar Degas",
+    "match": true,
+    "confidence": "high",
+    "note": "1876년 작품, 인상주의 시대 파리 카페 문화 표현"
+  },
+  {
+    "day": 188,
+    "registered_title": "잠자는 집시 여인",
+    "registered_artist": "앙리 루소",
+    "identified_title": "The Sleeping Gypsy",
+    "identified_artist": "Henri Rousseau",
+    "match": true,
+    "confidence": "high",
+    "note": "iconic surrealist work with distinctive lion, sleeping figure, and moonlit desert landscape"
+  },
+  {
+    "day": 189,
+    "registered_title": "안개 속의 강",
+    "registered_artist": "살로몬 판 라위스달",
+    "identified_title": "River Landscape with Mist/Morning Mist by a River",
+    "identified_artist": "Salomon van Ruysdael",
+    "match": true,
+    "confidence": "high",
+    "note": "Dutch Golden Age landscape with characteristic misty atmosphere, river, trees, and waterfowl"
+  },
+  {
+    "day": 190,
+    "registered_title": "레슬링하는 사람들",
+    "registered_artist": "토마스 에이킨스",
+    "identified_title": "Wrestlers (or similar athletic scene)",
+    "identified_artist": "Thomas Eakins",
+    "match": true,
+    "confidence": "medium",
+    "note": "Realistic anatomical study of male figures in physical exertion within gymnasium setting, consistent with Eakins' realism style"
+  },
+  {
+    "day": 191,
+    "registered_title": "거인",
+    "registered_artist": "프란시스코 고야",
+    "identified_title": "거인 (El Coloso)",
+    "identified_artist": "프란시스코 고야",
+    "match": true,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "day": 192,
+    "registered_title": "무용 수업",
+    "registered_artist": "에드가 드가",
+    "identified_title": "무용 수업 (The Dance Class)",
+    "identified_artist": "에드가 드가",
+    "match": true,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "day": 193,
+    "registered_title": "멜랑콜리",
+    "registered_artist": "에드바르트 뭉크",
+    "identified_title": "멜랑콜리 (Melancholy)",
+    "identified_artist": "에드바르트 뭉크",
+    "match": true,
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "day": 194,
+    "registered_title": "사울과 다윗",
+    "registered_artist": "에르네스트 조세핀",
+    "identified_title": "Saul and David",
+    "identified_artist": "Ernest Josephson",
+    "match": true,
+    "confidence": "high",
+    "note": "Swedish painter's famous work depicting the biblical scene with David playing harp before King Saul"
+  },
+  {
+    "day": 195,
+    "registered_title": "오필리아의 죽음",
+    "registered_artist": "외젠 카리에르",
+    "identified_title": "The Death of Ophelia",
+    "identified_artist": "Eugène Carrière",
+    "match": true,
+    "confidence": "high",
+    "note": "작가명과 작품명 모두 정확함"
+  },
+  {
+    "day": 196,
+    "registered_title": "그네",
+    "registered_artist": "장오노레 프라고나르",
+    "identified_title": "The Swing (L'Escarpolette)",
+    "identified_artist": "Jean-Honoré Fragonard",
+    "match": true,
+    "confidence": "high",
+    "note": "Iconic Rococo masterpiece depicting a woman on a swing in an idyllic garden setting"
+  },
+  {
+    "day": 197,
+    "registered_title": "편지를 읽는 젊은 여인",
+    "registered_artist": "장에티엔 리오타르",
+    "identified_title": "편지를 읽는 젊은 여인",
+    "identified_artist": "장에티엔 리오타르",
+    "match": true,
+    "confidence": "high",
+    "note": "18세기 로코코 양식의 전형적인 초상화. 푸른 드레스, 흰 머리 장식, 차를 마시는 장면이 정확히 일치"
+  },
+  {
+    "day": 198,
+    "registered_title": "유디트와 홀로페르네스의 머리",
+    "registered_artist": "크리스토파노 알로리",
+    "identified_title": "유디트와 홀로페르네스의 머리",
+    "identified_artist": "크리스토파노 알로리",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 시대 성경 주제 작품. 붉은 드레스의 여인이 칼을 들고 있으며, 종자가 잘린 머리를 들고 있는 장면이 정확함"
+  },
+  {
+    "day": 199,
+    "registered_title": "아담과 이브",
+    "registered_artist": "알브레히트 뒤러",
+    "identified_title": "아담과 이브",
+    "identified_artist": "알브레히트 뒤러",
+    "match": true,
+    "confidence": "high",
+    "note": "1507년 제작된 대표작. 이중 패널 구성, 검은 배경, 사과와 뱀의 상징, 르네상스식 인체 표현이 모두 일치"
+  },
+  {
+    "day": 200,
+    "registered_title": "화가의 자화상",
+    "registered_artist": "안젤리카 카우프만",
+    "identified_title": "화가의 자화상 (Self-Portrait as a Musician)",
+    "identified_artist": "안젤리카 카우프만",
+    "match": true,
+    "confidence": "high",
+    "note": "18세기 신고전주의 화가 안젤리카 카우프만의 대표적인 자화상. 악기(하프)와 음악 악보를 들고 있는 형태로, 여성 예술가의 재능과 우아함을 표현한 작품이다."
+  },
+  {
+    "day": 201,
+    "registered_title": "화가의 작업실",
+    "registered_artist": "귀스타브 쿠르베",
+    "identified_title": "The Artist's Studio: A Real Allegory of Seven Years of My Artistic Life",
+    "identified_artist": "Gustave Courbet",
+    "match": true,
+    "confidence": "high",
+    "note": "작가명과 작품명 모두 정확함. 쿠르베의 대표작으로 1854-1855년 제작"
+  },
+  {
+    "day": 202,
+    "registered_title": "돈키호테와 풍차",
+    "registered_artist": "귀스타브 도레",
+    "identified_title": "돈키호테와 풍차",
+    "identified_artist": "귀스타브 도레",
+    "match": true,
+    "confidence": "high",
+    "note": "도레의 특징적인 목판화 기법과 드라마틱한 명암 표현이 명확하게 드러나 있습니다. 세르반테스의 고전 소설 '돈키호테'의 유명한 장면을 완벽하게 표현했습니다."
+  },
+  {
+    "day": 203,
+    "registered_title": "서당",
+    "registered_artist": "아드리안 판 오스타더",
+    "identified_title": "Village School",
+    "identified_artist": "Adrian van Ostade",
+    "match": true,
+    "confidence": "high",
+    "note": "작품 내용과 화풍이 완벽히 일치하며, 아드리안 판 오스타더의 특징적인 시골 학교 장면 묘사가 확인됨"
+  },
+  {
+    "day": 204,
+    "registered_title": "허무의 알레고리",
+    "registered_artist": "안토니오 데 페레다",
+    "identified_title": "허무의 알레고리 (Allegory of Vanity)",
+    "identified_artist": "안토니오 데 페레다 (Antonio de Pereda)",
+    "match": true,
+    "confidence": "high",
+    "note": "스페인 바로크 회화의 대표적인 허무주의 알레고리 작품. 해골, 보석, 시간 장치, 금화 등 물질의 덧없음을 상징하는 요소들과 천사가 구성"
+  },
+  {
+    "day": 205,
+    "registered_title": "짹짹대는 기계",
+    "registered_artist": "파울 클레",
+    "identified_title": "짹짹대는 기계 (Twittering Machine)",
+    "identified_artist": "파울 클레 (Paul Klee)",
+    "match": true,
+    "confidence": "high",
+    "note": "1922년 작품. 바우하우스 시대의 초현실주의적 기계 미학. 새처럼 생긴 기계 장치들이 아래 손잡이로 회전하는 개념적 작품"
+  },
+  {
+    "day": 206,
+    "registered_title": "모나리자",
+    "registered_artist": "레오나르도 다 빈치",
+    "identified_title": "모나리자 (Mona Lisa)",
+    "identified_artist": "레오나르도 다 빈치 (Leonardo da Vinci)",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 시대의 가장 유명한 초상화. 신비로운 미소와 정교한 배경 풍경, 스푸마토 기법의 완성도 높은 표현"
+  },
+  {
+    "day": 207,
+    "registered_title": "늙은 여인의 초상",
+    "registered_artist": "발타사르 덴너",
+    "identified_title": "An Old Woman",
+    "identified_artist": "Balthasar Denner",
+    "match": true,
+    "confidence": "high",
+    "note": "덴너의 특징적인 초상화 스타일과 세밀한 얼굴 표현이 일치합니다."
+  },
+  {
+    "day": 208,
+    "registered_title": "에로스와 프시케",
+    "registered_artist": "안토니오 카노바",
+    "identified_title": "Psyche Revived by Cupid's Kiss",
+    "identified_artist": "Antonio Canova",
+    "match": true,
+    "confidence": "high",
+    "note": "카노바의 신고전주의 대리석 조각으로 에로스와 프시케의 포옹 장면을 표현한 유명한 작품입니다."
+  },
+  {
+    "day": 209,
+    "registered_title": "가오리",
+    "registered_artist": "장바티스트 시메옹 샤르댕",
+    "identified_title": "The Ray",
+    "identified_artist": "Jean-Baptiste-Siméon Chardin",
+    "match": true,
+    "confidence": "high",
+    "note": "샤르댕의 정물화로 가오리의 해부학적 구조와 주방 용품들을 사실적으로 표현한 작품입니다."
+  },
+  {
+    "day": 210,
+    "registered_title": "루비콘 강을 건너는 카이사르",
+    "registered_artist": "프란체스코 그라나치",
+    "identified_title": "루비콘 강을 건너는 카이사르",
+    "identified_artist": "프란체스코 그라나치",
+    "match": true,
+    "confidence": "high",
+    "note": "카이사르가 백마를 타고 강을 건너는 역사적 장면을 정확히 묘사한 작품"
+  },
+  {
+    "day": 211,
+    "registered_title": "돌아온 탕아",
+    "registered_artist": "바르톨로메 에스테반 무리요",
+    "identified_title": "돌아온 탕아 (방탕한 아들의 귀향)",
+    "identified_artist": "바르톨로메 에스테반 무리요",
+    "match": true,
+    "confidence": "high",
+    "note": "아버지가 회개하고 돌아온 아들을 포옹하는 신약성서의 비유를 표현한 작품"
+  },
+  {
+    "day": 212,
+    "registered_title": "자화상 (두 개의 원이 있는)",
+    "registered_artist": "페르디난트 볼",
+    "identified_title": "자화상",
+    "identified_artist": "페르디난트 볼",
+    "match": true,
+    "confidence": "medium",
+    "note": "17세기 독일 화가의 자화상으로 검은 모자와 빨간 옷을 입고 있음. '두 개의 원'이라는 부제의 명확한 근거는 시각적으로 확인 어려움"
+  },
+  {
+    "day": 213,
+    "registered_title": "주막",
+    "registered_artist": "신윤복",
+    "identified_title": "주막",
+    "identified_artist": "신윤복",
+    "match": true,
+    "confidence": "high",
+    "note": "조선시대 풍속화로 여인의 우아한 자세와 의상, 갸름한 얼굴 표현이 신윤복의 특징적 화풍과 일치. 화면 좌측의 한글 서명과 인장도 확인됨"
+  },
+  {
+    "day": 214,
+    "registered_title": "베네치아 축제의 밤",
+    "registered_artist": "모리스 프렌더개스트",
+    "identified_title": "베네치아의 밤",
+    "identified_artist": "모리스 프렌더개스트",
+    "match": true,
+    "confidence": "high",
+    "note": "인상주의 화풍의 도시 야경 풍경화. 화면 하단 좌측 서명 'Prendergast'가 명확히 보임. 가을의 노란 낙엽과 베네치아 다리, 우아한 여인상이 특징"
+  },
+  {
+    "day": 215,
+    "registered_title": "델프트 전경",
+    "registered_artist": "카렐 파브리티우스",
+    "identified_title": "View of Delft",
+    "identified_artist": "Carel Fabritius",
+    "match": true,
+    "confidence": "high",
+    "note": "델프트의 특징적인 교회와 건축물, 전경 구성이 일치하며 파브리티우스의 정확한 원근법 기법이 확인됨"
+  },
+  {
+    "day": 216,
+    "registered_title": "바닷가에서",
+    "registered_artist": "폴 고갱",
+    "identified_title": "Parau na te Miti (Words of the Sea)",
+    "identified_artist": "폴 고갱",
+    "match": true,
+    "confidence": "high",
+    "note": "고갱의 타히티 시리즈 작품으로 등록된 제목과 실제 작품이 일치함"
+  },
+  {
+    "day": 217,
+    "registered_title": "율리시스와 세이렌",
+    "registered_artist": "허버트 제임스 드레이퍼",
+    "identified_title": "Ulysses and the Sirens",
+    "identified_artist": "허버트 제임스 드레이퍼",
+    "match": true,
+    "confidence": "high",
+    "note": "드레이퍼의 고전 신화 주제 작품으로 완벽히 일치함"
+  },
+  {
+    "day": 218,
+    "registered_title": "어린이 놀이",
+    "registered_artist": "야코프 요르단스",
+    "identified_title": "Allegory of Fertility",
+    "identified_artist": "Jacob Jordaens",
+    "match": false,
+    "confidence": "medium",
+    "note": "등록된 제목 '어린이 놀이'와 이미지의 풍요로움의 알레고리가 불일치. 제시된 이미지는 신화적/우의적 주제의 판화로 보여지며, 요르단스의 작품이 맞으나 제목이 부정확함"
+  },
+  {
+    "day": 219,
+    "registered_title": "최후의 심판 제단화",
+    "registered_artist": "로히어르 판 데어 베이던",
+    "identified_title": "최후의 심판 제단화 (The Last Judgment Altarpiece)",
+    "identified_artist": "로히어르 판 데어 베이던 (Rogier van der Weyden)",
+    "match": true,
+    "confidence": "high",
+    "note": "등록 정보와 일치. 고딕 양식의 제단화로 천국과 지옥의 심판 장면을 섬세하게 표현한 네덜란드 르네상스 대표작"
+  },
+  {
+    "day": 220,
+    "registered_title": "아르카디아의 목자들",
+    "registered_artist": "니콜라 푸생",
+    "identified_title": "아르카디아의 목자들 (Et in Arcadia ego)",
+    "identified_artist": "니콜라 푸생 (Nicolas Poussin)",
+    "match": true,
+    "confidence": "high",
+    "note": "등록 정보와 일치. 목자들이 무덤의 명문을 읽는 고전적 주제로, 바로크 신고전주의의 대표작"
+  },
+  {
+    "day": 221,
+    "registered_title": "에우로페의 납치",
+    "registered_artist": "티치아노 베첼리오",
+    "identified_title": "에우로페의 납치 (The Rape of Europa)",
+    "identified_artist": "티치아노 베첼리오 (Titian/Tiziano Vecellio)",
+    "match": true,
+    "confidence": "high",
+    "note": "등록 정보와 일치. 그리스 신화의 장면을 화려한 색채와 역동적 구성으로 표현한 베네치아 르네상스 대표작"
+  },
+  {
+    "day": 222,
+    "registered_title": "바다 위의 달 뜨기",
+    "registered_artist": "카스파르 다비트 프리드리히",
+    "identified_title": "Moonrise over the Sea",
+    "identified_artist": "Caspar David Friedrich",
+    "match": true,
+    "confidence": "high",
+    "note": "로맨틱 회화의 전형적인 작품. 바위 위의 인물들, 돛단배, 황금빛 달빛이 정확히 일치"
+  },
+  {
+    "day": 223,
+    "registered_title": "지구 돋이",
+    "registered_artist": "윌리엄 앤더스 (NASA)",
+    "identified_title": "Earthrise",
+    "identified_artist": "William Anders (Apollo 8)",
+    "match": true,
+    "confidence": "high",
+    "note": "1968년 12월 촬영된 아폴로 8호의 역사적 사진. 달 표면과 우주 공간에서 뜨는 지구의 모습 일치"
+  },
+  {
+    "day": 224,
+    "registered_title": "조류 연구",
+    "registered_artist": "신사임당",
+    "identified_title": "국화와 나비",
+    "identified_artist": "신사임당",
+    "match": false,
+    "confidence": "high",
+    "note": "신사임당의 작품이 맞으나 제목이 잘못되었음. 이미지는 국화(chrysanthemum)와 나비를 그린 작품으로, 조류 연구가 아닌 식물과 곤충을 주제로 함"
+  },
+  {
+    "day": 225,
+    "registered_title": "빙하의 바다",
+    "registered_artist": "카스파르 다비트 프리드리히",
+    "identified_title": "Das Eismeer (The Sea of Ice)",
+    "identified_artist": "Caspar David Friedrich",
+    "match": true,
+    "confidence": "high",
+    "note": "독일 낭만주의 거장의 대표작. 파괴된 배와 빙산으로 이루어진 황량한 풍경"
+  },
+  {
+    "day": 226,
+    "registered_title": "폼페이 최후의 날",
+    "registered_artist": "카를 브륄로프",
+    "identified_title": "The Last Day of Pompeii",
+    "identified_artist": "Karl Bryullov",
+    "match": true,
+    "confidence": "high",
+    "note": "1830-1833년 작품. 베수비우스 화산 폭발로 파괴되는 폼페이의 극적 장면"
+  },
+  {
+    "day": 227,
+    "registered_title": "성 베르나르 고개의 나폴레옹",
+    "registered_artist": "폴 들라로슈",
+    "identified_title": "Bonaparte Crossing the Alps at Grand-Saint-Bernard",
+    "identified_artist": "Paul Delaroche",
+    "match": true,
+    "confidence": "high",
+    "note": "1848년 작품. 나폴레옹의 알프스 산맥 횡단을 영웅적으로 표현한 역작"
+  },
+  {
+    "day": 228,
+    "registered_title": "의사의 방문",
+    "registered_artist": "얀 스텐",
+    "identified_title": "의사의 방문",
+    "identified_artist": "얀 스텐",
+    "match": true,
+    "confidence": "high",
+    "note": "17세기 네덜란드 장르화의 전형적인 작품으로, 의사 방문 장면의 풍자적 표현이 명확함"
+  },
+  {
+    "day": 229,
+    "registered_title": "요람",
+    "registered_artist": "베르트 모리조",
+    "identified_title": "요람 (Le Berceau)",
+    "identified_artist": "베르트 모리조",
+    "match": true,
+    "confidence": "high",
+    "note": "인상주의 화가의 섬세한 획법과 여성의 일상적 순간 포착이 특징적"
+  },
+  {
+    "day": 230,
+    "registered_title": "산 로마노 전투",
+    "registered_artist": "파올로 우첼로",
+    "identified_title": "산 로마노 전투",
+    "identified_artist": "파올로 우첼로",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 초기 원근법 표현의 대표작, 기하학적 구성과 화려한 군마의 묘사가 특징"
+  },
+  {
+    "day": 231,
+    "registered_title": "발레 수업",
+    "registered_artist": "에드가 드가",
+    "identified_title": "발레 수업",
+    "identified_artist": "에드가 드가",
+    "match": true,
+    "confidence": "high",
+    "note": "흰 튜튜를 입은 무용수들과 지도자, 실내 스튜디오 설정이 드가의 전형적인 발레 작품의 특징과 일치"
+  },
+  {
+    "day": 232,
+    "registered_title": "죽음과 소녀",
+    "registered_artist": "한스 발둥 그린",
+    "identified_title": "죽음과 소녀",
+    "identified_artist": "한스 발둥 그린",
+    "match": true,
+    "confidence": "high",
+    "note": "해골을 쓴 죽음의 형상이 여인을 안고 있는 메멘토 모리 주제의 르네상스 독일 미술의 전형적 작품"
+  },
+  {
+    "day": 233,
+    "registered_title": "할아버지와 손자",
+    "registered_artist": "도메니코 기를란다요",
+    "identified_title": "할아버지와 손자",
+    "identified_artist": "도메니코 기를란다요",
+    "match": true,
+    "confidence": "medium",
+    "note": "흑백 사진으로 촬영된 이미지. 원본은 15세기 르네상스 유화이나, 이 이미지는 현대 흑백 사진. 구성(백발의 노인과 소년)은 원작과 일치하나 매체가 다름"
+  },
+  {
+    "day": 234,
+    "registered_title": "유디트",
+    "registered_artist": "프란체스코 하예즈",
+    "identified_title": "홀로페르네스의 죽음 (Judith Slaying Holofernes)",
+    "identified_artist": "프란체스코 하예즈",
+    "match": true,
+    "confidence": "high",
+    "note": "하예즈의 유명한 유디트 시리즈 작품. 구약성서의 유디트가 앗수르 장군 홀로페르네스를 베는 장면을 묘사"
+  },
+  {
+    "day": 235,
+    "registered_title": "어린이의 놀이",
+    "registered_artist": "마리아 바시키르체바",
+    "identified_title": "해변에서의 어린이들",
+    "identified_artist": "확인 불가",
+    "match": false,
+    "confidence": "low",
+    "note": "현대 다큐멘터리 사진으로, 19세기 화가 마리아 바시키르체바의 작품이 아님. 등록 정보가 잘못되었을 가능성이 높음"
+  },
+  {
+    "day": 236,
+    "registered_title": "독서하는 막달레나",
+    "registered_artist": "안토넬로 다 메시나",
+    "identified_title": "독서하는 막달레나",
+    "identified_artist": "안토넬로 다 메시나",
+    "match": true,
+    "confidence": "high",
+    "note": "15세기 초상화, 파란 두건을 쓴 인물이 책을 읽고 있는 모습. 등록 정보와 완벽히 일치"
+  },
+  {
+    "day": 237,
+    "registered_title": "책 읽는 소녀",
+    "registered_artist": "카미유 코로",
+    "identified_title": "책 읽는 소녀",
+    "identified_artist": "카미유 코로",
+    "match": true,
+    "confidence": "high",
+    "note": "19세기 아카데믹 회화 양식, 우아한 의상의 여성이 책을 들고 있는 장면으로 작품 특징과 일치"
+  },
+  {
+    "day": 238,
+    "registered_title": "서신을 쓰는 학자",
+    "registered_artist": "헤리트 다우",
+    "identified_title": "서신을 쓰는 학자",
+    "identified_artist": "헤리트 다우",
+    "match": true,
+    "confidence": "high",
+    "note": "17세기 네덜란드 황금기 회화의 대표적 장르화, 극적인 명암법과 세밀한 묘사 특징 일치"
+  },
+  {
+    "day": 239,
+    "registered_title": "자화상",
+    "registered_artist": "엘리자베트 비제 르 브룅",
+    "identified_title": "자화상 (팔레트를 든 화가로서)",
+    "identified_artist": "엘리자베트 비제 르 브룅",
+    "match": true,
+    "confidence": "high",
+    "note": "18세기 신고전주의 회화, 팔레트를 든 화가의 자화상으로 작가의 전문성을 표현한 대표작"
+  },
+  {
+    "day": 240,
+    "registered_title": "플라멩코 무용수",
+    "registered_artist": "로버트 앙리",
+    "identified_title": "플라멩코 무용수",
+    "identified_artist": "로버트 앙리",
+    "match": true,
+    "confidence": "high",
+    "note": "스페인 복장의 여성 초상화, 검은색 상의, 흰색 프릴 소매, 빨간색 치마, 암묵적인 우아함과 문화적 풍요로움"
+  },
+  {
+    "day": 241,
+    "registered_title": "배우 사라 베르나르",
+    "registered_artist": "조르주 클랭",
+    "identified_title": "배우 사라 베르나르",
+    "identified_artist": "조르주 클랭",
+    "match": true,
+    "confidence": "high",
+    "note": "흑백 사진 초상화, 측면 프로필, 곱슬머리, 검은색 드레이프 소재, 우아한 자세"
+  },
+  {
+    "day": 242,
+    "registered_title": "비, 증기, 속도",
+    "registered_artist": "조지프 말로드 윌리엄 터너",
+    "identified_title": "비, 증기, 속도 - 그레이트 웨스턴 철도",
+    "identified_artist": "조지프 말로드 윌리엄 터너",
+    "match": true,
+    "confidence": "high",
+    "note": "기관차와 기차가 폭풍우 속에서 빠르게 움직이는 장면, 모호한 대기 효과, 낭만주의 미학, 산업혁명 시대의 속도와 동적 에너지 표현"
+  },
+  {
+    "day": 243,
+    "registered_title": "달밤의 드네프르 강",
+    "registered_artist": "아르힙 쿠인지",
+    "identified_title": "달밤의 드네프르 강",
+    "identified_artist": "아르힙 쿠인지",
+    "match": true,
+    "confidence": "high",
+    "note": "The painting's distinctive luminescent moon reflecting on the river and dramatic contrast between dark landscape and greenish moonlit water are characteristic of Kuindzhi's masterpiece."
+  },
+  {
+    "day": 244,
+    "registered_title": "체스 두는 사람들",
+    "registered_artist": "소포니스바 안귀솔라",
+    "identified_title": "체스 두는 사람들",
+    "identified_artist": "소포니스바 안귀솔라",
+    "match": true,
+    "confidence": "high",
+    "note": "The composition showing four elegant Renaissance women in elaborate period dress gathered around a chess board with detailed landscape background is definitively Sofonisba Anguissola's work."
+  },
+  {
+    "day": 245,
+    "registered_title": "전보 배달부",
+    "registered_artist": "조반니 벨리니",
+    "identified_title": "Pre-spliced, immature mRNA (mRNA 전사후 처리 과정)",
+    "identified_artist": "Unknown (Scientific/Educational Diagram)",
+    "match": false,
+    "confidence": "high",
+    "note": "등록된 정보는 르네상스 회화작품이나, 실제 이미지는 생물학 교육용 다이어그램입니다. mRNA의 5' 캡 추가, 3' 폴리A 꼬리 첨가, 인트론 제거 과정을 설명하는 과학 자료입니다."
+  },
+  {
+    "day": 246,
+    "registered_title": "낙원",
+    "registered_artist": "루카스 크라나흐",
+    "identified_title": "Paradise (Garden of Eden)",
+    "identified_artist": "Lucas Cranach the Elder",
+    "match": true,
+    "confidence": "high",
+    "note": "루카스 크라나흐의 전형적인 낙원 주제 작품. Adam과 Eve, 다양한 동물들이 있는 이상적인 정원 장면"
+  },
+  {
+    "day": 247,
+    "registered_title": "서재의 성 아우구스티누스",
+    "registered_artist": "비토레 카르파초",
+    "identified_title": "St. Augustine in his Study",
+    "identified_artist": "Vittore Carpaccio",
+    "match": true,
+    "confidence": "high",
+    "note": "15세기 베네치아 화풍의 전형. 학자의 서재, 정교한 건축 구조, 종교적 상징물들이 특징"
+  },
+  {
+    "day": 248,
+    "registered_title": "자수 놓는 여인",
+    "registered_artist": "게오르크 프리드리히 케르스팅",
+    "identified_title": "Young Woman at her Embroidery",
+    "identified_artist": "Georg Friedrich Kersting",
+    "match": true,
+    "confidence": "high",
+    "note": "독일 낭만주의 시대의 실내 정물화. 창문을 통한 자연광, 섬세한 실내 장식, 집중하는 여성의 초상"
+  },
+  {
+    "day": 249,
+    "registered_title": "편지",
+    "registered_artist": "피에르 보나르",
+    "identified_title": "The Letter (편지 읽는 여인)",
+    "identified_artist": "Pierre Bonnard",
+    "match": true,
+    "confidence": "high",
+    "note": "19세기 후반 인상주의 화가 보나르의 작품으로, 편지를 읽고 있는 여인을 묘사한 인테리어 장면입니다."
+  },
+  {
+    "day": 250,
+    "registered_title": "신문 읽는 남자",
+    "registered_artist": "칼 슈피츠베그",
+    "identified_title": "The Bookworm (독서가)",
+    "identified_artist": "Carl Spitzweg",
+    "match": true,
+    "confidence": "high",
+    "note": "칼 슈피츠베그의 대표작으로 책장에서 책을 읽는 남자를 소재로 합니다. 신문 대신 책을 읽고 있습니다."
+  },
+  {
+    "day": 251,
+    "registered_title": "물랭 루주 포스터",
+    "registered_artist": "앙리 드 툴루즈로트레크",
+    "identified_title": "Moulin Rouge Poster (또는 관련 작품)",
+    "identified_artist": "Henri de Toulouse-Lautrec",
+    "match": true,
+    "confidence": "medium",
+    "note": "툴루즈로트레크의 스케치/포스터로 물랭 루주의 무용수와 신사를 묘사한 작품입니다."
+  },
+  {
+    "day": 252,
+    "registered_title": "게오르그 기체의 초상",
+    "registered_artist": "한스 홀바인 2세",
+    "identified_title": "A Merchant (Georg Gisze)",
+    "identified_artist": "Hans Holbein the Younger",
+    "match": true,
+    "confidence": "high",
+    "note": "16세기 초상화로 확인되며, 정물 요소와 상인의 신분을 나타내는 배경이 특징"
+  },
+  {
+    "day": 253,
+    "registered_title": "빨강과 파랑의 대위법",
+    "registered_artist": "테오 판 두스뷔르흐",
+    "identified_title": "Countercomposition with Red and Blue (또는 유사한 기하학 추상작품)",
+    "identified_artist": "Theo van Doesburg",
+    "match": true,
+    "confidence": "high",
+    "note": "데 스틸(De Stijl) 운동의 대표 작가인 판 두스뷔르흐의 기하학 추상화로, 원색의 대비를 활용한 구성주의 작품입니다."
+  },
+  {
+    "day": 254,
+    "registered_title": "키케로와 아르키메데스의 무덤",
+    "registered_artist": "피에르 앙리 드 발랑시엔",
+    "identified_title": "Landscape with the Tomb of Archimedes",
+    "identified_artist": "Pierre-Henri de Valenciennes",
+    "match": true,
+    "confidence": "high",
+    "note": "신고전주의 풍경화로, 역사적 주제의 고전적 표현이 특징"
+  },
+  {
+    "day": 255,
+    "registered_title": "임종의 소크라테스",
+    "registered_artist": "지아쿼이사르 드 퀸시",
+    "identified_title": "The Death of Socrates",
+    "identified_artist": "Jacques-Louis David",
+    "match": false,
+    "confidence": "high",
+    "note": "작가명이 잘못 기록됨. 실제 작가는 자크-루이 다비드(Jacques-Louis David)이며, 지아쿼이사르 드 퀸시는 프랑스 미술비평가로 작가가 아님"
+  },
+  {
+    "day": 256,
+    "registered_title": "무도회",
+    "registered_artist": "아돌프 폰 멘첼",
+    "identified_title": "A Ball at the Court of Frederick the Great at Sanssouci",
+    "identified_artist": "Adolph von Menzel",
+    "match": true,
+    "confidence": "high",
+    "note": "작가명의 영문 표기이며, 작품은 정확하게 식별됨. 프로이센 왕실 무도회 장면을 묘사한 대작"
+  },
+  {
+    "day": 257,
+    "registered_title": "귀향",
+    "registered_artist": "알마타데마",
+    "identified_title": "Homecoming",
+    "identified_artist": "Lawrence Alma-Tadema",
+    "match": true,
+    "confidence": "high",
+    "note": "실제 사진 이미지로, 등록된 제목과 작가명은 미술작품 정보로 보이나 이미지는 현대 풍경사진임. 등록정보와 이미지 불일치"
+  },
+  {
+    "day": 258,
+    "registered_title": "악몽",
+    "registered_artist": "요한 하인리히 퓌슬리",
+    "identified_title": "The Nightmare",
+    "identified_artist": "Henry Fuseli",
+    "match": true,
+    "confidence": "high",
+    "note": "등록된 정보와 일치. 누워있는 여성 위에 악마적 존재들이 있는 특징적인 구성"
+  },
+  {
+    "day": 259,
+    "registered_title": "생각하는 사람",
+    "registered_artist": "오귀스트 로댕",
+    "identified_title": "The Thinker",
+    "identified_artist": "Auguste Rodin",
+    "match": true,
+    "confidence": "high",
+    "note": "등록된 정보와 일치. 턱에 손을 괸 사려깊은 자세의 청동 조각상"
+  },
+  {
+    "day": 260,
+    "registered_title": "인왕제색도",
+    "registered_artist": "겸재 정선",
+    "identified_title": "Inwangjesaekdo (인왕제색도)",
+    "identified_artist": "Gyeomjae Jeong Seon",
+    "match": true,
+    "confidence": "high",
+    "note": "등록된 정보와 일치. 인왕산의 우뚝한 봉우리와 먹의 명암을 활용한 한국 산수화의 걸작"
+  },
+  {
+    "day": 261,
+    "registered_title": "바이올린 연습",
+    "registered_artist": "프란츠 폰 데프레거",
+    "identified_title": "바이올린 연습",
+    "identified_artist": "프란츠 폰 데프레거",
+    "match": true,
+    "confidence": "high",
+    "note": "등록 정보와 일치합니다."
+  },
+  {
+    "day": 262,
+    "registered_title": "다비드",
+    "registered_artist": "도나텔로",
+    "identified_title": "David",
+    "identified_artist": "Donatello",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 초기 이탈리아 조각가 도나텔로의 대리석 조각. 골리앗을 무찌른 다비드를 표현한 고전 작품"
+  },
+  {
+    "day": 263,
+    "registered_title": "이집트 피신이 있는 풍경",
+    "registered_artist": "요아힘 파티니르",
+    "identified_title": "이집트로의 피신",
+    "identified_artist": "요아힘 파티니르",
+    "match": true,
+    "confidence": "high",
+    "note": "등록 정보와 일치합니다. 플랑드르 르네상스 풍경화의 특징을 보여주는 작품입니다."
+  },
+  {
+    "day": 264,
+    "registered_title": "가을 낙엽",
+    "registered_artist": "존 에버렛 밀레이",
+    "identified_title": "Autumn Leaves",
+    "identified_artist": "John Everett Millais",
+    "match": true,
+    "confidence": "high",
+    "note": "Pre-Raphaelite 양식의 특징적인 구성과 색감이 일치합니다."
+  },
+  {
+    "day": 265,
+    "registered_title": "사계절 연작 — 겨울",
+    "registered_artist": "니콜라 랑크레",
+    "identified_title": "Winter (Four Seasons series)",
+    "identified_artist": "Nicolas Lancret",
+    "match": true,
+    "confidence": "high",
+    "note": "로코코 실내 장면의 우아한 구성과 18세기 프랑스 귀족 사회 묘사가 일치합니다."
+  },
+  {
+    "day": 266,
+    "registered_title": "나일강의 별빛",
+    "registered_artist": "이반 아이바좁스키",
+    "identified_title": "Moonlight on the Nile",
+    "identified_artist": "Ivan Aivazovsky",
+    "match": true,
+    "confidence": "high",
+    "note": "아이바좁스키의 특징적인 야간 해양 풍경과 달빛 효과가 명확합니다."
+  },
+  {
+    "day": 267,
+    "registered_title": "불사조",
+    "registered_artist": "이토 자쿠추",
+    "identified_title": "불사조",
+    "identified_artist": "이토 자쿠추",
+    "match": true,
+    "confidence": "high",
+    "note": "18세기 일본 화가의 특징적인 채색화 기법과 불사조의 상세한 표현이 이토 자쿠추의 작품과 일치합니다."
+  },
+  {
+    "day": 268,
+    "registered_title": "게이샤의 초상",
+    "registered_artist": "히시카와 모로노부",
+    "identified_title": "게이샤의 초상",
+    "identified_artist": "히시카와 모로노부",
+    "match": true,
+    "confidence": "high",
+    "note": "에도시대 초기 우키요에 화풍의 특징이 잘 드러나며, 화려한 기모노 문양과 측면 구도는 히시카와 모로노부의 특징입니다."
+  },
+  {
+    "day": 269,
+    "registered_title": "아기 예수의 경배",
+    "registered_artist": "코레조",
+    "identified_title": "아기 예수의 경배",
+    "identified_artist": "코레조",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 종교화의 전형적인 구성과 코레조 특유의 부드러운 명암법, 천사와 인물들의 배치가 특징적입니다."
+  },
+  {
+    "day": 270,
+    "registered_title": "죽음의 섬",
+    "registered_artist": "아르놀트 뵈클린",
+    "identified_title": "죽음의 섬 (Isle of the Dead)",
+    "identified_artist": "아르놀트 뵈클린",
+    "match": true,
+    "confidence": "high",
+    "note": "바위 섬, 사이프러스 나무, 보트와 흰 관을 든 인물 등 작품의 특징적 요소들이 모두 일치"
+  },
+  {
+    "day": 271,
+    "registered_title": "비탄",
+    "registered_artist": "조지 프레드릭 와츠",
+    "identified_title": "비탄 (Sorrow)",
+    "identified_artist": "조지 프레드릭 와츠",
+    "match": true,
+    "confidence": "high",
+    "note": "흰 옷을 입은 여인 상, 고개를 숙인 비통한 자세, 주황색 꽃을 들고 있는 특징이 일치"
+  },
+  {
+    "day": 272,
+    "registered_title": "지나간 날들의 꿈",
+    "registered_artist": "에드워드 번 존스",
+    "identified_title": "지나간 날들의 꿈 (The Mortal Dream)",
+    "identified_artist": "에드워드 번 존스",
+    "match": true,
+    "confidence": "high",
+    "note": "날개 달린 천사들, 우주를 나타내는 푸른 행성, 목가적인 배경, 프레라파엘파의 특징적 스타일이 모두 일치"
+  },
+  {
+    "day": 273,
+    "registered_title": "검은 원",
+    "registered_artist": "카지미르 말레비치",
+    "identified_title": "Black Circle",
+    "identified_artist": "Kazimir Malevich",
+    "match": true,
+    "confidence": "high",
+    "note": "1915년 작품, 수프레마티즘의 대표작"
+  },
+  {
+    "day": 274,
+    "registered_title": "키스 (조각)",
+    "registered_artist": "오귀스트 로댕",
+    "identified_title": "The Kiss",
+    "identified_artist": "Auguste Rodin",
+    "match": true,
+    "confidence": "high",
+    "note": "1882년 대리석 조각, 로댕의 가장 유명한 작품 중 하나"
+  },
+  {
+    "day": 275,
+    "registered_title": "오케스트라 연주자들",
+    "registered_artist": "에드가 드가",
+    "identified_title": "The Orchestra of the Opera",
+    "identified_artist": "Edgar Degas",
+    "match": true,
+    "confidence": "high",
+    "note": "1868-1869년 작품, 파리 오페라의 음악가들을 묘사한 작품"
+  },
+  {
+    "day": 276,
+    "registered_title": "장애물 경주",
+    "registered_artist": "앙리 드 툴루즈 로트레크",
+    "identified_title": "현대 스포츠 사진 (장애물 경주)",
+    "identified_artist": "현대 사진작가 (미상)",
+    "match": false,
+    "confidence": "high",
+    "note": "등록된 정보는 19세기 후반 미술 작품이나, 이미지는 2014년 현대 육상 경기 사진입니다. 프랑스 선수 Kowal의 장애물 경주 장면으로 보입니다."
+  },
+  {
+    "day": 277,
+    "registered_title": "어머니의 초상",
+    "registered_artist": "제임스 맥닐 휘슬러",
+    "identified_title": "어머니의 초상 (Arrangement in Grey and Black No. 1)",
+    "identified_artist": "제임스 맥닐 휘슬러",
+    "match": true,
+    "confidence": "high",
+    "note": "휘슬러의 대표작 중 하나로, 1871년 그려진 유명한 초상화입니다."
+  },
+  {
+    "day": 278,
+    "registered_title": "마을 학교",
+    "registered_artist": "김홍도",
+    "identified_title": "마을 학교",
+    "identified_artist": "김홍도",
+    "match": true,
+    "confidence": "high",
+    "note": "조선시대 풍속화로, 선생님과 여러 아이들이 글을 배우는 장면을 묘사한 작품입니다."
+  },
+  {
+    "day": 279,
+    "registered_title": "빵을 나누는 성 마르틴",
+    "registered_artist": "엘 그레코",
+    "identified_title": "성 마르틴과 거지",
+    "identified_artist": "엘 그레코",
+    "match": true,
+    "confidence": "high",
+    "note": "동일 작품, 제목 표현만 다름"
+  },
+  {
+    "day": 280,
+    "registered_title": "자선의 알레고리",
+    "registered_artist": "윌리엄 아돌프 부게로",
+    "identified_title": "자선",
+    "identified_artist": "윌리엄 아돌프 부게로",
+    "match": true,
+    "confidence": "high",
+    "note": "부게로의 대표작, 여성과 여러 아이들의 구성이 일치"
+  },
+  {
+    "day": 281,
+    "registered_title": "워싱턴이 델라웨어 강을 건너다",
+    "registered_artist": "에마뉘엘 로이체",
+    "identified_title": "워싱턴의 델라웨어 강 도하",
+    "identified_artist": "에마뉘엘 로이체",
+    "match": true,
+    "confidence": "high",
+    "note": "미국 독립전쟁 역사화, 1776년 크리스마스 야습 장면"
+  },
+  {
+    "day": 282,
+    "registered_title": "하치코 동상",
+    "registered_artist": "안도 테루",
+    "identified_title": "하치코 동상",
+    "identified_artist": "안도 테루",
+    "match": true,
+    "confidence": "high",
+    "note": "시부야역 앞 하치코 동상의 역사적 흑백 사진. 1934년 제막 당시의 모습으로 보임"
+  },
+  {
+    "day": 283,
+    "registered_title": "유다의 입맞춤",
+    "registered_artist": "조토 디 본도네",
+    "identified_title": "유다의 입맞춤 (The Kiss of Judas)",
+    "identified_artist": "조토 디 본도네 (Giotto di Bondone)",
+    "match": true,
+    "confidence": "high",
+    "note": "14세기 이탈리아 르네상스 프레스코 작품으로 예수의 배신 장면을 묘사함. 금색 배경과 생생한 색감이 특징"
+  },
+  {
+    "day": 284,
+    "registered_title": "금각사",
+    "registered_artist": "아시카가 요시미쓰",
+    "identified_title": "금각사 (Kinkaku-ji / Golden Pavilion)",
+    "identified_artist": "아시카가 요시미쓰 (건축 의뢰자) / 건축가 미상",
+    "match": true,
+    "confidence": "high",
+    "note": "교토의 유명한 젠 불교 사찰. 아시카가 요시미쓰는 건설을 의뢰한 인물이며, 가을 단풍과 금색 건축물의 아름다운 경관이 특징"
+  },
+  {
+    "day": 285,
+    "registered_title": "감옥에서",
+    "registered_artist": "케테 콜비츠",
+    "identified_title": "알려진 건축물 (현대 주택)",
+    "identified_artist": "불명",
+    "match": false,
+    "confidence": "low",
+    "note": "제시된 이미지는 현대적 흰색 건축물로 보이며, 케테 콜비츠의 '감옥에서'(Prison series)는 판화 또는 드로잉 작품으로 사회적 고발을 주제로 함. 이미지 내용이 일치하지 않음"
+  },
+  {
+    "day": 286,
+    "registered_title": "화전놀이",
+    "registered_artist": "신윤복",
+    "identified_title": "Korean painting - Figure on flying object",
+    "identified_artist": "Possibly Shin Yun-bok (Hyewon)",
+    "match": "medium",
+    "confidence": "medium",
+    "note": "색채와 양식이 신윤복의 풍속화와 유사하나, 화전놀이의 전형적 장면(여성들의 봄놀이)과는 다른 구도입니다."
+  },
+  {
+    "day": 287,
+    "registered_title": "기억과 시간",
+    "registered_artist": "단테 가브리엘 로세티",
+    "identified_title": "A Sonnet (소네트)",
+    "identified_artist": "단테 가브리엘 로세티",
+    "match": false,
+    "confidence": "medium",
+    "note": "로세티의 삽화 작품이 맞으나, 제목이 'A Sonnet'이며 메모리얼과 영원성을 다룬 작품. '기억과 시간'은 주제적으로 부분 일치하나 정확한 작품명이 다름"
+  },
+  {
+    "day": 288,
+    "registered_title": "과거의 축제",
+    "registered_artist": "앙투안 와토",
+    "identified_title": "과거의 축제 (Fête Champêtre)",
+    "identified_artist": "앙투안 와토",
+    "match": true,
+    "confidence": "high",
+    "note": "로코코 양식의 특징적인 목가적 장면, 우아한 인물들과 자연 배경이 일치"
+  },
+  {
+    "day": 289,
+    "registered_title": "시골 콘서트",
+    "registered_artist": "조르조네",
+    "identified_title": "시골 음악회 (Concert Champêtre)",
+    "identified_artist": "조르조네 또는 티치아노 (귀속 불명확)",
+    "match": true,
+    "confidence": "medium",
+    "note": "르네상스 이탈리아 회화의 특징을 보유하나, 이 작품은 조르조네와 티치아노의 귀속이 논쟁의 여지가 있는 작품"
+  },
+  {
+    "day": 290,
+    "registered_title": "검은 사각형",
+    "registered_artist": "카지미르 말레비치",
+    "identified_title": "검은 사각형 (Black Square)",
+    "identified_artist": "카지미르 말레비치",
+    "match": true,
+    "confidence": "high",
+    "note": "수프레마티즘의 대표작, 1915년 창작, 추상미술의 혁신적 작품"
+  },
+  {
+    "day": 291,
+    "registered_title": "라스코 동굴 벽화",
+    "registered_artist": "구석기 시대 인류",
+    "identified_title": "라스코 동굴 벽화",
+    "identified_artist": "구석기 시대 인류",
+    "match": true,
+    "confidence": "high",
+    "note": "동물 형상의 특징적인 벽화 스타일과 색상이 라스코 동굴의 특징과 일치"
+  },
+  {
+    "day": 292,
+    "registered_title": "노예선",
+    "registered_artist": "윌리엄 터너",
+    "identified_title": "노예선 (The Slave Ship)",
+    "identified_artist": "윌리엄 터너",
+    "match": true,
+    "confidence": "high",
+    "note": "노예선의 내부 구조를 위에서 본 해부도식 표현으로 정확히 일치"
+  },
+  {
+    "day": 293,
+    "registered_title": "감옥",
+    "registered_artist": "조반니 바티스타 피라네시",
+    "identified_title": "The Prison (Carceri d'Invenzione)",
+    "identified_artist": "Giovanni Battista Piranesi",
+    "match": true,
+    "confidence": "high",
+    "note": "피라네시의 상징적인 판화 시리즈 중 하나로 확인됨. 복잡한 건축 구조와 어둡고 신비로운 분위기가 특징"
+  },
+  {
+    "day": 294,
+    "registered_title": "스핑크스의 수수께끼",
+    "registered_artist": "귀스타브 모로",
+    "identified_title": "오이디푸스와 스핑크스",
+    "identified_artist": "귀스타브 모로",
+    "match": true,
+    "confidence": "high",
+    "note": "동일 작품, 제목 변형. 모로의 상징주의 대표작으로 스핑크스의 수수께끼 주제를 다룬 작품"
+  },
+  {
+    "day": 295,
+    "registered_title": "삼십년 전쟁의 공포",
+    "registered_artist": "프란시스코 고야",
+    "identified_title": "Grande hazaña! Con muertos (Great Deed! With the Dead)",
+    "identified_artist": "Francisco Goya",
+    "match": false,
+    "confidence": "medium",
+    "note": "고야의 '검은 그림들' 또는 전쟁 관련 판화 시리즈에서 나온 작품으로 보이나, 정확한 제목은 '삼십년 전쟁'이 아닌 스페인 반도전쟁(Peninsular War) 관련 작품으로 식별됨. 카프리초스(Caprichos) 또는 검은 그림 시리즈의 일부"
+  },
+  {
+    "day": 296,
+    "registered_title": "명상하는 성모",
+    "registered_artist": "사소페라토",
+    "identified_title": "명상하는 성모 마리아",
+    "identified_artist": "사소페라토",
+    "match": true,
+    "confidence": "high",
+    "note": "동일 작품. 사소페라토의 특징적인 명상적 종교화로 우아한 구성과 부드러운 표현이 돋보임"
+  },
+  {
+    "day": 297,
+    "registered_title": "대나무",
+    "registered_artist": "정판교",
+    "identified_title": "대나무",
+    "identified_artist": "정판교",
+    "match": true,
+    "confidence": "high",
+    "note": "서명과 인장이 명확하게 보이며, 조선시대 문인화 대나무 작품의 특징을 잘 보여줌"
+  },
+  {
+    "day": 298,
+    "registered_title": "거대한 파도",
+    "registered_artist": "카를 구스타프 카루스",
+    "identified_title": "The Great Wave off Kanagawa (神奈川沖浪裏)",
+    "identified_artist": "Katsushika Hokusai",
+    "match": false,
+    "confidence": "high",
+    "note": "이미지는 호쿠사이(葛飾北斎)의 우키요에 판화로, 카루스의 작품이 아님. 호쿠사이의 '36개 후지산 뷰' 시리즈의 가장 유명한 작품"
+  },
+  {
+    "day": 299,
+    "registered_title": "다섯 감각 - 청각",
+    "registered_artist": "작자 미상 (플랑드르 직조공)",
+    "identified_title": "다섯 감각 시리즈 (감각기관들)",
+    "identified_artist": "작자 미상",
+    "match": true,
+    "confidence": "high",
+    "note": "귀, 눈, 혀, 코, 손 등 감각기관을 표현한 흑백 사진으로, 다섯 감각을 시각적으로 나타내는 주제와 일치함"
+  },
+  {
+    "day": 300,
+    "registered_title": "촉감의 알레고리",
+    "registered_artist": "티치아노 베첼리오",
+    "identified_title": "Woman with a Mirror (Allegory of Touch)",
+    "identified_artist": "Titian (Tiziano Vecellio)",
+    "match": true,
+    "confidence": "high",
+    "note": "등록된 정보와 이미지가 일치합니다. 티치아노의 5감 알레고리 시리즈 중 촉감을 의인화한 작품으로, 여인이 거울을 들고 있는 구도와 16세기 베네치아 회화 양식이 특징입니다."
+  },
+  {
+    "day": 301,
+    "registered_title": "꽃이 있는 정물",
+    "registered_artist": "얀 다비츠 더 헤임",
+    "identified_title": "Vase of Flowers",
+    "identified_artist": "Jan Davidsz de Heem",
+    "match": true,
+    "confidence": "high",
+    "note": "등록된 정보와 이미지가 일치. 작가명의 영문 표기 차이"
+  },
+  {
+    "day": 302,
+    "registered_title": "미각의 알레고리",
+    "registered_artist": "얀 브뤼헐 1세",
+    "identified_title": "Allegory of Taste",
+    "identified_artist": "Jan Brueghel the Elder",
+    "match": true,
+    "confidence": "high",
+    "note": "등록된 정보와 이미지가 일치. 작가명의 영문 표기 차이"
+  },
+  {
+    "day": 303,
+    "registered_title": "건초 마차",
+    "registered_artist": "존 컨스터블",
+    "identified_title": "The Hay Wain",
+    "identified_artist": "John Constable",
+    "match": true,
+    "confidence": "high",
+    "note": "등록된 정보와 이미지가 일치. 작가명의 영문 표기 차이"
+  },
+  {
+    "day": 304,
+    "registered_title": "무도회의 리듬",
+    "registered_artist": "피에르오귀스트 르누아르",
+    "identified_title": "무도회: 브주발의 무도회",
+    "identified_artist": "피에르오귀스트 르누아르",
+    "match": true,
+    "confidence": "high",
+    "note": "르누아르의 대표작 중 하나로, 정확하게 식별됨"
+  },
+  {
+    "day": 305,
+    "registered_title": "아테네의 현자들",
+    "registered_artist": "라파엘로 산치오",
+    "identified_title": "아테네 학파 (The School of Athens)",
+    "identified_artist": "라파엘로 산치오",
+    "match": true,
+    "confidence": "high",
+    "note": "바티칸 궁전의 대표 프레스코화, 완벽하게 일치"
+  },
+  {
+    "day": 306,
+    "registered_title": "난파선의 표류",
+    "registered_artist": "테오도르 제리코",
+    "identified_title": "메두사호의 뗏목 (The Raft of the Medusa)",
+    "identified_artist": "테오도르 제리코",
+    "match": true,
+    "confidence": "high",
+    "note": "낭만주의 시대의 거작, 정확하게 식별됨"
+  },
+  {
+    "day": 307,
+    "registered_title": "대수욕도",
+    "registered_artist": "폴 세잔",
+    "identified_title": "Large Bathers (Les Grandes Baigneuses)",
+    "identified_artist": "Paul Cézanne",
+    "match": true,
+    "confidence": "high",
+    "note": "세잔의 대표작으로 나무 터널 구조, 나체 인물들, 배경의 풍경이 정확히 일치"
+  },
+  {
+    "day": 308,
+    "registered_title": "조개와 산호 수집",
+    "registered_artist": "발타자르 반 데르 아스트",
+    "identified_title": "Still Life with Shells and Coral",
+    "identified_artist": "Balthasar van der Ast",
+    "match": true,
+    "confidence": "high",
+    "note": "17세기 네덜란드 정물화로, 조개, 산호, 나비, 과일 등을 섬세하게 표현한 작품. 작가와 제목이 일치"
+  },
+  {
+    "day": 309,
+    "registered_title": "호기심의 방",
+    "registered_artist": "도메니코 렘프스",
+    "identified_title": "Wunderkammer (Cabinet of Curiosities)",
+    "identified_artist": "Domenico Remps",
+    "match": true,
+    "confidence": "high",
+    "note": "16세기 르네상스 시대의 호기심의 방을 묘사한 작품. 목재 캐비닛에 다양한 수집품(회화, 자연물, 과학기구 등)을 배치한 구성. 작가와 주제가 일치"
+  },
+  {
+    "day": 310,
+    "registered_title": "질서의 아름다움",
+    "registered_artist": "작자 미상 (우르비노파)",
+    "identified_title": "Ideal City (Città Ideale)",
+    "identified_artist": "Unknown (Urbino School/Piero della Francesca school)",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 이상 도시 원근법 작품으로 우르비노파의 특징적인 기하학적 구성과 완벽한 대칭성 보유"
+  },
+  {
+    "day": 311,
+    "registered_title": "그랑드 자트 섬의 일요일 오후",
+    "registered_artist": "조르주 쇠라",
+    "identified_title": "그랑드 자트 섬의 일요일 오후 (Un dimanche après-midi à l'Île de la Grande Jatte)",
+    "identified_artist": "조르주 쇠라",
+    "match": true,
+    "confidence": "high",
+    "note": "완벽하게 일치합니다. 신점묘법(Pointillism) 기법의 걸작입니다."
+  },
+  {
+    "day": 312,
+    "registered_title": "자화상 (화가의 결의)",
+    "registered_artist": "프리다 칼로",
+    "identified_title": "Self-Portrait with Thorn Necklace and Hummingbird",
+    "identified_artist": "Frida Kahlo",
+    "match": false,
+    "confidence": "medium",
+    "note": "흑백 사진으로 보이며, 등록된 제목의 유명한 작품(1940)과 다름. 프리다 칼로 본인의 사진이거나 초기 자화상 스케치로 보임"
+  },
+  {
+    "day": 313,
+    "registered_title": "유연한 형태",
+    "registered_artist": "움베르토 보초니",
+    "identified_title": "유연한 형태 (Forma Unica della Continuità nello Spazio)",
+    "identified_artist": "움베르토 보초니",
+    "match": true,
+    "confidence": "high",
+    "note": "미래파 조각의 대표작으로 박물관에 전시된 작품 확인"
+  },
+  {
+    "day": 314,
+    "registered_title": "빨강, 파랑, 노랑의 구성",
+    "registered_artist": "피트 몬드리안",
+    "identified_title": "빨강, 파랑, 노랑의 구성 (Composition with Red, Blue and Yellow)",
+    "identified_artist": "피트 몬드리안",
+    "match": true,
+    "confidence": "high",
+    "note": "몬드리안의 추상화 대표작, 기하학적 구성과 원색 사용이 특징"
+  },
+  {
+    "day": 315,
+    "registered_title": "세속의 낙원",
+    "registered_artist": "히에로니무스 보스",
+    "identified_title": "즐거운 정원의 삼부작 중 중앙 패널 (The Garden of Earthly Delights)",
+    "identified_artist": "히에로니무스 보스",
+    "match": true,
+    "confidence": "high",
+    "note": "보스의 가장 유명한 삼부작 작품, 좌측 낙원, 중앙 쾌락의 정원, 우측 지옥으로 구성"
+  },
+  {
+    "day": 316,
+    "registered_title": "신비의 눈",
+    "registered_artist": "오딜롱 르동",
+    "identified_title": "The Eye Like a Strange Balloon Mounts Toward Infinity",
+    "identified_artist": "오딜롱 르동",
+    "match": false,
+    "confidence": "high",
+    "note": "등록된 제목은 번역된 제목이며, 실제 작품명은 'The Eye Like a Strange Balloon Mounts Towards Infinity'입니다. 작가는 일치합니다."
+  },
+  {
+    "day": 317,
+    "registered_title": "심판의 날",
+    "registered_artist": "미켈란젤로 부오나로티",
+    "identified_title": "The Last Judgment",
+    "identified_artist": "미켈란젤로 부오나로티",
+    "match": true,
+    "confidence": "high",
+    "note": "시스티나 성당 제단 위 천정 프레스코화로, 1536-1541년 작품입니다. 미켈란젤로의 대표작 중 하나입니다."
+  },
+  {
+    "day": 318,
+    "registered_title": "불안의 외침",
+    "registered_artist": "에드바르 뭉크",
+    "identified_title": "The Scream",
+    "identified_artist": "에드바르 뭉크",
+    "match": false,
+    "confidence": "high",
+    "note": "등록된 제목은 잘못된 번역입니다. 실제 작품명은 'The Scream' (외침/절규)입니다. 작가는 일치합니다."
+  },
+  {
+    "day": 319,
+    "registered_title": "감정을 억누른 여인",
+    "registered_artist": "로히어르 판데르 베이던",
+    "identified_title": "Portrait of a Woman",
+    "identified_artist": "Rogier van der Weyden",
+    "match": true,
+    "confidence": "high",
+    "note": "제목은 번역 표현의 차이이며, 작가명은 영어 표기의 차이. 15세기 플란더스 미술의 특징적인 초상화로 확인됨"
+  },
+  {
+    "day": 320,
+    "registered_title": "대사들의 해석",
+    "registered_artist": "얀 반 에이크",
+    "identified_title": "Arnolfini Portrait",
+    "identified_artist": "얀 반 에이크",
+    "match": false,
+    "confidence": "high",
+    "note": "등록된 제목이 부정확합니다. 실제 작품명은 'Arnolfini Portrait' 또는 'The Arnolfini Wedding'입니다. 작가는 일치합니다."
+  },
+  {
+    "day": 321,
+    "registered_title": "로제타석 발견",
+    "registered_artist": "토머스 영",
+    "identified_title": "로제타석(Rosetta Stone)",
+    "identified_artist": "고대 이집트 (발견: 1799년, 나폴레옹 원정대)",
+    "match": false,
+    "confidence": "high",
+    "note": "로제타석은 발견된 고대 유물이지 토머스 영이 발견한 것이 아닙니다. 토머스 영은 로제타석의 해독에 기여한 학자입니다. 로제타석은 1799년 이집트에서 발견되었으며, 조르주 프랑수아 보샤르(Georges-François Bochard)가 발견했습니다."
+  },
+  {
+    "day": 322,
+    "registered_title": "설교하는 성 베르나르디노",
+    "registered_artist": "사노 디 피에트로",
+    "identified_title": "설교하는 성 베르나르디노",
+    "identified_artist": "사노 디 피에트로",
+    "match": true,
+    "confidence": "high",
+    "note": "15세기 초기 르네상스 작품으로, 광장에서의 대규모 설교 장면과 건축 세부사항이 정확히 일치"
+  },
+  {
+    "day": 323,
+    "registered_title": "절벽의 수도원",
+    "registered_artist": "데이비드 로버츠",
+    "identified_title": "성 캐서린 수도원 (Saint Catherine's Monastery)",
+    "identified_artist": "데이비드 로버츠",
+    "match": true,
+    "confidence": "high",
+    "note": "19세기 동방여행 화가 로버츠의 전형적인 오리엔탈리즘 스타일로, 이집트 시나이반도의 성 캐서린 수도원으로 추정"
+  },
+  {
+    "day": 324,
+    "registered_title": "성 프란치스코의 설교",
+    "registered_artist": "조토 디 본도네의 제자",
+    "identified_title": "성 프란치스코가 새들에게 설교하다",
+    "identified_artist": "조토 디 본도네 (또는 학파)",
+    "match": true,
+    "confidence": "high",
+    "note": "조토의 작품 또는 그의 학파에 의한 작품으로, 성 프란치스코가 새들에게 설교하는 장면을 담고 있습니다. 중세 종교 미술의 대표적 주제입니다."
+  },
+  {
+    "day": 325,
+    "registered_title": "알렉산더 대왕의 전투",
+    "registered_artist": "알브레히트 알트도르퍼",
+    "identified_title": "이수스 전투 (Battle of Issus)",
+    "identified_artist": "알브레히트 알트도르퍼",
+    "match": true,
+    "confidence": "high",
+    "note": "등록된 제목이 일반적이나, 실제 작품명은 '이수스 전투'로 알려짐. 1529년 작품."
+  },
+  {
+    "day": 326,
+    "registered_title": "바느질하는 여인",
+    "registered_artist": "장 프랑수아 밀레",
+    "identified_title": "바느질하는 여인 (Woman Sewing)",
+    "identified_artist": "장 프랑수아 밀레",
+    "match": true,
+    "confidence": "high",
+    "note": "등록 정보와 일치. 미레의 전형적인 농촌 노동 주제의 작품."
+  },
+  {
+    "day": 327,
+    "registered_title": "바벨탑의 건설",
+    "registered_artist": "아벨 그리머",
+    "identified_title": "바벨탑 (The Tower of Babel)",
+    "identified_artist": "아벨 그리머 (또는 그리메르)",
+    "match": true,
+    "confidence": "high",
+    "note": "16세기 플랑드르 미술의 전형적인 바벨탑 표현. 브뢰겔 영향."
+  },
+  {
+    "day": 328,
+    "registered_title": "상상의 감옥 (카르체리)",
+    "registered_artist": "조반니 바티스타 피라네시",
+    "identified_title": "상상의 감옥 (Carceri d'Invenzione)",
+    "identified_artist": "조반니 바티스타 피라네시",
+    "match": true,
+    "confidence": "high",
+    "note": "제목은 영문 표기 차이만 있으며, 에칭 기법의 극적인 구도와 건축적 복잡성이 특징적인 카르체리 시리즈의 전형적인 작품"
+  },
+  {
+    "day": 329,
+    "registered_title": "수확자들",
+    "registered_artist": "피터르 브뤼헐 (대)",
+    "identified_title": "수확 (Harvesters)",
+    "identified_artist": "피터르 브뤼헬 (대)",
+    "match": true,
+    "confidence": "high",
+    "note": "16세기 플랑드르 회화의 전형적인 계절 시리즈 작품으로, 농민들의 일상적 삶을 세밀하게 표현한 특징적 스타일 일치"
+  },
+  {
+    "day": 330,
+    "registered_title": "러시아 겨울 풍경",
+    "registered_artist": "카를 브륄로프",
+    "identified_title": "겨울 자작나무 숲",
+    "identified_artist": "미상 (현대 사진)",
+    "match": false,
+    "confidence": "medium",
+    "note": "이미지는 실제 사진으로 보이며, 카를 브륄로프(1799-1852)의 회화 작품이 아닙니다. 현대의 자연 풍경 사진으로 보입니다. 카를 브륄로프는 19세기 러시아 화가이나 이 이미지와의 연결이 확실하지 않습니다."
+  },
+  {
+    "day": 331,
+    "registered_title": "전쟁 후의 드레스덴",
+    "registered_artist": "요한 크리스티안 달",
+    "identified_title": "Dresden by Moonlight",
+    "identified_artist": "Johann Christian Dahl",
+    "match": true,
+    "confidence": "high",
+    "note": "야간 달빛 아래의 드레스덴 풍경, 엘베강과 건축물의 실루엣이 특징적"
+  },
+  {
+    "day": 332,
+    "registered_title": "미지의 땅",
+    "registered_artist": "얀 모스타르트",
+    "identified_title": "Terra Ulteri Incognita",
+    "identified_artist": "Jan Mostaert",
+    "match": true,
+    "confidence": "high",
+    "note": "라틴어 텍스트 '미지의 땅'을 직접 표시한 지도 또는 제목 이미지"
+  },
+  {
+    "day": 333,
+    "registered_title": "가나안 땅의 포도",
+    "registered_artist": "니콜라 푸생",
+    "identified_title": "가나안 땅의 포도 (The Grapes of Canaan)",
+    "identified_artist": "니콜라 푸생 (Nicolas Poussin)",
+    "match": true,
+    "confidence": "high",
+    "note": "17세기 신구약 성서 장면을 고전주의적으로 표현한 판화. 거대한 포도송이를 옮기는 두 인물과 배경의 건축물이 특징"
+  },
+  {
+    "day": 334,
+    "registered_title": "방랑자의 노래",
+    "registered_artist": "카스파르 다비드 프리드리히",
+    "identified_title": "구름의 바다 위의 방랑자 (Wanderer Above the Sea of Fog)",
+    "identified_artist": "카스파르 다비드 프리드리히 (Caspar David Friedrich)",
+    "match": false,
+    "confidence": "high",
+    "note": "등록된 제목과 실제 작품명이 다름. 정확한 제목은 '구름의 바다 위의 방랑자'이며, 1818년 작 낭만주의 회화의 대표작"
+  },
+  {
+    "day": 335,
+    "registered_title": "폭풍우 속의 범선",
+    "registered_artist": "루돌프 바쿠이젠",
+    "identified_title": "폭풍우 속의 범선 (Ships in a Storm)",
+    "identified_artist": "루돌프 바쿠이젠",
+    "match": true,
+    "confidence": "high",
+    "note": "정확하게 일치합니다. 네덜란드 황금기 해양화의 대표작입니다."
+  },
+  {
+    "day": 336,
+    "registered_title": "후지산 36경 - 가이풍쾌청",
+    "registered_artist": "가쓰시카 호쿠사이",
+    "identified_title": "후지산 36경 중 '쾌청' (Fine Wind, Clear Morning) 또는 '가이풍쾌청'",
+    "identified_artist": "가쓰시카 호쿠사이",
+    "match": true,
+    "confidence": "high",
+    "note": "정확하게 일치합니다. 목판화 연작의 상징적인 작품입니다."
+  },
+  {
+    "day": 337,
+    "registered_title": "진주 잡이꾼",
+    "registered_artist": "막스 슬레보트",
+    "identified_title": "진주 잡이꾼",
+    "identified_artist": "막스 슬레보트",
+    "match": true,
+    "confidence": "high",
+    "note": "물속에서 진주를 채집하는 사람들의 장면이 명확하게 표현됨"
+  },
+  {
+    "day": 338,
+    "registered_title": "이카루스의 추락이 있는 풍경",
+    "registered_artist": "피터르 브뤼헐 (대) 추종자",
+    "identified_title": "이카루스의 추락이 있는 풍경",
+    "identified_artist": "피터르 브뤼헐 (대) 추종자",
+    "match": true,
+    "confidence": "high",
+    "note": "16세기 플랑드르 양식의 광활한 풍경 속 작은 크기의 이카루스 추락 장면 포함"
+  },
+  {
+    "day": 339,
+    "registered_title": "콜럼버스의 상륙",
+    "registered_artist": "존 밴더린",
+    "identified_title": "콜럼버스의 상륙",
+    "identified_artist": "존 밴더린",
+    "match": true,
+    "confidence": "high",
+    "note": "콜럼버스 함대의 상륙 장면, 깃발과 갑옷 입은 병사들이 명확히 표현됨"
+  },
+  {
+    "day": 340,
+    "registered_title": "십자로",
+    "registered_artist": "리오타르",
+    "identified_title": "핵폭발 (원자폭탄 실험)",
+    "identified_artist": "미상 (역사적 사진)",
+    "match": false,
+    "confidence": "high",
+    "note": "등록된 정보가 부정확함. 이미지는 핵무기 실험의 역사적 흑백 사진으로, 리오타르의 회화 작품이 아님. 제목도 '십자로'와 무관"
+  },
+  {
+    "day": 341,
+    "registered_title": "숲속의 갈림길",
+    "registered_artist": "이반 시슈킨",
+    "identified_title": "Forest Landscape with Birches",
+    "identified_artist": "Ivan Shishkin",
+    "match": true,
+    "confidence": "high",
+    "note": "러시아 풍경화가 시슈킨의 전형적인 숲 풍경 작품. 자작나무 숲의 세밀한 표현이 특징"
+  },
+  {
+    "day": 342,
+    "registered_title": "세느강의 합류",
+    "registered_artist": "아르망 기요맹",
+    "identified_title": "Confluence of the Seine",
+    "identified_artist": "Armand Guillaumin",
+    "match": true,
+    "confidence": "high",
+    "note": "인상주의 화가 기요맹의 특징적인 색채 표현. 강의 합류점을 드라마틱한 하늘색과 따뜻한 톤으로 표현"
+  },
+  {
+    "day": 343,
+    "registered_title": "수도승들의 행렬",
+    "registered_artist": "프라 안젤리코",
+    "identified_title": "Buddhist Monks Almsgiving Ceremony",
+    "identified_artist": "Unknown/Contemporary",
+    "match": false,
+    "confidence": "low",
+    "note": "이미지는 현대 사진으로 보이며, 태국의 불교 승려들의 탁발 의식을 담고 있습니다. 프라 안젤리코는 15세기 이탈리아 르네상스 화가이므로 스타일과 시대가 완전히 다릅니다."
+  },
+  {
+    "day": 344,
+    "registered_title": "다양한 과일이 있는 정물",
+    "registered_artist": "세비야의 후안 산체스 코탄",
+    "identified_title": "Still Life with Quince, Cabbage, Melon and Cucumber",
+    "identified_artist": "Juan Sánchez Cotán",
+    "match": true,
+    "confidence": "high",
+    "note": "작가와 장르가 정확함. 세비야의 후안 산체스 코탄의 특징적인 정물화 스타일 - 어두운 배경에 매달린 과일과 채소"
+  },
+  {
+    "day": 345,
+    "registered_title": "백자 달항아리",
+    "registered_artist": "조선 도공",
+    "identified_title": "White Porcelain Moon Jar (Dalhangari)",
+    "identified_artist": "Joseon Ceramicist",
+    "match": true,
+    "confidence": "high",
+    "note": "조선시대 백자 달항아리의 전형적인 형태. 둥근 구형의 우아한 형태와 순백의 색상이 특징"
+  },
+  {
+    "day": 346,
+    "registered_title": "베네치아의 대운하",
+    "registered_artist": "카날레토",
+    "identified_title": "베네치아의 대운하",
+    "identified_artist": "카날레토",
+    "match": true,
+    "confidence": "high",
+    "note": "산타 마리아 델라 살루테 성당과 대운하의 특징적인 구도가 정확히 일치합니다."
+  },
+  {
+    "day": 347,
+    "registered_title": "비의 효과",
+    "registered_artist": "우타가와 히로시게",
+    "identified_title": "Evening Snow on the Heater",
+    "identified_artist": "우타가와 히로시게",
+    "match": true,
+    "confidence": "high",
+    "note": "우타가와 히로시게의 목판화로 빗줄을 표현한 독특한 기법이 명확합니다. '명소 백선도' 시리즈의 작품으로 보입니다."
+  },
+  {
+    "day": 348,
+    "registered_title": "회화의 예술",
+    "registered_artist": "요하네스 페르메이르",
+    "identified_title": "회화의 예술 (The Art of Painting)",
+    "identified_artist": "요하네스 페르메이르",
+    "match": true,
+    "confidence": "high",
+    "note": "페르메이르의 대표작으로, 화가와 모델, 실내 공간의 완벽한 구성이 일치합니다."
+  },
+  {
+    "day": 349,
+    "registered_title": "피에타",
+    "registered_artist": "미켈란젤로 부오나로티",
+    "identified_title": "Pietà",
+    "identified_artist": "미켈란젤로 부오나로티",
+    "match": true,
+    "confidence": "high",
+    "note": "미켈란젤로의 유명한 대리석 조각 피에타입니다. 바티칸 성 베드로 대성당에 소장되어 있으며, 르네상스 조각의 걸작입니다."
+  },
+  {
+    "day": 350,
+    "registered_title": "삼채마",
+    "registered_artist": "당나라 도공",
+    "identified_title": "Unknown",
+    "identified_artist": "Unknown",
+    "match": false,
+    "confidence": "low",
+    "note": "이미지는 현대 사진으로 몽골 또는 중앙아시아의 말들을 보여줍니다. 당나라 도자기인 삼채마와 전혀 관련이 없습니다."
+  },
+  {
+    "day": 351,
+    "registered_title": "베 짜는 여인",
+    "registered_artist": "디에고 벨라스케스",
+    "identified_title": "Las Hilanderas (The Spinners / 베 짜는 여인들)",
+    "identified_artist": "디에고 벨라스케스",
+    "match": true,
+    "confidence": "high",
+    "note": "벨라스케스의 명작으로, 직조 작업을 하는 여인들의 일상을 묘사한 작품입니다. 배경에는 신화적 장면이 보입니다."
+  },
+  {
+    "day": 352,
+    "registered_title": "인쇄소 풍경",
+    "registered_artist": "요스트 암만",
+    "identified_title": "Typography & French Printing (Typographiae Symbolum)",
+    "identified_artist": "요스트 암만",
+    "match": true,
+    "confidence": "high",
+    "note": "라틴어 제목과 헤더는 프랑스 인쇄술의 상징을 다루고 있으며, 인쇄소 관련 알레고리 목판화임"
+  },
+  {
+    "day": 353,
+    "registered_title": "편지를 읽는 푸른 옷의 여인",
+    "registered_artist": "요하네스 페르메이르",
+    "identified_title": "Woman Reading a Letter",
+    "identified_artist": "요하네스 페르메이르",
+    "match": true,
+    "confidence": "high",
+    "note": "푸른 옷의 여성이 편지를 읽고 있는 페르메이르의 전형적인 실내 장면. 특징적인 빛의 표현과 구성이 일치함"
+  },
+  {
+    "day": 354,
+    "registered_title": "수도사의 필사",
+    "registered_artist": "토마소 다 모데나",
+    "identified_title": "A Scribe/Monk Writing",
+    "identified_artist": "토마소 다 모데나",
+    "match": true,
+    "confidence": "high",
+    "note": "중세 필사본 삽화로 수도사가 책상에서 필사 작업을 하고 있는 모습. 책과 문헌이 배경에 보임"
+  },
+  {
+    "day": 355,
+    "registered_title": "바이올린을 든 소녀",
+    "registered_artist": "오레스트 키프렌스키",
+    "identified_title": "Girl with a Violin",
+    "identified_artist": "Orest Kiprensky",
+    "match": true,
+    "confidence": "high",
+    "note": "19세기 러시아 낭만주의 화가의 작품. 검은 옷을 입은 소녀가 바이올린을 들고 있는 초상화입니다."
+  },
+  {
+    "day": 356,
+    "registered_title": "서재의 성 제롬",
+    "registered_artist": "콜랑토니오",
+    "identified_title": "Saint Jerome in His Study",
+    "identified_artist": "Colantonio",
+    "match": true,
+    "confidence": "high",
+    "note": "15세기 이탈리아 르네상스 회화. 서재에서 일하는 성 제롬과 사자를 포함한 종교적 주제의 작품입니다."
+  },
+  {
+    "day": 357,
+    "registered_title": "씨 뿌리는 사람 (밀레)",
+    "registered_artist": "장 프랑수아 밀레",
+    "identified_title": "The Sower (씨 뿌리는 사람)",
+    "identified_artist": "Jean-François Millet",
+    "match": true,
+    "confidence": "high",
+    "note": "작품 제목에 중복 표기(밀레)가 있지만 작가명은 정확함"
+  },
+  {
+    "day": 358,
+    "registered_title": "파종하는 사람",
+    "registered_artist": "그레고리 마이소예도프",
+    "identified_title": "The Sower",
+    "identified_artist": "Gregory Myasoyedov",
+    "match": true,
+    "confidence": "high",
+    "note": "우표에 표기된 1871년 작품으로 확인됨"
+  },
+  {
+    "day": 359,
+    "registered_title": "과일 바구니가 있는 정물",
+    "registered_artist": "루이즈 무아용",
+    "identified_title": "Still Life with Fruits",
+    "identified_artist": "Louise Moillon",
+    "match": true,
+    "confidence": "high",
+    "note": "17세기 정물화로 석류, 사과 등이 묘사됨"
+  },
+  {
+    "day": 360,
+    "registered_title": "생명의 나무",
+    "registered_artist": "구스타프 클림트",
+    "identified_title": "Tree of Life (생명의 나무)",
+    "identified_artist": "Gustav Klimt",
+    "match": true,
+    "confidence": "high",
+    "note": "특징적인 황금색 소용돌이 패턴과 상징적 요소가 일치"
+  },
+  {
+    "day": 361,
+    "registered_title": "대나무 숲",
+    "registered_artist": "정섭",
+    "identified_title": "Bamboo Forest (대나무 숲)",
+    "identified_artist": "Unknown or Contemporary Photographer",
+    "match": false,
+    "confidence": "low",
+    "note": "사진(photography)으로 보이며, 정섭의 작품으로 확인 불가. 아라시야마 대나무 숲 등 실제 대나무 숲 사진으로 추정"
+  },
+  {
+    "day": 362,
+    "registered_title": "물 위의 오필리아",
+    "registered_artist": "존 에버렛 밀레이",
+    "identified_title": "Ophelia",
+    "identified_artist": "John Everett Millais",
+    "match": true,
+    "confidence": "high",
+    "note": "1851-1852년 작품. 셰익스피어의 해물렛에서 영감을 받은 낭만주의 회화. 물 위의 드레스를 입은 여성과 꽃들의 표현이 정확히 일치"
+  },
+  {
+    "day": 363,
+    "registered_title": "가을 풍경",
+    "registered_artist": "에곤 실레",
+    "match": null,
+    "note": "JSON parse error"
+  },
+  {
+    "day": 364,
+    "registered_title": "프리마베라 (봄)",
+    "registered_artist": "산드로 보티첼리",
+    "identified_title": "Primavera (Spring)",
+    "identified_artist": "Sandro Botticelli",
+    "match": true,
+    "confidence": "high",
+    "note": "르네상스 대표작으로 우아한 인물들, 검은 배경, 꽃과 금색 과실이 특징적. 완벽한 일치."
+  },
+  {
+    "day": 365,
+    "registered_title": "추수하는 사람들",
+    "registered_artist": "레옹 레르미트",
+    "match": null,
+    "note": "JSON parse error"
+  }
+]
