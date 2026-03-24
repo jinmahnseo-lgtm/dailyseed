@@ -5309,9 +5309,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Without music, life would be a mistake.",
-        "ko": "음악 없이 삶은 실수일 것이다.",
-        "note": "'Without ~, S would be ...'는 가정법 과거 구문이야. '~이 없다면 ...일 것이다'로, 현실과 반대되는 가정을 나타내."
+        "en": "Tolstoy's Kreutzer Sonata explores how music can stir passions so powerful that they destroy the bonds between people.",
+        "ko": "톨스토이의 '크로이처 소나타'는 음악이 사람들 사이의 유대를 파괴할 만큼 강력한 열정을 어떻게 불러일으키는지 탐구한다.",
+        "note": "'stir passions'는 '열정을 불러일으키다'야. stir는 '젓다'에서 '자극하다/흔들다'로 비유적으로 확장됐어."
       },
       {
         "source": "명화",
@@ -5337,8 +5337,8 @@
     ],
     "vocab": [
       {
-        "word": "defy",
-        "meaning": "무시하다, 거부하다"
+        "word": "passion",
+        "meaning": "열정"
       },
       {
         "word": "gravity",
@@ -5462,9 +5462,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Fashion is not something that exists in dresses only. Fashion is in the sky, in the street; fashion has to do with ideas, the way we live, what is happening.",
-        "ko": "패션은 드레스에만 존재하는 것이 아니다. 패션은 하늘에, 거리에 있다; 패션은 아이디어, 우리가 사는 방식, 일어나고 있는 일과 관련이 있다.",
-        "note": "'has to do with ~'는 '~와 관련이 있다'라는 숙어야. 'the way we live'에서 the way 뒤에 관계부사 how가 생략되어 있어."
+        "en": "Flaubert spent years crafting every sentence of Madame Bovary, proving that the search for the perfect word is an art in itself.",
+        "ko": "플로베르는 '보바리 부인'의 모든 문장을 다듬는 데 수년을 보내며, 완벽한 단어를 찾는 것 자체가 예술임을 증명했다.",
+        "note": "'crafting every sentence'에서 craft는 '장인처럼 만들다'야. 'an art in itself'는 '그 자체로 예술'이라는 관용 표현이야."
       },
       {
         "source": "명화",
@@ -5490,8 +5490,8 @@
     ],
     "vocab": [
       {
-        "word": "elegant",
-        "meaning": "우아한"
+        "word": "craft",
+        "meaning": "정교하게 만들다"
       },
       {
         "word": "impression",
@@ -5615,9 +5615,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Actions speak louder than words — what we do with our bodies often reveals more than what we say.",
-        "ko": "행동은 말보다 크게 말한다 — 우리가 몸으로 하는 것이 우리가 말하는 것보다 더 많은 것을 드러낸다.",
-        "note": "'speak louder than'은 '~보다 더 크게 말하다'라는 비유 표현이야. 비교급 + than 구조로, 두 가지를 비교할 때 자주 쓰여."
+        "en": "Shakespeare's A Midsummer Night's Dream uses a magic potion to show that love makes fools of us all, regardless of our intentions.",
+        "ko": "셰익스피어의 '한여름 밤의 꿈'은 마법의 묘약을 사용해, 의도와 상관없이 사랑이 우리 모두를 바보로 만든다는 것을 보여준다.",
+        "note": "'makes fools of us all'은 '우리 모두를 바보로 만들다'라는 관용 표현이야. regardless of는 '~에 상관없이'야."
       },
       {
         "source": "명화",
@@ -5643,8 +5643,8 @@
     ],
     "vocab": [
       {
-        "word": "gesture",
-        "meaning": "몸짓"
+        "word": "potion",
+        "meaning": "묘약, 물약"
       },
       {
         "word": "convey",
@@ -5777,7 +5777,7 @@
         "emoji": "🎨",
         "en": "Homer's Gulf Stream shows a lone man adrift on a broken boat, surrounded by sharks, yet his calm gaze reveals defiance against the merciless sea.",
         "ko": "호머의 '멕시코만류'는 부서진 배 위에 홀로 표류하는 남자를 보여주며, 상어에 둘러싸여 있지만 그의 담담한 시선이 무자비한 바다에 대한 저항을 드러낸다.",
-        "note":"'adrift on'은 '~위에 표류하는'이야. adrift는 a(~상태의) + drift(떠돌다)의 합성어야. defiance는 '저항/반항'이야."
+        "note": "'adrift on'은 '~위에 표류하는'이야. adrift는 a(~상태의) + drift(떠돌다)의 합성어야. defiance는 '저항/반항'이야."
       },
       {
         "source": "세계문화",
@@ -6125,9 +6125,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Shakespeare wrote, 'The rest is silence' — Hamlet's final words remind us that sometimes silence says everything.",
-        "ko": "셰익스피어는 '나머지는 침묵이다'라고 썼다 — 햄릿의 마지막 말은 때때로 침묵이 모든 것을 말해준다는 것을 상기시킨다.",
-        "note": "'The rest is silence'에서 rest는 '나머지'라는 뜻이야. '쉬다'의 rest와 같은 철자지만 의미가 달라. the rest of는 '나머지의'라는 뜻으로 자주 쓰여."
+        "en": "In Stendhal's The Red and the Black, Julien Sorel hides his true ambitions behind a mask of silence, revealing them only through his actions.",
+        "ko": "스탕달의 '적과 흑'에서 줄리앙 소렐은 침묵의 가면 뒤에 진짜 야심을 숨기고, 오직 행동으로만 그것을 드러낸다.",
+        "note": "'behind a mask of silence'는 '침묵의 가면 뒤에'라는 비유적 표현이야. reveal은 '드러내다'로, hide의 반의어야."
       },
       {
         "source": "명화",
@@ -6153,8 +6153,8 @@
     ],
     "vocab": [
       {
-        "word": "stillness",
-        "meaning": "고요함, 정적"
+        "word": "ambition",
+        "meaning": "야심, 야망"
       },
       {
         "word": "thoughtfulness",
@@ -6431,9 +6431,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Fleming discovered penicillin by accident when mold contaminated his petri dish — a lucky mistake that saved millions of lives.",
-        "ko": "플레밍은 곰팡이가 페트리 접시를 오염시켰을 때 우연히 페니실린을 발견했다 — 수백만 명의 생명을 구한 행운의 실수였다.",
-        "note": "'by accident'는 '우연히'라는 뜻이야. by chance와 같은 의미야. 반대는 'on purpose(일부러)'야. 전치사 + 명사로 부사 역할을 해."
+        "en": "Hardy's Tess is a woman whose life is shaped by a single chance encounter, proving that fate often hides in the smallest moments.",
+        "ko": "하디의 테스는 한 번의 우연한 만남이 인생을 결정지은 여자로, 운명이 종종 가장 작은 순간에 숨어 있음을 증명한다.",
+        "note": "'shaped by'는 '~에 의해 형성된'이야. 'hides in the smallest moments'는 '가장 작은 순간에 숨어 있다'야."
       },
       {
         "source": "명화",
@@ -6459,8 +6459,8 @@
     ],
     "vocab": [
       {
-        "word": "contaminate",
-        "meaning": "오염시키다"
+        "word": "encounter",
+        "meaning": "만남, 조우"
       },
       {
         "word": "splash",
@@ -6686,9 +6686,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Sherlock Holmes famously said, 'When you have eliminated the impossible, whatever remains must be the truth.'",
-        "ko": "셜록 홈즈는 유명하게 말했다, '불가능한 것을 제거했을 때, 남은 것이 무엇이든 그것이 진실이어야 한다.'",
-        "note": "'whatever remains must be'에서 whatever는 '무엇이든 ~하는 것'이야. must be는 '~임에 틀림없다'라는 강한 추측을 나타내."
+        "en": "Poe's Murders in the Rue Morgue introduced the world's first fictional detective, who solves crimes through pure logic and careful observation of evidence.",
+        "ko": "포의 '모르그 가의 살인'은 세계 최초의 가상 탐정을 소개했으며, 순수한 논리와 증거의 면밀한 관찰로 범죄를 해결한다.",
+        "note": "'through pure logic'는 '순수한 논리를 통해'야. observation은 observe(관찰하다)의 명사형이야."
       },
       {
         "source": "명화",
@@ -6714,8 +6714,8 @@
     ],
     "vocab": [
       {
-        "word": "eliminate",
-        "meaning": "제거하다"
+        "word": "evidence",
+        "meaning": "증거"
       },
       {
         "word": "reveal",
@@ -6941,9 +6941,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Frankenstein is a cautionary tale about what happens when a scientific experiment goes beyond the limits of ethics.",
-        "ko": "프랑켄슈타인은 과학 실험이 윤리의 한계를 넘어갈 때 무슨 일이 일어나는지에 대한 경고의 이야기이다.",
-        "note": "'a cautionary tale about'은 '~에 대한 경고의 이야기'야. cautionary는 '경고하는'이라는 형용사로, tale(이야기)과 함께 교훈적 이야기를 뜻해."
+        "en": "Stevenson's Dr. Jekyll and Mr. Hyde is a chilling experiment in human nature, revealing that good and evil coexist within every person.",
+        "ko": "스티븐슨의 '지킬 박사와 하이드'는 인간 본성에 대한 소름 끼치는 실험으로, 선과 악이 모든 사람 안에 공존함을 드러낸다.",
+        "note": "'coexist within'은 '~안에 공존하다'야. co-(함께) + exist(존재하다)의 합성어야."
       },
       {
         "source": "명화",
@@ -6969,8 +6969,8 @@
     ],
     "vocab": [
       {
-        "word": "cautionary",
-        "meaning": "경고하는"
+        "word": "coexist",
+        "meaning": "공존하다"
       },
       {
         "word": "ethics",
@@ -7043,9 +7043,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "In Twenty Thousand Leagues Under the Sea, Captain Nemo's submarine was pure fiction in 1870 — yet submarines became reality within decades.",
-        "ko": "해저 2만리에서 네모 선장의 잠수함은 1870년에 순수한 허구였지만, 수십 년 안에 잠수함은 현실이 되었다.",
-        "note": "'became reality within decades'에서 within은 '~이내에'라는 뜻이야. become reality는 '현실이 되다'로, 상상이 실현될 때 쓰는 표현이야."
+        "en": "Bunyan's Pilgrim's Progress imagines life as a journey through dangerous lands, where every obstacle is an invention of the human spirit to overcome.",
+        "ko": "번연의 '천로역정'은 삶을 위험한 땅을 통과하는 여정으로 상상하며, 모든 장애물이 극복해야 할 인간 정신의 발명품이다.",
+        "note": "'imagines life as a journey'는 '삶을 여정으로 상상하다'야. obstacle은 '장애물'이야."
       },
       {
         "source": "명화",
@@ -7071,8 +7071,8 @@
     ],
     "vocab": [
       {
-        "word": "fiction",
-        "meaning": "허구, 소설"
+        "word": "obstacle",
+        "meaning": "장애물"
       },
       {
         "word": "inspire",
@@ -7349,9 +7349,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "It is not the strongest of the species that survives, but the one that is most adaptable to change.",
-        "ko": "살아남는 것은 가장 강한 종이 아니라, 변화에 가장 잘 적응하는 종이다.",
-        "note": "'It is not A that ~, but B'는 '~하는 것은 A가 아니라 B이다'라는 강조 구문(it-cleft)이야. 두 대상을 대비시킬 때 아주 유용해."
+        "en": "In Zola's Thérèse Raquin, hereditary temperament drives two lovers to commit murder, showing how deeply genetics can influence human behavior.",
+        "ko": "졸라의 '테레즈 라캥'에서 유전적 기질이 두 연인을 살인으로 몰아, 유전이 인간 행동에 얼마나 깊이 영향을 미칠 수 있는지 보여준다.",
+        "note": "'hereditary temperament'는 '유전적 기질'이야. hereditary는 '유전의/세습의'라는 형용사야."
       },
       {
         "source": "명화",
@@ -7377,8 +7377,8 @@
     ],
     "vocab": [
       {
-        "word": "adaptable",
-        "meaning": "적응력 있는"
+        "word": "hereditary",
+        "meaning": "유전의"
       },
       {
         "word": "reveal",
@@ -7502,9 +7502,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Until he extends the circle of his compassion to all living things, man will not himself find peace.",
-        "ko": "모든 생명체에게로 자비의 범위를 넓히기 전까지, 인간은 스스로 평화를 찾지 못할 것이다.",
-        "note": "'Until + 현재시제, 주어 + will not ~'은 '~하기 전까지는 …하지 못할 것이다'라는 조건 구문이야. until절 안에서는 미래형 대신 현재형을 써."
+        "en": "Kipling's Jungle Book tells the story of a human child raised by wolves, exploring whether different species can truly coexist as family.",
+        "ko": "키플링의 '정글 북'은 늑대에게 길러진 인간 아이의 이야기로, 다른 종이 진정으로 가족으로서 공존할 수 있는지를 탐구한다.",
+        "note": "'raised by wolves'는 '늑대에게 길러진'이야. raise는 '기르다/양육하다'라는 뜻으로 자주 쓰여."
       },
       {
         "source": "명화",
@@ -7530,8 +7530,8 @@
     ],
     "vocab": [
       {
-        "word": "compassion",
-        "meaning": "자비, 동정심"
+        "word": "species",
+        "meaning": "종(생물학)"
       },
       {
         "word": "predator",
@@ -7655,9 +7655,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "A leader is best when people barely know he exists; when his work is done, they will say: we did it ourselves.",
-        "ko": "가장 좋은 지도자는 사람들이 그의 존재를 거의 모를 때이다. 일이 끝나면 사람들은 말할 것이다: 우리가 해냈다고.",
-        "note": "'barely'는 '거의 ~않다'라는 준부정 부사야. hardly와 같은 뜻이야. 'when his work is done'에서 is done은 수동태로 '끝나다'를 표현해."
+        "en": "Shakespeare's Henry V delivers one of literature's greatest speeches before battle, proving that a true leader inspires by standing among his soldiers.",
+        "ko": "셰익스피어의 '헨리 5세'는 전투 전 문학사상 가장 위대한 연설을 하며, 진정한 리더는 병사들 사이에 서서 영감을 준다는 것을 증명한다.",
+        "note": "'standing among his soldiers'는 '병사들 사이에 서서'라는 분사구문이야. inspire는 '영감을 주다'야."
       },
       {
         "source": "명화",
@@ -7683,8 +7683,8 @@
     ],
     "vocab": [
       {
-        "word": "barely",
-        "meaning": "거의 ~않다"
+        "word": "inspire",
+        "meaning": "영감을 주다"
       },
       {
         "word": "rear",
@@ -8318,9 +8318,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "The ballot is stronger than the bullet.",
-        "ko": "투표용지는 총알보다 강하다.",
-        "note": "'A is stronger than B'는 기본 비교급이야. ballot(투표용지)과 bullet(총알)이 비슷한 발음으로 두운(alliteration)을 이루어 기억에 남는 문장이야."
+        "en": "Golding's Lord of the Flies shows what happens when children must govern themselves without adults — democracy crumbles without shared values.",
+        "ko": "골딩의 '파리 대왕'은 아이들이 어른 없이 스스로 다스려야 할 때 무슨 일이 벌어지는지를 보여준다 — 공유된 가치 없이 민주주의는 무너진다.",
+        "note": "'govern themselves'는 '스스로 다스리다'야. crumble은 '무너지다/부서지다'라는 뜻이야."
       },
       {
         "source": "명화",
@@ -8346,8 +8346,8 @@
     ],
     "vocab": [
       {
-        "word": "ballot",
-        "meaning": "투표용지"
+        "word": "crumble",
+        "meaning": "무너지다"
       },
       {
         "word": "authority",
@@ -8573,9 +8573,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "The weak can never forgive. Forgiveness is the attribute of the strong.",
-        "ko": "약한 자는 결코 용서할 수 없다. 용서는 강한 자의 속성이다.",
-        "note": "'The weak ~ The strong'에서 the + 형용사는 '~한 사람들'이라는 뜻이야. attribute는 '속성, 특질'로, 어떤 존재의 본질적 특성을 가리켜."
+        "en": "In Tolstoy's Resurrection, a nobleman seeks forgiveness by following the woman he once wronged all the way to Siberia.",
+        "ko": "톨스토이의 '부활'에서 한 귀족이 한때 잘못을 저지른 여인을 시베리아까지 따라가며 용서를 구한다.",
+        "note": "'seeks forgiveness'는 '용서를 구하다'야. 'the woman he once wronged'에서 wrong은 동사로 '잘못을 저지르다'야."
       },
       {
         "source": "명화",
@@ -8601,8 +8601,8 @@
     ],
     "vocab": [
       {
-        "word": "forgive",
-        "meaning": "용서하다"
+        "word": "forgiveness",
+        "meaning": "용서"
       },
       {
         "word": "attribute",
@@ -8624,9 +8624,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "A nation's greatness is measured by how it treats its weakest and most helpless citizens.",
-        "ko": "한 국가의 위대함은 가장 약하고 무력한 시민들을 어떻게 대하느냐로 측정된다.",
-        "note": "'is measured by how ~'는 '어떻게 ~하느냐로 측정된다'야. measure는 '측정하다'이고, by how 이하는 수단·기준을 나타내는 전치사구야."
+        "en": "Dickens created Oliver Twist to show that poverty is not a moral failing but a social injustice that society must address through welfare and compassion.",
+        "ko": "디킨스는 올리버 트위스트를 창조하여, 빈곤이 도덕적 실패가 아니라 사회가 복지와 자비로 해결해야 할 사회적 부정의임을 보여주었다.",
+        "note": "'a social injustice that society must address'에서 address는 '해결하다/다루다'라는 뜻이야. welfare는 '복지'야."
       },
       {
         "source": "명화",
@@ -8652,8 +8652,8 @@
     ],
     "vocab": [
       {
-        "word": "measure",
-        "meaning": "측정하다"
+        "word": "welfare",
+        "meaning": "복지"
       },
       {
         "word": "devote",
@@ -8879,9 +8879,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Trade makes people dependent on one another, and dependency creates a kind of peace.",
-        "ko": "무역은 사람들을 서로 의존하게 만들고, 의존은 일종의 평화를 만들어 낸다.",
-        "note": "'make + 사람 + 형용사'는 '~를 ~하게 만들다'라는 사역 구문이야. 'dependent on ~'은 '~에 의존하는'이라는 뜻이야."
+        "en": "Shakespeare's Merchant of Venice asks whether strict legal contracts should override mercy when trade and human dignity collide.",
+        "ko": "셰익스피어의 '베니스의 상인'은 무역과 인간의 존엄이 충돌할 때 엄격한 법적 계약이 자비를 무시해야 하는지를 묻는다.",
+        "note": "'override mercy'는 '자비를 무시하다/우선하다'야. override는 '무시하다/우선하다'라는 뜻이야."
       },
       {
         "source": "명화",
@@ -8907,8 +8907,8 @@
     ],
     "vocab": [
       {
-        "word": "dependent",
-        "meaning": "의존하는"
+        "word": "mercy",
+        "meaning": "자비, 관용"
       },
       {
         "word": "exotic",
@@ -8930,9 +8930,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Money is a guarantee that we may have what we want in the future, though we possess nothing at the moment.",
-        "ko": "돈은 지금 당장 아무것도 갖고 있지 않더라도 미래에 원하는 것을 가질 수 있다는 보증이다.",
-        "note": "'though'는 '~에도 불구하고'라는 양보 접속사야. 'although'와 같은 뜻이지만 문장 중간에 더 자연스럽게 쓸 수 있어."
+        "en": "Molière's The Miser portrays a father so obsessed with hoarding money that he treats his own children as financial transactions.",
+        "ko": "몰리에르의 '수전노'는 돈을 모으는 데 집착하여 자기 자녀마저 금전적 거래로 취급하는 아버지를 묘사한다.",
+        "note": "'obsessed with hoarding'은 '~을 모으는 데 집착한'이야. hoard는 '사재기하다/비축하다'야."
       },
       {
         "source": "명화",
@@ -8958,8 +8958,8 @@
     ],
     "vocab": [
       {
-        "word": "currency",
-        "meaning": "화폐"
+        "word": "hoard",
+        "meaning": "비축하다, 사재기하다"
       },
       {
         "word": "guarantee",
@@ -9032,9 +9032,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Poverty is not an accident. Like slavery and apartheid, it is man-made and can be removed by the actions of human beings.",
-        "ko": "빈곤은 우연이 아니다. 노예제도와 아파르트헤이트처럼 인간이 만든 것이며, 인간의 행동으로 제거할 수 있다.",
-        "note": "'man-made'는 '인간이 만든'이라는 복합 형용사야. 'can be removed by ~'는 '~에 의해 제거될 수 있다'라는 수동태로, 해결 가능성을 강조해."
+        "en": "Dostoevsky's Prince Myshkin in The Idiot is so purely good that the world around him cannot comprehend his kindness, mistaking it for poverty of mind.",
+        "ko": "도스토옙스키의 '백치'에서 므이시킨 공작은 너무 순수하게 선해서 주변 세계가 그의 친절을 이해하지 못하고 정신적 빈곤으로 착각한다.",
+        "note": "'mistaking A for B'는 'A를 B로 착각하며'라는 분사구문이야. comprehend는 understand보다 더 깊은 이해를 뜻해."
       },
       {
         "source": "명화",
@@ -9060,8 +9060,8 @@
     ],
     "vocab": [
       {
-        "word": "poverty",
-        "meaning": "빈곤"
+        "word": "comprehend",
+        "meaning": "이해하다"
       },
       {
         "word": "famine",
@@ -9083,9 +9083,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "It is not the man who has too little, but the man who craves more, that is poor.",
-        "ko": "가난한 사람은 적게 가진 자가 아니라 더 많이 갈망하는 자이다.",
-        "note": "'It is not A but B that ~'는 강조 구문이야. '~한 것은 A가 아니라 B이다'라는 뜻으로, 진짜 의미를 부각시킬 때 써."
+        "en": "Flaubert's Sentimental Education follows a young man whose wealthy dreams dissolve into a lifetime of unfulfilled longing.",
+        "ko": "플로베르의 '감정교육'은 부유해지려는 꿈이 충족되지 못한 평생의 갈망으로 녹아내리는 한 젊은이를 따라간다.",
+        "note": "'dissolve into'는 '~으로 녹아내리다/사라지다'야. unfulfilled는 '충족되지 못한'이라는 형용사야."
       },
       {
         "source": "명화",
@@ -9111,8 +9111,8 @@
     ],
     "vocab": [
       {
-        "word": "crave",
-        "meaning": "갈망하다"
+        "word": "dissolve",
+        "meaning": "녹다, 사라지다"
       },
       {
         "word": "luxury",
@@ -9134,9 +9134,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "We buy things we don't need with money we don't have to impress people we don't like.",
-        "ko": "우리는 좋아하지도 않는 사람들에게 잘 보이려고 없는 돈으로 필요 없는 것을 산다.",
-        "note": "'to impress ~'는 '~에게 깊은 인상을 주려고'라는 목적의 to부정사야. 세 개의 관계절(we don't ~)이 반복되어 풍자의 리듬을 만들어."
+        "en": "Henry James's Portrait of a Lady examines how a free-spirited woman becomes trapped by the very wealth she believed would give her independence.",
+        "ko": "헨리 제임스의 '여인의 초상'은 자유로운 영혼의 여성이 독립을 줄 거라 믿었던 바로 그 부로 인해 함정에 빠지는 과정을 살펴본다.",
+        "note": "'trapped by the very wealth'에서 very는 '바로 그'라는 강조 형용사야. free-spirited는 '자유로운 영혼의'야."
       },
       {
         "source": "명화",
@@ -9162,8 +9162,8 @@
     ],
     "vocab": [
       {
-        "word": "consumer",
-        "meaning": "소비자"
+        "word": "independence",
+        "meaning": "독립"
       },
       {
         "word": "anticipate",
@@ -9185,9 +9185,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "The desire to create is one of the deepest yearnings of the human soul.",
-        "ko": "창조하고자 하는 욕구는 인간 영혼의 가장 깊은 갈망 중 하나이다.",
-        "note": "'the desire to + 동사'는 '~하고자 하는 욕구'라는 뜻이야. to부정사가 명사를 뒤에서 수식하는 형용사적 용법이야."
+        "en": "Zola's Germinal follows miners who risk everything in a desperate strike, showing that the act of production belongs to those who labor with their hands.",
+        "ko": "졸라의 '제르미날'은 필사적인 파업에 모든 것을 건 광부들을 따라가며, 생산이라는 행위가 손으로 노동하는 이들의 것임을 보여준다.",
+        "note": "'risk everything in'은 '~에 모든 것을 걸다'야. desperate는 '필사적인/절박한'이라는 형용사야."
       },
       {
         "source": "명화",
@@ -9213,8 +9213,8 @@
     ],
     "vocab": [
       {
-        "word": "yearning",
-        "meaning": "갈망"
+        "word": "desperate",
+        "meaning": "필사적인"
       },
       {
         "word": "precision",
@@ -9236,9 +9236,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Efficiency is doing things right; effectiveness is doing the right things.",
-        "ko": "효율은 일을 올바르게 하는 것이고, 효과는 올바른 일을 하는 것이다.",
-        "note": "'doing things right'와 'doing the right things'의 어순 차이에 주목해. right의 위치에 따라 의미가 완전히 달라져. 영어에서 어순이 얼마나 중요한지 보여주는 예야."
+        "en": "Ibsen's A Doll's House shocked audiences when Nora walked out on her marriage, choosing personal freedom over the efficient comfort of domestic life.",
+        "ko": "입센의 '인형의 집'은 노라가 결혼 생활을 떠날 때 관객에게 충격을 주었으며, 가정생활의 효율적 안락함보다 개인의 자유를 선택했다.",
+        "note": "'walked out on'은 '~을 버리고 나가다'라는 구동사야. domestic life는 '가정생활'이야."
       },
       {
         "source": "명화",
@@ -9264,8 +9264,8 @@
     ],
     "vocab": [
       {
-        "word": "efficiency",
-        "meaning": "효율"
+        "word": "domestic",
+        "meaning": "가정의, 국내의"
       },
       {
         "word": "minimize",
@@ -9389,9 +9389,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "It is health that is real wealth, and not pieces of gold and silver.",
-        "ko": "진정한 부는 금이나 은이 아니라 건강이다.",
-        "note": "'It is A that ~'은 강조 구문이야. 'health'를 강조하기 위해 문장 구조를 바꾼 것으로, 원래는 'Health is real wealth'야."
+        "en": "Thomas Mann's Magic Mountain turns a tuberculosis sanatorium into a place where illness paradoxically teaches the meaning of health and vitality.",
+        "ko": "토마스 만의 '마의 산'은 결핵 요양원을 병이 역설적으로 건강과 활력의 의미를 가르치는 장소로 바꾼다.",
+        "note": "'paradoxically teaches'에서 paradoxically는 '역설적으로'야. paradox(역설)의 부사형이야."
       },
       {
         "source": "명화",
@@ -9417,8 +9417,8 @@
     ],
     "vocab": [
       {
-        "word": "emerge",
-        "meaning": "나타나다, 나오다"
+        "word": "vitality",
+        "meaning": "활력"
       },
       {
         "word": "imbalance",
@@ -9440,9 +9440,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Wherever the art of medicine is loved, there is also a love of humanity.",
-        "ko": "의학이라는 기술이 사랑받는 곳에는 인류에 대한 사랑도 있다.",
-        "note": "'wherever ~'는 '~하는 곳은 어디에나'라는 뜻의 복합 관계부사야. where와 달리 '어디든지'라는 보편성을 강조해."
+        "en": "Sinclair Lewis's Arrowsmith portrays a young doctor torn between the pure pursuit of medical science and the compromises demanded by the real world.",
+        "ko": "싱클레어 루이스의 '아로우스미스'는 의학의 순수한 탐구와 현실 세계가 요구하는 타협 사이에서 찢긴 젊은 의사를 묘사한다.",
+        "note": "'torn between A and B'는 'A와 B 사이에서 찢긴'이야. pursuit는 '추구'라는 명사야."
       },
       {
         "source": "명화",
@@ -9468,8 +9468,8 @@
     ],
     "vocab": [
       {
-        "word": "antibiotic",
-        "meaning": "항생제"
+        "word": "pursuit",
+        "meaning": "추구"
       },
       {
         "word": "humanity",
@@ -9542,9 +9542,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Sleep is the golden chain that ties health and our bodies together.",
-        "ko": "수면은 건강과 우리의 몸을 하나로 묶는 황금 사슬이다.",
-        "note": "'that ties A and B together'에서 that은 관계대명사, tie together는 '하나로 묶다'라는 구동사야. 비유적 표현에서 관계대명사절이 주어를 풍부하게 설명해줘."
+        "en": "Shakespeare's King Lear strips a powerful monarch of everything — crown, home, sanity — until only raw humanity remains in the howling storm.",
+        "ko": "셰익스피어의 '리어왕'은 강력한 군주에게서 왕관, 집, 이성까지 모든 것을 벗겨, 울부짖는 폭풍 속에 날것의 인간성만 남긴다.",
+        "note": "'strips A of B'는 'A에게서 B를 벗기다'야. raw는 '날것의/가공하지 않은'이라는 형용사야."
       },
       {
         "source": "명화",
@@ -9570,8 +9570,8 @@
     ],
     "vocab": [
       {
-        "word": "siesta",
-        "meaning": "낮잠 (시에스타)"
+        "word": "sanity",
+        "meaning": "이성, 정신 건강"
       },
       {
         "word": "productivity",
@@ -9746,9 +9746,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Happiness is not something ready-made. It comes from your own actions.",
-        "ko": "행복은 이미 만들어져 있는 것이 아니다. 행복은 네 자신의 행동에서 온다.",
-        "note": "'something ready-made'에서 형용사(ready-made)가 -thing 뒤에 오는 것에 주목해. something, anything, nothing 뒤에는 형용사가 뒤에서 수식해."
+        "en": "Voltaire's Candide travels the world searching for happiness, only to conclude that the best we can do is tend our own garden.",
+        "ko": "볼테르의 캔디드는 행복을 찾아 세계를 여행하지만, 우리가 할 수 있는 최선은 자기 정원을 가꾸는 것이라는 결론에 이른다.",
+        "note": "'tend our own garden'은 '자기 정원을 가꾸다'라는 유명한 비유야. tend는 '돌보다/가꾸다'라는 뜻이야."
       },
       {
         "source": "명화",
@@ -9774,8 +9774,8 @@
     ],
     "vocab": [
       {
-        "word": "gratitude",
-        "meaning": "감사"
+        "word": "tend",
+        "meaning": "돌보다, 가꾸다"
       },
       {
         "word": "well-being",
@@ -9797,9 +9797,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Anxiety does not empty tomorrow of its sorrows, but only empties today of its strength.",
-        "ko": "불안은 내일의 슬픔을 없애지 못하고, 오늘의 힘만 빼앗을 뿐이다.",
-        "note": "'empty A of B'는 'A에서 B를 비우다/빼앗다'라는 뜻이야. 같은 구조를 반복하면서 대조를 만들어 메시지를 강화하는 기법이야."
+        "en": "Kafka's The Trial follows a man arrested for an unknown crime, trapped in a system of anxiety where guilt is assumed but never explained.",
+        "ko": "카프카의 '심판'은 알 수 없는 범죄로 체포된 남자를 따라가며, 유죄가 가정되지만 결코 설명되지 않는 불안의 체계에 갇힌다.",
+        "note": "'guilt is assumed but never explained'는 '유죄가 가정되지만 결코 설명되지 않는'이야. assume은 '가정하다/추정하다'야."
       },
       {
         "source": "명화",
@@ -9825,8 +9825,8 @@
     ],
     "vocab": [
       {
-        "word": "amygdala",
-        "meaning": "편도체 (뇌 부위)"
+        "word": "anxiety",
+        "meaning": "불안"
       },
       {
         "word": "perceive",
@@ -10154,9 +10154,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "No one can make you feel inferior without your consent.",
-        "ko": "당신의 동의 없이는 아무도 당신을 열등하게 느끼게 할 수 없다.",
-        "note": "'make + 목적어 + feel + 형용사'는 '~를 ~하게 느끼게 만들다'라는 사역 표현이야. 'without your consent'는 '당신의 동의 없이'라는 조건을 나타내."
+        "en": "Virginia Woolf's To the Lighthouse builds self-respect through the quiet inner journeys of a family, where even silence speaks volumes.",
+        "ko": "버지니아 울프의 '등대로'는 가족의 조용한 내면 여정을 통해 자존감을 쌓으며, 침묵조차 많은 것을 말해준다.",
+        "note": "'speaks volumes'는 '많은 것을 말하다'라는 관용 표현이야. volume은 '양/권'이라는 뜻이야."
       },
       {
         "source": "명화",
@@ -10182,8 +10182,8 @@
     ],
     "vocab": [
       {
-        "word": "consent",
-        "meaning": "동의"
+        "word": "self-respect",
+        "meaning": "자존감"
       },
       {
         "word": "self-esteem",
@@ -10205,9 +10205,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "It is not enough to have a good mind; the main thing is to use it well.",
-        "ko": "좋은 머리를 갖는 것만으로는 충분하지 않다. 중요한 것은 그것을 잘 사용하는 것이다.",
-        "note": "'It is not enough to ~'는 '~하는 것만으로는 충분하지 않다'라는 뜻이야. 뒤에 'the main thing is to ~'로 진짜 중요한 걸 강조하는 패턴이야."
+        "en": "Jack London's Martin Eden burns with the motivation to become a writer, teaching himself through sheer willpower and sleepless nights of reading.",
+        "ko": "잭 런던의 마르탱 에덴은 작가가 되겠다는 동기로 불타오르며, 순전한 의지력과 잠 못 이루는 독서의 밤으로 스스로를 가르친다.",
+        "note": "'burns with the motivation'은 '동기로 불타오르다'야. sheer willpower는 '순전한 의지력'이야."
       },
       {
         "source": "명화",
@@ -10234,7 +10234,7 @@
     "vocab": [
       {
         "word": "motivation",
-        "meaning": "동기"
+        "meaning": "동기, 의욕"
       },
       {
         "word": "brushstroke",
@@ -10358,9 +10358,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "The successful warrior is the average man, with laser-like focus.",
-        "ko": "성공한 전사는 레이저 같은 집중력을 가진 평범한 사람이다.",
-        "note": "'with + 명사'가 뒤에서 앞의 명사를 꾸며주고 있어. '~을 가진'이라는 뜻으로, 형용사구처럼 쓰이는 거야."
+        "en": "Zweig's Chess Story shows a man whose extreme concentration during solitary confinement transforms into both genius and madness.",
+        "ko": "츠바이크의 '체스 이야기'는 독방 감금 중 극도의 집중이 천재성과 광기 모두로 변하는 남자를 보여준다.",
+        "note": "'solitary confinement'는 '독방 감금'이야. solitary는 '홀로의/고독한', confinement는 '감금'이야."
       },
       {
         "source": "명화",
@@ -10386,7 +10386,7 @@
     ],
     "vocab": [
       {
-        "word": "focus",
+        "word": "concentration",
         "meaning": "집중"
       },
       {
@@ -10409,9 +10409,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Creativity is intelligence having fun.",
-        "ko": "창의성은 지능이 즐기는 것이다.",
-        "note": "짧지만 구조가 재밌는 문장이야. 'intelligence having fun'에서 having은 현재분사로 intelligence를 꾸며줘. '즐기고 있는 지능'이라는 뜻이야."
+        "en": "Mérimée's Carmen creates a character so fiercely original that she inspired one of the most famous operas ever composed.",
+        "ko": "메리메의 '카르멘'은 너무나 치열하게 독창적인 인물을 창조하여, 역대 가장 유명한 오페라 중 하나에 영감을 주었다.",
+        "note": "'so fiercely original that ~'은 'so ~ that' 구문으로 '너무 ~해서 ~하다'야. compose는 '작곡하다'야."
       },
       {
         "source": "명화",
@@ -10437,8 +10437,8 @@
     ],
     "vocab": [
       {
-        "word": "creativity",
-        "meaning": "창의성"
+        "word": "fierce",
+        "meaning": "치열한, 격렬한"
       },
       {
         "word": "rearrange",
@@ -10664,9 +10664,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "In any moment of decision, the best thing you can do is the right thing. The worst thing you can do is nothing.",
-        "ko": "결정의 순간에, 당신이 할 수 있는 최선은 옳은 일을 하는 것이다. 최악은 아무것도 하지 않는 것이다.",
-        "note": "'the best thing you can do'에서 thing 뒤에 관계대명사 that이 생략돼 있어. 'you can do'가 thing을 꾸며서 '당신이 할 수 있는 최선의 것'이 돼."
+        "en": "In Scott's Ivanhoe, a knight must make a decisive choice between loyalty to his father and loyalty to his king in the heat of battle.",
+        "ko": "스콧의 '아이반호'에서 한 기사는 전투의 열기 속에서 아버지에 대한 충성과 왕에 대한 충성 사이에서 결단을 내려야 한다.",
+        "note": "'in the heat of battle'은 '전투의 열기 속에서'라는 관용 표현이야. decisive는 '결정적인/결단력 있는'이야."
       },
       {
         "source": "명화",
@@ -10692,8 +10692,8 @@
     ],
     "vocab": [
       {
-        "word": "decision",
-        "meaning": "결정, 결단"
+        "word": "decisive",
+        "meaning": "결정적인"
       },
       {
         "word": "bold",
@@ -12602,9 +12602,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Everybody should learn to program a computer, because it teaches you how to think.",
-        "ko": "모든 사람은 컴퓨터 프로그래밍을 배워야 한다, 왜냐하면 그것이 생각하는 법을 가르쳐 주기 때문이다.",
-        "note": "'learn to + 동사'는 '~하는 법을 배우다'야. because절이 이유를 설명하고, 'how to think'는 '생각하는 방법'."
+        "en": "Wiener's Cybernetics revealed that machines and living beings share the same feedback principle — the foundation of all modern coding and computing.",
+        "ko": "위너의 '사이버네틱스'는 기계와 생명체가 같은 피드백 원리를 공유함을 밝혔으며, 이것이 모든 현대 코딩과 컴퓨팅의 토대이다.",
+        "note": "'share the same principle'은 '같은 원리를 공유하다'야. foundation은 '토대/기반'이야."
       },
       {
         "source": "명화",
@@ -12630,8 +12630,8 @@
     ],
     "vocab": [
       {
-        "word": "program",
-        "meaning": "프로그래밍하다"
+        "word": "feedback",
+        "meaning": "피드백, 되먹임"
       },
       {
         "word": "analytical",
@@ -12857,9 +12857,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Good design is as little design as possible — less, but better, because it concentrates on the essential aspects.",
-        "ko": "좋은 설계는 가능한 한 적은 설계이다 — 적지만 더 낫다, 왜냐하면 본질적인 측면에 집중하기 때문이다.",
-        "note": "'as little ~ as possible'은 '가능한 한 적은 ~'이라는 뜻이야. 'concentrates on ~'은 '~에 집중하다'."
+        "en": "Hemingway's For Whom the Bell Tolls was designed around the idea that no one's death is separate from our own — the bell tolls for all of us.",
+        "ko": "헤밍웨이의 '누구를 위하여 종은 울리나'는 누구의 죽음도 우리 자신과 분리되지 않는다는 생각을 중심으로 설계되었다 — 종은 우리 모두를 위해 울린다.",
+        "note": "'no one's death is separate from'은 '누구의 죽음도 ~와 분리되지 않는다'야. toll은 '(종이) 울리다'야."
       },
       {
         "source": "명화",
@@ -12885,8 +12885,8 @@
     ],
     "vocab": [
       {
-        "word": "essential",
-        "meaning": "본질적인, 필수적인"
+        "word": "toll",
+        "meaning": "(종을) 울리다"
       },
       {
         "word": "unified",
@@ -12908,9 +12908,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "There are always three speeches for every one you actually gave — the one you practiced, the one you gave, and the one you wish you had given.",
-        "ko": "실제로 한 발표마다 항상 세 개의 발표가 있다 — 연습한 것, 실제로 한 것, 그리고 했으면 좋았을 것.",
-        "note": "'you wish you had given'에서 wish + 과거완료는 과거에 대한 후회를 나타내는 가정법이야. '했으면 좋았을 텐데'라는 뜻."
+        "en": "Zola's J'accuse was a public letter so powerful that it changed French history, proving that a single voice can announce truth to an entire nation.",
+        "ko": "졸라의 '나는 고발한다'는 프랑스 역사를 바꿀 만큼 강력한 공개서한으로, 하나의 목소리가 온 나라에 진실을 발표할 수 있음을 증명했다.",
+        "note": "'a single voice can announce truth'는 '하나의 목소리가 진실을 발표할 수 있다'야. announce는 '발표하다/알리다'야."
       },
       {
         "source": "명화",
@@ -12936,8 +12936,8 @@
     ],
     "vocab": [
       {
-        "word": "rhetoric",
-        "meaning": "수사학"
+        "word": "announce",
+        "meaning": "발표하다"
       },
       {
         "word": "vivid",
@@ -13418,9 +13418,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "In my end is my beginning.",
-        "ko": "나의 끝 속에 나의 시작이 있다.",
-        "note": "'In my end is my beginning'은 도치 구문이야. 원래 어순은 'My beginning is in my end'인데, 'In my end'를 앞에 놓아 강조했어."
+        "en": "Pushkin's The Captain's Daughter ends with a scene of grace and closure, where mercy from the empress brings a turbulent story to its peaceful conclusion.",
+        "ko": "푸시킨의 '대위의 딸'은 은혜와 마무리의 장면으로 끝나며, 여제의 자비가 격동의 이야기를 평화로운 결말로 이끈다.",
+        "note": "'brings A to its conclusion'은 'A를 결말로 이끌다'야. turbulent는 '격동의/혼란스러운'이야."
       },
       {
         "source": "명화",
@@ -13446,8 +13446,8 @@
     ],
     "vocab": [
       {
-        "word": "dusk",
-        "meaning": "황혼"
+        "word": "conclusion",
+        "meaning": "결말, 결론"
       },
       {
         "word": "poetic",
@@ -13877,9 +13877,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Sometimes the hardest part of the journey is believing you're worthy of the trip.",
-        "ko": "때로는 여정에서 가장 어려운 부분은 자신이 그 여행을 할 자격이 있다고 믿는 것이다.",
-        "note": "'believing you're worthy of ~'에서 worthy of는 '~할 자격이 있는'이라는 뜻이야. be worthy of + 명사 패턴을 기억해둬."
+        "en": "Dostoevsky's Demons depicts how ideological separation from reality can turn young idealists into agents of destruction.",
+        "ko": "도스토옙스키의 '악령'은 현실로부터의 이념적 분리가 어떻게 젊은 이상주의자들을 파괴의 대리인으로 바꿀 수 있는지를 묘사한다.",
+        "note": "'agents of destruction'은 '파괴의 대리인'이야. ideological은 ideology(이념)의 형용사형이야."
       },
       {
         "source": "명화",
@@ -13905,8 +13905,8 @@
     ],
     "vocab": [
       {
-        "word": "strip",
-        "meaning": "벗기다, 제거하다"
+        "word": "ideology",
+        "meaning": "이념, 사상"
       },
       {
         "word": "trace",
@@ -14030,9 +14030,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "The human spirit is stronger than anything that can happen to it.",
-        "ko": "인간의 정신은 그에게 일어날 수 있는 어떤 일보다 강하다.",
-        "note": "'stronger than anything that can happen to it'에서 anything that ~은 '~하는 어떤 것이든'이라는 뜻이야. than 뒤에 비교 대상이 와."
+        "en": "Yi Gwang-su's The Heartless follows characters who overcome feudal traditions to embrace modern education and individual freedom.",
+        "ko": "이광수의 '무정'은 봉건적 전통을 극복하고 근대 교육과 개인의 자유를 포용하는 인물들을 따라간다.",
+        "note": "'overcome feudal traditions'는 '봉건적 전통을 극복하다'야. feudal은 '봉건적인'이라는 형용사야."
       },
       {
         "source": "명화",
@@ -15662,9 +15662,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Two roads diverged in a wood, and I — I took the one less traveled by, and that has made all the difference.",
-        "ko": "숲속에서 두 갈래 길이 나뉘었고, 나는 — 나는 덜 다닌 길을 택했으며, 그것이 모든 차이를 만들었다.",
-        "note": "'diverged'는 '갈라졌다'라는 뜻이야. 'the one less traveled by'에서 one은 road를 대신하고, less traveled는 '덜 다닌'이라는 과거분사 수식이야."
+        "en": "Chekhov's Cherry Orchard captures the moment a noble family watches helplessly as their beloved estate is divided and sold to a new social class.",
+        "ko": "체호프의 '벚꽃동산'은 귀족 가문이 사랑하는 영지가 새로운 사회 계급에 분할 매각되는 것을 무력하게 지켜보는 순간을 포착한다.",
+        "note": "'watches helplessly'는 '무력하게 지켜보다'야. estate는 '영지/재산'이야."
       },
       {
         "source": "명화",
@@ -15690,8 +15690,8 @@
     ],
     "vocab": [
       {
-        "word": "diverge",
-        "meaning": "갈라지다"
+        "word": "estate",
+        "meaning": "영지, 재산"
       },
       {
         "word": "dot",
@@ -15815,9 +15815,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Fashion is a form of ugliness so intolerable that we have to alter it every six months.",
-        "ko": "유행이란 너무 견딜 수 없는 추함의 형태라 6개월마다 바꿔야 한다.",
-        "note": "'so + 형용사 + that ~'은 '너무 ~해서 …하다'라는 결과 구문이야. 'have to alter it'에서 alter는 '바꾸다'라는 뜻이야."
+        "en": "Thackeray's Vanity Fair follows two women navigating a society where reputation is currency and every relationship is fashioned by self-interest.",
+        "ko": "새커리의 '허영의 시장'은 평판이 화폐이고 모든 관계가 이기심에 의해 형성되는 사회를 헤쳐 나가는 두 여자를 따라간다.",
+        "note": "'reputation is currency'는 '평판이 화폐이다'라는 비유야. navigate는 '헤쳐 나가다/항해하다'야."
       },
       {
         "source": "명화",
@@ -15843,8 +15843,8 @@
     ],
     "vocab": [
       {
-        "word": "alter",
-        "meaning": "바꾸다"
+        "word": "reputation",
+        "meaning": "평판, 명성"
       },
       {
         "word": "dominant",
@@ -15917,9 +15917,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.",
-        "ko": "살아남는 것은 가장 강한 종도, 가장 똑똑한 종도 아닌, 변화에 가장 잘 반응하는 종이다.",
-        "note": "'It is ~ that ...'는 강조 구문이야. 'not A, nor B, but C'는 'A도 B도 아니라 C'라는 3단 대비 구조야."
+        "en": "Ovid's Metamorphoses tells of gods and mortals constantly changing form, celebrating the flexible, ever-shifting nature of all existence.",
+        "ko": "오비디우스의 '변신 이야기'는 끊임없이 형태를 바꾸는 신과 인간을 이야기하며, 모든 존재의 유연하고 끊임없이 변화하는 본성을 찬양한다.",
+        "note": "'ever-shifting nature'는 '끊임없이 변화하는 본성'이야. mortal은 '인간/필멸자'라는 뜻이야."
       },
       {
         "source": "명화",
@@ -15945,8 +15945,8 @@
     ],
     "vocab": [
       {
-        "word": "flexible",
-        "meaning": "유연한"
+        "word": "mortal",
+        "meaning": "인간, 필멸자"
       },
       {
         "word": "reinvent",
@@ -16121,9 +16121,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Facts do not cease to exist because they are ignored.",
-        "ko": "사실은 무시된다고 해서 존재하지 않는 것이 아니다.",
-        "note": "'do not cease to exist'에서 cease to는 '~하기를 멈추다'야. 'because they are ignored'는 이유절로 수동태가 쓰였어."
+        "en": "Dante's Divine Comedy journeys through Hell, Purgatory, and Paradise to prove that love is the force that moves the sun and the stars.",
+        "ko": "단테의 '신곡'은 지옥, 연옥, 천국을 여행하며 사랑이 태양과 별을 움직이는 힘임을 증명한다.",
+        "note": "'the force that moves'는 '움직이는 힘'이야. purgatory는 '연옥'으로, 천국과 지옥 사이의 정화 장소야."
       },
       {
         "source": "명화",
@@ -16149,8 +16149,8 @@
     ],
     "vocab": [
       {
-        "word": "proof",
-        "meaning": "증거"
+        "word": "purgatory",
+        "meaning": "연옥"
       },
       {
         "word": "prosecution",
@@ -16478,9 +16478,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "No man is an island, entire of itself; every man is a piece of the continent, a part of the main.",
-        "ko": "어떤 사람도 그 자체로 완전한 섬이 아니다. 모든 사람은 대륙의 한 조각이며, 본토의 일부이다.",
-        "note": "'entire of itself'는 '그 자체로 완전한'이라는 뜻이야. 이 문장은 존 던의 시로, 사람은 누구나 서로 연결되어 있다는 메시지를 담고 있어."
+        "en": "George Eliot's Middlemarch weaves together dozens of lives in a small town, showing how every individual choice connects to the fate of the whole community.",
+        "ko": "조지 엘리엇의 '미들마치'는 작은 마을의 수십 명의 삶을 엮어, 모든 개인의 선택이 공동체 전체의 운명과 연결됨을 보여준다.",
+        "note": "'weaves together'는 '엮다/짜 맞추다'야. weave는 '직조하다'에서 비유적으로 확장됐어."
       },
       {
         "source": "명화",
@@ -16506,8 +16506,8 @@
     ],
     "vocab": [
       {
-        "word": "continent",
-        "meaning": "대륙"
+        "word": "community",
+        "meaning": "공동체"
       },
       {
         "word": "unity",
@@ -16835,9 +16835,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Out of the ashes of despair, hope can always be rebuilt if one has the courage to begin again.",
-        "ko": "절망의 잿더미 속에서도, 다시 시작할 용기가 있다면 희망은 언제나 재건될 수 있다.",
-        "note": "'out of the ashes of ~'는 '~의 잿더미에서'라는 관용 표현이야. 파괴 후 새로운 시작을 비유할 때 자주 쓰여."
+        "en": "Hugo's Hunchback of Notre-Dame turned a crumbling cathedral into a beloved symbol, proving that art can rebuild what time has nearly destroyed.",
+        "ko": "위고의 '노트르담의 꼽추'는 무너져가는 대성당을 사랑받는 상징으로 바꾸어, 예술이 시간이 거의 파괴한 것을 재건할 수 있음을 증명했다.",
+        "note": "'what time has nearly destroyed'에서 what은 관계대명사 '~한 것'이야. crumbling은 '무너져가는'이야."
       },
       {
         "source": "명화",
@@ -16863,8 +16863,8 @@
     ],
     "vocab": [
       {
-        "word": "despair",
-        "meaning": "절망"
+        "word": "cathedral",
+        "meaning": "대성당"
       },
       {
         "word": "faithfully",
@@ -17243,9 +17243,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "The hardest part of any journey is not the departure but the landing — knowing when to stop and where to rest.",
-        "ko": "여행에서 가장 어려운 부분은 출발이 아니라 착륙이다 — 언제 멈추고 어디서 쉴지 아는 것이다.",
-        "note": "'knowing when to ~ and where to ~'는 '언제 ~하고 어디서 ~할지 아는 것'이야. '의문사 + to부정사'는 명사 역할을 해."
+        "en": "Hemingway's A Farewell to Arms ends with a soldier walking alone in the rain after losing everything — love, war, and the hope of a safe landing.",
+        "ko": "헤밍웨이의 '무기여 잘 있거라'는 사랑, 전쟁, 안전한 착륙의 희망까지 모든 것을 잃은 뒤 빗속을 홀로 걸어가는 군인으로 끝난다.",
+        "note": "'walking alone in the rain'은 '빗속을 홀로 걸어가며'라는 분사구문이야. farewell은 '작별'이야."
       },
       {
         "source": "명화",
@@ -17271,8 +17271,8 @@
     ],
     "vocab": [
       {
-        "word": "departure",
-        "meaning": "출발"
+        "word": "farewell",
+        "meaning": "작별, 안녕"
       },
       {
         "word": "glide",
@@ -17396,9 +17396,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Great things are done by a series of small things brought together.",
-        "ko": "위대한 일은 작은 것들이 함께 모여 이루어진다.",
-        "note": "'brought together'는 '함께 모인'이라는 뜻의 과거분사 수식이야. bring together는 '모으다, 합치다'라는 뜻의 구동사야."
+        "en": "Maeterlinck's Life of the Bee observes how thousands of individual bees merge into a single superorganism, each one sacrificing for the survival of the whole.",
+        "ko": "마테를링크의 '벌집의 생활'은 수천 마리의 개별 벌이 하나의 초유기체로 합류하여, 전체의 생존을 위해 각자 희생하는 모습을 관찰한다.",
+        "note": "'merge into'는 '~으로 합류하다/합쳐지다'야. superorganism은 '초유기체'로, 개체가 모여 하나처럼 행동하는 집단이야."
       },
       {
         "source": "명화",
@@ -17702,9 +17702,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "A picture is worth a thousand words, but the right words can paint a picture no brush could ever create.",
-        "ko": "한 장의 그림은 천 마디 말의 가치가 있지만, 적절한 말은 어떤 붓도 만들 수 없는 그림을 그릴 수 있다.",
-        "note": "'be worth + 명사'는 '~의 가치가 있다'라는 뜻이야. 'It's worth the effort.'는 '그것은 노력할 가치가 있다.'라는 뜻이야."
+        "en": "Tolstoy's What Is Art? challenges us to rethink whether a painting's value lies in its technique or in the universal emotion it communicates to every viewer.",
+        "ko": "톨스토이의 '예술론'은 그림의 가치가 기법에 있는지, 아니면 모든 관람객에게 전달하는 보편적 감정에 있는지 다시 생각하게 한다.",
+        "note": "'challenges us to rethink'는 '우리에게 다시 생각하게 한다'야. universal emotion은 '보편적 감정'이야."
       },
       {
         "source": "명화",
@@ -17730,8 +17730,8 @@
     ],
     "vocab": [
       {
-        "word": "translucent",
-        "meaning": "반투명한"
+        "word": "universal",
+        "meaning": "보편적인"
       },
       {
         "word": "sacred",
@@ -18059,9 +18059,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Sherlock Holmes could recall the tiniest details because he trained his memory like a muscle.",
-        "ko": "셜록 홈즈는 기억력을 근육처럼 훈련했기 때문에 아주 사소한 세부 사항도 떠올릴 수 있었다.",
-        "note": "'could recall'은 '떠올릴 수 있었다'라는 과거의 능력 표현이야. 'like a muscle'은 직유법으로 기억력을 근육에 비유한 거야."
+        "en": "Bradbury's Fahrenheit 451 imagines a world where books are burned, and the only way to preserve knowledge is to memorize entire novels by heart.",
+        "ko": "브래드버리의 '화씨 451'은 책이 불태워지는 세계를 상상하며, 지식을 보존하는 유일한 방법은 소설 전체를 암기하는 것이다.",
+        "note": "'by heart'는 '암기하여'라는 관용 표현이야. preserve는 '보존하다'야."
       },
       {
         "source": "명화",
@@ -18087,8 +18087,8 @@
     ],
     "vocab": [
       {
-        "word": "recall",
-        "meaning": "떠올리다, 회상하다"
+        "word": "memorize",
+        "meaning": "암기하다"
       },
       {
         "word": "proportion",
@@ -18161,9 +18161,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "In The Good Earth, the farmer Wang Lung believed that as long as he had his land, he had everything.",
-        "ko": "'대지'에서 농부 왕룽은 땅만 있으면 모든 것을 가진 거라고 믿었다.",
-        "note": "'as long as ~'는 '~하는 한'이라는 조건의 접속사야. 'he had his land'처럼 단순한 조건문을 만들 때 자주 써."
+        "en": "Hašek's Good Soldier Švejk uses absurd humor to survive the madness of war, proving that laughter can be the most fertile soil for resistance.",
+        "ko": "하셰크의 '좋은 병사 슈베이크'는 부조리한 유머로 전쟁의 광기를 버텨내며, 웃음이 저항을 위한 가장 비옥한 토양이 될 수 있음을 증명한다.",
+        "note": "'the most fertile soil for'는 '~를 위한 가장 비옥한 토양'이야. fertile은 '비옥한'이라는 형용사야."
       },
       {
         "source": "명화",
@@ -18189,8 +18189,8 @@
     ],
     "vocab": [
       {
-        "word": "soil",
-        "meaning": "토양"
+        "word": "fertile",
+        "meaning": "비옥한"
       },
       {
         "word": "fertile",
@@ -18212,9 +18212,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Every great journey begins with a single step, just as every mighty oak starts as a tiny acorn.",
-        "ko": "모든 위대한 여정은 한 걸음에서 시작되듯, 모든 거대한 참나무도 작은 도토리에서 시작된다.",
-        "note": "'just as ~'는 '~와 마찬가지로'라는 비유 접속사야. 두 상황을 나란히 놓아 비교하는 구조야."
+        "en": "Čapek's The Gardener's Year follows the seasons with gentle humor, reminding us that planting a seed is the simplest and most hopeful act a person can perform.",
+        "ko": "차페크의 '정원사의 1년'은 부드러운 유머로 계절을 따라가며, 씨앗을 심는 것이 사람이 할 수 있는 가장 단순하고 희망찬 행위임을 상기시킨다.",
+        "note": "'the simplest and most hopeful act'는 '가장 단순하고 희망찬 행위'야. perform은 '수행하다/행하다'야."
       },
       {
         "source": "명화",
