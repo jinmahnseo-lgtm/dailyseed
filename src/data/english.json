@@ -5775,9 +5775,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Böcklin's Isle of the Dead rises mysteriously from a dark, still sea, its cypress trees guarding secrets that lie beneath the waves.",
-        "ko": "뵈클린의 '죽음의 섬'은 어둡고 고요한 바다에서 신비롭게 솟아오르며, 사이프러스 나무들이 파도 아래 잠든 비밀을 지키고 있다.",
-        "note": "'rises mysteriously from'은 '~에서 신비롭게 솟아오르다'야. 'lie beneath the waves'는 '파도 아래 놓여 있다'야."
+        "en": "Homer's Gulf Stream shows a lone man adrift on a broken boat, surrounded by sharks, yet his calm gaze reveals defiance against the merciless sea.",
+        "ko": "호머의 '멕시코만류'는 부서진 배 위에 홀로 표류하는 남자를 보여주며, 상어에 둘러싸여 있지만 그의 담담한 시선이 무자비한 바다에 대한 저항을 드러낸다.",
+        "note":"'adrift on'은 '~위에 표류하는'이야. adrift는 a(~상태의) + drift(떠돌다)의 합성어야. defiance는 '저항/반항'이야."
       },
       {
         "source": "세계문화",
@@ -5800,8 +5800,8 @@
         "meaning": "쫓다"
       },
       {
-        "word": "raw",
-        "meaning": "거친, 가공하지 않은"
+        "word": "adrift",
+        "meaning": "표류하는"
       },
       {
         "word": "navigator",
