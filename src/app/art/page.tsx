@@ -60,7 +60,7 @@ export default function ArtPage() {
                 rel="noopener noreferrer"
                 className="text-[10px] text-gray-400 underline hover:text-gray-500 whitespace-nowrap ml-2"
               >
-                출처: {item.source_label || "Wikipedia"}
+                출처
               </a>
             )}
           </div>
