@@ -29,8 +29,8 @@ export default function DayNavigator({ title, emoji, topicKey }: DayNavigatorPro
   const [showLogin, setShowLogin] = useState(false);
 
   const currentTopicIdx = TOPICS.findIndex((t) => t.key === topicKey);
-  const prevTopic = currentTopicIdx > 0 ? TOPICS[currentTopicIdx - 1] : null;
-  const nextTopic = currentTopicIdx >= 0 && currentTopicIdx < TOPICS.length - 1 ? TOPICS[currentTopicIdx + 1] : null;
+  const prevTopic = currentTopicIdx >= 0 ? TOPICS[(currentTopicIdx - 1 + TOPICS.length) % TOPICS.length] : null;
+  const nextTopic = currentTopicIdx >= 0 ? TOPICS[(currentTopicIdx + 1) % TOPICS.length] : null;
 
   const touchRef = useRef<{ x: number; y: number } | null>(null);
 
@@ -80,11 +80,11 @@ export default function DayNavigator({ title, emoji, topicKey }: DayNavigatorPro
         )}
         {prevTopic ? (
           <a href={prevTopic.href} className="text-gray-400 hover:text-gray-600 text-3xl font-bold transition-colors mr-2" title={prevTopic.label}>‹</a>
-        ) : topicKey ? <span className="w-6" /> : null}
+        ) : null}
         <h1 className="text-3xl font-bold tracking-tight">{emoji} {title}</h1>
         {nextTopic ? (
           <a href={nextTopic.href} className="text-gray-400 hover:text-gray-600 text-3xl font-bold transition-colors ml-2" title={nextTopic.label}>›</a>
-        ) : topicKey ? <span className="w-6" /> : null}
+        ) : null}
       </div>
 
       {/* Day 내비게이션: « ‹ Day 42 — 용기 › » */}
