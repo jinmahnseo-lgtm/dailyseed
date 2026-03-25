@@ -1,17 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import {
-  getMissionData,
-  isReportSent,
-  markReportSent,
-  getStudentName,
-  setStudentName as saveStudentName,
-  getParentEmail,
-  setParentEmail as saveParentEmail,
-} from "@/hooks/useMission";
+import { useMissionContext } from "@/contexts/MissionContext";
 import { useAuthContext } from "@/contexts/AuthContext";
-import { syncReportToSupabase } from "@/lib/sync";
 import { supabase } from "@/lib/supabase";
 import newsData from "@/data/news.json";
 import classicsData from "@/data/classics.json";
@@ -52,6 +43,7 @@ type Props = {
 
 export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) {
   const { user, profile } = useAuthContext();
+  const { getMissionData, isReportSent, markReportSent } = useMissionContext();
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
   const [studentName, setName] = useState("");
@@ -62,9 +54,7 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
 
   useEffect(() => {
     setSent(isReportSent(dayIndex));
-    // Use profile display_name if logged in, otherwise localStorage
-    setName(profile?.display_name || getStudentName());
-    setEmail(getParentEmail());
+    setName(profile?.display_name || "");
 
     // Check for linked parent (teacher/admin)
     if (user?.id && supabase) {
@@ -93,7 +83,7 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
         }
       })();
     }
-  }, [dayIndex, profile, user]);
+  }, [dayIndex, profile, user, isReportSent]);
 
   const missionData = MISSION_KEYS.map((key) => {
     const answer = getMissionData(key, dayIndex);
@@ -117,10 +107,6 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
     setError("");
     setSending(true);
 
-    // Save for next time
-    saveStudentName(studentName.trim());
-    saveParentEmail(parentEmail.trim());
-
     const payload = {
       studentName: studentName.trim(),
       parentEmail: parentEmail.trim(),
@@ -137,13 +123,10 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
       });
       const result = await res.json();
       if (!result.success) throw new Error(result.error || "Send failed");
-      markReportSent(dayIndex);
-      setSent(true);
 
-      // Sync report to Supabase (background)
-      if (user?.id) {
-        syncReportToSupabase(user.id, String(dayIndex), parentEmail.trim()).catch(() => {});
-      }
+      // DB에 리포트 기록 + optimistic UI
+      await markReportSent(dayIndex, parentEmail.trim());
+      setSent(true);
     } catch {
       setError("전송 실패. 다시 시도해줘!");
     } finally {

@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 
 import { useDayContext } from "@/contexts/DayContext";
-import { isMissionDone, setCurrentUserId } from "@/hooks/useMission";
+import { useMissionContext } from "@/contexts/MissionContext";
 import { useAuthContext } from "@/contexts/AuthContext";
-import { pullMissionsFromSupabase, migrateLocalStorageToSupabase, flushSyncQueue } from "@/lib/sync";
 import MissionComplete from "@/components/MissionComplete";
 import LoginModal from "@/components/LoginModal";
 import { notices } from "@/data/notices";
@@ -109,8 +108,7 @@ export default function Home() {
     dayIndex, theme, dayNumber, canPrev, canNext,
     goPrev, goNext, goPrev7, goNext7, goToday, accessToast,
   } = useDayContext();
-  const [missions, setMissions] = useState<Record<string, boolean>>({});
-  const [syncTrigger, setSyncTrigger] = useState(0);
+  const { isMissionDone } = useMissionContext();
   const [showLogin, setShowLogin] = useState(false);
   const isLoggedIn = !!user;
 
@@ -122,46 +120,11 @@ export default function Home() {
     setHasNewNotice(latestNoticeDate > lastSeen);
   }, [latestNoticeDate]);
 
-  // Keep useMission's global userId in sync
-  useEffect(() => {
-    setCurrentUserId(user?.id || null);
-  }, [user]);
-
-  const refreshMissions = useCallback(() => {
-    setMissions({
-      news: isMissionDone("news", dayIndex),
-      classic: isMissionDone("classic", dayIndex),
-      art: isMissionDone("art", dayIndex),
-      world: isMissionDone("world", dayIndex),
-      why: isMissionDone("why", dayIndex),
-      english: isMissionDone("english", dayIndex),
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [dayIndex, syncTrigger]);
-
-  // On login: migrate(로컬→DB) → pull(DB→로컬 덮어쓰기) → flush(오프라인 큐)
-  useEffect(() => {
-    if (user?.id) {
-      migrateLocalStorageToSupabase(user.id)
-        .then(() => pullMissionsFromSupabase(user.id))
-        .then(() => flushSyncQueue(user.id))
-        .then(() => setSyncTrigger((n) => n + 1))
-        .catch(() => {});
-    }
-  }, [user?.id]);
-
-  useEffect(() => {
-    refreshMissions();
-  }, [refreshMissions]);
-
-  useEffect(() => {
-    window.addEventListener("focus", refreshMissions);
-    document.addEventListener("visibilitychange", refreshMissions);
-    return () => {
-      window.removeEventListener("focus", refreshMissions);
-      document.removeEventListener("visibilitychange", refreshMissions);
-    };
-  }, [refreshMissions]);
+  // 미션 상태 — Context에서 직접 계산 (dayIndex 변경 시 즉시 반영)
+  const missions: Record<string, boolean> = {};
+  for (const menu of MENUS) {
+    missions[menu.key] = isMissionDone(menu.key, dayIndex);
+  }
 
   const doneCount = Object.values(missions).filter(Boolean).length;
   const allDone =
@@ -331,13 +294,8 @@ export default function Home() {
           const mKey = menu.key as string;
           const isDone = missions[mKey];
 
-          const handleClick = (e: React.MouseEvent) => {
-            // Allow access to today's content without login
-            // Only require login for other dates
-          };
-
           return (
-            <a key={menu.href} href={menu.href} onClick={handleClick}>
+            <a key={menu.href} href={menu.href}>
               <div
                 className={`fade-up fade-up-delay-${i + 1} group relative bg-white rounded-2xl p-4 border border-[var(--border-light)] hover:shadow-md transition-all duration-200 active:scale-[0.97] h-full`}
                 style={{ boxShadow: 'var(--shadow-sm)' }}

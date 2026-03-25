@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useMemo } from "react";
 import { useAuthContext } from "@/contexts/AuthContext";
-import { isMissionDone } from "@/hooks/useMission";
+import { useMissionContext } from "@/contexts/MissionContext";
 import themes from "@/data/themes.json";
 
 const SECTIONS = [
@@ -24,6 +24,7 @@ function getMaxDay(role: string): number {
 
 export default function ProfilePage() {
   const { user, profile, loading, signOut } = useAuthContext();
+  const { isMissionDone } = useMissionContext();
   const [search, setSearch] = useState("");
   const [missionCache, setMissionCache] = useState<Record<string, boolean>>({});
 
@@ -42,9 +43,8 @@ export default function ProfilePage() {
     }
   }, [loading, user]);
 
-  // Build mission cache for all days
+  // Build mission cache from Context
   useEffect(() => {
-    if (typeof window === "undefined") return;
     const cache: Record<string, boolean> = {};
     for (let i = 0; i < themes.length && i < maxDay; i++) {
       for (const s of SECTIONS) {
@@ -52,7 +52,7 @@ export default function ProfilePage() {
       }
     }
     setMissionCache(cache);
-  }, [maxDay]);
+  }, [maxDay, isMissionDone]);
 
   // Compute stats
   const stats = useMemo(() => {

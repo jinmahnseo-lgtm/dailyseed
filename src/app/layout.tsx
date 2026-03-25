@@ -5,6 +5,7 @@ import BottomNav from "@/components/BottomNav";
 import ChunkErrorBoundary from "@/components/ChunkErrorBoundary";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { DayProvider } from "@/contexts/DayContext";
+import { MissionProvider } from "@/contexts/MissionContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -100,12 +101,14 @@ export default function RootLayout({
       </head>
       <body className={`${geistSans.variable} antialiased`}>
         <AuthProvider>
-          <DayProvider>
-            <ChunkErrorBoundary>
-              {children}
-            </ChunkErrorBoundary>
-            <BottomNav />
-          </DayProvider>
+          <MissionProvider>
+            <DayProvider>
+              <ChunkErrorBoundary>
+                {children}
+              </ChunkErrorBoundary>
+              <BottomNav />
+            </DayProvider>
+          </MissionProvider>
         </AuthProvider>
       </body>
     </html>
