@@ -168,7 +168,10 @@ export function useAuth() {
     if (!supabase) return;
     await supabase.auth.signInWithOAuth({
       provider: "google",
-      options: { redirectTo: window.location.origin },
+      options: {
+        redirectTo: window.location.origin,
+        queryParams: { prompt: "select_account" },
+      },
     });
   }, []);
 
@@ -181,9 +184,9 @@ export function useAuth() {
     clearLocalMissionData();
     Object.keys(localStorage).filter(k => k.startsWith("sb-")).forEach(k => localStorage.removeItem(k));
     setState({ user: null, session: null, profile: null, loading: false });
-    // 2) 서버 세션 해제 시도 (실패해도 로컬은 이미 정리됨)
+    // 2) 서버 세션도 해제 (다른 계정 로그인 가능하도록)
     try {
-      if (supabase) await supabase.auth.signOut({ scope: "local" });
+      if (supabase) await supabase.auth.signOut({ scope: "global" });
     } catch { /* ignore */ }
   }, []);
 

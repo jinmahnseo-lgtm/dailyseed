@@ -139,11 +139,11 @@ export default function Home() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dayIndex, syncTrigger]);
 
-  // On login: pull DB → clear old localStorage → refresh UI
+  // On login: migrate(로컬→DB) → pull(DB→로컬 덮어쓰기) → flush(오프라인 큐)
   useEffect(() => {
     if (user?.id) {
-      pullMissionsFromSupabase(user.id)
-        .then(() => migrateLocalStorageToSupabase(user.id))
+      migrateLocalStorageToSupabase(user.id)
+        .then(() => pullMissionsFromSupabase(user.id))
         .then(() => flushSyncQueue(user.id))
         .then(() => setSyncTrigger((n) => n + 1))
         .catch(() => {});
