@@ -12,6 +12,7 @@ import {
 } from "@/hooks/useMission";
 import { useAuthContext } from "@/contexts/AuthContext";
 import { syncReportToSupabase } from "@/lib/sync";
+import { supabase } from "@/lib/supabase";
 import newsData from "@/data/news.json";
 import classicsData from "@/data/classics.json";
 import artsData from "@/data/arts.json";
@@ -55,6 +56,7 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
   const [sending, setSending] = useState(false);
   const [studentName, setName] = useState("");
   const [parentEmail, setEmail] = useState("");
+  const [linkedParentEmail, setLinkedParentEmail] = useState<string | null>(null);
   const [error, setError] = useState("");
   const [showForm, setShowForm] = useState(false);
 
@@ -63,7 +65,35 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
     // Use profile display_name if logged in, otherwise localStorage
     setName(profile?.display_name || getStudentName());
     setEmail(getParentEmail());
-  }, [dayIndex, profile]);
+
+    // Check for linked parent (teacher/admin)
+    if (user?.id && supabase) {
+      (async () => {
+        try {
+          const { data: links } = await supabase!
+            .from("parent_student_links")
+            .select("parent_id")
+            .eq("student_id", user!.id)
+            .limit(1);
+
+          if (links && links.length > 0) {
+            const { data: parentProfile } = await supabase!
+              .from("profiles")
+              .select("email")
+              .eq("id", links[0].parent_id)
+              .single();
+
+            if (parentProfile?.email) {
+              setLinkedParentEmail(parentProfile.email);
+              setEmail(parentProfile.email);
+            }
+          }
+        } catch {
+          // ignore
+        }
+      })();
+    }
+  }, [dayIndex, profile, user]);
 
   const missionData = MISSION_KEYS.map((key) => {
     const answer = getMissionData(key, dayIndex);
@@ -112,7 +142,7 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
 
       // Sync report to Supabase (background)
       if (user?.id) {
-        syncReportToSupabase(user.id, `day${dayIndex}`, parentEmail.trim()).catch(() => {});
+        syncReportToSupabase(user.id, String(dayIndex), parentEmail.trim()).catch(() => {});
       }
     } catch {
       setError("전송 실패. 다시 시도해줘!");
@@ -192,14 +222,21 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
               <label className="text-xs font-semibold text-gray-600 mb-1 block">
                 받는 사람 이메일
               </label>
-              <input
-                type="email"
-                value={parentEmail}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="parent@example.com"
-                className="w-full p-3 rounded-xl border border-gray-200 text-sm focus:border-amber-400 focus:outline-none"
-                maxLength={100}
-              />
+              {linkedParentEmail ? (
+                <div className="w-full p-3 rounded-xl border border-gray-200 bg-gray-50 text-sm text-gray-500">
+                  {linkedParentEmail}
+                  <span className="text-[10px] text-indigo-500 ml-2">선생님 자동 연결</span>
+                </div>
+              ) : (
+                <input
+                  type="email"
+                  value={parentEmail}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="parent@example.com"
+                  className="w-full p-3 rounded-xl border border-gray-200 text-sm focus:border-amber-400 focus:outline-none"
+                  maxLength={100}
+                />
+              )}
             </div>
             {error && (
               <p className="text-xs text-red-500 font-semibold">{error}</p>

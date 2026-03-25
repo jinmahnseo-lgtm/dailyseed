@@ -110,6 +110,7 @@ export default function Home() {
     goPrev, goNext, goPrev7, goNext7, goToday, accessToast,
   } = useDayContext();
   const [missions, setMissions] = useState<Record<string, boolean>>({});
+  const [syncTrigger, setSyncTrigger] = useState(0);
   const [showLogin, setShowLogin] = useState(false);
   const isLoggedIn = !!user;
 
@@ -126,15 +127,6 @@ export default function Home() {
     setCurrentUserId(user?.id || null);
   }, [user]);
 
-  // On login: migrate localStorage → Supabase, pull remote data
-  useEffect(() => {
-    if (user?.id) {
-      migrateLocalStorageToSupabase(user.id).catch(() => {});
-      pullMissionsFromSupabase(user.id).catch(() => {});
-      flushSyncQueue(user.id).catch(() => {});
-    }
-  }, [user?.id]);
-
   const refreshMissions = useCallback(() => {
     setMissions({
       news: isMissionDone("news", dayIndex),
@@ -144,7 +136,19 @@ export default function Home() {
       why: isMissionDone("why", dayIndex),
       english: isMissionDone("english", dayIndex),
     });
-  }, [dayIndex]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [dayIndex, syncTrigger]);
+
+  // On login: pull DB → clear old localStorage → refresh UI
+  useEffect(() => {
+    if (user?.id) {
+      pullMissionsFromSupabase(user.id)
+        .then(() => migrateLocalStorageToSupabase(user.id))
+        .then(() => flushSyncQueue(user.id))
+        .then(() => setSyncTrigger((n) => n + 1))
+        .catch(() => {});
+    }
+  }, [user?.id]);
 
   useEffect(() => {
     refreshMissions();
@@ -170,7 +174,14 @@ export default function Home() {
       {/* Hero Header */}
       <header className="pt-8 pb-2 text-center relative">
         {/* Login/Profile icon */}
-        <div className="absolute right-0 top-8">
+        <div className="absolute right-0 top-8 flex items-center gap-2">
+          {user && profile?.role === "parent" && (
+            <a href="/admin" title="관리자 대시보드">
+              <div className="w-9 h-9 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-full flex items-center justify-center text-sm text-white hover:scale-105 transition-transform">
+                📋
+              </div>
+            </a>
+          )}
           {user ? (
             <a href="/profile">
               <div className="w-9 h-9 bg-gradient-to-br from-amber-400 to-orange-400 rounded-full flex items-center justify-center text-sm text-white font-bold hover:scale-105 transition-transform">

@@ -1,7 +1,7 @@
 import { supabase } from "./supabase";
 
 const SYNC_QUEUE_KEY = "dailyseed-sync-queue";
-const MIGRATED_KEY = "dailyseed-migrated";
+const MIGRATED_KEY = "dailyseed-migrated-v2";
 const MISSION_PAGES = ["news", "classic", "art", "world", "why", "english"] as const;
 
 interface SyncItem {
@@ -139,6 +139,9 @@ export async function flushSyncQueue(userId: string) {
 export async function pullMissionsFromSupabase(userId: string) {
   if (!supabase) return;
 
+  // 먼저 기존 로컬 데이터 초기화 (다른 유저 잔여 데이터 방지)
+  clearLocalMissionData();
+
   const { data: missions } = await supabase
     .from("missions")
     .select("page, date, answer_data")
@@ -146,8 +149,9 @@ export async function pullMissionsFromSupabase(userId: string) {
 
   if (missions) {
     for (const m of missions) {
-      const key = `dailyseed-${m.page}-${m.date}`;
-      const dataKey = `dailyseed-${m.page}-${m.date}-data`;
+      // useMission이 읽는 키 형식: dailyseed-{page}-day{index}
+      const key = `dailyseed-${m.page}-day${m.date}`;
+      const dataKey = `dailyseed-${m.page}-day${m.date}-data`;
       // Supabase wins: overwrite localStorage
       localStorage.setItem(key, "done");
       if (m.answer_data) {
@@ -163,9 +167,27 @@ export async function pullMissionsFromSupabase(userId: string) {
 
   if (reports) {
     for (const r of reports) {
-      localStorage.setItem(`dailyseed-report-${r.date}`, "sent");
+      // isReportSent가 읽는 키 형식: dailyseed-report-day{index}
+      localStorage.setItem(`dailyseed-report-day${r.date}`, "sent");
     }
   }
+}
+
+// --- Clear mission/report data from localStorage (on logout) ---
+export function clearLocalMissionData() {
+  const keysToRemove: string[] = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (!k) continue;
+    for (const page of MISSION_PAGES) {
+      // dailyseed-{page}-day{n}, dailyseed-{page}-day{n}-data (현재 형식)
+      // dailyseed-{page}-{YYYY-MM-DD}, dailyseed-{page}-{YYYY-MM-DD}-data (옛 형식)
+      if (k.startsWith(`dailyseed-${page}-`)) keysToRemove.push(k);
+    }
+    // dailyseed-report-day{n} (현재) + dailyseed-report-{YYYY-MM-DD} (옛)
+    if (k.startsWith("dailyseed-report-")) keysToRemove.push(k);
+  }
+  keysToRemove.forEach((k) => localStorage.removeItem(k));
 }
 
 // --- Migrate localStorage → Supabase (first login) ---
@@ -189,9 +211,12 @@ export async function migrateLocalStorageToSupabase(userId: string) {
     for (const page of MISSION_PAGES) {
       const prefix = `dailyseed-${page}-`;
       if (k.startsWith(prefix) && !k.endsWith("-data") && localStorage.getItem(k) === "done") {
-        const date = k.replace(prefix, "");
-        // Validate date format
-        if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+        let date = k.replace(prefix, "");
+        // Normalize: "day0" → "0", "day12" → "12"
+        const dayMatch = date.match(/^day(\d+)$/);
+        if (dayMatch) date = dayMatch[1];
+        // 숫자 형식만 허용 (YYYY-MM-DD는 무시)
+        if (/^\d+$/.test(date)) {
           const dataKey = `${k}-data`;
           missionRows.push({
             user_id: userId,
@@ -224,8 +249,11 @@ export async function migrateLocalStorageToSupabase(userId: string) {
     if (!k) continue;
 
     if (k.startsWith("dailyseed-report-") && localStorage.getItem(k) === "sent") {
-      const date = k.replace("dailyseed-report-", "");
-      if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+      let date = k.replace("dailyseed-report-", "");
+      const dayMatch = date.match(/^day(\d+)$/);
+      if (dayMatch) date = dayMatch[1];
+      // 숫자 형식만 허용 (YYYY-MM-DD는 무시)
+      if (/^\d+$/.test(date)) {
         reportRows.push({
           user_id: userId,
           date,

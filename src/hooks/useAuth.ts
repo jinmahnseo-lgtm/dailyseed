@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
+import { clearLocalMissionData } from "@/lib/sync";
 import type { User, Session } from "@supabase/supabase-js";
 
 export interface Profile {
@@ -114,6 +115,10 @@ export function useAuth() {
         const profile = await fetchOrCreateProfile(session.user);
         if (profile) {
           localStorage.setItem(PROFILE_CACHE_KEY, JSON.stringify(profile));
+          // DB 이름을 로컬에 동기화 (기기 공유 시 이전 유저 이름 덮어쓰기 방지)
+          if (profile.display_name) {
+            localStorage.setItem("dailyseed-student-name", profile.display_name);
+          }
           setState((s) => ({ ...s, profile }));
         }
       } else {
@@ -127,7 +132,12 @@ export function useAuth() {
     } = supabase!.auth.onAuthStateChange(async (event, session) => {
       if (session?.user) {
         const profile = await fetchOrCreateProfile(session.user);
-        if (profile) localStorage.setItem(PROFILE_CACHE_KEY, JSON.stringify(profile));
+        if (profile) {
+          localStorage.setItem(PROFILE_CACHE_KEY, JSON.stringify(profile));
+          if (profile.display_name) {
+            localStorage.setItem("dailyseed-student-name", profile.display_name);
+          }
+        }
         setState({ user: session.user, session, profile, loading: false });
       } else {
         localStorage.removeItem(PROFILE_CACHE_KEY);
@@ -166,6 +176,9 @@ export function useAuth() {
     // 1) 먼저 로컬 상태와 localStorage를 즉시 정리 (네트워크 무관)
     localStorage.removeItem("dailyseed-auth");
     localStorage.removeItem(PROFILE_CACHE_KEY);
+    localStorage.removeItem("dailyseed-student-name");
+    localStorage.removeItem("dailyseed-parent-email");
+    clearLocalMissionData();
     Object.keys(localStorage).filter(k => k.startsWith("sb-")).forEach(k => localStorage.removeItem(k));
     setState({ user: null, session: null, profile: null, loading: false });
     // 2) 서버 세션 해제 시도 (실패해도 로컬은 이미 정리됨)
