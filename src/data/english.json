@@ -1,6 +1,6 @@
 [
   {
-    "date": "2026-03-16",
+    "day": 1,
     "sentences": [
       {
         "source": "고전",
@@ -51,7 +51,7 @@
     ]
   },
   {
-    "date": "2026-03-17",
+    "day": 2,
     "sentences": [
       {
         "source": "고전",
@@ -102,7 +102,7 @@
     ]
   },
   {
-    "date": "2026-03-18",
+    "day": 3,
     "sentences": [
       {
         "source": "고전",
@@ -153,7 +153,7 @@
     ]
   },
   {
-    "date": "2026-03-19",
+    "day": 4,
     "sentences": [
       {
         "source": "고전",
@@ -204,7 +204,7 @@
     ]
   },
   {
-    "date": "2026-03-20",
+    "day": 5,
     "sentences": [
       {
         "source": "고전",
@@ -255,7 +255,7 @@
     ]
   },
   {
-    "date": "2026-03-21",
+    "day": 6,
     "sentences": [
       {
         "source": "고전",
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "date": "2026-03-22",
+    "day": 7,
     "sentences": [
       {
         "source": "고전",
@@ -357,7 +357,7 @@
     ]
   },
   {
-    "date": "2026-03-23",
+    "day": 8,
     "sentences": [
       {
         "source": "고전",
@@ -408,7 +408,7 @@
     ]
   },
   {
-    "date": "2026-03-24",
+    "day": 9,
     "sentences": [
       {
         "source": "고전",
@@ -459,7 +459,7 @@
     ]
   },
   {
-    "date": "2026-03-25",
+    "day": 10,
     "sentences": [
       {
         "source": "고전",
@@ -510,7 +510,7 @@
     ]
   },
   {
-    "date": "2026-03-26",
+    "day": 11,
     "sentences": [
       {
         "source": "고전",
@@ -561,7 +561,7 @@
     ]
   },
   {
-    "date": "2026-03-27",
+    "day": 12,
     "sentences": [
       {
         "source": "고전",
@@ -612,7 +612,7 @@
     ]
   },
   {
-    "date": "2026-03-28",
+    "day": 13,
     "sentences": [
       {
         "source": "고전",
@@ -663,7 +663,7 @@
     ]
   },
   {
-    "date": "2026-03-29",
+    "day": 14,
     "sentences": [
       {
         "source": "고전",
@@ -714,7 +714,7 @@
     ]
   },
   {
-    "date": "2026-03-30",
+    "day": 15,
     "sentences": [
       {
         "source": "고전",
@@ -733,9 +733,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In India, the greeting 'Namaste' represents a deep respect for the divine spirit within each person.",
-        "ko": "인도에서 '나마스테'라는 인사는 각 사람 안의 신성한 영혼에 대한 깊은 존경을 나타낸다.",
-        "note": "'represent'는 '나타내다, 상징하다'는 뜻이고, 'within each person'에서 'within'은 '~의 안에'라는 전치사야."
+        "en": "In ancient Athens, citizens gathered at the agora to debate laws face to face, believing that open dialogue was the foundation of democracy.",
+        "ko": "고대 아테네에서 시민들은 아고라에 모여 법을 직접 토론했으며, 열린 대화가 민주주의의 기초라고 믿었다.",
+        "note": "'face to face'는 '직접 대면하여'라는 뜻이야. 'believing that ~'은 분사구문으로 '~라고 믿으며'를 나타내."
       },
       {
         "source": "왜왜왜",
@@ -765,7 +765,7 @@
     ]
   },
   {
-    "date": "2026-03-31",
+    "day": 16,
     "sentences": [
       {
         "source": "고전",
@@ -816,7 +816,7 @@
     ]
   },
   {
-    "date": "2026-04-01",
+    "day": 17,
     "sentences": [
       {
         "source": "고전",
@@ -867,7 +867,7 @@
     ]
   },
   {
-    "date": "2026-04-02",
+    "day": 18,
     "sentences": [
       {
         "source": "고전",
@@ -918,7 +918,7 @@
     ]
   },
   {
-    "date": "2026-04-03",
+    "day": 19,
     "sentences": [
       {
         "source": "고전",
@@ -969,7 +969,7 @@
     ]
   },
   {
-    "date": "2026-04-04",
+    "day": 20,
     "sentences": [
       {
         "source": "고전",
@@ -1020,7 +1020,7 @@
     ]
   },
   {
-    "date": "2026-04-05",
+    "day": 21,
     "sentences": [
       {
         "source": "고전",
@@ -1039,9 +1039,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japan, cherry blossoms symbolize hope and renewal because they bloom every spring no matter how harsh the winter was.",
-        "ko": "일본에서 벚꽃은 겨울이 아무리 혹독해도 매년 봄 피어나기에 희망과 새로운 시작을 상징한다.",
-        "note": "'no matter how harsh'는 '아무리 ~해도'라는 양보의 표현이야. no matter how + 형용사 + 주어 + 동사 패턴을 기억해둬."
+        "en": "After decades of conflict, Colombia signed a historic peace agreement in 2016, proving that even the deepest wounds can give way to hope.",
+        "ko": "수십 년의 갈등 끝에 콜롬비아는 2016년 역사적인 평화 협정에 서명했으며, 가장 깊은 상처도 희망에 자리를 내줄 수 있음을 증명했다.",
+        "note": "'give way to ~'는 '~에 자리를 내주다/양보하다'라는 뜻이야. 'even the deepest wounds'에서 even은 '~조차도'라는 강조 부사야."
       },
       {
         "source": "왜왜왜",
@@ -1071,7 +1071,7 @@
     ]
   },
   {
-    "date": "2026-04-06",
+    "day": 22,
     "sentences": [
       {
         "source": "고전",
@@ -1122,7 +1122,7 @@
     ]
   },
   {
-    "date": "2026-04-07",
+    "day": 23,
     "sentences": [
       {
         "source": "고전",
@@ -1173,7 +1173,7 @@
     ]
   },
   {
-    "date": "2026-04-08",
+    "day": 24,
     "sentences": [
       {
         "source": "고전",
@@ -1224,7 +1224,7 @@
     ]
   },
   {
-    "date": "2026-04-09",
+    "day": 25,
     "sentences": [
       {
         "source": "고전",
@@ -1275,7 +1275,7 @@
     ]
   },
   {
-    "date": "2026-04-10",
+    "day": 26,
     "sentences": [
       {
         "source": "고전",
@@ -1326,7 +1326,7 @@
     ]
   },
   {
-    "date": "2026-04-11",
+    "day": 27,
     "sentences": [
       {
         "source": "고전",
@@ -1377,7 +1377,7 @@
     ]
   },
   {
-    "date": "2026-04-12",
+    "day": 28,
     "sentences": [
       {
         "source": "고전",
@@ -1396,9 +1396,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Brazilian Carnival is one of the world's most passionate festivals, where millions dance in the streets for days.",
-        "ko": "브라질 카니발은 세계에서 가장 열정적인 축제 중 하나로, 수백만 명이 며칠간 거리에서 춤을 춘다.",
-        "note": "'one of the world's most + 최상급 + 복수명사'는 '세계에서 가장 ~한 것 중 하나'라는 최상급 표현이야. 복수명사가 오는 걸 주의해."
+        "en": "Argentine tango was born in the working-class neighborhoods of Buenos Aires, where immigrants poured their loneliness and passion into every step.",
+        "ko": "아르헨티나 탱고는 부에노스아이레스의 노동자 동네에서 탄생했으며, 이민자들이 외로움과 열정을 모든 발걸음에 쏟아부었다.",
+        "note": "'was born in ~'은 '~에서 탄생했다'라는 수동태야. 'poured A into B'는 'A를 B에 쏟아부었다'라는 비유 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -1428,7 +1428,7 @@
     ]
   },
   {
-    "date": "2026-04-13",
+    "day": 29,
     "sentences": [
       {
         "source": "고전",
@@ -1479,7 +1479,7 @@
     ]
   },
   {
-    "date": "2026-04-14",
+    "day": 30,
     "sentences": [
       {
         "source": "고전",
@@ -1498,9 +1498,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "South Korea transformed from one of the world's poorest countries to a global technology leader in just a few decades.",
-        "ko": "한국은 불과 수십 년 만에 세계 최빈국 중 하나에서 글로벌 기술 강국으로 변모했다.",
-        "note": "'transformed from A to B'는 'A에서 B로 변모하다'라는 뜻이야. 'in just a few decades'는 '불과 몇십 년 만에'야."
+        "en": "Israel, a country smaller than New Jersey, produces more start-ups per capita than any other nation, earning the nickname 'Start-Up Nation.'",
+        "ko": "뉴저지보다 작은 나라 이스라엘은 1인당 스타트업 수가 세계에서 가장 많아 '스타트업 네이션'이라는 별명을 얻었다.",
+        "note": "'per capita'는 '1인당'이라는 뜻의 라틴어 표현이야. 'earning the nickname'에서 earning은 결과를 나타내는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -1530,7 +1530,7 @@
     ]
   },
   {
-    "date": "2026-04-15",
+    "day": 31,
     "sentences": [
       {
         "source": "고전",
@@ -1549,9 +1549,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Korean culture, the concept of 'nunchi' refers to the ability to read the atmosphere and respond to others' feelings.",
-        "ko": "한국 문화에서 '눈치'라는 개념은 분위기를 파악하고 타인의 감정에 반응하는 능력을 뜻한다.",
-        "note": "'refers to ~'는 '~를 가리키다, ~을 뜻하다'라는 표현이야. 'the ability to ~'는 '~하는 능력'으로, to부정사가 ability를 수식해."
+        "en": "In Thailand, the traditional greeting called 'wai' — pressing your palms together and bowing — shows respect, and the higher you raise your hands, the deeper the courtesy.",
+        "ko": "태국에서 '와이'라는 전통 인사는 두 손바닥을 모아 고개를 숙이는 것으로, 손을 높이 올릴수록 더 깊은 배려를 나타낸다.",
+        "note": "'the higher ~, the deeper ~'는 'the 비교급, the 비교급' 구문으로 '~하면 할수록 더 ~하다'라는 뜻이야."
       },
       {
         "source": "왜왜왜",
@@ -1581,7 +1581,7 @@
     ]
   },
   {
-    "date": "2026-04-16",
+    "day": 32,
     "sentences": [
       {
         "source": "고전",
@@ -1600,9 +1600,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Thailand, people celebrate the Songkran festival by splashing water on elders' hands as a gesture of gratitude and respect.",
-        "ko": "태국에서는 송끄란 축제 때 감사와 존경의 표시로 어른들의 손에 물을 뿌린다.",
-        "note": "'as a gesture of ~'는 '~의 표시/표현으로'라는 뜻이야. gesture는 '제스처, 몸짓'뿐만 아니라 '상징적 행위'라는 뜻도 있어."
+        "en": "In Myanmar, people practice 'dana' — the tradition of giving food to monks each morning — as a daily expression of gratitude for the blessings in their lives.",
+        "ko": "미얀마에서 사람들은 매일 아침 승려에게 음식을 바치는 '다나' 전통을 통해 삶의 축복에 대한 감사를 일상적으로 표현한다.",
+        "note": "'as a daily expression of ~'는 '~의 일상적 표현으로서'라는 뜻이야. as는 '~로서'라는 역할을 나타내는 전치사야."
       },
       {
         "source": "왜왜왜",
@@ -1632,7 +1632,7 @@
     ]
   },
   {
-    "date": "2026-04-17",
+    "day": 33,
     "sentences": [
       {
         "source": "고전",
@@ -1683,7 +1683,7 @@
     ]
   },
   {
-    "date": "2026-04-18",
+    "day": 34,
     "sentences": [
       {
         "source": "고전",
@@ -1702,9 +1702,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japanese culture, bowing is more than a greeting; it is an expression of humility and respect toward others.",
-        "ko": "일본 문화에서 고개 숙여 인사하는 것은 단순한 인사 이상으로, 타인에 대한 겸손과 존경의 표현이다.",
-        "note": "'more than ~'은 '~이상의'라는 뜻이야. 'an expression of ~'는 '~의 표현'으로, 추상적인 감정을 구체화할 때 써."
+        "en": "Sherpa climbers in Nepal carry the heaviest loads to the summit of Everest, yet they rarely take credit, always letting the mountaineers celebrate first.",
+        "ko": "네팔의 셰르파 등반가들은 에베레스트 정상까지 가장 무거운 짐을 나르지만, 공을 내세우는 일이 드물고 항상 산악인이 먼저 축하하도록 한다.",
+        "note": "'take credit'은 '공을 인정받다/내세우다'라는 뜻이야. 'letting + 목적어 + 동사원형'은 사역동사 let의 5형식 구문이야."
       },
       {
         "source": "왜왜왜",
@@ -1734,7 +1734,7 @@
     ]
   },
   {
-    "date": "2026-04-19",
+    "day": 35,
     "sentences": [
       {
         "source": "고전",
@@ -1785,7 +1785,7 @@
     ]
   },
   {
-    "date": "2026-04-20",
+    "day": 36,
     "sentences": [
       {
         "source": "고전",
@@ -1836,7 +1836,7 @@
     ]
   },
   {
-    "date": "2026-04-21",
+    "day": 37,
     "sentences": [
       {
         "source": "고전",
@@ -1887,7 +1887,7 @@
     ]
   },
   {
-    "date": "2026-04-22",
+    "day": 38,
     "sentences": [
       {
         "source": "고전",
@@ -1938,7 +1938,7 @@
     ]
   },
   {
-    "date": "2026-04-23",
+    "day": 39,
     "sentences": [
       {
         "source": "고전",
@@ -1989,7 +1989,7 @@
     ]
   },
   {
-    "date": "2026-04-24",
+    "day": 40,
     "sentences": [
       {
         "source": "고전",
@@ -2040,7 +2040,7 @@
     ]
   },
   {
-    "date": "2026-04-25",
+    "day": 41,
     "sentences": [
       {
         "source": "고전",
@@ -2091,7 +2091,7 @@
     ]
   },
   {
-    "date": "2026-04-26",
+    "day": 42,
     "sentences": [
       {
         "source": "고전",
@@ -2142,7 +2142,7 @@
     ]
   },
   {
-    "date": "2026-04-27",
+    "day": 43,
     "sentences": [
       {
         "source": "고전",
@@ -2193,7 +2193,7 @@
     ]
   },
   {
-    "date": "2026-04-28",
+    "day": 44,
     "sentences": [
       {
         "source": "고전",
@@ -2244,7 +2244,7 @@
     ]
   },
   {
-    "date": "2026-04-29",
+    "day": 45,
     "sentences": [
       {
         "source": "고전",
@@ -2295,7 +2295,7 @@
     ]
   },
   {
-    "date": "2026-04-30",
+    "day": 46,
     "sentences": [
       {
         "source": "고전",
@@ -2346,7 +2346,7 @@
     ]
   },
   {
-    "date": "2026-05-01",
+    "day": 47,
     "sentences": [
       {
         "source": "고전",
@@ -2365,9 +2365,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Mexico, the Day of the Dead is a joyful celebration where families honor their deceased loved ones with music, food, and colorful altars.",
-        "ko": "멕시코에서 죽은 자의 날은 가족들이 음악, 음식, 화려한 제단으로 죽은 사랑하는 이들을 기리는 즐거운 축제이다.",
-        "note": "'where families honor ~'에서 where는 관계부사로 celebration을 꾸며. 'honor + 사람 + with ~'는 '~로 사람을 기리다'라는 표현이야."
+        "en": "In flamenco, Spanish dancers stamp their feet and clap their hands with such raw emotion that the audience can feel the performer's joy and sorrow without a single word.",
+        "ko": "플라멩코에서 스페인 무용수들은 날것 그대로의 감정으로 발을 구르고 손뼉을 쳐서, 관객이 한마디 말 없이도 공연자의 기쁨과 슬픔을 느낄 수 있다.",
+        "note": "'with such raw emotion that ~'은 'so ~ that' 구문과 같은 결과 표현이야. such + 명사 + that은 '너무 ~해서 …하다'라는 뜻이야."
       },
       {
         "source": "왜왜왜",
@@ -2397,7 +2397,7 @@
     ]
   },
   {
-    "date": "2026-05-02",
+    "day": 48,
     "sentences": [
       {
         "source": "고전",
@@ -2416,9 +2416,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In British culture, saying 'please,' 'thank you,' and 'sorry' frequently is considered essential, even in casual everyday interactions.",
-        "ko": "영국 문화에서 'please', 'thank you', 'sorry'를 자주 말하는 것은 가벼운 일상적 대화에서도 필수적으로 여겨진다.",
-        "note": "'is considered essential'은 '필수적으로 여겨지다'야. 동명사구 'saying ~'이 주어 역할을 해. 'even in ~'은 '~에서조차'라는 강조야."
+        "en": "In Korea, bowing to elders, using both hands to receive a gift, and pouring drinks for others before yourself are daily rituals of respect woven into everyday life.",
+        "ko": "한국에서 어른에게 절하기, 두 손으로 선물 받기, 자기보다 상대 잔에 먼저 따르기는 일상에 녹아든 예의의 의식이다.",
+        "note": "'woven into ~'는 'weave(짜다)'의 과거분사로, '~에 짜여 들어간/녹아든'이라는 비유 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -2448,7 +2448,7 @@
     ]
   },
   {
-    "date": "2026-05-03",
+    "day": 49,
     "sentences": [
       {
         "source": "고전",
@@ -2499,7 +2499,7 @@
     ]
   },
   {
-    "date": "2026-05-04",
+    "day": 50,
     "sentences": [
       {
         "source": "고전",
@@ -2550,7 +2550,7 @@
     ]
   },
   {
-    "date": "2026-05-05",
+    "day": 51,
     "sentences": [
       {
         "source": "고전",
@@ -2569,9 +2569,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japan, the tea ceremony is not just about drinking tea — it is a ritual that embodies respect, harmony, and mindfulness.",
-        "ko": "일본에서 다도는 단순히 차를 마시는 것이 아니라 — 존중, 조화, 마음 챙김을 담은 의식이다.",
-        "note": "'not just about ~'는 '단순히 ~에 관한 것이 아니다'라는 뜻이야. 'embody'는 '구현하다, 담다'로, 추상적 가치를 구체적으로 표현할 때 써."
+        "en": "Georgian winemakers still bury clay vessels called qvevri underground, using the same 8,000-year-old method that UNESCO now recognizes as a cultural treasure.",
+        "ko": "조지아 양조가들은 여전히 크베브리라는 점토 항아리를 땅에 묻어 와인을 만들며, 유네스코가 문화재로 인정한 8,000년 된 방식을 그대로 사용한다.",
+        "note": "'the same ~ method that ~'에서 that은 관계대명사로 method를 수식해. 'recognize A as B'는 'A를 B로 인정하다'라는 뜻이야."
       },
       {
         "source": "왜왜왜",
@@ -2601,7 +2601,7 @@
     ]
   },
   {
-    "date": "2026-05-06",
+    "day": 52,
     "sentences": [
       {
         "source": "고전",
@@ -2620,9 +2620,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "South Korea transformed from one of the poorest countries in Asia to a global leader in technology within just a few decades.",
-        "ko": "한국은 불과 수십 년 만에 아시아에서 가장 가난한 나라 중 하나에서 기술 분야의 글로벌 리더로 변모했다.",
-        "note": "'transform from A to B'는 'A에서 B로 변모하다'라는 뜻이야. 극적인 변화를 표현할 때 자주 쓰이는 동사야."
+        "en": "Estonia became the world's first digital republic, where citizens can vote, pay taxes, and even start a business entirely online.",
+        "ko": "에스토니아는 세계 최초의 디지털 공화국이 되어, 시민들이 투표, 세금 납부, 심지어 사업 시작까지 모두 온라인으로 할 수 있다.",
+        "note": "'entirely online'은 '완전히 온라인으로'라는 뜻이야. 'even'은 '심지어 ~까지도'로 예상 밖의 것을 강조하는 부사야."
       },
       {
         "source": "왜왜왜",
@@ -2652,7 +2652,7 @@
     ]
   },
   {
-    "date": "2026-05-07",
+    "day": 53,
     "sentences": [
       {
         "source": "고전",
@@ -2703,14 +2703,14 @@
     ]
   },
   {
-    "date": "2026-05-08",
+    "day": 54,
     "sentences": [
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "All animals are equal, but some animals are more equal than others.",
-        "ko": "모든 동물은 평등하다. 그러나 어떤 동물은 다른 동물보다 더 평등하다.",
-        "note": "'more equal than others'는 논리적으로 모순이야. 오웰은 이 모순을 일부러 써서 평등을 외치면서 차별하는 위선을 풍자했어."
+        "en": "In The Handmaid's Tale, the regime strips women of their names and assigns them labels like 'Offred' — meaning they belong to a man named Fred.",
+        "ko": "'시녀 이야기'에서 정권은 여성의 이름을 빼앗고 '오프레드'처럼 — '프레드의 것'이라는 뜻의 라벨을 부여한다.",
+        "note": "'strips A of B'는 'A에게서 B를 빼앗다'라는 뜻이야. 'belonging to ~'는 '~에게 속한'이라는 의미로, 소유를 나타내는 표현이야."
       },
       {
         "source": "명화",
@@ -2754,7 +2754,7 @@
     ]
   },
   {
-    "date": "2026-05-09",
+    "day": 55,
     "sentences": [
       {
         "source": "고전",
@@ -2805,7 +2805,7 @@
     ]
   },
   {
-    "date": "2026-05-10",
+    "day": 56,
     "sentences": [
       {
         "source": "고전",
@@ -2856,7 +2856,7 @@
     ]
   },
   {
-    "date": "2026-05-11",
+    "day": 57,
     "sentences": [
       {
         "source": "고전",
@@ -2875,9 +2875,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Ancient Greek philosophers valued logical reasoning above all other forms of knowledge, and their ideas still shape Western thought today.",
-        "ko": "고대 그리스 철학자들은 논리적 추론을 다른 모든 형태의 지식보다 높이 평가했고, 그들의 사상은 오늘날에도 서양 사고를 형성한다.",
-        "note": "'valued A above B'는 'B보다 A를 높이 평가하다'라는 뜻이야. above는 여기서 물리적 위치가 아닌 가치의 우선순위를 나타내."
+        "en": "Swedish culture embraces 'lagom' — the idea that the right amount is neither too much nor too little — applying this logical balance to everything from work hours to coffee breaks.",
+        "ko": "스웨덴 문화는 '라곰' — 적당한 양은 너무 많지도 너무 적지도 않다는 개념 — 을 받아들이며, 이 논리적 균형을 근무 시간부터 커피 휴식까지 모든 것에 적용한다.",
+        "note": "'neither too much nor too little'는 'neither A nor B'로 'A도 B도 아닌'이라는 부정 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -2907,7 +2907,7 @@
     ]
   },
   {
-    "date": "2026-05-12",
+    "day": 58,
     "sentences": [
       {
         "source": "고전",
@@ -2958,7 +2958,7 @@
     ]
   },
   {
-    "date": "2026-05-13",
+    "day": 59,
     "sentences": [
       {
         "source": "고전",
@@ -3009,7 +3009,7 @@
     ]
   },
   {
-    "date": "2026-05-14",
+    "day": 60,
     "sentences": [
       {
         "source": "고전",
@@ -3060,7 +3060,7 @@
     ]
   },
   {
-    "date": "2026-05-15",
+    "day": 61,
     "sentences": [
       {
         "source": "고전",
@@ -3111,7 +3111,7 @@
     ]
   },
   {
-    "date": "2026-05-16",
+    "day": 62,
     "sentences": [
       {
         "source": "고전",
@@ -3130,9 +3130,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Korean Buddhist temples, monks practice moderation in eating, sleeping, and speaking as a path to inner peace.",
-        "ko": "한국 불교 사찰에서 승려들은 내면의 평화로 가는 길로서 식사, 수면, 말에서 절제를 실천한다.",
-        "note": "'as a path to ~'에서 as는 '~로서'라는 뜻이야. 어떤 목적이나 역할을 설명할 때 as + 명사 형태로 쓸 수 있어."
+        "en": "Burkina Faso, whose name means 'Land of Honest People,' is a country where simplicity and moderation are considered the highest virtues.",
+        "ko": "부르키나파소는 '정직한 사람들의 땅'이라는 뜻의 나라로, 검소함과 절제가 가장 높은 미덕으로 여겨진다.",
+        "note": "'whose name means ~'는 소유격 관계대명사 whose를 사용한 구문이야. 'are considered'는 '~로 여겨지다'라는 수동태야."
       },
       {
         "source": "왜왜왜",
@@ -3162,7 +3162,7 @@
     ]
   },
   {
-    "date": "2026-05-17",
+    "day": 63,
     "sentences": [
       {
         "source": "고전",
@@ -3213,7 +3213,7 @@
     ]
   },
   {
-    "date": "2026-05-18",
+    "day": 64,
     "sentences": [
       {
         "source": "고전",
@@ -3264,7 +3264,7 @@
     ]
   },
   {
-    "date": "2026-05-19",
+    "day": 65,
     "sentences": [
       {
         "source": "고전",
@@ -3283,9 +3283,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Ottoman Empire was known for its religious tolerance, allowing Christians, Jews, and Muslims to coexist peacefully for centuries.",
-        "ko": "오스만 제국은 종교적 관용으로 알려져, 기독교인, 유대인, 무슬림이 수세기 동안 평화롭게 공존하도록 허용했다.",
-        "note": "'was known for ~'는 '~로 알려져 있었다'라는 수동태 표현이야. 'allowing A to ~'는 분사구문으로, 'A가 ~하도록 허용하며'라는 뜻이야."
+        "en": "Oman has maintained peace among diverse religious communities for centuries, earning its reputation as the most tolerant nation in the Arabian Peninsula.",
+        "ko": "오만은 수 세기 동안 다양한 종교 공동체 사이의 평화를 유지해 왔으며, 아라비아반도에서 가장 관용적인 나라라는 명성을 얻었다.",
+        "note": "'has maintained'는 현재완료로 과거부터 현재까지 계속된 행위를 나타내. 'earning its reputation as ~'는 '~라는 명성을 얻으며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -3315,7 +3315,7 @@
     ]
   },
   {
-    "date": "2026-05-20",
+    "day": 66,
     "sentences": [
       {
         "source": "고전",
@@ -3366,7 +3366,7 @@
     ]
   },
   {
-    "date": "2026-05-21",
+    "day": 67,
     "sentences": [
       {
         "source": "고전",
@@ -3417,7 +3417,7 @@
     ]
   },
   {
-    "date": "2026-05-22",
+    "day": 68,
     "sentences": [
       {
         "source": "고전",
@@ -3468,7 +3468,7 @@
     ]
   },
   {
-    "date": "2026-05-23",
+    "day": 69,
     "sentences": [
       {
         "source": "고전",
@@ -3519,7 +3519,7 @@
     ]
   },
   {
-    "date": "2026-05-24",
+    "day": 70,
     "sentences": [
       {
         "source": "고전",
@@ -3538,9 +3538,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In France, the art of conversation is highly valued — speaking with wit, elegance, and charm is considered a social skill.",
-        "ko": "프랑스에서 대화의 기술은 매우 높이 평가된다 — 재치, 우아함, 매력을 갖춰 말하는 것은 사교적 기술로 여겨진다.",
-        "note": "'speaking with wit, elegance, and charm'에서 동명사(speaking)가 주어야. with 뒤에 추상 명사를 나열해 '~을 갖춰서'라는 뜻을 만들어."
+        "en": "In Havana, vintage American cars from the 1950s still cruise along the Malecón, creating a living museum where time seems to have stopped decades ago.",
+        "ko": "아바나에서 1950년대 미국산 빈티지 자동차들이 여전히 말레콘을 달리며, 시간이 수십 년 전에 멈춘 듯한 살아있는 박물관을 만들어낸다.",
+        "note": "'where time seems to have stopped'는 관계부사 where + seem to have p.p. 구문이야. 'seems to have stopped'는 '멈춘 것처럼 보인다'는 뜻이야."
       },
       {
         "source": "왜왜왜",
@@ -3570,7 +3570,7 @@
     ]
   },
   {
-    "date": "2026-05-25",
+    "day": 71,
     "sentences": [
       {
         "source": "고전",
@@ -3621,7 +3621,7 @@
     ]
   },
   {
-    "date": "2026-05-26",
+    "day": 72,
     "sentences": [
       {
         "source": "고전",
@@ -3640,9 +3640,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese people write their wishes on small strips of paper called tanzaku and hang them on bamboo branches during the Tanabata festival.",
-        "ko": "일본 사람들은 다나바타 축제 동안 단자쿠라 불리는 작은 종이 조각에 소망을 써서 대나무 가지에 매단다.",
-        "note": "'called tanzaku'는 과거분사가 명사를 수식하는 구조야. '~라 불리는'이라는 뜻으로, which are called의 줄임이야."
+        "en": "Every year, over two million wildebeest cross the Serengeti in Tanzania, driven by the instinctive hope of finding fresh grasslands on the other side.",
+        "ko": "매년 200만 마리 이상의 누가 탄자니아 세렝게티를 횡단하며, 반대편에서 신선한 초원을 찾으려는 본능적 소망에 이끌린다.",
+        "note": "'driven by ~'는 '~에 의해 이끌린'이라는 과거분사 표현이야. 'the instinctive hope of ~ing'는 '~하려는 본능적 소망'이라는 명사 구문이야."
       },
       {
         "source": "왜왜왜",
@@ -3672,7 +3672,7 @@
     ]
   },
   {
-    "date": "2026-05-27",
+    "day": 73,
     "sentences": [
       {
         "source": "고전",
@@ -3723,7 +3723,7 @@
     ]
   },
   {
-    "date": "2026-05-28",
+    "day": 74,
     "sentences": [
       {
         "source": "고전",
@@ -3774,7 +3774,7 @@
     ]
   },
   {
-    "date": "2026-05-29",
+    "day": 75,
     "sentences": [
       {
         "source": "고전",
@@ -3825,7 +3825,7 @@
     ]
   },
   {
-    "date": "2026-05-30",
+    "day": 76,
     "sentences": [
       {
         "source": "고전",
@@ -3876,7 +3876,7 @@
     ]
   },
   {
-    "date": "2026-05-31",
+    "day": 77,
     "sentences": [
       {
         "source": "고전",
@@ -3927,7 +3927,7 @@
     ]
   },
   {
-    "date": "2026-06-01",
+    "day": 78,
     "sentences": [
       {
         "source": "고전",
@@ -3946,9 +3946,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Kyoto, the concept of wabi-sabi embraces the beauty of imperfection, finding elegance in things that are aged, worn, or incomplete.",
-        "ko": "교토에서 와비사비의 개념은 불완전함의 아름다움을 포용하며, 오래되고 낡고 불완전한 것에서 우아함을 찾는다.",
-        "note": "'finding elegance in things that are aged'에서 aged는 '오래된'이라는 형용사야. 'find A in B'는 'B에서 A를 찾다'라는 표현이야."
+        "en": "Mauritius is called the 'Rainbow of the Indian Ocean' because African, Indian, Chinese, and European cultures blend together on this tiny island, creating a feast for the senses.",
+        "ko": "모리셔스는 아프리카, 인도, 중국, 유럽 문화가 이 작은 섬에서 어우러져 '인도양의 무지개'라 불리며, 감각의 향연을 만들어낸다.",
+        "note": "'blend together'는 '어우러지다/섞이다'라는 뜻이야. 'a feast for the senses'는 '감각의 향연'이라는 비유 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -3978,7 +3978,7 @@
     ]
   },
   {
-    "date": "2026-06-02",
+    "day": 79,
     "sentences": [
       {
         "source": "고전",
@@ -4029,7 +4029,7 @@
     ]
   },
   {
-    "date": "2026-06-03",
+    "day": 80,
     "sentences": [
       {
         "source": "고전",
@@ -4080,7 +4080,7 @@
     ]
   },
   {
-    "date": "2026-06-04",
+    "day": 81,
     "sentences": [
       {
         "source": "고전",
@@ -4099,9 +4099,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japan, the concept of 'ikigai' refers to finding purpose through steady daily effort and meaningful work.",
-        "ko": "일본에서 '이키가이' 개념은 꾸준한 일상의 노력과 의미 있는 일을 통해 삶의 목적을 찾는 것을 의미한다.",
-        "note": "'refers to ~ing'는 '~하는 것을 가리키다/의미하다'라는 뜻이야. refer to 뒤에 동명사가 오는 패턴을 기억해둬."
+        "en": "Taiwan produces over 60 percent of the world's advanced semiconductors, a feat achieved through decades of relentless hard work and precision engineering.",
+        "ko": "대만은 세계 첨단 반도체의 60% 이상을 생산하며, 이는 수십 년간의 끊임없는 근면과 정밀 공학으로 이룬 업적이다.",
+        "note": "'a feat achieved through ~'는 '~을 통해 이룬 업적'이라는 과거분사 구문이야. relentless는 '끊임없는/가차 없는'이라는 형용사야."
       },
       {
         "source": "왜왜왜",
@@ -4131,7 +4131,7 @@
     ]
   },
   {
-    "date": "2026-06-05",
+    "day": 82,
     "sentences": [
       {
         "source": "고전",
@@ -4182,7 +4182,7 @@
     ]
   },
   {
-    "date": "2026-06-06",
+    "day": 83,
     "sentences": [
       {
         "source": "고전",
@@ -4233,7 +4233,7 @@
     ]
   },
   {
-    "date": "2026-06-07",
+    "day": 84,
     "sentences": [
       {
         "source": "고전",
@@ -4284,7 +4284,7 @@
     ]
   },
   {
-    "date": "2026-06-08",
+    "day": 85,
     "sentences": [
       {
         "source": "고전",
@@ -4303,9 +4303,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Greek legend of Hercules tells of a mortal who performed twelve impossible labors and earned a place among the gods.",
-        "ko": "그리스의 헤라클레스 전설은 한 인간이 열두 가지 불가능한 과업을 해내고 신들 사이에서 자리를 얻은 이야기다.",
-        "note": "'a mortal who performed ~'에서 mortal은 '죽을 수 있는 존재, 인간'이야. 'earned a place among ~'은 '~ 사이에서 자리를 얻다'라는 표현이야."
+        "en": "Nikola Tesla, born in Serbia, invented the alternating current system that powers the modern world, yet he died alone and penniless in a New York hotel room.",
+        "ko": "세르비아 태생의 니콜라 테슬라는 현대 세계를 움직이는 교류 전기 시스템을 발명했지만, 뉴욕 호텔방에서 홀로 빈털터리로 죽었다.",
+        "note": "'born in Serbia'는 과거분사가 형용사처럼 쓰인 삽입구야. 'yet'은 '그러나/그럼에도'라는 뜻의 접속사로, 대조를 나타내."
       },
       {
         "source": "왜왜왜",
@@ -4335,7 +4335,7 @@
     ]
   },
   {
-    "date": "2026-06-09",
+    "day": 86,
     "sentences": [
       {
         "source": "고전",
@@ -4386,7 +4386,7 @@
     ]
   },
   {
-    "date": "2026-06-10",
+    "day": 87,
     "sentences": [
       {
         "source": "고전",
@@ -4405,9 +4405,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Korean culture, parents traditionally sacrifice their own needs so that their children can receive the best education possible.",
-        "ko": "한국 문화에서 부모는 전통적으로 자녀가 최고의 교육을 받을 수 있도록 자신의 필요를 희생한다.",
-        "note": "'so that ~ can'은 '~할 수 있도록'이라는 목적절이야. 'the best ~ possible'은 '가능한 최고의 ~'로, possible이 최상급 뒤에 오는 패턴이야."
+        "en": "Armenia was the first nation to adopt Christianity in 301 AD, and its people have preserved their identity through centuries of persecution and sacrifice.",
+        "ko": "아르메니아는 서기 301년에 기독교를 채택한 최초의 국가이며, 수 세기의 박해와 희생을 겪으면서도 정체성을 지켜왔다.",
+        "note": "'have preserved'는 현재완료로 과거부터 현재까지 지속된 행위를 나타내. 'through centuries of ~'는 '수 세기의 ~을 거치며'라는 뜻이야."
       },
       {
         "source": "왜왜왜",
@@ -4437,7 +4437,7 @@
     ]
   },
   {
-    "date": "2026-06-11",
+    "day": 88,
     "sentences": [
       {
         "source": "고전",
@@ -4488,7 +4488,7 @@
     ]
   },
   {
-    "date": "2026-06-12",
+    "day": 89,
     "sentences": [
       {
         "source": "고전",
@@ -4539,7 +4539,7 @@
     ]
   },
   {
-    "date": "2026-06-13",
+    "day": 90,
     "sentences": [
       {
         "source": "고전",
@@ -4590,7 +4590,7 @@
     ]
   },
   {
-    "date": "2026-06-14",
+    "day": 91,
     "sentences": [
       {
         "source": "고전",
@@ -4641,7 +4641,7 @@
     ]
   },
   {
-    "date": "2026-06-15",
+    "day": 92,
     "sentences": [
       {
         "source": "고전",
@@ -4692,7 +4692,7 @@
     ]
   },
   {
-    "date": "2026-06-16",
+    "day": 93,
     "sentences": [
       {
         "source": "고전",
@@ -4743,7 +4743,7 @@
     ]
   },
   {
-    "date": "2026-06-17",
+    "day": 94,
     "sentences": [
       {
         "source": "고전",
@@ -4794,7 +4794,7 @@
     ]
   },
   {
-    "date": "2026-06-18",
+    "day": 95,
     "sentences": [
       {
         "source": "고전",
@@ -4845,7 +4845,7 @@
     ]
   },
   {
-    "date": "2026-06-19",
+    "day": 96,
     "sentences": [
       {
         "source": "고전",
@@ -4896,7 +4896,7 @@
     ]
   },
   {
-    "date": "2026-06-20",
+    "day": 97,
     "sentences": [
       {
         "source": "고전",
@@ -4947,7 +4947,7 @@
     ]
   },
   {
-    "date": "2026-06-21",
+    "day": 98,
     "sentences": [
       {
         "source": "고전",
@@ -4998,7 +4998,7 @@
     ]
   },
   {
-    "date": "2026-06-22",
+    "day": 99,
     "sentences": [
       {
         "source": "고전",
@@ -5017,9 +5017,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In ancient Greece, the boundary between divine inspiration and madness was considered extremely thin, especially for poets and prophets.",
-        "ko": "고대 그리스에서 신의 영감과 광기의 경계는 특히 시인과 예언자에게 극도로 얇은 것으로 여겨졌다.",
-        "note": "'was considered extremely thin'에서 extremely는 '극도로'라는 강조 부사야. 'especially for ~'는 '특히 ~에게'로 특정 대상을 강조할 때 써."
+        "en": "Gaudí spent 43 years building the Sagrada Família in Barcelona, a cathedral so wildly imaginative that some called it the work of a madman and others called it genius.",
+        "ko": "가우디는 43년간 바르셀로나에 사그라다 파밀리아를 건축했으며, 어떤 이는 광인의 작품이라, 어떤 이는 천재의 작품이라 불렀다.",
+        "note": "'so ~ that'은 '너무 ~해서 …하다'라는 결과 구문이야. 'some ~ and others ~'는 '어떤 이는 ~하고 다른 이는 ~하다'라는 대조 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -5049,7 +5049,7 @@
     ]
   },
   {
-    "date": "2026-06-23",
+    "day": 100,
     "sentences": [
       {
         "source": "고전",
@@ -5100,14 +5100,14 @@
     ]
   },
   {
-    "date": "2026-06-24",
+    "day": 101,
     "sentences": [
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Happy families are all alike; every unhappy family is unhappy in its own way.",
-        "ko": "행복한 가정은 모두 비슷하다; 불행한 가정은 저마다의 방식으로 불행하다.",
-        "note": "'all alike'는 '모두 비슷한'이라는 뜻이야. 'in its own way'는 '저마다의 방식으로'라는 표현으로, own이 '자기만의'를 강조해."
+        "en": "In The Brothers Karamazov, Dostoevsky asks whether a family torn apart by greed and jealousy can ever find redemption through love.",
+        "ko": "'카라마조프 가의 형제들'에서 도스토옙스키는 탐욕과 질투로 찢어진 가족이 사랑을 통해 구원받을 수 있는지 묻는다.",
+        "note": "'torn apart by ~'는 '~에 의해 찢어진'이라는 과거분사 표현이야. 'whether ~ can ever'는 '과연 ~할 수 있는지'라는 의문을 나타내."
       },
       {
         "source": "명화",
@@ -5151,7 +5151,7 @@
     ]
   },
   {
-    "date": "2026-06-25",
+    "day": 102,
     "sentences": [
       {
         "source": "고전",
@@ -5202,7 +5202,7 @@
     ]
   },
   {
-    "date": "2026-06-26",
+    "day": 103,
     "sentences": [
       {
         "source": "고전",
@@ -5253,7 +5253,7 @@
     ]
   },
   {
-    "date": "2026-06-27",
+    "day": 104,
     "sentences": [
       {
         "source": "고전",
@@ -5304,7 +5304,7 @@
     ]
   },
   {
-    "date": "2026-06-28",
+    "day": 105,
     "sentences": [
       {
         "source": "고전",
@@ -5355,7 +5355,7 @@
     ]
   },
   {
-    "date": "2026-06-29",
+    "day": 106,
     "sentences": [
       {
         "source": "고전",
@@ -5406,7 +5406,7 @@
     ]
   },
   {
-    "date": "2026-06-30",
+    "day": 107,
     "sentences": [
       {
         "source": "고전",
@@ -5457,7 +5457,7 @@
     ]
   },
   {
-    "date": "2026-07-01",
+    "day": 108,
     "sentences": [
       {
         "source": "고전",
@@ -5476,9 +5476,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Japanese kimono is more than just clothing — its colors, patterns, and layers carry centuries of cultural meaning.",
-        "ko": "일본의 기모노는 단순한 의복 이상이다 — 그 색상, 무늬, 겹은 수 세기의 문화적 의미를 담고 있다.",
-        "note": "'is more than just ~'는 '단순한 ~ 이상이다'라는 표현이야. 'carry centuries of cultural meaning'에서 carry는 '담다/지니다'라는 뜻으로 사용돼."
+        "en": "Coco Chanel freed women from corsets and introduced simple elegance, proving that true French style lies not in excess but in knowing what to leave out.",
+        "ko": "코코 샤넬은 여성을 코르셋에서 해방시키고 단순한 우아함을 도입하여, 진정한 프랑스 스타일은 과함이 아닌 무엇을 뺄지 아는 데 있음을 증명했다.",
+        "note": "'not in A but in B'는 'A가 아니라 B에 있다'라는 대조 구문이야. 'knowing what to leave out'은 '무엇을 빼야 할지 아는 것'이라는 의문사 + to부정사 구문이야."
       },
       {
         "source": "왜왜왜",
@@ -5508,7 +5508,7 @@
     ]
   },
   {
-    "date": "2026-07-02",
+    "day": 109,
     "sentences": [
       {
         "source": "고전",
@@ -5559,7 +5559,7 @@
     ]
   },
   {
-    "date": "2026-07-03",
+    "day": 110,
     "sentences": [
       {
         "source": "고전",
@@ -5610,7 +5610,7 @@
     ]
   },
   {
-    "date": "2026-07-04",
+    "day": 111,
     "sentences": [
       {
         "source": "고전",
@@ -5661,14 +5661,14 @@
     ]
   },
   {
-    "date": "2026-07-05",
+    "day": 112,
     "sentences": [
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "It was the best of times, it was the worst of times — Dickens captured the contradictions of a great city in a single sentence.",
-        "ko": "최고의 시대이자 최악의 시대였다 — 디킨스는 한 문장으로 대도시의 모순을 담아냈다.",
-        "note": "'It was the best of times, it was the worst of times'는 대조법(antithesis)이야. best와 worst를 나란히 놓아 극적인 대비를 만들어내는 수사법이야."
+        "en": "In Invisible Cities, Marco Polo describes imaginary cities to Kublai Khan, each one reflecting a hidden aspect of human desire.",
+        "ko": "'보이지 않는 도시들'에서 마르코 폴로는 쿠빌라이 칸에게 상상의 도시들을 묘사하며, 각 도시는 인간 욕망의 숨겨진 면을 반영한다.",
+        "note": "'each one reflecting'에서 each one은 앞의 cities를 받는 대명사이고, reflecting은 분사구문으로 부가 설명을 하고 있어."
       },
       {
         "source": "명화",
@@ -5680,9 +5680,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Tokyo's subway system carries over 8 million passengers daily, making it one of the busiest networks in the world.",
-        "ko": "도쿄의 지하철은 매일 800만 명 이상의 승객을 실어 나르며, 세계에서 가장 바쁜 교통망 중 하나이다.",
-        "note": "'making it one of the ~est'는 분사구문이야. '그래서 ~중 하나가 되다'라는 결과를 나타내. 앞 문장의 결과를 자연스럽게 이어줘."
+        "en": "São Paulo, Brazil's largest city, was built by waves of immigrants from Italy, Japan, and Lebanon, making it one of the most culturally diverse cities on Earth.",
+        "ko": "브라질 최대 도시 상파울루는 이탈리아, 일본, 레바논에서 온 이민자들의 물결에 의해 건설되어 지구상에서 가장 문화적으로 다양한 도시 중 하나가 되었다.",
+        "note": "'waves of immigrants'에서 wave는 '물결/파도'로, 이민자들이 물결처럼 밀려왔다는 비유야. 'making it ~'은 결과를 나타내는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -5712,7 +5712,7 @@
     ]
   },
   {
-    "date": "2026-07-06",
+    "day": 113,
     "sentences": [
       {
         "source": "고전",
@@ -5731,9 +5731,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In rural Japan, rice paddies are terraced along hillsides, creating a breathtaking staircase of water and green.",
-        "ko": "일본 시골에서는 논이 언덕을 따라 계단식으로 만들어져 물과 초록의 숨막히는 계단을 만들어낸다.",
-        "note": "'terraced along'은 '~을 따라 계단식으로 만들어진'이라는 뜻이야. terrace는 명사로 '테라스', 동사로 '계단식으로 만들다'를 의미해."
+        "en": "Bhutan measures success not by GDP but by Gross National Happiness, reminding the world that the essence of progress is the well-being of its people.",
+        "ko": "부탄은 성공을 GDP가 아닌 국민총행복으로 측정하며, 진보의 본질은 국민의 안녕에 있다는 것을 세계에 일깨워준다.",
+        "note": "'not by A but by B'는 'A가 아니라 B로'라는 대조 구문이야. 'reminding the world that ~'은 '세계에 ~을 일깨우며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -5763,14 +5763,14 @@
     ]
   },
   {
-    "date": "2026-07-07",
+    "day": 114,
     "sentences": [
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Call me Ishmael — with these three words, Melville invites us aboard the Pequod to chase the great white whale across the ocean.",
-        "ko": "나를 이스마엘이라 불러라 — 이 세 단어로 멜빌은 우리를 피쿼드호에 태워 대양을 가로질러 거대한 흰 고래를 쫓게 한다.",
-        "note": "'Call me + 이름'은 '나를 ~라고 불러라'라는 5형식 명령문이야. call은 목적어 뒤에 보어를 취하는 대표적인 5형식 동사야."
+        "en": "Captain Nemo chose the ocean over the land, declaring that the sea belongs to no nation and offers true freedom to those who dare to explore it.",
+        "ko": "네모 선장은 육지 대신 바다를 택하며, 바다는 어떤 나라의 것도 아니고 탐험할 용기가 있는 자에게 진정한 자유를 준다고 선언했다.",
+        "note": "'chose A over B'는 'B 대신 A를 택하다'라는 뜻이야. 'those who dare to ~'는 '감히 ~할 용기가 있는 사람들'이라는 관계대명사 표현이야."
       },
       {
         "source": "명화",
@@ -5814,7 +5814,7 @@
     ]
   },
   {
-    "date": "2026-07-08",
+    "day": 115,
     "sentences": [
       {
         "source": "고전",
@@ -5865,14 +5865,14 @@
     ]
   },
   {
-    "date": "2026-07-09",
+    "day": 116,
     "sentences": [
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "The Little Prince looked up at the sky full of stars and said, 'What makes the desert beautiful is that somewhere it hides a well.'",
-        "ko": "어린 왕자는 별이 가득한 하늘을 올려다보며 말했다. '사막이 아름다운 건 어딘가에 우물을 숨기고 있기 때문이야.'",
-        "note": "'What makes A beautiful is that ~'은 'A를 아름답게 만드는 것은 ~라는 점이다'야. What이 주어 역할을 하는 명사절 구문이야."
+        "en": "In Night Flight, the pilot Fabien flies through a violent storm, knowing that the mail must arrive even if it costs him his life.",
+        "ko": "'야간 비행'에서 조종사 파비앵은 격렬한 폭풍을 뚫고 비행하며, 목숨을 잃더라도 우편은 반드시 도착해야 한다는 것을 알고 있다.",
+        "note": "'knowing that ~'은 분사구문으로 '~을 알면서'라는 뜻이야. 'even if it costs him his life'는 '목숨을 잃더라도'라는 양보 표현이야."
       },
       {
         "source": "명화",
@@ -5916,7 +5916,7 @@
     ]
   },
   {
-    "date": "2026-07-10",
+    "day": 117,
     "sentences": [
       {
         "source": "고전",
@@ -5967,7 +5967,7 @@
     ]
   },
   {
-    "date": "2026-07-11",
+    "day": 118,
     "sentences": [
       {
         "source": "고전",
@@ -6018,7 +6018,7 @@
     ]
   },
   {
-    "date": "2026-07-12",
+    "day": 119,
     "sentences": [
       {
         "source": "고전",
@@ -6069,7 +6069,7 @@
     ]
   },
   {
-    "date": "2026-07-13",
+    "day": 120,
     "sentences": [
       {
         "source": "고전",
@@ -6120,7 +6120,7 @@
     ]
   },
   {
-    "date": "2026-07-14",
+    "day": 121,
     "sentences": [
       {
         "source": "고전",
@@ -6171,14 +6171,14 @@
     ]
   },
   {
-    "date": "2026-07-15",
+    "day": 122,
     "sentences": [
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "In Alice in Wonderland, the Queen shouted, 'Faster! Faster!' — but no matter how fast Alice ran, she stayed in the same place.",
-        "ko": "이상한 나라의 앨리스에서 여왕은 '더 빨리! 더 빨리!'라고 외쳤다 — 하지만 앨리스가 아무리 빨리 뛰어도 같은 자리에 있었다.",
-        "note": "'no matter how fast'는 '아무리 빨리 ~해도'라는 양보의 부사절이야. no matter how + 형용사/부사 + 주어 + 동사 패턴을 기억해둬."
+        "en": "In On the Road, Dean drives across America at breakneck speed, as if slowing down would mean losing the very essence of being alive.",
+        "ko": "'온 더 로드'에서 딘은 미국 대륙을 무모한 속도로 달리며, 마치 속도를 줄이면 살아 있다는 본질 자체를 잃는 것처럼 행동한다.",
+        "note": "'at breakneck speed'는 '목이 부러질 듯한 속도로'라는 관용표현이야. 'as if ~ing would mean ~ing'은 '마치 ~하면 ~하는 것처럼'이라는 가정법이야."
       },
       {
         "source": "명화",
@@ -6190,9 +6190,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japan's bullet train, the Shinkansen, revolutionized travel by showing that trains could be both safe and incredibly fast.",
-        "ko": "일본의 초고속 열차 신칸센은 기차가 안전하면서도 엄청나게 빠를 수 있음을 보여주어 여행에 혁명을 일으켰다.",
-        "note": "'both A and B'는 'A이면서도 B인'이라는 뜻이야. 두 가지 특성이 동시에 있음을 강조할 때 써. both safe and fast처럼 형용사를 병렬로 연결해."
+        "en": "On Germany's Autobahn, some stretches have no speed limit at all, trusting drivers to judge their own safe speed — a freedom built on discipline and engineering.",
+        "ko": "독일 아우토반의 일부 구간에는 속도 제한이 전혀 없어 운전자가 스스로 안전한 속도를 판단하도록 신뢰하며, 이는 규율과 공학 위에 세워진 자유다.",
+        "note": "'trusting drivers to ~'에서 trust A to B는 'A가 B할 것으로 신뢰하다'야. 'built on ~'은 '~ 위에 세워진'이라는 과거분사 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -6222,7 +6222,7 @@
     ]
   },
   {
-    "date": "2026-07-16",
+    "day": 123,
     "sentences": [
       {
         "source": "고전",
@@ -6273,7 +6273,7 @@
     ]
   },
   {
-    "date": "2026-07-17",
+    "day": 124,
     "sentences": [
       {
         "source": "고전",
@@ -6324,7 +6324,7 @@
     ]
   },
   {
-    "date": "2026-07-18",
+    "day": 125,
     "sentences": [
       {
         "source": "고전",
@@ -6375,7 +6375,7 @@
     ]
   },
   {
-    "date": "2026-07-19",
+    "day": 126,
     "sentences": [
       {
         "source": "고전",
@@ -6426,7 +6426,7 @@
     ]
   },
   {
-    "date": "2026-07-20",
+    "day": 127,
     "sentences": [
       {
         "source": "고전",
@@ -6477,7 +6477,7 @@
     ]
   },
   {
-    "date": "2026-07-21",
+    "day": 128,
     "sentences": [
       {
         "source": "고전",
@@ -6528,7 +6528,7 @@
     ]
   },
   {
-    "date": "2026-07-22",
+    "day": 129,
     "sentences": [
       {
         "source": "고전",
@@ -6579,7 +6579,7 @@
     ]
   },
   {
-    "date": "2026-07-23",
+    "day": 130,
     "sentences": [
       {
         "source": "고전",
@@ -6598,9 +6598,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Ancient Greek rhetoric taught three methods of persuasion: ethos appeals to character, pathos to emotion, and logos to reason.",
-        "ko": "고대 그리스 수사학은 세 가지 설득 방법을 가르쳤다: 에토스는 인격에, 파토스는 감정에, 로고스는 이성에 호소한다.",
-        "note": "'appeals to'는 '~에 호소하다'라는 뜻이야. appeal to + 감정/이성/권위 형태로 설득의 대상을 나타내. 토론이나 에세이에서 자주 쓰여."
+        "en": "In Istanbul's Grand Bazaar, merchants have perfected the art of persuasion over 500 years, knowing that a warm cup of tea and genuine conversation can seal any deal.",
+        "ko": "이스탄불 그랜드 바자르에서 상인들은 500년에 걸쳐 설득의 기술을 완성했으며, 따뜻한 차 한잔과 진심 어린 대화가 어떤 거래도 성사시킬 수 있음을 안다.",
+        "note": "'have perfected'는 현재완료로 '완성해 왔다'라는 뜻이야. 'seal a deal'은 '거래를 성사시키다'라는 관용 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -6630,7 +6630,7 @@
     ]
   },
   {
-    "date": "2026-07-24",
+    "day": 131,
     "sentences": [
       {
         "source": "고전",
@@ -6681,7 +6681,7 @@
     ]
   },
   {
-    "date": "2026-07-25",
+    "day": 132,
     "sentences": [
       {
         "source": "고전",
@@ -6732,7 +6732,7 @@
     ]
   },
   {
-    "date": "2026-07-26",
+    "day": 133,
     "sentences": [
       {
         "source": "고전",
@@ -6783,14 +6783,14 @@
     ]
   },
   {
-    "date": "2026-07-27",
+    "day": 134,
     "sentences": [
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "In Don Quixote, the knight is so convinced of his mission that he fights windmills, believing them to be giants.",
-        "ko": "돈키호테에서 기사는 자신의 사명에 너무 확신이 있어서 풍차를 거인이라 믿고 싸운다.",
-        "note": "'so convinced that ~'은 so + 형용사 + that 구문이야. convinced는 '확신하는'이라는 형용사로, be convinced of는 '~을 확신하다'야."
+        "en": "William James argued that religious conviction should be judged not by its logic but by the real difference it makes in a person's life.",
+        "ko": "윌리엄 제임스는 종교적 확신이 논리가 아니라 한 사람의 삶에 실제로 만드는 차이로 판단되어야 한다고 주장했다.",
+        "note": "'should be judged not by A but by B'는 'A가 아니라 B로 판단되어야 한다'는 수동태 구문이야. not A but B는 대조를 강조하는 중요한 패턴이야."
       },
       {
         "source": "명화",
@@ -6834,7 +6834,7 @@
     ]
   },
   {
-    "date": "2026-07-28",
+    "day": 135,
     "sentences": [
       {
         "source": "고전",
@@ -6885,7 +6885,7 @@
     ]
   },
   {
-    "date": "2026-07-29",
+    "day": 136,
     "sentences": [
       {
         "source": "고전",
@@ -6904,9 +6904,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese tea ceremony participants observe every detail — the angle of the cup, the sound of water, and the arrangement of flowers.",
-        "ko": "일본 다도 참가자들은 컵의 각도, 물소리, 꽃 배치 등 모든 세부 사항을 관찰한다.",
-        "note": "'observe every detail'에서 observe는 '관찰하다'와 '지키다(규칙)' 두 가지 뜻이 있어. 여기서는 '주의 깊게 보다'라는 의미야."
+        "en": "Leeuwenhoek, a Dutch cloth merchant, ground his own lenses and became the first person to observe bacteria, proving that careful observation can reveal an invisible world.",
+        "ko": "네덜란드 직물 상인 레이우엔훅은 직접 렌즈를 갈아 세균을 최초로 관찰한 사람이 되었으며, 세심한 관찰이 보이지 않는 세계를 드러낼 수 있음을 증명했다.",
+        "note": "'ground his own lenses'에서 ground는 grind(갈다)의 과거형이야. 'the first person to ~'는 '~한 최초의 사람'이라는 to부정사의 형용사적 용법이야."
       },
       {
         "source": "왜왜왜",
@@ -6936,7 +6936,7 @@
     ]
   },
   {
-    "date": "2026-07-30",
+    "day": 137,
     "sentences": [
       {
         "source": "고전",
@@ -6987,7 +6987,7 @@
     ]
   },
   {
-    "date": "2026-07-31",
+    "day": 138,
     "sentences": [
       {
         "source": "고전",
@@ -7038,7 +7038,7 @@
     ]
   },
   {
-    "date": "2026-08-01",
+    "day": 139,
     "sentences": [
       {
         "source": "고전",
@@ -7089,7 +7089,7 @@
     ]
   },
   {
-    "date": "2026-08-02",
+    "day": 140,
     "sentences": [
       {
         "source": "고전",
@@ -7140,7 +7140,7 @@
     ]
   },
   {
-    "date": "2026-08-03",
+    "day": 141,
     "sentences": [
       {
         "source": "고전",
@@ -7191,7 +7191,7 @@
     ]
   },
   {
-    "date": "2026-08-04",
+    "day": 142,
     "sentences": [
       {
         "source": "고전",
@@ -7242,7 +7242,7 @@
     ]
   },
   {
-    "date": "2026-08-05",
+    "day": 143,
     "sentences": [
       {
         "source": "고전",
@@ -7261,9 +7261,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese potters mix different types of clay and glaze to create ceramics that are both beautiful and durable.",
-        "ko": "일본 도공들은 다양한 종류의 점토와 유약을 섞어 아름다우면서도 내구성 있는 도자기를 만든다.",
-        "note": "'both A and B'는 'A이면서 동시에 B인'이라는 뜻으로, 두 가지 특성을 동시에 강조할 때 써. 형용사끼리 연결할 때 많이 쓰여."
+        "en": "The Democratic Republic of the Congo holds 70 percent of the world's coltan reserves — a mineral essential for making the smartphones and laptops we use every day.",
+        "ko": "콩고민주공화국은 세계 콜탄 매장량의 70%를 보유하고 있으며, 이는 우리가 매일 사용하는 스마트폰과 노트북을 만드는 데 필수적인 광물이다.",
+        "note": "'essential for ~ing'는 '~하는 데 필수적인'이라는 형용사 표현이야. 'we use every day'는 관계대명사 that이 생략된 목적격 관계절이야."
       },
       {
         "source": "왜왜왜",
@@ -7293,7 +7293,7 @@
     ]
   },
   {
-    "date": "2026-08-06",
+    "day": 144,
     "sentences": [
       {
         "source": "고전",
@@ -7344,7 +7344,7 @@
     ]
   },
   {
-    "date": "2026-08-07",
+    "day": 145,
     "sentences": [
       {
         "source": "고전",
@@ -7395,7 +7395,7 @@
     ]
   },
   {
-    "date": "2026-08-08",
+    "day": 146,
     "sentences": [
       {
         "source": "고전",
@@ -7446,7 +7446,7 @@
     ]
   },
   {
-    "date": "2026-08-09",
+    "day": 147,
     "sentences": [
       {
         "source": "고전",
@@ -7497,7 +7497,7 @@
     ]
   },
   {
-    "date": "2026-08-10",
+    "day": 148,
     "sentences": [
       {
         "source": "고전",
@@ -7548,7 +7548,7 @@
     ]
   },
   {
-    "date": "2026-08-11",
+    "day": 149,
     "sentences": [
       {
         "source": "고전",
@@ -7567,9 +7567,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In ancient Greece, athletes from rival city-states competed against each other at the Olympic Games during times of peace.",
-        "ko": "고대 그리스에서 적대적인 도시국가의 선수들이 평화 시기에 올림픽 경기에서 서로 겨루었다.",
-        "note": "'competed against each other'는 '서로 겨루었다'야. compete against는 '~에 맞서 경쟁하다'로, compete with보다 적극적인 대결 느낌이야."
+        "en": "South Korea's rapid rise from war-torn poverty to a global cultural powerhouse shows how fierce competition and relentless drive can transform a nation in just one generation.",
+        "ko": "한국이 전쟁으로 폐허가 된 빈곤에서 세계적 문화 강국으로 급부상한 것은 치열한 경쟁과 끊임없는 추진력이 단 한 세대 만에 나라를 변모시킬 수 있음을 보여준다.",
+        "note": "'war-torn'은 '전쟁으로 찢어진'이라는 복합 형용사야. 'in just one generation'은 '단 한 세대 만에'라는 시간 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -7599,7 +7599,7 @@
     ]
   },
   {
-    "date": "2026-08-12",
+    "day": 150,
     "sentences": [
       {
         "source": "고전",
@@ -7650,7 +7650,7 @@
     ]
   },
   {
-    "date": "2026-08-13",
+    "day": 151,
     "sentences": [
       {
         "source": "고전",
@@ -7701,7 +7701,7 @@
     ]
   },
   {
-    "date": "2026-08-14",
+    "day": 152,
     "sentences": [
       {
         "source": "고전",
@@ -7752,7 +7752,7 @@
     ]
   },
   {
-    "date": "2026-08-15",
+    "day": 153,
     "sentences": [
       {
         "source": "고전",
@@ -7803,7 +7803,7 @@
     ]
   },
   {
-    "date": "2026-08-16",
+    "day": 154,
     "sentences": [
       {
         "source": "고전",
@@ -7854,7 +7854,7 @@
     ]
   },
   {
-    "date": "2026-08-17",
+    "day": 155,
     "sentences": [
       {
         "source": "고전",
@@ -7873,9 +7873,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japan, the concept of wabi-sabi teaches people to find beauty in imperfection and accept the natural cycle of growth and decay.",
-        "ko": "일본에서 와비사비 개념은 불완전함 속에서 아름다움을 찾고 성장과 쇠퇴의 자연적 순환을 받아들이도록 가르친다.",
-        "note": "'teaches people to + 동사원형'은 '사람들에게 ~하도록 가르치다'야. teach + 사람 + to 부정사 구문으로, 교훈이나 가르침을 전할 때 써."
+        "en": "Bangladesh, once called a 'basket case,' has transformed itself through garment manufacturing and microfinance, proving that change can come from the most unexpected places.",
+        "ko": "한때 '절망적인 나라'로 불렸던 방글라데시는 의류 제조와 소액 금융을 통해 스스로를 변모시켰으며, 변화는 가장 예상치 못한 곳에서 올 수 있음을 증명했다.",
+        "note": "'once called ~'은 '한때 ~로 불렸던'이라는 과거분사 구문이야. 'has transformed itself'는 재귀대명사로 '스스로를 변모시켰다'라는 뜻이야."
       },
       {
         "source": "왜왜왜",
@@ -7905,7 +7905,7 @@
     ]
   },
   {
-    "date": "2026-08-18",
+    "day": 156,
     "sentences": [
       {
         "source": "고전",
@@ -7956,7 +7956,7 @@
     ]
   },
   {
-    "date": "2026-08-19",
+    "day": 157,
     "sentences": [
       {
         "source": "고전",
@@ -8007,7 +8007,7 @@
     ]
   },
   {
-    "date": "2026-08-20",
+    "day": 158,
     "sentences": [
       {
         "source": "고전",
@@ -8058,7 +8058,7 @@
     ]
   },
   {
-    "date": "2026-08-21",
+    "day": 159,
     "sentences": [
       {
         "source": "고전",
@@ -8109,7 +8109,7 @@
     ]
   },
   {
-    "date": "2026-08-22",
+    "day": 160,
     "sentences": [
       {
         "source": "고전",
@@ -8160,7 +8160,7 @@
     ]
   },
   {
-    "date": "2026-08-23",
+    "day": 161,
     "sentences": [
       {
         "source": "고전",
@@ -8211,7 +8211,7 @@
     ]
   },
   {
-    "date": "2026-08-24",
+    "day": 162,
     "sentences": [
       {
         "source": "고전",
@@ -8262,7 +8262,7 @@
     ]
   },
   {
-    "date": "2026-08-25",
+    "day": 163,
     "sentences": [
       {
         "source": "고전",
@@ -8281,9 +8281,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "South Korea's candlelight protests in 2016 showed the world that peaceful civic action can lead to real political change.",
-        "ko": "2016년 한국의 촛불 시위는 평화로운 시민 행동이 실질적인 정치 변화로 이어질 수 있음을 세계에 보여주었다.",
-        "note": "'showed the world that ~'는 '세계에 ~을 보여주었다'야. show + 간접목적어 + that절 구문이야. 'can lead to'는 '~로 이어질 수 있다'야."
+        "en": "Swiss citizens vote in national referendums up to four times a year, making Switzerland the world's most active direct democracy.",
+        "ko": "스위스 시민들은 연간 최대 4회 국민투표에 참여하며, 이는 스위스를 세계에서 가장 활발한 직접 민주주의 국가로 만든다.",
+        "note": "'up to four times a year'는 '연간 최대 4회'라는 뜻이야. 'making Switzerland ~'는 결과를 나타내는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -8313,7 +8313,7 @@
     ]
   },
   {
-    "date": "2026-08-26",
+    "day": 164,
     "sentences": [
       {
         "source": "고전",
@@ -8364,7 +8364,7 @@
     ]
   },
   {
-    "date": "2026-08-27",
+    "day": 165,
     "sentences": [
       {
         "source": "고전",
@@ -8415,7 +8415,7 @@
     ]
   },
   {
-    "date": "2026-08-28",
+    "day": 166,
     "sentences": [
       {
         "source": "고전",
@@ -8466,7 +8466,7 @@
     ]
   },
   {
-    "date": "2026-08-29",
+    "day": 167,
     "sentences": [
       {
         "source": "고전",
@@ -8485,9 +8485,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In medieval Japan, samurai who broke their code of honor were expected to atone through the ritual of seppuku.",
-        "ko": "중세 일본에서 명예 규범을 어긴 사무라이는 할복이라는 의식을 통해 속죄해야 했다.",
-        "note": "'were expected to + 동사원형'은 '~할 것이 기대되었다 = ~해야 했다'라는 수동태야. atone은 '속죄하다'로, make up for와 비슷해."
+        "en": "In Sicily, judges Giovanni Falcone and Paolo Borsellino gave their lives fighting the Mafia, becoming symbols of courage against organized crime in Italy.",
+        "ko": "시칠리아에서 판사 조반니 팔코네와 파올로 보르셀리노는 마피아에 맞서 싸우다 목숨을 바쳤으며, 이탈리아 조직범죄에 맞선 용기의 상징이 되었다.",
+        "note": "'gave their lives ~ing'는 '~하다 목숨을 바치다'라는 뜻이야. 'becoming symbols of ~'는 결과를 나타내는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -8517,7 +8517,7 @@
     ]
   },
   {
-    "date": "2026-08-30",
+    "day": 168,
     "sentences": [
       {
         "source": "고전",
@@ -8568,7 +8568,7 @@
     ]
   },
   {
-    "date": "2026-08-31",
+    "day": 169,
     "sentences": [
       {
         "source": "고전",
@@ -8619,7 +8619,7 @@
     ]
   },
   {
-    "date": "2026-09-01",
+    "day": 170,
     "sentences": [
       {
         "source": "고전",
@@ -8670,7 +8670,7 @@
     ]
   },
   {
-    "date": "2026-09-02",
+    "day": 171,
     "sentences": [
       {
         "source": "고전",
@@ -8721,7 +8721,7 @@
     ]
   },
   {
-    "date": "2026-09-03",
+    "day": 172,
     "sentences": [
       {
         "source": "고전",
@@ -8772,7 +8772,7 @@
     ]
   },
   {
-    "date": "2026-09-04",
+    "day": 173,
     "sentences": [
       {
         "source": "고전",
@@ -8823,7 +8823,7 @@
     ]
   },
   {
-    "date": "2026-09-05",
+    "day": 174,
     "sentences": [
       {
         "source": "고전",
@@ -8874,7 +8874,7 @@
     ]
   },
   {
-    "date": "2026-09-06",
+    "day": 175,
     "sentences": [
       {
         "source": "고전",
@@ -8925,7 +8925,7 @@
     ]
   },
   {
-    "date": "2026-09-07",
+    "day": 176,
     "sentences": [
       {
         "source": "고전",
@@ -8976,7 +8976,7 @@
     ]
   },
   {
-    "date": "2026-09-08",
+    "day": 177,
     "sentences": [
       {
         "source": "고전",
@@ -8995,9 +8995,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japan, the concept of patient, long-term investing is deeply rooted in the tradition of thinking about future generations.",
-        "ko": "일본에서 인내심 있는 장기 투자 개념은 미래 세대를 생각하는 전통에 깊이 뿌리박혀 있다.",
-        "note": "'be deeply rooted in ~'은 '~에 깊이 뿌리를 두고 있다'라는 뜻이야. 어떤 것이 오래된 전통이나 문화에 기반한다는 의미를 전달해."
+        "en": "Dubai transformed from a small fishing village into a futuristic metropolis in just 50 years, using oil wealth as an investment in a post-oil future.",
+        "ko": "두바이는 불과 50년 만에 작은 어촌에서 미래형 대도시로 변모했으며, 석유 부를 탈석유 미래에 대한 투자로 활용했다.",
+        "note": "'transformed from A into B'는 'A에서 B로 변모하다'라는 표현이야. 'using ~ as ~'는 '~을 ~으로 활용하며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -9027,7 +9027,7 @@
     ]
   },
   {
-    "date": "2026-09-09",
+    "day": 178,
     "sentences": [
       {
         "source": "고전",
@@ -9078,7 +9078,7 @@
     ]
   },
   {
-    "date": "2026-09-10",
+    "day": 179,
     "sentences": [
       {
         "source": "고전",
@@ -9129,7 +9129,7 @@
     ]
   },
   {
-    "date": "2026-09-11",
+    "day": 180,
     "sentences": [
       {
         "source": "고전",
@@ -9180,7 +9180,7 @@
     ]
   },
   {
-    "date": "2026-09-12",
+    "day": 181,
     "sentences": [
       {
         "source": "고전",
@@ -9231,7 +9231,7 @@
     ]
   },
   {
-    "date": "2026-09-13",
+    "day": 182,
     "sentences": [
       {
         "source": "고전",
@@ -9250,9 +9250,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese manufacturers pioneered the 'just-in-time' system, which minimizes waste by producing only what is needed, when it is needed.",
-        "ko": "일본 제조업체들은 필요한 것만 필요한 때에 생산하여 낭비를 최소화하는 '적시 생산' 시스템을 개척했다.",
-        "note": "'pioneer'는 명사로 '개척자', 동사로 '개척하다'라는 뜻이야. 'minimize'는 '최소화하다'로, maximum(최대)의 반대인 minimum에서 온 동사야."
+        "en": "Singapore's Changi Airport has been voted the world's best airport for years, where every detail — from butterfly gardens to free cinemas — is designed for maximum efficiency and comfort.",
+        "ko": "싱가포르 창이공항은 수년간 세계 최고 공항으로 선정되었으며, 나비 정원부터 무료 영화관까지 모든 세부 사항이 최대 효율과 편안함을 위해 설계되었다.",
+        "note": "'has been voted'는 현재완료 수동태로 '선정되어 왔다'라는 뜻이야. 'is designed for ~'는 '~을 위해 설계되다'라는 수동태 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -9282,7 +9282,7 @@
     ]
   },
   {
-    "date": "2026-09-14",
+    "day": 183,
     "sentences": [
       {
         "source": "고전",
@@ -9333,7 +9333,7 @@
     ]
   },
   {
-    "date": "2026-09-15",
+    "day": 184,
     "sentences": [
       {
         "source": "고전",
@@ -9352,9 +9352,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In South Korea, the rehabilitation of injured soldiers after the Korean War laid the foundation for the country's modern physical therapy system.",
-        "ko": "한국전쟁 후 부상 군인들의 재활은 한국 현대 물리치료 시스템의 토대를 놓았다.",
-        "note": "'lay the foundation for ~'는 '~의 토대를 놓다'라는 관용 표현이야. lay의 과거형은 laid인데, lie(눕다)의 과거형 lay와 혼동하지 않도록 주의해."
+        "en": "Medellín, once the world's most dangerous city due to drug cartels, reinvented itself through public libraries, cable cars, and urban gardens — a stunning model of urban rehabilitation.",
+        "ko": "메데진은 한때 마약 카르텔로 세계에서 가장 위험한 도시였으나, 공공 도서관, 케이블카, 도시 정원으로 스스로를 재창조하여 놀라운 도시 재활의 모델이 되었다.",
+        "note": "'reinvented itself through ~'는 '~을 통해 스스로를 재창조하다'라는 재귀 표현이야. 'once'는 '한때'라는 뜻의 부사야."
       },
       {
         "source": "왜왜왜",
@@ -9384,7 +9384,7 @@
     ]
   },
   {
-    "date": "2026-09-16",
+    "day": 185,
     "sentences": [
       {
         "source": "고전",
@@ -9435,7 +9435,7 @@
     ]
   },
   {
-    "date": "2026-09-17",
+    "day": 186,
     "sentences": [
       {
         "source": "고전",
@@ -9486,7 +9486,7 @@
     ]
   },
   {
-    "date": "2026-09-18",
+    "day": 187,
     "sentences": [
       {
         "source": "고전",
@@ -9537,7 +9537,7 @@
     ]
   },
   {
-    "date": "2026-09-19",
+    "day": 188,
     "sentences": [
       {
         "source": "고전",
@@ -9588,7 +9588,7 @@
     ]
   },
   {
-    "date": "2026-09-20",
+    "day": 189,
     "sentences": [
       {
         "source": "고전",
@@ -9639,7 +9639,7 @@
     ]
   },
   {
-    "date": "2026-09-21",
+    "day": 190,
     "sentences": [
       {
         "source": "고전",
@@ -9690,7 +9690,7 @@
     ]
   },
   {
-    "date": "2026-09-22",
+    "day": 191,
     "sentences": [
       {
         "source": "고전",
@@ -9709,9 +9709,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japanese culture, the practice of forest bathing, or shinrin-yoku, is recommended as a natural way to reduce stress and tension.",
-        "ko": "일본 문화에서 산림욕, 즉 신린요쿠는 스트레스와 긴장을 줄이는 자연적인 방법으로 권장된다.",
-        "note": "'is recommended as ~'는 '~로 권장되다'라는 수동태야. 'or'는 여기서 '즉, 다른 말로'라는 뜻으로 쓰여 앞 단어를 부연 설명해."
+        "en": "China's '996' work culture — working from 9 AM to 9 PM, six days a week — fuels the nation's economic growth but raises serious questions about the tension between productivity and well-being.",
+        "ko": "중국의 '996' 근무 문화 — 오전 9시부터 오후 9시까지 주 6일 근무 — 는 국가 경제 성장을 촉진하지만, 생산성과 안녕 사이의 긴장에 대한 심각한 질문을 제기한다.",
+        "note": "'raises questions about ~'는 '~에 대한 질문을 제기하다'라는 뜻이야. 'the tension between A and B'는 'A와 B 사이의 긴장'이라는 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -9741,7 +9741,7 @@
     ]
   },
   {
-    "date": "2026-09-23",
+    "day": 192,
     "sentences": [
       {
         "source": "고전",
@@ -9792,7 +9792,7 @@
     ]
   },
   {
-    "date": "2026-09-24",
+    "day": 193,
     "sentences": [
       {
         "source": "고전",
@@ -9811,9 +9811,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In South Korea, the intense pressure of college entrance exams has created a culture where academic anxiety starts from a very young age.",
-        "ko": "한국에서 대입 시험의 극심한 압박은 어린 나이부터 학업 불안이 시작되는 문화를 만들었다.",
-        "note": "'has created a culture where ~'에서 where는 관계부사로 culture를 수식해. 'from a very young age'는 '매우 어린 나이부터'라는 뜻이야."
+        "en": "In Iceland, where winter darkness lasts nearly 20 hours a day, people cope with seasonal anxiety by gathering in warm pools and reading more books per person than almost any other nation.",
+        "ko": "겨울 어둠이 하루 20시간 가까이 이어지는 아이슬란드에서 사람들은 따뜻한 온천에 모이고 1인당 거의 세계에서 가장 많은 책을 읽으며 계절적 불안에 대처한다.",
+        "note": "'cope with ~'는 '~에 대처하다'라는 뜻이야. 'more books per person than ~'는 '1인당 ~보다 더 많은 책'이라는 비교 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -9843,7 +9843,7 @@
     ]
   },
   {
-    "date": "2026-09-25",
+    "day": 194,
     "sentences": [
       {
         "source": "고전",
@@ -9894,7 +9894,7 @@
     ]
   },
   {
-    "date": "2026-09-26",
+    "day": 195,
     "sentences": [
       {
         "source": "고전",
@@ -9945,7 +9945,7 @@
     ]
   },
   {
-    "date": "2026-09-27",
+    "day": 196,
     "sentences": [
       {
         "source": "고전",
@@ -9996,7 +9996,7 @@
     ]
   },
   {
-    "date": "2026-09-28",
+    "day": 197,
     "sentences": [
       {
         "source": "고전",
@@ -10047,7 +10047,7 @@
     ]
   },
   {
-    "date": "2026-09-29",
+    "day": 198,
     "sentences": [
       {
         "source": "고전",
@@ -10098,7 +10098,7 @@
     ]
   },
   {
-    "date": "2026-09-30",
+    "day": 199,
     "sentences": [
       {
         "source": "고전",
@@ -10149,7 +10149,7 @@
     ]
   },
   {
-    "date": "2026-10-01",
+    "day": 200,
     "sentences": [
       {
         "source": "고전",
@@ -10200,7 +10200,7 @@
     ]
   },
   {
-    "date": "2026-10-02",
+    "day": 201,
     "sentences": [
       {
         "source": "고전",
@@ -10219,9 +10219,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japanese culture, the concept of ikigai — a reason for being — serves as a powerful motivation to live each day with purpose.",
-        "ko": "일본 문화에서 이키가이, 즉 존재의 이유라는 개념은 매일을 목적 있게 살도록 하는 강력한 동기가 된다.",
-        "note": "'a reason for being'은 '존재의 이유'야. reason for + 명사/동명사는 '~에 대한 이유'라는 뜻으로 자주 쓰여."
+        "en": "Silicon Valley thrives on the belief that failure is not the opposite of success but a necessary step toward it, motivating entrepreneurs to try again after every setback.",
+        "ko": "실리콘밸리는 실패가 성공의 반대가 아니라 성공을 향한 필수 단계라는 믿음 위에서 번성하며, 기업가들이 매 좌절 후 다시 도전하도록 동기를 부여한다.",
+        "note": "'not the opposite of ~ but ~'는 'not A but B' 대조 구문이야. 'motivating ~ to ~'는 '~에게 ~하도록 동기를 부여하며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -10251,7 +10251,7 @@
     ]
   },
   {
-    "date": "2026-10-03",
+    "day": 202,
     "sentences": [
       {
         "source": "고전",
@@ -10302,7 +10302,7 @@
     ]
   },
   {
-    "date": "2026-10-04",
+    "day": 203,
     "sentences": [
       {
         "source": "고전",
@@ -10353,7 +10353,7 @@
     ]
   },
   {
-    "date": "2026-10-05",
+    "day": 204,
     "sentences": [
       {
         "source": "고전",
@@ -10404,7 +10404,7 @@
     ]
   },
   {
-    "date": "2026-10-06",
+    "day": 205,
     "sentences": [
       {
         "source": "고전",
@@ -10423,9 +10423,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Japanese art of kintsugi repairs broken pottery with gold, turning damage into something more beautiful than the original.",
-        "ko": "일본의 킨츠기 기법은 깨진 도자기를 금으로 수리하여, 손상을 원래보다 더 아름다운 것으로 바꾼다.",
-        "note": "'turning A into B'는 'A를 B로 바꾸다'야. turn into는 변환을 나타내는 핵심 표현이야. 분사구문으로 결과를 보여주고 있어."
+        "en": "Uruguay, one of the smallest countries in South America, was the first to legalize same-sex marriage and cannabis on the continent, showing that originality often comes from unexpected places.",
+        "ko": "남미에서 가장 작은 나라 중 하나인 우루과이는 대륙 최초로 동성 결혼과 대마초를 합법화하여, 독창성은 종종 예상치 못한 곳에서 온다는 것을 보여주었다.",
+        "note": "'the first to ~'는 '~한 최초의'라는 to부정사의 형용사적 용법이야. 'showing that ~'는 '~을 보여주며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -10455,7 +10455,7 @@
     ]
   },
   {
-    "date": "2026-10-07",
+    "day": 206,
     "sentences": [
       {
         "source": "고전",
@@ -10506,7 +10506,7 @@
     ]
   },
   {
-    "date": "2026-10-08",
+    "day": 207,
     "sentences": [
       {
         "source": "고전",
@@ -10557,7 +10557,7 @@
     ]
   },
   {
-    "date": "2026-10-09",
+    "day": 208,
     "sentences": [
       {
         "source": "고전",
@@ -10608,7 +10608,7 @@
     ]
   },
   {
-    "date": "2026-10-10",
+    "day": 209,
     "sentences": [
       {
         "source": "고전",
@@ -10659,7 +10659,7 @@
     ]
   },
   {
-    "date": "2026-10-11",
+    "day": 210,
     "sentences": [
       {
         "source": "고전",
@@ -10710,7 +10710,7 @@
     ]
   },
   {
-    "date": "2026-10-12",
+    "day": 211,
     "sentences": [
       {
         "source": "고전",
@@ -10761,7 +10761,7 @@
     ]
   },
   {
-    "date": "2026-10-13",
+    "day": 212,
     "sentences": [
       {
         "source": "고전",
@@ -10812,7 +10812,7 @@
     ]
   },
   {
-    "date": "2026-10-14",
+    "day": 213,
     "sentences": [
       {
         "source": "고전",
@@ -10863,7 +10863,7 @@
     ]
   },
   {
-    "date": "2026-10-15",
+    "day": 214,
     "sentences": [
       {
         "source": "고전",
@@ -10914,7 +10914,7 @@
     ]
   },
   {
-    "date": "2026-10-16",
+    "day": 215,
     "sentences": [
       {
         "source": "고전",
@@ -10965,7 +10965,7 @@
     ]
   },
   {
-    "date": "2026-10-17",
+    "day": 216,
     "sentences": [
       {
         "source": "고전",
@@ -11016,7 +11016,7 @@
     ]
   },
   {
-    "date": "2026-10-18",
+    "day": 217,
     "sentences": [
       {
         "source": "고전",
@@ -11035,9 +11035,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Korean culture, Chuseok is a time when families return to their hometowns to honor their ancestors and share a harvest feast.",
-        "ko": "한국 문화에서 추석은 가족들이 고향에 돌아가 조상에게 예를 올리고 추수 잔치를 나누는 시간이다.",
-        "note": "'a time when ~'에서 when은 관계부사야. time, day, moment 같은 시간 명사 뒤에 when이 와서 '~하는 때'라고 수식해."
+        "en": "Ireland's Great Famine forced millions to emigrate, but their descendants have returned generation after generation, drawn by an unbreakable bond to their homeland.",
+        "ko": "아일랜드 대기근은 수백만 명을 이주하게 했지만, 그 후손들은 세대를 거듭하여 돌아왔으며, 고향에 대한 끊을 수 없는 유대에 이끌렸다.",
+        "note": "'forced ~ to ~'는 사역의 의미로 '~에게 ~하도록 강요하다'라는 뜻이야. 'drawn by ~'는 '~에 이끌린'이라는 과거분사 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -11067,7 +11067,7 @@
     ]
   },
   {
-    "date": "2026-10-19",
+    "day": 218,
     "sentences": [
       {
         "source": "고전",
@@ -11086,9 +11086,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The ancient Olympic Games in Greece included not only athletic events but also poetry recitals and musical competitions.",
-        "ko": "고대 그리스의 올림픽 경기에는 운동 종목뿐만 아니라 시 낭송과 음악 대회도 포함되어 있었다.",
-        "note": "'not only A but also B'는 'A뿐만 아니라 B도'야. 상관접속사로 두 가지를 연결할 때 쓰는 중요한 패턴이야."
+        "en": "In Trinidad, the steel pan was invented by beating discarded oil drums into musical instruments, turning industrial waste into the joyful sound of carnival.",
+        "ko": "트리니다드에서 버려진 기름통을 두들겨 악기로 만든 스틸팬이 발명되었으며, 산업 폐기물이 카니발의 즐거운 소리로 바뀌었다.",
+        "note": "'by beating ~ into ~'는 '~을 두들겨서 ~으로 만들어'라는 수단 표현이야. 'turning A into B'는 'A를 B로 바꾸며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -11118,7 +11118,7 @@
     ]
   },
   {
-    "date": "2026-10-20",
+    "day": 219,
     "sentences": [
       {
         "source": "고전",
@@ -11137,9 +11137,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Japanese tea ceremony is not merely about drinking tea — every gesture, from the way you bow to how you hold the cup, carries deep meaning.",
-        "ko": "일본 다도는 단순히 차를 마시는 것이 아니다 — 인사하는 방법부터 잔을 잡는 방식까지, 모든 동작에 깊은 의미가 담겨 있다.",
-        "note": "'from A to B'는 'A부터 B까지'야. 범위를 나타내는 표현으로, 여기서는 모든 동작이 의미를 가진다는 것을 강조해."
+        "en": "In Tajikistan, the ancient festival of Navruz marks the spring equinox with rituals of cleaning, feasting, and visiting elders — ceremonies unchanged for over 3,000 years.",
+        "ko": "타지키스탄에서 고대 축제 나브루즈는 청소, 잔치, 어른 방문의 의례로 춘분을 기념하며, 이 의식은 3,000년 이상 변하지 않았다.",
+        "note": "'marks ~ with ~'는 '~으로 ~을 기념하다'라는 뜻이야. 'unchanged for over 3,000 years'는 '3,000년 이상 변하지 않은'이라는 형용사구야."
       },
       {
         "source": "왜왜왜",
@@ -11169,7 +11169,7 @@
     ]
   },
   {
-    "date": "2026-10-21",
+    "day": 220,
     "sentences": [
       {
         "source": "고전",
@@ -11220,7 +11220,7 @@
     ]
   },
   {
-    "date": "2026-10-22",
+    "day": 221,
     "sentences": [
       {
         "source": "고전",
@@ -11271,7 +11271,7 @@
     ]
   },
   {
-    "date": "2026-10-23",
+    "day": 222,
     "sentences": [
       {
         "source": "고전",
@@ -11322,7 +11322,7 @@
     ]
   },
   {
-    "date": "2026-10-24",
+    "day": 223,
     "sentences": [
       {
         "source": "고전",
@@ -11373,7 +11373,7 @@
     ]
   },
   {
-    "date": "2026-10-25",
+    "day": 224,
     "sentences": [
       {
         "source": "고전",
@@ -11424,7 +11424,7 @@
     ]
   },
   {
-    "date": "2026-10-26",
+    "day": 225,
     "sentences": [
       {
         "source": "고전",
@@ -11475,7 +11475,7 @@
     ]
   },
   {
-    "date": "2026-10-27",
+    "day": 226,
     "sentences": [
       {
         "source": "고전",
@@ -11494,9 +11494,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "After the 2011 earthquake and tsunami, Japanese communities showed remarkable resilience, rebuilding together under the spirit of ganbaru — never giving up.",
-        "ko": "2011년 지진과 쓰나미 이후, 일본 공동체는 결코 포기하지 않는 간바루 정신 아래 함께 재건하며 놀라운 회복력을 보여주었다.",
-        "note": "'showed remarkable resilience, rebuilding ~'에서 rebuilding은 분사구문이야. '재건하면서' 회복력을 보여주었다는 동시 동작을 나타내."
+        "en": "After the devastating 2010 earthquake, Haitians rebuilt schools and homes from the rubble with their own hands, showing a resilience born from centuries of overcoming hardship.",
+        "ko": "2010년 파괴적인 지진 이후, 아이티인들은 맨손으로 잔해에서 학교와 집을 다시 지었으며, 수 세기의 역경 극복에서 태어난 회복력을 보여주었다.",
+        "note": "'born from ~'는 '~에서 태어난/비롯된'이라는 과거분사 표현이야. 'with their own hands'는 '자신의 손으로/맨손으로'라는 수단 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -11526,7 +11526,7 @@
     ]
   },
   {
-    "date": "2026-10-28",
+    "day": 227,
     "sentences": [
       {
         "source": "고전",
@@ -11577,7 +11577,7 @@
     ]
   },
   {
-    "date": "2026-10-29",
+    "day": 228,
     "sentences": [
       {
         "source": "고전",
@@ -11628,7 +11628,7 @@
     ]
   },
   {
-    "date": "2026-10-30",
+    "day": 229,
     "sentences": [
       {
         "source": "고전",
@@ -11647,9 +11647,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese earthquake drills are practiced so regularly that even young children know exactly what to do when the ground starts shaking.",
-        "ko": "일본의 지진 대피 훈련은 너무 정기적으로 실시되어서 어린아이들도 땅이 흔들리기 시작하면 정확히 무엇을 해야 하는지 안다.",
-        "note": "'so regularly that ~'는 'so + 부사 + that ~' 구문이야. '너무 정기적으로 해서 ~하다'라는 결과를 보여줘."
+        "en": "The Białowieża Forest on the Belarus-Poland border is Europe's last primeval woodland, where ancient trees have stood undisturbed for thousands of years, safe from the axes of civilization.",
+        "ko": "벨라루스-폴란드 국경의 비아워비에자 숲은 유럽 마지막 원시림으로, 고대 나무들이 수천 년간 문명의 도끼로부터 안전하게 방해받지 않고 서 있다.",
+        "note": "'have stood undisturbed'는 현재완료 + 보어로 '방해받지 않고 서 있어 왔다'라는 뜻이야. 'safe from ~'은 '~로부터 안전한'이라는 형용사 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -11679,7 +11679,7 @@
     ]
   },
   {
-    "date": "2026-10-31",
+    "day": 230,
     "sentences": [
       {
         "source": "고전",
@@ -11730,7 +11730,7 @@
     ]
   },
   {
-    "date": "2026-11-01",
+    "day": 231,
     "sentences": [
       {
         "source": "고전",
@@ -11749,9 +11749,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japan, bowing is not just a greeting — the angle of the bow shows how much respect you are giving.",
-        "ko": "일본에서 인사는 단순한 인사가 아니다 — 허리를 굽히는 각도가 얼마나 많은 존경을 표하는지를 보여준다.",
-        "note": "'not just A'는 '단순히 A가 아니다'라는 뜻이야. how much 뒤에 명사가 와서 '얼마나 많은 ~인지'를 표현하는 간접의문문이야."
+        "en": "In Morocco, serving mint tea follows a precise ritual: the host pours from high above the glass to create a froth, and refusing a cup is considered deeply impolite.",
+        "ko": "모로코에서 민트차를 내는 것은 정확한 의례를 따른다: 주인이 잔 위 높은 곳에서 따라 거품을 만들며, 한 잔을 거절하는 것은 매우 무례한 것으로 여겨진다.",
+        "note": "'from high above ~'는 '~ 위 높은 곳에서'라는 장소 표현이야. 'refusing ~ is considered ~'는 동명사 주어 + 수동태로 '~을 거절하는 것은 ~으로 여겨진다'야."
       },
       {
         "source": "왜왜왜",
@@ -11781,7 +11781,7 @@
     ]
   },
   {
-    "date": "2026-11-02",
+    "day": 232,
     "sentences": [
       {
         "source": "고전",
@@ -11832,7 +11832,7 @@
     ]
   },
   {
-    "date": "2026-11-03",
+    "day": 233,
     "sentences": [
       {
         "source": "고전",
@@ -11851,9 +11851,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In South Korea, the 60th birthday celebration called hwangap honors a person's completion of the zodiac cycle.",
-        "ko": "한국에서 환갑이라 불리는 60세 생일 축하는 십이지 주기를 완성한 것을 기리는 행사이다.",
-        "note": "'called hwangap'은 과거분사가 앞의 명사 celebration을 수식해. '~라 불리는'이라는 뜻이야."
+        "en": "Bulgarians attribute their remarkable longevity to daily consumption of yogurt, a fermented food containing bacteria that scientists have linked to a longer, healthier life.",
+        "ko": "불가리아인들은 놀라운 장수를 요구르트의 일상적 섭취 덕분으로 돌리며, 이 발효 식품에는 과학자들이 더 길고 건강한 삶과 연관시킨 세균이 들어있다.",
+        "note": "'attribute A to B'는 'A를 B의 덕분으로 돌리다'라는 뜻이야. 'have linked A to B'는 'A를 B와 연관시키다'라는 현재완료 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -11883,14 +11883,14 @@
     ]
   },
   {
-    "date": "2026-11-04",
+    "day": 234,
     "sentences": [
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "It was the best of times, it was the worst of times — it was the spring of hope, it was the winter of despair.",
-        "ko": "최고의 시절이었고, 최악의 시절이었다 — 희망의 봄이었고, 절망의 겨울이었다.",
-        "note": "'It was the best / worst of times'는 대조법(antithesis)이야. 반대 개념을 나란히 놓아 청춘의 양면성을 표현해."
+        "en": "Werther loved so deeply that he could not separate his passion from his pain, and in the end, his youth burned itself out like a flame too bright to last.",
+        "ko": "베르테르는 너무 깊이 사랑해서 열정과 고통을 분리할 수 없었고, 결국 그의 청춘은 너무 밝아 오래가지 못하는 불꽃처럼 스스로 타버렸다.",
+        "note": "'so ~ that …'은 '너무 ~해서 …하다'라는 결과 구문이야. 'too bright to last'는 'too + 형용사 + to 부정사'로 '너무 ~해서 …할 수 없는'이라는 뜻이야."
       },
       {
         "source": "명화",
@@ -11902,9 +11902,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Brazil, young people celebrate their coming of age with a lively party filled with music, dancing, and colorful decorations.",
-        "ko": "브라질에서 젊은이들은 음악, 춤, 화려한 장식으로 가득한 활기찬 파티로 성인이 되는 것을 축하한다.",
-        "note": "'coming of age'는 '성인이 됨'이라는 뜻의 명사구야. filled with는 '~로 가득 찬'이라는 과거분사 표현이야."
+        "en": "In Ukraine, young women embroider 'vyshyvanka' shirts with colorful patterns that tell stories of their village, their family, and their own youth.",
+        "ko": "우크라이나에서 젊은 여성들은 마을, 가족, 자신의 청춘에 대한 이야기를 담은 다채로운 무늬로 '비시반카' 셔츠를 수놓는다.",
+        "note": "'that tell stories of ~'는 관계대명사 that이 이끄는 형용사절로 '~의 이야기를 들려주는'이라는 뜻이야."
       },
       {
         "source": "왜왜왜",
@@ -11934,7 +11934,7 @@
     ]
   },
   {
-    "date": "2026-11-05",
+    "day": 235,
     "sentences": [
       {
         "source": "고전",
@@ -11985,7 +11985,7 @@
     ]
   },
   {
-    "date": "2026-11-06",
+    "day": 236,
     "sentences": [
       {
         "source": "고전",
@@ -12036,7 +12036,7 @@
     ]
   },
   {
-    "date": "2026-11-07",
+    "day": 237,
     "sentences": [
       {
         "source": "고전",
@@ -12087,7 +12087,7 @@
     ]
   },
   {
-    "date": "2026-11-08",
+    "day": 238,
     "sentences": [
       {
         "source": "고전",
@@ -12106,9 +12106,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese calligraphy, known as shodo, treats writing as both a visual art and a meditative practice.",
-        "ko": "서도라고 알려진 일본 서예는 글쓰기를 시각 예술이자 명상적 수련으로 다룬다.",
-        "note": "'known as ~'는 '~로 알려진'이라는 과거분사구야. 'both A and B'는 'A이자 B 둘 다'라는 표현."
+        "en": "In Turkmenistan, master weavers encode messages into carpet patterns, each knot representing a letter in a textile tradition of writing that predates paper by millennia.",
+        "ko": "투르크메니스탄에서 장인 직조공들은 양탄자 무늬에 메시지를 암호화하며, 각 매듭은 종이보다 수천 년 앞선 직물 작문 전통의 글자를 나타낸다.",
+        "note": "'encode A into B'는 'A를 B에 암호화하다'야. 'that predates paper by millennia'는 '종이보다 수천 년 앞선'이라는 관계절이야."
       },
       {
         "source": "왜왜왜",
@@ -12138,7 +12138,7 @@
     ]
   },
   {
-    "date": "2026-11-09",
+    "day": 239,
     "sentences": [
       {
         "source": "고전",
@@ -12189,7 +12189,7 @@
     ]
   },
   {
-    "date": "2026-11-10",
+    "day": 240,
     "sentences": [
       {
         "source": "고전",
@@ -12240,7 +12240,7 @@
     ]
   },
   {
-    "date": "2026-11-11",
+    "day": 241,
     "sentences": [
       {
         "source": "고전",
@@ -12259,9 +12259,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Ancient Greek theaters were built into hillsides so that the natural slope provided seating for thousands of spectators.",
-        "ko": "고대 그리스 극장은 자연 경사가 수천 명의 관객을 위한 좌석을 제공하도록 언덕에 지어졌다.",
-        "note": "'were built into'는 '~에 맞춰 지어지다'라는 수동태야. 'so that'은 '~하도록, ~하기 위해'라는 목적의 접속사."
+        "en": "Budapest's ornate theaters have staged world-class opera and drama for over two centuries, earning Hungary a reputation as one of Europe's hidden cultural powerhouses.",
+        "ko": "부다페스트의 화려한 극장들은 2세기 이상 세계 수준의 오페라와 연극을 무대에 올려왔으며, 헝가리에 유럽의 숨겨진 문화 강국이라는 명성을 안겨주었다.",
+        "note": "'have staged'는 현재완료로 '무대에 올려왔다'라는 뜻이야. 'earning ~ a reputation as ~'는 '~에게 ~라는 명성을 안겨주며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -12291,7 +12291,7 @@
     ]
   },
   {
-    "date": "2026-11-12",
+    "day": 242,
     "sentences": [
       {
         "source": "고전",
@@ -12342,7 +12342,7 @@
     ]
   },
   {
-    "date": "2026-11-13",
+    "day": 243,
     "sentences": [
       {
         "source": "고전",
@@ -12361,9 +12361,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Street photography thrives in cities like Tokyo and New York, where photographers capture candid moments of urban life.",
-        "ko": "거리 사진은 도쿄와 뉴욕 같은 도시에서 번성하는데, 사진작가들이 도시 생활의 자연스러운 순간을 포착한다.",
-        "note": "'thrives in ~'은 '~에서 번성하다'라는 뜻이야. candid는 '솔직한, 자연스러운(연출 없는)'이라는 뜻의 형용사."
+        "en": "In Botswana's Okavango Delta, wildlife photographers wait for hours in absolute stillness, because the perfect shot demands patience as much as skill.",
+        "ko": "보츠와나 오카방고 삼각주에서 야생동물 사진가들은 절대적 고요 속에 몇 시간이고 기다리는데, 완벽한 사진은 기술만큼이나 인내를 요구하기 때문이다.",
+        "note": "'in absolute stillness'는 '절대적 고요 속에서'라는 뜻이야. 'as much as ~'는 '~만큼이나'라는 동등 비교 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -12393,7 +12393,7 @@
     ]
   },
   {
-    "date": "2026-11-14",
+    "day": 244,
     "sentences": [
       {
         "source": "고전",
@@ -12444,7 +12444,7 @@
     ]
   },
   {
-    "date": "2026-11-15",
+    "day": 245,
     "sentences": [
       {
         "source": "고전",
@@ -12463,9 +12463,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japan's cultural fascination with robots is rooted in Shinto beliefs that even objects can possess a spirit.",
-        "ko": "일본의 로봇에 대한 문화적 매력은 사물에도 영혼이 깃들 수 있다는 신도 신앙에 뿌리를 두고 있다.",
-        "note": "'is rooted in ~'은 '~에 뿌리를 두다'라는 수동태 표현이야. 'that even objects can possess'에서 even은 '~조차도'라는 강조 부사."
+        "en": "Kuwait is investing heavily in robotics and artificial intelligence to build a high-tech economy beyond oil, deploying robots in hospitals and government offices.",
+        "ko": "쿠웨이트는 석유를 넘어선 첨단 경제를 구축하기 위해 로봇공학과 인공지능에 대규모 투자를 하며, 병원과 관공서에 로봇을 배치하고 있다.",
+        "note": "'investing heavily in ~'는 '~에 대규모로 투자하다'라는 뜻이야. 'beyond oil'은 '석유를 넘어서'라는 전치사구야."
       },
       {
         "source": "왜왜왜",
@@ -12495,7 +12495,7 @@
     ]
   },
   {
-    "date": "2026-11-16",
+    "day": 246,
     "sentences": [
       {
         "source": "고전",
@@ -12546,7 +12546,7 @@
     ]
   },
   {
-    "date": "2026-11-17",
+    "day": 247,
     "sentences": [
       {
         "source": "고전",
@@ -12565,9 +12565,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "South Korea has one of the fastest internet speeds in the world, allowing its citizens to access information almost instantly.",
-        "ko": "한국은 세계에서 가장 빠른 인터넷 속도를 가진 나라 중 하나로, 시민들이 거의 즉시 정보에 접근할 수 있다.",
-        "note": "'one of the fastest ~'는 최상급 표현이야. 'allowing A to ~'는 분사구문으로 'A가 ~할 수 있게 해주다'."
+        "en": "In Eswatini, the annual Reed Dance brings together thousands of young women who carry tall reeds to the queen mother, keeping alive a centuries-old network of cultural information and tradition.",
+        "ko": "에스와티니에서 매년 열리는 갈대 춤에는 수천 명의 젊은 여성이 모여 태후에게 긴 갈대를 전달하며, 수 세기 된 문화 정보와 전통의 네트워크를 살려간다.",
+        "note": "'keeping alive ~'는 '~을 살려가며'라는 분사구문이야. keep alive는 '살아있게 유지하다'라는 뜻의 구동사야."
       },
       {
         "source": "왜왜왜",
@@ -12597,7 +12597,7 @@
     ]
   },
   {
-    "date": "2026-11-18",
+    "day": 248,
     "sentences": [
       {
         "source": "고전",
@@ -12648,7 +12648,7 @@
     ]
   },
   {
-    "date": "2026-11-19",
+    "day": 249,
     "sentences": [
       {
         "source": "고전",
@@ -12660,16 +12660,16 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Vermeer's painting shows a woman in blue reading a letter, her still posture suggesting deep absorption in the words.",
-        "ko": "베르메르의 그림은 파란 옷을 입은 여인이 편지를 읽는 모습을 보여주며, 고요한 자세가 글에 깊이 몰입해 있음을 암시한다.",
-        "note": "'her still posture suggesting ~'은 독립분사구문이야. 'absorption in ~'은 '~에의 몰입'이라는 뜻."
+        "en": "Bonnard painted a woman absorbed in reading a letter, her quiet concentration and the warm tones of the room creating an intimate moment frozen in time.",
+        "ko": "보나르는 편지를 읽는 데 몰두한 여인을 그렸으며, 그녀의 조용한 집중과 방의 따뜻한 색조가 시간이 멈춘 친밀한 순간을 만들어낸다.",
+        "note": "'absorbed in ~ing'는 '~에 몰두한'이라는 뜻의 형용사 표현이야. 'frozen in time'은 '시간 속에 얼어붙은', 즉 '시간이 멈춘'이라는 비유야."
       },
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Victorian England, people sent elaborately decorated cards and letters, turning correspondence into a form of art.",
-        "ko": "빅토리아 시대 영국에서 사람들은 정교하게 장식된 카드와 편지를 보내, 서신을 예술의 한 형태로 만들었다.",
-        "note": "'turning A into B'는 분사구문으로 'A를 B로 바꾸다'라는 뜻이야. elaborately는 '정교하게'라는 부사."
+        "en": "During Algeria's war for independence, women hid secret letters inside their traditional haik garments, turning simple fabric into a powerful tool of resistance.",
+        "ko": "알제리 독립 전쟁 중 여성들은 전통 의상 하이크 안에 비밀 편지를 숨겼으며, 단순한 천을 강력한 저항의 도구로 바꾸었다.",
+        "note": "'turning A into B'는 'A를 B로 바꾸며'라는 분사구문이야. 'a powerful tool of resistance'는 '강력한 저항의 도구'라는 명사구야."
       },
       {
         "source": "왜왜왜",
@@ -12699,7 +12699,7 @@
     ]
   },
   {
-    "date": "2026-11-20",
+    "day": 250,
     "sentences": [
       {
         "source": "고전",
@@ -12750,7 +12750,7 @@
     ]
   },
   {
-    "date": "2026-11-21",
+    "day": 251,
     "sentences": [
       {
         "source": "고전",
@@ -12801,7 +12801,7 @@
     ]
   },
   {
-    "date": "2026-11-22",
+    "day": 252,
     "sentences": [
       {
         "source": "고전",
@@ -12852,7 +12852,7 @@
     ]
   },
   {
-    "date": "2026-11-23",
+    "day": 253,
     "sentences": [
       {
         "source": "고전",
@@ -12903,7 +12903,7 @@
     ]
   },
   {
-    "date": "2026-11-24",
+    "day": 254,
     "sentences": [
       {
         "source": "고전",
@@ -12954,7 +12954,7 @@
     ]
   },
   {
-    "date": "2026-11-25",
+    "day": 255,
     "sentences": [
       {
         "source": "고전",
@@ -13005,7 +13005,7 @@
     ]
   },
   {
-    "date": "2026-11-26",
+    "day": 256,
     "sentences": [
       {
         "source": "고전",
@@ -13056,7 +13056,7 @@
     ]
   },
   {
-    "date": "2026-11-27",
+    "day": 257,
     "sentences": [
       {
         "source": "고전",
@@ -13075,9 +13075,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Japanese concept of mono no aware describes the bittersweet feeling of being deeply moved by the beauty of passing things.",
-        "ko": "일본의 모노노아와레 개념은 사라지는 것의 아름다움에 깊이 감동받는 씁쓸하면서도 달콤한 감정을 묘사한다.",
-        "note": "'the feeling of being deeply moved'에서 being moved는 동명사의 수동형이야. '감동받는 느낌'이라는 뜻."
+        "en": "Malawi, known as 'The Warm Heart of Africa,' is a country where strangers greet you with genuine smiles and share their meals even when they have very little.",
+        "ko": "말라위는 '아프리카의 따뜻한 심장'으로 알려진 나라로, 낯선 사람에게 진심 어린 미소로 인사하고 가진 것이 거의 없어도 식사를 나눈다.",
+        "note": "'known as ~'는 '~로 알려진'이라는 과거분사 표현이야. 'even when ~'는 '~할 때조차도'라는 양보의 부사절이야."
       },
       {
         "source": "왜왜왜",
@@ -13107,7 +13107,7 @@
     ]
   },
   {
-    "date": "2026-11-28",
+    "day": 258,
     "sentences": [
       {
         "source": "고전",
@@ -13158,7 +13158,7 @@
     ]
   },
   {
-    "date": "2026-11-29",
+    "day": 259,
     "sentences": [
       {
         "source": "고전",
@@ -13209,7 +13209,7 @@
     ]
   },
   {
-    "date": "2026-11-30",
+    "day": 260,
     "sentences": [
       {
         "source": "고전",
@@ -13228,9 +13228,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese business culture uses the concept of hoshin kanri, a method of setting goals that aligns every level of an organization.",
-        "ko": "일본 기업 문화는 조직의 모든 수준을 일치시키는 목표 설정 방법인 호신칸리 개념을 사용한다.",
-        "note": "'a method of + -ing'는 '~하는 방법'이야. 'that aligns every level'에서 align은 '일치시키다, 정렬하다'."
+        "en": "Angola's kuduro music was born in the slums of Luanda during the civil war, giving young people a rhythmic goal to dance toward when all other paths seemed blocked.",
+        "ko": "앙골라의 쿠도로 음악은 내전 중 루안다 빈민가에서 탄생하여, 다른 모든 길이 막힌 것처럼 보일 때 젊은이들에게 춤으로 향할 리듬의 목표를 주었다.",
+        "note": "'was born in ~'은 '~에서 탄생하다'라는 수동태야. 'when all other paths seemed blocked'는 '다른 모든 길이 막힌 것처럼 보일 때'라는 시간 부사절이야."
       },
       {
         "source": "왜왜왜",
@@ -13260,7 +13260,7 @@
     ]
   },
   {
-    "date": "2026-12-01",
+    "day": 261,
     "sentences": [
       {
         "source": "고전",
@@ -13279,9 +13279,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japan, the concept of 'kaizen' means continuous improvement through small, daily practice.",
-        "ko": "일본에서 '카이젠' 개념은 작은 일상적 연습을 통한 지속적 개선을 의미한다.",
-        "note": "'continuous improvement'는 '지속적인 개선'이라는 뜻이야. continuous는 '끊임없는'으로, 중간에 멈추지 않는 느낌을 줘."
+        "en": "In Luxembourg, children start learning three languages from elementary school — Luxembourgish, German, and French — so that by graduation, daily practice has made them fluent in all three.",
+        "ko": "룩셈부르크에서 아이들은 초등학교부터 룩셈부르크어, 독일어, 프랑스어 세 언어를 배우기 시작하여, 졸업할 때쯤이면 매일의 연습이 세 언어 모두에 유창하게 만든다.",
+        "note": "'so that ~ by graduation'는 '졸업할 때쯤이면 ~하도록'이라는 목적/결과 구문이야. 'has made them fluent'는 사역동사 make의 현재완료 5형식이야."
       },
       {
         "source": "왜왜왜",
@@ -13311,7 +13311,7 @@
     ]
   },
   {
-    "date": "2026-12-02",
+    "day": 262,
     "sentences": [
       {
         "source": "고전",
@@ -13362,7 +13362,7 @@
     ]
   },
   {
-    "date": "2026-12-03",
+    "day": 263,
     "sentences": [
       {
         "source": "고전",
@@ -13413,7 +13413,7 @@
     ]
   },
   {
-    "date": "2026-12-04",
+    "day": 264,
     "sentences": [
       {
         "source": "고전",
@@ -13432,9 +13432,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Korean culture, wrapping a gift beautifully is just as important as the gift itself — the finishing touch shows respect.",
-        "ko": "한국 문화에서 선물을 아름답게 포장하는 것은 선물 자체만큼 중요하다 — 마무리가 존중을 보여준다.",
-        "note": "'just as important as'는 '~만큼 중요한'이라는 동등 비교 표현이야. as A as B에서 A와 B가 같은 정도임을 나타내."
+        "en": "Côte d'Ivoire, once devastated by civil war, rebuilt its economy to become West Africa's largest, proving that a strong finish can follow the darkest chapter.",
+        "ko": "코트디부아르는 한때 내전으로 황폐해졌으나 경제를 재건하여 서아프리카 최대 경제국이 되었으며, 가장 어두운 장 뒤에 강한 마무리가 올 수 있음을 증명했다.",
+        "note": "'once devastated by ~'는 '한때 ~에 의해 황폐해진'이라는 과거분사 구문이야. 'can follow'는 '뒤따를 수 있다'라는 가능성의 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -13464,14 +13464,14 @@
     ]
   },
   {
-    "date": "2026-12-05",
+    "day": 265,
     "sentences": [
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "The wheel of time turns, and ages come and pass, leaving memories that become legend.",
-        "ko": "시간의 수레바퀴가 돌고, 시대가 오고 가며, 기억은 남아 전설이 된다.",
-        "note": "'leaving memories that become legend'에서 leaving은 분사구문으로 결과를 나타내. '~하면서 …을 남기다'라는 뜻이야."
+        "en": "In The Tao of Physics, Capra reveals that the atoms in our bodies are recycled stardust, connecting the cycles of the cosmos to the cycles within us.",
+        "ko": "'타오 물리학'에서 카프라는 우리 몸의 원자가 재활용된 별먼지라는 것을 밝히며, 우주의 순환과 우리 안의 순환을 연결한다.",
+        "note": "'recycled stardust'는 '재활용된 별먼지'라는 뜻이야. 'connecting A to B'는 'A와 B를 연결하며'라는 분사구문으로, 앞 내용의 결과를 나타내."
       },
       {
         "source": "명화",
@@ -13515,7 +13515,7 @@
     ]
   },
   {
-    "date": "2026-12-06",
+    "day": 266,
     "sentences": [
       {
         "source": "고전",
@@ -13566,7 +13566,7 @@
     ]
   },
   {
-    "date": "2026-12-07",
+    "day": 267,
     "sentences": [
       {
         "source": "고전",
@@ -13617,7 +13617,7 @@
     ]
   },
   {
-    "date": "2026-12-08",
+    "day": 268,
     "sentences": [
       {
         "source": "고전",
@@ -13668,7 +13668,7 @@
     ]
   },
   {
-    "date": "2026-12-09",
+    "day": 269,
     "sentences": [
       {
         "source": "고전",
@@ -13719,7 +13719,7 @@
     ]
   },
   {
-    "date": "2026-12-10",
+    "day": 270,
     "sentences": [
       {
         "source": "고전",
@@ -13738,9 +13738,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Mexican culture, the Day of the Dead celebrates the lives of those who have passed, with colorful altars and offerings.",
-        "ko": "멕시코 문화에서 '죽은 자의 날'은 화려한 제단과 공물로 세상을 떠난 이들의 삶을 기린다.",
-        "note": "'those who have passed'에서 those who = '~한 사람들'. have passed는 현재완료로, '이미 세상을 떠난' 상태를 나타내."
+        "en": "In Madagascar, the Famadihana ceremony honors the dead by unwrapping their remains, dancing with them, and rewrapping them in fresh cloth — a joyful celebration of remembrance.",
+        "ko": "마다가스카르의 파마디하나 의식은 고인의 유해를 풀어 함께 춤추고 새 천으로 다시 감싸 추모하는 — 기쁨의 기억 축제이다.",
+        "note": "'by ~ing, ~ing, and ~ing'은 세 가지 행위를 병렬로 나열한 전치사 + 동명사 구문이야. 'a joyful celebration of ~'는 '~의 기쁨의 축제'라는 동격 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -13770,7 +13770,7 @@
     ]
   },
   {
-    "date": "2026-12-11",
+    "day": 271,
     "sentences": [
       {
         "source": "고전",
@@ -13821,7 +13821,7 @@
     ]
   },
   {
-    "date": "2026-12-12",
+    "day": 272,
     "sentences": [
       {
         "source": "고전",
@@ -13840,9 +13840,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Japanese word 'mono no aware' describes the bittersweet awareness that all things are impermanent.",
-        "ko": "일본어 '모노노아와레'는 모든 것이 영원하지 않다는 씁쓸하면서도 아름다운 자각을 표현한다.",
-        "note": "'the awareness that ~'에서 that은 동격절을 이끌어 awareness의 내용을 설명해. '~라는 자각'이라는 뜻이야."
+        "en": "On Senegal's Gorée Island, the 'Door of No Return' still stands as a haunting reminder of the millions of Africans who passed through it into slavery, never to see their homeland again.",
+        "ko": "세네갈 고레 섬의 '돌아올 수 없는 문'은 노예로 끌려가 다시는 고향을 보지 못한 수백만 아프리카인의 잊을 수 없는 기억으로 여전히 서 있다.",
+        "note": "'never to see ~ again'은 결과를 나타내는 to부정사로 '다시는 ~을 보지 못한 채'라는 뜻이야. 'stands as ~'는 '~로서 서 있다'야."
       },
       {
         "source": "왜왜왜",
@@ -13872,7 +13872,7 @@
     ]
   },
   {
-    "date": "2026-12-13",
+    "day": 273,
     "sentences": [
       {
         "source": "고전",
@@ -13923,7 +13923,7 @@
     ]
   },
   {
-    "date": "2026-12-14",
+    "day": 274,
     "sentences": [
       {
         "source": "고전",
@@ -13974,7 +13974,7 @@
     ]
   },
   {
-    "date": "2026-12-15",
+    "day": 275,
     "sentences": [
       {
         "source": "고전",
@@ -14025,7 +14025,7 @@
     ]
   },
   {
-    "date": "2026-12-16",
+    "day": 276,
     "sentences": [
       {
         "source": "고전",
@@ -14076,7 +14076,7 @@
     ]
   },
   {
-    "date": "2026-12-17",
+    "day": 277,
     "sentences": [
       {
         "source": "고전",
@@ -14127,7 +14127,7 @@
     ]
   },
   {
-    "date": "2026-12-18",
+    "day": 278,
     "sentences": [
       {
         "source": "고전",
@@ -14146,9 +14146,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In ancient Greece, philosophers gathered in public spaces to debate ideas, believing that knowledge grew through open discussion.",
-        "ko": "고대 그리스에서 철학자들은 공공장소에 모여 사상을 토론했으며, 지식은 열린 토론을 통해 성장한다고 믿었다.",
-        "note": "'believing that knowledge grew'는 분사구문으로 '~라고 믿으면서'라는 동시 동작을 나타내. 주어(philosophers)와 같아서 분사로 줄인 거야."
+        "en": "Estonia offers free online courses to anyone in the world through its e-Residency program, believing that learning should have no borders.",
+        "ko": "에스토니아는 전자 시민권 프로그램을 통해 전 세계 누구에게나 무료 온라인 강좌를 제공하며, 배움에는 국경이 없어야 한다고 믿는다.",
+        "note": "'offers ~ to anyone'은 '누구에게나 ~을 제공하다'라는 4형식 구문이야. 'believing that ~'은 '~라고 믿으며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -14178,7 +14178,7 @@
     ]
   },
   {
-    "date": "2026-12-19",
+    "day": 279,
     "sentences": [
       {
         "source": "고전",
@@ -14229,7 +14229,7 @@
     ]
   },
   {
-    "date": "2026-12-20",
+    "day": 280,
     "sentences": [
       {
         "source": "고전",
@@ -14248,9 +14248,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Thailand, young men traditionally serve as Buddhist monks for a period of time, learning compassion and selflessness.",
-        "ko": "태국에서 젊은 남성들은 전통적으로 일정 기간 불교 승려로 봉사하며, 자비와 이타심을 배운다.",
-        "note": "'serve as'는 '~로서 봉사하다/역할을 하다'라는 뜻이야. serve as + 직위/역할 패턴으로 자주 쓰여."
+        "en": "In Tanzania, the philosophy of 'ujamaa' — meaning familyhood — encourages communities to work together and serve one another as if every neighbor were a relative.",
+        "ko": "탄자니아에서 '우자마' — 가족 의식이라는 뜻 — 의 철학은 모든 이웃이 친척인 것처럼 함께 일하고 서로 봉사하도록 공동체를 격려한다.",
+        "note": "'as if ~ were ~'는 가정법 과거로 '마치 ~인 것처럼'이라는 뜻이야. were는 가정법에서 주어에 관계없이 사용돼."
       },
       {
         "source": "왜왜왜",
@@ -14280,7 +14280,7 @@
     ]
   },
   {
-    "date": "2026-12-21",
+    "day": 281,
     "sentences": [
       {
         "source": "고전",
@@ -14331,7 +14331,7 @@
     ]
   },
   {
-    "date": "2026-12-22",
+    "day": 282,
     "sentences": [
       {
         "source": "고전",
@@ -14350,9 +14350,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The samurai code of Bushido placed loyalty to one's lord above all else, even above one's own life.",
-        "ko": "무사도인 부시도는 주군에 대한 충성을 그 무엇보다, 심지어 자기 목숨보다도 위에 두었다.",
-        "note": "'above all else, even above one's own life'에서 even은 '심지어'라는 뜻으로 극단적 예시를 추가해. above all else = '그 무엇보다도'."
+        "en": "In Vanuatu, young men prove their loyalty and courage by jumping from tall towers with vines tied to their ankles — a ritual called 'naghol' that inspired modern bungee jumping.",
+        "ko": "바누아투에서 젊은 남성들은 발목에 덩굴을 묶고 높은 탑에서 뛰어내리는 '나골'이라는 의식으로 충성과 용기를 증명하며, 이것이 현대 번지점프에 영감을 주었다.",
+        "note": "'with vines tied to their ankles'는 'with + 목적어 + 과거분사' 구문으로 '발목에 덩굴이 묶인 채'라는 부대상황을 나타내."
       },
       {
         "source": "왜왜왜",
@@ -14382,7 +14382,7 @@
     ]
   },
   {
-    "date": "2026-12-23",
+    "day": 283,
     "sentences": [
       {
         "source": "고전",
@@ -14433,7 +14433,7 @@
     ]
   },
   {
-    "date": "2026-12-24",
+    "day": 284,
     "sentences": [
       {
         "source": "고전",
@@ -14484,7 +14484,7 @@
     ]
   },
   {
-    "date": "2026-12-25",
+    "day": 285,
     "sentences": [
       {
         "source": "고전",
@@ -14535,7 +14535,7 @@
     ]
   },
   {
-    "date": "2026-12-26",
+    "day": 286,
     "sentences": [
       {
         "source": "고전",
@@ -14586,7 +14586,7 @@
     ]
   },
   {
-    "date": "2026-12-27",
+    "day": 287,
     "sentences": [
       {
         "source": "고전",
@@ -14637,7 +14637,7 @@
     ]
   },
   {
-    "date": "2026-12-28",
+    "day": 288,
     "sentences": [
       {
         "source": "고전",
@@ -14656,9 +14656,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Korea, the tradition of writing year-end letters reflects the belief that memories shared in words become stronger and more lasting.",
-        "ko": "한국에서 연말 편지를 쓰는 전통은 말로 나눈 추억이 더 강하고 오래간다는 믿음을 반영한다.",
-        "note": "'the belief that memories shared in words become stronger'에서 that은 동격절로 belief의 내용을 설명해. shared in words는 과거분사구로 memories를 수식해."
+        "en": "Cambodia's Angkor Wat, hidden by jungle for centuries, was rediscovered in the 1860s — a magnificent stone memory of the Khmer Empire that time could not erase.",
+        "ko": "수 세기 동안 정글에 숨겨져 있던 캄보디아의 앙코르 와트는 1860년대에 재발견되었으며, 시간도 지울 수 없는 크메르 제국의 장엄한 돌의 기억이다.",
+        "note": "'hidden by jungle for centuries'는 과거분사의 수동 표현으로 '수 세기 동안 정글에 숨겨진'이라는 뜻이야. 'that time could not erase'는 관계대명사절이야."
       },
       {
         "source": "왜왜왜",
@@ -14688,7 +14688,7 @@
     ]
   },
   {
-    "date": "2026-12-29",
+    "day": 289,
     "sentences": [
       {
         "source": "고전",
@@ -14739,7 +14739,7 @@
     ]
   },
   {
-    "date": "2026-12-30",
+    "day": 290,
     "sentences": [
       {
         "source": "고전",
@@ -14758,9 +14758,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Meiji Restoration in Japan radically transformed the country from a feudal society into a modern industrial power within a few decades.",
-        "ko": "일본의 메이지 유신은 수십 년 만에 봉건 사회를 근대 산업 강국으로 근본적으로 변화시켰다.",
-        "note": "'transformed A from B into C'는 'A를 B에서 C로 변환시켰다'라는 구문이야. from과 into가 변화의 출발점과 도착점을 나타내."
+        "en": "Latvia's 'dainas' are ancient folk songs that have been passed down orally for generations, yet modern Latvian musicians are now remixing them into electronic music — breaking the old to create the new.",
+        "ko": "라트비아의 '다이나'는 세대를 거쳐 구전된 고대 민요이지만, 현대 라트비아 음악가들은 이를 전자 음악으로 리믹스하고 있다 — 옛것을 깨뜨려 새것을 만드는 것이다.",
+        "note": "'have been passed down'은 현재완료 수동태로 '전해져 내려왔다'야. 'breaking the old to create the new'는 '옛것을 깨뜨려 새것을 만들다'라는 목적의 to부정사야."
       },
       {
         "source": "왜왜왜",
@@ -14790,7 +14790,7 @@
     ]
   },
   {
-    "date": "2026-12-31",
+    "day": 291,
     "sentences": [
       {
         "source": "고전",
@@ -14841,7 +14841,7 @@
     ]
   },
   {
-    "date": "2027-01-01",
+    "day": 292,
     "sentences": [
       {
         "source": "고전",
@@ -14892,7 +14892,7 @@
     ]
   },
   {
-    "date": "2027-01-02",
+    "day": 293,
     "sentences": [
       {
         "source": "고전",
@@ -14911,9 +14911,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In feudal Japan, samurai were bound by the code of bushido, which demanded absolute loyalty to their lord.",
-        "ko": "봉건 시대 일본에서 사무라이는 주군에 대한 절대적 충성을 요구하는 무사도 규범에 얽매여 있었다.",
-        "note": "'were bound by'는 '~에 의해 묶여 있었다'라는 수동태야. 'which demanded'의 which는 bushido를 가리키는 관계대명사야."
+        "en": "Myanmar's golden Shwedagon Pagoda has stood for over 2,600 years, rebuilt again and again by the unbreakable will of its people after every earthquake and invasion.",
+        "ko": "미얀마의 황금 쉐다곤 파고다는 2,600년 이상 서 있었으며, 모든 지진과 침략 후에 국민의 꺾이지 않는 의지로 거듭 재건되었다.",
+        "note": "'has stood for ~'는 현재완료로 '~ 동안 서 있어 왔다'야. 'rebuilt again and again by ~'는 '~에 의해 거듭 재건된'이라는 수동태 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -14943,7 +14943,7 @@
     ]
   },
   {
-    "date": "2027-01-03",
+    "day": 294,
     "sentences": [
       {
         "source": "고전",
@@ -14994,7 +14994,7 @@
     ]
   },
   {
-    "date": "2027-01-04",
+    "day": 295,
     "sentences": [
       {
         "source": "고전",
@@ -15045,7 +15045,7 @@
     ]
   },
   {
-    "date": "2027-01-05",
+    "day": 296,
     "sentences": [
       {
         "source": "고전",
@@ -15096,7 +15096,7 @@
     ]
   },
   {
-    "date": "2027-01-06",
+    "day": 297,
     "sentences": [
       {
         "source": "고전",
@@ -15115,9 +15115,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In traditional Korean archery, hitting the target matters less than the archer's discipline and inner calm.",
-        "ko": "한국 전통 활쏘기에서는 과녁을 맞히는 것보다 궁수의 수련과 내면의 고요함이 더 중요하다.",
-        "note": "'A matters less than B'는 'A는 B보다 덜 중요하다'라는 비교 표현이야. matter는 '중요하다'라는 동사야."
+        "en": "Capoeira, a Brazilian martial art disguised as dance, was created by enslaved Africans who trained their bodies and minds in secret, turning discipline into a weapon of freedom.",
+        "ko": "브라질의 무술이자 춤으로 위장된 카포에이라는 몸과 마음을 비밀리에 단련한 노예 출신 아프리카인들이 만들었으며, 규율을 자유의 무기로 바꾸었다.",
+        "note": "'disguised as ~'는 '~으로 위장된'이라는 과거분사 표현이야. 'turning A into B'는 'A를 B로 바꾸며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -15147,7 +15147,7 @@
     ]
   },
   {
-    "date": "2027-01-07",
+    "day": 298,
     "sentences": [
       {
         "source": "고전",
@@ -15198,7 +15198,7 @@
     ]
   },
   {
-    "date": "2027-01-08",
+    "day": 299,
     "sentences": [
       {
         "source": "고전",
@@ -15217,9 +15217,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese tea ceremony engages all five senses — the taste of matcha, the warmth of the bowl, the scent of incense, the sound of boiling water, and the beauty of the room.",
-        "ko": "일본 다도는 오감을 모두 자극한다 — 말차의 맛, 찻잔의 온기, 향의 냄새, 끓는 물소리, 그리고 방의 아름다움.",
-        "note": "'engages all five senses'에서 engage는 '관여시키다, 끌어들이다'라는 뜻이야. 뒤에 나열된 명사구들이 다섯 감각을 하나씩 설명해."
+        "en": "In the souks of Marrakech, every sense is overwhelmed — the scent of spices, the sound of copper hammering, the sight of colorful textiles, and the taste of fresh mint tea.",
+        "ko": "마라케시 시장에서는 모든 감각이 압도당한다 — 향신료 냄새, 구리 두드리는 소리, 다채로운 직물의 광경, 그리고 신선한 민트차의 맛.",
+        "note": "'every sense is overwhelmed'는 수동태로 '모든 감각이 압도당하다'라는 뜻이야. 뒤에 이어지는 명사구들이 병렬로 오감을 나열해."
       },
       {
         "source": "왜왜왜",
@@ -15249,7 +15249,7 @@
     ]
   },
   {
-    "date": "2027-01-09",
+    "day": 300,
     "sentences": [
       {
         "source": "고전",
@@ -15300,7 +15300,7 @@
     ]
   },
   {
-    "date": "2027-01-10",
+    "day": 301,
     "sentences": [
       {
         "source": "고전",
@@ -15319,9 +15319,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Grasse, France, perfumers have crafted luxury fragrances for over four hundred years, earning the town the title of the world's perfume capital.",
-        "ko": "프랑스 그라스에서는 400년 넘게 조향사들이 고급 향수를 만들어왔으며, 이 마을은 세계 향수의 수도라는 칭호를 얻었다.",
-        "note": "'earning the town the title of ~'는 분사구문으로 결과를 표현해. earn + 간접목적어 + 직접목적어(4형식)로 '~에게 …을 안겨주다'라는 뜻이야."
+        "en": "South Africa's journey from apartheid to democracy was not smooth, yet Nelson Mandela chose reconciliation over revenge, leaving behind a legacy as enduring as the fragrance of the fynbos wildflowers.",
+        "ko": "남아프리카공화국의 아파르트헤이트에서 민주주의로의 여정은 순탄하지 않았지만, 만델라는 복수 대신 화해를 택해 핀보스 야생화의 향기처럼 오래가는 유산을 남겼다.",
+        "note": "'chose A over B'는 'B 대신 A를 택하다'라는 뜻이야. 'as enduring as ~'는 '~만큼 오래가는'이라는 동등 비교 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -15351,7 +15351,7 @@
     ]
   },
   {
-    "date": "2027-01-11",
+    "day": 302,
     "sentences": [
       {
         "source": "고전",
@@ -15402,7 +15402,7 @@
     ]
   },
   {
-    "date": "2027-01-12",
+    "day": 303,
     "sentences": [
       {
         "source": "고전",
@@ -15453,7 +15453,7 @@
     ]
   },
   {
-    "date": "2027-01-13",
+    "day": 304,
     "sentences": [
       {
         "source": "고전",
@@ -15504,7 +15504,7 @@
     ]
   },
   {
-    "date": "2027-01-14",
+    "day": 305,
     "sentences": [
       {
         "source": "고전",
@@ -15555,7 +15555,7 @@
     ]
   },
   {
-    "date": "2027-01-15",
+    "day": 306,
     "sentences": [
       {
         "source": "고전",
@@ -15606,7 +15606,7 @@
     ]
   },
   {
-    "date": "2027-01-16",
+    "day": 307,
     "sentences": [
       {
         "source": "고전",
@@ -15625,9 +15625,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Korean bibimbap is a perfect example of culinary fusion, mixing rice, vegetables, meat, and spicy sauce into a single harmonious bowl.",
-        "ko": "비빔밥은 밥, 채소, 고기, 매운 소스를 하나의 조화로운 그릇에 섞는 음식 융합의 완벽한 예이다.",
-        "note": "'mixing A, B, C, and D into ~'에서 mix A into B는 'A를 B에 섞다'야. 나열(A, B, C, and D) 시 마지막 항목 앞에 and를 넣어."
+        "en": "Qatar donates a higher percentage of its national income to foreign aid than almost any other country, channeling oil wealth into charitable projects across the developing world.",
+        "ko": "카타르는 거의 모든 나라보다 높은 비율의 국민소득을 해외 원조에 기부하며, 석유 부를 개발도상국 전역의 자선 사업에 투입한다.",
+        "note": "'a higher percentage ~ than ~'은 비교급 표현이야. 'channeling ~ into ~'는 '~을 ~에 투입하며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -15657,7 +15657,7 @@
     ]
   },
   {
-    "date": "2027-01-17",
+    "day": 308,
     "sentences": [
       {
         "source": "고전",
@@ -15708,7 +15708,7 @@
     ]
   },
   {
-    "date": "2027-01-18",
+    "day": 309,
     "sentences": [
       {
         "source": "고전",
@@ -15727,9 +15727,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The British Museum houses a vast collection of artifacts gathered from civilizations around the globe over the past three centuries.",
-        "ko": "대영박물관은 지난 3세기에 걸쳐 전 세계 문명에서 수집된 방대한 유물 컬렉션을 소장하고 있다.",
-        "note": "'houses'는 여기서 동사로 '소장하다/보관하다'야. 'gathered from ~'는 과거분사구로 artifacts를 꾸며줘."
+        "en": "In Ireland, traditional music sessions in pubs are not performances but communal gatherings where strangers join in, and the shared melody becomes a form of emotional healing.",
+        "ko": "아일랜드에서 펍의 전통 음악 세션은 공연이 아니라 낯선 이들이 함께하는 공동체 모임이며, 함께 나누는 선율이 감정적 치유의 형태가 된다.",
+        "note": "'not A but B'는 'A가 아니라 B'라는 대조 표현이야. 'where strangers join in'은 관계부사 where로 장소를 수식하는 절이야."
       },
       {
         "source": "왜왜왜",
@@ -15759,7 +15759,7 @@
     ]
   },
   {
-    "date": "2027-01-19",
+    "day": 310,
     "sentences": [
       {
         "source": "고전",
@@ -15810,7 +15810,7 @@
     ]
   },
   {
-    "date": "2027-01-20",
+    "day": 311,
     "sentences": [
       {
         "source": "고전",
@@ -15829,9 +15829,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Hanbok, the traditional Korean dress, has evolved over centuries, and modern designers are now blending its elegant lines with contemporary fashion trends.",
-        "ko": "한복은 수 세기에 걸쳐 진화해왔으며, 현대 디자이너들은 이제 그 우아한 선을 현대 패션 트렌드와 융합하고 있다.",
-        "note": "'has evolved over centuries'는 현재완료로 과거부터 현재까지의 변화를 표현해. 'blending A with B'는 'A를 B와 섞다/융합하다'야."
+        "en": "In Tanzania, over 120 ethnic groups speaking different languages coexist peacefully, united by Swahili as a common tongue and the shared belief in 'ujamaa' — togetherness.",
+        "ko": "탄자니아에서는 서로 다른 언어를 사용하는 120개 이상의 민족이 평화롭게 공존하며, 공용어 스와힐리어와 '우자마' — 함께함이라는 공유된 믿음으로 하나가 된다.",
+        "note": "'united by ~'는 '~에 의해 하나로 묶인'이라는 과거분사 표현이야. 'over 120'은 '120 이상의'라는 뜻으로 수량을 나타내."
       },
       {
         "source": "왜왜왜",
@@ -15861,7 +15861,7 @@
     ]
   },
   {
-    "date": "2027-01-21",
+    "day": 312,
     "sentences": [
       {
         "source": "고전",
@@ -15912,7 +15912,7 @@
     ]
   },
   {
-    "date": "2027-01-22",
+    "day": 313,
     "sentences": [
       {
         "source": "고전",
@@ -15931,9 +15931,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese bamboo houses are designed to bend with earthquakes rather than resist them, showing that flexibility can be stronger than rigidity.",
-        "ko": "일본의 대나무 집은 지진에 저항하기보다 함께 휘어지도록 설계되어, 유연함이 딱딱함보다 강할 수 있음을 보여준다.",
-        "note": "'rather than resist them'에서 rather than은 '~하기보다는'이야. 'showing that ~'은 결과를 나타내는 분사구문이야."
+        "en": "In Kurdish culture, sharing tea and conversation is a sacred ritual — hosts pour endless cups while guests speak freely, believing that honest dialogue builds stronger bonds than any treaty.",
+        "ko": "쿠르드 문화에서 차와 대화를 나누는 것은 신성한 의례이다 — 주인은 끝없이 차를 따르고 손님은 자유롭게 말하며, 솔직한 대화가 어떤 조약보다 강한 유대를 만든다고 믿는다.",
+        "note": "'stronger ~ than any ~'는 '어떤 ~보다 더 강한'이라는 비교급 표현이야. 'believing that ~'은 '~라고 믿으며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -15963,7 +15963,7 @@
     ]
   },
   {
-    "date": "2027-01-23",
+    "day": 314,
     "sentences": [
       {
         "source": "고전",
@@ -16014,7 +16014,7 @@
     ]
   },
   {
-    "date": "2027-01-24",
+    "day": 315,
     "sentences": [
       {
         "source": "고전",
@@ -16065,7 +16065,7 @@
     ]
   },
   {
-    "date": "2027-01-25",
+    "day": 316,
     "sentences": [
       {
         "source": "고전",
@@ -16116,7 +16116,7 @@
     ]
   },
   {
-    "date": "2027-01-26",
+    "day": 317,
     "sentences": [
       {
         "source": "고전",
@@ -16167,7 +16167,7 @@
     ]
   },
   {
-    "date": "2027-01-27",
+    "day": 318,
     "sentences": [
       {
         "source": "고전",
@@ -16218,7 +16218,7 @@
     ]
   },
   {
-    "date": "2027-01-28",
+    "day": 319,
     "sentences": [
       {
         "source": "고전",
@@ -16237,9 +16237,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In British culture, the stiff upper lip tradition encourages people to suppress their emotions and remain calm even in difficult situations.",
-        "ko": "영국 문화에서 '뻣뻣한 윗입술' 전통은 어려운 상황에서도 감정을 억제하고 침착함을 유지하도록 장려한다.",
-        "note": "'encourages people to suppress'에서 encourage + 목적어 + to부정사는 '~에게 …하도록 장려하다'야. 'remain calm'에서 remain + 형용사는 '~한 상태를 유지하다'야."
+        "en": "Tunisia sparked the Arab Spring in 2010 when a street vendor's protest ignited a revolution, and it remains the only country in the region to have built a lasting democratic constitution.",
+        "ko": "튀니지는 2010년 한 노점상의 항의가 혁명에 불을 붙여 아랍의 봄을 촉발했으며, 이 지역에서 지속적인 민주주의 헌법을 구축한 유일한 나라로 남아있다.",
+        "note": "'to have built'는 완료 부정사로 '구축한'이라는 완료된 행위를 나타내. 'the only country to ~'는 '~한 유일한 나라'라는 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -16269,7 +16269,7 @@
     ]
   },
   {
-    "date": "2027-01-29",
+    "day": 320,
     "sentences": [
       {
         "source": "고전",
@@ -16320,7 +16320,7 @@
     ]
   },
   {
-    "date": "2027-01-30",
+    "day": 321,
     "sentences": [
       {
         "source": "고전",
@@ -16371,7 +16371,7 @@
     ]
   },
   {
-    "date": "2027-01-31",
+    "day": 322,
     "sentences": [
       {
         "source": "고전",
@@ -16422,7 +16422,7 @@
     ]
   },
   {
-    "date": "2027-02-01",
+    "day": 323,
     "sentences": [
       {
         "source": "고전",
@@ -16473,7 +16473,7 @@
     ]
   },
   {
-    "date": "2027-02-02",
+    "day": 324,
     "sentences": [
       {
         "source": "고전",
@@ -16524,7 +16524,7 @@
     ]
   },
   {
-    "date": "2027-02-03",
+    "day": 325,
     "sentences": [
       {
         "source": "고전",
@@ -16575,7 +16575,7 @@
     ]
   },
   {
-    "date": "2027-02-04",
+    "day": 326,
     "sentences": [
       {
         "source": "고전",
@@ -16594,9 +16594,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese bonsai is the art of reducing a full-sized tree into a miniature form while preserving its natural beauty.",
-        "ko": "일본 분재는 자연의 아름다움을 유지하면서 큰 나무를 미니어처 형태로 축소하는 예술이다.",
-        "note": "'while + 동명사(-ing)'는 '~하면서, ~하는 동안'이라는 뜻이야. 두 동작이 동시에 일어남을 나타내."
+        "en": "Luxembourg is smaller than Rhode Island, yet its GDP per capita is the highest in the world — proof that a nation's size has little to do with its economic power.",
+        "ko": "룩셈부르크는 로드아일랜드보다 작지만 1인당 GDP는 세계 최고이며, 이는 나라의 크기가 경제력과 거의 관계가 없다는 증거이다.",
+        "note": "'has little to do with ~'는 '~와 거의 관계가 없다'라는 관용 표현이야. 'proof that ~'은 '~라는 증거'라는 동격 that절이야."
       },
       {
         "source": "왜왜왜",
@@ -16626,7 +16626,7 @@
     ]
   },
   {
-    "date": "2027-02-05",
+    "day": 327,
     "sentences": [
       {
         "source": "고전",
@@ -16645,9 +16645,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In ancient Greece, the agora served as a gathering place where citizens assembled to discuss politics, trade, and philosophy.",
-        "ko": "고대 그리스에서 아고라는 시민들이 정치, 무역, 철학을 논의하기 위해 모이는 집합 장소로 쓰였다.",
-        "note": "'serve as ~'는 '~로서 역할을 하다'라는 뜻이야. 'The library serves as a study space.'는 '도서관은 공부 공간 역할을 한다.'"
+        "en": "In Niger, the Cure Salée festival gathers thousands of Tuareg and Wodaabe nomads at the edge of the Sahara, where scattered tribes come together to trade, marry, and celebrate their survival.",
+        "ko": "니제르의 쿠레 살레 축제는 사하라 가장자리에 수천 명의 투아레그와 워다베 유목민을 모으며, 흩어진 부족들이 모여 거래하고, 혼인하고, 생존을 축하한다.",
+        "note": "'come together to ~'는 '~하기 위해 모이다'라는 목적의 to부정사야. 'scattered tribes'에서 scattered는 '흩어진'이라는 과거분사 형용사야."
       },
       {
         "source": "왜왜왜",
@@ -16677,7 +16677,7 @@
     ]
   },
   {
-    "date": "2027-02-06",
+    "day": 328,
     "sentences": [
       {
         "source": "고전",
@@ -16728,7 +16728,7 @@
     ]
   },
   {
-    "date": "2027-02-07",
+    "day": 329,
     "sentences": [
       {
         "source": "고전",
@@ -16779,7 +16779,7 @@
     ]
   },
   {
-    "date": "2027-02-08",
+    "day": 330,
     "sentences": [
       {
         "source": "고전",
@@ -16830,7 +16830,7 @@
     ]
   },
   {
-    "date": "2027-02-09",
+    "day": 331,
     "sentences": [
       {
         "source": "고전",
@@ -16849,9 +16849,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japan rebuilt itself from the ruins of war in just a few decades, becoming one of the world's largest economies.",
-        "ko": "일본은 불과 몇십 년 만에 전쟁의 폐허에서 재건하여 세계 최대 경제 대국 중 하나가 되었다.",
-        "note": "'becoming ~'은 분사구문으로 결과를 나타내. '그 결과 ~가 되었다'는 뜻이야. 앞 문장의 자연스러운 결과를 이어서 말해."
+        "en": "Rwanda, devastated by the 1994 genocide, has rebuilt itself into one of Africa's safest and fastest-growing nations, proving that hope can rise from the deepest despair.",
+        "ko": "1994년 대학살로 황폐해진 르완다는 아프리카에서 가장 안전하고 빠르게 성장하는 나라 중 하나로 스스로를 재건했으며, 가장 깊은 절망에서도 희망이 솟아날 수 있음을 증명했다.",
+        "note": "'devastated by ~'는 '~에 의해 황폐해진'이라는 과거분사 표현이야. 'hope can rise from ~'는 '희망이 ~에서 솟아날 수 있다'라는 비유야."
       },
       {
         "source": "왜왜왜",
@@ -16881,7 +16881,7 @@
     ]
   },
   {
-    "date": "2027-02-10",
+    "day": 332,
     "sentences": [
       {
         "source": "고전",
@@ -16932,7 +16932,7 @@
     ]
   },
   {
-    "date": "2027-02-11",
+    "day": 333,
     "sentences": [
       {
         "source": "고전",
@@ -16983,7 +16983,7 @@
     ]
   },
   {
-    "date": "2027-02-12",
+    "day": 334,
     "sentences": [
       {
         "source": "고전",
@@ -17034,7 +17034,7 @@
     ]
   },
   {
-    "date": "2027-02-13",
+    "day": 335,
     "sentences": [
       {
         "source": "고전",
@@ -17085,7 +17085,7 @@
     ]
   },
   {
-    "date": "2027-02-14",
+    "day": 336,
     "sentences": [
       {
         "source": "고전",
@@ -17136,7 +17136,7 @@
     ]
   },
   {
-    "date": "2027-02-15",
+    "day": 337,
     "sentences": [
       {
         "source": "고전",
@@ -17155,9 +17155,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Korean haenyeo, female divers of Jeju Island, dive deep into the ocean without any breathing equipment to harvest seafood.",
-        "ko": "제주도의 여성 잠수부인 해녀는 어떤 호흡 장비도 없이 깊은 바다에 잠수하여 해산물을 채취한다.",
-        "note": "'without any ~'는 '어떤 ~도 없이'라는 뜻이야. without은 전치사로 '~없이'이고, any가 붙으면 '전혀, 하나도'라는 강조가 돼."
+        "en": "Vanuatu's blue holes are underwater caves so deep and clear that divers describe entering them as passing through a portal into another world.",
+        "ko": "바누아투의 블루홀은 너무 깊고 맑아서 다이버들은 그곳에 들어가는 것을 다른 세계로 통하는 포털을 지나는 것처럼 묘사한다.",
+        "note": "'so deep and clear that ~'는 'so ~ that' 결과 구문이야. 'describe A as B'는 'A를 B로 묘사하다'라는 5형식 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -17187,7 +17187,7 @@
     ]
   },
   {
-    "date": "2027-02-16",
+    "day": 338,
     "sentences": [
       {
         "source": "고전",
@@ -17238,7 +17238,7 @@
     ]
   },
   {
-    "date": "2027-02-17",
+    "day": 339,
     "sentences": [
       {
         "source": "고전",
@@ -17289,7 +17289,7 @@
     ]
   },
   {
-    "date": "2027-02-18",
+    "day": 340,
     "sentences": [
       {
         "source": "고전",
@@ -17308,9 +17308,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Istanbul sits at the crossroads of Europe and Asia, and this unique position has made it a center of trade and culture for thousands of years.",
-        "ko": "이스탄불은 유럽과 아시아의 교차로에 위치하며, 이 독특한 위치가 수천 년간 무역과 문화의 중심지로 만들었다.",
-        "note": "'at the crossroads of ~'는 '~의 교차로에'라는 뜻이야. crossroads는 항상 -s가 붙지만 단수로 취급하는 특이한 명사야."
+        "en": "Fez, Morocco's ancient capital, sits at the crossroads of Africa and Europe, its winding medina streets preserving a thousand years of cultural exchange between two continents.",
+        "ko": "모로코의 고대 수도 페스는 아프리카와 유럽의 교차점에 있으며, 구불구불한 메디나 거리가 두 대륙 간 천 년의 문화 교류를 보존하고 있다.",
+        "note": "'sits at the crossroads of ~'는 '~의 교차점에 위치하다'라는 뜻이야. 'its ~ streets preserving ~'은 독립분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -17340,7 +17340,7 @@
     ]
   },
   {
-    "date": "2027-02-19",
+    "day": 341,
     "sentences": [
       {
         "source": "고전",
@@ -17359,9 +17359,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The division of Korea into North and South in 1945 created two nations with radically different political systems.",
-        "ko": "1945년 한국이 남과 북으로 분단된 것은 근본적으로 다른 정치 체제를 가진 두 나라를 만들었다.",
-        "note": "'radically different'는 '근본적으로 다른'이라는 뜻이야. radically는 '급진적으로, 근본적으로'라는 부사로, 차이의 정도를 강조해."
+        "en": "Suriname, a former Dutch colony in South America, is home to Javanese, Indian, African, and Indigenous communities — a living example of how divergent cultures can coexist in harmony.",
+        "ko": "남미의 옛 네덜란드 식민지 수리남에는 자바인, 인도인, 아프리카인, 원주민 공동체가 살고 있으며, 분기된 문화가 조화롭게 공존할 수 있음을 보여주는 살아있는 사례이다.",
+        "note": "'a living example of how ~'는 '~하는 방법의 살아있는 사례'라는 동격 표현이야. 'divergent'는 '분기된/갈라진'이라는 형용사야."
       },
       {
         "source": "왜왜왜",
@@ -17391,7 +17391,7 @@
     ]
   },
   {
-    "date": "2027-02-20",
+    "day": 342,
     "sentences": [
       {
         "source": "고전",
@@ -17442,7 +17442,7 @@
     ]
   },
   {
-    "date": "2027-02-21",
+    "day": 343,
     "sentences": [
       {
         "source": "고전",
@@ -17461,9 +17461,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japanese tea ceremony, every movement follows a precise sequence, from the way water is poured to the angle at which the cup is held.",
-        "ko": "일본 다도에서 모든 움직임은 물을 따르는 방식부터 잔을 잡는 각도까지 정확한 순서를 따른다.",
-        "note": "'from A to B'는 'A부터 B까지'라는 범위를 나타내. 'from morning to night'는 '아침부터 밤까지'라는 뜻이야."
+        "en": "In Georgia, the traditional feast called 'supra' follows a strict sequence: a tamada leads each toast in order — to God, to homeland, to family — never skipping a step.",
+        "ko": "조지아의 전통 연회 '수프라'는 엄격한 순서를 따른다: 타마다가 각 건배를 차례로 이끌며 — 신에게, 조국에, 가족에게 — 절대 단계를 건너뛰지 않는다.",
+        "note": "'follows a strict sequence'는 '엄격한 순서를 따르다'라는 뜻이야. 'never skipping a step'은 '절대 단계를 건너뛰지 않으며'라는 분사구문이야."
       },
       {
         "source": "왜왜왜",
@@ -17493,7 +17493,7 @@
     ]
   },
   {
-    "date": "2027-02-22",
+    "day": 344,
     "sentences": [
       {
         "source": "고전",
@@ -17544,7 +17544,7 @@
     ]
   },
   {
-    "date": "2027-02-23",
+    "day": 345,
     "sentences": [
       {
         "source": "고전",
@@ -17595,7 +17595,7 @@
     ]
   },
   {
-    "date": "2027-02-24",
+    "day": 346,
     "sentences": [
       {
         "source": "고전",
@@ -17646,7 +17646,7 @@
     ]
   },
   {
-    "date": "2027-02-25",
+    "day": 347,
     "sentences": [
       {
         "source": "고전",
@@ -17697,7 +17697,7 @@
     ]
   },
   {
-    "date": "2027-02-26",
+    "day": 348,
     "sentences": [
       {
         "source": "고전",
@@ -17748,7 +17748,7 @@
     ]
   },
   {
-    "date": "2027-02-27",
+    "day": 349,
     "sentences": [
       {
         "source": "고전",
@@ -17799,7 +17799,7 @@
     ]
   },
   {
-    "date": "2027-02-28",
+    "day": 350,
     "sentences": [
       {
         "source": "고전",
@@ -17818,9 +17818,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japan, the art of kintsugi repairs broken pottery with gold, turning damage into something even more beautiful than the original.",
-        "ko": "일본에서 긴쓰기 예술은 깨진 도자기를 금으로 수리하여, 손상을 원본보다 더 아름다운 것으로 바꾼다.",
-        "note": "'turn A into B'는 'A를 B로 바꾸다'라는 뜻이야. 'even more beautiful than ~'은 '~보다 훨씬 더 아름다운'으로, even이 비교급을 강조해."
+        "en": "In Samarkand, Uzbekistan, artisans have crafted blue ceramic tiles for centuries, their intricate patterns adorning mosques and madrasas along the ancient Silk Road.",
+        "ko": "우즈베키스탄 사마르칸트에서 장인들은 수 세기 동안 푸른 도자기 타일을 만들어왔으며, 그 정교한 무늬가 고대 실크로드의 모스크와 마드라사를 장식한다.",
+        "note": "'have crafted ~ for centuries'는 현재완료로 '수 세기 동안 만들어왔다'야. 'their patterns adorning ~'은 독립분사구문으로 부가 설명이야."
       },
       {
         "source": "왜왜왜",
@@ -17850,7 +17850,7 @@
     ]
   },
   {
-    "date": "2027-03-01",
+    "day": 351,
     "sentences": [
       {
         "source": "고전",
@@ -17901,7 +17901,7 @@
     ]
   },
   {
-    "date": "2027-03-02",
+    "day": 352,
     "sentences": [
       {
         "source": "고전",
@@ -17920,9 +17920,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Korea's Jikji, printed with movable metal type in 1377, is the oldest known book of its kind in the world.",
-        "ko": "1377년 금속 활자로 인쇄된 한국의 직지는 세계에서 가장 오래된 금속 활자 인쇄본이다.",
-        "note": "'printed with ~'는 과거분사가 명사를 뒤에서 수식하는 구조야. 'the oldest known ~'에서 known도 같은 과거분사 수식이야."
+        "en": "Prague's bookshops and libraries have thrived since the age of Gutenberg, making the Czech capital one of Europe's great literary cities where the printed word is treasured above all.",
+        "ko": "프라하의 서점과 도서관은 구텐베르크 시대부터 번성해왔으며, 체코 수도를 인쇄물이 무엇보다 소중히 여겨지는 유럽의 위대한 문학 도시 중 하나로 만들었다.",
+        "note": "'have thrived since ~'는 현재완료로 '~ 이래로 번성해왔다'야. 'where the printed word is treasured'는 관계부사 where의 형용사절이야."
       },
       {
         "source": "왜왜왜",
@@ -17952,7 +17952,7 @@
     ]
   },
   {
-    "date": "2027-03-03",
+    "day": 353,
     "sentences": [
       {
         "source": "고전",
@@ -17971,9 +17971,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Chinese woodblock printing dates back to the Tang Dynasty, centuries before Europe developed its own printing technology.",
-        "ko": "중국의 목판 인쇄술은 유럽이 자체 인쇄 기술을 발전시키기 수백 년 전인 당나라 시대로 거슬러 올라간다.",
-        "note": "'dates back to ~'는 '~까지 거슬러 올라가다'라는 표현이야. 역사의 기원을 말할 때 자주 쓰이는 동사구야."
+        "en": "The Mongol Empire adopted the Uyghur script and spread it across Asia, creating a written communication system that connected cultures from Korea to Persia.",
+        "ko": "몽골 제국은 위구르 문자를 채택하여 아시아 전역에 퍼뜨렸고, 한국에서 페르시아까지 문화를 연결하는 문자 소통 체계를 만들어냈다.",
+        "note": "'adopted ~ and spread ~'는 두 동사가 and로 병렬 연결된 구문이야. 'that connected A to B'는 'A와 B를 연결한'이라는 관계대명사절이야."
       },
       {
         "source": "왜왜왜",
@@ -18003,7 +18003,7 @@
     ]
   },
   {
-    "date": "2027-03-04",
+    "day": 354,
     "sentences": [
       {
         "source": "고전",
@@ -18022,9 +18022,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Japanese calligraphy, known as shodō, is considered both an art form and a spiritual practice.",
-        "ko": "서도(書道)라고 불리는 일본 서예는 예술이자 영적 수행으로 여겨진다.",
-        "note": "'known as ~'는 '~로 알려진'이라는 과거분사구야. 'is considered both A and B'는 'A이자 B로 여겨진다'라는 수동태 패턴이야."
+        "en": "In Morocco, master calligraphers transform Arabic script into breathtaking visual art, where every curve and dot carries both meaning and beauty.",
+        "ko": "모로코에서 서예 장인들은 아랍 문자를 숨 막히는 시각 예술로 변모시키며, 모든 곡선과 점이 의미와 아름다움을 동시에 담고 있다.",
+        "note": "'transform A into B'는 'A를 B로 변모시키다'라는 뜻이야. 'where every ~'는 관계부사절로 앞 내용을 부연 설명해."
       },
       {
         "source": "왜왜왜",
@@ -18054,7 +18054,7 @@
     ]
   },
   {
-    "date": "2027-03-05",
+    "day": 355,
     "sentences": [
       {
         "source": "고전",
@@ -18105,7 +18105,7 @@
     ]
   },
   {
-    "date": "2027-03-06",
+    "day": 356,
     "sentences": [
       {
         "source": "고전",
@@ -18124,9 +18124,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Zen gardens in Japan are designed to encourage quiet contemplation through simple arrangements of rocks and sand.",
-        "ko": "일본의 선(禪) 정원은 돌과 모래의 단순한 배치를 통해 조용한 사색을 장려하도록 설계되었다.",
-        "note": "'are designed to encourage ~'는 '~을 장려하도록 설계되었다'라는 수동태 + to부정사야. 목적을 가진 설계를 표현할 때 써."
+        "en": "Ancient Irish monks built stone beehive huts on the remote island of Skellig Michael, seeking silence and deep contemplation far from the distractions of the world.",
+        "ko": "고대 아일랜드 수도승들은 외딴 스켈리그 마이클 섬에 돌 벌집 오두막을 지었으며, 세상의 방해로부터 멀리 떨어져 침묵과 깊은 명상을 추구했다.",
+        "note": "'seeking ~'는 '~을 추구하며'라는 분사구문이야. 'far from the distractions of ~'는 '~의 방해로부터 멀리'라는 장소/거리 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -18156,7 +18156,7 @@
     ]
   },
   {
-    "date": "2027-03-07",
+    "day": 357,
     "sentences": [
       {
         "source": "고전",
@@ -18207,7 +18207,7 @@
     ]
   },
   {
-    "date": "2027-03-08",
+    "day": 358,
     "sentences": [
       {
         "source": "고전",
@@ -18258,7 +18258,7 @@
     ]
   },
   {
-    "date": "2027-03-09",
+    "day": 359,
     "sentences": [
       {
         "source": "고전",
@@ -18277,9 +18277,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Thailand, the durian is called the king of fruits despite its strong smell that many foreigners find unbearable.",
-        "ko": "태국에서 두리안은 많은 외국인이 견딜 수 없다고 느끼는 강한 냄새에도 불구하고 과일의 왕이라 불린다.",
-        "note": "'despite its strong smell'에서 despite는 '~에도 불구하고'라는 전치사야. 뒤에 명사구가 와야 해. 'that many foreigners find unbearable'은 관계절이야."
+        "en": "Spain produces nearly half of the world's olive oil, and for Spaniards, the olive tree is not just a crop but a sacred symbol of the Mediterranean's most enduring fruit.",
+        "ko": "스페인은 세계 올리브유의 거의 절반을 생산하며, 스페인인들에게 올리브 나무는 단순한 작물이 아니라 지중해의 가장 오래된 열매의 신성한 상징이다.",
+        "note": "'not just A but B'는 '단순한 A가 아니라 B'라는 대조 구문이야. 'most enduring'은 '가장 오래 지속되는'이라는 최상급 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -18309,7 +18309,7 @@
     ]
   },
   {
-    "date": "2027-03-10",
+    "day": 360,
     "sentences": [
       {
         "source": "고전",
@@ -18360,7 +18360,7 @@
     ]
   },
   {
-    "date": "2027-03-11",
+    "day": 361,
     "sentences": [
       {
         "source": "고전",
@@ -18411,7 +18411,7 @@
     ]
   },
   {
-    "date": "2027-03-12",
+    "day": 362,
     "sentences": [
       {
         "source": "고전",
@@ -18430,9 +18430,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Japan, the tradition of hanami celebrates the fleeting beauty of cherry blossom petals drifting in the spring breeze.",
-        "ko": "일본에서 하나미 전통은 봄바람에 흩날리는 벚꽃잎의 덧없는 아름다움을 기린다.",
-        "note": "'fleeting beauty'는 '덧없는 아름다움'이라는 뜻이야. 'drifting in the spring breeze'는 현재분사구가 petals를 뒤에서 수식해."
+        "en": "Colombia is the second-largest flower exporter in the world, and every February, the Medellín Flower Festival fills the streets with enormous floral displays carried on the backs of silleteros.",
+        "ko": "콜롬비아는 세계 2위의 꽃 수출국이며, 매년 2월 메데진 꽃 축제에서는 실레테로들의 등에 실린 거대한 꽃 장식이 거리를 가득 채운다.",
+        "note": "'the second-largest ~'는 '두 번째로 큰 ~'이라는 서수 + 최상급 표현이야. 'carried on the backs of ~'는 '~의 등에 실린'이라는 과거분사야."
       },
       {
         "source": "왜왜왜",
@@ -18462,7 +18462,7 @@
     ]
   },
   {
-    "date": "2027-03-13",
+    "day": 363,
     "sentences": [
       {
         "source": "고전",
@@ -18481,9 +18481,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In New England, thousands of tourists visit each autumn to witness the spectacular display of falling leaves.",
-        "ko": "뉴잉글랜드에서는 매년 가을 수천 명의 관광객이 낙엽의 장관을 보기 위해 방문한다.",
-        "note": "'to witness ~'는 목적의 to부정사로 '~을 목격하기 위해'라는 뜻이야. 'the spectacular display of ~'는 '~의 장관'이라는 표현이야."
+        "en": "Every autumn, Canada's maple forests erupt in fiery reds and golden yellows, and the falling leaves are collected to produce the world's finest maple syrup.",
+        "ko": "매년 가을, 캐나다의 단풍 숲은 불타는 빨강과 황금빛 노랑으로 물들며, 떨어지는 낙엽은 세계 최고의 메이플 시럽을 만드는 데 수집된다.",
+        "note": "'erupt in ~'은 '~으로 물들다/폭발하다'라는 비유 표현이야. 'fiery reds and golden yellows'는 색상을 형용사 + 명사로 표현한 것이야."
       },
       {
         "source": "왜왜왜",
@@ -18513,7 +18513,7 @@
     ]
   },
   {
-    "date": "2027-03-14",
+    "day": 364,
     "sentences": [
       {
         "source": "고전",
@@ -18532,9 +18532,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Korea, the first green sprouts of spring are celebrated with dishes made from freshly gathered wild herbs.",
-        "ko": "한국에서는 봄의 첫 새싹을 갓 채취한 산나물로 만든 요리로 기념한다.",
-        "note": "'made from freshly gathered wild herbs'는 과거분사 중첩 수식이야. made from은 '~로 만든', freshly gathered는 '갓 채취한'이야."
+        "en": "Rwanda plants millions of trees each year in a national campaign called 'Umuganda,' where communities work together every month to nurture new growth from scarred land.",
+        "ko": "르완다는 '우무간다'라는 국가 캠페인으로 매년 수백만 그루의 나무를 심으며, 공동체가 매달 함께 일하여 상처 입은 땅에서 새싹을 키워낸다.",
+        "note": "'called ~'는 '~라고 불리는'이라는 과거분사 수식이야. 'to nurture new growth from ~'는 '~에서 새싹을 키우기 위해'라는 목적의 to부정사야."
       },
       {
         "source": "왜왜왜",
@@ -18564,7 +18564,7 @@
     ]
   },
   {
-    "date": "2027-03-15",
+    "day": 365,
     "sentences": [
       {
         "source": "고전",
@@ -18583,9 +18583,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "During Chuseok, Korean families gather to give thanks for the year's harvest and honor their ancestors.",
-        "ko": "추석에 한국 가족들은 한 해의 수확에 감사하고 조상을 기리기 위해 모인다.",
-        "note": "'give thanks for ~'는 '~에 감사하다'라는 표현이야. thank와 달리 명사 thanks를 써서 give thanks라는 관용구를 만들어."
+        "en": "In Myanmar's golden rice paddies, entire villages come together at harvest time to cut, thresh, and share the grain, celebrating the fruits of a year's collective labor.",
+        "ko": "미얀마의 황금 논에서는 수확 시기에 마을 전체가 모여 벼를 베고, 타작하고, 곡식을 나누며, 일 년간의 공동 노동의 결실을 축하한다.",
+        "note": "'come together at ~'는 '~에 모이다'라는 뜻이야. 'to cut, thresh, and share'는 세 동사가 병렬 연결된 목적의 to부정사야."
       },
       {
         "source": "왜왜왜",

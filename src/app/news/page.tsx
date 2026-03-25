@@ -17,7 +17,7 @@ interface DebateItem {
   con: string;
 }
 interface NewsItem {
-  date: string;
+  day: number;
   title: string;
   summary: string;
   insight: string;

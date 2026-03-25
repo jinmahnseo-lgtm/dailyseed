@@ -8,7 +8,7 @@ import { useMission } from "@/hooks/useMission";
 import DayNavigator from "@/components/DayNavigator";
 
 interface ClassicItem {
-  date: string;
+  day: number;
   title: string;
   author: string;
   year: number;

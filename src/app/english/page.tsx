@@ -17,7 +17,7 @@ interface VocabItem {
 }
 
 interface EnglishItem {
-  date: string;
+  day: number;
   sentences: { source: string; emoji: string; en: string; ko: string; note: string }[];
   vocab?: VocabItem[];
 }
