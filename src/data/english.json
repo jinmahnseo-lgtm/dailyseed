@@ -8988,9 +8988,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Cézanne's two card players sit across from each other in silent concentration, their game a metaphor for the calculated risks of investment.",
-        "ko": "세잔의 카드 놀이하는 두 사람은 조용한 집중 속에 서로 맞은편에 앉아 있으며, 그들의 게임은 투자의 계산된 위험에 대한 비유이다.",
-        "note": "'calculated risks'는 '계산된 위험'이야. calculated는 '신중하게 계획된'이라는 뜻으로, 무모한 위험의 반대야."
+        "en": "Massys's painting shows a moneylender weighing coins beside his wife, who pauses over her prayer book, suggesting that material investment can divert attention from spiritual values.",
+        "ko": "마시스의 그림은 아내가 기도서 위에서 멈춘 채, 환전상이 동전의 무게를 다는 모습을 보여주며, 물질적 투자가 영적 가치로부터 관심을 돌릴 수 있음을 암시한다.",
+        "note": "'divert attention from ~'은 '~로부터 관심을 돌리다'라는 표현이야. divert는 '방향을 바꾸다'라는 뜻으로, 주의를 다른 곳으로 돌릴 때 자주 써."
       },
       {
         "source": "세계문화",
@@ -9013,8 +9013,8 @@
         "meaning": "투자자"
       },
       {
-        "word": "concentration",
-        "meaning": "집중"
+        "word": "divert",
+        "meaning": "전환하다, 돌리다"
       },
       {
         "word": "transform",
@@ -15516,9 +15516,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Raphael's School of Athens brings together philosophers from different eras, creating a visual harmony of ancient wisdom.",
-        "ko": "라파엘로의 아테네 학당은 다른 시대의 철학자들을 한데 모아 고대 지혜의 시각적 조화를 만들어낸다.",
-        "note": "'brings together'는 '한데 모으다'라는 뜻의 구동사야. 'creating ~'은 결과를 나타내는 분사구문이야."
+        "en": "The Ideal City painting presents buildings in perfect symmetrical proportion, demonstrating how Renaissance architects envisioned harmony through mathematical precision.",
+        "ko": "이상적 도시 그림은 완벽한 대칭 비례로 건물들을 배치하여, 르네상스 건축가들이 수학적 정밀함을 통해 조화를 구현한 방식을 보여준다.",
+        "note": "'symmetrical proportion'은 '대칭적 비율'이라는 뜻이야. symmetrical은 '좌우 대칭인'을 의미하고, proportion은 '비율, 균형'을 뜻해."
       },
       {
         "source": "세계문화",
@@ -15541,8 +15541,8 @@
         "meaning": "경이로운"
       },
       {
-        "word": "harmony",
-        "meaning": "조화"
+        "word": "symmetrical",
+        "meaning": "대칭의"
       },
       {
         "word": "demonstrate",
@@ -15567,9 +15567,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Géricault's Raft of the Medusa shows desperate survivors clashing against the sea, their bodies tangled in a violent collision of hope and despair.",
-        "ko": "제리코의 '메두사호의 뗏목'은 바다에 맞서 필사적인 생존자들을 보여주며, 그들의 몸이 희망과 절망의 격렬한 충돌 속에 뒤엉켜 있다.",
-        "note": "'tangled in'은 '~에 뒤엉킨'이야. collision은 '충돌'이라는 뜻이야."
+        "en": "Repin depicted Ivan the Terrible clutching his dying son in horror, the collision between rage and regret frozen forever on the father's anguished face.",
+        "ko": "레핀은 이반 뇌제가 공포에 질려 죽어가는 아들을 움켜쥔 모습을 묘사했으며, 분노와 후회 사이의 충돌이 아버지의 괴로운 얼굴에 영원히 얼어붙어 있다.",
+        "note": "'clutch'는 '꽉 움켜쥐다'라는 뜻의 동사야. grab보다 더 절박하고 강한 느낌을 줘. 'anguished'는 '극심한 고통에 빠진'이라는 형용사야."
       },
       {
         "source": "세계문화",
@@ -15592,8 +15592,8 @@
         "meaning": "높이"
       },
       {
-        "word": "desperate",
-        "meaning": "필사적인"
+        "word": "clutch",
+        "meaning": "움켜쥐다"
       },
       {
         "word": "colonizer",
@@ -18219,9 +18219,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Mysoedov painted a farmer scattering seeds across a vast field, each gesture planting the hope that something will grow from the bare earth.",
-        "ko": "마이소예도프는 농부가 광활한 들판에 씨앗을 뿌리는 모습을 그려, 각 동작이 맨 땅에서 무언가 자라리라는 희망을 심는다.",
-        "note": "'scattering seeds across'는 '~에 걸쳐 씨앗을 뿌리며'야. scatter는 '뿌리다/흩뿌리다'야."
+        "en": "Pissarro captured farmers harvesting apples in dappled sunlight, each fruit a testament to the seed planted months before.",
+        "ko": "피사로는 얼룩진 햇살 속에서 사과를 수확하는 농부들을 포착했으며, 각 열매는 몇 달 전에 심은 씨앗의 증거이다.",
+        "note": "'dappled'은 '얼룩진, 반점이 있는'이라는 형용사야. 나뭇잎 사이로 비치는 햇빛을 묘사할 때 자주 쓰는 표현이야. 'testament to ~'는 '~의 증거'라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -18244,8 +18244,8 @@
         "meaning": "씨앗"
       },
       {
-        "word": "scatter",
-        "meaning": "뿌리다, 흩뿌리다"
+        "word": "dappled",
+        "meaning": "얼룩진, 반점이 있는"
       },
       {
         "word": "vault",
@@ -18423,9 +18423,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Millais painted Ophelia floating among petals and wildflowers, her body becoming one with the river in a haunting fusion of beauty and death.",
-        "ko": "밀레이는 꽃잎과 야생화 사이에 떠 있는 오필리아를 그렸으며, 그녀의 몸이 아름다움과 죽음의 잊히지 않는 융합 속에서 강과 하나가 된다.",
-        "note": "'becoming one with'는 '~과 하나가 되며'야. haunting fusion은 '잊히지 않는 융합'이야."
+        "en": "Sargent painted two girls lighting lanterns among lily petals and roses at twilight, capturing the fleeting beauty of dusk in an English garden.",
+        "ko": "사전트는 황혼녘 영국 정원에서 백합 꽃잎과 장미 사이로 등불을 켜는 두 소녀를 그리며, 해질녘의 덧없는 아름다움을 포착했다.",
+        "note": "'fleeting'은 '덧없는, 순식간에 지나가는'이라는 형용사야. fleet(빠르게 지나가다)에서 나온 말로, 금방 사라지는 아름다운 순간을 표현할 때 잘 어울려."
       },
       {
         "source": "세계문화",
@@ -18448,8 +18448,8 @@
         "meaning": "소중한"
       },
       {
-        "word": "haunting",
-        "meaning": "잊히지 않는"
+        "word": "fleeting",
+        "meaning": "덧없는, 순간적인"
       },
       {
         "word": "enormous",
@@ -18525,9 +18525,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Botticelli's Primavera bursts with new growth and dancing figures, celebrating spring as the season when life sends out its first tender shoots.",
-        "ko": "보티첼리의 '봄'은 새로운 성장과 춤추는 인물들로 넘쳐나며, 생명이 첫 번째 부드러운 새싹을 내보내는 계절로서 봄을 찬양한다.",
-        "note": "'sends out its first tender shoots'는 '첫 번째 부드러운 새싹을 내보내다'야. tender는 '부드러운/여린'이야."
+        "en": "The Limbourg Brothers illustrated April with nobles exchanging rings in a garden where fresh sprouts emerge from the earth, celebrating the renewal of spring.",
+        "ko": "랭부르 형제는 4월을 신선한 새싹이 땅에서 돋아나는 정원에서 귀족들이 반지를 교환하는 장면으로 묘사하며, 봄의 재생을 축하했다.",
+        "note": "'sprout'는 '새싹, 싹이 트다'라는 뜻이야. 명사로는 '새싹', 동사로는 '싹이 나다'로 쓸 수 있어. 'emerge from ~'은 '~에서 나오다'라는 표현이야."
       },
       {
         "source": "세계문화",
@@ -18550,8 +18550,8 @@
         "meaning": "무적의, 이길 수 없는"
       },
       {
-        "word": "tender",
-        "meaning": "다정한"
+        "word": "sprout",
+        "meaning": "새싹, 싹이 트다"
       },
       {
         "word": "community",

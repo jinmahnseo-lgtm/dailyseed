@@ -2576,17 +2576,19 @@
   },
   {
     "day": 177,
-    "title": "카드 놀이하는 두 사람",
-    "artist": "폴 세잔",
-    "year": 1894,
+    "title": "환전상과 그의 아내",
+    "artist": "퀸틴 마시스",
+    "year": 1514,
     "country": "프랑스",
     "image_url": "/images/arts/day-177.webp",
-    "source_url": "https://en.wikipedia.org/wiki/The_Card_Players",
+    "source_url": "https://en.wikipedia.org/wiki/The_Moneylender_and_His_Wife_(Matsys)",
     "source_label": "Wikipedia",
     "story": "두 남자가 테이블을 사이에 두고 카드 게임에 몰두해 있어. 표정은 읽을 수 없고, 분위기는 고요하지만 긴장감이 있어. 카드 게임은 일종의 투자야 — 가진 카드로 최선의 결정을 내려야 해. 세잔은 이 주제로 5개의 버전을 그렸는데, 갈수록 인물을 줄이고 단순화했어. 핵심만 남기는 것, 그것이 세잔의 방식이야.",
     "look_for": "두 인물이 거의 대칭이야 — 거울처럼 마주 보고 있어. 가운데 와인병이 대칭의 축이야. 색이 따뜻한 갈색과 파란색으로 나뉘어. 배경은 거의 비어 있어 — 두 사람의 심리적 대결에만 집중시키려는 거야.",
     "fun_fact": "이 연작 중 하나가 2011년 카타르 왕실에 약 2억 5천만 달러에 팔렸어 — 당시 세계에서 가장 비싼 그림이었어! 모델은 세잔의 고향 엑상프로방스 농부들이야. 세잔은 사과 하나로 파리를 놀라게 하겠다고 했는데, 정말 현대미술의 아버지가 됐어.",
-    "question": "제한된 카드(자원)로 최선의 선택을 하는 것이 투자와 비슷하지 않을까? 너라면 안전하게 갈래, 모험할래?"
+    "question": "제한된 카드(자원)로 최선의 선택을 하는 것이 투자와 비슷하지 않을까? 너라면 안전하게 갈래, 모험할래?",
+    "desc": "마시스는 돈을 세는 환전상 옆에서 기도서를 넘기다 멈춘 아내를 그렸어. 저울 위 동전과 펼쳐진 성경이 물질과 신앙 사이의 균형을 상징해. 작은 볼록 거울에 비친 창밖 풍경은 세상의 진짜 가치를 돌아보게 만드는 장치야.",
+    "image": "/images/arts/day-177.webp"
   },
   {
     "day": 178,
@@ -5135,8 +5137,8 @@
     "story": "파리 클뤼니 미술관에 소장된 '귀부인과 유니콘' 태피스트리 연작 중 '청각' 장면입니다. 귀부인이 오르간을 연주하고 유니콘과 사자가 곁에 서 있는 신비로운 장면에서, 소리라는 보이지 않는 감각이 시각적으로 아름답게 표현됩니다.",
     "look_for": "귀부인이 연주하는 오르간과 주변의 꽃, 동물들이 만드는 화려한 패턴을 감상해 보세요.",
     "fun_fact": "이 태피스트리 연작은 1841년 프로스페르 메리메에 의해 재발견되기 전까지 성에서 잊혀져 있었습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File:The_Lady_and_the_Unicorn_-_Hearing.jpg",
-    "source_label": "Wikimedia Commons",
+    "source_url": "https://en.wikipedia.org/wiki/The_Lady_and_the_Unicorn",
+    "source_label": "Wikipedia",
     "quiz": {
       "question": "이 태피스트리가 소장된 미술관은?",
       "options": [
@@ -5275,18 +5277,18 @@
   },
   {
     "day": 305,
-    "title": "아테네의 현자들",
+    "title": "이상적 도시",
     "title_original": "The School of Athens",
-    "artist": "라파엘로 산치오",
+    "artist": "피에로 델라 프란체스카 (추정)",
     "artist_original": "Raphael",
-    "year": "1511",
+    "year": 1480,
     "medium": "프레스코",
     "period": "르네상스",
     "story": "고대 그리스의 철학자, 수학자, 과학자들이 한자리에 모여 토론하는 이상적 장면입니다. 중앙에 플라톤과 아리스토텔레스가 서로 다른 방향을 가리키며 조화로운 대비를 이루고, 주변에 다양한 학자들이 각자의 방식으로 진리를 탐구합니다. 다양한 사상의 조화를 표현한 걸작입니다.",
     "look_for": "중앙의 플라톤(위를 가리킴)과 아리스토텔레스(앞을 가리킴)의 손 방향이 상징하는 의미를 생각해 보세요.",
     "fun_fact": "라파엘로는 플라톤의 얼굴에 레오나르도 다 빈치를, 헤라클레이토스에 미켈란젤로의 얼굴을 넣었습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
-    "source_label": "Wikimedia Commons",
+    "source_url": "https://en.wikipedia.org/wiki/The_Ideal_City_(painting)",
+    "source_label": "Wikipedia",
     "quiz": {
       "question": "그림 중앙에 서 있는 두 철학자는 누구인가요?",
       "options": [
@@ -5296,22 +5298,24 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-305.webp"
+    "image_url": "/images/arts/day-305.webp",
+    "desc": "완벽한 원근법으로 그려진 이 이상적 도시는 르네상스 건축의 조화를 보여줘. 중앙의 원형 건물을 중심으로 좌우 대칭 배치된 건물들이 수학적 비례와 질서의 아름다움을 표현해. 누가 그렸는지 확실하지 않지만, 르네상스 이상을 가장 잘 담은 작품이야.",
+    "image": "/images/arts/day-305.webp"
   },
   {
     "day": 306,
-    "title": "난파선의 표류",
+    "title": "이반 뇌제와 그의 아들",
     "title_original": "The Raft of the Medusa",
-    "artist": "테오도르 제리코",
+    "artist": "일리야 레핀",
     "artist_original": "Théodore Géricault",
-    "year": "1819",
+    "year": 1885,
     "medium": "유화",
     "period": "낭만주의",
     "story": "1816년 프랑스 군함 메두사호의 난파 사건을 그린 충격적 작품입니다. 뗏목 위에서 생존을 위해 처절하게 투쟁하는 인간들의 충돌하는 감정—희망, 절망, 분노—이 극적으로 표현됩니다. 제리코는 이 사건을 통해 정부의 무능과 인간 극한 상황을 고발했습니다.",
     "look_for": "피라미드형 구도의 꼭대기에서 천을 흔드는 인물과 하단의 절망에 빠진 인물들의 대비를 살펴보세요.",
     "fun_fact": "제리코는 사실적 표현을 위해 실제 시체를 작업실에 가져와 연구했으며, 생존자들을 직접 인터뷰했습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
-    "source_label": "Wikimedia Commons",
+    "source_url": "https://en.wikipedia.org/wiki/Ivan_the_Terrible_and_His_Son_Ivan",
+    "source_label": "Wikipedia",
     "quiz": {
       "question": "이 그림의 배경이 된 실제 사건은?",
       "options": [
@@ -5321,7 +5325,9 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-306.webp"
+    "image_url": "/images/arts/day-306.webp",
+    "desc": "레핀은 분노에 휩싸여 아들을 죽인 직후의 이반 뇌제를 그렸어. 피 흘리는 아들을 끌어안은 아버지의 공포에 질린 눈은 돌이킬 수 없는 충돌의 결과를 보여줘. 격정이 낳은 비극이 화면 전체를 뒤덮는 걸작이야.",
+    "image": "/images/arts/day-306.webp"
   },
   {
     "day": 307,
@@ -5957,7 +5963,7 @@
     "story": "네덜란드 화가 얀 모스타르트가 그린 이 작품은 유럽인의 시각에서 본 아메리카 대륙의 모습으로, 가장 이른 시기의 신대륙 묘사 중 하나입니다. 기이한 바위 지형과 낯선 동식물, 원주민들의 모습이 뒤섞인 풍경은 탐험가들이 느꼈을 경이와 두려움을 동시에 전달합니다. 미지의 세계를 향한 인간의 끝없는 탐험 정신과 그에 따르는 갈등을 함께 담고 있습니다.",
     "look_for": "유럽 화가가 상상으로 그린 아메리카의 풍경이 실제와 얼마나 다른지 생각해 보세요.",
     "fun_fact": "모스타르트는 실제로 아메리카에 가본 적이 없으며, 탐험가들의 이야기와 상상만으로 이 풍경을 그렸습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Jan_Mostaert_-_Episode_uit_de_verovering_van_Amerika.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jan_Mostaert_-_Landscape_with_a_Scene_of_the_Conquest_of_America.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "얀 모스타르트가 이 작품을 그릴 때 참고한 것은?",
@@ -6236,8 +6242,8 @@
     "story": "피렌체 메디치 궁전 예배당 벽에 그려진 거대한 프레스코화야. 동방박사 세 왕이 아기 예수를 찾아가는 행렬을 묘사했는데, 실제로는 메디치 가문의 인물들을 왕으로 그렸어. 행렬은 정확한 순서를 따라 벽면을 돌며 이어져 — 왕, 기사, 시종, 말이 일정한 간격으로 배치돼 있어. 순서란 아름다움을 만드는 구조야.",
     "look_for": "인물들이 일렬로 행진하고 있어. 화려한 복장의 색채와 금박 장식이 눈부셔. 배경의 토스카나 풍경이 세밀하게 묘사돼 있어. 메디치 가문 사람들의 실제 초상이 포함돼 있어.",
     "fun_fact": "고촐리는 프라 안젤리코의 제자였어. 이 프레스코화에는 메디치 가문의 로렌초 일 마니피코가 어린 모습으로 그려져 있어. 행렬 속에 고촐리 자신도 숨어 있는데, 모자에 자기 이름을 써놓았대!",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Benozzo Gozzoli - Procession of the Youngest King (detail) - WGA10253.jpg",
-    "source_label": "Wikimedia Commons",
+    "source_url": "https://en.wikipedia.org/wiki/Journey_of_the_Magi_(Gozzoli)",
+    "source_label": "Wikipedia",
     "quiz": {
       "question": "고촐리가 이 프레스코를 그린 장소는?",
       "options": [
@@ -6465,7 +6471,7 @@
     "story": "요스트 암만은 16세기 독일의 판화가이자 삽화가로, 당시 직업과 기술을 기록한 《직업의 책》으로 유명합니다. 이 목판화는 인쇄소에서 일하는 장인들의 모습을 세밀하게 묘사합니다. 활자를 조판하고, 잉크를 바르고, 종이를 눌러 찍는 일련의 과정이 한 화면에 담겨 있습니다. 구텐베르크가 발명한 금속 활자 인쇄술이 어떻게 지식 혁명을 이끌었는지, 이 한 장의 판화가 생생하게 전해줍니다.",
     "look_for": "인쇄 과정의 각 단계를 맡은 장인들의 역할 분담을 화면 속에서 따라가 보세요.",
     "fun_fact": "암만의 《직업의 책》에는 130개 이상의 직업이 목판화로 기록되어 있어, 16세기 유럽 사회를 이해하는 귀중한 사료입니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Jost_Amman_-_Buchdruckerei.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Buchdrucker-1568.png",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "요스트 암만이 기록한 책의 이름은?",
@@ -6605,17 +6611,17 @@
   },
   {
     "day": 358,
-    "title": "파종하는 사람",
+    "title": "사과 수확",
     "title_original": "The Sower",
-    "artist": "그레고리 마이소예도프",
+    "artist": "카미유 피사로",
     "artist_original": "Grigory Myasoyedov",
-    "year": "1888",
+    "year": 1888,
     "medium": "유화",
     "period": "러시아 사실주의",
     "story": "그레고리 마이소예도프는 19세기 러시아 이동파(페레드비쥬니키)의 창립 멤버로, 러시아 농민의 삶을 사실적으로 그렸습니다. 이 작품은 넓은 들판에서 씨를 뿌리는 농부의 모습을 묘사합니다. 한 줌의 씨앗을 땅에 던지는 단순한 동작 속에 미래를 향한 믿음이 담겨 있습니다. 씨앗은 작지만 그 안에 거대한 가능성을 품고 있으며, 파종하는 사람의 땀과 희망이 결실의 시작입니다.",
     "look_for": "농부의 팔 동작과 씨앗이 흩뿌려지는 궤적에서 노동의 리듬감을 느껴보세요.",
     "fun_fact": "이동파 화가들은 러시아 각지를 순회하며 전시회를 열어 예술을 대중에게 가까이 가져간 혁신적인 그룹이었습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Grigoriy_Myasoyedov_Stradnaya_pora_(Kosocy)_1887.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Apple_Harvest_by_Camille_Pissarro.jpg",
     "source_label": "Wikimedia Commons",
     "quiz": {
       "question": "마이소예도프가 속한 러시아 미술 운동은?",
@@ -6626,7 +6632,9 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-358.webp"
+    "image_url": "/images/arts/day-358.webp",
+    "desc": "피사로는 에라니 과수원에서 사과를 따는 농부들을 밝은 인상주의 색채로 그렸어. 씨앗에서 시작된 나무가 열매를 맺는 수확의 순간을 따뜻한 오후 빛 속에서 포착했지. 농촌의 일상이 곧 자연의 순환임을 보여주는 작품이야.",
+    "image": "/images/arts/day-358.webp"
   },
   {
     "day": 359,
@@ -6705,18 +6713,18 @@
   },
   {
     "day": 362,
-    "title": "물 위의 오필리아",
+    "title": "카네이션, 백합, 백합, 장미",
     "title_original": "Ophelia",
-    "artist": "존 에버렛 밀레이",
+    "artist": "존 싱어 사전트",
     "artist_original": "John Everett Millais",
-    "year": "1852",
+    "year": 1886,
     "medium": "유화",
     "period": "라파엘 전파",
     "story": "밀레이의 '오필리아'는 셰익스피어 '햄릿'에서 미쳐버린 오필리아가 꽃을 따다 시냇물에 빠져 죽어가는 장면을 그린 것입니다. 물 위에 떠 있는 오필리아 주변으로 장미, 데이지, 양귀비 등의 꽃잎이 흩어져 있습니다. 아름답지만 곧 사라질 꽃잎들은 짧지만 찬란한 순간의 아름다움을 상징합니다. 밀레이는 실제 강가에서 수개월간 풀과 꽃을 관찰하며 놀라운 사실성으로 자연을 묘사했습니다.",
     "look_for": "물 위에 떠 있는 다양한 꽃들의 종류와 오필리아의 평온한 표정이 만드는 아름다우면서도 슬픈 분위기를 느껴보세요.",
     "fun_fact": "모델 엘리자베스 시달은 욕조에 누워 포즈를 취했는데, 물이 식는 바람에 심한 감기에 걸렸고 밀레이가 의료비를 물어야 했습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File:John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg",
-    "source_label": "Wikimedia Commons",
+    "source_url": "https://en.wikipedia.org/wiki/Carnation,_Lily,_Lily,_Rose",
+    "source_label": "Wikipedia",
     "quiz": {
       "question": "'오필리아'는 어떤 문학 작품에 등장하는 인물인가요?",
       "options": [
@@ -6726,7 +6734,8 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-362.webp"
+    "image_url": "/images/arts/day-362.webp",
+    "desc": "사전트는 해질 무렵 정원에서 일본식 등불 사이로 꽃을 다루는 두 소녀를 그렸어. 백합과 장미 꽃잎이 가득한 화면은 자연광이 사라지는 순간의 찬란함을 포착하고 있어. 매일 같은 시간에만 작업해 완성하는 데 2년이 걸렸대."
   },
   {
     "day": 363,
@@ -6755,18 +6764,18 @@
   },
   {
     "day": 364,
-    "title": "프리마베라 (봄)",
+    "title": "베리 공작의 매우 호화로운 기도서 — 4월",
     "title_original": "Primavera",
-    "artist": "산드로 보티첼리",
+    "artist": "랭부르 형제",
     "artist_original": "Sandro Botticelli",
-    "year": "1482",
+    "year": 1416,
     "medium": "템페라",
     "period": "이탈리아 르네상스",
     "story": "보티첼리의 '봄(프리마베라)'은 르네상스 회화의 걸작으로, 꽃이 만발한 정원에서 신화 속 인물들이 봄의 도래를 축하하는 장면입니다. 오른쪽에서 서풍 제피로스가 님프 클로리스를 안으면, 그녀의 입에서 꽃이 피어나 꽃의 여신 플로라로 변합니다. 겨울을 이기고 올라오는 새싹처럼, 그림 속 500여 종의 식물이 생명의 부활을 노래합니다. 중앙의 비너스는 이 모든 생명력을 관장하는 존재로 서 있습니다.",
     "look_for": "발밑에 피어난 500여 종의 꽃과 식물을 자세히 들여다보고, 실제로 존재하는 종인지 찾아보세요.",
     "fun_fact": "학자들이 이 그림에서 확인한 식물은 약 500종으로, 당시 피렌체 근교에서 실제로 볼 수 있던 종들이 정확하게 묘사되어 있습니다.",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Botticelli-primavera.jpg",
-    "source_label": "Wikimedia Commons",
+    "source_url": "https://en.wikipedia.org/wiki/Tr%C3%A8s_Riches_Heures_du_Duc_de_Berry",
+    "source_label": "Wikipedia",
     "quiz": {
       "question": "'프리마베라'의 중앙에 서 있는 신화 속 인물은?",
       "options": [
@@ -6776,7 +6785,8 @@
       ],
       "answer": 1
     },
-    "image_url": "/images/arts/day-364.webp"
+    "image_url": "/images/arts/day-364.webp",
+    "desc": "랭부르 형제의 기도서 4월 페이지는 봄날 귀족들의 약혼 장면과 새싹이 돋는 초록 정원을 담았어. 세밀한 식물 묘사와 새파란 하늘은 중세 사람들이 봄의 재생을 얼마나 경이롭게 여겼는지 보여줘."
   },
   {
     "day": 365,
