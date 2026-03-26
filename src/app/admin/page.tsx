@@ -249,14 +249,14 @@ export default function AdminPage() {
 
       {/* Top bar */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-40">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-9 h-9 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-lg flex items-center justify-center text-white text-sm">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-lg flex items-center justify-center text-white text-xs sm:text-sm">
               📋
             </div>
             <div>
-              <h1 className="text-lg font-bold text-gray-800">DailySeed 관리자</h1>
-              <p className="text-[11px] text-gray-400">
+              <h1 className="text-base sm:text-lg font-bold text-gray-800">DailySeed 관리자</h1>
+              <p className="text-[10px] sm:text-[11px] text-gray-400">
                 {profile?.display_name || "관리자"}님 · 학생 {summary.total}명
               </p>
             </div>
@@ -270,7 +270,7 @@ export default function AdminPage() {
         </div>
       </header>
 
-      <div className="max-w-6xl mx-auto px-6 py-6">
+      <div className="max-w-6xl mx-auto px-3 sm:px-6 py-4 sm:py-6">
         {error && (
           <div className="bg-red-50 border border-red-200 rounded-xl p-4 mb-4">
             <p className="text-sm text-red-600">{error}</p>
@@ -278,18 +278,18 @@ export default function AdminPage() {
         )}
 
         {/* Summary Cards */}
-        <div className="grid grid-cols-3 gap-4 mb-6">
-          <div className="bg-white rounded-xl border border-gray-100 p-5 text-center shadow-sm">
-            <p className="text-3xl font-black text-indigo-500">{summary.total}</p>
-            <p className="text-xs text-gray-400 font-medium mt-1">전체 학생</p>
+        <div className="grid grid-cols-3 gap-2 sm:gap-4 mb-4 sm:mb-6">
+          <div className="bg-white rounded-xl border border-gray-100 p-3 sm:p-5 text-center shadow-sm">
+            <p className="text-2xl sm:text-3xl font-black text-indigo-500">{summary.total}</p>
+            <p className="text-[10px] sm:text-xs text-gray-400 font-medium mt-1">전체 학생</p>
           </div>
-          <div className="bg-white rounded-xl border border-gray-100 p-5 text-center shadow-sm">
-            <p className="text-3xl font-black text-green-500">{summary.activeToday}</p>
-            <p className="text-xs text-gray-400 font-medium mt-1">Day 1 학습</p>
+          <div className="bg-white rounded-xl border border-gray-100 p-3 sm:p-5 text-center shadow-sm">
+            <p className="text-2xl sm:text-3xl font-black text-green-500">{summary.activeToday}</p>
+            <p className="text-[10px] sm:text-xs text-gray-400 font-medium mt-1">Day 1 학습</p>
           </div>
-          <div className="bg-white rounded-xl border border-gray-100 p-5 text-center shadow-sm">
-            <p className="text-3xl font-black text-amber-500">{summary.avgCompletion}</p>
-            <p className="text-xs text-gray-400 font-medium mt-1">1인당 평균 완료</p>
+          <div className="bg-white rounded-xl border border-gray-100 p-3 sm:p-5 text-center shadow-sm">
+            <p className="text-2xl sm:text-3xl font-black text-amber-500">{summary.avgCompletion}</p>
+            <p className="text-[10px] sm:text-xs text-gray-400 font-medium mt-1">1인당 평균 완료</p>
           </div>
         </div>
 
@@ -306,10 +306,10 @@ export default function AdminPage() {
             </p>
           </div>
         ) : (
-          /* Desktop: side-by-side layout */
-          <div className="flex gap-6">
-            {/* Left: Student List */}
-            <div className={`${detail ? "w-80 shrink-0" : "w-full max-w-2xl"} transition-all`}>
+          /* Layout: side-by-side on desktop, stacked on mobile */
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
+            {/* Left: Student List — hidden on mobile when detail is open */}
+            <div className={`${detail ? "hidden lg:block lg:w-80 lg:shrink-0" : "w-full lg:max-w-2xl"} transition-all`}>
               {/* Search */}
               <div className="relative mb-3">
                 <svg
@@ -338,15 +338,15 @@ export default function AdminPage() {
                     <button
                       key={s.profile.id}
                       onClick={() => setSelectedStudent(s.profile.id)}
-                      className={`w-full bg-white rounded-xl border p-4 text-left hover:shadow-md transition-all ${
+                      className={`w-full bg-white rounded-xl border p-3 sm:p-4 text-left hover:shadow-md transition-all ${
                         isSelected
                           ? "border-indigo-400 ring-2 ring-indigo-100"
                           : "border-gray-100 hover:border-indigo-200"
                       }`}
                     >
                       <div className="flex items-center justify-between mb-2">
-                        <div className="flex items-center gap-3">
-                          <div className="w-9 h-9 bg-gradient-to-br from-amber-400 to-orange-400 rounded-full flex items-center justify-center text-white text-sm font-bold">
+                        <div className="flex items-center gap-2 sm:gap-3">
+                          <div className="w-8 h-8 sm:w-9 sm:h-9 bg-gradient-to-br from-amber-400 to-orange-400 rounded-full flex items-center justify-center text-white text-xs sm:text-sm font-bold">
                             {(s.profile.display_name || "?")[0]}
                           </div>
                           <div>
@@ -389,6 +389,16 @@ export default function AdminPage() {
             {/* Right: Student Detail */}
             {detail && (
               <div className="flex-1 min-w-0">
+                {/* Mobile back button */}
+                <button
+                  onClick={() => setSelectedStudent(null)}
+                  className="lg:hidden flex items-center gap-1.5 text-sm text-indigo-500 font-semibold mb-3 active:opacity-70"
+                >
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                  </svg>
+                  학생 목록
+                </button>
                 <StudentDetail data={detail} />
               </div>
             )}
@@ -422,40 +432,40 @@ function StudentDetail({ data }: { data: StudentData }) {
   return (
     <div>
       {/* Student header */}
-      <div className="bg-white rounded-2xl border border-gray-100 p-5 mb-4 shadow-sm">
-        <div className="flex items-center gap-4 mb-4">
-          <div className="w-14 h-14 bg-gradient-to-br from-amber-400 to-orange-400 rounded-full flex items-center justify-center text-2xl text-white font-bold">
+      <div className="bg-white rounded-2xl border border-gray-100 p-4 sm:p-5 mb-3 sm:mb-4 shadow-sm">
+        <div className="flex items-center gap-3 sm:gap-4 mb-4">
+          <div className="w-11 h-11 sm:w-14 sm:h-14 bg-gradient-to-br from-amber-400 to-orange-400 rounded-full flex items-center justify-center text-xl sm:text-2xl text-white font-bold">
             {(profile.display_name || "?")[0]}
           </div>
           <div>
-            <p className="font-bold text-gray-800 text-lg">
+            <p className="font-bold text-gray-800 text-base sm:text-lg">
               {profile.display_name || "이름 없음"}
             </p>
-            <p className="text-xs text-gray-400">
+            <p className="text-[11px] sm:text-xs text-gray-400">
               가입일: {new Date(profile.created_at).toLocaleDateString("ko-KR")}
             </p>
           </div>
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-3">
-          <div className="bg-indigo-50 rounded-xl p-3 text-center">
-            <p className="text-xl font-black text-indigo-500">{stats.activeDays}</p>
+        <div className="grid grid-cols-3 gap-2 sm:gap-3">
+          <div className="bg-indigo-50 rounded-xl p-2.5 sm:p-3 text-center">
+            <p className="text-lg sm:text-xl font-black text-indigo-500">{stats.activeDays}</p>
             <p className="text-[10px] text-gray-500">학습한 날</p>
           </div>
-          <div className="bg-amber-50 rounded-xl p-3 text-center">
-            <p className="text-xl font-black text-amber-500">{stats.perfectDays}</p>
+          <div className="bg-amber-50 rounded-xl p-2.5 sm:p-3 text-center">
+            <p className="text-lg sm:text-xl font-black text-amber-500">{stats.perfectDays}</p>
             <p className="text-[10px] text-gray-500">완벽한 날</p>
           </div>
-          <div className="bg-green-50 rounded-xl p-3 text-center">
-            <p className="text-xl font-black text-green-500">{stats.totalDone}</p>
+          <div className="bg-green-50 rounded-xl p-2.5 sm:p-3 text-center">
+            <p className="text-lg sm:text-xl font-black text-green-500">{stats.totalDone}</p>
             <p className="text-[10px] text-gray-500">총 완료</p>
           </div>
         </div>
       </div>
 
       {/* Section breakdown */}
-      <div className="bg-white rounded-2xl border border-gray-100 p-4 mb-4 shadow-sm">
+      <div className="bg-white rounded-2xl border border-gray-100 p-3 sm:p-4 mb-3 sm:mb-4 shadow-sm">
         <h3 className="text-sm font-bold text-gray-800 mb-3">과목별 완료 현황</h3>
         <div className="space-y-2">
           {SECTIONS.map((s) => {
@@ -482,7 +492,7 @@ function StudentDetail({ data }: { data: StudentData }) {
       </div>
 
       {/* Day-by-day progress grid */}
-      <div className="bg-white rounded-2xl border border-gray-100 p-4 mb-4 shadow-sm">
+      <div className="bg-white rounded-2xl border border-gray-100 p-3 sm:p-4 mb-3 sm:mb-4 shadow-sm">
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-sm font-bold text-gray-800">
             {viewAll ? "전체 학습 기록" : "최근 30일 학습 기록"}
@@ -495,69 +505,73 @@ function StudentDetail({ data }: { data: StudentData }) {
           </button>
         </div>
 
-        {/* Column Headers */}
-        <div className="flex items-center gap-1 px-1 mb-1.5">
-          <span className="w-[42px] text-[10px] text-gray-300 font-medium shrink-0">Day</span>
-          <span className="w-[48px] text-[10px] text-gray-300 font-medium shrink-0 text-center">키워드</span>
-          <div className="flex-1 flex items-center justify-end gap-1">
-            {SECTIONS.map((s) => (
-              <span key={s.key} className="w-[28px] text-center text-[10px]">{s.emoji}</span>
-            ))}
-            <span className="w-[28px] text-[10px] text-gray-300 font-medium text-center">합계</span>
-          </div>
-        </div>
+        <div className="overflow-x-auto -mx-3 sm:-mx-4 px-3 sm:px-4">
+          <div className="min-w-[380px]">
+            {/* Column Headers */}
+            <div className="flex items-center gap-1 px-1 mb-1.5">
+              <span className="w-[36px] sm:w-[42px] text-[10px] text-gray-300 font-medium shrink-0">Day</span>
+              <span className="w-[40px] sm:w-[48px] text-[10px] text-gray-300 font-medium shrink-0 text-center">키워드</span>
+              <div className="flex-1 flex items-center justify-end gap-0.5 sm:gap-1">
+                {SECTIONS.map((s) => (
+                  <span key={s.key} className="w-[24px] sm:w-[28px] text-center text-[10px]">{s.emoji}</span>
+                ))}
+                <span className="w-[28px] text-[10px] text-gray-300 font-medium text-center">합계</span>
+              </div>
+            </div>
 
-        {/* Day Rows */}
-        <div className="max-h-[500px] overflow-y-auto space-y-0.5">
-          {displayDays.map((dayIndex) => {
-            const theme = themes[dayIndex];
-            if (!theme) return null;
-            const doneCount = SECTIONS.filter((s) =>
-              missionSet.has(`${s.key}-${dayIndex}`)
-            ).length;
-            const isPerfect = doneCount === 6;
+            {/* Day Rows */}
+            <div className="max-h-[500px] overflow-y-auto space-y-0.5">
+              {displayDays.map((dayIndex) => {
+                const theme = themes[dayIndex];
+                if (!theme) return null;
+                const doneCount = SECTIONS.filter((s) =>
+                  missionSet.has(`${s.key}-${dayIndex}`)
+                ).length;
+                const isPerfect = doneCount === 6;
 
-            return (
-              <div
-                key={dayIndex}
-                className={`flex items-center gap-1 px-1 py-1 rounded-lg ${
-                  isPerfect ? "bg-amber-50/60" : ""
-                }`}
-              >
-                <span className="w-[42px] text-[11px] font-mono font-bold text-gray-400 shrink-0 tabular-nums">
-                  {dayIndex + 1}
-                </span>
-                <span className="w-[48px] text-[11px] font-bold text-gray-700 shrink-0 text-center truncate">
-                  {theme.keyword}
-                </span>
-                <div className="flex-1 flex items-center justify-end gap-1">
-                  {SECTIONS.map((s) => {
-                    const done = missionSet.has(`${s.key}-${dayIndex}`);
-                    return (
-                      <span key={s.key} className="w-[28px] h-[24px] flex items-center justify-center shrink-0">
-                        {done ? (
-                          <div className="w-4 h-4 bg-amber-400 rounded-full flex items-center justify-center">
-                            <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                            </svg>
-                          </div>
-                        ) : (
-                          <div className="w-4 h-4 rounded-full border-2 border-gray-200" />
-                        )}
-                      </span>
-                    );
-                  })}
-                  <span
-                    className={`w-[28px] text-[10px] font-mono font-bold text-center tabular-nums ${
-                      isPerfect ? "text-amber-500" : doneCount > 0 ? "text-gray-500" : "text-gray-200"
+                return (
+                  <div
+                    key={dayIndex}
+                    className={`flex items-center gap-1 px-1 py-1 rounded-lg ${
+                      isPerfect ? "bg-amber-50/60" : ""
                     }`}
                   >
-                    {doneCount}/6
-                  </span>
-                </div>
-              </div>
-            );
-          })}
+                    <span className="w-[36px] sm:w-[42px] text-[11px] font-mono font-bold text-gray-400 shrink-0 tabular-nums">
+                      {dayIndex + 1}
+                    </span>
+                    <span className="w-[40px] sm:w-[48px] text-[10px] sm:text-[11px] font-bold text-gray-700 shrink-0 text-center truncate">
+                      {theme.keyword}
+                    </span>
+                    <div className="flex-1 flex items-center justify-end gap-0.5 sm:gap-1">
+                      {SECTIONS.map((s) => {
+                        const done = missionSet.has(`${s.key}-${dayIndex}`);
+                        return (
+                          <span key={s.key} className="w-[24px] sm:w-[28px] h-[24px] flex items-center justify-center shrink-0">
+                            {done ? (
+                              <div className="w-3.5 h-3.5 sm:w-4 sm:h-4 bg-amber-400 rounded-full flex items-center justify-center">
+                                <svg className="w-2 h-2 sm:w-2.5 sm:h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                                </svg>
+                              </div>
+                            ) : (
+                              <div className="w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full border-2 border-gray-200" />
+                            )}
+                          </span>
+                        );
+                      })}
+                      <span
+                        className={`w-[28px] text-[10px] font-mono font-bold text-center tabular-nums ${
+                          isPerfect ? "text-amber-500" : doneCount > 0 ? "text-gray-500" : "text-gray-200"
+                        }`}
+                      >
+                        {doneCount}/6
+                      </span>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </div>
