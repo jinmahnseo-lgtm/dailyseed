@@ -3,13 +3,14 @@
 import whys from "@/data/whys.json";
 import { useMission } from "@/hooks/useMission";
 import { useDayContext } from "@/contexts/DayContext";
+import LoginPrompt from "@/components/LoginPrompt";
 
 import DayNavigator from "@/components/DayNavigator";
 
 export default function WhyPage() {
   const { dayIndex } = useDayContext();
   const item = whys[dayIndex] || null;
-  const { done, complete } = useMission("why", dayIndex);
+  const { done, complete, isLoggedIn } = useMission("why", dayIndex);
 
   return (
     <div
@@ -95,6 +96,8 @@ export default function WhyPage() {
               <span className="text-2xl">✅</span>
               <p className="text-green-700 font-semibold mt-1">미션 완료!</p>
             </div>
+          ) : !isLoggedIn ? (
+            <LoginPrompt />
           ) : (
             <button
               onClick={() => complete("실험 완료")}

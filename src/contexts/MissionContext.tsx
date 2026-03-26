@@ -30,6 +30,39 @@ export function useMissionContext() {
 type MissionMap = Map<string, string | null>; // key → answer_data
 type ReportSet = Set<string>; // "0", "1", ...
 
+// sessionStorage 캐시 (페이지 이동 시 즉시 복원, 브라우저 닫으면 소멸)
+const CACHE_KEY = "dailyseed-mission-cache";
+
+function saveCache(userId: string, missions: MissionMap, reports: ReportSet) {
+  try {
+    const data = {
+      userId,
+      missions: Array.from(missions.entries()),
+      reports: Array.from(reports),
+    };
+    sessionStorage.setItem(CACHE_KEY, JSON.stringify(data));
+  } catch { /* ignore */ }
+}
+
+function loadCache(userId: string): { missions: MissionMap; reports: ReportSet } | null {
+  try {
+    const raw = sessionStorage.getItem(CACHE_KEY);
+    if (!raw) return null;
+    const data = JSON.parse(raw);
+    if (data.userId !== userId) return null;
+    return {
+      missions: new Map(data.missions),
+      reports: new Set(data.reports),
+    };
+  } catch {
+    return null;
+  }
+}
+
+function clearCache() {
+  try { sessionStorage.removeItem(CACHE_KEY); } catch { /* ignore */ }
+}
+
 export function MissionProvider({ children }: { children: React.ReactNode }) {
   const { user } = useAuthContext();
   const [missions, setMissions] = useState<MissionMap>(new Map());
@@ -37,21 +70,30 @@ export function MissionProvider({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true);
   const fetchedUserId = useRef<string | null>(null);
 
-  // 로그인 시 전체 fetch
+  // 로그인 시: 캐시 즉시 복원 → DB fetch (백그라운드)
   useEffect(() => {
     if (!user?.id || !supabase) {
       setMissions(new Map());
       setReports(new Set());
       setLoading(false);
       fetchedUserId.current = null;
+      clearCache();
       return;
     }
 
-    // 이미 같은 유저로 fetch 했으면 스킵
+    // 이미 같은 유저로 fetch 완료 → 스킵
     if (fetchedUserId.current === user.id) return;
 
+    // 1) sessionStorage 캐시 즉시 복원 (네트워크 기다리지 않음)
+    const cached = loadCache(user.id);
+    if (cached) {
+      setMissions(cached.missions);
+      setReports(cached.reports);
+      setLoading(false); // 캐시 있으면 loading 바로 해제
+    }
+
+    // 2) DB에서 최신 데이터 fetch
     let cancelled = false;
-    setLoading(true);
 
     (async () => {
       try {
@@ -79,8 +121,9 @@ export function MissionProvider({ children }: { children: React.ReactNode }) {
         setMissions(mMap);
         setReports(rSet);
         fetchedUserId.current = user.id;
+        saveCache(user.id, mMap, rSet);
       } catch {
-        // 네트워크 에러 시 빈 상태
+        // 캐시가 있으면 그걸로 유지, 없으면 빈 상태
       } finally {
         if (!cancelled) setLoading(false);
       }
@@ -106,14 +149,16 @@ export function MissionProvider({ children }: { children: React.ReactNode }) {
 
     const key = `${page}-${dayIndex}`;
 
-    // Optimistic update
+    // Optimistic update (메모리 + 캐시)
     setMissions(prev => {
       const next = new Map(prev);
       next.set(key, answerData || null);
+      // 캐시도 즉시 갱신
+      saveCache(user.id, next, reports);
       return next;
     });
 
-    // DB upsert (background)
+    // DB upsert
     try {
       await supabase!.from("missions").upsert(
         {
@@ -126,23 +171,24 @@ export function MissionProvider({ children }: { children: React.ReactNode }) {
         { onConflict: "user_id,page,date" }
       );
     } catch {
-      // 실패 시 롤백하지 않음 (다음 fetch에서 교정)
+      // 실패 시 다음 fetch에서 교정
     }
-  }, [user?.id]);
+  }, [user?.id, reports]);
 
   const markReportSent = useCallback(async (dayIndex: number, parentEmail: string) => {
     if (!user?.id || !supabase) return;
 
     const dateStr = String(dayIndex);
 
-    // Optimistic update
+    // Optimistic update (메모리 + 캐시)
     setReports(prev => {
       const next = new Set(prev);
       next.add(dateStr);
+      saveCache(user.id, missions, next);
       return next;
     });
 
-    // DB upsert (background)
+    // DB upsert
     try {
       await supabase!.from("reports").upsert(
         {
@@ -156,7 +202,7 @@ export function MissionProvider({ children }: { children: React.ReactNode }) {
     } catch {
       // 실패 시 다음 fetch에서 교정
     }
-  }, [user?.id]);
+  }, [user?.id, missions]);
 
   return (
     <MissionContext.Provider value={{ isMissionDone, getMissionData, isReportSent, completeMission, markReportSent, loading }}>

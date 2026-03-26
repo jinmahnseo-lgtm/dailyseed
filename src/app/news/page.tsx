@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import newsRaw from "@/data/news.json";
 import { useDayContext } from "@/contexts/DayContext";
 import { useMission } from "@/hooks/useMission";
+import LoginPrompt from "@/components/LoginPrompt";
 
 import DayNavigator from "@/components/DayNavigator";
 
@@ -31,7 +32,7 @@ const news = newsRaw as NewsItem[];
 export default function NewsPage() {
   const { dayIndex } = useDayContext();
   const item = news[dayIndex] || null;
-  const { done, complete } = useMission("news", dayIndex);
+  const { done, complete, isLoggedIn } = useMission("news", dayIndex);
 
   const [side, setSide] = useState<"pro" | "con" | null>(null);
   const [reason, setReason] = useState("");
@@ -140,6 +141,8 @@ export default function NewsPage() {
                     미션 완료!
                   </p>
                 </div>
+              ) : !isLoggedIn ? (
+                <LoginPrompt />
               ) : (
                 <>
                   <div className="grid grid-cols-2 gap-3 mb-4">

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import classicsRaw from "@/data/classics.json";
 import { useDayContext } from "@/contexts/DayContext";
 import { useMission } from "@/hooks/useMission";
+import LoginPrompt from "@/components/LoginPrompt";
 
 import DayNavigator from "@/components/DayNavigator";
 
@@ -23,7 +24,7 @@ const classics = classicsRaw as ClassicItem[];
 export default function ClassicPage() {
   const { dayIndex } = useDayContext();
   const item = classics[dayIndex] || null;
-  const { done, complete } = useMission("classic", dayIndex);
+  const { done, complete, isLoggedIn } = useMission("classic", dayIndex);
   const [answer, setAnswer] = useState("");
 
   useEffect(() => {
@@ -118,6 +119,8 @@ export default function ClassicPage() {
               <span className="text-2xl">✅</span>
               <p className="text-green-700 font-semibold mt-1">미션 완료!</p>
             </div>
+          ) : !isLoggedIn ? (
+            <LoginPrompt />
           ) : (
             <div className="space-y-3">
               <textarea

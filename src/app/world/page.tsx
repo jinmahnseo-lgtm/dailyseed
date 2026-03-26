@@ -4,13 +4,14 @@ import { useState, useEffect } from "react";
 import worlds from "@/data/worlds.json";
 import { useMission } from "@/hooks/useMission";
 import { useDayContext } from "@/contexts/DayContext";
+import LoginPrompt from "@/components/LoginPrompt";
 
 import DayNavigator from "@/components/DayNavigator";
 
 export default function WorldPage() {
   const { dayIndex } = useDayContext();
   const item = worlds[dayIndex] || null;
-  const { done, complete } = useMission("world", dayIndex);
+  const { done, complete, isLoggedIn } = useMission("world", dayIndex);
 
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [quizSubmitted, setQuizSubmitted] = useState(false);
@@ -154,7 +155,9 @@ export default function WorldPage() {
               );
             })}
           </div>
-          {!quizSubmitted ? (
+          {!quizSubmitted && !isLoggedIn ? (
+            <LoginPrompt />
+          ) : !quizSubmitted ? (
             <button
               onClick={handleQuizSubmit}
               disabled={selectedAnswer === null}

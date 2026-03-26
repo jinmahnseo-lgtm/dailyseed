@@ -4,13 +4,14 @@ import { useState, useEffect } from "react";
 import arts from "@/data/arts.json";
 import { useMission } from "@/hooks/useMission";
 import { useDayContext } from "@/contexts/DayContext";
+import LoginPrompt from "@/components/LoginPrompt";
 
 import DayNavigator from "@/components/DayNavigator";
 
 export default function ArtPage() {
   const { dayIndex } = useDayContext();
   const item = arts[dayIndex] || null;
-  const { done, complete } = useMission("art", dayIndex);
+  const { done, complete, isLoggedIn } = useMission("art", dayIndex);
   const [review, setReview] = useState("");
   const [imgError, setImgError] = useState(false);
 
@@ -122,6 +123,8 @@ export default function ArtPage() {
               <span className="text-2xl">✅</span>
               <p className="text-green-700 font-semibold mt-1">미션 완료!</p>
             </div>
+          ) : !isLoggedIn ? (
+            <LoginPrompt />
           ) : (
             <div className="space-y-3">
               <textarea

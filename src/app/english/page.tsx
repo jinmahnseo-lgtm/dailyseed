@@ -8,6 +8,7 @@ import worldsData from "@/data/worlds.json";
 import whysData from "@/data/whys.json";
 import { useMission } from "@/hooks/useMission";
 import { useDayContext } from "@/contexts/DayContext";
+import LoginPrompt from "@/components/LoginPrompt";
 
 import DayNavigator from "@/components/DayNavigator";
 
@@ -45,7 +46,7 @@ function getSourceTitle(source: string, dayIndex: number): string {
 export default function EnglishPage() {
   const { dayIndex } = useDayContext();
   const item = (english as EnglishItem[])[dayIndex] || null;
-  const { done, complete } = useMission("english", dayIndex);
+  const { done, complete, isLoggedIn } = useMission("english", dayIndex);
 
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [showAnswers, setShowAnswers] = useState(false);
@@ -155,7 +156,12 @@ export default function EnglishPage() {
                 </div>
               ))}
             </div>
-            {!done && (
+            {!done && !isLoggedIn && (
+              <div className="mt-4">
+                <LoginPrompt />
+              </div>
+            )}
+            {!done && isLoggedIn && (
               <button
                 onClick={handleSubmit}
                 disabled={!allFilled}
