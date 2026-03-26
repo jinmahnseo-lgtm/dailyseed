@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, useCallback } from "react";
 import { useAuthContext } from "@/contexts/AuthContext";
 import { supabase } from "@/lib/supabase";
 import themes from "@/data/themes.json";
@@ -124,8 +124,26 @@ export default function AdminPage() {
   const { user, profile, loading } = useAuthContext();
   const [students, setStudents] = useState<StudentData[]>(() => loadCache() || []);
   const [fetching, setFetching] = useState(false);
-  const [selectedStudent, setSelectedStudent] = useState<string | null>(null);
+  const [selectedStudent, _setSelectedStudent] = useState<string | null>(null);
   const [search, setSearch] = useState("");
+
+  // Wrap setSelectedStudent to manage browser history for mobile back button
+  const isMobile = () => window.innerWidth < 1024; // matches lg breakpoint
+  const setSelectedStudent = useCallback((id: string | null) => {
+    if (id !== null && isMobile()) {
+      history.pushState({ adminView: "detail", studentId: id }, "");
+    }
+    _setSelectedStudent(id);
+  }, []);
+
+  // Handle browser back button (popstate)
+  useEffect(() => {
+    const onPopState = () => {
+      _setSelectedStudent(null);
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
   const [error, setError] = useState("");
   const [accessDenied, setAccessDenied] = useState(false);
   const [initialized, setInitialized] = useState(() => loadCache() !== null);
@@ -409,7 +427,7 @@ export default function AdminPage() {
               <div className="flex-1 min-w-0">
                 {/* Mobile back button */}
                 <button
-                  onClick={() => setSelectedStudent(null)}
+                  onClick={() => history.back()}
                   className="lg:hidden flex items-center gap-1.5 text-sm text-indigo-500 font-semibold mb-3 active:opacity-70"
                 >
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
