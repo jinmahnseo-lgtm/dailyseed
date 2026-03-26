@@ -3,6 +3,7 @@
 import { useEffect, useState, useMemo } from "react";
 import { useAuthContext } from "@/contexts/AuthContext";
 import { useMissionContext } from "@/contexts/MissionContext";
+import { supabase } from "@/lib/supabase";
 import themes from "@/data/themes.json";
 
 const SECTIONS = [
@@ -27,6 +28,8 @@ export default function ProfilePage() {
   const { isMissionDone } = useMissionContext();
   const [search, setSearch] = useState("");
   const [missionCache, setMissionCache] = useState<Record<string, boolean>>({});
+  const [linkedTeacher, setLinkedTeacher] = useState<{ name: string; email: string } | null>(null);
+  const [teacherLoading, setTeacherLoading] = useState(true);
 
   const role = ADMIN_EMAILS.includes(user?.email || "")
     ? "admin"
@@ -41,6 +44,47 @@ export default function ProfilePage() {
     if (!loading && !user) {
       window.location.replace("/login");
     }
+  }, [loading, user]);
+
+  // Fetch linked teacher info
+  useEffect(() => {
+    if (loading || !user || !supabase) {
+      setTeacherLoading(false);
+      return;
+    }
+    async function fetchTeacher() {
+      try {
+        const { data: links } = await supabase!
+          .from("parent_student_links")
+          .select("parent_id")
+          .eq("student_id", user!.id);
+
+        if (!links || links.length === 0) {
+          setLinkedTeacher(null);
+          setTeacherLoading(false);
+          return;
+        }
+
+        const parentId = links[0].parent_id;
+        const { data: parentProfile } = await supabase!
+          .from("profiles")
+          .select("display_name, email")
+          .eq("id", parentId)
+          .single();
+
+        if (parentProfile) {
+          setLinkedTeacher({
+            name: parentProfile.display_name || "선생님",
+            email: parentProfile.email || "",
+          });
+        }
+      } catch {
+        /* ignore */
+      } finally {
+        setTeacherLoading(false);
+      }
+    }
+    fetchTeacher();
   }, [loading, user]);
 
   // Build mission cache from Context
@@ -149,6 +193,35 @@ export default function ProfilePage() {
           </div>
         </div>
       </div>
+
+      {/* Linked Teacher */}
+      {!teacherLoading && linkedTeacher && (
+        <div className="bg-white rounded-2xl border border-gray-100 p-4 mb-4" style={{ boxShadow: 'var(--shadow-sm)' }}>
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-base">👩‍🏫</span>
+            <h2 className="text-sm font-bold text-gray-800">연결된 선생님</h2>
+          </div>
+          <div className="bg-indigo-50 rounded-xl p-3 flex items-center gap-3">
+            <div className="w-9 h-9 bg-gradient-to-br from-indigo-400 to-purple-400 rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0">
+              {linkedTeacher.name[0]}
+            </div>
+            <div className="min-w-0">
+              <p className="text-sm font-semibold text-gray-800">{linkedTeacher.name}</p>
+              {linkedTeacher.email && (
+                <p className="text-[11px] text-gray-400 truncate">{linkedTeacher.email}</p>
+              )}
+            </div>
+          </div>
+          <p className="text-[11px] text-gray-400 mt-2 leading-relaxed">
+            선생님이 학습 진도를 확인할 수 있으며, 리포트가 자동 전달됩니다.
+            연결 해제를 원하시면{" "}
+            <a href="mailto:dailyseed.net@gmail.com" className="text-indigo-500 font-semibold hover:underline">
+              dailyseed.net@gmail.com
+            </a>
+            으로 요청해주세요.
+          </p>
+        </div>
+      )}
 
       {/* Logout */}
       <button
