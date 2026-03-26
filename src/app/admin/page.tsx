@@ -86,15 +86,49 @@ function computeStats(missions: Mission[]): StudentData["stats"] {
   return { totalDone, activeDays, perfectDays, recentDays, sectionCounts };
 }
 
+const CACHE_KEY = "dailyseed-admin-cache";
+
+function loadCache(): StudentData[] | null {
+  try {
+    const raw = sessionStorage.getItem(CACHE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch { return null; }
+}
+
+function saveCache(data: StudentData[]) {
+  try { sessionStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch { /* */ }
+}
+
+function buildStudentData(
+  profiles: StudentProfile[],
+  missions: Mission[]
+): StudentData[] {
+  const missionsByStudent: Record<string, Mission[]> = {};
+  for (const m of missions) {
+    if (!missionsByStudent[m.user_id]) missionsByStudent[m.user_id] = [];
+    missionsByStudent[m.user_id].push(m);
+  }
+  const result: StudentData[] = profiles.map((p) => ({
+    profile: p,
+    missions: missionsByStudent[p.id] || [],
+    stats: computeStats(missionsByStudent[p.id] || []),
+  }));
+  result.sort((a, b) =>
+    (a.profile.display_name || "").localeCompare(b.profile.display_name || "")
+  );
+  return result;
+}
+
 export default function AdminPage() {
   const { user, profile, loading } = useAuthContext();
-  const [students, setStudents] = useState<StudentData[]>([]);
+  const [students, setStudents] = useState<StudentData[]>(() => loadCache() || []);
   const [fetching, setFetching] = useState(false);
   const [selectedStudent, setSelectedStudent] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [error, setError] = useState("");
   const [accessDenied, setAccessDenied] = useState(false);
-  const [initialized, setInitialized] = useState(false);
+  const [initialized, setInitialized] = useState(() => loadCache() !== null);
 
   // Redirect if not logged in
   useEffect(() => {
@@ -103,7 +137,15 @@ export default function AdminPage() {
     }
   }, [loading, user]);
 
-  // Fetch students — also verifies parent role from server (not cache)
+  // Quick role check from cached profile (show UI instantly)
+  useEffect(() => {
+    if (!loading && user && profile && profile.role !== "parent") {
+      setAccessDenied(true);
+      setInitialized(true);
+    }
+  }, [loading, user, profile]);
+
+  // Fetch students — role check + links in parallel
   useEffect(() => {
     if (loading || !user || !supabase) return;
 
@@ -112,71 +154,47 @@ export default function AdminPage() {
       setError("");
 
       try {
-        // Check role from server (not cached profile)
-        const { data: freshProfile } = await supabase!
-          .from("profiles")
-          .select("*")
-          .eq("id", user!.id)
-          .single();
+        // Step 1: role check + links in parallel
+        const [profileRes, linksRes] = await Promise.all([
+          supabase!.from("profiles").select("*").eq("id", user!.id).single(),
+          supabase!.from("parent_student_links").select("student_id").eq("parent_id", user!.id),
+        ]);
 
+        const freshProfile = profileRes.data;
         if (freshProfile?.role !== "parent") {
           setAccessDenied(true);
           setFetching(false);
+          setInitialized(true);
           return;
         }
 
-        // Update local cache so re-visits work immediately
         try {
           localStorage.setItem("dailyseed-profile", JSON.stringify(freshProfile));
-        } catch { /* ignore */ }
+        } catch { /* */ }
 
-        // Get linked student IDs
-        const { data: links, error: linkErr } = await supabase!
-          .from("parent_student_links")
-          .select("student_id")
-          .eq("parent_id", user!.id);
-
-        if (linkErr) throw linkErr;
-        if (!links || links.length === 0) {
+        if (linksRes.error) throw linksRes.error;
+        if (!linksRes.data || linksRes.data.length === 0) {
           setStudents([]);
+          saveCache([]);
           setFetching(false);
+          setInitialized(true);
           return;
         }
 
-        const studentIds = links.map((l: { student_id: string }) => l.student_id);
+        const studentIds = linksRes.data.map((l: { student_id: string }) => l.student_id);
 
-        // Get student profiles + missions in parallel
+        // Step 2: student profiles + missions in parallel
         const [profilesRes, missionsRes] = await Promise.all([
-          supabase!
-            .from("profiles")
-            .select("id, display_name, created_at")
-            .in("id", studentIds),
-          supabase!
-            .from("missions")
-            .select("user_id, page, date, completed_at")
-            .in("user_id", studentIds),
+          supabase!.from("profiles").select("id, display_name, created_at").in("id", studentIds),
+          supabase!.from("missions").select("user_id, page, date, completed_at").in("user_id", studentIds),
         ]);
 
         if (profilesRes.error) throw profilesRes.error;
         if (missionsRes.error) throw missionsRes.error;
 
-        const missionsByStudent: Record<string, Mission[]> = {};
-        for (const m of missionsRes.data || []) {
-          if (!missionsByStudent[m.user_id]) missionsByStudent[m.user_id] = [];
-          missionsByStudent[m.user_id].push(m);
-        }
-
-        const result: StudentData[] = (profilesRes.data || []).map((p: StudentProfile) => ({
-          profile: p,
-          missions: missionsByStudent[p.id] || [],
-          stats: computeStats(missionsByStudent[p.id] || []),
-        }));
-
-        result.sort((a, b) =>
-          (a.profile.display_name || "").localeCompare(b.profile.display_name || "")
-        );
-
+        const result = buildStudentData(profilesRes.data || [], missionsRes.data || []);
         setStudents(result);
+        saveCache(result);
       } catch (err) {
         console.error("Admin fetch error:", err);
         setError("학생 데이터를 불러오는 데 실패했습니다.");
@@ -216,7 +234,7 @@ export default function AdminPage() {
     return { total, activeToday, avgCompletion };
   }, [students]);
 
-  if (loading || fetching || !initialized) {
+  if ((loading || !initialized) && students.length === 0) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">
