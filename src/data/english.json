@@ -675,9 +675,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Millet painted peasant women gleaning leftover grain in the fields, showing quiet courage in the dignity of everyday labor.",
-        "ko": "밀레는 들판에서 남은 곡식을 줍는 농부 여인들을 그리며, 일상 노동의 존엄 속에 담긴 조용한 용기를 보여주었다.",
-        "note": "'gleaning'은 '이삭을 줍다'라는 뜻이야. 'leftover grain'은 '남은 곡식'이고, dignity는 '존엄성'을 뜻해."
+        "en": "Michelangelo's David captures the moment before the battle — a young shepherd summoning the courage to face a giant with nothing but a sling.",
+        "ko": "미켈란젤로의 다비드는 전투 직전의 순간을 포착한다 — 투석기 하나만으로 거인에 맞서는 용기를 끌어모으는 젊은 양치기.",
+        "note": "'summoning the courage to ~'는 '~할 용기를 끌어모으다'라는 표현이야. 'with nothing but ~'은 '~만 가지고'라는 뜻의 관용구야."
       },
       {
         "source": "세계문화",
@@ -700,8 +700,8 @@
         "meaning": "용기"
       },
       {
-        "word": "peasant",
-        "meaning": "농민"
+        "word": "summon",
+        "meaning": "소환하다, 끌어모으다"
       },
       {
         "word": "bravery",
@@ -2147,9 +2147,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "United we stand, divided we fall.",
-        "ko": "뭉치면 서고, 흩어지면 쓰러진다.",
-        "note": "이 문장에서 united와 divided는 분사구문으로 조건을 나타내. '단결하면/분열하면'이라는 뜻이야. 간결한 대구가 격언의 힘을 줘."
+        "en": "The 108 outlaws of Mount Liang banded together under a single banner, proving that solidarity among the powerless can shake the powerful.",
+        "ko": "양산박의 108 호걸은 하나의 깃발 아래 뭉쳤고, 힘없는 자들의 연대가 권력자를 흔들 수 있음을 증명했다.",
+        "note": "'band together'는 '단결하다, 뭉치다'라는 구동사야. 'proving that ~'은 분사구문으로 '~임을 증명하며'라는 뜻이야."
       },
       {
         "source": "명화",
@@ -2175,8 +2175,8 @@
     ],
     "vocab": [
       {
-        "word": "fall",
-        "meaning": "타락하다, 떨어지다"
+        "word": "outlaw",
+        "meaning": "무법자, 호걸"
       },
       {
         "word": "solidarity",
@@ -2307,9 +2307,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Piranesi's imaginary prisons depict endless staircases and arches that follow no logical rule, trapping the viewer in architectural madness.",
-        "ko": "피라네시의 상상의 감옥은 어떤 논리적 규칙도 따르지 않는 끝없는 계단과 아치를 묘사하여, 관람객을 건축적 광기에 가둔다.",
-        "note": "'trapping the viewer in'은 '관람객을 ~에 가두다'라는 분사구문이야. 'follow no logical rule'은 '어떤 논리적 규칙도 따르지 않다'야."
+        "en": "Van Eyck's Ghent Altarpiece follows a strict religious order — saints, knights, and pilgrims approach the Lamb of God according to a divine rule of hierarchy.",
+        "ko": "반 에이크의 겐트 제단화는 엄격한 종교적 질서를 따른다 — 성인, 기사, 순례자들이 신성한 위계의 규칙에 따라 신의 어린양에게 다가간다.",
+        "note": "'according to ~'는 '~에 따라'라는 전치사구야. 'hierarchy'는 '위계, 서열'이라는 뜻으로, 조직이나 체계의 순서를 나타내."
       },
       {
         "source": "세계문화",
@@ -2332,8 +2332,8 @@
         "meaning": "울타리"
       },
       {
-        "word": "staircase",
-        "meaning": "계단"
+        "word": "hierarchy",
+        "meaning": "위계, 서열"
       },
       {
         "word": "convention",
@@ -4340,9 +4340,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "We don't see things as they are; we see them as we are.",
-        "ko": "우리는 사물을 있는 그대로 보지 않는다; 우리 자신의 모습대로 본다.",
-        "note": "'as they are'와 'as we are'에서 as는 '~인 그대로'라는 뜻이야. 같은 구조를 반복하며 대조를 만드는 기법이야."
+        "en": "In the Cloud Dream, the hero lives a life of glory and romance, only to awaken and realize it was all an illusion.",
+        "ko": "구운몽에서 주인공은 영광과 사랑의 삶을 살지만, 깨어나 그 모든 것이 착각이었음을 깨닫는다.",
+        "note": "'only to ~'는 '결국 ~하게 되다'라는 뜻으로, 예상 밖의 결과를 나타내. 'realize it was all an illusion'에서 realize + 명사절 패턴이야."
       },
       {
         "source": "명화",
@@ -4368,8 +4368,8 @@
     ],
     "vocab": [
       {
-        "word": "things",
-        "meaning": "것들"
+        "word": "awaken",
+        "meaning": "깨어나다"
       },
       {
         "word": "illusion",
@@ -8318,9 +8318,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Golding's Lord of the Flies shows what happens when children must govern themselves without adults — democracy crumbles without shared values.",
-        "ko": "골딩의 '파리 대왕'은 아이들이 어른 없이 스스로 다스려야 할 때 무슨 일이 벌어지는지를 보여준다 — 공유된 가치 없이 민주주의는 무너진다.",
-        "note": "'govern themselves'는 '스스로 다스리다'야. crumble은 '무너지다/부서지다'라는 뜻이야."
+        "en": "Jeong Yak-yong wrote that a good governor must serve the people, not rule over them — public duty begins with listening to the governed.",
+        "ko": "정약용은 좋은 관리란 백성 위에 군림하는 것이 아니라 백성을 섬겨야 한다고 썼다 — 공직의 의무는 다스림을 받는 사람의 목소리를 듣는 것에서 시작된다.",
+        "note": "'serve the people, not rule over them'에서 not은 앞 동사와 대조를 이뤄. 'the governed'는 '다스림을 받는 사람들'로, 과거분사의 명사적 용법이야."
       },
       {
         "source": "명화",
@@ -8346,8 +8346,8 @@
     ],
     "vocab": [
       {
-        "word": "crumble",
-        "meaning": "무너지다"
+        "word": "govern",
+        "meaning": "다스리다, 통치하다"
       },
       {
         "word": "capture",
@@ -8988,9 +8988,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Massys's painting shows a moneylender weighing coins beside his wife, who pauses over her prayer book, suggesting that material investment can divert attention from spiritual values.",
-        "ko": "마시스의 그림은 아내가 기도서 위에서 멈춘 채, 환전상이 동전의 무게를 다는 모습을 보여주며, 물질적 투자가 영적 가치로부터 관심을 돌릴 수 있음을 암시한다.",
-        "note": "'divert attention from ~'은 '~로부터 관심을 돌리다'라는 표현이야. divert는 '방향을 바꾸다'라는 뜻으로, 주의를 다른 곳으로 돌릴 때 자주 써."
+        "en": "The Venus de Milo, discovered by a farmer on the island of Milos, became the Louvre's most prized investment — proof that beauty, once found, appreciates forever.",
+        "ko": "밀로스 섬에서 농부가 발견한 밀로의 비너스는 루브르의 가장 소중한 투자가 되었다 — 한번 발견된 아름다움은 영원히 가치가 오른다는 증거.",
+        "note": "'once found'는 분사구문으로 'once it was found(일단 발견되면)'를 줄인 거야. 'appreciate'는 '가치가 오르다'라는 금융 용어로도 쓰여."
       },
       {
         "source": "세계문화",
@@ -9013,8 +9013,8 @@
         "meaning": "투자자"
       },
       {
-        "word": "divert",
-        "meaning": "전환하다, 돌리다"
+        "word": "appreciate",
+        "meaning": "감상하다, 가치가 오르다"
       },
       {
         "word": "transform",
@@ -15822,9 +15822,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Seurat's Sunday Afternoon captures Parisians dressed in their finest, turning a public park into a fashionable showcase of contemporary style.",
-        "ko": "쇠라의 '일요일 오후'는 최고의 옷을 차려입은 파리 시민들을 포착하여, 공원을 동시대 스타일의 패션 쇼케이스로 바꾸었다.",
-        "note": "'dressed in their finest'는 '최고의 옷을 차려입은'이야. finest는 fine의 최상급으로, '가장 좋은 옷'을 뜻해."
+        "en": "The Winged Victory of Samothrace inspired the Nike brand — a 2,000-year-old sculpture that still sets the trend for how we imagine triumph and speed.",
+        "ko": "사모트라케의 니케는 나이키 브랜드에 영감을 주었다 — 승리와 속도를 상상하는 방식의 유행을 여전히 이끄는 2천 년 된 조각상이다.",
+        "note": "'sets the trend for ~'는 '~의 유행을 이끌다'라는 표현이야. 'how we imagine ~'은 간접의문문으로 '우리가 ~을 상상하는 방식'이야."
       },
       {
         "source": "세계문화",
@@ -15847,8 +15847,8 @@
         "meaning": "평판, 명성"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "triumph",
+        "meaning": "승리, 대성공"
       },
       {
         "word": "coexist",
@@ -16689,9 +16689,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Piranesi deconstructed the rules of architecture in his Imaginary Prisons, creating impossible spaces where stairs lead nowhere and bridges connect nothing.",
-        "ko": "피라네시는 <상상의 감옥>에서 건축의 규칙을 해체해, 계단이 어디로도 이어지지 않고 다리가 아무것도 연결하지 않는 불가능한 공간을 만들었다.",
-        "note": "'where stairs lead nowhere'에서 lead nowhere는 '어디로도 이어지지 않다'야. nowhere는 부정의 의미를 가진 부사로, not anywhere와 같은 뜻이야."
+        "en": "Rodin's Gates of Hell deconstructed classical sculpture — figures spill beyond their frames, and The Thinker, once part of the gate, became an independent masterpiece.",
+        "ko": "로댕의 지옥문은 고전 조각을 해체했다 — 인물들이 프레임 밖으로 쏟아지고, 한때 문의 일부였던 생각하는 사람은 독립된 걸작이 되었다.",
+        "note": "'spill beyond ~'는 '~을 넘어 쏟아지다'라는 표현이야. 'once part of ~'는 '한때 ~의 일부였던'으로, once가 '한때'를 뜻하는 부사야."
       },
       {
         "source": "세계문화",
@@ -16714,8 +16714,8 @@
         "meaning": "살피다, 검토하다"
       },
       {
-        "word": "nowhere",
-        "meaning": "어디에도 ~않는"
+        "word": "masterpiece",
+        "meaning": "걸작"
       },
       {
         "word": "independent",
@@ -16784,9 +16784,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "Every act of creation is first an act of destruction.",
-        "ko": "모든 창조의 행위는 먼저 파괴의 행위이다.",
-        "note": "피카소의 명언이야. 'every + 단수명사'는 '모든 ~'이라는 뜻으로, each와 마찬가지로 단수 동사와 함께 써."
+        "en": "Sima Qian endured brutal punishment yet refused to abandon his life's work, transforming personal destruction into an immortal record of history.",
+        "ko": "사마천은 잔인한 형벌을 견디면서도 평생의 작업을 포기하지 않았고, 개인적 파멸을 불멸의 역사 기록으로 변모시켰다.",
+        "note": "'endured ~ yet refused to ~'에서 yet은 '그럼에도'라는 뜻의 접속사야. 'transform A into B'는 'A를 B로 변모시키다'라는 패턴이야."
       },
       {
         "source": "명화",
@@ -16812,8 +16812,8 @@
     ],
     "vocab": [
       {
-        "word": "destruction",
-        "meaning": "파괴"
+        "word": "endure",
+        "meaning": "견디다, 인내하다"
       },
       {
         "word": "crumble",
