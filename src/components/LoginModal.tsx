@@ -53,7 +53,7 @@ export default function LoginModal({ open, onClose }: LoginModalProps) {
             DailySeed
           </h2>
           <p className="text-sm text-gray-500 mt-1">
-            로그인하면 Day 1-50의 콘텐츠를 계속 이용할 수 있어요.
+            로그인하면 퀴즈 참여와 학습 진도를 저장할 수 있어요.
           </p>
         </div>
 
@@ -99,7 +99,7 @@ export default function LoginModal({ open, onClose }: LoginModalProps) {
               onClick={onClose}
               className="w-full mt-4 text-center text-xs text-gray-400 hover:text-gray-600 transition-colors"
             >
-              로그인 없이 Day 1-5의 콘텐츠 보기
+              로그인 없이 둘러보기
             </button>
           </>
         )}

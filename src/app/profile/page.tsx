@@ -15,13 +15,6 @@ const SECTIONS = [
   { key: "english", emoji: "📝", href: "/english" },
 ];
 
-const ADMIN_EMAILS = (process.env.NEXT_PUBLIC_ADMIN_EMAILS || "mahn823@empal.com").split(",");
-
-function getMaxDay(role: string): number {
-  if (role === "admin" || role === "premium") return 365;
-  if (role === "free") return 50;
-  return 5;
-}
 
 export default function ProfilePage() {
   const { user, profile, loading, signOut } = useAuthContext();
@@ -30,15 +23,6 @@ export default function ProfilePage() {
   const [missionCache, setMissionCache] = useState<Record<string, boolean>>({});
   const [linkedTeacher, setLinkedTeacher] = useState<{ name: string; email: string } | null>(null);
   const [teacherLoading, setTeacherLoading] = useState(true);
-
-  const role = ADMIN_EMAILS.includes(user?.email || "")
-    ? "admin"
-    : profile?.tier === "premium"
-      ? "premium"
-      : user
-        ? "free"
-        : "guest";
-  const maxDay = getMaxDay(role);
 
   useEffect(() => {
     if (!loading && !user) {
@@ -90,13 +74,13 @@ export default function ProfilePage() {
   // Build mission cache from Context
   useEffect(() => {
     const cache: Record<string, boolean> = {};
-    for (let i = 0; i < themes.length && i < maxDay; i++) {
+    for (let i = 0; i < themes.length; i++) {
       for (const s of SECTIONS) {
         cache[`${s.key}-${i}`] = isMissionDone(s.key, i);
       }
     }
     setMissionCache(cache);
-  }, [maxDay, isMissionDone]);
+  }, [isMissionDone]);
 
   // Compute stats
   const stats = useMemo(() => {
@@ -106,7 +90,7 @@ export default function ProfilePage() {
     const sectionCounts: Record<string, number> = {};
     SECTIONS.forEach(s => { sectionCounts[s.key] = 0; });
 
-    for (let i = 0; i < themes.length && i < maxDay; i++) {
+    for (let i = 0; i < themes.length; i++) {
       let dayDone = 0;
       for (const s of SECTIONS) {
         if (missionCache[`${s.key}-${i}`]) {
@@ -119,18 +103,18 @@ export default function ProfilePage() {
       if (dayDone > 0) activeDays++;
     }
     return { totalDone, perfectDays, activeDays, sectionCounts };
-  }, [missionCache, maxDay]);
+  }, [missionCache]);
 
   // Filter themes by search
   const filteredThemes = useMemo(() => {
     const list: { dayIndex: number; keyword: string; desc: string }[] = [];
-    for (let i = 0; i < Math.min(themes.length, maxDay); i++) {
+    for (let i = 0; i < themes.length; i++) {
       list.push({ dayIndex: i, keyword: themes[i].keyword, desc: themes[i].desc });
     }
     if (!search.trim()) return list;
     const q = search.trim();
     return list.filter(t => t.keyword.includes(q));
-  }, [search, maxDay]);
+  }, [search]);
 
   // if (loading || !user) {
   //   return (
@@ -146,11 +130,9 @@ export default function ProfilePage() {
   };
 
   const handleSectionClick = (dayIndex: number, sectionKey: string) => {
-    // Set the dayIndex in localStorage so the page loads to that day
-    localStorage.setItem("dailyseed-selected-day", String(dayIndex));
     const section = SECTIONS.find(s => s.key === sectionKey);
     if (section) {
-      window.location.href = section.href;
+      window.location.href = `${section.href}/${dayIndex + 1}`;
     }
   };
 
@@ -298,7 +280,6 @@ export default function ProfilePage() {
           )}
           {filteredThemes.map(({ dayIndex, keyword }) => {
             const doneCount = SECTIONS.filter(s => missionCache[`${s.key}-${dayIndex}`]).length;
-            const isLocked = dayIndex >= maxDay;
             const isPerfect = doneCount === 6;
 
             return (
@@ -306,7 +287,7 @@ export default function ProfilePage() {
                 key={dayIndex}
                 className={`flex items-center gap-0.5 px-0.5 py-1 rounded-lg transition-colors ${
                   isPerfect ? "bg-amber-50/60" : "hover:bg-gray-50"
-                } ${isLocked ? "opacity-40" : ""}`}
+                }`}
               >
                 {/* Day number */}
                 <span className="w-[38px] text-[11px] font-mono font-bold text-gray-400 shrink-0 tabular-nums">
@@ -325,8 +306,7 @@ export default function ProfilePage() {
                     return (
                       <button
                         key={s.key}
-                        onClick={() => !isLocked && handleSectionClick(dayIndex, s.key)}
-                        disabled={isLocked}
+                        onClick={() => handleSectionClick(dayIndex, s.key)}
                         className="w-[24px] h-[24px] flex items-center justify-center shrink-0"
                         title={`Day ${dayIndex + 1} ${s.key}`}
                       >
