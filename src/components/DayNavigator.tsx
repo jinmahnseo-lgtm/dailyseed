@@ -4,8 +4,7 @@ import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import themes from "@/data/themes.json";
-
-const STORAGE_KEY = "dailyseed-selected-day";
+import { dispatchDayChange } from "@/contexts/DayContext";
 
 const TOPICS = [
   { key: "news", emoji: "📰", label: "뉴스" },
@@ -29,10 +28,10 @@ export default function DayNavigator({ title, emoji, topicKey, dayNumber }: DayN
   const canPrev = dayNumber > 1;
   const canNext = dayNumber < themes.length;
 
-  // localStorage에 lastVisitedDay 저장
+  // DayContext 동기화 (localStorage + 커스텀 이벤트)
   useEffect(() => {
     try {
-      localStorage.setItem(STORAGE_KEY, String(dayNumber - 1));
+      dispatchDayChange(dayNumber - 1);
     } catch { /* ignore */ }
   }, [dayNumber]);
 

@@ -1,10 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-
-const STORAGE_KEY = "dailyseed-selected-day";
+import { useDayContext } from "@/contexts/DayContext";
 
 const MENUS = [
   { href: "/", key: "home", icon: "🏠", label: "홈" },
@@ -18,31 +16,7 @@ const MENUS = [
 
 export default function BottomNav() {
   const pathname = usePathname();
-  const [dayNumber, setDayNumber] = useState(1);
-
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) setDayNumber(parseInt(saved, 10) + 1);
-    } catch { /* ignore */ }
-
-    // localStorage 변경 감지 (다른 탭 or DayNavigator가 변경 시)
-    const onStorage = (e: StorageEvent) => {
-      if (e.key === STORAGE_KEY && e.newValue) {
-        setDayNumber(parseInt(e.newValue, 10) + 1);
-      }
-    };
-    window.addEventListener("storage", onStorage);
-    return () => window.removeEventListener("storage", onStorage);
-  }, []);
-
-  // pathname에서 현재 Day 추출 (토픽 페이지 방문 시 동기화)
-  useEffect(() => {
-    const match = pathname.match(/^\/(news|classic|art|world|why|english)\/(\d+)$/);
-    if (match) {
-      setDayNumber(parseInt(match[2], 10));
-    }
-  }, [pathname]);
+  const { dayNumber } = useDayContext();
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50">

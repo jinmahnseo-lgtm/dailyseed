@@ -5,6 +5,15 @@ import themes from "@/data/themes.json";
 
 /* ── 설정 ─────────────────────────────────────── */
 const STORAGE_KEY = "dailyseed-selected-day";
+const DAY_CHANGE_EVENT = "dailyseed-day-change";
+
+/* ── 외부에서 Day 변경 시 동기화용 헬퍼 ─────── */
+export function dispatchDayChange(dayIndex: number) {
+  localStorage.setItem(STORAGE_KEY, String(dayIndex));
+  window.dispatchEvent(
+    new CustomEvent(DAY_CHANGE_EVENT, { detail: { dayIndex } })
+  );
+}
 
 /* ── Context 타입 ─────────────────────────────── */
 interface DayContextValue {
@@ -41,6 +50,18 @@ export function DayProvider({ children }: { children: React.ReactNode }) {
       }
     } catch { /* ignore */ }
     setHydrated(true);
+  }, []);
+
+  // 콘텐츠 페이지(DayNavigator)에서 Day 변경 시 동기화
+  useEffect(() => {
+    const onDayChange = (e: Event) => {
+      const idx = (e as CustomEvent).detail?.dayIndex;
+      if (typeof idx === "number" && idx >= 0 && idx < themes.length) {
+        setDayIndex(idx);
+      }
+    };
+    window.addEventListener(DAY_CHANGE_EVENT, onDayChange);
+    return () => window.removeEventListener(DAY_CHANGE_EVENT, onDayChange);
   }, []);
 
   /* 파생값 */
