@@ -106,7 +106,7 @@ export default function Home() {
   const { user, profile, loading: authLoading } = useAuthContext();
   const {
     dayIndex, theme, dayNumber, canPrev, canNext,
-    goPrev, goNext, goPrev7, goNext7, goToday, accessToast,
+    goPrev, goNext, goPrev7, goNext7, goToday,
   } = useDayContext();
   const { isMissionDone } = useMissionContext();
   const [showLogin, setShowLogin] = useState(false);
@@ -221,26 +221,6 @@ export default function Home() {
         >»</button>
       </div>
 
-      {/* Access restriction toast */}
-      {accessToast && (
-        <div className="mb-4 mx-auto max-w-xs animate-in fade-in text-center">
-          <p className="text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded-xl px-4 py-2 font-medium">
-            🔒 {accessToast}
-            {accessToast.includes("365") && (
-              <> (<a href="/notice/3" className="underline font-bold hover:text-amber-800">공지 보기</a>)</>
-            )}
-          </p>
-          {accessToast.includes("로그인하면") && (
-            <button
-              onClick={() => setShowLogin(true)}
-              className="mt-1.5 text-[11px] text-amber-700 font-bold underline hover:text-amber-900 transition-colors"
-            >
-              (로그인으로 이동하기)
-            </button>
-          )}
-        </div>
-      )}
-
       {/* Keyword Card */}
       <section className="mb-5">
         <div className="relative overflow-hidden bg-gradient-to-br from-amber-400 via-orange-400 to-rose-400 rounded-3xl p-7 text-white animated-gradient">
@@ -295,7 +275,7 @@ export default function Home() {
           const isDone = missions[mKey];
 
           return (
-            <a key={menu.href} href={menu.href}>
+            <a key={menu.href} href={`${menu.href}/${dayNumber}`}>
               <div
                 className={`fade-up fade-up-delay-${i + 1} group relative bg-white rounded-2xl p-4 border border-[var(--border-light)] hover:shadow-md transition-all duration-200 active:scale-[0.97] h-full`}
                 style={{ boxShadow: 'var(--shadow-sm)' }}
@@ -345,7 +325,7 @@ export default function Home() {
             onClick={() => setShowLogin(true)}
             className="text-xs text-amber-600 font-semibold hover:underline"
           >
-            비회원은 Day 1-5 체험 가능. 로그인하면 Day 1-50까지! →
+            로그인하면 미션 참여 & 학습 진도를 저장할 수 있어요! →
           </button>
         </div>
       )}
