@@ -1,9 +1,14 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useDayContext } from "@/contexts/DayContext";
 import { useAuthContext } from "@/contexts/AuthContext";
 import LoginModal from "@/components/LoginModal";
+
+// ★ SPA 내비게이션 플래그 — 문제 시 false로 전환하면 즉시 <a> 풀리로드로 복원
+const USE_SPA_NAV = true;
 
 const TOPICS = [
   { key: "news", emoji: "📰", label: "뉴스", href: "/news" },
@@ -27,10 +32,19 @@ export default function DayNavigator({ title, emoji, topicKey }: DayNavigatorPro
   } = useDayContext();
   const { user } = useAuthContext();
   const [showLogin, setShowLogin] = useState(false);
+  const router = USE_SPA_NAV ? useRouter() : null;
 
   const currentTopicIdx = TOPICS.findIndex((t) => t.key === topicKey);
   const prevTopic = currentTopicIdx >= 0 ? TOPICS[(currentTopicIdx - 1 + TOPICS.length) % TOPICS.length] : null;
   const nextTopic = currentTopicIdx >= 0 ? TOPICS[(currentTopicIdx + 1) % TOPICS.length] : null;
+
+  const navigate = (href: string) => {
+    if (USE_SPA_NAV && router) {
+      router.push(href);
+    } else {
+      window.location.href = href;
+    }
+  };
 
   const touchRef = useRef<{ x: number; y: number } | null>(null);
 
@@ -50,9 +64,9 @@ export default function DayNavigator({ title, emoji, topicKey }: DayNavigatorPro
       if (Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy)) return;
 
       if (dx < 0 && nextTopic) {
-        window.location.href = nextTopic.href;
+        navigate(nextTopic.href);
       } else if (dx > 0 && prevTopic) {
-        window.location.href = prevTopic.href;
+        navigate(prevTopic.href);
       }
     };
 
@@ -79,11 +93,19 @@ export default function DayNavigator({ title, emoji, topicKey }: DayNavigatorPro
           </a>
         )}
         {prevTopic ? (
-          <a href={prevTopic.href} className="text-gray-400 hover:text-gray-600 text-3xl font-bold transition-colors mr-2" title={prevTopic.label}>‹</a>
+          USE_SPA_NAV ? (
+            <Link href={prevTopic.href} className="text-gray-400 hover:text-gray-600 text-3xl font-bold transition-colors mr-2" title={prevTopic.label}>‹</Link>
+          ) : (
+            <a href={prevTopic.href} className="text-gray-400 hover:text-gray-600 text-3xl font-bold transition-colors mr-2" title={prevTopic.label}>‹</a>
+          )
         ) : null}
         <h1 className="text-3xl font-bold tracking-tight">{emoji} {title}</h1>
         {nextTopic ? (
-          <a href={nextTopic.href} className="text-gray-400 hover:text-gray-600 text-3xl font-bold transition-colors ml-2" title={nextTopic.label}>›</a>
+          USE_SPA_NAV ? (
+            <Link href={nextTopic.href} className="text-gray-400 hover:text-gray-600 text-3xl font-bold transition-colors ml-2" title={nextTopic.label}>›</Link>
+          ) : (
+            <a href={nextTopic.href} className="text-gray-400 hover:text-gray-600 text-3xl font-bold transition-colors ml-2" title={nextTopic.label}>›</a>
+          )
         ) : null}
       </div>
 

@@ -9039,9 +9039,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Puvis de Chavannes' Poor Fisherman kneels in prayer before an empty sea, embodying the quiet despair of poverty without escape.",
-        "ko": "퓌비 드 샤반의 '가난한 어부'는 텅 빈 바다 앞에서 무릎 꿇고 기도하며, 탈출구 없는 빈곤의 조용한 절망을 구현한다.",
-        "note": "'without escape'는 '탈출구 없이'라는 전치사구야. despair는 '절망'이라는 명사야."
+        "en": "Ceruti's painting of a poor family standing in tattered clothes reveals the quiet dignity that persists even in the depths of poverty.",
+        "ko": "체루티의 누더기 옷을 입고 서 있는 가난한 가족 그림은 극심한 빈곤 속에서도 지속되는 조용한 존엄성을 보여준다.",
+        "note": "'that persists'는 dignity를 수식하는 관계대명사절이야. 'in the depths of ~'는 '~의 깊은 곳에서'라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -9064,8 +9064,8 @@
         "meaning": "이해하다"
       },
       {
-        "word": "embody",
-        "meaning": "구현하다, 구체화하다"
+        "word": "dignity",
+        "meaning": "존엄성"
       },
       {
         "word": "remain",
@@ -16128,9 +16128,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Michelangelo's Last Judgment fills the entire altar wall of the Sistine Chapel, proving through sheer scale that divine justice encompasses all of humanity.",
-        "ko": "미켈란젤로의 '최후의 심판'은 시스티나 성당의 제단 벽 전체를 채우며, 순전한 규모를 통해 신의 정의가 전 인류를 포괄함을 증명한다.",
-        "note": "'sheer scale'은 '순전한 규모'야. sheer는 '순전한/절대적인'이라는 강조 형용사야."
+        "en": "In Wright's painting, a scientist demonstrates that a bird cannot survive in a vacuum, proving through experiment what theory alone could not.",
+        "ko": "라이트의 그림에서 과학자는 새가 진공 속에서 살 수 없음을 보여주며, 이론만으로는 할 수 없는 것을 실험을 통해 증명한다.",
+        "note": "'what theory alone could not'은 '이론만으로는 할 수 없는 것을'이라는 관계대명사절이야. alone은 '만, 홀로'라는 뜻의 부사야."
       },
       {
         "source": "세계문화",
@@ -16153,8 +16153,8 @@
         "meaning": "연옥"
       },
       {
-        "word": "humanity",
-        "meaning": "인류, 인간성"
+        "word": "vacuum",
+        "meaning": "진공"
       },
       {
         "word": "innocent",
@@ -17097,9 +17097,9 @@
       {
         "source": "명화",
         "emoji": "🎨",
-        "en": "Hokusai's The Great Wave shows Mount Fuji in the distance while a massive wave towers over the fishermen's boats.",
-        "ko": "호쿠사이의 가나가와 앞바다의 큰 파도는 거대한 파도가 어부의 배 위로 우뚝 솟는 동안 멀리 후지산을 보여준다.",
-        "note": "'tower over ~'는 '~위로 우뚝 솟다'라는 뜻이야. tower는 '탑'이라는 명사 외에 '높이 솟다'라는 동사로도 쓰여."
+        "en": "Bierstadt's monumental landscape of the Sierra Nevada captures sunlight breaking through the clouds above towering peaks, inviting the viewer's eye to ascend.",
+        "ko": "비어슈타트의 시에라네바다 기념비적 풍경화는 우뚝 솟은 봉우리 위로 구름을 뚫고 쏟아지는 햇빛을 포착하여, 보는 이의 시선이 위로 올라가게 한다.",
+        "note": "'inviting the viewer's eye to ascend'는 분사구문으로 '보는 이의 눈이 올라가도록 이끌며'야. monumental은 '기념비적인, 거대한'이라는 뜻이야."
       },
       {
         "source": "세계문화",
@@ -17122,8 +17122,8 @@
         "meaning": "정복하다"
       },
       {
-        "word": "massive",
-        "meaning": "거대한"
+        "word": "monumental",
+        "meaning": "기념비적인, 거대한"
       },
       {
         "word": "generation",
