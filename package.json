@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "clean": "rimraf out .next",
-    "deploy": "rimraf out .next && next build && wrangler pages deploy out --project-name=dailyseed",
+    "deploy": "rimraf out .next && next build && node -e \"const fs=require('fs'),path=require('path');['news','classic','art','world','why','english'].forEach(t=>{for(let d=1;d<=365;d++){const p=path.join('out',t,String(d));if(fs.existsSync(p))fs.rmSync(p,{recursive:true})}})\" && wrangler pages deploy out --project-name=dailyseed",
     "lint": "eslint src/",
     "generate": "tsx scripts/generate-content.ts"
   },
@@ -14,12 +14,14 @@
     "@anthropic-ai/sdk": "^0.79.0",
     "@supabase/supabase-js": "^2.99.2",
     "autoprefixer": "^10.4.27",
+    "docx": "^9.6.1",
     "dotenv": "^17.3.1",
     "lightningcss": "^1.32.0",
     "next": "16.1.6",
     "postcss": "^8.5.8",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
