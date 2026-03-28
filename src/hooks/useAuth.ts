@@ -171,7 +171,7 @@ export function useAuth() {
     // 1) 먼저 로컬 상태와 localStorage를 즉시 정리 (네트워크 무관)
     localStorage.removeItem("dailyseed-auth");
     localStorage.removeItem(PROFILE_CACHE_KEY);
-    Object.keys(localStorage).filter(k => k.startsWith("sb-")).forEach(k => localStorage.removeItem(k));
+    Object.keys(localStorage).filter(k => k.startsWith("sb-") || k.startsWith("dailyseed-linked-teacher-") || k === "dailyseed-admin-cache").forEach(k => localStorage.removeItem(k));
     setState({ user: null, session: null, profile: null, loading: false });
     // 2) 서버 세션도 해제 (다른 계정 로그인 가능하도록)
     try {

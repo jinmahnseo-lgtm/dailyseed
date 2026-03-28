@@ -92,14 +92,14 @@ const CACHE_KEY = "dailyseed-admin-cache";
 
 function loadCache(): StudentData[] | null {
   try {
-    const raw = sessionStorage.getItem(CACHE_KEY);
+    const raw = localStorage.getItem(CACHE_KEY);
     if (!raw) return null;
     return JSON.parse(raw);
   } catch { return null; }
 }
 
 function saveCache(data: StudentData[]) {
-  try { sessionStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch { /* */ }
+  try { localStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch { /* */ }
 }
 
 function buildStudentData(

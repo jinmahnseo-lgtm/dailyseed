@@ -56,8 +56,23 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
     setSent(isReportSent(dayIndex));
     setName(profile?.display_name || "");
 
-    // Check for linked parent (teacher/admin)
+    // Check for linked parent (teacher/admin) - 캐시 우선 → DB 갱신
     if (user?.id && supabase) {
+      const cacheKey = `dailyseed-linked-teacher-${user.id}`;
+
+      // 1) 캐시에서 즉시 복원
+      try {
+        const cached = localStorage.getItem(cacheKey);
+        if (cached) {
+          const t = JSON.parse(cached);
+          if (t?.email) {
+            setLinkedParentEmail(t.email);
+            setEmail(t.email);
+          }
+        }
+      } catch { /* ignore */ }
+
+      // 2) DB에서 최신 정보 fetch
       (async () => {
         try {
           const { data: links } = await supabase!
@@ -76,10 +91,17 @@ export default function MissionComplete({ dayIndex, keyword, onGoNext }: Props) 
             if (parentProfile?.email) {
               setLinkedParentEmail(parentProfile.email);
               setEmail(parentProfile.email);
+              // 캐시 갱신 (profile 페이지와 동일 키)
+              try {
+                const existing = localStorage.getItem(cacheKey);
+                const cached = existing ? JSON.parse(existing) : {};
+                cached.email = parentProfile.email;
+                localStorage.setItem(cacheKey, JSON.stringify(cached));
+              } catch { /* ignore */ }
             }
           }
         } catch {
-          // ignore
+          // DB 실패 시 캐시된 이메일 유지
         }
       })();
     }

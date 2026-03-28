@@ -33,12 +33,24 @@ export default function ProfilePage() {
     }
   }, [loading, user]);
 
-  // Fetch linked teacher info
+  // Fetch linked teacher info (localStorage 캐시 우선 → DB 백그라운드 갱신)
   useEffect(() => {
     if (loading || !user || !supabase) {
       setTeacherLoading(false);
       return;
     }
+
+    // 1) 캐시된 선생님 정보 즉시 표시
+    const cacheKey = `dailyseed-linked-teacher-${user.id}`;
+    try {
+      const cached = localStorage.getItem(cacheKey);
+      if (cached) {
+        setLinkedTeacher(JSON.parse(cached));
+        setTeacherLoading(false);
+      }
+    } catch { /* ignore */ }
+
+    // 2) DB에서 최신 정보 fetch (백그라운드)
     async function fetchTeacher() {
       try {
         const { data: links } = await supabase!
@@ -48,6 +60,7 @@ export default function ProfilePage() {
 
         if (!links || links.length === 0) {
           setLinkedTeacher(null);
+          localStorage.removeItem(cacheKey);
           setTeacherLoading(false);
           return;
         }
@@ -60,13 +73,15 @@ export default function ProfilePage() {
           .single();
 
         if (parentProfile) {
-          setLinkedTeacher({
+          const teacher = {
             name: parentProfile.display_name || "선생님",
             email: parentProfile.email || "",
-          });
+          };
+          setLinkedTeacher(teacher);
+          localStorage.setItem(cacheKey, JSON.stringify(teacher));
         }
       } catch {
-        /* ignore */
+        // DB 실패 시 캐시된 정보 유지
       } finally {
         setTeacherLoading(false);
       }

@@ -118,10 +118,18 @@ export function MissionProvider({ children }: { children: React.ReactNode }) {
           }
         }
 
-        setMissions(mMap);
+        // DB 데이터 + 아직 upsert 안 된 optimistic 항목을 merge
+        setMissions(prev => {
+          const merged = new Map(mMap);
+          // optimistic update로 추가된 항목 중 DB에 아직 없는 것 보존
+          for (const [k, v] of prev) {
+            if (!merged.has(k)) merged.set(k, v);
+          }
+          saveCache(user.id, merged, rSet);
+          return merged;
+        });
         setReports(rSet);
         fetchedUserId.current = user.id;
-        saveCache(user.id, mMap, rSet);
       } catch {
         // 캐시가 있으면 그걸로 유지, 없으면 빈 상태
       } finally {
