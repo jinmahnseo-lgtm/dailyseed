@@ -5272,9 +5272,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The ancient Library of Alexandria was said to have held hundreds of thousands of scrolls, making it the greatest collection of knowledge in the ancient world.",
-        "ko": "고대 알렉산드리아 도서관은 수십만 개의 두루마리를 보유했다고 전해지며, 고대 세계에서 가장 위대한 지식의 집합체였다.",
-        "note": "'was said to have held'는 '~을 보유했다고 전해진다'라는 수동태 + 완료부정사 구문이야. 과거에 대한 전문을 전달할 때 쓰는 격식체야."
+        "en": "Irish pubs serve as community gathering places where strangers become friends through shared stories and traditional music.",
+        "ko": "아일랜드 펍은 낯선 사람들이 공유된 이야기와 전통 음악을 통해 친구가 되는 공동체 모임 장소 역할을 한다.",
+        "note": "serve as는 '~의 역할을 하다'는 뜻이야. gathering place는 '모임 장소'이고, where 이하는 장소를 설명하는 관계절이야. through는 '~을 통해'라는 의미로 방법을 나타내."
       },
       {
         "source": "왜왜왜",
@@ -5294,8 +5294,8 @@
         "meaning": "삽화"
       },
       {
-        "word": "knowledge",
-        "meaning": "지식"
+        "word": "gather",
+        "meaning": "모이다, 모으다"
       },
       {
         "word": "empathy",
@@ -7312,9 +7312,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Every year, thousands of paper lanterns are released into the sky during the Yi Peng festival in Thailand.",
-        "ko": "매년 태국의 이펭 축제 기간에 수천 개의 종이 등이 하늘로 날려 보내진다.",
-        "note": "'are released into'는 '~으로 방출되다/날려 보내지다'라는 수동태야. release는 '풀어주다, 방출하다'로, 무언가를 자유롭게 보낼 때 써."
+        "en": "Swiss watchmakers achieve atomic-level precision by combining centuries of craftsmanship with modern technology.",
+        "ko": "스위스 시계 제작자들은 수 세기의 장인정신과 현대 기술을 결합하여 원자 수준의 정밀함을 달성한다.",
+        "note": "atomic-level은 '원자 수준의'라는 뜻이야. combine A with B는 'A를 B와 결합하다'라는 표현으로 자주 쓰여."
       },
       {
         "source": "왜왜왜",
@@ -7334,8 +7334,8 @@
         "meaning": "요소"
       },
       {
-        "word": "lantern",
-        "meaning": "등, 초롱"
+        "word": "precision",
+        "meaning": "정밀함, 정확성"
       },
       {
         "word": "observable",
@@ -7414,9 +7414,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Galápagos Islands are home to species found nowhere else on Earth, such as the marine iguana.",
-        "ko": "갈라파고스 제도에는 바다이구아나처럼 지구상 다른 어디에서도 볼 수 없는 종들이 살고 있다.",
-        "note": "'are home to'는 '~의 서식지이다'라는 관용 표현이야. 'found nowhere else'는 '다른 곳에서는 발견되지 않는'이라는 과거분사 수식이야."
+        "en": "The Galápagos Islands serve as a living laboratory where students observe evolution in action.",
+        "ko": "갈라파고스 제도는 학생들이 진화가 실제로 일어나는 것을 관찰하는 살아있는 실험실 역할을 한다.",
+        "note": "serve as는 '~역할을 하다, ~으로 기능하다'라는 뜻이야. in action은 '실제로, 실행 중인'이라는 의미로 쓰여."
       },
       {
         "source": "왜왜왜",
@@ -7436,8 +7436,8 @@
         "meaning": "배경"
       },
       {
-        "word": "species",
-        "meaning": "종(생물)"
+        "word": "observe",
+        "meaning": "관찰하다, 지켜보다"
       },
       {
         "word": "reproduce",
@@ -7822,9 +7822,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Aboriginal Australians believe that the world was shaped during the Dreamtime, a sacred era when ancestral spirits roamed the land.",
-        "ko": "호주 원주민들은 세상이 조상의 영혼이 땅을 떠돌던 신성한 시대인 드림타임 동안 형성되었다고 믿는다.",
-        "note": "'was shaped during'은 '~ 동안 형성되었다'라는 수동태야. when 이하는 관계부사절로 Dreamtime을 구체적으로 설명해."
+        "en": "Eucalyptus forests in Australia regenerate quickly after bushfires, with new shoots emerging from seemingly dead tree trunks.",
+        "ko": "호주의 유칼립투스 숲은 산불 후 빠르게 재생되며, 죽은 것처럼 보이는 나무줄기에서 새싹이 돋아난다.",
+        "note": "regenerate는 '재생되다'라는 뜻의 동사야. bushfire는 호주에서 쓰는 '산불'이라는 단어고, shoot는 '새싹'이야. emerge는 '나타나다, 돋아나다'라는 뜻이고, seemingly은 '겉보기에, ~처럼 보이는'이라는 부사야."
       },
       {
         "source": "왜왜왜",
@@ -7844,8 +7844,8 @@
         "meaning": "잠자는"
       },
       {
-        "word": "ancestral",
-        "meaning": "조상의"
+        "word": "regenerate",
+        "meaning": "재생되다"
       },
       {
         "word": "vivid",
@@ -8026,9 +8026,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Millions of Muslims make a pilgrimage to Mecca at least once in their lifetime, fulfilling one of the five pillars of Islam.",
-        "ko": "수백만 무슬림이 일생에 최소 한 번 메카로 순례를 떠나며, 이슬람의 다섯 기둥 중 하나를 이행한다.",
-        "note": "'make a pilgrimage to'는 '~로 순례하다'라는 관용 표현이야. 'at least once in their lifetime'은 '일생에 최소 한 번'으로, 빈도를 나타내."
+        "en": "Israeli kibbutzim are collective communities where members share work, resources, and profits equally.",
+        "ko": "이스라엘의 키부츠는 구성원들이 일과 자원, 수익을 평등하게 공유하는 집단 공동체다.",
+        "note": "'collective'는 '집단의, 공동의'라는 뜻이야. 'share equally'는 '평등하게 나누다'는 표현이고."
       },
       {
         "source": "왜왜왜",
@@ -8048,8 +8048,8 @@
         "meaning": "캔버스"
       },
       {
-        "word": "pilgrimage",
-        "meaning": "순례"
+        "word": "collective",
+        "meaning": "집단의, 공동의"
       },
       {
         "word": "wire",
@@ -8689,9 +8689,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Throughout history, people have migrated in search of better opportunities and safer lives.",
-        "ko": "역사를 통틀어, 사람들은 더 나은 기회와 안전한 삶을 찾아 이주해 왔다.",
-        "note": "'in search of ~'는 '~을 찾아서'라는 뜻이야. 'looking for'보다 격식체이고 문학적인 표현이야."
+        "en": "Turkish hammams serve as social gathering places where people relax, chat, and strengthen community bonds.",
+        "ko": "터키의 하맘은 사람들이 휴식하고 대화하며 공동체 유대를 강화하는 사교 모임 장소 역할을 한다.",
+        "note": "'serve as'는 '~의 역할을 하다'라는 뜻이야. 'strengthen bonds'는 '유대를 강화하다'는 표현이고."
       },
       {
         "source": "왜왜왜",
@@ -8711,8 +8711,8 @@
         "meaning": "고국"
       },
       {
-        "word": "opportunity",
-        "meaning": "기회"
+        "word": "bond",
+        "meaning": "유대, 결속"
       },
       {
         "word": "navigate",
@@ -9454,9 +9454,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "During the Islamic Golden Age, scholars in Baghdad built hospitals that offered free treatment to all patients regardless of their background.",
-        "ko": "이슬람 황금기에 바그다드의 학자들은 배경에 관계없이 모든 환자에게 무료 치료를 제공하는 병원을 세웠다.",
-        "note": "'regardless of ~'는 '~에 관계없이'라는 뜻이야. 'regardless of age, gender, or race'처럼 차별 없음을 표현할 때 자주 써."
+        "en": "IKEA's democratic design philosophy makes beautiful and functional furniture accessible to people from all economic backgrounds.",
+        "ko": "이케아의 민주적 디자인 철학은 아름답고 기능적인 가구를 모든 경제적 배경의 사람들이 접근할 수 있게 만든다.",
+        "note": "democratic design은 '민주적 디자인'이라는 이케아의 핵심 철학이야. accessible은 '접근 가능한'이라는 뜻이고, make A accessible to B는 'A를 B가 접근할 수 있게 하다'는 구조야."
       },
       {
         "source": "왜왜왜",
@@ -9476,8 +9476,8 @@
         "meaning": "자비"
       },
       {
-        "word": "background",
-        "meaning": "배경"
+        "word": "accessible",
+        "meaning": "접근 가능한"
       },
       {
         "word": "resistant",
@@ -9760,9 +9760,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Bhutan measures national success not by GDP but by Gross National Happiness, a concept that values well-being over economic growth.",
-        "ko": "부탄은 국가 성공을 GDP가 아닌 국민총행복으로 측정하는데, 이는 경제 성장보다 웰빙을 가치 있게 여기는 개념이다.",
-        "note": "'not by A but by B'는 'A가 아니라 B로'라는 대조 표현이야. 'value A over B'는 'B보다 A를 더 가치 있게 여기다'라는 뜻이야."
+        "en": "Bhutanese archers compete in traditional tournaments while celebrating their national philosophy of happiness.",
+        "ko": "부탄의 궁수들은 국가의 행복 철학을 기념하며 전통 토너먼트에서 경쟁한다.",
+        "note": "while + -ing는 '~하는 동안'을 나타내는 시간 표현이야. 'compete in'은 '~에 참가하다'라는 뜻으로 스포츠나 경쟁에서 자주 쓰여."
       },
       {
         "source": "왜왜왜",
@@ -9782,8 +9782,8 @@
         "meaning": "수련, 훈련"
       },
       {
-        "word": "measure",
-        "meaning": "측정하다"
+        "word": "philosophy",
+        "meaning": "철학"
       },
       {
         "word": "pathway",
@@ -9913,9 +9913,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Mexico, the Day of the Dead is not a time of mourning but a joyful celebration where families honor and remember their departed loved ones.",
-        "ko": "멕시코에서 죽은 자의 날은 애도의 시간이 아니라, 가족들이 떠난 사랑하는 이들을 기리고 기억하는 즐거운 축제이다.",
-        "note": "'not A but B'는 'A가 아니라 B'라는 대조 구문이야. 'departed'는 '떠난, 죽은'이라는 완곡한 표현으로, dead의 정중한 대체어야."
+        "en": "Many Mexican families cross borders seeking better opportunities while carrying dreams of reunion.",
+        "ko": "많은 멕시코 가족들이 재회의 꿈을 품고 더 나은 기회를 찾아 국경을 넘는다.",
+        "note": "'cross borders'는 '국경을 넘다'는 뜻이야. 'while + -ing'는 동시에 일어나는 행동을 나타내고, 'seek'은 '찾다, 구하다'라는 뜻이야."
       },
       {
         "source": "왜왜왜",
@@ -9935,8 +9935,8 @@
         "meaning": "표류하다"
       },
       {
-        "word": "celebration",
-        "meaning": "축하, 기념행사"
+        "word": "reunion",
+        "meaning": "재회, 재결합"
       },
       {
         "word": "sunlight",
@@ -9964,9 +9964,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In India, the festival of Holi fills the streets with colored powder as people celebrate the arrival of spring with laughter and dance.",
-        "ko": "인도에서 홀리 축제는 사람들이 웃음과 춤으로 봄의 도래를 축하하며 거리를 색깔 가루로 채운다.",
-        "note": "'fill A with B'는 'A를 B로 채우다'라는 뜻이야. 'the arrival of ~'는 '~의 도래, 도착'으로, 계절이나 시대의 시작을 표현할 때 써."
+        "en": "Portuguese fado music expresses the soul's deepest emotions through haunting melodies of joy and sorrow.",
+        "ko": "포르투갈의 파두 음악은 기쁨과 슬픔의 잊혀지지 않는 선율을 통해 영혼의 가장 깊은 감정을 표현한다.",
+        "note": "haunting은 '잊혀지지 않는, 마음을 사로잡는'이라는 뜻이야. deepest는 deep의 최상급으로 '가장 깊은'이라는 의미야."
       },
       {
         "source": "왜왜왜",
@@ -9986,8 +9986,8 @@
         "meaning": "기쁨, 즐거움"
       },
       {
-        "word": "festival",
-        "meaning": "축제"
+        "word": "haunting",
+        "meaning": "잊혀지지 않는, 마음을 사로잡는"
       },
       {
         "word": "wavelength",
@@ -10168,9 +10168,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Ubuntu philosophy of southern Africa teaches that a person's worth comes from their connection to the community, not from individual achievement alone.",
-        "ko": "남아프리카의 우분투 철학은 사람의 가치가 개인적 성취만이 아니라 공동체와의 연결에서 온다고 가르친다.",
-        "note": "'come from ~'은 '~에서 오다, 비롯되다'라는 뜻이야. 'not from A alone'에서 alone은 '만'이라는 뜻으로, 'only'와 비슷하게 쓰여."
+        "en": "Lumbini, Buddha's birthplace in Nepal, remains a source of pride and peace for millions worldwide.",
+        "ko": "네팔에 있는 부처의 탄생지 룸비니는 전 세계 수백만 명에게 자부심과 평화의 원천으로 남아있다.",
+        "note": "'remain'은 '~한 상태로 남다'라는 뜻이야. 'source of'는 '~의 원천'이라는 표현으로 자주 사용돼."
       },
       {
         "source": "왜왜왜",
@@ -10190,8 +10190,8 @@
         "meaning": "초상화"
       },
       {
-        "word": "philosophy",
-        "meaning": "철학"
+        "word": "birthplace",
+        "meaning": "출생지"
       },
       {
         "word": "criticism",
@@ -10219,9 +10219,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Silicon Valley thrives on the belief that failure is not the opposite of success but a necessary step toward it, motivating entrepreneurs to try again after every setback.",
-        "ko": "실리콘밸리는 실패가 성공의 반대가 아니라 성공을 향한 필수 단계라는 믿음 위에서 번성하며, 기업가들이 매 좌절 후 다시 도전하도록 동기를 부여한다.",
-        "note": "'not the opposite of ~ but ~'는 'not A but B' 대조 구문이야. 'motivating ~ to ~'는 '~에게 ~하도록 동기를 부여하며'라는 분사구문이야."
+        "en": "NASA's Apollo missions proved that humanity could achieve impossible dreams through dedication and teamwork.",
+        "ko": "NASA의 아폴로 미션은 인류가 헌신과 팀워크를 통해 불가능한 꿈을 이룰 수 있다는 것을 증명했다.",
+        "note": "'prove that + 주어 + 동사'는 '~라는 것을 증명하다'라는 뜻이야. could는 can의 과거형으로 '~할 수 있었다'는 의미로 사용돼."
       },
       {
         "source": "왜왜왜",
@@ -10241,8 +10241,8 @@
         "meaning": "드러내다"
       },
       {
-        "word": "entrepreneur",
-        "meaning": "기업가"
+        "word": "dedication",
+        "meaning": "헌신, 전념"
       },
       {
         "word": "expel",
@@ -10270,9 +10270,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The ancient Spartans trained their children from the age of seven, believing that willpower was more valuable than any weapon.",
-        "ko": "고대 스파르타인들은 일곱 살부터 아이들을 훈련시켰는데, 의지력이 어떤 무기보다 더 가치 있다고 믿었다.",
-        "note": "'believing that ~'은 분사구문이야. 'because they believed that ~'을 줄인 거야. 주어가 같을 때 접속사와 주어를 생략하고 -ing를 쓸 수 있어."
+        "en": "Georgian polyphonic singing has survived for a thousand years through the strong will of its people.",
+        "ko": "조지아 폴리포니 합창은 사람들의 강한 의지로 천 년 동안 살아남았다.",
+        "note": "'has survived'는 현재완료형으로 과거부터 지금까지 계속된 상태를 나타내. 'through'는 '~를 통해'라는 뜻의 전치사야."
       },
       {
         "source": "왜왜왜",
@@ -10292,8 +10292,8 @@
         "meaning": "패배시키다"
       },
       {
-        "word": "weapon",
-        "meaning": "무기"
+        "word": "survive",
+        "meaning": "살아남다"
       },
       {
         "word": "carbon",
@@ -10729,9 +10729,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In many Indigenous cultures, elders share stories of past mistakes not to dwell on regret but to guide the younger generation.",
-        "ko": "많은 원주민 문화에서 장로들은 후회에 머무르려고가 아니라 젊은 세대를 인도하기 위해 과거의 실수 이야기를 나눈다.",
-        "note": "'not to A but to B'는 'A하려는 게 아니라 B하려고'야. to부정사의 목적을 부정하고 진짜 목적을 대비시키는 패턴이야."
+        "en": "Armenians have been making lavash bread using traditional fermentation methods for centuries without any regrets.",
+        "ko": "아르메니아 사람들은 수세기 동안 전통적인 발효 방법을 사용하여 라바시 빵을 만들어왔으며 전혀 후회하지 않는다.",
+        "note": "현재완료진행형 'have been making'으로 과거부터 현재까지 계속되는 행동을 표현했어. 'without any regrets'는 부사구로 '전혀 후회 없이'라는 의미야."
       },
       {
         "source": "왜왜왜",
@@ -10751,8 +10751,8 @@
         "meaning": "포옹하다"
       },
       {
-        "word": "dwell",
-        "meaning": "머무르다, 곱씹다"
+        "word": "fermentation",
+        "meaning": "발효"
       },
       {
         "word": "regret",
@@ -11698,9 +11698,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Mexico's Day of the Dead is not a mournful event but a joyful celebration in which families welcome the spirits of their loved ones back with music, food, and flowers.",
-        "ko": "멕시코의 죽은 자의 날은 슬픈 행사가 아니라, 가족들이 음악, 음식, 꽃으로 사랑하는 이들의 영혼을 환영하는 즐거운 축제다.",
-        "note": "'not A but B'로 편견을 깨는 구조야. 'in which'는 전치사 + 관계대명사로 '그 안에서'야. 축제의 내용을 설명해줘."
+        "en": "Mexican lucha libre wrestlers wear colorful masks that transform them into legendary heroes.",
+        "ko": "멕시코의 루차 리브레 선수들은 자신을 전설적인 영웅으로 변신시키는 화려한 마스크를 쓴다.",
+        "note": "'transform A into B'는 'A를 B로 변화시키다'라는 뜻이야. 'that'은 관계대명사로 앞의 명사 'masks'를 꾸며주고 있어."
       },
       {
         "source": "왜왜왜",
@@ -11720,8 +11720,8 @@
         "meaning": "장식적인"
       },
       {
-        "word": "spirit",
-        "meaning": "영혼, 정신"
+        "word": "transform",
+        "meaning": "변화시키다"
       },
       {
         "word": "wavelength",
@@ -13687,9 +13687,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In many African traditions, a newborn is introduced to the community through naming ceremonies held on the seventh day.",
-        "ko": "많은 아프리카 전통에서, 신생아는 일곱째 날에 열리는 이름 짓기 의식을 통해 공동체에 소개된다.",
-        "note": "'held on the seventh day'는 과거분사구로 앞의 ceremonies를 수식해. '일곱째 날에 열리는 의식'이라는 뜻이야."
+        "en": "Deep in Suriname's Amazon rainforest, countless species are born every day in nature's nursery.",
+        "ko": "수리남 아마존 열대우림 깊숙한 곳에서, 자연의 보육원에서 수많은 종들이 매일 태어나고 있다.",
+        "note": "Deep in은 '~의 깊숙한 곳에서'라는 뜻으로 장소를 강조할 때 써. countless는 '셀 수 없는, 무수한'이라는 형용사야. nature's nursery는 자연을 보육원에 비유한 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -13709,8 +13709,8 @@
         "meaning": "신생아"
       },
       {
-        "word": "ceremony",
-        "meaning": "의식"
+        "word": "countless",
+        "meaning": "셀 수 없는, 무수한"
       },
       {
         "word": "fuse",
@@ -14044,9 +14044,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Nelson Mandela spent twenty-seven years in prison, yet he emerged without bitterness and led his country toward reconciliation.",
-        "ko": "넬슨 만델라는 27년간 감옥에서 보냈지만, 원한 없이 나와 나라를 화해로 이끌었다.",
-        "note": "'without bitterness'에서 without + 명사는 '~ 없이'라는 뜻이야. 전치사 without 뒤에는 명사 또는 동명사가 와."
+        "en": "Montenegro's Bay of Kotor shows how the sea can overcome mountains to create breathtaking beauty.",
+        "ko": "몬테네그로의 코토르 만은 바다가 어떻게 산을 극복해 숨막히는 아름다움을 만들 수 있는지를 보여준다.",
+        "note": "how는 '어떻게'라는 의문사로 간접의문문을 만들어. overcome은 '극복하다'라는 뜻이고, breathtaking은 '숨막히는, 아주 인상적인'이라는 형용사야."
       },
       {
         "source": "왜왜왜",
@@ -14066,8 +14066,8 @@
         "meaning": "신화"
       },
       {
-        "word": "reconciliation",
-        "meaning": "화해"
+        "word": "breathtaking",
+        "meaning": "숨막히는, 장관인"
       },
       {
         "word": "eruption",
@@ -14095,9 +14095,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Ubuntu, an African philosophy, teaches that a person is a person through other people — we exist because of each other.",
-        "ko": "아프리카 철학인 우분투는 사람은 다른 사람들을 통해 비로소 사람이 된다고 가르친다 — 우리는 서로 때문에 존재한다.",
-        "note": "'a person is a person through other people'에서 through는 '~을 통해'라는 수단의 전치사야. '다른 사람들을 통해서야 비로소'라는 뜻이야."
+        "en": "Ancient dzongs in Bhutan serve as both religious monasteries and government administrative centers.",
+        "ko": "부탄의 고대 조는 종교적 수도원과 정부 행정 센터의 역할을 모두 한다.",
+        "note": "'serve as'는 '~의 역할을 하다'라는 뜻이야. 'both A and B'는 'A와 B 둘 다'를 나타내는 중요한 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -14117,8 +14117,8 @@
         "meaning": "단순함"
       },
       {
-        "word": "philosophy",
-        "meaning": "철학"
+        "word": "monastery",
+        "meaning": "수도원"
       },
       {
         "word": "stable",
@@ -14146,9 +14146,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Estonia offers free online courses to anyone in the world through its e-Residency program, believing that learning should have no borders.",
-        "ko": "에스토니아는 전자 시민권 프로그램을 통해 전 세계 누구에게나 무료 온라인 강좌를 제공하며, 배움에는 국경이 없어야 한다고 믿는다.",
-        "note": "'offers ~ to anyone'은 '누구에게나 ~을 제공하다'라는 4형식 구문이야. 'believing that ~'은 '~라고 믿으며'라는 분사구문이야."
+        "en": "Estonian people sang their way to freedom during the peaceful Singing Revolution in the 1980s.",
+        "ko": "에스토니아 사람들은 1980년대 평화로운 노래 혁명 동안 노래로 자유를 쟁취했다.",
+        "note": "'sang their way to'는 '~을 통해 성취하다'라는 의미야. 'peaceful'은 평화로운이라는 뜻으로, 폭력 없이 이루어진 혁명의 특징을 강조해."
       },
       {
         "source": "왜왜왜",
@@ -14168,8 +14168,8 @@
         "meaning": "포착하다"
       },
       {
-        "word": "border",
-        "meaning": "국경, 경계"
+        "word": "revolution",
+        "meaning": "혁명"
       },
       {
         "word": "reshape",
@@ -14401,9 +14401,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In ancient China, breaking a sworn oath was considered the gravest dishonor, bringing shame not only to the individual but to the entire family.",
-        "ko": "고대 중국에서 맹세를 어기는 것은 가장 큰 불명예로 여겨졌으며, 개인뿐 아니라 가문 전체에 치욕을 가져왔다.",
-        "note": "'not only to A but to B'는 'A뿐만 아니라 B에게도'라는 뜻이야. not only ~ but (also) ~ 병렬 구조야."
+        "en": "Trinidad's Pitch Lake defies expectations by being a natural asphalt lake instead of water.",
+        "ko": "트리니다드의 피치 레이크는 물 대신 천연 아스팔트 호수로 존재해 기대를 뒤엎는다.",
+        "note": "'defy expectations'는 '기대를 뒤엎다'는 뜻이야. 'instead of'는 '~ 대신에'라는 표현이고."
       },
       {
         "source": "왜왜왜",
@@ -14423,8 +14423,8 @@
         "meaning": "배신"
       },
       {
-        "word": "dishonor",
-        "meaning": "불명예"
+        "word": "defy",
+        "meaning": "거스르다, 뒤엎다"
       },
       {
         "word": "intensely",
@@ -14503,9 +14503,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Underground Railroad was a secret network that helped enslaved people escape to freedom in the northern United States and Canada.",
-        "ko": "지하철도는 노예들이 미국 북부와 캐나다로 탈출하여 자유를 찾도록 도운 비밀 네트워크였다.",
-        "note": "'that helped enslaved people escape'에서 help + 목적어 + 동사원형은 '~가 …하도록 돕다'야. help 뒤에는 to부정사나 동사원형 모두 가능해."
+        "en": "Ghana's cocoa farmers remain trapped in poverty despite producing the main ingredient for expensive chocolate.",
+        "ko": "가나의 코코아 농부들은 비싼 초콜릿의 주요 원료를 생산함에도 불구하고 빈곤에서 벗어나지 못하고 있다.",
+        "note": "'remain trapped'는 '~에 갇힌 채로 남아있다'는 의미야. 'despite ~ing'는 '~에도 불구하고'라는 양보 표현이고, 동명사 producing이 따라와."
       },
       {
         "source": "왜왜왜",
@@ -14525,8 +14525,8 @@
         "meaning": "포착하다"
       },
       {
-        "word": "enslave",
-        "meaning": "노예로 만들다"
+        "word": "ingredient",
+        "meaning": "원료, 재료"
       },
       {
         "word": "restraint",
@@ -14656,9 +14656,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Cambodia's Angkor Wat, hidden by jungle for centuries, was rediscovered in the 1860s — a magnificent stone memory of the Khmer Empire that time could not erase.",
-        "ko": "수 세기 동안 정글에 숨겨져 있던 캄보디아의 앙코르 와트는 1860년대에 재발견되었으며, 시간도 지울 수 없는 크메르 제국의 장엄한 돌의 기억이다.",
-        "note": "'hidden by jungle for centuries'는 과거분사의 수동 표현으로 '수 세기 동안 정글에 숨겨진'이라는 뜻이야. 'that time could not erase'는 관계대명사절이야."
+        "en": "Apsara dancers in Cambodia gracefully tell ancient stories through their elegant hand movements and expressive gestures.",
+        "ko": "캄보디아의 압사라 무용수들은 우아한 손동작과 표현력 있는 몸짓을 통해 고대 이야기를 우아하게 전달한다.",
+        "note": "gracefully는 '우아하게'라는 뜻의 부사야. through는 '~을 통해'라는 뜻으로 방법을 나타낼 때 사용해. expressive는 '표현력 있는'이라는 형용사로 감정이나 의미를 잘 드러내는 것을 말해."
       },
       {
         "source": "왜왜왜",
@@ -14678,8 +14678,8 @@
         "meaning": "귀족"
       },
       {
-        "word": "rediscover",
-        "meaning": "재발견하다"
+        "word": "graceful",
+        "meaning": "우아한"
       },
       {
         "word": "volatile",
@@ -14707,9 +14707,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Portugal, the feeling of saudade describes a deep longing for something absent — a person, a place, or a time that may never return.",
-        "ko": "포르투갈에서 '사우다지'라는 감정은 부재한 것에 대한 깊은 그리움을 표현한다 — 다시는 돌아오지 않을 사람, 장소, 또는 시간.",
-        "note": "'that may never return'에서 may는 '~일 수도 있다'라는 가능성을 나타내. may never = '결코 ~하지 않을 수도 있다'."
+        "en": "Argentine asado barbecue fills the air with smoky aromas that remind families of precious memories shared together.",
+        "ko": "아르헨티나의 아사도 바베큐는 가족들에게 함께 나눈 소중한 추억을 떠올리게 하는 연기 냄새로 공기를 가득 채운다.",
+        "note": "'fill A with B'는 'A를 B로 채우다'라는 표현이야. aroma는 '향기, 냄새'이고, 'remind A of B'는 'A에게 B를 떠올리게 하다'야."
       },
       {
         "source": "왜왜왜",
@@ -14729,8 +14729,8 @@
         "meaning": "그리움"
       },
       {
-        "word": "absent",
-        "meaning": "부재하는"
+        "word": "aroma",
+        "meaning": "향기, 냄새"
       },
       {
         "word": "evaporate",
@@ -14809,9 +14809,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The ancient city of Petra was carved into rose-red cliffs and preserved by the dry desert climate for centuries.",
-        "ko": "고대 도시 페트라는 장밋빛 절벽에 새겨졌고, 건조한 사막 기후 덕에 수 세기 동안 보존되었다.",
-        "note": "'was carved into'는 '~에 새겨졌다'라는 수동태야. 'for centuries'는 '수 세기 동안'으로 긴 기간을 나타내는 표현이야."
+        "en": "Kintsugi artists repair broken pottery with golden lacquer, creating beautiful scars that celebrate the object's imperfect history.",
+        "ko": "킨츠기 장인들은 깨진 도자기를 금 옻칠로 수리하여 물건의 불완전한 역사를 기념하는 아름다운 흉터를 만든다.",
+        "note": "repair는 '수리하다'라는 동사야. lacquer는 '옻칠'이라는 뜻의 명사고, scar는 '흉터'야. celebrate는 여기서 '기념하다'는 뜻으로 쓰였어. imperfect는 '불완전한'이라는 형용사야."
       },
       {
         "source": "왜왜왜",
@@ -14831,8 +14831,8 @@
         "meaning": "보존하다"
       },
       {
-        "word": "cliff",
-        "meaning": "절벽"
+        "word": "repair",
+        "meaning": "수리하다"
       },
       {
         "word": "resin",
@@ -15217,9 +15217,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In the souks of Marrakech, every sense is overwhelmed — the scent of spices, the sound of copper hammering, the sight of colorful textiles, and the taste of fresh mint tea.",
-        "ko": "마라케시 시장에서는 모든 감각이 압도당한다 — 향신료 냄새, 구리 두드리는 소리, 다채로운 직물의 광경, 그리고 신선한 민트차의 맛.",
-        "note": "'every sense is overwhelmed'는 수동태로 '모든 감각이 압도당하다'라는 뜻이야. 뒤에 이어지는 명사구들이 병렬로 오감을 나열해."
+        "en": "Berber nomads navigate the vast Sahara Desert using stars, wind patterns, and their remarkable sense of direction.",
+        "ko": "베르베르 유목민들은 별, 바람 패턴, 그리고 그들의 뛰어난 방향감각을 이용해 광활한 사하라 사막을 항해한다.",
+        "note": "navigate는 '항해하다, 길을 찾다'는 뜻이야. using 다음에 나오는 명사들은 모두 항해에 사용되는 도구들을 나열한 거고, remarkable은 '놀라운, 뛰어난'이라는 의미로 sense of direction을 꾸며주고 있어."
       },
       {
         "source": "왜왜왜",
@@ -15239,8 +15239,8 @@
         "meaning": "묘사하다, 그리다"
       },
       {
-        "word": "overwhelm",
-        "meaning": "압도하다"
+        "word": "navigate",
+        "meaning": "항해하다, 길을 찾다"
       },
       {
         "word": "capsaicin",
@@ -15268,9 +15268,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In many Middle Eastern cultures, greeting someone with a handshake while placing the other hand over the heart shows deep respect through touch.",
-        "ko": "많은 중동 문화에서, 한 손으로 악수하면서 다른 손을 가슴에 얹는 인사는 촉감을 통한 깊은 존경을 나타낸다.",
-        "note": "'while placing ~'에서 while + 현재분사는 '~하면서 동시에'라는 동시 동작을 나타내. 'through touch'는 수단을 나타내는 전치사 through야."
+        "en": "Suzani embroidery tells stories through intricate patterns that women create with delicate silk threads and skilled hands.",
+        "ko": "수자니 자수는 여성들이 섬세한 실크 실과 숙련된 손으로 만드는 복잡한 문양을 통해 이야기를 전한다.",
+        "note": "intricate는 '복잡한, 정교한'이라는 뜻이야. that 이하는 patterns를 설명하는 관계절이고, delicate는 '섬세한', skilled는 '숙련된'이라는 의미로 각각 silk threads와 hands를 꾸며주고 있어."
       },
       {
         "source": "왜왜왜",
@@ -15290,8 +15290,8 @@
         "meaning": "탐험하다"
       },
       {
-        "word": "handshake",
-        "meaning": "악수"
+        "word": "intricate",
+        "meaning": "복잡한, 정교한"
       },
       {
         "word": "sensitive",
@@ -15421,9 +15421,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The terraced rice fields of Bali create a breathtaking landscape that reflects centuries of careful water management by local farmers.",
-        "ko": "발리의 계단식 논은 지역 농부들의 수 세기에 걸친 세심한 물 관리를 반영하는 숨 막히는 풍경을 만들어낸다.",
-        "note": "'breathtaking'은 '숨이 멎을 정도로 아름다운'이라는 형용사야. 'that reflects ~'는 landscape를 꾸미는 관계대명사절이야."
+        "en": "Papua New Guinea's Sing-Sing festival participants decorate themselves with feathers and paint to celebrate their tribal heritage.",
+        "ko": "파푸아뉴기니의 싱싱 축제 참가자들은 자신들의 부족 유산을 기념하기 위해 깃털과 물감으로 몸을 꾸민다.",
+        "note": "'decorate oneself with'는 '~로 자신을 꾸미다'라는 표현이야. heritage는 '유산, 전통'이라는 뜻이고, participant는 '참가자'야."
       },
       {
         "source": "왜왜왜",
@@ -15443,8 +15443,8 @@
         "meaning": "헌신"
       },
       {
-        "word": "terrace",
-        "meaning": "계단식 밭"
+        "word": "heritage",
+        "meaning": "유산, 전통"
       },
       {
         "word": "canyon",
@@ -15472,9 +15472,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "West African drumming traditions use complex polyrhythms where multiple patterns overlap to create a single unified beat.",
-        "ko": "서아프리카 드럼 전통은 여러 패턴이 겹쳐 하나의 통일된 박자를 만드는 복잡한 폴리리듬을 사용한다.",
-        "note": "'where multiple patterns overlap'에서 where는 관계부사로 polyrhythms를 설명해. 'to create ~'는 결과를 나타내는 to부정사야."
+        "en": "Canadian Inuit people adapt their daily activities to follow the natural rhythms of Arctic seasons.",
+        "ko": "캐나다 이누이트족은 북극 계절의 자연스러운 리듬에 맞춰 일상 활동을 조절한다.",
+        "note": "'adapt to'는 '~에 맞춰 조절하다'는 뜻이야. 'follow the rhythm'은 '리듬을 따르다'는 표현이고."
       },
       {
         "source": "왜왜왜",
@@ -15494,8 +15494,8 @@
         "meaning": "포착하다"
       },
       {
-        "word": "tradition",
-        "meaning": "전통"
+        "word": "rhythm",
+        "meaning": "리듬, 주기"
       },
       {
         "word": "friction",
@@ -15574,9 +15574,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "When European colonizers arrived in the Americas, the collision of cultures forever changed both the Old World and the New.",
-        "ko": "유럽 식민지 개척자들이 아메리카에 도착했을 때, 문화의 충돌은 구세계와 신세계 모두를 영원히 바꿨다.",
-        "note": "'the collision of cultures'에서 collision은 '충돌'이야. 'both A and B'는 'A와 B 모두'라는 상관접속사야."
+        "en": "Bhutan introduced television in 1999, carefully balancing modern technology with ancient cultural traditions.",
+        "ko": "부탄은 1999년에 텔레비전을 도입하며 현대 기술과 고대 문화 전통의 균형을 신중히 맞췄다.",
+        "note": "'introduce'는 '도입하다, 소개하다'는 뜻이야. 'balance A with B'는 'A와 B의 균형을 맞추다'라는 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -15596,8 +15596,8 @@
         "meaning": "움켜쥐다"
       },
       {
-        "word": "colonizer",
-        "meaning": "식민지 개척자"
+        "word": "balance",
+        "meaning": "균형을 맞추다"
       },
       {
         "word": "tectonic",
@@ -15982,9 +15982,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Shakers, an American religious community, believed that beauty lies in simplicity, creating furniture with clean lines and no decoration.",
-        "ko": "미국의 종교 공동체인 셰이커 교도들은 아름다움이 단순함에 있다고 믿으며, 깔끔한 선과 장식 없는 가구를 만들었다.",
-        "note": "'beauty lies in simplicity'에서 lie in은 '~에 있다/존재하다'라는 뜻이야. 'with clean lines and no decoration'은 with + 명사로 특징을 설명해."
+        "en": "British afternoon tea transforms a simple cup of tea into a cherished social ritual of connection.",
+        "ko": "영국의 애프터눈 티는 단순한 차 한 잔을 소중한 사회적 연결의 의식으로 변화시킨다.",
+        "note": "transform A into B는 'A를 B로 변화시키다'라는 뜻이야. cherished는 '소중한, 아끼는'이라는 의미의 형용사야."
       },
       {
         "source": "왜왜왜",
@@ -16004,8 +16004,8 @@
         "meaning": "깊은, 심오한"
       },
       {
-        "word": "decoration",
-        "meaning": "장식"
+        "word": "cherished",
+        "meaning": "소중한, 아끼는"
       },
       {
         "word": "equation",
@@ -16594,9 +16594,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Luxembourg is smaller than Rhode Island, yet its GDP per capita is the highest in the world — proof that a nation's size has little to do with its economic power.",
-        "ko": "룩셈부르크는 로드아일랜드보다 작지만 1인당 GDP는 세계 최고이며, 이는 나라의 크기가 경제력과 거의 관계가 없다는 증거이다.",
-        "note": "'has little to do with ~'는 '~와 거의 관계가 없다'라는 관용 표현이야. 'proof that ~'은 '~라는 증거'라는 동격 that절이야."
+        "en": "Luxembourg citizens speak three languages fluently without reducing their proficiency in any of them.",
+        "ko": "룩셈부르크 시민들은 세 개 언어를 유창하게 구사하며 그 어떤 언어에서도 실력이 줄어들지 않는다.",
+        "note": "'speak fluently'는 '유창하게 말하다'는 뜻이고, 'without reducing'은 동명사를 사용한 부정 표현으로 '줄이지 않고'라는 의미야."
       },
       {
         "source": "왜왜왜",
@@ -16616,8 +16616,8 @@
         "meaning": "집중"
       },
       {
-        "word": "smaller",
-        "meaning": "더 작은"
+        "word": "proficiency",
+        "meaning": "숙련도, 능숙함"
       },
       {
         "word": "telescope",
@@ -16747,9 +16747,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Great Wall of China was constructed over many centuries by millions of workers to protect the northern borders.",
-        "ko": "만리장성은 북쪽 국경을 보호하기 위해 수백만 명의 노동자에 의해 여러 세기에 걸쳐 건설되었다.",
-        "note": "'over many centuries'는 '여러 세기에 걸쳐'라는 뜻이야. over는 시간의 경과를 나타낼 때 'during'과 비슷하게 쓸 수 있어."
+        "en": "Floating villages on Tonle Sap Lake adapt to seasonal water changes by moving their entire houses up and down.",
+        "ko": "톤레삽 호수의 수상마을은 집 전체를 위아래로 움직여 계절적인 수위 변화에 적응한다.",
+        "note": "adapt to는 '~에 적응하다'라는 뜻의 구동사야. seasonal은 '계절의'라는 형용사고, entire은 '전체의'라는 뜻이야. up and down은 '위아래로'라는 의미의 부사구야."
       },
       {
         "source": "왜왜왜",
@@ -16769,8 +16769,8 @@
         "meaning": "묘사하다"
       },
       {
-        "word": "border",
-        "meaning": "국경, 경계"
+        "word": "adapt",
+        "meaning": "적응하다"
       },
       {
         "word": "secrete",
@@ -16849,9 +16849,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Rwanda, devastated by the 1994 genocide, has rebuilt itself into one of Africa's safest and fastest-growing nations, proving that hope can rise from the deepest despair.",
-        "ko": "1994년 대학살로 황폐해진 르완다는 아프리카에서 가장 안전하고 빠르게 성장하는 나라 중 하나로 스스로를 재건했으며, 가장 깊은 절망에서도 희망이 솟아날 수 있음을 증명했다.",
-        "note": "'devastated by ~'는 '~에 의해 황폐해진'이라는 과거분사 표현이야. 'hope can rise from ~'는 '희망이 ~에서 솟아날 수 있다'라는 비유야."
+        "en": "Rwanda's mountain gorillas have successfully rebuilt their population after facing near extinction decades ago.",
+        "ko": "르완다의 마운틴 고릴라는 수십 년 전 멸종 위기에 직면한 후 성공적으로 개체수를 재건했다.",
+        "note": "successfully는 '성공적으로'라는 부사야. rebuild는 '재건하다'라는 뜻이고, face는 '직면하다'라는 동사야. near extinction은 '거의 멸종, 멸종 위기'라는 표현이야."
       },
       {
         "source": "왜왜왜",
@@ -16871,8 +16871,8 @@
         "meaning": "참혹한, 파괴적인"
       },
       {
-        "word": "devastate",
-        "meaning": "파괴하다, 황폐화하다"
+        "word": "rebuild",
+        "meaning": "재건하다, 다시 짓다"
       },
       {
         "word": "damaged",
@@ -16900,9 +16900,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "The Polynesian people explored the vast Pacific Ocean using only the stars, ocean currents, and the flight patterns of birds.",
-        "ko": "폴리네시아인들은 별, 해류, 새의 비행 패턴만을 이용하여 광활한 태평양을 탐험했다.",
-        "note": "'using only ~'는 '~만을 이용하여'라는 분사구문이야. only가 '오직, ~만'이라는 제한을 나타내 수단의 제한성을 강조해."
+        "en": "Kokopo volcano in Papua New Guinea attracts brave explorers who want to witness the raw power of nature.",
+        "ko": "파푸아뉴기니의 코코포 화산은 자연의 원시적인 힘을 목격하고 싶어하는 용감한 탐험가들을 끌어들인다.",
+        "note": "'attract'는 '끌어들이다, 매력을 느끼게 하다'라는 뜻이야. 'raw power'는 '원시적인/거친 힘'이라는 표현이고, witness는 '목격하다'야."
       },
       {
         "source": "왜왜왜",
@@ -16922,8 +16922,8 @@
         "meaning": "탐험"
       },
       {
-        "word": "current",
-        "meaning": "해류, 흐름"
+        "word": "witness",
+        "meaning": "목격하다, 증언하다"
       },
       {
         "word": "vent",
@@ -17053,9 +17053,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Viking longships were designed to navigate both open oceans and shallow rivers, making the Vikings the most versatile sailors of their age.",
-        "ko": "바이킹 롱쉽은 넓은 바다와 얕은 강 모두를 항해할 수 있도록 설계되어, 바이킹을 그 시대 가장 다재다능한 항해자로 만들었다.",
-        "note": "'both A and B'는 'A와 B 둘 다'라는 뜻이야. 두 가지를 동등하게 강조할 때 쓰는 대표적인 상관접속사야."
+        "en": "Portuguese azulejo tiles cover building walls like painted stories, turning ordinary streets into outdoor art galleries.",
+        "ko": "포르투갈의 아줄레주 타일은 그림 같은 이야기처럼 건물 벽을 덮어서, 평범한 거리를 야외 미술관으로 바꾼다.",
+        "note": "'turn A into B' 구문으로 'A를 B로 바꾸다'라는 의미야. like는 '~처럼'이라는 직유 표현이고, ordinary는 '평범한'이라는 뜻이야."
       },
       {
         "source": "왜왜왜",
@@ -17075,8 +17075,8 @@
         "meaning": "무시무시한"
       },
       {
-        "word": "versatile",
-        "meaning": "다재다능한"
+        "word": "gallery",
+        "meaning": "미술관, 갤러리"
       },
       {
         "word": "aside",
@@ -17104,9 +17104,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Sherpas have guided climbers up Mount Everest for generations, and their knowledge of the mountain is unmatched.",
-        "ko": "셰르파들은 여러 세대에 걸쳐 등반가들을 에베레스트산으로 안내해 왔으며, 산에 대한 그들의 지식은 타의 추종을 불허한다.",
-        "note": "'for generations'는 '여러 세대에 걸쳐'라는 뜻이야. for + 기간은 '~동안'이라는 뜻으로 현재완료와 함께 자주 쓰여."
+        "en": "Nepalese farmers have carved terraced fields into steep mountain slopes for over a thousand years.",
+        "ko": "네팔 농부들은 천 년 넘게 가파른 산비탈에 계단식 논밭을 만들어왔다.",
+        "note": "현재완료 시제 'have carved'로 과거부터 현재까지 지속된 행동을 표현해. 'carve into'는 '~을 파서 만들다'는 뜻이야."
       },
       {
         "source": "왜왜왜",
@@ -17126,8 +17126,8 @@
         "meaning": "기념비적인, 거대한"
       },
       {
-        "word": "generation",
-        "meaning": "세대"
+        "word": "terrace",
+        "meaning": "계단식으로 만들다"
       },
       {
         "word": "scarce",
@@ -17410,9 +17410,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "When East and West Germany reunited in 1990, two very different societies had to merge into one nation.",
-        "ko": "1990년 동독과 서독이 통일되었을 때, 매우 다른 두 사회가 하나의 나라로 합류해야 했다.",
-        "note": "'had to + 동사원형'은 '~해야 했다'라는 과거의 의무를 나타내. have to의 과거형으로, must의 과거 대용으로 쓰여."
+        "en": "Swahili language flows like a river where Arabic, Persian, and African words merge to create beautiful communication.",
+        "ko": "스와힐리어는 아랍어, 페르시아어, 아프리카어 단어들이 합쳐져서 아름다운 의사소통을 만드는 강물처럼 흘러간다.",
+        "note": "'flow like a river'는 강물처럼 흐른다는 비유 표현이야. merge는 '합치다, 융합하다'라는 뜻이고, communication은 '의사소통'이야."
       },
       {
         "source": "왜왜왜",
@@ -17432,8 +17432,8 @@
         "meaning": "포착하다"
       },
       {
-        "word": "reunite",
-        "meaning": "재통합하다"
+        "word": "merge",
+        "meaning": "합치다, 융합하다"
       },
       {
         "word": "downstream",
@@ -17461,9 +17461,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Georgia, the traditional feast called 'supra' follows a strict sequence: a tamada leads each toast in order — to God, to homeland, to family — never skipping a step.",
-        "ko": "조지아의 전통 연회 '수프라'는 엄격한 순서를 따른다: 타마다가 각 건배를 차례로 이끌며 — 신에게, 조국에, 가족에게 — 절대 단계를 건너뛰지 않는다.",
-        "note": "'follows a strict sequence'는 '엄격한 순서를 따르다'라는 뜻이야. 'never skipping a step'은 '절대 단계를 건너뛰지 않으며'라는 분사구문이야."
+        "en": "At Georgian supra feasts, toasts follow a sacred order that honors tradition and community bonds.",
+        "ko": "조지아 수프라 잔치에서 건배는 전통과 공동체 결속을 존중하는 신성한 순서를 따른다.",
+        "note": "'follow an order'는 '순서를 따르다'라는 뜻이야. 'sacred'는 신성한, 'honor'는 존중하다라는 의미로 사용됐어."
       },
       {
         "source": "왜왜왜",
@@ -17483,8 +17483,8 @@
         "meaning": "순서, 배열"
       },
       {
-        "word": "homeland",
-        "meaning": "고국"
+        "word": "sacred",
+        "meaning": "신성한"
       },
       {
         "word": "protein",
@@ -17563,9 +17563,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Switzerland, the purity of water from mountain springs is considered a national treasure and is protected by strict laws.",
-        "ko": "스위스에서 산 샘물의 순도는 국보로 여겨지며 엄격한 법으로 보호받는다.",
-        "note": "'is considered + 명사/형용사'는 '~로 여겨지다'라는 수동태 표현이야. consider는 '여기다, 간주하다'라는 뜻의 5형식 동사야."
+        "en": "FESPACO in Burkina Faso celebrates the pure passion of African filmmakers who tell authentic stories.",
+        "ko": "부르키나파소의 FESPACO는 진정한 이야기를 들려주는 아프리카 영화 제작자들의 순수한 열정을 기념한다.",
+        "note": "celebrate는 '기념하다, 축하하다'라는 뜻이야. pure passion은 '순수한 열정'이고, authentic는 '진정한, 진짜의'라는 형용사야. who는 관계대명사로 filmmakers를 수식해."
       },
       {
         "source": "왜왜왜",
@@ -17585,8 +17585,8 @@
         "meaning": "단순함"
       },
       {
-        "word": "treasure",
-        "meaning": "보물, 국보"
+        "word": "authentic",
+        "meaning": "진정한, 진짜의"
       },
       {
         "word": "jewelry",
@@ -17614,9 +17614,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Nordic countries are famous for their transparent governments, where citizens can access nearly all public documents freely.",
-        "ko": "북유럽 국가들은 시민이 거의 모든 공공 문서에 자유롭게 접근할 수 있는 투명한 정부로 유명하다.",
-        "note": "'be famous for ~'는 '~로 유명하다'라는 뜻이야. for 뒤에 유명한 이유가 와. 'be famous as ~'는 '~로서 유명하다'이니 구별해."
+        "en": "Tallinn's Old Town preserves medieval architecture like transparent glass preserves precious memories.",
+        "ko": "탈린의 구시가지는 투명한 유리가 소중한 기억을 보존하듯 중세 건축을 보존하고 있다.",
+        "note": "'preserve'는 '보존하다'라는 뜻이고, 'like'를 사용한 직유법으로 두 가지를 비교했어. 'medieval'은 중세의라는 형용사야."
       },
       {
         "source": "왜왜왜",
@@ -17636,8 +17636,8 @@
         "meaning": "건축"
       },
       {
-        "word": "access",
-        "meaning": "접근하다, 접근"
+        "word": "preserve",
+        "meaning": "보존하다"
       },
       {
         "word": "scatter",
@@ -17818,9 +17818,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In Samarkand, Uzbekistan, artisans have crafted blue ceramic tiles for centuries, their intricate patterns adorning mosques and madrasas along the ancient Silk Road.",
-        "ko": "우즈베키스탄 사마르칸트에서 장인들은 수 세기 동안 푸른 도자기 타일을 만들어왔으며, 그 정교한 무늬가 고대 실크로드의 모스크와 마드라사를 장식한다.",
-        "note": "'have crafted ~ for centuries'는 현재완료로 '수 세기 동안 만들어왔다'야. 'their patterns adorning ~'은 독립분사구문으로 부가 설명이야."
+        "en": "Uzbek plov brings families together as they share this golden rice dish cooked with lamb, carrots, and fragrant spices.",
+        "ko": "우즈베크 플로프는 양고기, 당근, 향긋한 향신료로 요리한 이 황금빛 쌀 요리를 나누며 가족들을 하나로 모은다.",
+        "note": "bring together는 '하나로 모으다'는 뜻의 구동사야. as는 '~할 때'라는 의미로, cooked는 과거분사로 rice dish를 수식하고 있어. fragrant는 '향긋한'이라는 형용사야."
       },
       {
         "source": "왜왜왜",
@@ -17840,8 +17840,8 @@
         "meaning": "유약, 광택"
       },
       {
-        "word": "intricate",
-        "meaning": "복잡한"
+        "word": "fragrant",
+        "meaning": "향긋한"
       },
       {
         "word": "permanently",
@@ -18328,9 +18328,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "In African cultures, the baobab tree is called the Tree of Life because its deep roots survive even the harshest droughts.",
-        "ko": "아프리카 문화에서 바오밥나무는 깊은 뿌리가 가장 혹독한 가뭄도 견뎌내기 때문에 생명의 나무라 불린다.",
-        "note": "'is called ~'는 '~라고 불리다'라는 수동태야. 'even the harshest'에서 even은 최상급을 강조해 '가장 ~한 것조차'라는 뜻이야."
+        "en": "The Khmer script has influenced many Southeast Asian writing systems and remains the foundation of Cambodian literature today.",
+        "ko": "크메르 문자는 많은 동남아시아 문자 체계에 영향을 주었으며 오늘날에도 캄보디아 문학의 기초로 남아있다.",
+        "note": "influence는 '영향을 주다'라는 동사야. writing system은 '문자 체계'라는 뜻이고, remain은 '남아있다'는 뜻의 동사야. foundation은 '기초, 토대'라는 명사야."
       },
       {
         "source": "왜왜왜",
@@ -18350,8 +18350,8 @@
         "meaning": "패턴, 무늬"
       },
       {
-        "word": "drought",
-        "meaning": "가뭄"
+        "word": "influence",
+        "meaning": "영향을 주다"
       },
       {
         "word": "extend",
@@ -18532,9 +18532,9 @@
       {
         "source": "세계문화",
         "emoji": "🌍",
-        "en": "Rwanda plants millions of trees each year in a national campaign called 'Umuganda,' where communities work together every month to nurture new growth from scarred land.",
-        "ko": "르완다는 '우무간다'라는 국가 캠페인으로 매년 수백만 그루의 나무를 심으며, 공동체가 매달 함께 일하여 상처 입은 땅에서 새싹을 키워낸다.",
-        "note": "'called ~'는 '~라고 불리는'이라는 과거분사 수식이야. 'to nurture new growth from ~'는 '~에서 새싹을 키우기 위해'라는 목적의 to부정사야."
+        "en": "Rwanda's technology sector is sprouting rapidly, earning the country recognition as Africa's Silicon Valley.",
+        "ko": "르완다의 기술 부문이 빠르게 새싹을 틔우고 있어서, 이 나라는 아프리카의 실리콘 밸리로 인정받고 있다.",
+        "note": "sprout은 '새싹이 나다, 급성장하다'라는 뜻이야. rapidly는 '빠르게'라는 부사고, earn은 '얻다, 받다'라는 동사야. recognition은 '인정'이라는 명사야."
       },
       {
         "source": "왜왜왜",
@@ -18554,8 +18554,8 @@
         "meaning": "새싹, 싹이 트다"
       },
       {
-        "word": "community",
-        "meaning": "공동체"
+        "word": "sprout",
+        "meaning": "새싹이 나다, 급성장하다"
       },
       {
         "word": "generate",
