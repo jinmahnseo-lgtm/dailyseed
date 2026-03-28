@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import themes from "@/data/themes.json";
@@ -24,9 +24,31 @@ type DayNavigatorProps = {
 
 export default function DayNavigator({ title, emoji, topicKey, dayNumber }: DayNavigatorProps) {
   const router = useRouter();
-  const keyword = themes[dayNumber - 1]?.keyword || "";
-  const canPrev = dayNumber > 1;
-  const canNext = dayNumber < themes.length;
+  const [pendingDay, setPendingDay] = useState<number | null>(null);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const displayDay = pendingDay ?? dayNumber;
+  const displayKeyword = themes[displayDay - 1]?.keyword || "";
+  const canPrev = displayDay > 1;
+  const canNext = displayDay < themes.length;
+
+  const navigateTo = useCallback((targetDay: number) => {
+    const clamped = Math.max(1, Math.min(themes.length, targetDay));
+    setPendingDay(clamped);
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => {
+      setPendingDay(null);
+      dispatchDayChange(clamped - 1);
+      router.push(`/${topicKey}/${clamped}`);
+    }, 300);
+  }, [topicKey, router]);
+
+  // 컴포넌트 unmount 시 타이머 정리
+  useEffect(() => {
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+  }, []);
 
   // DayContext 동기화 (localStorage + 커스텀 이벤트)
   useEffect(() => {
@@ -98,35 +120,39 @@ export default function DayNavigator({ title, emoji, topicKey, dayNumber }: DayN
       {/* Day 내비게이션: « ‹ Day 42 — 용기 › » */}
       <div className="mt-3 flex items-center justify-center gap-1">
         {canPrev ? (
-          <Link href={`/${topicKey}/${Math.max(1, dayNumber - 7)}`}
+          <button
+            onClick={() => navigateTo(displayDay - 7)}
             className="text-[var(--accent)] text-2xl font-bold w-10 h-10 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
             title="7일 전"
-          >«</Link>
+          >«</button>
         ) : (
           <span className="text-[var(--accent)] opacity-20 text-2xl font-bold w-10 h-10 flex items-center justify-center">«</span>
         )}
         {canPrev ? (
-          <Link href={`/${topicKey}/${dayNumber - 1}`}
+          <button
+            onClick={() => navigateTo(displayDay - 1)}
             className="text-[var(--accent)] text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
-          >‹</Link>
+          >‹</button>
         ) : (
           <span className="text-[var(--accent)] opacity-20 text-3xl font-bold w-12 h-12 flex items-center justify-center">‹</span>
         )}
         <div className="bg-[var(--accent-light)] text-[var(--accent)] px-4 py-1.5 rounded-full text-sm font-semibold min-w-[140px] text-center">
-          {`Day ${dayNumber}${keyword ? ` — ${keyword}` : ""}`}
+          {`Day ${displayDay}${displayKeyword ? ` — ${displayKeyword}` : ""}`}
         </div>
         {canNext ? (
-          <Link href={`/${topicKey}/${dayNumber + 1}`}
+          <button
+            onClick={() => navigateTo(displayDay + 1)}
             className="text-[var(--accent)] text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
-          >›</Link>
+          >›</button>
         ) : (
           <span className="text-[var(--accent)] opacity-20 text-3xl font-bold w-12 h-12 flex items-center justify-center">›</span>
         )}
         {canNext ? (
-          <Link href={`/${topicKey}/${Math.min(themes.length, dayNumber + 7)}`}
+          <button
+            onClick={() => navigateTo(displayDay + 7)}
             className="text-[var(--accent)] text-2xl font-bold w-10 h-10 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
             title="7일 후"
-          >»</Link>
+          >»</button>
         ) : (
           <span className="text-[var(--accent)] opacity-20 text-2xl font-bold w-10 h-10 flex items-center justify-center">»</span>
         )}
