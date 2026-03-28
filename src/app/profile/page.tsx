@@ -5,6 +5,8 @@ import { useAuthContext } from "@/contexts/AuthContext";
 import { useMissionContext } from "@/contexts/MissionContext";
 import { supabase } from "@/lib/supabase";
 import themes from "@/data/themes.json";
+import classics from "@/data/classics.json";
+import arts from "@/data/arts.json";
 
 const SECTIONS = [
   { key: "news", emoji: "📰", href: "/news" },
@@ -20,6 +22,7 @@ export default function ProfilePage() {
   const { user, profile, loading, signOut } = useAuthContext();
   const { isMissionDone } = useMissionContext();
   const [search, setSearch] = useState("");
+  const [searchMode, setSearchMode] = useState<"keyword" | "classic" | "art">("keyword");
   const [missionCache, setMissionCache] = useState<Record<string, boolean>>({});
   const [linkedTeacher, setLinkedTeacher] = useState<{ name: string; email: string } | null>(null);
   const [teacherLoading, setTeacherLoading] = useState(true);
@@ -107,14 +110,38 @@ export default function ProfilePage() {
 
   // Filter themes by search
   const filteredThemes = useMemo(() => {
-    const list: { dayIndex: number; keyword: string; desc: string }[] = [];
+    const list: { dayIndex: number; keyword: string; desc: string; matchInfo?: string }[] = [];
     for (let i = 0; i < themes.length; i++) {
       list.push({ dayIndex: i, keyword: themes[i].keyword, desc: themes[i].desc });
     }
     if (!search.trim()) return list;
-    const q = search.trim();
+    const q = search.trim().toLowerCase();
+
+    if (searchMode === "classic") {
+      const matched = new Map<number, string>();
+      classics.forEach(c => {
+        if (c.title.toLowerCase().includes(q) || c.author.toLowerCase().includes(q)) {
+          matched.set(c.day - 1, `${c.title} — ${c.author}`);
+        }
+      });
+      return list
+        .filter(t => matched.has(t.dayIndex))
+        .map(t => ({ ...t, matchInfo: matched.get(t.dayIndex) }));
+    }
+    if (searchMode === "art") {
+      const matched = new Map<number, string>();
+      arts.forEach(a => {
+        if (a.title.toLowerCase().includes(q) || a.artist.toLowerCase().includes(q)) {
+          matched.set(a.day - 1, `${a.title} — ${a.artist}`);
+        }
+      });
+      return list
+        .filter(t => matched.has(t.dayIndex))
+        .map(t => ({ ...t, matchInfo: matched.get(t.dayIndex) }));
+    }
+    // default: keyword
     return list.filter(t => t.keyword.includes(q));
-  }, [search]);
+  }, [search, searchMode]);
 
   // if (loading || !user) {
   //   return (
@@ -165,9 +192,7 @@ export default function ProfilePage() {
             </p>
             <p className="text-xs text-gray-400 flex items-center gap-1.5">
               {provider === "kakao" ? "카카오" : provider === "google" ? "Google" : provider} 로그인
-              {profile?.tier === "premium" && (
-                <span className="bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded-full text-[10px] font-bold">365일 이용권</span>
-              )}
+              <span className="bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded-full text-[10px] font-bold">365일 이용권</span>
             </p>
             {email && (
               <p className="text-xs text-gray-400">{email}</p>
@@ -237,6 +262,27 @@ export default function ProfilePage() {
         </div>
         <p className="text-[10px] text-gray-400 mb-3">학습 기록은 로그인한 회원에게만 정확하게 적용됩니다.</p>
 
+        {/* Search Mode Chips */}
+        <div className="flex gap-1.5 mb-2">
+          {([
+            { mode: "keyword" as const, label: "키워드" },
+            { mode: "classic" as const, label: "고전" },
+            { mode: "art" as const, label: "예술" },
+          ]).map(({ mode, label }) => (
+            <button
+              key={mode}
+              onClick={() => { setSearchMode(mode); setSearch(""); }}
+              className={`px-2.5 py-1 text-[11px] rounded-full border transition-all ${
+                searchMode === mode
+                  ? "bg-amber-100 text-amber-700 border-amber-200 font-bold"
+                  : "bg-white text-gray-400 border-gray-100 hover:border-gray-200"
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+
         {/* Search */}
         <div className="relative mb-3">
           <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -246,7 +292,11 @@ export default function ProfilePage() {
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="키워드 검색..."
+            placeholder={
+              searchMode === "classic" ? "고전 제목 또는 작가 검색..."
+                : searchMode === "art" ? "예술 작품 또는 작가 검색..."
+                : "키워드 검색..."
+            }
             className="w-full pl-9 pr-3 py-2 text-sm bg-gray-50 border border-gray-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-200 focus:border-amber-300 transition-all"
           />
           {search && (
@@ -278,17 +328,21 @@ export default function ProfilePage() {
           {filteredThemes.length === 0 && (
             <p className="text-center text-xs text-gray-300 py-6">검색 결과가 없습니다</p>
           )}
-          {filteredThemes.map(({ dayIndex, keyword }) => {
+          {filteredThemes.map(({ dayIndex, keyword, matchInfo }) => {
             const doneCount = SECTIONS.filter(s => missionCache[`${s.key}-${dayIndex}`]).length;
             const isPerfect = doneCount === 6;
 
             return (
               <div
                 key={dayIndex}
-                className={`flex items-center gap-0.5 px-0.5 py-1 rounded-lg transition-colors ${
+                className={`px-0.5 py-1 rounded-lg transition-colors ${
                   isPerfect ? "bg-amber-50/60" : "hover:bg-gray-50"
                 }`}
               >
+                {matchInfo && (
+                  <p className="text-[9px] text-amber-600 truncate mb-0.5 pl-[38px]">{matchInfo}</p>
+                )}
+                <div className="flex items-center gap-0.5">
                 {/* Day number */}
                 <span className="w-[38px] text-[11px] font-mono font-bold text-gray-400 shrink-0 tabular-nums">
                   {dayIndex + 1}
@@ -329,6 +383,7 @@ export default function ProfilePage() {
                   }`}>
                     {doneCount}/6
                   </span>
+                </div>
                 </div>
               </div>
             );

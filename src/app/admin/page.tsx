@@ -17,6 +17,8 @@ const SECTIONS = [
 interface StudentProfile {
   id: string;
   display_name: string | null;
+  email: string | null;
+  provider: string | null;
   created_at: string;
 }
 
@@ -203,7 +205,7 @@ export default function AdminPage() {
 
         // Step 2: student profiles + missions in parallel
         const [profilesRes, missionsRes] = await Promise.all([
-          supabase!.from("profiles").select("id, display_name, created_at").in("id", studentIds),
+          supabase!.from("profiles").select("id, display_name, email, provider, created_at").in("id", studentIds),
           supabase!.from("missions").select("user_id, page, date, completed_at").in("user_id", studentIds),
         ]);
 
@@ -386,9 +388,17 @@ export default function AdminPage() {
                             {(s.profile.display_name || "?")[0]}
                           </div>
                           <div>
-                            <p className="font-bold text-gray-800 text-sm">
+                            <p className="font-bold text-gray-800 text-sm flex items-center gap-1.5">
                               {s.profile.display_name || "이름 없음"}
+                              {s.profile.provider && (
+                                <span className="text-[9px] text-gray-300 font-normal">
+                                  {s.profile.provider === "kakao" ? "카카오" : s.profile.provider === "google" ? "Google" : s.profile.provider}
+                                </span>
+                              )}
                             </p>
+                            {s.profile.email && (
+                              <p className="text-[10px] text-gray-400 truncate max-w-[180px]">{s.profile.email}</p>
+                            )}
                             <p className="text-[10px] text-gray-400">
                               학습 {s.stats.activeDays}일 · 완벽 {s.stats.perfectDays}일 · 총 {s.stats.totalDone}개
                             </p>
@@ -474,9 +484,17 @@ function StudentDetail({ data }: { data: StudentData }) {
             {(profile.display_name || "?")[0]}
           </div>
           <div>
-            <p className="font-bold text-gray-800 text-base sm:text-lg">
+            <p className="font-bold text-gray-800 text-base sm:text-lg flex items-center gap-2">
               {profile.display_name || "이름 없음"}
+              {profile.provider && (
+                <span className="text-[10px] text-gray-300 font-normal">
+                  {profile.provider === "kakao" ? "카카오" : profile.provider === "google" ? "Google" : profile.provider}
+                </span>
+              )}
             </p>
+            {profile.email && (
+              <p className="text-[11px] sm:text-xs text-gray-400">{profile.email}</p>
+            )}
             <p className="text-[11px] sm:text-xs text-gray-400">
               가입일: {new Date(profile.created_at).toLocaleDateString("ko-KR")}
             </p>
