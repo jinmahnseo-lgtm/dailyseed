@@ -41,8 +41,8 @@
         "meaning": "바리케이드"
       },
       {
-        "word": "revolution",
-        "meaning": "혁명"
+        "word": "free",
+        "meaning": "자유로운"
       },
       {
         "word": "aerodynamic",
@@ -139,8 +139,8 @@
         "meaning": "존재하다"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "morning",
+        "meaning": "아침"
       },
       {
         "word": "abolish",
@@ -237,12 +237,12 @@
     ],
     "vocab": [
       {
-        "word": "convince",
-        "meaning": "설득하다"
+        "word": "promise",
+        "meaning": "약속"
       },
       {
-        "word": "imagination",
-        "meaning": "상상력"
+        "word": "fruits",
+        "meaning": "과일"
       },
       {
         "word": "per capita",
@@ -288,8 +288,8 @@
     ],
     "vocab": [
       {
-        "word": "preserve",
-        "meaning": "보존하다"
+        "word": "programmed",
+        "meaning": "프로그래밍된"
       },
       {
         "word": "corpse",
@@ -347,8 +347,8 @@
         "meaning": "천체의"
       },
       {
-        "word": "navigate",
-        "meaning": "항해하다"
+        "word": "polynesian",
+        "meaning": "폴리네시아의"
       },
       {
         "word": "accident",
@@ -390,8 +390,8 @@
     ],
     "vocab": [
       {
-        "word": "fall",
-        "meaning": "타락하다, 떨어지다"
+        "word": "ought",
+        "meaning": "~해야 하다"
       },
       {
         "word": "unarmed",
@@ -402,8 +402,8 @@
         "meaning": "측정하다"
       },
       {
-        "word": "astonishing",
-        "meaning": "놀라운"
+        "word": "energy",
+        "meaning": "에너지"
       }
     ]
   },
@@ -441,16 +441,16 @@
     ],
     "vocab": [
       {
-        "word": "destroy",
-        "meaning": "파괴하다"
+        "word": "bird",
+        "meaning": "새"
       },
       {
         "word": "self-portrait",
         "meaning": "자화상"
       },
       {
-        "word": "ancestor",
-        "meaning": "조상"
+        "word": "celebrate",
+        "meaning": "축하하다"
       },
       {
         "word": "persist",
@@ -500,8 +500,8 @@
         "meaning": "절벽"
       },
       {
-        "word": "essential",
-        "meaning": "필수적인"
+        "word": "sweetness",
+        "meaning": "달콤함"
       },
       {
         "word": "trigger",
@@ -555,8 +555,8 @@
         "meaning": "식민지배하다"
       },
       {
-        "word": "conquer",
-        "meaning": "정복하다"
+        "word": "challenge",
+        "meaning": "도전"
       }
     ]
   },
@@ -657,8 +657,8 @@
         "meaning": "걸치다"
       },
       {
-        "word": "profound",
-        "meaning": "깊은, 심오한"
+        "word": "brain",
+        "meaning": "뇌"
       }
     ]
   },
@@ -696,8 +696,8 @@
     ],
     "vocab": [
       {
-        "word": "courage",
-        "meaning": "용기"
+        "word": "terrified",
+        "meaning": "겁에 질린"
       },
       {
         "word": "summon",
@@ -708,8 +708,8 @@
         "meaning": "용맹"
       },
       {
-        "word": "overcome",
-        "meaning": "극복하다"
+        "word": "evolutionary",
+        "meaning": "진화의"
       }
     ]
   },
@@ -747,20 +747,20 @@
     ],
     "vocab": [
       {
-        "word": "communicate",
-        "meaning": "소통하다"
+        "word": "relationship",
+        "meaning": "관계"
       },
       {
-        "word": "unspoken",
-        "meaning": "말해지지 않은"
+        "word": "letter",
+        "meaning": "편지"
       },
       {
-        "word": "foundation",
-        "meaning": "기초"
+        "word": "citizens",
+        "meaning": "시민"
       },
       {
-        "word": "pattern",
-        "meaning": "패턴"
+        "word": "communication",
+        "meaning": "소통"
       }
     ]
   },
@@ -802,12 +802,12 @@
         "meaning": "사람"
       },
       {
-        "word": "pursuit",
-        "meaning": "추구"
+        "word": "sunflowers",
+        "meaning": "해바라기"
       },
       {
-        "word": "determination",
-        "meaning": "결심"
+        "word": "represent",
+        "meaning": "대표하다"
       },
       {
         "word": "convert",
@@ -849,12 +849,12 @@
     ],
     "vocab": [
       {
-        "word": "survive",
-        "meaning": "생존하다"
+        "word": "experience",
+        "meaning": "경험"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "surrounded",
+        "meaning": "둘러싸인"
       },
       {
         "word": "strengthen",
@@ -1002,8 +1002,8 @@
     ],
     "vocab": [
       {
-        "word": "transform",
-        "meaning": "변화시키다"
+        "word": "sudden",
+        "meaning": "갑작스러운"
       },
       {
         "word": "locomotive",
@@ -1014,8 +1014,8 @@
         "meaning": "구현하다"
       },
       {
-        "word": "retain",
-        "meaning": "보유하다"
+        "word": "caterpillar",
+        "meaning": "애벌레"
       }
     ]
   },
@@ -1053,20 +1053,20 @@
     ],
     "vocab": [
       {
-        "word": "perch",
-        "meaning": "(새가) 앉다, 깃들다"
+        "word": "love",
+        "meaning": "사랑"
       },
       {
         "word": "longing",
         "meaning": "그리움"
       },
       {
-        "word": "decade",
-        "meaning": "10년"
+        "word": "conflict",
+        "meaning": "갈등"
       },
       {
-        "word": "crack",
-        "meaning": "갈라지다, 금이 가다"
+        "word": "positive",
+        "meaning": "긍정적인"
       }
     ]
   },
@@ -1112,8 +1112,8 @@
         "meaning": "석류"
       },
       {
-        "word": "oral",
-        "meaning": "구두의, 구전의"
+        "word": "monument",
+        "meaning": "기념비"
       },
       {
         "word": "store",
@@ -1159,12 +1159,12 @@
         "meaning": "지혜"
       },
       {
-        "word": "reflect",
-        "meaning": "비추다, 반영하다"
+        "word": "expression",
+        "meaning": "표현"
       },
       {
-        "word": "elder",
-        "meaning": "어른, 원로"
+        "word": "confucius",
+        "meaning": "공자"
       },
       {
         "word": "rust",
@@ -1206,8 +1206,8 @@
     ],
     "vocab": [
       {
-        "word": "belong",
-        "meaning": "속하다"
+        "word": "forgotten",
+        "meaning": "잊혀진"
       },
       {
         "word": "allegory",
@@ -1218,8 +1218,8 @@
         "meaning": "뛰어난, 탁월한"
       },
       {
-        "word": "atmosphere",
-        "meaning": "대기, 분위기"
+        "word": "nitrogen",
+        "meaning": "질소"
       }
     ]
   },
@@ -1265,8 +1265,8 @@
         "meaning": "대리석"
       },
       {
-        "word": "papyrus",
-        "meaning": "파피루스"
+        "word": "complex",
+        "meaning": "복잡한"
       },
       {
         "word": "silk",
@@ -1308,12 +1308,12 @@
     ],
     "vocab": [
       {
-        "word": "injustice",
-        "meaning": "불의, 부당함"
+        "word": "pain",
+        "meaning": "고통"
       },
       {
-        "word": "tradition",
-        "meaning": "전통"
+        "word": "dynamic",
+        "meaning": "역동적인"
       },
       {
         "word": "reconciliation",
@@ -1363,8 +1363,8 @@
         "meaning": "파괴하다"
       },
       {
-        "word": "convey",
-        "meaning": "전달하다"
+        "word": "shared",
+        "meaning": "공유된"
       },
       {
         "word": "stroller",
@@ -1414,12 +1414,12 @@
         "meaning": "성취하다, 이루다"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "passionate",
+        "meaning": "열정적인"
       },
       {
-        "word": "immigrant",
-        "meaning": "이민자"
+        "word": "neighborhoods",
+        "meaning": "이웃"
       },
       {
         "word": "magma",
@@ -1469,8 +1469,8 @@
         "meaning": "설명하다"
       },
       {
-        "word": "hierarchical",
-        "meaning": "계층적인"
+        "word": "wealthiest",
+        "meaning": "가장 부유한"
       },
       {
         "word": "hexagon",
@@ -1524,8 +1524,8 @@
         "meaning": "더 작은"
       },
       {
-        "word": "mold",
-        "meaning": "곰팡이"
+        "word": "reproduction",
+        "meaning": "번식"
       }
     ]
   },
@@ -1567,16 +1567,16 @@
         "meaning": "관점, 시각"
       },
       {
-        "word": "moment",
-        "meaning": "순간"
+        "word": "ordinary",
+        "meaning": "평범한"
       },
       {
-        "word": "respect",
-        "meaning": "존경"
+        "word": "traditional",
+        "meaning": "전통적인"
       },
       {
-        "word": "empathy",
-        "meaning": "공감"
+        "word": "perform",
+        "meaning": "공연하다"
       }
     ]
   },
@@ -1622,8 +1622,8 @@
         "meaning": "감사"
       },
       {
-        "word": "tradition",
-        "meaning": "전통"
+        "word": "blessings",
+        "meaning": "축복"
       },
       {
         "word": "bacteria",
@@ -1669,8 +1669,8 @@
         "meaning": "인내"
       },
       {
-        "word": "contemplation",
-        "meaning": "사색, 명상"
+        "word": "gazing",
+        "meaning": "응시하는"
       },
       {
         "word": "artisan",
@@ -1720,16 +1720,16 @@
         "meaning": "겸손"
       },
       {
-        "word": "embrace",
-        "meaning": "껴안다"
+        "word": "strokes",
+        "meaning": "획"
       },
       {
         "word": "mountaineer",
         "meaning": "등산가"
       },
       {
-        "word": "universe",
-        "meaning": "우주"
+        "word": "consists",
+        "meaning": "구성되다"
       }
     ]
   },
@@ -1771,12 +1771,12 @@
         "meaning": "극단주의자"
       },
       {
-        "word": "depict",
-        "meaning": "묘사하다, 그리다"
+        "word": "suffering",
+        "meaning": "고통"
       },
       {
-        "word": "responsibility",
-        "meaning": "책임"
+        "word": "equality",
+        "meaning": "평등"
       },
       {
         "word": "radioactive",
@@ -1822,16 +1822,16 @@
         "meaning": "누군가"
       },
       {
-        "word": "symbolize",
-        "meaning": "상징하다"
+        "word": "figures",
+        "meaning": "인물들"
       },
       {
-        "word": "community",
-        "meaning": "공동체"
+        "word": "deep",
+        "meaning": "깊은"
       },
       {
-        "word": "longevity",
-        "meaning": "장수, 수명"
+        "word": "chimpanzees",
+        "meaning": "침팬지"
       }
     ]
   },
@@ -1873,16 +1873,16 @@
         "meaning": "예측하다"
       },
       {
-        "word": "landscape",
-        "meaning": "풍경"
+        "word": "suggesting",
+        "meaning": "암시하는"
       },
       {
-        "word": "transform",
-        "meaning": "변모시키다"
+        "word": "futuristic",
+        "meaning": "미래적인"
       },
       {
-        "word": "artificial",
-        "meaning": "인공적인"
+        "word": "scientists",
+        "meaning": "과학자"
       }
     ]
   },
@@ -1924,16 +1924,16 @@
         "meaning": "놀라운, 믿을 수 없는"
       },
       {
-        "word": "illustration",
-        "meaning": "삽화"
+        "word": "invisible",
+        "meaning": "보이지 않는"
       },
       {
-        "word": "navigate",
-        "meaning": "항해하다"
+        "word": "evolution",
+        "meaning": "진화"
       },
       {
-        "word": "explore",
-        "meaning": "탐사하다, 탐험하다"
+        "word": "footprints",
+        "meaning": "발자국"
       }
     ]
   },
@@ -1971,20 +1971,20 @@
     ],
     "vocab": [
       {
-        "word": "continent",
-        "meaning": "대륙"
+        "word": "ensnares",
+        "meaning": "올가미에 걸다"
       },
       {
         "word": "idealize",
         "meaning": "이상화하다"
       },
       {
-        "word": "emphasize",
-        "meaning": "강조하다"
+        "word": "physically",
+        "meaning": "물리적으로"
       },
       {
-        "word": "humanity",
-        "meaning": "인간성, 인류"
+        "word": "social",
+        "meaning": "사회적인"
       }
     ]
   },
@@ -2030,12 +2030,12 @@
         "meaning": "풍요, 풍부"
       },
       {
-        "word": "well-being",
-        "meaning": "안녕, 행복"
+        "word": "colorful",
+        "meaning": "다채로운"
       },
       {
-        "word": "income",
-        "meaning": "수입, 소득"
+        "word": "distribution",
+        "meaning": "분배"
       }
     ]
   },
@@ -2073,20 +2073,20 @@
     ],
     "vocab": [
       {
-        "word": "opportunity",
-        "meaning": "기회"
+        "word": "mankind",
+        "meaning": "인류"
       },
       {
         "word": "desperate",
         "meaning": "필사적인"
       },
       {
-        "word": "partition",
-        "meaning": "분할, 분리"
+        "word": "cyprus",
+        "meaning": "키프로스"
       },
       {
-        "word": "collide",
-        "meaning": "충돌하다"
+        "word": "territory",
+        "meaning": "영토"
       }
     ]
   },
@@ -2124,8 +2124,8 @@
     ],
     "vocab": [
       {
-        "word": "places",
-        "meaning": "장소들"
+        "word": "glitter",
+        "meaning": "반짝임"
       },
       {
         "word": "lithograph",
@@ -2136,8 +2136,8 @@
         "meaning": "결의, 결심"
       },
       {
-        "word": "fracture",
-        "meaning": "골절, 균열"
+        "word": "regenerative",
+        "meaning": "재생의"
       }
     ]
   },
@@ -2187,8 +2187,8 @@
         "meaning": "협력하다"
       },
       {
-        "word": "organize",
-        "meaning": "조직하다"
+        "word": "objects",
+        "meaning": "물체"
       }
     ]
   },
@@ -2226,12 +2226,12 @@
     ],
     "vocab": [
       {
-        "word": "independent",
-        "meaning": "독립적인"
+        "word": "read",
+        "meaning": "읽다"
       },
       {
-        "word": "independence",
-        "meaning": "독립"
+        "word": "unknown",
+        "meaning": "알려지지 않은"
       },
       {
         "word": "resource",
@@ -2336,12 +2336,12 @@
         "meaning": "위계, 서열"
       },
       {
-        "word": "convention",
-        "meaning": "협약, 관습"
+        "word": "actions",
+        "meaning": "행동"
       },
       {
-        "word": "orbit",
-        "meaning": "궤도를 돌다"
+        "word": "snowflake",
+        "meaning": "눈송이"
       }
     ]
   },
@@ -2383,16 +2383,16 @@
         "meaning": "이유들"
       },
       {
-        "word": "reflect",
-        "meaning": "비추다, 반영하다"
+        "word": "version",
+        "meaning": "판본"
       },
       {
-        "word": "emotion",
-        "meaning": "감정"
+        "word": "flamenco",
+        "meaning": "플라멩코"
       },
       {
-        "word": "dissolve",
-        "meaning": "녹이다, 용해하다"
+        "word": "boiling",
+        "meaning": "끓는"
       }
     ]
   },
@@ -2434,16 +2434,16 @@
         "meaning": "예의, 공손함"
       },
       {
-        "word": "knowledge",
-        "meaning": "지식"
+        "word": "practice",
+        "meaning": "실천"
       },
       {
-        "word": "ritual",
-        "meaning": "의례, 의식"
+        "word": "bowing",
+        "meaning": "절하는"
       },
       {
-        "word": "molecule",
-        "meaning": "분자"
+        "word": "attract",
+        "meaning": "끌어당기다"
       }
     ]
   },
@@ -2481,20 +2481,20 @@
     ],
     "vocab": [
       {
-        "word": "inherit",
-        "meaning": "물려받다"
+        "word": "return",
+        "meaning": "돌아가다"
       },
       {
         "word": "environment",
         "meaning": "환경"
       },
       {
-        "word": "ancestor",
-        "meaning": "조상"
+        "word": "recognize",
+        "meaning": "인식하다"
       },
       {
-        "word": "absorb",
-        "meaning": "흡수하다"
+        "word": "kilograms",
+        "meaning": "킬로그램"
       }
     ]
   },
@@ -2536,8 +2536,8 @@
         "meaning": "여행, 항해"
       },
       {
-        "word": "symbolize",
-        "meaning": "상징하다"
+        "word": "distorted",
+        "meaning": "왜곡된"
       },
       {
         "word": "network",
@@ -2587,12 +2587,12 @@
         "meaning": "보존"
       },
       {
-        "word": "reflect",
-        "meaning": "비추다, 반영하다"
+        "word": "craftsmanship",
+        "meaning": "장인정신"
       },
       {
-        "word": "treasure",
-        "meaning": "보물, 국보"
+        "word": "method",
+        "meaning": "방법"
       },
       {
         "word": "fermentation",
@@ -2646,8 +2646,8 @@
         "meaning": "공화국"
       },
       {
-        "word": "astronaut",
-        "meaning": "우주비행사"
+        "word": "increasingly",
+        "meaning": "점점 더"
       }
     ]
   },
@@ -2689,8 +2689,8 @@
         "meaning": "폭정"
       },
       {
-        "word": "revolution",
-        "meaning": "혁명"
+        "word": "caricature",
+        "meaning": "풍자화"
       },
       {
         "word": "reshape",
@@ -2736,16 +2736,16 @@
     ],
     "vocab": [
       {
-        "word": "belong",
-        "meaning": "속하다"
+        "word": "assigns",
+        "meaning": "할당하다"
       },
       {
         "word": "insist",
         "meaning": "고집하다"
       },
       {
-        "word": "gap",
-        "meaning": "격차"
+        "word": "president",
+        "meaning": "대통령"
       },
       {
         "word": "ethnicity",
@@ -2791,16 +2791,16 @@
         "meaning": "성취"
       },
       {
-        "word": "tilt",
-        "meaning": "기울기"
+        "word": "artist",
+        "meaning": "예술가"
       },
       {
-        "word": "gesture",
-        "meaning": "제스처, 몸짓"
+        "word": "resonate",
+        "meaning": "공감하다"
       },
       {
-        "word": "humidity",
-        "meaning": "습도"
+        "word": "preferences",
+        "meaning": "선호"
       }
     ]
   },
@@ -2842,12 +2842,12 @@
         "meaning": "직관"
       },
       {
-        "word": "depict",
-        "meaning": "묘사하다"
+        "word": "directly",
+        "meaning": "직접"
       },
       {
-        "word": "navigate",
-        "meaning": "탐색하다, 길을 찾다"
+        "word": "aboriginal",
+        "meaning": "원주민의"
       },
       {
         "word": "random",
@@ -2893,16 +2893,16 @@
         "meaning": "품다, 고려하다"
       },
       {
-        "word": "illustration",
-        "meaning": "삽화"
+        "word": "literature",
+        "meaning": "문학"
       },
       {
-        "word": "embrace",
-        "meaning": "껴안다"
+        "word": "applying",
+        "meaning": "적용하는"
       },
       {
-        "word": "process",
-        "meaning": "처리하다"
+        "word": "instructions",
+        "meaning": "지침"
       }
     ]
   },
@@ -2952,8 +2952,8 @@
         "meaning": "불명예"
       },
       {
-        "word": "neuron",
-        "meaning": "뉴런, 신경세포"
+        "word": "abundant",
+        "meaning": "풍부한"
       }
     ]
   },
@@ -2991,20 +2991,20 @@
     ],
     "vocab": [
       {
-        "word": "service",
-        "meaning": "봉사, 서비스"
+        "word": "previous",
+        "meaning": "이전의"
       },
       {
         "word": "intensity",
         "meaning": "강렬함"
       },
       {
-        "word": "decade",
-        "meaning": "10년"
+        "word": "meditative",
+        "meaning": "명상적인"
       },
       {
-        "word": "volunteer",
-        "meaning": "자원봉사하다"
+        "word": "happiness",
+        "meaning": "행복"
       }
     ]
   },
@@ -3054,8 +3054,8 @@
         "meaning": "불편한"
       },
       {
-        "word": "awareness",
-        "meaning": "인식"
+        "word": "solitude",
+        "meaning": "고독"
       }
     ]
   },
@@ -3093,8 +3093,8 @@
     ],
     "vocab": [
       {
-        "word": "belong",
-        "meaning": "속하다"
+        "word": "future",
+        "meaning": "미래"
       },
       {
         "word": "realistic",
@@ -3105,8 +3105,8 @@
         "meaning": "인격, 성품"
       },
       {
-        "word": "renewable",
-        "meaning": "재생 가능한"
+        "word": "oxygen",
+        "meaning": "산소"
       }
     ]
   },
@@ -3144,8 +3144,8 @@
     ],
     "vocab": [
       {
-        "word": "sophistication",
-        "meaning": "정교함, 세련됨"
+        "word": "fluttering",
+        "meaning": "펄럭이는"
       },
       {
         "word": "discus",
@@ -3246,12 +3246,12 @@
     ],
     "vocab": [
       {
-        "word": "civilization",
-        "meaning": "문명"
+        "word": "volcano",
+        "meaning": "화산"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "explosive",
+        "meaning": "폭발적인"
       },
       {
         "word": "subtle",
@@ -3301,16 +3301,16 @@
         "meaning": "관용"
       },
       {
-        "word": "grandeur",
-        "meaning": "장엄함, 위대함"
+        "word": "mountain",
+        "meaning": "산"
       },
       {
         "word": "community",
         "meaning": "공동체"
       },
       {
-        "word": "prejudice",
-        "meaning": "편견"
+        "word": "mineral",
+        "meaning": "광물"
       }
     ]
   },
@@ -3348,16 +3348,16 @@
     ],
     "vocab": [
       {
-        "word": "responsive",
-        "meaning": "반응하는"
+        "word": "breathed",
+        "meaning": "숨을 쉬다"
       },
       {
-        "word": "adapt",
-        "meaning": "적응하다"
+        "word": "physical",
+        "meaning": "물리적인"
       },
       {
-        "word": "system",
-        "meaning": "체계, 시스템"
+        "word": "settlers",
+        "meaning": "정착민"
       },
       {
         "word": "regulate",
@@ -3399,20 +3399,20 @@
     ],
     "vocab": [
       {
-        "word": "harbor",
-        "meaning": "항구"
+        "word": "buried",
+        "meaning": "묻힌"
       },
       {
         "word": "illustration",
         "meaning": "삽화"
       },
       {
-        "word": "navigator",
-        "meaning": "항해자"
+        "word": "thousands",
+        "meaning": "수천"
       },
       {
-        "word": "crush",
-        "meaning": "짓누르다"
+        "word": "properly",
+        "meaning": "제대로"
       }
     ]
   },
@@ -3454,16 +3454,16 @@
         "meaning": "모든 것"
       },
       {
-        "word": "civilization",
-        "meaning": "문명"
+        "word": "records",
+        "meaning": "기록"
       },
       {
-        "word": "myth",
-        "meaning": "신화"
+        "word": "creation",
+        "meaning": "창조"
       },
       {
-        "word": "originate",
-        "meaning": "유래하다, 시작하다"
+        "word": "deliver",
+        "meaning": "전달하다"
       }
     ]
   },
@@ -3501,12 +3501,12 @@
     ],
     "vocab": [
       {
-        "word": "places",
-        "meaning": "장소들"
+        "word": "opposite",
+        "meaning": "반대의"
       },
       {
-        "word": "grief",
-        "meaning": "슬픔, 비탄"
+        "word": "memory",
+        "meaning": "기억"
       },
       {
         "word": "mourner",
@@ -3556,12 +3556,12 @@
         "meaning": "매력"
       },
       {
-        "word": "collective",
-        "meaning": "집단적인"
+        "word": "dancing",
+        "meaning": "춤추는"
       },
       {
-        "word": "decade",
-        "meaning": "10년"
+        "word": "cruise",
+        "meaning": "항해"
       },
       {
         "word": "pole",
@@ -3607,16 +3607,16 @@
         "meaning": "비밀"
       },
       {
-        "word": "illustration",
-        "meaning": "삽화"
+        "word": "covered",
+        "meaning": "덮인"
       },
       {
         "word": "entirely",
         "meaning": "완전히"
       },
       {
-        "word": "decode",
-        "meaning": "해독하다"
+        "word": "singularity",
+        "meaning": "특이점"
       }
     ]
   },
@@ -3654,8 +3654,8 @@
     ],
     "vocab": [
       {
-        "word": "perch",
-        "meaning": "(새가) 내려앉다"
+        "word": "limitation",
+        "meaning": "한계"
       },
       {
         "word": "blindfolded",
@@ -3666,8 +3666,8 @@
         "meaning": "본능적인"
       },
       {
-        "word": "placebo",
-        "meaning": "플라시보, 위약"
+        "word": "molecular",
+        "meaning": "분자의"
       }
     ]
   },
@@ -3709,16 +3709,16 @@
         "meaning": "예측 가능한"
       },
       {
-        "word": "reveal",
-        "meaning": "드러내다"
+        "word": "indifferent",
+        "meaning": "무관심한"
       },
       {
-        "word": "sacred",
-        "meaning": "신성한"
+        "word": "weight",
+        "meaning": "무게"
       },
       {
-        "word": "strengthen",
-        "meaning": "강화하다"
+        "word": "associated",
+        "meaning": "관련된"
       }
     ]
   },
@@ -3760,16 +3760,16 @@
         "meaning": "가치 있는"
       },
       {
-        "word": "brushstroke",
-        "meaning": "붓놀림"
+        "word": "texture",
+        "meaning": "질감"
       },
       {
         "word": "merchant",
         "meaning": "상인"
       },
       {
-        "word": "adrenaline",
-        "meaning": "아드레날린"
+        "word": "temperature",
+        "meaning": "온도"
       }
     ]
   },
@@ -3815,8 +3815,8 @@
         "meaning": "권위, 당국"
       },
       {
-        "word": "limit",
-        "meaning": "제한하다"
+        "word": "protect",
+        "meaning": "보호하다"
       },
       {
         "word": "abusive",
@@ -3913,16 +3913,16 @@
         "meaning": "실패한"
       },
       {
-        "word": "reflect",
-        "meaning": "비추다, 반영하다"
+        "word": "fisherman",
+        "meaning": "어부"
       },
       {
         "word": "entrepreneur",
         "meaning": "기업가"
       },
       {
-        "word": "pathway",
-        "meaning": "경로"
+        "word": "experiment",
+        "meaning": "실험"
       }
     ]
   },
@@ -3960,20 +3960,20 @@
     ],
     "vocab": [
       {
-        "word": "truth",
-        "meaning": "진리"
+        "word": "paint",
+        "meaning": "그리다"
       },
       {
         "word": "convention",
         "meaning": "협약, 관습"
       },
       {
-        "word": "senses",
-        "meaning": "감각"
+        "word": "feast",
+        "meaning": "축제, 잔치"
       },
       {
-        "word": "symmetry",
-        "meaning": "대칭"
+        "word": "farther",
+        "meaning": "더 먼"
       }
     ]
   },
@@ -4011,12 +4011,12 @@
     ],
     "vocab": [
       {
-        "word": "universe",
-        "meaning": "우주"
+        "word": "capital",
+        "meaning": "수도"
       },
       {
-        "word": "collective",
-        "meaning": "집단적인"
+        "word": "progressive",
+        "meaning": "진보적인"
       },
       {
         "word": "genocide",
@@ -4066,12 +4066,12 @@
         "meaning": "보상"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "emotional",
+        "meaning": "감정적인"
       },
       {
-        "word": "fleeting",
-        "meaning": "덧없는, 순간적인"
+        "word": "victorious",
+        "meaning": "승리한"
       },
       {
         "word": "geothermal",
@@ -4125,8 +4125,8 @@
         "meaning": "끈질긴, 가차 없는"
       },
       {
-        "word": "fiber",
-        "meaning": "섬유"
+        "word": "sleep",
+        "meaning": "수면"
       }
     ]
   },
@@ -4168,8 +4168,8 @@
         "meaning": "웃음"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "mischievous",
+        "meaning": "장난스러운"
       },
       {
         "word": "moral",
@@ -4223,12 +4223,12 @@
         "meaning": "재생, 새로운 시작"
       },
       {
-        "word": "measure",
-        "meaning": "측정하다"
+        "word": "fishing",
+        "meaning": "어업"
       },
       {
-        "word": "fuse",
-        "meaning": "융합하다, 합치다"
+        "word": "transparent",
+        "meaning": "투명한"
       }
     ]
   },
@@ -4270,16 +4270,16 @@
         "meaning": "복수"
       },
       {
-        "word": "depict",
-        "meaning": "묘사하다, 그리다"
+        "word": "meditating",
+        "meaning": "명상하는"
       },
       {
         "word": "feud",
         "meaning": "불화, 오랜 다툼"
       },
       {
-        "word": "activate",
-        "meaning": "활성화하다"
+        "word": "chemical",
+        "meaning": "화학의"
       }
     ]
   },
@@ -4329,8 +4329,8 @@
         "meaning": "해류, 흐름"
       },
       {
-        "word": "adrenaline",
-        "meaning": "아드레날린"
+        "word": "patrolling",
+        "meaning": "순찰하는"
       }
     ]
   },
@@ -4372,16 +4372,16 @@
         "meaning": "깨어나다"
       },
       {
-        "word": "illusion",
-        "meaning": "착시, 환상"
+        "word": "heroically",
+        "meaning": "영웅적으로"
       },
       {
-        "word": "mirage",
-        "meaning": "신기루"
+        "word": "concept",
+        "meaning": "개념"
       },
       {
-        "word": "fraction",
-        "meaning": "아주 작은 부분"
+        "word": "information",
+        "meaning": "정보"
       }
     ]
   },
@@ -4423,16 +4423,16 @@
         "meaning": "더 나은"
       },
       {
-        "word": "revolutionary",
-        "meaning": "혁명적인"
+        "word": "sacrifice",
+        "meaning": "희생"
       },
       {
-        "word": "preserve",
-        "meaning": "보존하다"
+        "word": "persecution",
+        "meaning": "박해"
       },
       {
-        "word": "colony",
-        "meaning": "군집, 식민지"
+        "word": "transfusion",
+        "meaning": "수혈"
       }
     ]
   },
@@ -4474,12 +4474,12 @@
         "meaning": "천재"
       },
       {
-        "word": "brushstroke",
-        "meaning": "붓놀림"
+        "word": "luminous",
+        "meaning": "빛나는"
       },
       {
-        "word": "examination",
-        "meaning": "시험"
+        "word": "industry",
+        "meaning": "산업"
       },
       {
         "word": "graphite",
@@ -4521,12 +4521,12 @@
     ],
     "vocab": [
       {
-        "word": "truth",
-        "meaning": "진리"
+        "word": "sick",
+        "meaning": "아픈"
       },
       {
-        "word": "dangerous",
-        "meaning": "위험한"
+        "word": "reflection",
+        "meaning": "반영"
       },
       {
         "word": "pottery",
@@ -4580,12 +4580,12 @@
         "meaning": "결합하다"
       },
       {
-        "word": "preserve",
-        "meaning": "보존하다"
+        "word": "responsible",
+        "meaning": "책임감 있는"
       },
       {
-        "word": "ultraviolet",
-        "meaning": "자외선의"
+        "word": "camouflage",
+        "meaning": "위장하다"
       }
     ]
   },
@@ -4627,16 +4627,16 @@
         "meaning": "순진한, 결백한"
       },
       {
-        "word": "terrifying",
-        "meaning": "무시무시한"
+        "word": "deception",
+        "meaning": "속임수"
       },
       {
-        "word": "propaganda",
-        "meaning": "선전, 선동"
+        "word": "soldier",
+        "meaning": "군인"
       },
       {
-        "word": "illusion",
-        "meaning": "환상, 착각"
+        "word": "appears",
+        "meaning": "나타나다"
       }
     ]
   },
@@ -4678,16 +4678,16 @@
         "meaning": "부재, 결석"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "finally",
+        "meaning": "마침내"
       },
       {
-        "word": "pilgrimage",
-        "meaning": "순례"
+        "word": "ethiopia",
+        "meaning": "에티오피아"
       },
       {
-        "word": "navigate",
-        "meaning": "항해하다, 길을 찾다"
+        "word": "kilometers",
+        "meaning": "킬로미터"
       }
     ]
   },
@@ -4733,12 +4733,12 @@
         "meaning": "증폭시키다"
       },
       {
-        "word": "mainstream",
-        "meaning": "주류의"
+        "word": "demanding",
+        "meaning": "요구하는"
       },
       {
-        "word": "adolescent",
-        "meaning": "청소년"
+        "word": "electricity",
+        "meaning": "전기"
       }
     ]
   },
@@ -4784,12 +4784,12 @@
         "meaning": "은유"
       },
       {
-        "word": "longing",
-        "meaning": "그리움, 갈망"
+        "word": "valuable",
+        "meaning": "가치 있는"
       },
       {
-        "word": "abstract",
-        "meaning": "추상적인"
+        "word": "smallest",
+        "meaning": "가장 작은"
       }
     ]
   },
@@ -4831,12 +4831,12 @@
         "meaning": "탁월함"
       },
       {
-        "word": "observation",
-        "meaning": "관찰"
+        "word": "constant",
+        "meaning": "일정한"
       },
       {
-        "word": "meditation",
-        "meaning": "명상"
+        "word": "skills",
+        "meaning": "기술"
       },
       {
         "word": "erode",
@@ -4878,20 +4878,20 @@
     ],
     "vocab": [
       {
-        "word": "simplicity",
-        "meaning": "단순함, 소박함"
+        "word": "mixed",
+        "meaning": "혼합된"
       },
       {
         "word": "haystack",
         "meaning": "건초더미"
       },
       {
-        "word": "fulfillment",
-        "meaning": "만족, 성취감"
+        "word": "cabbage",
+        "meaning": "양배추"
       },
       {
-        "word": "overwhelm",
-        "meaning": "압도하다"
+        "word": "transpiration",
+        "meaning": "증산"
       }
     ]
   },
@@ -4933,16 +4933,16 @@
         "meaning": "사랑한"
       },
       {
-        "word": "longing",
-        "meaning": "동경, 그리움"
+        "word": "blankets",
+        "meaning": "담요"
       },
       {
         "word": "absent",
         "meaning": "부재하는"
       },
       {
-        "word": "identity",
-        "meaning": "정체성"
+        "word": "region",
+        "meaning": "지역"
       }
     ]
   },
@@ -5039,12 +5039,12 @@
         "meaning": "정신병원, 수용소"
       },
       {
-        "word": "cathedral",
-        "meaning": "대성당"
+        "word": "imaginative",
+        "meaning": "상상력이 풍부한"
       },
       {
-        "word": "creativity",
-        "meaning": "창의성"
+        "word": "approximately",
+        "meaning": "대략"
       }
     ]
   },
@@ -5090,8 +5090,8 @@
         "meaning": "처리하다"
       },
       {
-        "word": "purification",
-        "meaning": "정화"
+        "word": "iceland",
+        "meaning": "아이슬란드"
       },
       {
         "word": "hormone",
@@ -5137,16 +5137,16 @@
         "meaning": "구원"
       },
       {
-        "word": "reveal",
-        "meaning": "드러내다"
+        "word": "distances",
+        "meaning": "거리"
       },
       {
-        "word": "generation",
-        "meaning": "세대"
+        "word": "family",
+        "meaning": "가족"
       },
       {
-        "word": "oxytocin",
-        "meaning": "옥시토신"
+        "word": "determining",
+        "meaning": "결정하는"
       }
     ]
   },
@@ -5184,20 +5184,20 @@
     ],
     "vocab": [
       {
-        "word": "injustice",
-        "meaning": "불의, 부당함"
+        "word": "sunshine",
+        "meaning": "햇살"
       },
       {
-        "word": "symbol",
-        "meaning": "상징"
+        "word": "farmer",
+        "meaning": "농부"
       },
       {
         "word": "entitle",
         "meaning": "권리를 부여하다"
       },
       {
-        "word": "distribute",
-        "meaning": "분배하다"
+        "word": "currency",
+        "meaning": "통화"
       }
     ]
   },
@@ -5243,8 +5243,8 @@
         "meaning": "농민"
       },
       {
-        "word": "apprenticeship",
-        "meaning": "도제 제도"
+        "word": "disassemble",
+        "meaning": "분해하다"
       },
       {
         "word": "cognitive",
@@ -5258,9 +5258,9 @@
       {
         "source": "고전",
         "emoji": "📖",
-        "en": "A reader lives a thousand lives before he dies. The man who never reads lives only one.",
-        "ko": "책을 읽는 사람은 죽기 전에 천 개의 삶을 산다. 읽지 않는 사람은 단 하나의 삶만 산다.",
-        "note": "'lives a thousand lives'에서 live는 '살다'와 '삶을 경험하다'의 이중 의미야. 'The man who never reads'에서 who 관계절이 '결코 읽지 않는 사람'을 정의해."
+        "en": "Why, sometimes I've believed as many as six impossible things before breakfast.",
+        "ko": "가끔 아침 식사 전에 불가능한 일 여섯 가지를 믿어 본 적도 있어.",
+        "note": "impossible: 불가능한. 앨리스에게 하얀 여왕이 한 말로, 상상력의 힘을 보여주는 명대사입니다."
       },
       {
         "source": "명화",
@@ -5286,20 +5286,20 @@
     ],
     "vocab": [
       {
-        "word": "reader",
-        "meaning": "독자"
+        "word": "impossible",
+        "meaning": "불가능한"
       },
       {
-        "word": "illustration",
-        "meaning": "삽화"
+        "word": "unforgettable",
+        "meaning": "잊을 수 없는"
       },
       {
         "word": "gather",
         "meaning": "모이다, 모으다"
       },
       {
-        "word": "empathy",
-        "meaning": "공감"
+        "word": "interaction",
+        "meaning": "상호작용"
       }
     ]
   },
@@ -5396,8 +5396,8 @@
         "meaning": "원근법, 관점"
       },
       {
-        "word": "aqueduct",
-        "meaning": "수도교"
+        "word": "construction",
+        "meaning": "건설"
       },
       {
         "word": "reinforcement",
@@ -5439,20 +5439,20 @@
     ],
     "vocab": [
       {
-        "word": "dine",
-        "meaning": "식사하다"
+        "word": "kitchen",
+        "meaning": "부엌"
       },
       {
-        "word": "transform",
-        "meaning": "변모시키다"
+        "word": "oranges",
+        "meaning": "오렌지"
       },
       {
-        "word": "strengthen",
-        "meaning": "강화하다"
+        "word": "sharing",
+        "meaning": "나누는"
       },
       {
-        "word": "extract",
-        "meaning": "추출하다"
+        "word": "enzyme",
+        "meaning": "효소"
       }
     ]
   },
@@ -5494,16 +5494,16 @@
         "meaning": "정교하게 만들다"
       },
       {
-        "word": "portrait",
-        "meaning": "초상화"
+        "word": "status",
+        "meaning": "지위"
       },
       {
         "word": "elegance",
         "meaning": "우아함"
       },
       {
-        "word": "judgment",
-        "meaning": "판단"
+        "word": "clothing",
+        "meaning": "의복"
       }
     ]
   },
@@ -5545,8 +5545,8 @@
         "meaning": "우주"
       },
       {
-        "word": "reveal",
-        "meaning": "드러내다"
+        "word": "mathematical",
+        "meaning": "수학적인"
       },
       {
         "word": "system",
@@ -5596,16 +5596,16 @@
         "meaning": "제한하다"
       },
       {
-        "word": "community",
-        "meaning": "공동체"
+        "word": "language",
+        "meaning": "언어"
       },
       {
         "word": "diverse",
         "meaning": "다양한"
       },
       {
-        "word": "specialize",
-        "meaning": "전문화하다, 특화하다"
+        "word": "sound",
+        "meaning": "소리"
       }
     ]
   },
@@ -5647,8 +5647,8 @@
         "meaning": "묘약, 물약"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "dancer",
+        "meaning": "무용수"
       },
       {
         "word": "communicate",
@@ -5694,12 +5694,12 @@
     ],
     "vocab": [
       {
-        "word": "reflect",
-        "meaning": "비추다, 반영하다"
+        "word": "cities",
+        "meaning": "도시"
       },
       {
-        "word": "precision",
-        "meaning": "정밀함"
+        "word": "photographic",
+        "meaning": "사진의"
       },
       {
         "word": "immigrant",
@@ -5745,16 +5745,16 @@
     ],
     "vocab": [
       {
-        "word": "deliberately",
-        "meaning": "의도적으로"
+        "word": "woods",
+        "meaning": "숲"
       },
       {
         "word": "harvest",
         "meaning": "수확"
       },
       {
-        "word": "measure",
-        "meaning": "측정하다"
+        "word": "progress",
+        "meaning": "진보"
       },
       {
         "word": "nutrient",
@@ -5808,8 +5808,8 @@
         "meaning": "항해사"
       },
       {
-        "word": "current",
-        "meaning": "해류, 흐름"
+        "word": "conveyor",
+        "meaning": "컨베이어"
       }
     ]
   },
@@ -5847,12 +5847,12 @@
     ],
     "vocab": [
       {
-        "word": "diverge",
-        "meaning": "갈라지다"
+        "word": "wood",
+        "meaning": "나무, 목재"
       },
       {
-        "word": "landscape",
-        "meaning": "풍경"
+        "word": "reclaim",
+        "meaning": "되찾다"
       },
       {
         "word": "species",
@@ -5910,8 +5910,8 @@
         "meaning": "조상"
       },
       {
-        "word": "scatter",
-        "meaning": "산란하다"
+        "word": "shorter",
+        "meaning": "더 짧은"
       }
     ]
   },
@@ -5953,8 +5953,8 @@
         "meaning": "별들"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "starlight",
+        "meaning": "별빛"
       },
       {
         "word": "navigation",
@@ -6051,16 +6051,16 @@
     ],
     "vocab": [
       {
-        "word": "vivid",
-        "meaning": "선명한"
+        "word": "color",
+        "meaning": "색"
       },
       {
-        "word": "organize",
-        "meaning": "정리하다, 조직하다"
+        "word": "systematic",
+        "meaning": "체계적인"
       },
       {
-        "word": "prosperity",
-        "meaning": "번영"
+        "word": "frida",
+        "meaning": "프리다"
       },
       {
         "word": "detect",
@@ -6153,8 +6153,8 @@
     ],
     "vocab": [
       {
-        "word": "ambition",
-        "meaning": "야심, 야망"
+        "word": "silence",
+        "meaning": "침묵"
       },
       {
         "word": "absolute",
@@ -6212,8 +6212,8 @@
         "meaning": "목판"
       },
       {
-        "word": "discipline",
-        "meaning": "수련, 훈련"
+        "word": "engineering",
+        "meaning": "공학"
       },
       {
         "word": "roughly",
@@ -6310,16 +6310,16 @@
         "meaning": "덕, 미덕"
       },
       {
-        "word": "perspective",
-        "meaning": "관점, 시각"
+        "word": "solitary",
+        "meaning": "고독한"
       },
       {
-        "word": "architecture",
-        "meaning": "건축"
+        "word": "center",
+        "meaning": "중심"
       },
       {
-        "word": "topple",
-        "meaning": "쓰러지다"
+        "word": "immense",
+        "meaning": "거대한"
       }
     ]
   },
@@ -6357,20 +6357,20 @@
     ],
     "vocab": [
       {
-        "word": "reader",
-        "meaning": "독자"
+        "word": "invites",
+        "meaning": "초대하다"
       },
       {
         "word": "screen",
         "meaning": "화면, 가리다"
       },
       {
-        "word": "embrace",
-        "meaning": "껴안다"
+        "word": "japanese",
+        "meaning": "일본의"
       },
       {
-        "word": "marble",
-        "meaning": "구슬"
+        "word": "nucleus",
+        "meaning": "핵"
       }
     ]
   },
@@ -6416,8 +6416,8 @@
         "meaning": "최면적인"
       },
       {
-        "word": "boundless",
-        "meaning": "끝없는"
+        "word": "neighbors",
+        "meaning": "이웃"
       },
       {
         "word": "neuron",
@@ -6518,8 +6518,8 @@
         "meaning": "지식"
       },
       {
-        "word": "consequence",
-        "meaning": "결과"
+        "word": "determines",
+        "meaning": "결정하다"
       },
       {
         "word": "entropy",
@@ -6565,8 +6565,8 @@
         "meaning": "대화"
       },
       {
-        "word": "spiritual",
-        "meaning": "영적인"
+        "word": "conversation",
+        "meaning": "대화"
       },
       {
         "word": "interruption",
@@ -6620,8 +6620,8 @@
         "meaning": "설득하다"
       },
       {
-        "word": "merchant",
-        "meaning": "상인"
+        "word": "persuasion",
+        "meaning": "설득"
       },
       {
         "word": "narrative",
@@ -6663,8 +6663,8 @@
     ],
     "vocab": [
       {
-        "word": "dialogue",
-        "meaning": "대화"
+        "word": "answer",
+        "meaning": "대답"
       },
       {
         "word": "debate",
@@ -6722,12 +6722,12 @@
         "meaning": "강요하다"
       },
       {
-        "word": "presume",
-        "meaning": "추정하다"
+        "word": "elaborate",
+        "meaning": "정교한"
       },
       {
-        "word": "valid",
-        "meaning": "유효한"
+        "word": "millions",
+        "meaning": "수백만"
       }
     ]
   },
@@ -6773,12 +6773,12 @@
         "meaning": "묘사하다, 그리다"
       },
       {
-        "word": "revolution",
-        "meaning": "혁명"
+        "word": "sixty",
+        "meaning": "육십"
       },
       {
-        "word": "faulty",
-        "meaning": "결함이 있는"
+        "word": "newton",
+        "meaning": "뉴턴"
       }
     ]
   },
@@ -6875,8 +6875,8 @@
         "meaning": "수수께끼 같은"
       },
       {
-        "word": "eclipse",
-        "meaning": "일식, 월식"
+        "word": "speculated",
+        "meaning": "추측된"
       },
       {
         "word": "hypothesis",
@@ -6918,8 +6918,8 @@
     ],
     "vocab": [
       {
-        "word": "observe",
-        "meaning": "관찰하다"
+        "word": "finches",
+        "meaning": "핀치새"
       },
       {
         "word": "astonishing",
@@ -6973,8 +6973,8 @@
         "meaning": "공존하다"
       },
       {
-        "word": "boundary",
-        "meaning": "경계"
+        "word": "blur",
+        "meaning": "흐릿하게 하다"
       },
       {
         "word": "alchemist",
@@ -7024,12 +7024,12 @@
         "meaning": "예언"
       },
       {
-        "word": "hypothesis",
-        "meaning": "가설"
+        "word": "surgical",
+        "meaning": "외과의"
       },
       {
-        "word": "continent",
-        "meaning": "대륙"
+        "word": "proposed",
+        "meaning": "제안된"
       },
       {
         "word": "qualify",
@@ -7079,8 +7079,8 @@
         "meaning": "만화경"
       },
       {
-        "word": "transformative",
-        "meaning": "혁신적인"
+        "word": "desert",
+        "meaning": "사막"
       },
       {
         "word": "necessity",
@@ -7122,20 +7122,20 @@
     ],
     "vocab": [
       {
-        "word": "truth",
-        "meaning": "진리"
+        "word": "authors",
+        "meaning": "저자"
       },
       {
-        "word": "depict",
-        "meaning": "묘사하다, 그리다"
+        "word": "catalogued",
+        "meaning": "목록에 넣다"
       },
       {
         "word": "condition",
         "meaning": "조건, 상태"
       },
       {
-        "word": "misleading",
-        "meaning": "오해를 불러일으키는"
+        "word": "sample",
+        "meaning": "표본, 샘플"
       }
     ]
   },
@@ -7181,8 +7181,8 @@
         "meaning": "줄이다, 환원하다"
       },
       {
-        "word": "select",
-        "meaning": "선발하다"
+        "word": "achievements",
+        "meaning": "업적"
       },
       {
         "word": "flip",
@@ -7275,20 +7275,20 @@
     ],
     "vocab": [
       {
-        "word": "rounded",
-        "meaning": "둥근"
+        "word": "impurity",
+        "meaning": "불순물"
       },
       {
-        "word": "dignity",
-        "meaning": "품위"
+        "word": "material",
+        "meaning": "물질, 재료"
       },
       {
-        "word": "essential",
-        "meaning": "본질적인, 필수적인"
+        "word": "smartphones",
+        "meaning": "스마트폰"
       },
       {
-        "word": "atom",
-        "meaning": "원자"
+        "word": "differently",
+        "meaning": "다르게"
       }
     ]
   },
@@ -7330,12 +7330,12 @@
         "meaning": "풀어놓다, 해방하다"
       },
       {
-        "word": "element",
-        "meaning": "요소"
+        "word": "compose",
+        "meaning": "작곡하다"
       },
       {
-        "word": "precision",
-        "meaning": "정밀함, 정확성"
+        "word": "watchmakers",
+        "meaning": "시계공"
       },
       {
         "word": "observable",
@@ -7381,12 +7381,12 @@
         "meaning": "유전의"
       },
       {
-        "word": "generation",
-        "meaning": "세대"
+        "word": "bathing",
+        "meaning": "목욕"
       },
       {
-        "word": "indigenous",
-        "meaning": "원주민의, 토착의"
+        "word": "fossil",
+        "meaning": "화석"
       },
       {
         "word": "gene",
@@ -7428,16 +7428,16 @@
     ],
     "vocab": [
       {
-        "word": "grandeur",
-        "meaning": "장엄함, 위대함"
+        "word": "career",
+        "meaning": "직업"
       },
       {
-        "word": "background",
-        "meaning": "배경"
+        "word": "racehorse",
+        "meaning": "경주마"
       },
       {
-        "word": "observe",
-        "meaning": "관찰하다, 지켜보다"
+        "word": "laboratory",
+        "meaning": "실험실"
       },
       {
         "word": "reproduce",
@@ -7483,16 +7483,16 @@
         "meaning": "비난하다, 선고하다"
       },
       {
-        "word": "civilization",
-        "meaning": "문명"
+        "word": "empire",
+        "meaning": "제국"
       },
       {
         "word": "extinct",
         "meaning": "멸종한"
       },
       {
-        "word": "estimate",
-        "meaning": "추정하다"
+        "word": "percent",
+        "meaning": "퍼센트"
       }
     ]
   },
@@ -7530,8 +7530,8 @@
     ],
     "vocab": [
       {
-        "word": "species",
-        "meaning": "종(생물학)"
+        "word": "wolves",
+        "meaning": "늑대"
       },
       {
         "word": "predator",
@@ -7542,8 +7542,8 @@
         "meaning": "인간성, 인류"
       },
       {
-        "word": "depend",
-        "meaning": "의존하다"
+        "word": "protection",
+        "meaning": "보호"
       }
     ]
   },
@@ -7585,16 +7585,16 @@
         "meaning": "안식처"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "competition",
+        "meaning": "경쟁"
       },
       {
         "word": "rival",
         "meaning": "경쟁자, 적수"
       },
       {
-        "word": "canopy",
-        "meaning": "수관(나무 윗부분)"
+        "word": "physicists",
+        "meaning": "물리학자"
       }
     ]
   },
@@ -7632,8 +7632,8 @@
     ],
     "vocab": [
       {
-        "word": "together",
-        "meaning": "함께"
+        "word": "corresponds",
+        "meaning": "대응하다"
       },
       {
         "word": "synchronize",
@@ -7691,8 +7691,8 @@
         "meaning": "묘사하다"
       },
       {
-        "word": "elect",
-        "meaning": "선출하다"
+        "word": "governance",
+        "meaning": "통치"
       },
       {
         "word": "alpha",
@@ -7742,12 +7742,12 @@
         "meaning": "웅장한"
       },
       {
-        "word": "dedication",
-        "meaning": "헌신, 전념"
+        "word": "pioneer",
+        "meaning": "개척하다"
       },
       {
-        "word": "stage",
-        "meaning": "연출하다, 무대"
+        "word": "death",
+        "meaning": "죽음"
       }
     ]
   },
@@ -7785,20 +7785,20 @@
     ],
     "vocab": [
       {
-        "word": "examine",
-        "meaning": "검토하다, 조사하다"
+        "word": "worth",
+        "meaning": "가치"
       },
       {
-        "word": "humility",
-        "meaning": "겸손"
+        "word": "artistic",
+        "meaning": "예술적인"
       },
       {
         "word": "embed",
         "meaning": "박다, 내장하다"
       },
       {
-        "word": "discard",
-        "meaning": "버리다"
+        "word": "replication",
+        "meaning": "복제"
       }
     ]
   },
@@ -7844,8 +7844,8 @@
         "meaning": "잠자는"
       },
       {
-        "word": "regenerate",
-        "meaning": "재생되다"
+        "word": "tree",
+        "meaning": "나무"
       },
       {
         "word": "vivid",
@@ -7891,12 +7891,12 @@
         "meaning": "관찰하다"
       },
       {
-        "word": "confront",
-        "meaning": "직면하다"
+        "word": "laborers",
+        "meaning": "노동자"
       },
       {
-        "word": "transform",
-        "meaning": "변모시키다"
+        "word": "manufacture",
+        "meaning": "제조하다"
       },
       {
         "word": "fraction",
@@ -7938,16 +7938,16 @@
     ],
     "vocab": [
       {
-        "word": "imagination",
-        "meaning": "상상력"
+        "word": "gold",
+        "meaning": "금"
       },
       {
         "word": "terrifying",
         "meaning": "무시무시한"
       },
       {
-        "word": "legend",
-        "meaning": "전설"
+        "word": "fictional",
+        "meaning": "허구의"
       },
       {
         "word": "mirage",
@@ -8001,8 +8001,8 @@
         "meaning": "믿음, 신념"
       },
       {
-        "word": "tend",
-        "meaning": "~하는 경향이 있다"
+        "word": "superstition",
+        "meaning": "미신"
       }
     ]
   },
@@ -8048,8 +8048,8 @@
         "meaning": "캔버스"
       },
       {
-        "word": "collective",
-        "meaning": "집단의, 공동의"
+        "word": "kibbutzim",
+        "meaning": "키부츠"
       },
       {
         "word": "wire",
@@ -8091,20 +8091,20 @@
     ],
     "vocab": [
       {
-        "word": "therefore",
-        "meaning": "그러므로"
+        "word": "unexamined",
+        "meaning": "검토되지 않은"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "philosopher",
+        "meaning": "철학자"
       },
       {
-        "word": "debate",
-        "meaning": "토론하다"
+        "word": "justice",
+        "meaning": "정의"
       },
       {
-        "word": "certainty",
-        "meaning": "확실성"
+        "word": "consciousness",
+        "meaning": "의식"
       }
     ]
   },
@@ -8146,12 +8146,12 @@
         "meaning": "승리자"
       },
       {
-        "word": "tradition",
-        "meaning": "전통"
+        "word": "classical",
+        "meaning": "고전적인"
       },
       {
-        "word": "decipher",
-        "meaning": "해독하다"
+        "word": "construct",
+        "meaning": "건설하다"
       },
       {
         "word": "rely",
@@ -8197,16 +8197,16 @@
         "meaning": "자비심, 선의"
       },
       {
-        "word": "reveal",
-        "meaning": "드러내다"
+        "word": "intimate",
+        "meaning": "친밀한"
       },
       {
-        "word": "exchange",
-        "meaning": "교환, 교류"
+        "word": "heavily",
+        "meaning": "무겁게"
       },
       {
-        "word": "inflation",
-        "meaning": "인플레이션"
+        "word": "inefficient",
+        "meaning": "비효율적인"
       }
     ]
   },
@@ -8248,16 +8248,16 @@
         "meaning": "정치적인"
       },
       {
-        "word": "transform",
-        "meaning": "변모시키다"
+        "word": "national",
+        "meaning": "국가의"
       },
       {
-        "word": "referendum",
-        "meaning": "국민투표"
+        "word": "important",
+        "meaning": "중요한"
       },
       {
-        "word": "establish",
-        "meaning": "확립하다"
+        "word": "informal",
+        "meaning": "비공식적인"
       }
     ]
   },
@@ -8295,20 +8295,20 @@
     ],
     "vocab": [
       {
-        "word": "democracy",
-        "meaning": "민주주의"
+        "word": "argument",
+        "meaning": "논쟁"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "presenting",
+        "meaning": "제시하는"
       },
       {
         "word": "referendum",
         "meaning": "국민투표"
       },
       {
-        "word": "perspective",
-        "meaning": "관점, 시각"
+        "word": "paradox",
+        "meaning": "역설"
       }
     ]
   },
@@ -8350,16 +8350,16 @@
         "meaning": "다스리다, 통치하다"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "imperfect",
+        "meaning": "불완전한"
       },
       {
         "word": "compulsory",
         "meaning": "의무적인"
       },
       {
-        "word": "turnout",
-        "meaning": "투표율, 참석률"
+        "word": "opinion",
+        "meaning": "의견"
       }
     ]
   },
@@ -8397,12 +8397,12 @@
     ],
     "vocab": [
       {
-        "word": "injustice",
-        "meaning": "불의, 부당함"
+        "word": "liberty",
+        "meaning": "자유"
       },
       {
-        "word": "portray",
-        "meaning": "묘사하다"
+        "word": "theological",
+        "meaning": "신학적인"
       },
       {
         "word": "principle",
@@ -8448,8 +8448,8 @@
     ],
     "vocab": [
       {
-        "word": "arc",
-        "meaning": "호, 곡선"
+        "word": "ridicule",
+        "meaning": "조롱"
       },
       {
         "word": "reveal",
@@ -8503,8 +8503,8 @@
         "meaning": "목격하다"
       },
       {
-        "word": "dramatic",
-        "meaning": "극적인"
+        "word": "scenes",
+        "meaning": "장면"
       },
       {
         "word": "organize",
@@ -8554,12 +8554,12 @@
         "meaning": "형벌, 처벌"
       },
       {
-        "word": "reflect",
-        "meaning": "비추다, 반영하다"
+        "word": "execution",
+        "meaning": "실행"
       },
       {
-        "word": "rehabilitation",
-        "meaning": "재활, 갱생"
+        "word": "earthquake",
+        "meaning": "지진"
       },
       {
         "word": "deter",
@@ -8609,12 +8609,12 @@
         "meaning": "포착하다"
       },
       {
-        "word": "reconciliation",
-        "meaning": "화해"
+        "word": "south",
+        "meaning": "남쪽"
       },
       {
-        "word": "hormone",
-        "meaning": "호르몬"
+        "word": "neuroscience",
+        "meaning": "신경과학"
       }
     ]
   },
@@ -8656,16 +8656,16 @@
         "meaning": "복지"
       },
       {
-        "word": "spiritual",
-        "meaning": "영적인"
+        "word": "prayer",
+        "meaning": "기도"
       },
       {
-        "word": "universal",
-        "meaning": "보편적인"
+        "word": "scandinavian",
+        "meaning": "스칸디나비아의"
       },
       {
-        "word": "discourage",
-        "meaning": "단념시키다, 의욕을 꺾다"
+        "word": "eliminating",
+        "meaning": "제거하는"
       }
     ]
   },
@@ -8711,12 +8711,12 @@
         "meaning": "고국"
       },
       {
-        "word": "bond",
-        "meaning": "유대, 결속"
+        "word": "turkish",
+        "meaning": "터키의"
       },
       {
-        "word": "navigate",
-        "meaning": "길을 찾다"
+        "word": "migrate",
+        "meaning": "이주하다"
       }
     ]
   },
@@ -8758,16 +8758,16 @@
         "meaning": "난민"
       },
       {
-        "word": "portray",
-        "meaning": "묘사하다"
+        "word": "attempt",
+        "meaning": "시도"
       },
       {
-        "word": "estimate",
-        "meaning": "추정하다"
+        "word": "worldwide",
+        "meaning": "전세계적인"
       },
       {
-        "word": "hippocampus",
-        "meaning": "해마 (뇌 부위)"
+        "word": "drought",
+        "meaning": "가뭄"
       }
     ]
   },
@@ -8805,16 +8805,16 @@
     ],
     "vocab": [
       {
-        "word": "destroy",
-        "meaning": "파괴하다"
+        "word": "restore",
+        "meaning": "복원하다"
       },
       {
-        "word": "civilization",
-        "meaning": "문명"
+        "word": "trampling",
+        "meaning": "짓밟는"
       },
       {
-        "word": "establish",
-        "meaning": "확립하다"
+        "word": "cambodia",
+        "meaning": "캄보디아"
       },
       {
         "word": "gunpowder",
@@ -8860,12 +8860,12 @@
         "meaning": "외교"
       },
       {
-        "word": "illustrate",
-        "meaning": "설명하다"
+        "word": "nurture",
+        "meaning": "양육하다"
       },
       {
-        "word": "exchange",
-        "meaning": "교환, 교류"
+        "word": "diplomats",
+        "meaning": "외교관"
       },
       {
         "word": "intention",
@@ -8911,12 +8911,12 @@
         "meaning": "자비, 관용"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "connects",
+        "meaning": "연결하다"
       },
       {
-        "word": "continent",
-        "meaning": "대륙"
+        "word": "dominate",
+        "meaning": "지배하다"
       },
       {
         "word": "efficient",
@@ -8962,12 +8962,12 @@
         "meaning": "비축하다, 사재기하다"
       },
       {
-        "word": "examine",
-        "meaning": "살피다, 검토하다"
+        "word": "highlighting",
+        "meaning": "강조하는"
       },
       {
-        "word": "exist",
-        "meaning": "존재하다"
+        "word": "shells",
+        "meaning": "조개껍데기"
       },
       {
         "word": "decentralize",
@@ -9017,12 +9017,12 @@
         "meaning": "감상하다, 가치가 오르다"
       },
       {
-        "word": "transform",
-        "meaning": "변모시키다"
+        "word": "investment",
+        "meaning": "투자"
       },
       {
-        "word": "exponentially",
-        "meaning": "기하급수적으로"
+        "word": "investing",
+        "meaning": "투자하는"
       }
     ]
   },
@@ -9060,20 +9060,20 @@
     ],
     "vocab": [
       {
-        "word": "comprehend",
-        "meaning": "이해하다"
+        "word": "mistaking",
+        "meaning": "착각하는"
       },
       {
-        "word": "dignity",
-        "meaning": "존엄성"
+        "word": "tattered",
+        "meaning": "너덜너덜한"
       },
       {
-        "word": "remain",
-        "meaning": "남다, 유지하다"
+        "word": "countries",
+        "meaning": "국가"
       },
       {
-        "word": "reduce",
-        "meaning": "줄이다, 환원하다"
+        "word": "studies",
+        "meaning": "연구"
       }
     ]
   },
@@ -9119,12 +9119,12 @@
         "meaning": "기록하다, 서류"
       },
       {
-        "word": "transform",
-        "meaning": "변모시키다"
+        "word": "modern",
+        "meaning": "현대의"
       },
       {
-        "word": "significantly",
-        "meaning": "상당히, 크게"
+        "word": "causing",
+        "meaning": "유발하는"
       }
     ]
   },
@@ -9170,12 +9170,12 @@
         "meaning": "장관"
       },
       {
-        "word": "originate",
-        "meaning": "유래하다, 시작되다"
+        "word": "convenience",
+        "meaning": "편의"
       },
       {
-        "word": "element",
-        "meaning": "원소, 요소"
+        "word": "vibrations",
+        "meaning": "진동"
       }
     ]
   },
@@ -9213,16 +9213,16 @@
     ],
     "vocab": [
       {
-        "word": "desperate",
-        "meaning": "필사적인"
+        "word": "strike",
+        "meaning": "파업"
       },
       {
         "word": "tapestry",
         "meaning": "태피스트리, 직물 벽걸이"
       },
       {
-        "word": "reliability",
-        "meaning": "신뢰성"
+        "word": "rapidly",
+        "meaning": "빠르게"
       },
       {
         "word": "achieve",
@@ -9268,16 +9268,16 @@
         "meaning": "가정의, 국내의"
       },
       {
-        "word": "transform",
-        "meaning": "변모시키다"
+        "word": "station",
+        "meaning": "역"
       },
       {
-        "word": "comfort",
-        "meaning": "위로하다"
+        "word": "singapore",
+        "meaning": "싱가포르"
       },
       {
-        "word": "hexagonal",
-        "meaning": "육각형의"
+        "word": "consumption",
+        "meaning": "소비"
       }
     ]
   },
@@ -9319,16 +9319,16 @@
         "meaning": "낭비하다"
       },
       {
-        "word": "precious",
-        "meaning": "소중한"
+        "word": "arranges",
+        "meaning": "배열하다"
       },
       {
-        "word": "embrace",
-        "meaning": "껴안다"
+        "word": "embargo",
+        "meaning": "금수 조치"
       },
       {
-        "word": "creatively",
-        "meaning": "창의적으로"
+        "word": "inventions",
+        "meaning": "발명"
       }
     ]
   },
@@ -9366,8 +9366,8 @@
     ],
     "vocab": [
       {
-        "word": "places",
-        "meaning": "장소들"
+        "word": "highly",
+        "meaning": "매우"
       },
       {
         "word": "rehabilitation",
@@ -9421,16 +9421,16 @@
         "meaning": "활력"
       },
       {
-        "word": "emerge",
-        "meaning": "나타나다, 떠오르다"
+        "word": "healthy",
+        "meaning": "건강한"
       },
       {
         "word": "imbalance",
         "meaning": "불균형"
       },
       {
-        "word": "infection",
-        "meaning": "감염"
+        "word": "according",
+        "meaning": "~에 따르면"
       }
     ]
   },
@@ -9523,12 +9523,12 @@
         "meaning": "용량, 복용량"
       },
       {
-        "word": "reveal",
-        "meaning": "드러내다"
+        "word": "dependence",
+        "meaning": "의존"
       },
       {
-        "word": "ritual",
-        "meaning": "의식, 의례"
+        "word": "afghanistan",
+        "meaning": "아프가니스탄"
       },
       {
         "word": "receptor",
@@ -9574,16 +9574,16 @@
         "meaning": "이성, 정신 건강"
       },
       {
-        "word": "sleeping",
-        "meaning": "잠자는"
+        "word": "slumber",
+        "meaning": "잠"
       },
       {
         "word": "productivity",
         "meaning": "생산성"
       },
       {
-        "word": "essential",
-        "meaning": "필수적인"
+        "word": "deprivation",
+        "meaning": "박탈"
       }
     ]
   },
@@ -9629,8 +9629,8 @@
         "meaning": "영양을 공급하다"
       },
       {
-        "word": "vegetable",
-        "meaning": "채소"
+        "word": "rediscover",
+        "meaning": "재발견하다"
       },
       {
         "word": "crucial",
@@ -9676,16 +9676,16 @@
         "meaning": "싸우다, 투쟁"
       },
       {
-        "word": "intensity",
-        "meaning": "강렬함"
+        "word": "competitive",
+        "meaning": "경쟁적인"
       },
       {
         "word": "demonstrate",
         "meaning": "증명하다"
       },
       {
-        "word": "efficient",
-        "meaning": "효율적인"
+        "word": "altitude",
+        "meaning": "고도"
       }
     ]
   },
@@ -9723,20 +9723,20 @@
     ],
     "vocab": [
       {
-        "word": "unreasoning",
-        "meaning": "비이성적인"
+        "word": "receptive",
+        "meaning": "수용적인"
       },
       {
-        "word": "scatter",
-        "meaning": "흩어지다"
+        "word": "tension",
+        "meaning": "긴장"
       },
       {
-        "word": "productivity",
-        "meaning": "생산성"
+        "word": "growth",
+        "meaning": "성장"
       },
       {
-        "word": "suppress",
-        "meaning": "억제하다"
+        "word": "releases",
+        "meaning": "방출하다"
       }
     ]
   },
@@ -9778,12 +9778,12 @@
         "meaning": "돌보다, 가꾸다"
       },
       {
-        "word": "discipline",
-        "meaning": "수련, 훈련"
+        "word": "sketched",
+        "meaning": "스케치한"
       },
       {
-        "word": "philosophy",
-        "meaning": "철학"
+        "word": "tournaments",
+        "meaning": "토너먼트"
       },
       {
         "word": "pathway",
@@ -9837,8 +9837,8 @@
         "meaning": "거의"
       },
       {
-        "word": "trigger",
-        "meaning": "유발하다, 촉발시키다"
+        "word": "structure",
+        "meaning": "구조"
       }
     ]
   },
@@ -9880,12 +9880,12 @@
         "meaning": "화난"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "consumed",
+        "meaning": "소비된"
       },
       {
-        "word": "collective",
-        "meaning": "집단적인"
+        "word": "singing",
+        "meaning": "노래하는"
       },
       {
         "word": "adrenaline",
@@ -9986,12 +9986,12 @@
         "meaning": "기쁨, 즐거움"
       },
       {
-        "word": "haunting",
-        "meaning": "잊혀지지 않는, 마음을 사로잡는"
+        "word": "portuguese",
+        "meaning": "포르투갈의"
       },
       {
-        "word": "wavelength",
-        "meaning": "파장"
+        "word": "specific",
+        "meaning": "특정한"
       }
     ]
   },
@@ -10033,12 +10033,12 @@
         "meaning": "시기하다, 부러워하다"
       },
       {
-        "word": "reveal",
-        "meaning": "드러내다"
+        "word": "vulnerability",
+        "meaning": "취약성"
       },
       {
-        "word": "community",
-        "meaning": "공동체"
+        "word": "vibrant",
+        "meaning": "활기찬"
       },
       {
         "word": "bond",
@@ -10084,12 +10084,12 @@
         "meaning": "질투"
       },
       {
-        "word": "contrast",
-        "meaning": "대조"
+        "word": "sharply",
+        "meaning": "날카롭게"
       },
       {
-        "word": "amplify",
-        "meaning": "증폭시키다"
+        "word": "constantly",
+        "meaning": "끊임없이"
       },
       {
         "word": "mechanism",
@@ -10135,12 +10135,12 @@
         "meaning": "수치심"
       },
       {
-        "word": "humanity",
-        "meaning": "인류, 인간성"
+        "word": "covering",
+        "meaning": "덮는"
       },
       {
-        "word": "distinguish",
-        "meaning": "구별하다"
+        "word": "airplanes",
+        "meaning": "비행기"
       },
       {
         "word": "vessel",
@@ -10186,16 +10186,16 @@
         "meaning": "자존감"
       },
       {
-        "word": "portrait",
-        "meaning": "초상화"
+        "word": "confident",
+        "meaning": "자신감 있는"
       },
       {
         "word": "birthplace",
         "meaning": "출생지"
       },
       {
-        "word": "criticism",
-        "meaning": "비판"
+        "word": "affirmation",
+        "meaning": "긍정"
       }
     ]
   },
@@ -10237,8 +10237,8 @@
         "meaning": "동기, 의욕"
       },
       {
-        "word": "reveal",
-        "meaning": "드러내다"
+        "word": "creative",
+        "meaning": "창의적인"
       },
       {
         "word": "dedication",
@@ -10284,16 +10284,16 @@
     ],
     "vocab": [
       {
-        "word": "destroy",
-        "meaning": "파괴하다"
+        "word": "circumstance",
+        "meaning": "상황"
       },
       {
-        "word": "defeat",
-        "meaning": "패배시키다"
+        "word": "windmill",
+        "meaning": "풍차"
       },
       {
-        "word": "survive",
-        "meaning": "살아남다"
+        "word": "polyphonic",
+        "meaning": "다성의"
       },
       {
         "word": "carbon",
@@ -10339,16 +10339,16 @@
         "meaning": "영원히"
       },
       {
-        "word": "formal",
-        "meaning": "정규의, 공식적인"
+        "word": "village",
+        "meaning": "마을"
       },
       {
-        "word": "consistent",
-        "meaning": "일관된"
+        "word": "democratic",
+        "meaning": "민주적인"
       },
       {
-        "word": "connection",
-        "meaning": "연결"
+        "word": "forming",
+        "meaning": "형성하는"
       }
     ]
   },
@@ -10394,8 +10394,8 @@
         "meaning": "덧없는, 순간적인"
       },
       {
-        "word": "meditation",
-        "meaning": "명상"
+        "word": "distinctive",
+        "meaning": "독특한"
       },
       {
         "word": "multitasking",
@@ -10445,8 +10445,8 @@
         "meaning": "창의성"
       },
       {
-        "word": "continent",
-        "meaning": "대륙"
+        "word": "originality",
+        "meaning": "독창성"
       },
       {
         "word": "spiral",
@@ -10492,12 +10492,12 @@
         "meaning": "비판"
       },
       {
-        "word": "debate",
-        "meaning": "토론하다"
+        "word": "criticize",
+        "meaning": "비판하다"
       },
       {
-        "word": "exile",
-        "meaning": "추방하다"
+        "word": "unexploded",
+        "meaning": "불발의"
       },
       {
         "word": "constructive",
@@ -10547,12 +10547,12 @@
         "meaning": "흔들림 없는, 단호한"
       },
       {
-        "word": "reconciliation",
-        "meaning": "화해"
+        "word": "oponopono",
+        "meaning": "호오포노포노"
       },
       {
-        "word": "absorb",
-        "meaning": "흡수하다"
+        "word": "threatening",
+        "meaning": "위협적인"
       }
     ]
   },
@@ -10594,8 +10594,8 @@
         "meaning": "선호하다"
       },
       {
-        "word": "sculpt",
-        "meaning": "조각하다"
+        "word": "mother",
+        "meaning": "어머니"
       },
       {
         "word": "spark",
@@ -10645,12 +10645,12 @@
         "meaning": "협상하다"
       },
       {
-        "word": "master",
-        "meaning": "장인, 거장"
+        "word": "humble",
+        "meaning": "겸손한"
       },
       {
-        "word": "compromise",
-        "meaning": "타협"
+        "word": "management",
+        "meaning": "경영"
       },
       {
         "word": "outcome",
@@ -10743,16 +10743,16 @@
     ],
     "vocab": [
       {
-        "word": "saddest",
-        "meaning": "가장 슬픈"
+        "word": "mice",
+        "meaning": "생쥐"
       },
       {
         "word": "embrace",
         "meaning": "포옹하다"
       },
       {
-        "word": "fermentation",
-        "meaning": "발효"
+        "word": "armenians",
+        "meaning": "아르메니아인"
       },
       {
         "word": "regret",
@@ -10794,16 +10794,16 @@
     ],
     "vocab": [
       {
-        "word": "wisdom",
-        "meaning": "지혜"
+        "word": "learn",
+        "meaning": "배우다"
       },
       {
-        "word": "self-portrait",
-        "meaning": "자화상"
+        "word": "circle",
+        "meaning": "원"
       },
       {
-        "word": "soul",
-        "meaning": "영혼"
+        "word": "literary",
+        "meaning": "문학의"
       },
       {
         "word": "self-awareness",
@@ -10845,16 +10845,16 @@
     ],
     "vocab": [
       {
-        "word": "continent",
-        "meaning": "대륙"
+        "word": "thrown",
+        "meaning": "던져진"
       },
       {
-        "word": "boundary",
-        "meaning": "경계"
+        "word": "classes",
+        "meaning": "계급"
       },
       {
-        "word": "philosophy",
-        "meaning": "철학"
+        "word": "ideas",
+        "meaning": "생각"
       },
       {
         "word": "mirror neuron",
@@ -10904,8 +10904,8 @@
         "meaning": "겹치다"
       },
       {
-        "word": "pilgrimage",
-        "meaning": "순례"
+        "word": "hospitality",
+        "meaning": "환대"
       },
       {
         "word": "shallow",
@@ -10951,16 +10951,16 @@
         "meaning": "왜냐하면"
       },
       {
-        "word": "express",
-        "meaning": "표현하다"
+        "word": "hometown",
+        "meaning": "고향"
       },
       {
-        "word": "immigrant",
-        "meaning": "이민자"
+        "word": "smells",
+        "meaning": "냄새"
       },
       {
-        "word": "nostalgia",
-        "meaning": "향수, 노스탤지어"
+        "word": "hippocampus",
+        "meaning": "해마 (뇌 부위)"
       }
     ]
   },
@@ -11002,12 +11002,12 @@
         "meaning": "여행하다"
       },
       {
-        "word": "reflect",
-        "meaning": "비추다, 반영하다"
+        "word": "postures",
+        "meaning": "자세"
       },
       {
-        "word": "network",
-        "meaning": "네트워크, 연결망"
+        "word": "brazilian",
+        "meaning": "브라질의"
       },
       {
         "word": "adjust",
@@ -11053,8 +11053,8 @@
         "meaning": "떠돌다, 방황하다"
       },
       {
-        "word": "homecoming",
-        "meaning": "귀향"
+        "word": "drape",
+        "meaning": "드리우다"
       },
       {
         "word": "unbreakable",
@@ -11104,16 +11104,16 @@
         "meaning": "놀이, 놀다"
       },
       {
-        "word": "laughter",
-        "meaning": "웃음"
+        "word": "overflows",
+        "meaning": "넘쳐흐르다"
       },
       {
         "word": "discard",
         "meaning": "버리다"
       },
       {
-        "word": "survive",
-        "meaning": "생존하다"
+        "word": "adults",
+        "meaning": "성인"
       }
     ]
   },
@@ -11155,8 +11155,8 @@
         "meaning": "의례, 의식"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "divine",
+        "meaning": "신성한"
       },
       {
         "word": "ceremony",
@@ -11214,8 +11214,8 @@
         "meaning": "애도"
       },
       {
-        "word": "species",
-        "meaning": "종(種)"
+        "word": "attention",
+        "meaning": "주의"
       }
     ]
   },
@@ -11261,8 +11261,8 @@
         "meaning": "위장하다, 변장"
       },
       {
-        "word": "civilization",
-        "meaning": "문명"
+        "word": "flood",
+        "meaning": "홍수"
       },
       {
         "word": "eclipse",
@@ -11304,16 +11304,16 @@
     ],
     "vocab": [
       {
-        "word": "universe",
-        "meaning": "우주"
+        "word": "dice",
+        "meaning": "주사위"
       },
       {
         "word": "vast",
         "meaning": "광활한"
       },
       {
-        "word": "observatory",
-        "meaning": "관측소"
+        "word": "azerbaijan",
+        "meaning": "아제르바이잔"
       },
       {
         "word": "galaxy",
@@ -11355,20 +11355,20 @@
     ],
     "vocab": [
       {
-        "word": "inherit",
-        "meaning": "물려받다"
+        "word": "organism",
+        "meaning": "유기체"
       },
       {
-        "word": "transform",
-        "meaning": "변모시키다"
+        "word": "photograph",
+        "meaning": "사진"
       },
       {
-        "word": "measure",
-        "meaning": "측정하다"
+        "word": "success",
+        "meaning": "성공"
       },
       {
-        "word": "atmosphere",
-        "meaning": "대기"
+        "word": "thinner",
+        "meaning": "더 얇은"
       }
     ]
   },
@@ -11406,16 +11406,16 @@
     ],
     "vocab": [
       {
-        "word": "exist",
-        "meaning": "존재하다"
+        "word": "commodity",
+        "meaning": "상품"
       },
       {
-        "word": "reflect",
-        "meaning": "비추다, 반영하다"
+        "word": "chrysanthemums",
+        "meaning": "국화"
       },
       {
-        "word": "balance",
-        "meaning": "균형"
+        "word": "bolivia",
+        "meaning": "볼리비아"
       },
       {
         "word": "pollinate",
@@ -11465,8 +11465,8 @@
         "meaning": "압도적인"
       },
       {
-        "word": "consequence",
-        "meaning": "결과"
+        "word": "emissions",
+        "meaning": "배출"
       },
       {
         "word": "greenhouse",
@@ -11508,20 +11508,20 @@
     ],
     "vocab": [
       {
-        "word": "opportunity",
-        "meaning": "기회"
+        "word": "crisis",
+        "meaning": "위기"
       },
       {
-        "word": "civilization",
-        "meaning": "문명"
+        "word": "columns",
+        "meaning": "기둥"
       },
       {
-        "word": "devastating",
-        "meaning": "참혹한, 파괴적인"
+        "word": "resilience",
+        "meaning": "회복탄력성"
       },
       {
-        "word": "disaster",
-        "meaning": "재난"
+        "word": "potential",
+        "meaning": "잠재력"
       }
     ]
   },
@@ -11614,16 +11614,16 @@
         "meaning": "예방"
       },
       {
-        "word": "laughter",
-        "meaning": "웃음"
+        "word": "visiting",
+        "meaning": "방문하는"
       },
       {
         "word": "dike",
         "meaning": "제방"
       },
       {
-        "word": "vaccine",
-        "meaning": "백신"
+        "word": "existence",
+        "meaning": "존재"
       }
     ]
   },
@@ -11665,12 +11665,12 @@
         "meaning": "죽은"
       },
       {
-        "word": "brushstroke",
-        "meaning": "붓놀림"
+        "word": "cradle",
+        "meaning": "요람"
       },
       {
-        "word": "civilization",
-        "meaning": "문명"
+        "word": "undisturbed",
+        "meaning": "방해받지 않는"
       },
       {
         "word": "seatbelt",
@@ -11720,8 +11720,8 @@
         "meaning": "장식적인"
       },
       {
-        "word": "transform",
-        "meaning": "변화시키다"
+        "word": "legendary",
+        "meaning": "전설적인"
       },
       {
         "word": "wavelength",
@@ -11767,8 +11767,8 @@
         "meaning": "인식"
       },
       {
-        "word": "discipline",
-        "meaning": "수련, 훈련"
+        "word": "etiquette",
+        "meaning": "예절"
       },
       {
         "word": "refuse",
@@ -11826,8 +11826,8 @@
         "meaning": "어른, 연장자"
       },
       {
-        "word": "environment",
-        "meaning": "환경"
+        "word": "epigenetics",
+        "meaning": "후성유전학"
       }
     ]
   },
@@ -11916,16 +11916,16 @@
     ],
     "vocab": [
       {
-        "word": "passion",
-        "meaning": "열정"
+        "word": "separate",
+        "meaning": "분리된"
       },
       {
-        "word": "determination",
-        "meaning": "결의, 결심"
+        "word": "sword",
+        "meaning": "검"
       },
       {
-        "word": "pattern",
-        "meaning": "패턴, 무늬"
+        "word": "vyshyvanka",
+        "meaning": "비시반카"
       },
       {
         "word": "cortex",
@@ -11979,8 +11979,8 @@
         "meaning": "순위를 차지하다"
       },
       {
-        "word": "neural",
-        "meaning": "신경의"
+        "word": "undeveloped",
+        "meaning": "미개발의"
       }
     ]
   },
@@ -12018,8 +12018,8 @@
     ],
     "vocab": [
       {
-        "word": "pail",
-        "meaning": "양동이"
+        "word": "sure",
+        "meaning": "확신하는"
       },
       {
         "word": "transformation",
@@ -12124,16 +12124,16 @@
         "meaning": "타자기"
       },
       {
-        "word": "honor",
-        "meaning": "기리다, 존경하다"
+        "word": "scholar",
+        "meaning": "학자"
       },
       {
-        "word": "tradition",
-        "meaning": "전통"
+        "word": "textile",
+        "meaning": "직물"
       },
       {
-        "word": "activate",
-        "meaning": "활성화시키다"
+        "word": "improve",
+        "meaning": "개선하다"
       }
     ]
   },
@@ -12175,12 +12175,12 @@
         "meaning": "남다, 유지하다"
       },
       {
-        "word": "identity",
-        "meaning": "정체성"
+        "word": "palette",
+        "meaning": "팔레트"
       },
       {
-        "word": "pattern",
-        "meaning": "패턴, 무늬"
+        "word": "dates",
+        "meaning": "날짜"
       },
       {
         "word": "dopamine",
@@ -12222,16 +12222,16 @@
     ],
     "vocab": [
       {
-        "word": "soul",
-        "meaning": "영혼"
+        "word": "hidden",
+        "meaning": "숨겨진"
       },
       {
-        "word": "embody",
-        "meaning": "구현하다, 구체화하다"
+        "word": "robert",
+        "meaning": "로버트"
       },
       {
-        "word": "gesture",
-        "meaning": "손짓, 제스처"
+        "word": "manuscript",
+        "meaning": "필사본"
       },
       {
         "word": "momentum",
@@ -12273,20 +12273,20 @@
     ],
     "vocab": [
       {
-        "word": "stage",
-        "meaning": "무대"
+        "word": "entrances",
+        "meaning": "입구"
       },
       {
-        "word": "portrait",
-        "meaning": "초상화"
+        "word": "theatrical",
+        "meaning": "연극적인"
       },
       {
-        "word": "reputation",
-        "meaning": "평판, 명성"
+        "word": "ornate",
+        "meaning": "화려한"
       },
       {
-        "word": "intensity",
-        "meaning": "강도, 세기"
+        "word": "sunset",
+        "meaning": "일몰"
       }
     ]
   },
@@ -12324,8 +12324,8 @@
     ],
     "vocab": [
       {
-        "word": "exist",
-        "meaning": "존재하다"
+        "word": "cinema",
+        "meaning": "영화"
       },
       {
         "word": "anticipate",
@@ -12375,16 +12375,16 @@
     ],
     "vocab": [
       {
-        "word": "secret",
-        "meaning": "비밀"
+        "word": "tell",
+        "meaning": "말하다"
       },
       {
         "word": "precision",
         "meaning": "정밀함"
       },
       {
-        "word": "absolute",
-        "meaning": "절대적인"
+        "word": "photographer",
+        "meaning": "사진가"
       },
       {
         "word": "converge",
@@ -12430,8 +12430,8 @@
         "meaning": "요소"
       },
       {
-        "word": "concentration",
-        "meaning": "집중"
+        "word": "strategy",
+        "meaning": "전략"
       },
       {
         "word": "originate",
@@ -12481,8 +12481,8 @@
         "meaning": "무행동, 행동하지 않음"
       },
       {
-        "word": "illustration",
-        "meaning": "삽화"
+        "word": "fascinated",
+        "meaning": "매료된"
       },
       {
         "word": "intelligence",
@@ -12536,8 +12536,8 @@
         "meaning": "인공적인"
       },
       {
-        "word": "literacy",
-        "meaning": "문해력"
+        "word": "healthcare",
+        "meaning": "의료"
       },
       {
         "word": "fundamental",
@@ -12579,20 +12579,20 @@
     ],
     "vocab": [
       {
-        "word": "organize",
-        "meaning": "정리하다, 조직하다"
+        "word": "computers",
+        "meaning": "컴퓨터"
       },
       {
-        "word": "depict",
-        "meaning": "묘사하다, 그리다"
+        "word": "study",
+        "meaning": "공부"
       },
       {
-        "word": "tradition",
-        "meaning": "전통"
+        "word": "annual",
+        "meaning": "연례의"
       },
       {
-        "word": "petabyte",
-        "meaning": "페타바이트"
+        "word": "cherry",
+        "meaning": "벚꽃, 체리"
       }
     ]
   },
@@ -12685,16 +12685,16 @@
         "meaning": "기념물"
       },
       {
-        "word": "concentration",
-        "meaning": "집중"
+        "word": "frozen",
+        "meaning": "얼어붙은"
       },
       {
-        "word": "independence",
-        "meaning": "독립"
+        "word": "garment",
+        "meaning": "의복"
       },
       {
-        "word": "absorb",
-        "meaning": "흡수하다"
+        "word": "cellulose",
+        "meaning": "셀룰로스"
       }
     ]
   },
@@ -12736,16 +12736,16 @@
         "meaning": "매체"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "connect",
+        "meaning": "연결하다"
       },
       {
         "word": "broadcast",
         "meaning": "방송하다"
       },
       {
-        "word": "fraction",
-        "meaning": "일부, 분수"
+        "word": "designed",
+        "meaning": "설계된"
       }
     ]
   },
@@ -12787,12 +12787,12 @@
         "meaning": "설득하다"
       },
       {
-        "word": "revolutionize",
-        "meaning": "혁명을 일으키다"
+        "word": "advertising",
+        "meaning": "광고"
       },
       {
-        "word": "commercial",
-        "meaning": "광고, 상업적인"
+        "word": "largest",
+        "meaning": "가장 큰"
       },
       {
         "word": "diode",
@@ -12838,8 +12838,8 @@
         "meaning": "소비자"
       },
       {
-        "word": "commercial",
-        "meaning": "광고, 상업적인"
+        "word": "branded",
+        "meaning": "낙인찍힌"
       },
       {
         "word": "counterfeit",
@@ -12889,16 +12889,16 @@
         "meaning": "(종을) 울리다"
       },
       {
-        "word": "demonstrate",
-        "meaning": "증명하다"
+        "word": "precise",
+        "meaning": "정확한"
       },
       {
-        "word": "simplicity",
-        "meaning": "단순함"
+        "word": "sevusevu",
+        "meaning": "세부세부 (피지 의식)"
       },
       {
-        "word": "distribute",
-        "meaning": "분산시키다, 배분하다"
+        "word": "engineers",
+        "meaning": "공학자"
       }
     ]
   },
@@ -12940,16 +12940,16 @@
         "meaning": "발표하다"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "tomb",
+        "meaning": "무덤"
       },
       {
-        "word": "participate",
-        "meaning": "참여하다"
+        "word": "linguistically",
+        "meaning": "언어학적으로"
       },
       {
-        "word": "amplify",
-        "meaning": "증폭하다"
+        "word": "microphone",
+        "meaning": "마이크"
       }
     ]
   },
@@ -12991,8 +12991,8 @@
         "meaning": "모든 사람"
       },
       {
-        "word": "punishment",
-        "meaning": "형벌, 처벌"
+        "word": "pressure",
+        "meaning": "압력"
       },
       {
         "word": "background",
@@ -13038,20 +13038,20 @@
     ],
     "vocab": [
       {
-        "word": "rounded",
-        "meaning": "둥근"
+        "word": "counts",
+        "meaning": "중요하다"
       },
       {
         "word": "chandelier",
         "meaning": "샹들리에"
       },
       {
-        "word": "eternal",
-        "meaning": "영원한"
+        "word": "guatemala",
+        "meaning": "과테말라"
       },
       {
-        "word": "process",
-        "meaning": "처리하다"
+        "word": "premotor",
+        "meaning": "전운동의"
       }
     ]
   },
@@ -13101,8 +13101,8 @@
         "meaning": "진심의, 진짜의"
       },
       {
-        "word": "molecule",
-        "meaning": "분자"
+        "word": "surface",
+        "meaning": "표면"
       }
     ]
   },
@@ -13144,8 +13144,8 @@
         "meaning": "영감"
       },
       {
-        "word": "sleeping",
-        "meaning": "잠자는"
+        "word": "visualizing",
+        "meaning": "시각화하는"
       },
       {
         "word": "preside",
@@ -13191,8 +13191,8 @@
     ],
     "vocab": [
       {
-        "word": "examine",
-        "meaning": "성찰하다, 조사하다"
+        "word": "think",
+        "meaning": "생각하다"
       },
       {
         "word": "philosophical",
@@ -13246,8 +13246,8 @@
         "meaning": "~없이"
       },
       {
-        "word": "brushstroke",
-        "meaning": "붓놀림"
+        "word": "majestic",
+        "meaning": "장엄한"
       },
       {
         "word": "rhythmic",
@@ -13293,20 +13293,20 @@
     ],
     "vocab": [
       {
-        "word": "repeatedly",
-        "meaning": "반복적으로"
+        "word": "good",
+        "meaning": "좋은, 훌륭한"
       },
       {
-        "word": "repetition",
-        "meaning": "반복"
+        "word": "violin",
+        "meaning": "바이올린"
       },
       {
         "word": "elementary",
         "meaning": "기본적인"
       },
       {
-        "word": "forge",
-        "meaning": "단조하다, 벼리다"
+        "word": "significantly",
+        "meaning": "상당히, 크게"
       }
     ]
   },
@@ -13348,16 +13348,16 @@
         "meaning": "포기하다"
       },
       {
-        "word": "masterpiece",
-        "meaning": "걸작"
+        "word": "sculpture",
+        "meaning": "조각"
       },
       {
         "word": "dynasty",
         "meaning": "왕조"
       },
       {
-        "word": "reassemble",
-        "meaning": "재조립하다"
+        "word": "analysis",
+        "meaning": "분석"
       }
     ]
   },
@@ -13399,16 +13399,16 @@
         "meaning": "여정"
       },
       {
-        "word": "landscape",
-        "meaning": "풍경"
+        "word": "panoramic",
+        "meaning": "파노라마의"
       },
       {
-        "word": "trade",
-        "meaning": "교역"
+        "word": "equator",
+        "meaning": "적도"
       },
       {
-        "word": "collapse",
-        "meaning": "붕괴하다"
+        "word": "velocity",
+        "meaning": "속도"
       }
     ]
   },
@@ -13556,12 +13556,12 @@
         "meaning": "비추다, 반영하다"
       },
       {
-        "word": "forever",
-        "meaning": "영원히"
+        "word": "alive",
+        "meaning": "살아 있는"
       },
       {
-        "word": "distant",
-        "meaning": "먼"
+        "word": "eternal",
+        "meaning": "영원한"
       }
     ]
   },
@@ -13611,8 +13611,8 @@
         "meaning": "재생하다"
       },
       {
-        "word": "starfish",
-        "meaning": "불가사리"
+        "word": "scratch",
+        "meaning": "긁다"
       }
     ]
   },
@@ -13654,12 +13654,12 @@
         "meaning": "고전"
       },
       {
-        "word": "preserve",
-        "meaning": "보존하다"
+        "word": "geisha",
+        "meaning": "게이샤"
       },
       {
-        "word": "education",
-        "meaning": "교육"
+        "word": "killing",
+        "meaning": "살상"
       },
       {
         "word": "foundation",
@@ -13807,12 +13807,12 @@
         "meaning": "슬픔, 비탄"
       },
       {
-        "word": "express",
-        "meaning": "표현하다"
+        "word": "figure",
+        "meaning": "인물"
       },
       {
-        "word": "deceased",
-        "meaning": "고인"
+        "word": "remember",
+        "meaning": "기억하다"
       },
       {
         "word": "lattice",
@@ -13858,8 +13858,8 @@
         "meaning": "가장 슬픈"
       },
       {
-        "word": "vision",
-        "meaning": "비전, 시야"
+        "word": "dreamy",
+        "meaning": "몽환적인"
       },
       {
         "word": "haunting",
@@ -13905,16 +13905,16 @@
     ],
     "vocab": [
       {
-        "word": "ideological",
-        "meaning": "이념적인"
+        "word": "separation",
+        "meaning": "분리"
       },
       {
         "word": "trace",
         "meaning": "흔적"
       },
       {
-        "word": "partition",
-        "meaning": "분할, 분리"
+        "word": "blending",
+        "meaning": "혼합하는"
       },
       {
         "word": "molecule",
@@ -13956,12 +13956,12 @@
     ],
     "vocab": [
       {
-        "word": "together",
-        "meaning": "함께"
+        "word": "woman",
+        "meaning": "여성"
       },
       {
-        "word": "merge",
-        "meaning": "합치다, 결합하다"
+        "word": "single",
+        "meaning": "단일의"
       },
       {
         "word": "union",
@@ -14113,8 +14113,8 @@
         "meaning": "되다"
       },
       {
-        "word": "simplicity",
-        "meaning": "단순함"
+        "word": "austere",
+        "meaning": "엄격한"
       },
       {
         "word": "monastery",
@@ -14160,20 +14160,20 @@
     ],
     "vocab": [
       {
-        "word": "education",
-        "meaning": "교육"
+        "word": "obligated",
+        "meaning": "의무를 진"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "classroom",
+        "meaning": "교실"
       },
       {
-        "word": "revolution",
-        "meaning": "혁명"
+        "word": "estonian",
+        "meaning": "에스토니아의"
       },
       {
-        "word": "reshape",
-        "meaning": "재구성하다"
+        "word": "forms",
+        "meaning": "형태"
       }
     ]
   },
@@ -14215,16 +14215,16 @@
         "meaning": "살아 있는, 생활"
       },
       {
-        "word": "illustrate",
-        "meaning": "설명하다"
+        "word": "beggar",
+        "meaning": "거지"
       },
       {
         "word": "portion",
         "meaning": "일부분"
       },
       {
-        "word": "reward",
-        "meaning": "보상"
+        "word": "endorphins",
+        "meaning": "엔도르핀"
       }
     ]
   },
@@ -14266,16 +14266,16 @@
         "meaning": "봉사, 서비스"
       },
       {
-        "word": "embody",
-        "meaning": "구현하다, 구체화하다"
+        "word": "selfless",
+        "meaning": "이타적인"
       },
       {
-        "word": "community",
-        "meaning": "공동체"
+        "word": "familyhood",
+        "meaning": "가족애"
       },
       {
-        "word": "colony",
-        "meaning": "군집, 식민지"
+        "word": "honeybee",
+        "meaning": "꿀벌"
       }
     ]
   },
@@ -14317,12 +14317,12 @@
         "meaning": "정직"
       },
       {
-        "word": "determination",
-        "meaning": "결의, 결심"
+        "word": "projecting",
+        "meaning": "투사하는"
       },
       {
-        "word": "transparency",
-        "meaning": "투명성"
+        "word": "tropical",
+        "meaning": "열대의"
       },
       {
         "word": "karat",
@@ -14372,8 +14372,8 @@
         "meaning": "시대를 초월한"
       },
       {
-        "word": "inspire",
-        "meaning": "영감을 주다"
+        "word": "towers",
+        "meaning": "탑"
       },
       {
         "word": "co-evolution",
@@ -14474,12 +14474,12 @@
         "meaning": "복원"
       },
       {
-        "word": "neglect",
-        "meaning": "방치"
+        "word": "madagascar",
+        "meaning": "마다가스카르"
       },
       {
-        "word": "recover",
-        "meaning": "복구하다"
+        "word": "technique",
+        "meaning": "기법"
       }
     ]
   },
@@ -14517,20 +14517,20 @@
     ],
     "vocab": [
       {
-        "word": "chain",
-        "meaning": "사슬"
+        "word": "world",
+        "meaning": "세계"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "etching",
+        "meaning": "에칭"
       },
       {
         "word": "ingredient",
         "meaning": "원료, 재료"
       },
       {
-        "word": "restraint",
-        "meaning": "구속"
+        "word": "reflexively",
+        "meaning": "반사적으로"
       }
     ]
   },
@@ -14572,16 +14572,16 @@
         "meaning": "이해하다"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "enjoying",
+        "meaning": "즐기는"
       },
       {
-        "word": "identity",
-        "meaning": "정체성"
+        "word": "inseparable",
+        "meaning": "불가분의"
       },
       {
-        "word": "salmon",
-        "meaning": "연어"
+        "word": "rejection",
+        "meaning": "거부"
       }
     ]
   },
@@ -14619,16 +14619,16 @@
     ],
     "vocab": [
       {
-        "word": "moment",
-        "meaning": "순간"
+        "word": "intellect",
+        "meaning": "지성"
       },
       {
-        "word": "dissolve",
-        "meaning": "녹다"
+        "word": "unconscious",
+        "meaning": "무의식의"
       },
       {
-        "word": "generation",
-        "meaning": "세대"
+        "word": "vocabulary",
+        "meaning": "어휘"
       },
       {
         "word": "filter",
@@ -14670,8 +14670,8 @@
     ],
     "vocab": [
       {
-        "word": "diary",
-        "meaning": "일기장"
+        "word": "ruled",
+        "meaning": "통치된"
       },
       {
         "word": "aristocrat",
@@ -14725,16 +14725,16 @@
         "meaning": "추모, 기억"
       },
       {
-        "word": "longing",
-        "meaning": "그리움"
+        "word": "harmonious",
+        "meaning": "조화로운"
       },
       {
         "word": "aroma",
         "meaning": "향기, 냄새"
       },
       {
-        "word": "evaporate",
-        "meaning": "증발하다"
+        "word": "beneath",
+        "meaning": "아래에"
       }
     ]
   },
@@ -14780,8 +14780,8 @@
         "meaning": "혁명을 일으키다"
       },
       {
-        "word": "generation",
-        "meaning": "세대"
+        "word": "electronic",
+        "meaning": "전자의"
       },
       {
         "word": "untreatable",
@@ -14823,8 +14823,8 @@
     ],
     "vocab": [
       {
-        "word": "inherit",
-        "meaning": "물려받다"
+        "word": "insect",
+        "meaning": "곤충"
       },
       {
         "word": "preserve",
@@ -14835,8 +14835,8 @@
         "meaning": "수리하다"
       },
       {
-        "word": "resin",
-        "meaning": "수지"
+        "word": "trapped",
+        "meaning": "갇힌"
       }
     ]
   },
@@ -14874,20 +14874,20 @@
     ],
     "vocab": [
       {
-        "word": "chain",
-        "meaning": "사슬"
+        "word": "individual",
+        "meaning": "개인"
       },
       {
         "word": "liberation",
         "meaning": "해방"
       },
       {
-        "word": "apartheid",
-        "meaning": "아파르트헤이트(인종차별 정책)"
+        "word": "elevation",
+        "meaning": "해발"
       },
       {
-        "word": "dissolve",
-        "meaning": "녹다"
+        "word": "body",
+        "meaning": "몸"
       }
     ]
   },
@@ -14933,12 +14933,12 @@
         "meaning": "계단"
       },
       {
-        "word": "unbreakable",
-        "meaning": "부서지지 않는"
+        "word": "invasion",
+        "meaning": "침략"
       },
       {
-        "word": "gravity",
-        "meaning": "중력"
+        "word": "knuckles",
+        "meaning": "주먹 관절"
       }
     ]
   },
@@ -14976,8 +14976,8 @@
     ],
     "vocab": [
       {
-        "word": "voyage",
-        "meaning": "항해, 여행"
+        "word": "seeking",
+        "meaning": "추구하는"
       },
       {
         "word": "legacy",
@@ -15027,8 +15027,8 @@
     ],
     "vocab": [
       {
-        "word": "opportunity",
-        "meaning": "기회"
+        "word": "live",
+        "meaning": "살다"
       },
       {
         "word": "chaos",
@@ -15039,8 +15039,8 @@
         "meaning": "야망"
       },
       {
-        "word": "spiral",
-        "meaning": "소용돌이"
+        "word": "hurricane",
+        "meaning": "허리케인"
       }
     ]
   },
@@ -15078,20 +15078,20 @@
     ],
     "vocab": [
       {
-        "word": "wisdom",
-        "meaning": "지혜"
+        "word": "dawn",
+        "meaning": "새벽"
       },
       {
-        "word": "meditation",
-        "meaning": "명상"
+        "word": "stillness",
+        "meaning": "고요"
       },
       {
         "word": "monk",
         "meaning": "승려"
       },
       {
-        "word": "awareness",
-        "meaning": "인식"
+        "word": "thickness",
+        "meaning": "두께"
       }
     ]
   },
@@ -15133,16 +15133,16 @@
         "meaning": "장인, 거장"
       },
       {
-        "word": "discipline",
-        "meaning": "수련, 훈련"
+        "word": "cultivation",
+        "meaning": "경작"
       },
       {
-        "word": "disguise",
-        "meaning": "위장하다, 변장"
+        "word": "capoeira",
+        "meaning": "카포에이라"
       },
       {
-        "word": "fiber",
-        "meaning": "섬유"
+        "word": "exercise",
+        "meaning": "운동"
       }
     ]
   },
@@ -15180,16 +15180,16 @@
     ],
     "vocab": [
       {
-        "word": "sharper",
-        "meaning": "더 날카로운 (sharp의 비교급)"
+        "word": "waiting",
+        "meaning": "기다리는"
       },
       {
         "word": "survivor",
         "meaning": "생존자"
       },
       {
-        "word": "ancestor",
-        "meaning": "조상"
+        "word": "peoples",
+        "meaning": "민족"
       },
       {
         "word": "comprehend",
@@ -15235,8 +15235,8 @@
         "meaning": "감각"
       },
       {
-        "word": "depict",
-        "meaning": "묘사하다, 그리다"
+        "word": "hearing",
+        "meaning": "청각"
       },
       {
         "word": "navigate",
@@ -15333,20 +15333,20 @@
     ],
     "vocab": [
       {
-        "word": "diary",
-        "meaning": "일기"
+        "word": "recall",
+        "meaning": "회상하다"
       },
       {
         "word": "exquisite",
         "meaning": "절묘한"
       },
       {
-        "word": "reconciliation",
-        "meaning": "화해"
+        "word": "wildflower",
+        "meaning": "야생화"
       },
       {
-        "word": "trigger",
-        "meaning": "촉발시키다"
+        "word": "fragrance",
+        "meaning": "향기"
       }
     ]
   },
@@ -15384,8 +15384,8 @@
     ],
     "vocab": [
       {
-        "word": "dine",
-        "meaning": "식사하다"
+        "word": "eat",
+        "meaning": "먹다"
       },
       {
         "word": "flavor",
@@ -15396,8 +15396,8 @@
         "meaning": "상인"
       },
       {
-        "word": "regenerate",
-        "meaning": "재생하다"
+        "word": "peppers",
+        "meaning": "고추"
       }
     ]
   },
@@ -15443,12 +15443,12 @@
         "meaning": "헌신"
       },
       {
-        "word": "heritage",
-        "meaning": "유산, 전통"
+        "word": "decorate",
+        "meaning": "장식하다"
       },
       {
-        "word": "canyon",
-        "meaning": "협곡"
+        "word": "planet",
+        "meaning": "행성"
       }
     ]
   },
@@ -15490,8 +15490,8 @@
         "meaning": "일어나다"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "couples",
+        "meaning": "커플, 쌍"
       },
       {
         "word": "rhythm",
@@ -15545,12 +15545,12 @@
         "meaning": "대칭의"
       },
       {
-        "word": "demonstrate",
-        "meaning": "증명하다"
+        "word": "multicultural",
+        "meaning": "다문화의"
       },
       {
-        "word": "collapse",
-        "meaning": "붕괴하다"
+        "word": "locomotion",
+        "meaning": "이동"
       }
     ]
   },
@@ -15643,12 +15643,12 @@
         "meaning": "더 큰"
       },
       {
-        "word": "boundary",
-        "meaning": "경계"
+        "word": "surrounding",
+        "meaning": "둘러싸는"
       },
       {
-        "word": "income",
-        "meaning": "수입, 소득"
+        "word": "channel",
+        "meaning": "전달하다"
       },
       {
         "word": "enormous",
@@ -15698,8 +15698,8 @@
         "meaning": "전문화하다, 특화하다"
       },
       {
-        "word": "distinct",
-        "meaning": "별개의"
+        "word": "indigenous",
+        "meaning": "원주민의, 토착의"
       },
       {
         "word": "differentiate",
@@ -15796,16 +15796,16 @@
         "meaning": "완벽함"
       },
       {
-        "word": "architecture",
-        "meaning": "건축"
+        "word": "order",
+        "meaning": "질서"
       },
       {
-        "word": "tidy",
-        "meaning": "정리하다"
+        "word": "silver",
+        "meaning": "은"
       },
       {
-        "word": "entropy",
-        "meaning": "엔트로피, 무질서도"
+        "word": "thermodynamic",
+        "meaning": "열역학의"
       }
     ]
   },
@@ -15851,8 +15851,8 @@
         "meaning": "승리, 대성공"
       },
       {
-        "word": "coexist",
-        "meaning": "공존하다"
+        "word": "togetherness",
+        "meaning": "유대감"
       },
       {
         "word": "scout",
@@ -15894,16 +15894,16 @@
     ],
     "vocab": [
       {
-        "word": "waste",
-        "meaning": "낭비하다"
+        "word": "dares",
+        "meaning": "감히 하다"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "stubborn",
+        "meaning": "완고한"
       },
       {
-        "word": "guard",
-        "meaning": "지키다"
+        "word": "respectful",
+        "meaning": "예의 바른"
       },
       {
         "word": "wear",
@@ -15949,12 +15949,12 @@
         "meaning": "인간, 필멸자"
       },
       {
-        "word": "embody",
-        "meaning": "구현하다, 구체화하다"
+        "word": "flexibility",
+        "meaning": "유연성"
       },
       {
-        "word": "dialogue",
-        "meaning": "대화"
+        "word": "treaty",
+        "meaning": "조약"
       },
       {
         "word": "squeeze",
@@ -15996,8 +15996,8 @@
     ],
     "vocab": [
       {
-        "word": "simplicity",
-        "meaning": "단순함"
+        "word": "intelligent",
+        "meaning": "지적인"
       },
       {
         "word": "profound",
@@ -16047,20 +16047,20 @@
     ],
     "vocab": [
       {
-        "word": "understand",
-        "meaning": "이해하다"
+        "word": "explain",
+        "meaning": "설명하다"
       },
       {
         "word": "complexity",
         "meaning": "복잡성"
       },
       {
-        "word": "storehouse",
-        "meaning": "창고"
+        "word": "extraordinary",
+        "meaning": "비범한"
       },
       {
-        "word": "neuron",
-        "meaning": "뉴런"
+        "word": "contains",
+        "meaning": "포함하다"
       }
     ]
   },
@@ -16102,16 +16102,16 @@
         "meaning": "철학"
       },
       {
-        "word": "intensity",
-        "meaning": "강렬함"
+        "word": "rational",
+        "meaning": "합리적인"
       },
       {
-        "word": "archaeology",
-        "meaning": "고고학"
+        "word": "connected",
+        "meaning": "연결된"
       },
       {
-        "word": "infer",
-        "meaning": "추론하다"
+        "word": "quantum",
+        "meaning": "양자의"
       }
     ]
   },
@@ -16153,12 +16153,12 @@
         "meaning": "연옥"
       },
       {
-        "word": "vacuum",
-        "meaning": "진공"
+        "word": "theory",
+        "meaning": "이론"
       },
       {
-        "word": "innocent",
-        "meaning": "무죄의"
+        "word": "peacemakers",
+        "meaning": "평화주의자"
       },
       {
         "word": "falsification",
@@ -16200,16 +16200,16 @@
     ],
     "vocab": [
       {
-        "word": "moment",
-        "meaning": "순간"
+        "word": "retrospect",
+        "meaning": "회고"
       },
       {
-        "word": "express",
-        "meaning": "표현하다"
+        "word": "clash",
+        "meaning": "충돌하다"
       },
       {
-        "word": "stomp",
-        "meaning": "발을 구르다"
+        "word": "denmark",
+        "meaning": "덴마크"
       },
       {
         "word": "perceive",
@@ -16259,12 +16259,12 @@
         "meaning": "절제된"
       },
       {
-        "word": "revolution",
-        "meaning": "혁명"
+        "word": "constitution",
+        "meaning": "헌법"
       },
       {
-        "word": "cortex",
-        "meaning": "피질"
+        "word": "prefrontal",
+        "meaning": "전두엽의"
       }
     ]
   },
@@ -16306,12 +16306,12 @@
         "meaning": "영혼"
       },
       {
-        "word": "depict",
-        "meaning": "묘사하다, 그리다"
+        "word": "historians",
+        "meaning": "역사학자"
       },
       {
-        "word": "hieroglyph",
-        "meaning": "상형문자"
+        "word": "mediator",
+        "meaning": "중재자"
       },
       {
         "word": "personality",
@@ -16361,8 +16361,8 @@
         "meaning": "문명"
       },
       {
-        "word": "hieroglyph",
-        "meaning": "상형문자"
+        "word": "mozambique",
+        "meaning": "모잠비크"
       },
       {
         "word": "sensation",
@@ -16404,12 +16404,12 @@
     ],
     "vocab": [
       {
-        "word": "convey",
-        "meaning": "전달하다"
+        "word": "surprisingly",
+        "meaning": "놀랍게도"
       },
       {
-        "word": "transform",
-        "meaning": "변모시키다"
+        "word": "preaching",
+        "meaning": "설교"
       },
       {
         "word": "oral",
@@ -16459,12 +16459,12 @@
         "meaning": "단절된"
       },
       {
-        "word": "monastery",
-        "meaning": "수도원"
+        "word": "disconnection",
+        "meaning": "단절"
       },
       {
-        "word": "decade",
-        "meaning": "10년"
+        "word": "experienced",
+        "meaning": "경험 많은"
       },
       {
         "word": "radiation",
@@ -16506,12 +16506,12 @@
     ],
     "vocab": [
       {
-        "word": "community",
-        "meaning": "공동체"
+        "word": "fate",
+        "meaning": "운명"
       },
       {
-        "word": "illustrate",
-        "meaning": "설명하다"
+        "word": "follower",
+        "meaning": "추종자"
       },
       {
         "word": "exchange",
@@ -16561,12 +16561,12 @@
         "meaning": "추측하다, 상상하다"
       },
       {
-        "word": "landscape",
-        "meaning": "풍경"
+        "word": "expand",
+        "meaning": "확장하다"
       },
       {
-        "word": "architecture",
-        "meaning": "건축"
+        "word": "wherever",
+        "meaning": "어디든"
       },
       {
         "word": "expansion",
@@ -16612,16 +16612,16 @@
         "meaning": "본질적인, 필수적인"
       },
       {
-        "word": "concentration",
-        "meaning": "집중"
+        "word": "lamplight",
+        "meaning": "램프 불빛"
       },
       {
         "word": "proficiency",
         "meaning": "숙련도, 능숙함"
       },
       {
-        "word": "telescope",
-        "meaning": "망원경"
+        "word": "atom",
+        "meaning": "원자"
       }
     ]
   },
@@ -16659,16 +16659,16 @@
     ],
     "vocab": [
       {
-        "word": "together",
-        "meaning": "함께"
+        "word": "contented",
+        "meaning": "만족한"
       },
       {
-        "word": "collective",
-        "meaning": "집단적인"
+        "word": "assemble",
+        "meaning": "조립하다"
       },
       {
-        "word": "scatter",
-        "meaning": "뿌리다, 흩뿌리다"
+        "word": "marry",
+        "meaning": "결혼하다"
       },
       {
         "word": "helpless",
@@ -16710,20 +16710,20 @@
     ],
     "vocab": [
       {
-        "word": "examine",
-        "meaning": "살피다, 검토하다"
+        "word": "piece",
+        "meaning": "조각"
       },
       {
-        "word": "masterpiece",
-        "meaning": "걸작"
+        "word": "deconstructed",
+        "meaning": "해체된"
       },
       {
-        "word": "independent",
-        "meaning": "독립적인"
+        "word": "steppe",
+        "meaning": "스텝"
       },
       {
-        "word": "molecule",
-        "meaning": "분자"
+        "word": "destruct",
+        "meaning": "파괴하다"
       }
     ]
   },
@@ -16765,16 +16765,16 @@
         "meaning": "어느 쪽도 아닌"
       },
       {
-        "word": "portray",
-        "meaning": "묘사하다"
+        "word": "sustenance",
+        "meaning": "생계"
       },
       {
         "word": "adapt",
         "meaning": "적응하다"
       },
       {
-        "word": "secrete",
-        "meaning": "분비하다"
+        "word": "spider",
+        "meaning": "거미"
       }
     ]
   },
@@ -16871,8 +16871,8 @@
         "meaning": "참혹한, 파괴적인"
       },
       {
-        "word": "rebuild",
-        "meaning": "재건하다, 다시 짓다"
+        "word": "population",
+        "meaning": "개체군"
       },
       {
         "word": "damaged",
@@ -16922,8 +16922,8 @@
         "meaning": "탐험"
       },
       {
-        "word": "witness",
-        "meaning": "목격하다, 증언하다"
+        "word": "explorers",
+        "meaning": "탐험가"
       },
       {
         "word": "vent",
@@ -16973,12 +16973,12 @@
         "meaning": "상징하다"
       },
       {
-        "word": "shortage",
-        "meaning": "부족"
+        "word": "roma",
+        "meaning": "로마족"
       },
       {
-        "word": "sediment",
-        "meaning": "퇴적물"
+        "word": "perfecting",
+        "meaning": "완성하는"
       }
     ]
   },
@@ -17016,20 +17016,20 @@
     ],
     "vocab": [
       {
-        "word": "wander",
-        "meaning": "방랑하다, 떠돌다"
+        "word": "tore",
+        "meaning": "찢다"
       },
       {
-        "word": "imagination",
-        "meaning": "상상력"
+        "word": "search",
+        "meaning": "탐색"
       },
       {
-        "word": "tradition",
-        "meaning": "전통"
+        "word": "storytelling",
+        "meaning": "이야기하기"
       },
       {
-        "word": "rogue",
-        "meaning": "떠돌이의, 불량한"
+        "word": "migratory",
+        "meaning": "이주하는"
       }
     ]
   },
@@ -17067,12 +17067,12 @@
     ],
     "vocab": [
       {
-        "word": "harbor",
-        "meaning": "항구"
+        "word": "borders",
+        "meaning": "경계"
       },
       {
-        "word": "terrifying",
-        "meaning": "무시무시한"
+        "word": "battling",
+        "meaning": "싸우는"
       },
       {
         "word": "gallery",
@@ -17130,8 +17130,8 @@
         "meaning": "계단식으로 만들다"
       },
       {
-        "word": "scarce",
-        "meaning": "희박한, 부족한"
+        "word": "summit",
+        "meaning": "정상"
       }
     ]
   },
@@ -17169,12 +17169,12 @@
     ],
     "vocab": [
       {
-        "word": "voyage",
-        "meaning": "항해, 여행"
+        "word": "eyes",
+        "meaning": "눈"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "descending",
+        "meaning": "내려가는"
       },
       {
         "word": "underwater",
@@ -17224,8 +17224,8 @@
         "meaning": "하늘 쪽으로"
       },
       {
-        "word": "dramatic",
-        "meaning": "극적인"
+        "word": "flights",
+        "meaning": "비행"
       },
       {
         "word": "powered",
@@ -17275,16 +17275,16 @@
         "meaning": "작별, 안녕"
       },
       {
-        "word": "portray",
-        "meaning": "묘사하다"
+        "word": "triumphant",
+        "meaning": "승리한"
       },
       {
         "word": "estimate",
         "meaning": "추정하다"
       },
       {
-        "word": "resistance",
-        "meaning": "저항"
+        "word": "allows",
+        "meaning": "허용하다"
       }
     ]
   },
@@ -17326,16 +17326,16 @@
         "meaning": "건너다, 십자가"
       },
       {
-        "word": "tradition",
-        "meaning": "전통"
+        "word": "crossed",
+        "meaning": "교차하다"
       },
       {
         "word": "crossroads",
         "meaning": "교차로"
       },
       {
-        "word": "focal",
-        "meaning": "초점의"
+        "word": "electrical",
+        "meaning": "전기의"
       }
     ]
   },
@@ -17377,12 +17377,12 @@
         "meaning": "갈라지다, 분기하다"
       },
       {
-        "word": "journey",
-        "meaning": "여정"
+        "word": "directions",
+        "meaning": "방향들"
       },
       {
-        "word": "community",
-        "meaning": "공동체"
+        "word": "divergent",
+        "meaning": "발산적인"
       },
       {
         "word": "embryo",
@@ -17424,20 +17424,20 @@
     ],
     "vocab": [
       {
-        "word": "merge",
-        "meaning": "합류하다, 합치다"
+        "word": "superorganism",
+        "meaning": "초유기체"
       },
       {
-        "word": "capture",
-        "meaning": "포착하다"
+        "word": "confluence",
+        "meaning": "합류"
       },
       {
         "word": "merge",
         "meaning": "합치다, 융합하다"
       },
       {
-        "word": "downstream",
-        "meaning": "하류의, 하류로"
+        "word": "gravity",
+        "meaning": "중력"
       }
     ]
   },
@@ -17475,16 +17475,16 @@
     ],
     "vocab": [
       {
-        "word": "everything",
-        "meaning": "모든 것"
+        "word": "heaven",
+        "meaning": "천국"
       },
       {
         "word": "sequence",
         "meaning": "순서, 배열"
       },
       {
-        "word": "sacred",
-        "meaning": "신성한"
+        "word": "toasts",
+        "meaning": "건배"
       },
       {
         "word": "protein",
@@ -17538,8 +17538,8 @@
         "meaning": "요리, 요리법"
       },
       {
-        "word": "fizz",
-        "meaning": "거품이 일다"
+        "word": "heating",
+        "meaning": "가열"
       }
     ]
   },
@@ -17581,16 +17581,16 @@
         "meaning": "순도, 순수함"
       },
       {
-        "word": "simplicity",
-        "meaning": "단순함"
+        "word": "roundness",
+        "meaning": "둥글기"
       },
       {
         "word": "authentic",
         "meaning": "진정한, 진짜의"
       },
       {
-        "word": "jewelry",
-        "meaning": "장신구, 보석류"
+        "word": "dimensional",
+        "meaning": "차원의"
       }
     ]
   },
@@ -17632,12 +17632,12 @@
         "meaning": "투명성"
       },
       {
-        "word": "architecture",
-        "meaning": "건축"
+        "word": "canal",
+        "meaning": "운하"
       },
       {
-        "word": "preserve",
-        "meaning": "보존하다"
+        "word": "medieval",
+        "meaning": "중세의"
       },
       {
         "word": "scatter",
@@ -17683,12 +17683,12 @@
         "meaning": "존경할 만한"
       },
       {
-        "word": "landscape",
-        "meaning": "풍경"
+        "word": "atmospheric",
+        "meaning": "대기의"
       },
       {
-        "word": "decorative",
-        "meaning": "장식적인"
+        "word": "literally",
+        "meaning": "문자 그대로"
       },
       {
         "word": "electron",
@@ -17730,8 +17730,8 @@
     ],
     "vocab": [
       {
-        "word": "universal",
-        "meaning": "보편적인"
+        "word": "rethink",
+        "meaning": "다시 생각하다"
       },
       {
         "word": "highest",
@@ -17742,8 +17742,8 @@
         "meaning": "신성한"
       },
       {
-        "word": "spectrum",
-        "meaning": "스펙트럼, 범위"
+        "word": "horizon",
+        "meaning": "수평선"
       }
     ]
   },
@@ -17793,8 +17793,8 @@
         "meaning": "조각하다, 깎다"
       },
       {
-        "word": "erosion",
-        "meaning": "침식"
+        "word": "humidity",
+        "meaning": "습도"
       }
     ]
   },
@@ -17938,16 +17938,16 @@
         "meaning": "인쇄기"
       },
       {
-        "word": "revolutionary",
-        "meaning": "혁명적인"
+        "word": "craftsmen",
+        "meaning": "장인들"
       },
       {
         "word": "treasure",
         "meaning": "보물, 국보"
       },
       {
-        "word": "precision",
-        "meaning": "정밀함"
+        "word": "compound",
+        "meaning": "화합물"
       }
     ]
   },
@@ -17989,16 +17989,16 @@
         "meaning": "이동할 수 있는"
       },
       {
-        "word": "absorb",
-        "meaning": "몰두하다, 흡수하다"
+        "word": "intimacy",
+        "meaning": "친밀감"
       },
       {
         "word": "spread",
         "meaning": "퍼뜨리다"
       },
       {
-        "word": "carve",
-        "meaning": "새기다, 조각하다"
+        "word": "correctly",
+        "meaning": "올바르게"
       }
     ]
   },
@@ -18044,12 +18044,12 @@
         "meaning": "꼼꼼한"
       },
       {
-        "word": "breathtaking",
-        "meaning": "숨막히는"
+        "word": "calligraphers",
+        "meaning": "서예가"
       },
       {
-        "word": "graphite",
-        "meaning": "흑연"
+        "word": "diamonds",
+        "meaning": "다이아몬드"
       }
     ]
   },
@@ -18091,16 +18091,16 @@
         "meaning": "암기하다"
       },
       {
-        "word": "soul",
-        "meaning": "영혼"
+        "word": "girl",
+        "meaning": "소녀"
       },
       {
-        "word": "preserve",
-        "meaning": "보존하다"
+        "word": "memorization",
+        "meaning": "암기"
       },
       {
-        "word": "electron",
-        "meaning": "전자"
+        "word": "inside",
+        "meaning": "안에"
       }
     ]
   },
@@ -18138,20 +18138,20 @@
     ],
     "vocab": [
       {
-        "word": "unexamined",
-        "meaning": "검토되지 않은"
+        "word": "inclination",
+        "meaning": "성향"
       },
       {
         "word": "contemplation",
         "meaning": "사색, 명상"
       },
       {
-        "word": "monk",
-        "meaning": "승려"
+        "word": "distractions",
+        "meaning": "방해 요소"
       },
       {
-        "word": "wander",
-        "meaning": "떠돌다, 방황하다"
+        "word": "default",
+        "meaning": "기본 설정"
       }
     ]
   },
@@ -18193,12 +18193,12 @@
         "meaning": "비옥한"
       },
       {
-        "word": "harvest",
-        "meaning": "수확, 수확하다"
+        "word": "bending",
+        "meaning": "구부리는"
       },
       {
-        "word": "civilization",
-        "meaning": "문명"
+        "word": "terra",
+        "meaning": "땅"
       },
       {
         "word": "microorganism",
@@ -18248,8 +18248,8 @@
         "meaning": "얼룩진, 반점이 있는"
       },
       {
-        "word": "vault",
-        "meaning": "저장고, 금고"
+        "word": "selection",
+        "meaning": "선택"
       },
       {
         "word": "dormant",
@@ -18291,20 +18291,20 @@
     ],
     "vocab": [
       {
-        "word": "patience",
-        "meaning": "인내"
+        "word": "sweeter",
+        "meaning": "더 달콤한"
       },
       {
         "word": "realism",
         "meaning": "사실주의, 현실감"
       },
       {
-        "word": "endure",
-        "meaning": "견디다, 참다"
+        "word": "spain",
+        "meaning": "스페인"
       },
       {
-        "word": "spread",
-        "meaning": "퍼뜨리다"
+        "word": "bright",
+        "meaning": "밝은"
       }
     ]
   },
@@ -18397,16 +18397,16 @@
         "meaning": "대나무"
       },
       {
-        "word": "express",
-        "meaning": "표현하다"
+        "word": "unyielding",
+        "meaning": "굽히지 않는"
       },
       {
         "word": "aqueduct",
         "meaning": "수도교"
       },
       {
-        "word": "nutrient",
-        "meaning": "영양분"
+        "word": "allowing",
+        "meaning": "허용하는"
       }
     ]
   },
@@ -18444,16 +18444,16 @@
     ],
     "vocab": [
       {
-        "word": "precious",
-        "meaning": "소중한"
+        "word": "blossom",
+        "meaning": "꽃이 피다"
       },
       {
-        "word": "fleeting",
-        "meaning": "덧없는, 순간적인"
+        "word": "twilight",
+        "meaning": "황혼"
       },
       {
-        "word": "enormous",
-        "meaning": "거대한"
+        "word": "display",
+        "meaning": "전시하다"
       },
       {
         "word": "nectar",
@@ -18550,16 +18550,16 @@
         "meaning": "무적의, 이길 수 없는"
       },
       {
-        "word": "sprout",
-        "meaning": "새싹, 싹이 트다"
+        "word": "noble",
+        "meaning": "고귀한"
       },
       {
         "word": "sprout",
         "meaning": "새싹이 나다, 급성장하다"
       },
       {
-        "word": "generate",
-        "meaning": "생성하다, 발생시키다"
+        "word": "particle",
+        "meaning": "입자"
       }
     ]
   },
@@ -18601,12 +18601,12 @@
         "meaning": "결과"
       },
       {
-        "word": "reward",
-        "meaning": "보상"
+        "word": "golden",
+        "meaning": "금빛의"
       },
       {
-        "word": "collective",
-        "meaning": "집단적인"
+        "word": "paddies",
+        "meaning": "논"
       },
       {
         "word": "yield",
