@@ -1148,9 +1148,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Octopuses have been observed using coconut shells as tools, which scientists consider a sign of intelligence.",
-        "ko": "문어가 코코넛 껍질을 도구로 사용하는 것이 관찰되었는데, 과학자들은 이를 지능의 징후로 본다.",
-        "note": "'have been observed -ing'는 '~하는 것이 관찰되었다'는 현재완료 수동태야. 'which scientists consider ~'에서 which는 앞 문장 전체를 받는 관계대명사야."
+        "en": "Gold does not rust because its electrons are so stable that they rarely react with oxygen or water.",
+        "ko": "금은 전자가 매우 안정적이어서 산소나 물과 거의 반응하지 않기 때문에 녹슬지 않는다.",
+        "note": "'so ~ that …'은 '너무 ~해서 …하다'라는 결과를 나타내는 구문이야. 'rarely'는 '거의 ~않다'로 부정의 의미를 가진 빈도 부사야."
       }
     ],
     "vocab": [
@@ -1167,8 +1167,8 @@
         "meaning": "어른, 원로"
       },
       {
-        "word": "intelligence",
-        "meaning": "지능"
+        "word": "rust",
+        "meaning": "녹슬다"
       }
     ]
   },
@@ -1199,9 +1199,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Studies show that spending time in nature lowers stress hormones and reduces blood pressure within just twenty minutes.",
-        "ko": "연구에 따르면 자연에서 시간을 보내면 불과 20분 만에 스트레스 호르몬이 낮아지고 혈압이 떨어진다.",
-        "note": "'Studies show that ~'은 '연구에 따르면 ~이다'로, 과학적 사실을 전달할 때 자주 쓰는 표현이야. 'within just ~'는 '불과 ~ 만에'라는 뜻이야."
+        "en": "Nitrogen makes up seventy-eight percent of the atmosphere, yet it hardly reacts with anything because its triple bond is extremely strong.",
+        "ko": "질소는 대기의 78%를 차지하지만, 삼중결합이 매우 강하기 때문에 거의 아무것과도 반응하지 않는다.",
+        "note": "'make up'은 '~을 차지하다, 구성하다'라는 구동사야. 'yet'은 '그러나, 그럼에도'로 앞 문장과 대조되는 내용을 이끌어."
       }
     ],
     "vocab": [
@@ -1218,8 +1218,8 @@
         "meaning": "뛰어난, 탁월한"
       },
       {
-        "word": "hormone",
-        "meaning": "호르몬"
+        "word": "atmosphere",
+        "meaning": "대기, 분위기"
       }
     ]
   },
@@ -1352,9 +1352,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "The hormone oxytocin, often called the 'trust hormone,' is released when people hug, shake hands, or bond with others.",
-        "ko": "종종 '신뢰 호르몬'이라 불리는 옥시토신은 사람들이 포옹하거나, 악수하거나, 유대감을 형성할 때 분비된다.",
-        "note": "'often called ~'은 삽입된 과거분사구로 '종종 ~라 불리는'이라는 뜻이야. 'is released when ~'은 '~할 때 분비되다'라는 수동태 시간 표현이야."
+        "en": "Roman concrete has lasted over two thousand years because seawater actually strengthens its mineral structure over time.",
+        "ko": "로마 콘크리트는 2,000년 이상 지속되었는데, 바닷물이 실제로 시간이 지남에 따라 광물 구조를 강화하기 때문이다.",
+        "note": "'has lasted'는 현재완료로 과거에 시작해 지금까지 계속됨을 나타내. 'over time'은 '시간이 지남에 따라'라는 유용한 표현이야."
       }
     ],
     "vocab": [
@@ -1371,8 +1371,8 @@
         "meaning": "유모차"
       },
       {
-        "word": "oxytocin",
-        "meaning": "옥시토신"
+        "word": "concrete",
+        "meaning": "콘크리트, 구체적인"
       }
     ]
   },
@@ -1403,9 +1403,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "When you feel passionate about something, your brain releases dopamine, which makes you feel motivated and focused.",
-        "ko": "무언가에 열정을 느낄 때 뇌는 도파민을 분비하는데, 이것이 동기부여와 집중력을 높여준다.",
-        "note": "'feel passionate about ~'은 '~에 열정을 느끼다'라는 뜻이야. 'which makes you feel ~'에서 make는 사역동사로, 'make + 목적어 + 동사원형' 패턴이야."
+        "en": "Deep beneath the surface, intense heat from the Earth's core melts rock into magma, which rises through cracks in the crust.",
+        "ko": "지표면 깊은 곳에서 지구 핵의 강렬한 열이 암석을 마그마로 녹이고, 마그마는 지각의 균열을 통해 올라온다.",
+        "note": "'deep beneath ~'는 '~ 깊은 아래에'라는 뜻이야. 'which rises through ~'에서 which는 magma를 받는 관계대명사야."
       }
     ],
     "vocab": [
@@ -1422,8 +1422,8 @@
         "meaning": "이민자"
       },
       {
-        "word": "dopamine",
-        "meaning": "도파민"
+        "word": "magma",
+        "meaning": "마그마"
       }
     ]
   },
@@ -1607,9 +1607,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Researchers have found that writing down three things you are grateful for each day can significantly improve your mental health over time.",
-        "ko": "연구자들은 매일 감사한 일 세 가지를 적는 것이 시간이 지남에 따라 정신 건강을 크게 향상시킬 수 있다는 것을 발견했다.",
-        "note": "'writing down ~ each day'에서 동명사구가 주어 역할을 해. 'over time'은 '시간이 지남에 따라'라는 유용한 표현이야."
+        "en": "The pleasant smell of earth after rain, called petrichor, comes from a chemical released by soil bacteria called geosmin.",
+        "ko": "페트리코르라 불리는 비 온 뒤 흙의 기분 좋은 냄새는 토양 박테리아가 방출하는 지오스민이라는 화학물질에서 나온다.",
+        "note": "'called ~'은 과거분사로 앞의 명사를 수식해 '~라 불리는'이라는 뜻이야. 'released by ~'는 '~에 의해 방출된'이라는 수동 과거분사야."
       }
     ],
     "vocab": [
@@ -1626,8 +1626,8 @@
         "meaning": "전통"
       },
       {
-        "word": "significantly",
-        "meaning": "상당히, 크게"
+        "word": "bacteria",
+        "meaning": "박테리아, 세균"
       }
     ]
   },
@@ -1658,9 +1658,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Bamboo can grow underground for up to five years before it suddenly shoots up to thirty meters in just six weeks.",
-        "ko": "대나무는 최대 5년간 땅속에서 자라다가 갑자기 불과 6주 만에 30미터까지 솟아오를 수 있다.",
-        "note": "'for up to five years'는 '최대 5년간'이라는 뜻이야. 'before it suddenly shoots up'에서 shoot up은 '급격히 솟아오르다'라는 구동사야."
+        "en": "A single stalactite can take thousands of years to grow just a few centimeters, as minerals slowly deposit from dripping water.",
+        "ko": "종유석 하나가 불과 몇 센티미터 자라는 데 수천 년이 걸릴 수 있는데, 광물이 떨어지는 물에서 천천히 침전되기 때문이다.",
+        "note": "'take + 시간 + to ~'는 '~하는 데 (시간)이 걸리다'야. 'as ~'는 '~이기 때문에'라는 이유를 나타내는 접속사로 because보다 부드러운 표현이야."
       }
     ],
     "vocab": [
@@ -1677,8 +1677,8 @@
         "meaning": "장인"
       },
       {
-        "word": "bamboo",
-        "meaning": "대나무"
+        "word": "deposit",
+        "meaning": "침전시키다, 예금하다"
       }
     ]
   },
@@ -1709,9 +1709,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "The Dunning-Kruger effect shows that people with limited knowledge often overestimate their abilities, while true experts tend to underestimate theirs.",
-        "ko": "더닝-크루거 효과는 지식이 부족한 사람이 자신의 능력을 과대평가하는 반면, 진정한 전문가는 과소평가하는 경향이 있음을 보여준다.",
-        "note": "'while ~'은 '~하는 반면에'라는 대조의 접속사야. 'tend to ~'는 '~하는 경향이 있다'라는 유용한 표현이야."
+        "en": "Only about five percent of the universe consists of ordinary matter — the rest is mysterious dark matter and dark energy.",
+        "ko": "우주의 약 5%만이 일반 물질로 이루어져 있고, 나머지는 신비로운 암흑 물질과 암흑 에너지이다.",
+        "note": "'consist of ~'는 '~로 이루어져 있다'야. 'the rest'는 '나머지'로 앞에서 언급한 것을 제외한 부분을 가리켜."
       }
     ],
     "vocab": [
@@ -1728,8 +1728,8 @@
         "meaning": "등산가"
       },
       {
-        "word": "underestimate",
-        "meaning": "과소평가하다"
+        "word": "universe",
+        "meaning": "우주"
       }
     ]
   },
@@ -1760,9 +1760,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "The trolley problem is a famous thought experiment that asks whether it is ethical to sacrifice one person to save five.",
-        "ko": "트롤리 문제는 다섯 명을 살리기 위해 한 명을 희생시키는 것이 윤리적인지 묻는 유명한 사고실험이다.",
-        "note": "'whether it is ethical to ~'는 '~하는 것이 윤리적인지'라는 간접의문문이야. 'to sacrifice A to save B'는 'B를 구하기 위해 A를 희생하다'야."
+        "en": "Engineers are designing underground storage facilities that must keep radioactive waste safely contained for one hundred thousand years.",
+        "ko": "공학자들은 방사성 폐기물을 10만 년 동안 안전하게 보관해야 하는 지하 저장 시설을 설계하고 있다.",
+        "note": "'that must keep ~ contained'에서 that은 관계대명사, 'keep + 목적어 + 과거분사'는 '~을 …된 상태로 유지하다'야."
       }
     ],
     "vocab": [
@@ -1779,8 +1779,8 @@
         "meaning": "책임"
       },
       {
-        "word": "sacrifice",
-        "meaning": "희생하다"
+        "word": "radioactive",
+        "meaning": "방사성의"
       }
     ]
   },
@@ -2372,9 +2372,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Scientists have discovered that emotions are not just feelings in your head — they trigger real physical changes throughout your entire body.",
-        "ko": "과학자들은 감정이 단지 머릿속의 느낌이 아니라 몸 전체에 실제 물리적 변화를 일으킨다는 것을 발견했다.",
-        "note": "'not just A — B'는 '단지 A가 아니라 B이기도 하다'는 뜻이야. 'trigger'는 '촉발하다, 유발하다'로 cause와 비슷하지만 더 즉각적인 느낌이야."
+        "en": "Adding salt to water raises its boiling point because the dissolved ions interfere with water molecules trying to escape as steam.",
+        "ko": "물에 소금을 넣으면 끓는점이 올라가는데, 녹은 이온이 수증기로 빠져나가려는 물 분자를 방해하기 때문이다.",
+        "note": "'Adding ~ raises …'에서 동명사 주어가 문장을 이끌어. 'interfere with ~'는 '~을 방해하다'로, 전치사 with를 꼭 함께 써야 해."
       }
     ],
     "vocab": [
@@ -2391,8 +2391,8 @@
         "meaning": "감정"
       },
       {
-        "word": "trigger",
-        "meaning": "촉발하다, 유발하다"
+        "word": "dissolve",
+        "meaning": "녹이다, 용해하다"
       }
     ]
   },
@@ -2423,9 +2423,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Psychologists have found that people who use polite language are perceived as more trustworthy and competent by those around them.",
-        "ko": "심리학자들은 예의 바른 언어를 사용하는 사람들이 주변 사람들에게 더 신뢰할 수 있고 유능한 사람으로 인식된다는 것을 발견했다.",
-        "note": "'are perceived as ~'는 '~로 인식되다'라는 수동태야. perceive A as B(A를 B로 인식하다)의 수동형이야. 'those around them'은 '그들 주변의 사람들'이야."
+        "en": "Soap molecules have one end that attracts water and another that attracts oil, which is how they pull germs off your hands.",
+        "ko": "비누 분자는 한쪽 끝이 물을 끌어당기고 다른 쪽은 기름을 끌어당기는데, 이것이 세균을 손에서 떼어내는 원리이다.",
+        "note": "'one ~ and another ~'는 '하나는 ~이고 다른 하나는 ~이다'라는 대조 표현이야. 'which is how ~'에서 which는 앞 문장 전체를 받아 '그것이 ~하는 방법이다'라는 뜻이야."
       }
     ],
     "vocab": [
@@ -2442,8 +2442,8 @@
         "meaning": "의례, 의식"
       },
       {
-        "word": "competent",
-        "meaning": "유능한"
+        "word": "molecule",
+        "meaning": "분자"
       }
     ]
   },
@@ -3137,9 +3137,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Too much sugar triggers a cycle of energy spikes and crashes, which is why nutritionists recommend eating it in moderation.",
-        "ko": "과도한 설탕은 에너지 급상승과 급하락의 순환을 일으키는데, 그래서 영양학자들이 적당히 먹기를 권하는 것이다.",
-        "note": "'in moderation'은 '적당히, 절제하여'라는 뜻이야. 'which is why ~'는 '그래서 ~인 것이다'로, 앞 문장의 결과를 설명하는 표현이야."
+        "en": "In a nuclear chain reaction, each splitting atom releases neutrons that split more atoms, making the process extremely difficult to stop.",
+        "ko": "핵 연쇄반응에서 각 분열하는 원자가 중성자를 방출하고, 그 중성자가 더 많은 원자를 분열시켜 과정을 멈추기 극히 어렵게 만든다.",
+        "note": "'each splitting atom'에서 splitting은 현재분사로 명사를 수식해. 'making the process ~'는 분사구문으로 결과를 나타내."
       }
     ],
     "vocab": [
@@ -3156,8 +3156,8 @@
         "meaning": "절제"
       },
       {
-        "word": "trigger",
-        "meaning": "유발하다"
+        "word": "neutron",
+        "meaning": "중성자"
       }
     ]
   },
@@ -3494,9 +3494,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Crying releases stress hormones from the body, which is one reason why people often feel better after a good cry.",
-        "ko": "울음은 몸에서 스트레스 호르몬을 방출하는데, 이것이 사람들이 실컷 울고 나면 기분이 나아지는 이유 중 하나다.",
-        "note": "'which is one reason why ~'는 '이것이 ~인 이유 중 하나다'라는 뜻이야. 원인을 설명할 때 자연스럽게 쓸 수 있는 유용한 패턴이야."
+        "en": "Warm drinks make you feel cozy because the heat transfers through the cup to your hands, signaling your brain to relax.",
+        "ko": "따뜻한 음료가 아늑하게 느껴지는 건 열이 컵을 통해 손으로 전달되어 뇌에 이완 신호를 보내기 때문이다.",
+        "note": "'make you feel ~'에서 make는 사역동사로, 'make + 목적어 + 동사원형' 패턴이야. 'signaling ~'은 분사구문으로 부수적 결과를 나타내."
       }
     ],
     "vocab": [
@@ -3513,8 +3513,8 @@
         "meaning": "애도자"
       },
       {
-        "word": "release",
-        "meaning": "방출하다"
+        "word": "transfer",
+        "meaning": "전달하다, 이동하다"
       }
     ]
   },
@@ -3545,9 +3545,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Research shows that a genuine smile activates specific muscles around the eyes that cannot be controlled voluntarily.",
-        "ko": "연구에 따르면 진심 어린 미소는 자발적으로 조절할 수 없는 눈 주위의 특정 근육을 활성화한다.",
-        "note": "'that cannot be controlled voluntarily'는 관계절이야. voluntarily는 '자발적으로'라는 부사로, '의도적으로 컨트롤할 수 없는'이라는 뜻이야."
+        "en": "Magnets attract each other because their electrons spin in aligned directions, creating a force that pulls opposite poles together.",
+        "ko": "자석은 전자가 정렬된 방향으로 회전하면서 반대 극을 끌어당기는 힘을 만들기 때문에 서로 끌어당긴다.",
+        "note": "'aligned'는 '정렬된'이라는 과거분사 형용사야. 'creating ~'은 분사구문으로 결과를 나타내며, 'opposite poles'는 '반대 극'이야."
       }
     ],
     "vocab": [
@@ -3564,8 +3564,8 @@
         "meaning": "10년"
       },
       {
-        "word": "genuine",
-        "meaning": "진심의, 진짜의"
+        "word": "pole",
+        "meaning": "극, 기둥"
       }
     ]
   },
@@ -4055,9 +4055,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Dopamine is released in the brain not only when we receive a reward, but also when we anticipate one, which is why the chase often feels better than the catch.",
-        "ko": "도파민은 보상을 받을 때뿐만 아니라 보상을 기대할 때도 뇌에서 분비되는데, 그래서 추적이 종종 포획보다 더 좋게 느껴진다.",
-        "note": "'not only when A, but also when B'는 'A할 때뿐 아니라 B할 때도'라는 상관접속사 구문이야. anticipate는 '기대하다, 예상하다'라는 뜻이야."
+        "en": "Hot springs form when groundwater seeps deep enough to be heated by geothermal energy from the Earth's interior.",
+        "ko": "온천은 지하수가 충분히 깊이 스며들어 지구 내부의 지열 에너지에 의해 데워질 때 형성된다.",
+        "note": "'deep enough to be heated'에서 'enough to ~'는 '~할 만큼 충분히'라는 뜻이야. 'seep'은 '스며들다'로 물이 천천히 침투하는 것을 표현해."
       }
     ],
     "vocab": [
@@ -4074,8 +4074,8 @@
         "meaning": "덧없는, 순간적인"
       },
       {
-        "word": "anticipate",
-        "meaning": "기대하다, 예상하다"
+        "word": "geothermal",
+        "meaning": "지열의"
       }
     ]
   },
@@ -4157,9 +4157,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Laughing releases endorphins in the brain, which naturally reduce stress and boost your immune system.",
-        "ko": "웃으면 뇌에서 엔도르핀이 분비되어 자연스럽게 스트레스를 줄이고 면역 체계를 강화한다.",
-        "note": "'releases A, which ~'에서 which는 앞 문장 전체를 받는 관계대명사야. '그리고 그것이 ~하다'로 해석하면 자연스러워."
+        "en": "Helium makes your voice sound higher because sound waves travel nearly three times faster through helium than through air.",
+        "ko": "헬륨은 음파가 공기보다 거의 세 배 빠르게 이동하기 때문에 목소리가 더 높게 들리게 만든다.",
+        "note": "'make + 목적어 + 동사원형'은 사역동사 구문이야. 'three times faster than ~'는 '~보다 세 배 빠른'이라는 배수 비교 표현이야."
       }
     ],
     "vocab": [
@@ -4176,8 +4176,8 @@
         "meaning": "도덕적인"
       },
       {
-        "word": "endorphin",
-        "meaning": "엔도르핀"
+        "word": "helium",
+        "meaning": "헬륨"
       }
     ]
   },
@@ -4463,9 +4463,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Neuroscientists have found that practice physically rewires the brain, building thicker neural pathways through repetition.",
-        "ko": "신경과학자들은 연습이 뇌를 물리적으로 재배선하여, 반복을 통해 더 두꺼운 신경 경로를 만든다는 것을 발견했다.",
-        "note": "'rewires the brain'에서 re-는 '다시'라는 접두사야. wire(배선하다) + re(다시) = '재배선하다'. 접두사 re-는 영어 단어 확장에 매우 유용해."
+        "en": "Diamond and graphite are both made entirely of carbon, yet their atoms are arranged so differently that one is the hardest natural material and the other is one of the softest.",
+        "ko": "다이아몬드와 흑연은 둘 다 완전히 탄소로 이루어져 있지만, 원자 배열이 너무 달라서 하나는 가장 단단한 천연 물질이고 다른 하나는 가장 부드러운 물질 중 하나이다.",
+        "note": "'are both made entirely of ~'는 '둘 다 완전히 ~로 이루어져 있다'야. 'so ~ that …'은 결과를 나타내는 구문이야."
       }
     ],
     "vocab": [
@@ -4482,8 +4482,8 @@
         "meaning": "시험"
       },
       {
-        "word": "rewire",
-        "meaning": "재배선하다"
+        "word": "graphite",
+        "meaning": "흑연"
       }
     ]
   },
@@ -4616,9 +4616,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Research shows that people tell an average of one to two lies per day, often without even realizing they are doing it.",
-        "ko": "연구에 따르면 사람들은 하루 평균 한두 번 거짓말을 하는데, 종종 자신이 그러고 있다는 사실조차 인식하지 못한다.",
-        "note": "'without even realizing'은 '인식하지도 못한 채'라는 뜻이야. without + ~ing는 '~하지 않고'이고, even이 들어가면 강조돼."
+        "en": "A mirage appears on hot roads because heated air near the ground bends light rays upward, creating the illusion of a puddle.",
+        "ko": "뜨거운 도로에서 신기루가 나타나는 것은 지면 근처의 가열된 공기가 빛을 위로 굴절시켜 물웅덩이의 환상을 만들기 때문이다.",
+        "note": "'heated air'에서 heated는 과거분사가 형용사로 쓰인 경우야. 'creating ~'은 분사구문으로 결과를 나타내."
       }
     ],
     "vocab": [
@@ -4635,8 +4635,8 @@
         "meaning": "선전, 선동"
       },
       {
-        "word": "realize",
-        "meaning": "깨닫다, 인식하다"
+        "word": "illusion",
+        "meaning": "환상, 착각"
       }
     ]
   },
@@ -4820,9 +4820,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "It takes roughly sixty-six days for a new behavior to become automatic, according to research on habit formation.",
-        "ko": "습관 형성에 관한 연구에 따르면, 새로운 행동이 자동화되려면 대략 66일이 걸린다.",
-        "note": "'It takes ~ days for A to B'는 'A가 B하는 데 ~일이 걸린다'는 가주어 구문이야. roughly는 '대략'이라는 부사로, approximately와 같은 뜻이야."
+        "en": "Rivers follow the same path because flowing water erodes the softest rock first, carving a channel that deepens over time.",
+        "ko": "강물은 흐르는 물이 가장 부드러운 암석을 먼저 침식시켜 시간이 지남에 따라 깊어지는 수로를 파내기 때문에 같은 길로 흐른다.",
+        "note": "'carving a channel that deepens'에서 carving은 분사구문, that deepens는 관계절로 channel을 수식해. 'over time'은 '시간이 지남에 따라'야."
       }
     ],
     "vocab": [
@@ -4839,8 +4839,8 @@
         "meaning": "명상"
       },
       {
-        "word": "automatic",
-        "meaning": "자동적인"
+        "word": "erode",
+        "meaning": "침식하다"
       }
     ]
   },
@@ -8441,9 +8441,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Brain scans show that the areas responsible for empathy light up when jurors listen to testimony from victims.",
-        "ko": "뇌 스캔 결과, 배심원이 피해자의 증언을 들을 때 공감을 담당하는 영역이 활성화되는 것으로 나타났다.",
-        "note": "'responsible for'는 '~을 담당하는'이라는 형용사구야. light up은 '활성화되다, 밝아지다'로, 뇌 활동을 묘사할 때 자주 쓰는 표현이야."
+        "en": "Forensic scientists can identify a suspect from a single fingerprint because every person's ridge pattern is completely unique.",
+        "ko": "법의학자들은 모든 사람의 지문 융선 패턴이 완전히 고유하기 때문에 하나의 지문만으로 용의자를 식별할 수 있다.",
+        "note": "'identify A from B'는 'B로부터 A를 식별하다'야. 'because ~'절이 이유를 설명하는 부사절로 쓰였어."
       }
     ],
     "vocab": [
@@ -8460,8 +8460,8 @@
         "meaning": "확립하다"
       },
       {
-        "word": "empathy",
-        "meaning": "공감"
+        "word": "forensic",
+        "meaning": "법의학의, 과학수사의"
       }
     ]
   },
@@ -9155,9 +9155,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Dopamine is released in our brains when we anticipate a purchase, which explains why shopping can feel so addictive.",
-        "ko": "도파민은 구매를 기대할 때 뇌에서 분비되는데, 이것이 쇼핑이 중독적으로 느껴질 수 있는 이유를 설명해 준다.",
-        "note": "'which explains why ~'에서 which는 앞 문장 전체를 받는 관계대명사야. 'why + 주어 + 동사'는 간접의문문으로 '왜 ~하는지'라는 뜻이야."
+        "en": "Rare earth elements are essential for smartphones because they produce the vivid colors on screens and the vibrations in tiny motors.",
+        "ko": "희토류 원소는 화면의 선명한 색상과 소형 모터의 진동을 만들어내기 때문에 스마트폰에 필수적이다.",
+        "note": "'are essential for ~'는 '~에 필수적이다'야. 'the vivid colors ~ and the vibrations ~'에서 and로 두 명사구가 병렬 연결됐어."
       }
     ],
     "vocab": [
@@ -9174,8 +9174,8 @@
         "meaning": "유래하다, 시작되다"
       },
       {
-        "word": "anticipate",
-        "meaning": "기대하다, 예상하다"
+        "word": "element",
+        "meaning": "원소, 요소"
       }
     ]
   },
@@ -9920,9 +9920,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Crying triggers the release of endorphins, your body's natural painkillers, which is why people often feel better after a good cry.",
-        "ko": "울음은 체내 천연 진통제인 엔도르핀의 분비를 유발하며, 그래서 사람들은 실컷 울고 나면 기분이 나아지는 것이다.",
-        "note": "'which is why ~'는 '그래서 ~하는 것이다'라는 인과 관계 표현이야. 'a good cry'에서 good은 '충분한, 실컷 하는'이라는 뜻이야."
+        "en": "On cloudy days, reduced sunlight lowers serotonin production in the brain, which can make people feel gloomier than usual.",
+        "ko": "흐린 날에는 햇빛이 줄어들어 뇌에서 세로토닌 생성이 감소하는데, 이것이 사람들을 평소보다 우울하게 만들 수 있다.",
+        "note": "'reduced sunlight'에서 reduced는 과거분사가 형용사로 쓰인 경우야. 'which can make ~'에서 which는 앞 문장 전체를 받는 관계대명사야."
       }
     ],
     "vocab": [
@@ -9939,8 +9939,8 @@
         "meaning": "축하, 기념행사"
       },
       {
-        "word": "endorphin",
-        "meaning": "엔도르핀"
+        "word": "sunlight",
+        "meaning": "햇빛"
       }
     ]
   },
@@ -9971,9 +9971,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Laughter activates multiple regions of the brain simultaneously and releases a cocktail of feel-good chemicals including dopamine and serotonin.",
-        "ko": "웃음은 뇌의 여러 영역을 동시에 활성화하고, 도파민과 세로토닌을 포함한 기분 좋은 화학물질의 칵테일을 방출한다.",
-        "note": "'simultaneously'는 '동시에'라는 부사야. 'a cocktail of ~'는 비유적으로 '~의 혼합물'이라는 뜻이야. 'including ~'은 '~을 포함하여'라는 전치사구야."
+        "en": "Fireworks produce different colors because each metal salt burns at a specific wavelength — strontium for red, barium for green, and copper for blue.",
+        "ko": "불꽃놀이는 각 금속 염이 특정 파장에서 연소하기 때문에 다양한 색을 만들어낸다 — 스트론튬은 빨강, 바륨은 초록, 구리는 파랑이다.",
+        "note": "'each ~ burns at a specific wavelength'에서 each는 단수 취급해. 대시(—) 뒤에 구체적 예시를 나열하는 건 영어 글쓰기의 유용한 기법이야."
       }
     ],
     "vocab": [
@@ -9990,8 +9990,8 @@
         "meaning": "축제"
       },
       {
-        "word": "serotonin",
-        "meaning": "세로토닌"
+        "word": "wavelength",
+        "meaning": "파장"
       }
     ]
   },
@@ -10124,9 +10124,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Blushing, the involuntary reddening of the face, is unique to humans and is believed to have evolved as a nonverbal apology signal.",
-        "ko": "얼굴이 무의식적으로 빨개지는 현상인 홍조는 인간에게만 있으며, 비언어적 사과 신호로 진화한 것으로 여겨진다.",
-        "note": "'is believed to have + 과거분사'는 '~한 것으로 여겨진다'라는 뜻이야. to have evolved는 '진화했을 것이다'로, 과거에 대한 추정을 나타내."
+        "en": "Blushing cannot be hidden because it is an involuntary response in which blood vessels in the face widen, letting more blood flow to the surface.",
+        "ko": "홍조는 숨길 수 없는데, 얼굴의 혈관이 넓어져 더 많은 피가 표면으로 흐르게 하는 불수의적 반응이기 때문이다.",
+        "note": "'in which'는 'where'와 같은 의미의 관계부사야. 'letting ~'은 분사구문으로 결과를 나타내며, let + 목적어 + 동사원형 구조야."
       }
     ],
     "vocab": [
@@ -10143,8 +10143,8 @@
         "meaning": "구별하다"
       },
       {
-        "word": "involuntary",
-        "meaning": "무의식적인"
+        "word": "vessel",
+        "meaning": "혈관, 그릇"
       }
     ]
   },
@@ -10226,9 +10226,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Dopamine does not just create pleasure — it creates the motivation to seek rewards before you even receive them.",
-        "ko": "도파민은 단순히 쾌감을 만드는 게 아니라, 보상을 받기도 전에 그것을 추구하려는 동기를 만든다.",
-        "note": "'before you even receive them'에서 even은 '~조차, ~하기도 전에'라는 강조야. before만 써도 되지만 even을 넣으면 '아직 받지도 않았는데'라는 느낌이 강해져."
+        "en": "Rockets move forward in the vacuum of space by expelling gas backward — for every action, there is an equal and opposite reaction.",
+        "ko": "로켓은 가스를 뒤로 분출함으로써 우주 진공에서 앞으로 나아간다 — 모든 작용에는 동일하고 반대 방향의 반작용이 있다.",
+        "note": "'by -ing'는 '~함으로써'라는 수단을 나타내. 'for every action, there is ~'은 뉴턴의 제3법칙을 표현한 유명한 문장이야."
       }
     ],
     "vocab": [
@@ -10245,8 +10245,8 @@
         "meaning": "기업가"
       },
       {
-        "word": "dopamine",
-        "meaning": "도파민"
+        "word": "expel",
+        "meaning": "분출하다, 내쫓다"
       }
     ]
   },
@@ -10277,9 +10277,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Willpower works like a muscle — the more you use it, the stronger it becomes, but it can also get tired.",
-        "ko": "의지력은 근육처럼 작동한다 — 많이 쓸수록 강해지지만, 피로해질 수도 있다.",
-        "note": "'the more ~, the stronger ~'는 'the + 비교급, the + 비교급' 구문이야. '~하면 할수록 더 ~하다'라는 뜻으로 정말 자주 쓰여."
+        "en": "Steel is stronger than pure iron because adding a small amount of carbon prevents layers of iron atoms from sliding past each other.",
+        "ko": "강철은 소량의 탄소를 추가하면 철 원자 층이 서로 미끄러지는 것을 방지하기 때문에 순철보다 강하다.",
+        "note": "'prevent A from -ing'는 'A가 ~하는 것을 방지하다'야. from 뒤에 동명사가 오는 구문으로 정말 자주 쓰여."
       }
     ],
     "vocab": [
@@ -10296,8 +10296,8 @@
         "meaning": "무기"
       },
       {
-        "word": "muscle",
-        "meaning": "근육"
+        "word": "carbon",
+        "meaning": "탄소"
       }
     ]
   },
@@ -10430,9 +10430,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Creative ideas often come when the brain is relaxed, which is why many people have their best ideas in the shower.",
-        "ko": "창의적인 아이디어는 뇌가 이완되었을 때 자주 떠오르는데, 그래서 많은 사람이 샤워 중에 최고의 아이디어를 얻는다.",
-        "note": "'which is why ~'는 '그래서 ~인 이유다'라는 뜻이야. which가 앞 문장 전체를 받아서 이유를 설명하는 패턴이야."
+        "en": "Nature repeats the same spiral pattern in seashells, galaxies, and sunflowers because it follows a mathematical rule called the Fibonacci sequence.",
+        "ko": "자연은 조개껍데기, 은하, 해바라기에서 같은 나선 패턴을 반복하는데, 피보나치 수열이라는 수학 법칙을 따르기 때문이다.",
+        "note": "'called ~'는 과거분사로 앞의 명사를 수식해 '~라 불리는'이야. 세 개 이상 나열할 때 'A, B, and C' 패턴에 주의해."
       }
     ],
     "vocab": [
@@ -10449,8 +10449,8 @@
         "meaning": "대륙"
       },
       {
-        "word": "relaxed",
-        "meaning": "이완된"
+        "word": "spiral",
+        "meaning": "나선형의, 나선"
       }
     ]
   },
@@ -10532,9 +10532,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Psychological acceptance does not mean giving up — it means acknowledging reality so you can respond to it more effectively.",
-        "ko": "심리적 수용은 포기를 의미하는 게 아니야 — 현실을 인정해서 더 효과적으로 대응할 수 있게 하는 거야.",
-        "note": "'does not mean ~ing'은 '~을 의미하는 것이 아니다'야. 'it means ~ing'에서 mean 뒤에 동명사가 와서 '~하는 것을 뜻한다'가 돼."
+        "en": "The ocean absorbs roughly a quarter of all carbon dioxide humans produce, but this is making seawater more acidic and threatening marine life.",
+        "ko": "바다는 인간이 배출하는 이산화탄소의 약 4분의 1을 흡수하지만, 이것이 해수를 더 산성으로 만들어 해양 생물을 위협하고 있다.",
+        "note": "'roughly a quarter of ~'는 '~의 약 4분의 1'이야. 'this is making ~'에서 현재진행형은 지금 진행 중인 변화를 강조해."
       }
     ],
     "vocab": [
@@ -10551,8 +10551,8 @@
         "meaning": "화해"
       },
       {
-        "word": "acknowledge",
-        "meaning": "인정하다"
+        "word": "absorb",
+        "meaning": "흡수하다"
       }
     ]
   },
@@ -10685,9 +10685,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Decision fatigue is real — after making too many choices, your brain becomes less capable of making good ones.",
-        "ko": "결정 피로는 실재한다 — 너무 많은 선택을 한 후, 뇌는 좋은 결정을 내리는 능력이 떨어진다.",
-        "note": "'less capable of ~ing'는 '~하는 능력이 더 떨어지는'이야. capable of + 동명사는 '~할 수 있는'이고, less가 붙어 능력 감소를 나타내."
+        "en": "Arch bridges distribute weight along their curved shape, which is why ancient Roman arches still stand after two thousand years.",
+        "ko": "아치교는 무게를 곡선 형태를 따라 분산시키는데, 이것이 고대 로마 아치가 2,000년이 지난 후에도 여전히 서 있는 이유이다.",
+        "note": "'distribute A along B'는 'A를 B를 따라 분산시키다'야. 'which is why ~'는 '그래서 ~인 이유다'라는 인과 관계 패턴이야."
       }
     ],
     "vocab": [
@@ -10704,8 +10704,8 @@
         "meaning": "헌신"
       },
       {
-        "word": "fatigue",
-        "meaning": "피로"
+        "word": "distribute",
+        "meaning": "분배하다, 분산시키다"
       }
     ]
   },
@@ -10889,9 +10889,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "In a crowd, individuals tend to lose their sense of personal responsibility — psychologists call this the bystander effect.",
-        "ko": "군중 속에서 개인은 개인적 책임감을 잃는 경향이 있는데, 심리학자들은 이것을 방관자 효과라고 부른다.",
-        "note": "'tend to ~'는 '~하는 경향이 있다'야. 습관이나 일반적 성향을 말할 때 쓰는 표현이야. tendency(경향)라는 명사형도 기억해둬."
+        "en": "Waves break near the shore because the shallow seabed slows the bottom of the wave while the top keeps moving forward and topples over.",
+        "ko": "파도는 해안 근처에서 부서지는데, 얕은 해저가 파도의 아래쪽을 느리게 하는 반면 위쪽은 계속 앞으로 나아가 넘어지기 때문이다.",
+        "note": "'while ~'는 '~하는 반면에'라는 대조의 접속사야. 'topple over'는 '쓰러지다, 넘어지다'라는 구동사야."
       }
     ],
     "vocab": [
@@ -10908,8 +10908,8 @@
         "meaning": "순례"
       },
       {
-        "word": "bystander",
-        "meaning": "방관자"
+        "word": "shallow",
+        "meaning": "얕은"
       }
     ]
   },
@@ -11144,9 +11144,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Repeating the same routine before a performance reduces anxiety because the brain associates the ritual with a feeling of control.",
-        "ko": "공연 전에 같은 루틴을 반복하면 불안이 줄어드는데, 뇌가 그 의식을 통제감과 연결시키기 때문이다.",
-        "note": "'associates A with B'는 'A를 B와 연결시키다/연상하다'야. associate with는 '~와 관련짓다'라는 뜻으로 자주 쓰이는 표현이야."
+        "en": "Flames always point upward because hot gas is lighter than the surrounding cool air, so it rises due to buoyancy.",
+        "ko": "불꽃이 항상 위를 향하는 것은 뜨거운 기체가 주변의 차가운 공기보다 가벼워서 부력에 의해 올라가기 때문이다.",
+        "note": "'due to ~'는 'because of ~'와 같은 뜻으로 '~ 때문에'야. 'surrounding'은 현재분사가 형용사로 쓰여 '주변의'라는 뜻이야."
       }
     ],
     "vocab": [
@@ -11163,8 +11163,8 @@
         "meaning": "의식"
       },
       {
-        "word": "anxiety",
-        "meaning": "불안"
+        "word": "buoyancy",
+        "meaning": "부력"
       }
     ]
   },
@@ -11705,9 +11705,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Dancing together at festivals triggers the release of endorphins and oxytocin, chemicals that create feelings of happiness and social bonding.",
-        "ko": "축제에서 함께 춤추면 엔도르핀과 옥시토신이 분비되는데, 이것은 행복감과 사회적 유대감을 만드는 화학 물질이다.",
-        "note": "'triggers the release of ~'는 '~의 분비를 촉발한다'야. trigger는 '방아쇠를 당기다'에서 온 단어로, '유발하다/촉발하다'라는 뜻이야."
+        "en": "Neon signs produce different colors because each noble gas emits a unique wavelength of light when electricity passes through it.",
+        "ko": "네온사인은 각 비활성 기체가 전기가 통과할 때 고유한 파장의 빛을 내기 때문에 다양한 색을 만들어낸다.",
+        "note": "'each noble gas emits'에서 emit은 '방출하다'야. 'when electricity passes through it'은 시간의 부사절로 '전기가 통과할 때'."
       }
     ],
     "vocab": [
@@ -11724,8 +11724,8 @@
         "meaning": "영혼, 정신"
       },
       {
-        "word": "endorphin",
-        "meaning": "엔도르핀"
+        "word": "wavelength",
+        "meaning": "파장"
       }
     ]
   },
@@ -11756,9 +11756,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Mirror neurons in our brain fire when we watch someone else's actions, helping us understand social cues and respond politely.",
-        "ko": "우리 뇌의 거울 뉴런은 다른 사람의 행동을 볼 때 활성화되어, 사회적 신호를 이해하고 예의 바르게 반응하도록 돕는다.",
-        "note": "'fire'는 여기서 '(뉴런이) 활성화되다'라는 뜻이야. 'helping us understand'에서 help는 목적어 + 동사원형을 취해."
+        "en": "Salt enhances the flavor of food by suppressing bitterness and allowing other tastes to become more noticeable.",
+        "ko": "소금은 쓴맛을 억제하고 다른 맛이 더 잘 느껴지게 함으로써 음식의 풍미를 높인다.",
+        "note": "'by + -ing'는 '~함으로써'라는 수단/방법을 나타내. suppress는 '억제하다'라는 뜻이야."
       }
     ],
     "vocab": [
@@ -11775,8 +11775,8 @@
         "meaning": "거부하다"
       },
       {
-        "word": "neuron",
-        "meaning": "뉴런(신경세포)"
+        "word": "suppress",
+        "meaning": "억제하다"
       }
     ]
   },
@@ -12215,9 +12215,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Dancing triggers the release of endorphins, natural painkillers that also create feelings of happiness and reduce stress.",
-        "ko": "춤은 엔도르핀의 분비를 촉발하는데, 이는 행복감을 만들고 스트레스를 줄이는 천연 진통제이다.",
-        "note": "'triggers the release of ~'는 '~의 분비를 촉발하다'라는 뜻이야. that also create는 endorphins를 수식하는 관계절."
+        "en": "A figure skater spins faster by pulling their arms close to their body, demonstrating the conservation of angular momentum.",
+        "ko": "피겨 스케이트 선수는 팔을 몸에 가까이 당겨서 더 빠르게 회전하는데, 이는 각운동량 보존을 보여준다.",
+        "note": "'by pulling'은 '당김으로써'라는 수단을 나타내. angular momentum은 '각운동량'으로 물리학 핵심 개념이야."
       }
     ],
     "vocab": [
@@ -12234,8 +12234,8 @@
         "meaning": "손짓, 제스처"
       },
       {
-        "word": "endorphin",
-        "meaning": "엔도르핀"
+        "word": "momentum",
+        "meaning": "운동량"
       }
     ]
   },
@@ -12266,9 +12266,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Watching live theater causes the audience's heartbeats to synchronize, creating a shared emotional experience among strangers.",
-        "ko": "연극을 관람하면 관객의 심장 박동이 동기화되어, 낯선 사람들 사이에 공유된 감정적 경험이 만들어진다.",
-        "note": "'causes A to + 동사원형'은 'A가 ~하게 만든다'는 사역 표현이야. synchronize는 '동기화하다'라는 뜻."
+        "en": "Stage lighting transforms a scene's mood by adjusting the color temperature and intensity of light, just as sunset light feels warmer than noon.",
+        "ko": "무대 조명은 빛의 색온도와 강도를 조절하여 장면의 분위기를 바꾸는데, 마치 석양빛이 정오보다 따뜻하게 느껴지는 것과 같다.",
+        "note": "'by adjusting'은 '조절함으로써'라는 수단 표현이야. color temperature는 '색온도'로, 빛의 따뜻함/차가움을 나타내는 물리 용어야."
       }
     ],
     "vocab": [
@@ -12285,8 +12285,8 @@
         "meaning": "평판, 명성"
       },
       {
-        "word": "synchronize",
-        "meaning": "동기화하다"
+        "word": "intensity",
+        "meaning": "강도, 세기"
       }
     ]
   },
@@ -12368,9 +12368,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "A camera lens focuses light onto a sensor in the same way that the human eye focuses light onto the retina.",
-        "ko": "카메라 렌즈는 인간의 눈이 빛을 망막에 초점을 맞추는 것과 같은 방식으로 센서에 빛의 초점을 맞춘다.",
-        "note": "'in the same way that ~'은 '~하는 것과 같은 방식으로'라는 뜻이야. focus A onto B는 'A를 B에 초점을 맞추다'."
+        "en": "A camera lens bends light rays so that they converge on a single point, forming a sharp image on the sensor inside.",
+        "ko": "카메라 렌즈는 빛을 굴절시켜 한 점에 모이게 하고, 내부 센서 위에 선명한 이미지를 만든다.",
+        "note": "'so that they converge'에서 so that은 '~하도록'이라는 목적 접속사야. converge는 '한 점으로 모이다'라는 뜻."
       }
     ],
     "vocab": [
@@ -12387,8 +12387,8 @@
         "meaning": "절대적인"
       },
       {
-        "word": "retina",
-        "meaning": "망막"
+        "word": "converge",
+        "meaning": "한 점으로 모이다"
       }
     ]
   },
@@ -12419,9 +12419,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Playing strategy games strengthens the prefrontal cortex, the part of the brain responsible for planning and decision-making.",
-        "ko": "전략 게임을 하면 계획과 의사결정을 담당하는 뇌 부분인 전두엽 피질이 강화된다.",
-        "note": "'responsible for ~'는 '~을 담당하는, ~에 책임 있는'이라는 형용사구야. the part of the brain은 동격으로 설명을 추가해."
+        "en": "Computer graphics create the illusion of a three-dimensional world on a flat screen by calculating how light would interact with virtual objects.",
+        "ko": "컴퓨터 그래픽은 빛이 가상 물체와 어떻게 상호작용하는지를 계산하여 평면 화면에 3차원 세계의 환상을 만들어낸다.",
+        "note": "'the illusion of ~'는 '~의 환상/착시'라는 뜻이야. 'how light would interact with'는 간접의문문으로 '빛이 어떻게 상호작용할지'."
       }
     ],
     "vocab": [
@@ -12438,8 +12438,8 @@
         "meaning": "유래하다, 시작되다"
       },
       {
-        "word": "strategy",
-        "meaning": "전략"
+        "word": "dimension",
+        "meaning": "차원"
       }
     ]
   },
@@ -12674,9 +12674,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Receiving a handwritten letter triggers a stronger emotional response in the brain than reading a digital message on a screen.",
-        "ko": "손으로 쓴 편지를 받으면 화면에서 디지털 메시지를 읽는 것보다 뇌에서 더 강한 감정적 반응이 일어난다.",
-        "note": "'triggers a stronger ~ than'은 비교급 구문이야. '~ing A'로 시작하는 동명사구가 문장의 주어 역할을 해."
+        "en": "Ink stays on paper without spreading because the cellulose fibers in paper absorb the liquid through capillary action.",
+        "ko": "잉크가 번지지 않고 종이 위에 남는 것은 종이의 셀룰로스 섬유가 모세관 현상으로 액체를 흡수하기 때문이다.",
+        "note": "'without + -ing'는 '~하지 않고'라는 뜻이야. capillary action은 '모세관 현상'으로, 좁은 관에서 액체가 올라가는 물리 현상이야."
       }
     ],
     "vocab": [
@@ -12693,8 +12693,8 @@
         "meaning": "독립"
       },
       {
-        "word": "trigger",
-        "meaning": "촉발하다"
+        "word": "absorb",
+        "meaning": "흡수하다"
       }
     ]
   },
@@ -12776,9 +12776,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Advertisers use repetition because our brains tend to trust messages that we have heard or seen multiple times.",
-        "ko": "광고주들은 반복을 사용하는데, 우리 뇌가 여러 번 듣거나 본 메시지를 신뢰하는 경향이 있기 때문이다.",
-        "note": "'tend to + 동사'는 '~하는 경향이 있다'라는 뜻이야. 'that we have heard or seen'은 현재완료 관계절."
+        "en": "An LED display creates images by combining millions of tiny red, green, and blue light-emitting diodes, each one too small to see individually.",
+        "ko": "LED 전광판은 수백만 개의 작은 빨강, 초록, 파랑 발광 다이오드를 결합하여 영상을 만드는데, 각각은 개별적으로 볼 수 없을 만큼 작다.",
+        "note": "'by combining'은 '결합함으로써'라는 수단 표현이야. 'each one too small to see'에서 too ~ to는 '너무 ~해서 …할 수 없다'."
       }
     ],
     "vocab": [
@@ -12795,8 +12795,8 @@
         "meaning": "광고, 상업적인"
       },
       {
-        "word": "repetition",
-        "meaning": "반복"
+        "word": "diode",
+        "meaning": "다이오드"
       }
     ]
   },
@@ -12929,9 +12929,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Public speaking triggers the same fight-or-flight response as facing physical danger, causing a rush of adrenaline through the body.",
-        "ko": "발표는 신체적 위험에 직면했을 때와 같은 투쟁-도피 반응을 유발하여, 몸 전체에 아드레날린이 쏟아지게 한다.",
-        "note": "'the same ~ as'는 '~와 같은'이라는 비교 표현이야. 'causing a rush of ~'는 분사구문으로 결과를 나타내."
+        "en": "When a microphone picks up sound from its own speaker, it creates a feedback loop that amplifies the signal into a high-pitched squeal.",
+        "ko": "마이크가 자체 스피커의 소리를 잡아내면 피드백 루프가 만들어져 신호가 증폭되면서 날카로운 삐 소리가 난다.",
+        "note": "'picks up'은 '(소리를) 잡아내다'라는 뜻이야. 'that amplifies'는 feedback loop를 수식하는 관계절로, amplify는 '증폭하다'."
       }
     ],
     "vocab": [
@@ -12948,8 +12948,8 @@
         "meaning": "참여하다"
       },
       {
-        "word": "adrenaline",
-        "meaning": "아드레날린"
+        "word": "amplify",
+        "meaning": "증폭하다"
       }
     ]
   },
@@ -12980,9 +12980,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Research shows that interviewers form a first impression within the first seven seconds of meeting a candidate.",
-        "ko": "연구에 따르면 면접관은 지원자를 만난 첫 7초 이내에 첫인상을 형성한다.",
-        "note": "'form a first impression'은 '첫인상을 형성하다'라는 표현이야. 'within the first seven seconds'는 '처음 7초 이내에'."
+        "en": "Thunder arrives after lightning because light travels nearly a million times faster than sound through the atmosphere.",
+        "ko": "빛이 대기 중에서 소리보다 거의 백만 배 빠르게 이동하기 때문에, 번개 후 한참 뒤에 천둥이 들린다.",
+        "note": "'arrives after'는 '~후에 도착하다'야. 'a million times faster than'은 배수 비교급으로 '백만 배 더 빠른'이라는 뜻."
       }
     ],
     "vocab": [
@@ -12999,8 +12999,8 @@
         "meaning": "배경"
       },
       {
-        "word": "impression",
-        "meaning": "인상"
+        "word": "atmosphere",
+        "meaning": "대기, 분위기"
       }
     ]
   },
@@ -13082,9 +13082,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "When we are deeply moved, our brain releases oxytocin, a hormone that strengthens social bonds and promotes feelings of trust.",
-        "ko": "우리가 깊이 감동받으면, 뇌는 사회적 유대를 강화하고 신뢰감을 촉진하는 호르몬인 옥시토신을 분비한다.",
-        "note": "'a hormone that ~'은 oxytocin을 설명하는 동격 + 관계절이야. 'promotes feelings of trust'는 '신뢰의 감정을 촉진하다'."
+        "en": "When water is heated to its boiling point, molecules gain enough energy to escape the liquid surface and rise as steam.",
+        "ko": "물이 끓는점까지 가열되면 분자들이 충분한 에너지를 얻어 액체 표면을 벗어나 수증기로 올라간다.",
+        "note": "'gain enough energy to ~'는 '~할 만큼 충분한 에너지를 얻다'야. escape는 '벗어나다/탈출하다'라는 뜻."
       }
     ],
     "vocab": [
@@ -13101,8 +13101,8 @@
         "meaning": "진심의, 진짜의"
       },
       {
-        "word": "oxytocin",
-        "meaning": "옥시토신"
+        "word": "molecule",
+        "meaning": "분자"
       }
     ]
   },
@@ -13133,9 +13133,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Moments of sudden insight often occur when the brain switches from focused thinking to a relaxed, wandering state.",
-        "ko": "갑작스러운 통찰의 순간은 뇌가 집중적 사고에서 이완된 방황 상태로 전환될 때 종종 발생한다.",
-        "note": "'switches from A to B'는 'A에서 B로 전환하다'라는 뜻이야. 'wandering state'에서 wandering은 '방황하는'이라는 현재분사."
+        "en": "Steam from a hot shower condenses into tiny water droplets when it meets the cooler air, which is why mirrors fog up in the bathroom.",
+        "ko": "뜨거운 샤워에서 나온 수증기가 차가운 공기를 만나면 작은 물방울로 응결되는데, 그래서 욕실 거울에 김이 서리는 것이다.",
+        "note": "'condenses into'는 '~로 응결되다'야. 'which is why ~'는 '그래서 ~인 이유야'라는 결과를 나타내는 관계절."
       }
     ],
     "vocab": [
@@ -13152,8 +13152,8 @@
         "meaning": "관장하다, 주재하다"
       },
       {
-        "word": "insight",
-        "meaning": "통찰"
+        "word": "condense",
+        "meaning": "응결하다"
       }
     ]
   },
@@ -13235,9 +13235,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Setting specific goals activates the reticular activating system in the brain, which filters information and helps you notice opportunities you might otherwise miss.",
-        "ko": "구체적인 목표를 설정하면 뇌의 망상체 활성화 시스템이 작동하여, 정보를 필터링하고 놓칠 수 있는 기회를 알아차리도록 돕는다.",
-        "note": "'which filters ~'는 계속적 용법의 관계절이야. 'you might otherwise miss'에서 otherwise는 '그렇지 않으면'이라는 부사."
+        "en": "GPS satellites determine your exact location by measuring how long it takes radio signals to travel from at least four satellites to your device.",
+        "ko": "GPS 위성은 최소 네 개의 위성에서 기기까지 전파가 이동하는 데 걸리는 시간을 측정하여 정확한 위치를 파악한다.",
+        "note": "'by measuring how long it takes'에서 how long은 간접의문문이야. 'it takes ~ to'는 '~하는 데 걸리다'."
       }
     ],
     "vocab": [
@@ -13254,8 +13254,8 @@
         "meaning": "리듬 있는"
       },
       {
-        "word": "opportunity",
-        "meaning": "기회"
+        "word": "satellite",
+        "meaning": "위성"
       }
     ]
   },
@@ -13286,9 +13286,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "When you practice a skill repeatedly, your brain builds stronger neural pathways, making the action feel automatic.",
-        "ko": "기술을 반복적으로 연습하면 뇌가 더 강한 신경 경로를 만들어서 그 행동이 자동으로 느껴지게 된다.",
-        "note": "'making the action feel automatic'에서 make + 목적어 + 동사원형은 '~가 …하게 만들다'라는 사역 구문이야."
+        "en": "Repeatedly hammering heated iron rearranges its crystal structure, removing weak spots and making the metal significantly stronger.",
+        "ko": "가열된 철을 반복해서 두드리면 결정 구조가 재배열되어 약한 부분이 제거되고 금속이 훨씬 강해진다.",
+        "note": "'rearranges its crystal structure'에서 rearrange는 're(다시) + arrange(배열하다)'로 '재배열하다'야. removing과 making은 분사구문으로 결과를 나타내."
       }
     ],
     "vocab": [
@@ -13305,8 +13305,8 @@
         "meaning": "기본적인"
       },
       {
-        "word": "neural",
-        "meaning": "신경의"
+        "word": "forge",
+        "meaning": "단조하다, 벼리다"
       }
     ]
   },
@@ -13796,9 +13796,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Studies show that crying releases stress hormones from the body, which is why people often feel relieved after a good cry.",
-        "ko": "연구에 따르면 울음은 몸에서 스트레스 호르몬을 방출하며, 그래서 사람들이 실컷 울고 나면 후련함을 느끼는 것이다.",
-        "note": "'which is why'는 '그래서 ~인 이유야'라는 뜻으로, 앞 문장의 내용이 뒤에 오는 결과의 이유임을 설명해."
+        "en": "Diamonds are called 'forever' because their carbon atoms are locked in an extremely strong crystal lattice that resists almost all chemical reactions.",
+        "ko": "다이아몬드가 '영원하다'고 불리는 이유는 탄소 원자들이 거의 모든 화학 반응에 저항하는 매우 강한 결정 격자에 고정되어 있기 때문이다.",
+        "note": "'are locked in'은 '~에 고정되어 있다'라는 수동태야. lattice는 '격자'로 원자들이 규칙적으로 배열된 구조를 뜻해."
       }
     ],
     "vocab": [
@@ -13815,8 +13815,8 @@
         "meaning": "고인"
       },
       {
-        "word": "relieve",
-        "meaning": "완화하다"
+        "word": "lattice",
+        "meaning": "격자"
       }
     ]
   },
@@ -14000,9 +14000,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Your body maintains a temperature of about 37 degrees Celsius by constantly adjusting blood flow, sweating, and shivering.",
-        "ko": "우리 몸은 혈류 조절, 땀 흘리기, 떨림을 끊임없이 조절하여 약 섭씨 37도의 체온을 유지한다.",
-        "note": "'by constantly adjusting'에서 by + ~ing는 '~함으로써'라는 수단/방법을 나타내. '조절함으로써 유지한다'는 뜻이야."
+        "en": "Even when two instruments play the same note, they sound different because each one produces a unique combination of overtones called its timbre.",
+        "ko": "두 악기가 같은 음을 연주해도 소리가 다르게 들리는 이유는, 각 악기가 음색이라 불리는 고유한 배음 조합을 만들기 때문이다.",
+        "note": "'called its timbre'에서 called는 과거분사로 combination을 수식해. timbre는 '음색'으로 프랑스어에서 온 영어 단어야."
       }
     ],
     "vocab": [
@@ -14019,8 +14019,8 @@
         "meaning": "조율하다"
       },
       {
-        "word": "shiver",
-        "meaning": "떨다"
+        "word": "timbre",
+        "meaning": "음색"
       }
     ]
   },
@@ -14051,9 +14051,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "The immune system fights off millions of germs every day, adapting and growing stronger with each new threat it encounters.",
-        "ko": "면역 체계는 매일 수백만 개의 세균과 싸우며, 새로운 위협을 만날 때마다 적응하고 강해진다.",
-        "note": "'growing stronger with each new threat'에서 with each는 '~할 때마다'라는 뜻이야. grow stronger = '더 강해지다'로, grow + 형용사 비교급 패턴이야."
+        "en": "After a volcanic eruption, the ash and lava break down into mineral-rich soil that allows plants to grow even more abundantly than before.",
+        "ko": "화산 폭발 후, 화산재와 용암이 광물이 풍부한 토양으로 분해되어 이전보다 더 풍성하게 식물이 자랄 수 있다.",
+        "note": "'break down into'는 '~로 분해되다'야. 'even more abundantly than before'에서 even은 비교급을 강조하는 부사."
       }
     ],
     "vocab": [
@@ -14070,8 +14070,8 @@
         "meaning": "화해"
       },
       {
-        "word": "immune",
-        "meaning": "면역의"
+        "word": "eruption",
+        "meaning": "분출, 폭발"
       }
     ]
   },
@@ -14102,9 +14102,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Oxytocin, often called the bonding hormone, is released when people hug, which explains why physical contact makes us feel safe.",
-        "ko": "포옹할 때 분비되는 옥시토신은 '유대 호르몬'이라 불리며, 신체 접촉이 우리를 안전하게 느끼게 하는 이유를 설명해 준다.",
-        "note": "'often called the bonding hormone'은 삽입된 과거분사구로 oxytocin을 부연 설명해. '종종 ~라고 불리는'이라는 뜻이야."
+        "en": "The ocean absorbs and stores enormous amounts of heat from the sun, then slowly releases it, keeping Earth's temperature relatively stable.",
+        "ko": "바다는 태양으로부터 막대한 양의 열을 흡수하고 저장한 뒤 천천히 방출하여 지구의 온도를 비교적 안정적으로 유지한다.",
+        "note": "'absorbs and stores'에서 두 동사가 병렬로 연결돼. 'keeping Earth's temperature stable'은 분사구문으로 결과를 나타내."
       }
     ],
     "vocab": [
@@ -14121,8 +14121,8 @@
         "meaning": "철학"
       },
       {
-        "word": "oxytocin",
-        "meaning": "옥시토신"
+        "word": "stable",
+        "meaning": "안정적인"
       }
     ]
   },
@@ -14255,9 +14255,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Volunteering has been shown to lower blood pressure and reduce symptoms of depression, benefiting the giver as much as the receiver.",
-        "ko": "자원봉사는 혈압을 낮추고 우울증 증상을 줄이는 것으로 나타났으며, 받는 사람만큼 주는 사람에게도 도움이 된다.",
-        "note": "'has been shown to ~'는 '~하는 것으로 나타났다'라는 수동태 현재완료야. 연구 결과를 전할 때 자주 쓰이는 학술 표현이야."
+        "en": "A honeybee dies after stinging an intruder because its barbed stinger tears away from its body, a sacrifice that protects the entire colony.",
+        "ko": "꿀벌은 침입자를 쏘면 갈고리 모양의 침이 몸에서 찢겨 나와 죽게 되는데, 이것은 전체 군집을 지키는 희생이다.",
+        "note": "'tears away from'은 '~에서 찢겨 나가다'야. 'a sacrifice that protects'에서 that절은 sacrifice를 수식하는 관계절."
       }
     ],
     "vocab": [
@@ -14274,8 +14274,8 @@
         "meaning": "공동체"
       },
       {
-        "word": "volunteer",
-        "meaning": "자원봉사하다"
+        "word": "colony",
+        "meaning": "군집, 식민지"
       }
     ]
   },
@@ -14306,9 +14306,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Lie detectors measure changes in heart rate and sweating, but they are not perfectly accurate because honest people can also feel nervous.",
-        "ko": "거짓말 탐지기는 심박수와 발한의 변화를 측정하지만, 정직한 사람도 긴장할 수 있기 때문에 완벽히 정확하지는 않다.",
-        "note": "'not perfectly accurate'에서 not + 부사 + 형용사는 '완전히 ~한 것은 아니다'라는 부분 부정이야. not perfectly = '완벽하게 ~하지는 않은'."
+        "en": "Pure gold is labeled 24 karat because the karat system divides a metal into 24 parts, so 18K gold contains 18 parts gold and 6 parts other metals.",
+        "ko": "순금이 24K인 이유는 캐럿 체계가 금속을 24등분하기 때문으로, 18K 금은 18부분이 금이고 6부분이 다른 금속이다.",
+        "note": "'is labeled'은 '~로 표기되다'라는 수동태야. 'divides A into B'는 'A를 B로 나누다'라는 뜻."
       }
     ],
     "vocab": [
@@ -14325,8 +14325,8 @@
         "meaning": "투명성"
       },
       {
-        "word": "accurate",
-        "meaning": "정확한"
+        "word": "karat",
+        "meaning": "캐럿 (금 순도 단위)"
       }
     ]
   },
@@ -14663,9 +14663,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Smells are closely linked to memory because the olfactory nerve connects directly to the brain's hippocampus, where memories are formed.",
-        "ko": "후각 신경이 기억이 형성되는 뇌의 해마에 직접 연결되어 있기 때문에, 냄새는 기억과 밀접하게 연결되어 있다.",
-        "note": "'where memories are formed'에서 where는 관계부사로 hippocampus를 수식해. '기억이 형성되는 곳'이라는 뜻이야."
+        "en": "Old books produce their distinctive smell because the paper's cellulose and lignin break down over time, releasing volatile organic compounds into the air.",
+        "ko": "오래된 책에서 독특한 냄새가 나는 이유는, 종이의 셀룰로스와 리그닌이 시간이 지나면서 분해되어 휘발성 유기 화합물을 공기 중으로 방출하기 때문이다.",
+        "note": "'break down over time'은 '시간이 지나면서 분해되다'야. volatile은 '휘발성의'로, 쉽게 기체로 변하는 성질을 뜻해."
       }
     ],
     "vocab": [
@@ -14682,8 +14682,8 @@
         "meaning": "재발견하다"
       },
       {
-        "word": "hippocampus",
-        "meaning": "해마"
+        "word": "volatile",
+        "meaning": "휘발성의"
       }
     ]
   },
@@ -14714,9 +14714,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Nostalgia was once considered a medical illness, but modern research shows it actually boosts mood and strengthens social connections.",
-        "ko": "향수병은 한때 의학적 질병으로 여겨졌지만, 현대 연구에 따르면 실제로 기분을 높이고 사회적 유대를 강화한다.",
-        "note": "'was once considered'에서 once는 '한때'라는 뜻이야. was considered = '~로 여겨졌다'라는 과거 수동태와 함께 '예전에는 그랬지만 지금은 아니다'를 암시해."
+        "en": "A perfume's scent changes over time because it is made of layers — top notes evaporate first, revealing the deeper middle and base notes beneath.",
+        "ko": "향수의 향기가 시간이 지나면 변하는 이유는 향이 층으로 되어 있기 때문인데, 톱 노트가 먼저 증발하면서 그 아래의 더 깊은 미들·베이스 노트가 드러난다.",
+        "note": "'is made of layers'는 '층으로 되어 있다'야. 'revealing the deeper ~'은 분사구문으로 결과를 나타내."
       }
     ],
     "vocab": [
@@ -14733,8 +14733,8 @@
         "meaning": "부재하는"
       },
       {
-        "word": "boost",
-        "meaning": "높이다"
+        "word": "evaporate",
+        "meaning": "증발하다"
       }
     ]
   },
@@ -15224,9 +15224,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Your tongue can detect five basic tastes — sweet, sour, salty, bitter, and umami — each through specialized receptor cells.",
-        "ko": "혀는 다섯 가지 기본 맛 — 단맛, 신맛, 짠맛, 쓴맛, 감칠맛 — 을 각각 특수한 수용체 세포를 통해 감지할 수 있다.",
-        "note": "'each through ~'에서 each는 앞의 five tastes 각각을 가리켜. 'specialized receptor cells'처럼 형용사 + 명사가 겹겹이 쌓여 하나의 명사구를 이뤄."
+        "en": "Capsaicin in chili peppers tricks heat receptors on your tongue into thinking the temperature has risen, which is why spicy food feels 'hot.'",
+        "ko": "고추의 캡사이신은 혀의 열 수용체를 속여 온도가 올랐다고 생각하게 만드는데, 그래서 매운 음식이 '뜨겁게' 느껴지는 것이다.",
+        "note": "'tricks A into thinking'은 'A를 속여서 ~라고 생각하게 하다'야. trick A into -ing은 '속여서 ~하게 만들다'."
       }
     ],
     "vocab": [
@@ -15243,8 +15243,8 @@
         "meaning": "압도하다"
       },
       {
-        "word": "receptor",
-        "meaning": "수용체"
+        "word": "capsaicin",
+        "meaning": "캡사이신"
       }
     ]
   },
@@ -15479,9 +15479,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Your heart beats in a steady rhythm controlled by electrical signals — if those signals become irregular, the rhythm can turn dangerous.",
-        "ko": "심장은 전기 신호에 의해 조절되는 일정한 리듬으로 뛴다 — 그 신호가 불규칙해지면 리듬이 위험해질 수 있다.",
-        "note": "'controlled by ~'는 rhythm을 꾸미는 과거분사구야. 'if those signals become irregular'에서 become + 형용사는 '~한 상태가 되다'야."
+        "en": "Earth's rotation is gradually slowing down because the Moon's gravitational pull creates tidal friction, making each day about two milliseconds longer every century.",
+        "ko": "달의 중력이 조석 마찰을 일으켜 지구의 자전이 점차 느려지고 있으며, 매 세기마다 하루가 약 2밀리초씩 길어진다.",
+        "note": "'is gradually slowing down'에서 gradually는 '점차적으로'라는 부사야. 'making each day longer'은 분사구문으로 결과를 나타내."
       }
     ],
     "vocab": [
@@ -15498,8 +15498,8 @@
         "meaning": "전통"
       },
       {
-        "word": "irregular",
-        "meaning": "불규칙한"
+        "word": "friction",
+        "meaning": "마찰"
       }
     ]
   },
@@ -15734,9 +15734,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Bees collect nectar from hundreds of flowers and store it in honeycombs, where enzymes transform it into honey through evaporation.",
-        "ko": "벌은 수백 송이의 꽃에서 꿀을 모아 벌집에 저장하며, 효소가 증발을 통해 꿀로 변환시킨다.",
-        "note": "'where enzymes transform it into honey'에서 where는 honeycombs를 가리키는 관계부사야. 'transform A into B'는 'A를 B로 변환시키다'야."
+        "en": "Gemstones form deep underground when minerals are subjected to extreme heat and pressure over millions of years, creating crystals of extraordinary beauty.",
+        "ko": "보석은 광물이 수백만 년에 걸쳐 극도의 열과 압력을 받아 땅속 깊은 곳에서 형성되며, 놀라운 아름다움의 결정을 만들어낸다.",
+        "note": "'are subjected to'는 '~을 받다/겪다'라는 수동태야. 'over millions of years'에서 over는 '~에 걸쳐'라는 시간의 전치사."
       }
     ],
     "vocab": [
@@ -15753,8 +15753,8 @@
         "meaning": "공동체의"
       },
       {
-        "word": "enzyme",
-        "meaning": "효소"
+        "word": "crystal",
+        "meaning": "결정, 수정"
       }
     ]
   },
@@ -15785,9 +15785,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Your brain constantly organizes sensory input, filtering out irrelevant information so you can focus on what truly matters.",
-        "ko": "뇌는 끊임없이 감각 입력을 정리하며, 관련 없는 정보를 걸러내어 정말 중요한 것에 집중할 수 있게 한다.",
-        "note": "'filtering out ~'는 '~을 걸러내다'라는 구동사의 분사구문이야. 'so (that) you can focus on ~'에서 so는 목적을 나타내는 접속사야."
+        "en": "The second law of thermodynamics states that entropy — the measure of disorder — always increases in a closed system, which is why a tidy room eventually becomes messy.",
+        "ko": "열역학 제2법칙에 따르면, 무질서도의 척도인 엔트로피는 닫힌 계에서 항상 증가하는데, 그래서 정돈된 방이 결국 어질러지는 것이다.",
+        "note": "'the measure of disorder'는 entropy를 설명하는 동격 표현이야. 'which is why ~'는 결과를 나타내는 관계절."
       }
     ],
     "vocab": [
@@ -15804,8 +15804,8 @@
         "meaning": "정리하다"
       },
       {
-        "word": "filter",
-        "meaning": "걸러내다"
+        "word": "entropy",
+        "meaning": "엔트로피, 무질서도"
       }
     ]
   },
@@ -16193,9 +16193,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Dolphins express themselves through a sophisticated system of clicks and whistles, with each individual having a unique signature whistle like a name.",
-        "ko": "돌고래는 딸깍 소리와 휘파람의 정교한 체계로 자신을 표현하며, 각 개체는 이름처럼 고유한 시그니처 휘파람을 가지고 있다.",
-        "note": "'with each individual having ~'는 with + 목적어 + 현재분사 구문으로 부대상황을 표현해. 'like a name'에서 like는 '~처럼'이라는 전치사야."
+        "en": "When a metal is heated, it first glows red, then orange, then white, because hotter objects emit light at shorter wavelengths that our eyes perceive as different colors.",
+        "ko": "금속을 가열하면 처음에 빨갛게, 다음에 주황색으로, 그다음 흰색으로 빛나는데, 더 뜨거운 물체일수록 짧은 파장의 빛을 방출하기 때문이다.",
+        "note": "'first, then, then'으로 순서를 나타내. 'that our eyes perceive as'에서 perceive A as B는 'A를 B로 인식하다'."
       }
     ],
     "vocab": [
@@ -16212,8 +16212,8 @@
         "meaning": "발을 구르다"
       },
       {
-        "word": "whistle",
-        "meaning": "휘파람"
+        "word": "perceive",
+        "meaning": "인식하다, 감지하다"
       }
     ]
   },
@@ -16448,9 +16448,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "When a nerve is damaged, the brain loses its connection to that part of the body, causing numbness or loss of movement.",
-        "ko": "신경이 손상되면 뇌는 그 신체 부위와의 연결을 잃어 감각이 없어지거나 움직임을 잃게 된다.",
-        "note": "'causing ~'은 분사구문으로, '그래서 ~을 일으키며'라는 결과를 나타내. 앞 문장의 결과를 자연스럽게 이어줘."
+        "en": "The Sun's heat reaches Earth through the vacuum of space because it travels as electromagnetic radiation, which does not need any medium to move through.",
+        "ko": "태양의 열은 전자기 복사로 이동하기 때문에 우주 진공을 통해 지구에 도달하며, 이는 이동하는 데 어떤 매질도 필요하지 않다.",
+        "note": "'does not need any medium'에서 medium은 '매질'로, 파동이 전달되는 물질을 뜻해. electromagnetic은 '전자기의'."
       }
     ],
     "vocab": [
@@ -16467,8 +16467,8 @@
         "meaning": "10년"
       },
       {
-        "word": "numbness",
-        "meaning": "감각 상실, 무감각"
+        "word": "radiation",
+        "meaning": "복사, 방사"
       }
     ]
   },
@@ -18029,9 +18029,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Studies show that writing by hand activates more regions of the brain than typing on a keyboard does.",
-        "ko": "연구에 따르면, 손글씨를 쓰면 키보드를 칠 때보다 뇌의 더 많은 영역이 활성화된다.",
-        "note": "'more ~ than ... does'에서 does는 앞의 동사(activates)를 대신하는 대동사야. 비교할 때 반복을 피하기 위해 써."
+        "en": "A pencil writes by leaving thin layers of graphite on the paper's rough surface — the same carbon material found in diamonds, but arranged in flat, slippery sheets.",
+        "ko": "연필은 종이의 거친 표면에 흑연의 얇은 층을 남기며 글씨를 쓰는데, 이는 다이아몬드와 같은 탄소 물질이지만 평평하고 미끄러운 판 구조로 배열되어 있다.",
+        "note": "'the same ~ found in'에서 found는 과거분사로 material을 수식해. 'arranged in flat, slippery sheets'도 과거분사구문이야."
       }
     ],
     "vocab": [
@@ -18048,8 +18048,8 @@
         "meaning": "숨막히는"
       },
       {
-        "word": "activate",
-        "meaning": "활성화하다"
+        "word": "graphite",
+        "meaning": "흑연"
       }
     ]
   },
@@ -18080,9 +18080,9 @@
       {
         "source": "왜왜왜",
         "emoji": "🔬",
-        "en": "Your brain strengthens neural pathways each time you repeat information, which is why repetition improves recall.",
-        "ko": "뇌는 정보를 반복할 때마다 신경 경로를 강화하는데, 그래서 반복이 기억 회상을 향상시키는 거야.",
-        "note": "'each time you repeat ~'은 '~을 반복할 때마다'라는 뜻이야. 'which is why ~'는 앞 문장 전체를 받아 이유를 설명하는 관계절이야."
+        "en": "A USB flash drive stores data by trapping electrons inside tiny floating gates, where they remain locked even after the power is turned off.",
+        "ko": "USB 메모리는 작은 플로팅 게이트 안에 전자를 가두어 데이터를 저장하며, 전원이 꺼진 후에도 전자가 갇혀 있어 데이터가 유지된다.",
+        "note": "'by trapping electrons'에서 by + -ing는 수단/방법을 나타내. 'even after the power is turned off'는 '전원이 꺼진 후에도'."
       }
     ],
     "vocab": [
@@ -18099,8 +18099,8 @@
         "meaning": "보존하다"
       },
       {
-        "word": "pathway",
-        "meaning": "경로"
+        "word": "electron",
+        "meaning": "전자"
       }
     ]
   },
