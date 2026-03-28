@@ -37,11 +37,22 @@ export default function DayNavigator({ title, emoji, topicKey, dayNumber }: DayN
     setPendingDay(clamped);
     if (debounceRef.current) clearTimeout(debounceRef.current);
     debounceRef.current = setTimeout(() => {
-      setPendingDay(null);
       dispatchDayChange(clamped - 1);
       router.push(`/${topicKey}/${clamped}`);
     }, 300);
   }, [topicKey, router]);
+
+  // dayNumber가 바뀌면 pendingDay 초기화 + 타이머 정리
+  useEffect(() => {
+    setPendingDay(null);
+    if (debounceRef.current) {
+      clearTimeout(debounceRef.current);
+      debounceRef.current = null;
+    }
+    try {
+      dispatchDayChange(dayNumber - 1);
+    } catch { /* ignore */ }
+  }, [dayNumber]);
 
   // 컴포넌트 unmount 시 타이머 정리
   useEffect(() => {
@@ -49,13 +60,6 @@ export default function DayNavigator({ title, emoji, topicKey, dayNumber }: DayN
       if (debounceRef.current) clearTimeout(debounceRef.current);
     };
   }, []);
-
-  // DayContext 동기화 (localStorage + 커스텀 이벤트)
-  useEffect(() => {
-    try {
-      dispatchDayChange(dayNumber - 1);
-    } catch { /* ignore */ }
-  }, [dayNumber]);
 
   // 토픽 전환 (좌우 스와이프)
   const currentTopicIdx = TOPICS.findIndex((t) => t.key === topicKey);
