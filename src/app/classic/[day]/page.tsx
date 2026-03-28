@@ -31,5 +31,28 @@ export default async function ClassicPage({ params }: { params: Promise<{ day: s
   const dayNumber = parseInt(day, 10);
   const dayIndex = dayNumber - 1;
   const item = classics[dayIndex] || null;
-  return <ClassicContent item={item} dayNumber={dayNumber} />;
+  const theme = themes[dayIndex];
+
+  const jsonLd = item ? {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${item.title} — ${item.author} — DailySeed 고전`,
+    description: item.summary?.slice(0, 155),
+    url: `https://www.dailyseed.net/classic/${day}`,
+    about: { "@type": "Book", name: item.title, author: { "@type": "Person", name: item.author } },
+    isPartOf: { "@type": "WebSite", name: "DailySeed", url: "https://www.dailyseed.net" },
+    publisher: { "@type": "Organization", name: "DailySeed" },
+    inLanguage: "ko",
+    keywords: theme?.keyword,
+    educationalLevel: "중고등학생",
+  } : null;
+
+  return (
+    <>
+      {jsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      )}
+      <ClassicContent item={item} dayNumber={dayNumber} />
+    </>
+  );
 }

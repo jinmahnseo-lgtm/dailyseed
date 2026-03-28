@@ -1,8 +1,25 @@
+import { Metadata } from "next";
 import { notices } from "@/data/notices";
 import { notFound } from "next/navigation";
 
 export function generateStaticParams() {
   return notices.map((n) => ({ id: n.id }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const notice = notices.find((n) => n.id === id);
+  if (!notice) return { title: "공지사항 — DailySeed" };
+  return {
+    title: `${notice.title} — DailySeed 공지사항`,
+    description: notice.subtitle,
+    alternates: { canonical: `/notice/${id}` },
+    openGraph: {
+      title: `${notice.title} — DailySeed 공지사항`,
+      description: notice.subtitle,
+      url: `/notice/${id}`,
+    },
+  };
 }
 
 export default async function NoticeDetailPage({ params }: { params: Promise<{ id: string }> }) {

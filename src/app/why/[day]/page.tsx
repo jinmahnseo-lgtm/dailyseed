@@ -31,5 +31,27 @@ export default async function WhyPage({ params }: { params: Promise<{ day: strin
   const dayNumber = parseInt(day, 10);
   const dayIndex = dayNumber - 1;
   const item = whys[dayIndex] || null;
-  return <WhyContent item={item} dayNumber={dayNumber} />;
+  const theme = themes[dayIndex];
+
+  const jsonLd = item ? {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${item.question} — DailySeed 과학`,
+    description: item.short_answer?.slice(0, 155),
+    url: `https://www.dailyseed.net/why/${day}`,
+    isPartOf: { "@type": "WebSite", name: "DailySeed", url: "https://www.dailyseed.net" },
+    publisher: { "@type": "Organization", name: "DailySeed" },
+    inLanguage: "ko",
+    keywords: theme?.keyword,
+    educationalLevel: "중고등학생",
+  } : null;
+
+  return (
+    <>
+      {jsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      )}
+      <WhyContent item={item} dayNumber={dayNumber} />
+    </>
+  );
 }

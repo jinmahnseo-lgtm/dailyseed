@@ -32,5 +32,35 @@ export default async function ArtPage({ params }: { params: Promise<{ day: strin
   const dayNumber = parseInt(day, 10);
   const dayIndex = dayNumber - 1;
   const item = arts[dayIndex] || null;
-  return <ArtContent item={item} dayNumber={dayNumber} />;
+  const theme = themes[dayIndex];
+
+  const jsonLd = item ? {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${item.title} — ${item.artist} — DailySeed 예술`,
+    description: item.story?.slice(0, 155),
+    url: `https://www.dailyseed.net/art/${day}`,
+    about: {
+      "@type": "VisualArtwork",
+      name: item.title,
+      creator: { "@type": "Person", name: item.artist },
+      dateCreated: String(item.year),
+      ...(item.image_url ? { image: item.image_url } : {}),
+    },
+    isPartOf: { "@type": "WebSite", name: "DailySeed", url: "https://www.dailyseed.net" },
+    publisher: { "@type": "Organization", name: "DailySeed" },
+    inLanguage: "ko",
+    keywords: theme?.keyword,
+    educationalLevel: "중고등학생",
+    ...(item.image_url ? { image: item.image_url } : {}),
+  } : null;
+
+  return (
+    <>
+      {jsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      )}
+      <ArtContent item={item} dayNumber={dayNumber} />
+    </>
+  );
 }

@@ -52,5 +52,27 @@ export default async function EnglishPage({ params }: { params: Promise<{ day: s
     why: (whysData[dayIndex] as { question?: string })?.question,
   };
 
-  return <EnglishContent item={item} dayNumber={dayNumber} sourceTitles={sourceTitles} />;
+  const theme = themes[dayIndex];
+
+  const jsonLd = item ? {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${theme?.keyword || "영어"} — DailySeed 영어`,
+    description: item.sentences?.[0]?.en?.slice(0, 155),
+    url: `https://www.dailyseed.net/english/${day}`,
+    isPartOf: { "@type": "WebSite", name: "DailySeed", url: "https://www.dailyseed.net" },
+    publisher: { "@type": "Organization", name: "DailySeed" },
+    inLanguage: "ko",
+    keywords: theme?.keyword,
+    educationalLevel: "중고등학생",
+  } : null;
+
+  return (
+    <>
+      {jsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      )}
+      <EnglishContent item={item} dayNumber={dayNumber} sourceTitles={sourceTitles} />
+    </>
+  );
 }

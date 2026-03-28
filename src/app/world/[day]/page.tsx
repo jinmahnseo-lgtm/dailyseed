@@ -31,5 +31,28 @@ export default async function WorldPage({ params }: { params: Promise<{ day: str
   const dayNumber = parseInt(day, 10);
   const dayIndex = dayNumber - 1;
   const item = worlds[dayIndex] || null;
-  return <WorldContent item={item} dayNumber={dayNumber} />;
+  const theme = themes[dayIndex];
+
+  const jsonLd = item ? {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${item.flag} ${item.country} — ${item.title} — DailySeed 세계`,
+    description: item.story?.slice(0, 155),
+    url: `https://www.dailyseed.net/world/${day}`,
+    about: { "@type": "Country", name: item.country },
+    isPartOf: { "@type": "WebSite", name: "DailySeed", url: "https://www.dailyseed.net" },
+    publisher: { "@type": "Organization", name: "DailySeed" },
+    inLanguage: "ko",
+    keywords: `${theme?.keyword}, ${item.country}`,
+    educationalLevel: "중고등학생",
+  } : null;
+
+  return (
+    <>
+      {jsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      )}
+      <WorldContent item={item} dayNumber={dayNumber} />
+    </>
+  );
 }
