@@ -32,27 +32,41 @@ export default function DayNavigator({ title, emoji, topicKey, dayNumber }: DayN
   const canPrev = displayDay > 1;
   const canNext = displayDay < themes.length;
 
-  const navigateTo = useCallback((targetDay: number) => {
+  // ‹ › 1일 이동: 즉시 네비게이션 (디바운스 없음)
+  const navigateImmediate = useCallback((targetDay: number) => {
+    const clamped = Math.max(1, Math.min(themes.length, targetDay));
+    if (debounceRef.current) {
+      clearTimeout(debounceRef.current);
+      debounceRef.current = null;
+    }
+    setPendingDay(null);
+    dispatchDayChange(clamped - 1);
+    router.push(`/${topicKey}/${clamped}`);
+  }, [topicKey, router]);
+
+  // « » 7일 이동: 연속 클릭 디바운스
+  const navigateDebounced = useCallback((targetDay: number) => {
     const clamped = Math.max(1, Math.min(themes.length, targetDay));
     setPendingDay(clamped);
     if (debounceRef.current) clearTimeout(debounceRef.current);
     debounceRef.current = setTimeout(() => {
+      debounceRef.current = null;
       dispatchDayChange(clamped - 1);
       router.push(`/${topicKey}/${clamped}`);
     }, 300);
   }, [topicKey, router]);
 
-  // dayNumber가 바뀌면 pendingDay 초기화 + 타이머 정리
+  // dayNumber가 바뀌면: 목적지 도착 시에만 pendingDay 초기화
   useEffect(() => {
-    setPendingDay(null);
-    if (debounceRef.current) {
-      clearTimeout(debounceRef.current);
-      debounceRef.current = null;
+    if (pendingDay === null || pendingDay === dayNumber) {
+      setPendingDay(null);
     }
-    try {
-      dispatchDayChange(dayNumber - 1);
-    } catch { /* ignore */ }
-  }, [dayNumber]);
+    if (!debounceRef.current) {
+      try {
+        dispatchDayChange(dayNumber - 1);
+      } catch { /* ignore */ }
+    }
+  }, [dayNumber, pendingDay]);
 
   // 컴포넌트 unmount 시 타이머 정리
   useEffect(() => {
@@ -125,7 +139,7 @@ export default function DayNavigator({ title, emoji, topicKey, dayNumber }: DayN
       <div className="mt-3 flex items-center justify-center gap-1">
         {canPrev ? (
           <button
-            onClick={() => navigateTo(displayDay - 7)}
+            onClick={() => navigateDebounced(displayDay - 7)}
             className="text-[var(--accent)] text-2xl font-bold w-10 h-10 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
             title="7일 전"
           >«</button>
@@ -134,7 +148,7 @@ export default function DayNavigator({ title, emoji, topicKey, dayNumber }: DayN
         )}
         {canPrev ? (
           <button
-            onClick={() => navigateTo(displayDay - 1)}
+            onClick={() => navigateImmediate(displayDay - 1)}
             className="text-[var(--accent)] text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
           >‹</button>
         ) : (
@@ -145,7 +159,7 @@ export default function DayNavigator({ title, emoji, topicKey, dayNumber }: DayN
         </div>
         {canNext ? (
           <button
-            onClick={() => navigateTo(displayDay + 1)}
+            onClick={() => navigateImmediate(displayDay + 1)}
             className="text-[var(--accent)] text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
           >›</button>
         ) : (
@@ -153,7 +167,7 @@ export default function DayNavigator({ title, emoji, topicKey, dayNumber }: DayN
         )}
         {canNext ? (
           <button
-            onClick={() => navigateTo(displayDay + 7)}
+            onClick={() => navigateDebounced(displayDay + 7)}
             className="text-[var(--accent)] text-2xl font-bold w-10 h-10 flex items-center justify-center rounded-full hover:bg-[var(--accent-light)] active:scale-90 transition-all"
             title="7일 후"
           >»</button>

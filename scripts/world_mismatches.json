@@ -1,0 +1,632 @@
+[
+  {
+    "day": 15,
+    "theme": "소통",
+    "country": "그리스",
+    "worldTitle": "소통의 원조, 그리스 아고라",
+    "currentEn": "In India, the greeting 'Namaste' represents a deep respect f"
+  },
+  {
+    "day": 21,
+    "theme": "희망",
+    "country": "콜롬비아",
+    "worldTitle": "백 년의 고독을 넘은 희망의 나라",
+    "currentEn": "In Japan, cherry blossoms symbolize hope and renewal because"
+  },
+  {
+    "day": 28,
+    "theme": "열정",
+    "country": "아르헨티나",
+    "worldTitle": "탱고 — 슬픔을 춤으로 태운 열정",
+    "currentEn": "The Brazilian Carnival is one of the world's most passionate"
+  },
+  {
+    "day": 30,
+    "theme": "혁신",
+    "country": "이스라엘",
+    "worldTitle": "스타트업 네이션 — 사막에서 피운 혁신",
+    "currentEn": "South Korea transformed from one of the world's poorest coun"
+  },
+  {
+    "day": 31,
+    "theme": "배려",
+    "country": "태국",
+    "worldTitle": "와이 — 합장에 담긴 배려의 마음",
+    "currentEn": "In Korean culture, the concept of 'nunchi' refers to the abi"
+  },
+  {
+    "day": 32,
+    "theme": "감사",
+    "country": "미얀마",
+    "worldTitle": "감사의 나라 — 보시의 전통",
+    "currentEn": "In Thailand, people celebrate the Songkran festival by splas"
+  },
+  {
+    "day": 34,
+    "theme": "겸손",
+    "country": "네팔",
+    "worldTitle": "히말라야의 셰르파 — 정상 앞에서 겸손한 사람들",
+    "currentEn": "In Japanese culture, bowing is more than a greeting; it is a"
+  },
+  {
+    "day": 47,
+    "theme": "감정",
+    "country": "스페인",
+    "worldTitle": "플라멩코 — 발을 구르며 터뜨리는 감정",
+    "currentEn": "In Mexico, the Day of the Dead is a joyful celebration where"
+  },
+  {
+    "day": 48,
+    "theme": "예의",
+    "country": "한국",
+    "worldTitle": "예(禮)의 나라 — 마음을 담은 형식",
+    "currentEn": "In British culture, saying 'please,' 'thank you,' and 'sorry"
+  },
+  {
+    "day": 51,
+    "theme": "전통",
+    "country": "조지아",
+    "worldTitle": "8,000년 와인 — 전통이 곧 자존심인 나라",
+    "currentEn": "In Japan, the tea ceremony is not just about drinking tea — "
+  },
+  {
+    "day": 52,
+    "theme": "기술",
+    "country": "에스토니아",
+    "worldTitle": "디지털 공화국 — 기술로 국경을 넘은 나라",
+    "currentEn": "South Korea transformed from one of the poorest countries in"
+  },
+  {
+    "day": 57,
+    "theme": "논리",
+    "country": "스웨덴",
+    "worldTitle": "라곰 — '딱 적당히'의 논리적 삶",
+    "currentEn": "Ancient Greek philosophers valued logical reasoning above al"
+  },
+  {
+    "day": 62,
+    "theme": "절제",
+    "country": "부르키나파소",
+    "worldTitle": "정직한 사람들의 땅 — 절제의 미학",
+    "currentEn": "In Korean Buddhist temples, monks practice moderation in eat"
+  },
+  {
+    "day": 65,
+    "theme": "관용",
+    "country": "오만",
+    "worldTitle": "아라비아의 스위스 — 관용의 술탄국",
+    "currentEn": "The Ottoman Empire was known for its religious tolerance, al"
+  },
+  {
+    "day": 70,
+    "theme": "매력",
+    "country": "쿠바",
+    "worldTitle": "올드 하바나 — 시간이 멈춘 매력의 도시",
+    "currentEn": "In France, the art of conversation is highly valued — speaki"
+  },
+  {
+    "day": 72,
+    "theme": "소망",
+    "country": "탄자니아",
+    "worldTitle": "세렝게티의 대이동 — 생명의 소망이 이끄는 행진",
+    "currentEn": "Japanese people write their wishes on small strips of paper "
+  },
+  {
+    "day": 78,
+    "theme": "미감",
+    "country": "모리셔스",
+    "worldTitle": "인도양의 무지개 — 감각을 매혹하는 섬",
+    "currentEn": "In Kyoto, the concept of wabi-sabi embraces the beauty of im"
+  },
+  {
+    "day": 81,
+    "theme": "근면",
+    "country": "대만",
+    "worldTitle": "반도체 섬 — 근면이 만든 첨단 기적",
+    "currentEn": "In Japan, the concept of 'ikigai' refers to finding purpose "
+  },
+  {
+    "day": 85,
+    "theme": "영웅",
+    "country": "세르비아",
+    "worldTitle": "니콜라 테슬라 — 세상을 밝힌 영웅",
+    "currentEn": "The Greek legend of Hercules tells of a mortal who performed"
+  },
+  {
+    "day": 87,
+    "theme": "희생",
+    "country": "아르메니아",
+    "worldTitle": "아라라트 산 아래 — 잊히지 않는 희생의 기억",
+    "currentEn": "In Korean culture, parents traditionally sacrifice their own"
+  },
+  {
+    "day": 99,
+    "theme": "광기",
+    "country": "스페인",
+    "worldTitle": "가우디의 바르셀로나 — 건축에 미친 천재",
+    "currentEn": "In ancient Greece, the boundary between divine inspiration a"
+  },
+  {
+    "day": 108,
+    "theme": "패션",
+    "country": "프랑스",
+    "worldTitle": "오트 쿠튀르 — 패션을 예술로 만든 나라",
+    "currentEn": "The Japanese kimono is more than just clothing — its colors,"
+  },
+  {
+    "day": 112,
+    "theme": "도시",
+    "country": "브라질",
+    "worldTitle": "상파울루 — 이민자들이 만든 거대 도시",
+    "currentEn": "Tokyo's subway system carries over 8 million passengers dail"
+  },
+  {
+    "day": 113,
+    "theme": "시골",
+    "country": "부탄",
+    "worldTitle": "히말라야의 느린 왕국 — 시골이 지키는 본질",
+    "currentEn": "In rural Japan, rice paddies are terraced along hillsides, c"
+  },
+  {
+    "day": 122,
+    "theme": "속도",
+    "country": "독일",
+    "worldTitle": "아우토반 — 속도의 자유가 허락된 도로",
+    "currentEn": "Japan's bullet train, the Shinkansen, revolutionized travel "
+  },
+  {
+    "day": 130,
+    "theme": "설득",
+    "country": "터키",
+    "worldTitle": "바자르의 기술 — 흥정이 곧 설득의 예술",
+    "currentEn": "Ancient Greek rhetoric taught three methods of persuasion: e"
+  },
+  {
+    "day": 136,
+    "theme": "관찰",
+    "country": "네덜란드",
+    "worldTitle": "레이우엔훅의 현미경 — 보이지 않던 세계를 관찰하다",
+    "currentEn": "Japanese tea ceremony participants observe every detail — th"
+  },
+  {
+    "day": 143,
+    "theme": "물질",
+    "country": "콩고민주공화국",
+    "worldTitle": "콜탄의 땅 — 스마트폰 속 아프리카",
+    "currentEn": "Japanese potters mix different types of clay and glaze to cr"
+  },
+  {
+    "day": 149,
+    "theme": "경쟁",
+    "country": "한국",
+    "worldTitle": "K-컬처 — 작은 나라의 거대한 경쟁력",
+    "currentEn": "In ancient Greece, athletes from rival city-states competed "
+  },
+  {
+    "day": 155,
+    "theme": "현실",
+    "country": "방글라데시",
+    "worldTitle": "기후 변화의 최전선 — 물과 싸우는 사람들",
+    "currentEn": "In Japan, the concept of wabi-sabi teaches people to find be"
+  },
+  {
+    "day": 163,
+    "theme": "민주",
+    "country": "스위스",
+    "worldTitle": "직접 민주주의 — 국민이 직접 결정하는 나라",
+    "currentEn": "South Korea's candlelight protests in 2016 showed the world "
+  },
+  {
+    "day": 167,
+    "theme": "범죄",
+    "country": "이탈리아",
+    "worldTitle": "마피아 — 범죄 조직의 탄생과 저항",
+    "currentEn": "In medieval Japan, samurai who broke their code of honor wer"
+  },
+  {
+    "day": 177,
+    "theme": "투자",
+    "country": "아랍에미리트",
+    "worldTitle": "두바이 — 사막 위의 투자 기적",
+    "currentEn": "In Japan, the concept of patient, long-term investing is dee"
+  },
+  {
+    "day": 182,
+    "theme": "효율",
+    "country": "싱가포르",
+    "worldTitle": "창이공항 — 효율의 극치를 보여주는 공간",
+    "currentEn": "Japanese manufacturers pioneered the 'just-in-time' system, "
+  },
+  {
+    "day": 184,
+    "theme": "재활",
+    "country": "콜롬비아",
+    "worldTitle": "메데진의 기적 — 마약 도시에서 혁신 도시로",
+    "currentEn": "In South Korea, the rehabilitation of injured soldiers after"
+  },
+  {
+    "day": 191,
+    "theme": "긴장",
+    "country": "중국",
+    "worldTitle": "996 문화 — 세계 공장의 긴장감",
+    "currentEn": "In Japanese culture, the practice of forest bathing, or shin"
+  },
+  {
+    "day": 193,
+    "theme": "불안",
+    "country": "아이슬란드",
+    "worldTitle": "극야의 나라 — 어둠 속에서 살아가는 법",
+    "currentEn": "In South Korea, the intense pressure of college entrance exa"
+  },
+  {
+    "day": 201,
+    "theme": "동기",
+    "country": "미국",
+    "worldTitle": "실리콘밸리 — 혁신의 동기가 세계를 바꾸다",
+    "currentEn": "In Japanese culture, the concept of ikigai — a reason for be"
+  },
+  {
+    "day": 205,
+    "theme": "창의",
+    "country": "우루과이",
+    "worldTitle": "작지만 독창적인 나라 — 창의의 아이콘",
+    "currentEn": "The Japanese art of kintsugi repairs broken pottery with gol"
+  },
+  {
+    "day": 217,
+    "theme": "귀향",
+    "country": "아일랜드",
+    "worldTitle": "디아스포라의 귀향 — 고향으로 돌아오다",
+    "currentEn": "In Korean culture, Chuseok is a time when families return to"
+  },
+  {
+    "day": 218,
+    "theme": "놀이",
+    "country": "트리니다드토바고",
+    "worldTitle": "스틸팬의 나라 — 놀이에서 탄생한 악기",
+    "currentEn": "The ancient Olympic Games in Greece included not only athlet"
+  },
+  {
+    "day": 219,
+    "theme": "의례",
+    "country": "타지키스탄",
+    "worldTitle": "나브루즈 — 새해를 맞이하는 고대 의례",
+    "currentEn": "The Japanese tea ceremony is not merely about drinking tea —"
+  },
+  {
+    "day": 226,
+    "theme": "재난",
+    "country": "아이티",
+    "worldTitle": "흔들려도 일어서다 — 재난 속의 회복력",
+    "currentEn": "After the 2011 earthquake and tsunami, Japanese communities "
+  },
+  {
+    "day": 229,
+    "theme": "안전",
+    "country": "벨라루스",
+    "worldTitle": "벨라베시 숲 — 유럽 마지막 원시림의 안전",
+    "currentEn": "Japanese earthquake drills are practiced so regularly that e"
+  },
+  {
+    "day": 231,
+    "theme": "예절",
+    "country": "모로코",
+    "worldTitle": "차의 의례 — 민트차에 담긴 예절",
+    "currentEn": "In Japan, bowing is not just a greeting — the angle of the b"
+  },
+  {
+    "day": 233,
+    "theme": "노년",
+    "country": "불가리아",
+    "worldTitle": "장수의 비밀 — 불가리아 요구르트와 노년",
+    "currentEn": "In South Korea, the 60th birthday celebration called hwangap"
+  },
+  {
+    "day": 234,
+    "theme": "청춘",
+    "country": "우크라이나",
+    "worldTitle": "비셴카 — 청춘을 수놓는 자수의 전통",
+    "currentEn": "In Brazil, young people celebrate their coming of age with a"
+  },
+  {
+    "day": 238,
+    "theme": "작문",
+    "country": "투르크메니스탄",
+    "worldTitle": "양탄자에 쓴 편지 — 실크로드의 작문 전통",
+    "currentEn": "Japanese calligraphy, known as shodo, treats writing as both"
+  },
+  {
+    "day": 241,
+    "theme": "연극",
+    "country": "헝가리",
+    "worldTitle": "부다페스트의 극장 — 유럽 연극의 숨은 강국",
+    "currentEn": "Ancient Greek theaters were built into hillsides so that the"
+  },
+  {
+    "day": 243,
+    "theme": "사진",
+    "country": "보츠와나",
+    "worldTitle": "오카방고의 렌즈 — 야생 사진의 성지",
+    "currentEn": "Street photography thrives in cities like Tokyo and New York"
+  },
+  {
+    "day": 245,
+    "theme": "로봇",
+    "country": "쿠웨이트",
+    "worldTitle": "사막의 혁신 — 석유 너머의 로봇 기술",
+    "currentEn": "Japan's cultural fascination with robots is rooted in Shinto"
+  },
+  {
+    "day": 247,
+    "theme": "정보",
+    "country": "에스와티니",
+    "worldTitle": "갈대의 춤 — 아프리카의 정보 네트워크",
+    "currentEn": "South Korea has one of the fastest internet speeds in the wo"
+  },
+  {
+    "day": 249,
+    "theme": "서신",
+    "country": "알제리",
+    "worldTitle": "카스바의 편지 — 독립을 위한 서신들",
+    "currentEn": "In Victorian England, people sent elaborately decorated card"
+  },
+  {
+    "day": 257,
+    "theme": "감동",
+    "country": "말라위",
+    "worldTitle": "따뜻한 심장 — 아프리카의 감동",
+    "currentEn": "The Japanese concept of mono no aware describes the bittersw"
+  },
+  {
+    "day": 260,
+    "theme": "목표",
+    "country": "앙골라",
+    "worldTitle": "쿠도로 비트 — 내전을 이긴 목표의 나라",
+    "currentEn": "Japanese business culture uses the concept of hoshin kanri, "
+  },
+  {
+    "day": 261,
+    "theme": "연습",
+    "country": "룩셈부르크",
+    "worldTitle": "작지만 꾸준한 — 유럽의 연습벌레",
+    "currentEn": "In Japan, the concept of 'kaizen' means continuous improveme"
+  },
+  {
+    "day": 264,
+    "theme": "마무리",
+    "country": "코트디부아르",
+    "worldTitle": "아비장의 기적 — 마무리가 만든 경제 부흥",
+    "currentEn": "In Korean culture, wrapping a gift beautifully is just as im"
+  },
+  {
+    "day": 270,
+    "theme": "죽음",
+    "country": "마다가스카르",
+    "worldTitle": "파마디하나 — 죽은 이와 춤추는 나라",
+    "currentEn": "In Mexican culture, the Day of the Dead celebrates the lives"
+  },
+  {
+    "day": 272,
+    "theme": "회한",
+    "country": "세네갈",
+    "worldTitle": "고레 섬 — 돌아갈 수 없는 문 앞의 회한",
+    "currentEn": "The Japanese word 'mono no aware' describes the bittersweet "
+  },
+  {
+    "day": 278,
+    "theme": "배움",
+    "country": "에스토니아",
+    "worldTitle": "디지털 국가 — 작은 나라의 거대한 배움",
+    "currentEn": "In ancient Greece, philosophers gathered in public spaces to"
+  },
+  {
+    "day": 280,
+    "theme": "봉사",
+    "country": "탄자니아",
+    "worldTitle": "우자마 — 함께하는 마을의 봉사 정신",
+    "currentEn": "In Thailand, young men traditionally serve as Buddhist monks"
+  },
+  {
+    "day": 282,
+    "theme": "충성",
+    "country": "바누아투",
+    "worldTitle": "나골 — 충성의 시험, 하늘에서 뛰어내리다",
+    "currentEn": "The samurai code of Bushido placed loyalty to one's lord abo"
+  },
+  {
+    "day": 288,
+    "theme": "추억",
+    "country": "캄보디아",
+    "worldTitle": "앙코르 와트 — 돌에 새긴 추억의 무대",
+    "currentEn": "In Korea, the tradition of writing year-end letters reflects"
+  },
+  {
+    "day": 290,
+    "theme": "혁파",
+    "country": "라트비아",
+    "worldTitle": "다이나 — 낡은 것을 깨고 새로 쓰는 민요",
+    "currentEn": "The Meiji Restoration in Japan radically transformed the cou"
+  },
+  {
+    "day": 293,
+    "theme": "속박",
+    "country": "미얀마",
+    "worldTitle": "황금 파고다 아래의 굳건한 의지",
+    "currentEn": "In feudal Japan, samurai were bound by the code of bushido, "
+  },
+  {
+    "day": 297,
+    "theme": "수련",
+    "country": "브라질",
+    "worldTitle": "카포에이라 — 몸과 마음을 함께 단련하다",
+    "currentEn": "In traditional Korean archery, hitting the target matters le"
+  },
+  {
+    "day": 299,
+    "theme": "감각",
+    "country": "모로코",
+    "worldTitle": "오감을 깨우는 마라케시의 시장",
+    "currentEn": "Japanese tea ceremony engages all five senses — the taste of"
+  },
+  {
+    "day": 301,
+    "theme": "향기",
+    "country": "남아프리카공화국",
+    "worldTitle": "무지개 나라의 권리를 향한 투쟁",
+    "currentEn": "In Grasse, France, perfumers have crafted luxury fragrances "
+  },
+  {
+    "day": 307,
+    "theme": "융합",
+    "country": "카타르",
+    "worldTitle": "사막 위의 기부 — 카타르의 자선 문화",
+    "currentEn": "Korean bibimbap is a perfect example of culinary fusion, mix"
+  },
+  {
+    "day": 309,
+    "theme": "수집",
+    "country": "아일랜드",
+    "worldTitle": "음악으로 치유하는 켈트의 영혼",
+    "currentEn": "The British Museum houses a vast collection of artifacts gat"
+  },
+  {
+    "day": 311,
+    "theme": "유행",
+    "country": "탄자니아",
+    "worldTitle": "우분투 — 네가 있기에 내가 있다",
+    "currentEn": "Hanbok, the traditional Korean dress, has evolved over centu"
+  },
+  {
+    "day": 313,
+    "theme": "유연",
+    "country": "쿠르디스탄 (이라크 북부)",
+    "worldTitle": "차이와 대화 — 쿠르드족의 소통법",
+    "currentEn": "Japanese bamboo houses are designed to bend with earthquakes"
+  },
+  {
+    "day": 319,
+    "theme": "억제",
+    "country": "튀니지",
+    "worldTitle": "아랍의 봄이 시작된 곳 — 법의 힘",
+    "currentEn": "In British culture, the stiff upper lip tradition encourages"
+  },
+  {
+    "day": 326,
+    "theme": "축소",
+    "country": "룩셈부르크",
+    "worldTitle": "작지만 강한 나라 — 축소의 역설",
+    "currentEn": "Japanese bonsai is the art of reducing a full-sized tree int"
+  },
+  {
+    "day": 327,
+    "theme": "집합",
+    "country": "니제르",
+    "worldTitle": "쿠레 살레 — 사하라 유목민의 대집합",
+    "currentEn": "In ancient Greece, the agora served as a gathering place whe"
+  },
+  {
+    "day": 331,
+    "theme": "재건",
+    "country": "르완다",
+    "worldTitle": "천 개의 언덕 위에 다시 세운 희망",
+    "currentEn": "Japan rebuilt itself from the ruins of war in just a few dec"
+  },
+  {
+    "day": 337,
+    "theme": "잠수",
+    "country": "바누아투",
+    "worldTitle": "남태평양의 블루홀 — 바다 깊이 숨겨진 신비",
+    "currentEn": "Korean haenyeo, female divers of Jeju Island, dive deep into"
+  },
+  {
+    "day": 340,
+    "theme": "교차",
+    "country": "모로코",
+    "worldTitle": "페스의 미로 — 아프리카와 유럽이 교차하는 곳",
+    "currentEn": "Istanbul sits at the crossroads of Europe and Asia, and this"
+  },
+  {
+    "day": 341,
+    "theme": "분기",
+    "country": "수리남",
+    "worldTitle": "남미 속의 네덜란드 — 분기된 역사의 나라",
+    "currentEn": "The division of Korea into North and South in 1945 created t"
+  },
+  {
+    "day": 343,
+    "theme": "순서",
+    "country": "조지아",
+    "worldTitle": "세계에서 가장 오래된 와인 — 8,000년의 순서",
+    "currentEn": "In Japanese tea ceremony, every movement follows a precise s"
+  },
+  {
+    "day": 350,
+    "theme": "도자",
+    "country": "우즈베키스탄",
+    "worldTitle": "실크로드의 보석 — 사마르칸트의 푸른 도자기",
+    "currentEn": "In Japan, the art of kintsugi repairs broken pottery with go"
+  },
+  {
+    "day": 352,
+    "theme": "인쇄",
+    "country": "체코",
+    "worldTitle": "인쇄가 꽃피운 프라하의 서점 문화",
+    "currentEn": "Korea's Jikji, printed with movable metal type in 1377, is t"
+  },
+  {
+    "day": 353,
+    "theme": "활자",
+    "country": "몽골",
+    "worldTitle": "위구르 문자에서 시작된 몽골의 활자 이야기",
+    "currentEn": "Chinese woodblock printing dates back to the Tang Dynasty, c"
+  },
+  {
+    "day": 354,
+    "theme": "필기",
+    "country": "모로코",
+    "worldTitle": "서예의 나라, 손으로 쓰는 예술",
+    "currentEn": "Japanese calligraphy, known as shodō, is considered both an "
+  },
+  {
+    "day": 356,
+    "theme": "사색",
+    "country": "아일랜드",
+    "worldTitle": "켈트의 명상, 깊은 사색의 전통",
+    "currentEn": "Zen gardens in Japan are designed to encourage quiet contemp"
+  },
+  {
+    "day": 359,
+    "theme": "열매",
+    "country": "스페인",
+    "worldTitle": "올리브, 지중해 문명의 열매",
+    "currentEn": "In Thailand, the durian is called the king of fruits despite"
+  },
+  {
+    "day": 362,
+    "theme": "꽃잎",
+    "country": "콜롬비아",
+    "worldTitle": "꽃의 나라, 세계를 물들이는 꽃잎",
+    "currentEn": "In Japan, the tradition of hanami celebrates the fleeting be"
+  },
+  {
+    "day": 363,
+    "theme": "낙엽",
+    "country": "캐나다",
+    "worldTitle": "메이플 시럽, 낙엽이 선물한 달콤함",
+    "currentEn": "In New England, thousands of tourists visit each autumn to w"
+  },
+  {
+    "day": 364,
+    "theme": "새싹",
+    "country": "르완다",
+    "worldTitle": "천 개의 언덕에서 피어나는 새싹",
+    "currentEn": "In Korea, the first green sprouts of spring are celebrated w"
+  },
+  {
+    "day": 365,
+    "theme": "수확",
+    "country": "미얀마",
+    "worldTitle": "황금의 땅, 벼 수확과 나눔의 문화",
+    "currentEn": "During Chuseok, Korean families gather to give thanks for th"
+  }
+]

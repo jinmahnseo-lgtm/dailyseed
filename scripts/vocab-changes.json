@@ -1,0 +1,5514 @@
+[
+  {
+    "day": 4,
+    "index": 1,
+    "oldWord": "gaze",
+    "oldMeaning": "응시하다",
+    "newWord": "confront",
+    "newMeaning": "직면하다",
+    "source": "명화"
+  },
+  {
+    "day": 14,
+    "index": 1,
+    "oldWord": "depict",
+    "oldMeaning": "묘사하다",
+    "newWord": "peasant",
+    "newMeaning": "농민",
+    "source": "명화"
+  },
+  {
+    "day": 15,
+    "index": 1,
+    "oldWord": "engage",
+    "oldMeaning": "참여하다",
+    "newWord": "unspoken",
+    "newMeaning": "말해지지 않은",
+    "source": "명화"
+  },
+  {
+    "day": 15,
+    "index": 2,
+    "oldWord": "respect",
+    "oldMeaning": "존경",
+    "newWord": "foundation",
+    "newMeaning": "기초",
+    "source": "세계문화"
+  },
+  {
+    "day": 16,
+    "index": 0,
+    "oldWord": "symbolize",
+    "oldMeaning": "상징하다",
+    "newWord": "person",
+    "newMeaning": "사람",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 20,
+    "index": 1,
+    "oldWord": "symbolize",
+    "oldMeaning": "상징하다",
+    "newWord": "locomotive",
+    "newMeaning": "기관차",
+    "source": "명화"
+  },
+  {
+    "day": 21,
+    "index": 1,
+    "oldWord": "renewal",
+    "oldMeaning": "재생, 새로운 시작",
+    "newWord": "longing",
+    "newMeaning": "그리움",
+    "source": "명화"
+  },
+  {
+    "day": 21,
+    "index": 2,
+    "oldWord": "harsh",
+    "oldMeaning": "혹독한, 가혹한",
+    "newWord": "decade",
+    "newMeaning": "10년",
+    "source": "세계문화"
+  },
+  {
+    "day": 22,
+    "index": 1,
+    "oldWord": "perception",
+    "oldMeaning": "인식, 지각",
+    "newWord": "pomegranate",
+    "newMeaning": "석류",
+    "source": "명화"
+  },
+  {
+    "day": 23,
+    "index": 1,
+    "oldWord": "fresco",
+    "oldMeaning": "프레스코화",
+    "newWord": "reflect",
+    "newMeaning": "비추다, 반영하다",
+    "source": "명화"
+  },
+  {
+    "day": 24,
+    "index": 1,
+    "oldWord": "distorted",
+    "oldMeaning": "왜곡된",
+    "newWord": "allegory",
+    "newMeaning": "우화",
+    "source": "명화"
+  },
+  {
+    "day": 26,
+    "index": 1,
+    "oldWord": "principle",
+    "oldMeaning": "원칙, 신념",
+    "newWord": "tradition",
+    "newMeaning": "전통",
+    "source": "명화"
+  },
+  {
+    "day": 27,
+    "index": 1,
+    "oldWord": "reflect",
+    "oldMeaning": "비추다, 반영하다",
+    "newWord": "convey",
+    "newMeaning": "전달하다",
+    "source": "명화"
+  },
+  {
+    "day": 28,
+    "index": 1,
+    "oldWord": "swirl",
+    "oldMeaning": "소용돌이치다",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 28,
+    "index": 2,
+    "oldWord": "carnival",
+    "oldMeaning": "카니발, 축제",
+    "newWord": "immigrant",
+    "newMeaning": "이민자",
+    "source": "세계문화"
+  },
+  {
+    "day": 29,
+    "index": 1,
+    "oldWord": "geometry",
+    "oldMeaning": "기하학",
+    "newWord": "illustrate",
+    "newMeaning": "설명하다",
+    "source": "명화"
+  },
+  {
+    "day": 29,
+    "index": 2,
+    "oldWord": "hierarchy",
+    "oldMeaning": "계층, 위계",
+    "newWord": "hierarchical",
+    "newMeaning": "계층적인",
+    "source": "세계문화"
+  },
+  {
+    "day": 30,
+    "index": 1,
+    "oldWord": "exhibit",
+    "oldMeaning": "전시하다",
+    "newWord": "revolutionary",
+    "newMeaning": "혁명적인",
+    "source": "명화"
+  },
+  {
+    "day": 30,
+    "index": 2,
+    "oldWord": "transform",
+    "oldMeaning": "변모하다, 변환하다",
+    "newWord": "smaller",
+    "newMeaning": "더 작은",
+    "source": "세계문화"
+  },
+  {
+    "day": 31,
+    "index": 0,
+    "oldWord": "considerate",
+    "oldMeaning": "배려하는, 사려 깊은",
+    "newWord": "view",
+    "newMeaning": "관점, 시각",
+    "source": "고전"
+  },
+  {
+    "day": 31,
+    "index": 1,
+    "oldWord": "tender",
+    "oldMeaning": "다정한, 부드러운",
+    "newWord": "moment",
+    "newMeaning": "순간",
+    "source": "명화"
+  },
+  {
+    "day": 31,
+    "index": 2,
+    "oldWord": "atmosphere",
+    "oldMeaning": "분위기",
+    "newWord": "respect",
+    "newMeaning": "존경",
+    "source": "세계문화"
+  },
+  {
+    "day": 32,
+    "index": 1,
+    "oldWord": "blossom",
+    "oldMeaning": "꽃피다, 번성하다",
+    "newWord": "gratitude",
+    "newMeaning": "감사",
+    "source": "명화"
+  },
+  {
+    "day": 32,
+    "index": 2,
+    "oldWord": "gesture",
+    "oldMeaning": "제스처, 표시",
+    "newWord": "tradition",
+    "newMeaning": "전통",
+    "source": "세계문화"
+  },
+  {
+    "day": 33,
+    "index": 1,
+    "oldWord": "layer",
+    "oldMeaning": "층을 이루다, 겹겹이 쌓다",
+    "newWord": "contemplation",
+    "newMeaning": "사색, 명상",
+    "source": "명화"
+  },
+  {
+    "day": 34,
+    "index": 1,
+    "oldWord": "overestimate",
+    "oldMeaning": "과대평가하다",
+    "newWord": "embrace",
+    "newMeaning": "껴안다",
+    "source": "명화"
+  },
+  {
+    "day": 34,
+    "index": 2,
+    "oldWord": "bow",
+    "oldMeaning": "고개 숙여 인사하다",
+    "newWord": "mountaineer",
+    "newMeaning": "등산가",
+    "source": "세계문화"
+  },
+  {
+    "day": 35,
+    "index": 1,
+    "oldWord": "authority",
+    "oldMeaning": "권위, 권한",
+    "newWord": "depict",
+    "newMeaning": "묘사하다, 그리다",
+    "source": "명화"
+  },
+  {
+    "day": 36,
+    "index": 0,
+    "oldWord": "friendship",
+    "oldMeaning": "우정",
+    "newWord": "someone",
+    "newMeaning": "누군가",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 36,
+    "index": 1,
+    "oldWord": "proverb",
+    "oldMeaning": "속담",
+    "newWord": "symbolize",
+    "newMeaning": "상징하다",
+    "source": "명화"
+  },
+  {
+    "day": 36,
+    "index": 2,
+    "oldWord": "longevity",
+    "oldMeaning": "장수, 수명",
+    "newWord": "community",
+    "newMeaning": "공동체",
+    "source": "세계문화"
+  },
+  {
+    "day": 36,
+    "index": 3,
+    "oldWord": "community",
+    "oldMeaning": "공동체",
+    "newWord": "longevity",
+    "newMeaning": "장수, 수명",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 37,
+    "index": 1,
+    "oldWord": "futuristic",
+    "oldMeaning": "미래적인",
+    "newWord": "landscape",
+    "newMeaning": "풍경",
+    "source": "명화"
+  },
+  {
+    "day": 37,
+    "index": 2,
+    "oldWord": "capable",
+    "oldMeaning": "~할 수 있는",
+    "newWord": "transform",
+    "newMeaning": "변모시키다",
+    "source": "세계문화"
+  },
+  {
+    "day": 38,
+    "index": 1,
+    "oldWord": "treasure",
+    "oldMeaning": "보물",
+    "newWord": "illustration",
+    "newMeaning": "삽화",
+    "source": "명화"
+  },
+  {
+    "day": 39,
+    "index": 1,
+    "oldWord": "intimate",
+    "oldMeaning": "친밀한",
+    "newWord": "idealize",
+    "newMeaning": "이상화하다",
+    "source": "명화"
+  },
+  {
+    "day": 39,
+    "index": 2,
+    "oldWord": "isolation",
+    "oldMeaning": "고립",
+    "newWord": "emphasize",
+    "newMeaning": "강조하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 41,
+    "index": 1,
+    "oldWord": "resilience",
+    "oldMeaning": "회복력",
+    "newWord": "desperate",
+    "newMeaning": "필사적인",
+    "source": "명화"
+  },
+  {
+    "day": 42,
+    "index": 0,
+    "oldWord": "pottery",
+    "oldMeaning": "도자기",
+    "newWord": "places",
+    "newMeaning": "장소들",
+    "source": "고전"
+  },
+  {
+    "day": 42,
+    "index": 1,
+    "oldWord": "devastating",
+    "oldMeaning": "파괴적인",
+    "newWord": "lithograph",
+    "newMeaning": "석판화",
+    "source": "명화"
+  },
+  {
+    "day": 43,
+    "index": 0,
+    "oldWord": "solidarity",
+    "oldMeaning": "연대",
+    "newWord": "fall",
+    "newMeaning": "타락하다, 떨어지다",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 43,
+    "index": 1,
+    "oldWord": "mural",
+    "oldMeaning": "벽화",
+    "newWord": "solidarity",
+    "newMeaning": "연대",
+    "source": "명화"
+  },
+  {
+    "day": 44,
+    "index": 1,
+    "oldWord": "overwhelm",
+    "oldMeaning": "압도하다",
+    "newWord": "independence",
+    "newMeaning": "독립",
+    "source": "명화"
+  },
+  {
+    "day": 45,
+    "index": 1,
+    "oldWord": "dignity",
+    "oldMeaning": "존엄성",
+    "newWord": "respect",
+    "newMeaning": "존경",
+    "source": "명화"
+  },
+  {
+    "day": 46,
+    "index": 1,
+    "oldWord": "ratio",
+    "oldMeaning": "비율",
+    "newWord": "staircase",
+    "newMeaning": "계단",
+    "source": "명화"
+  },
+  {
+    "day": 47,
+    "index": 0,
+    "oldWord": "emotion",
+    "oldMeaning": "감정",
+    "newWord": "reasons",
+    "newMeaning": "이유들",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 47,
+    "index": 1,
+    "oldWord": "anxiety",
+    "oldMeaning": "불안",
+    "newWord": "reflect",
+    "newMeaning": "비추다, 반영하다",
+    "source": "명화"
+  },
+  {
+    "day": 47,
+    "index": 2,
+    "oldWord": "deceased",
+    "oldMeaning": "고인이 된, 사망한",
+    "newWord": "emotion",
+    "newMeaning": "감정",
+    "source": "세계문화"
+  },
+  {
+    "day": 48,
+    "index": 1,
+    "oldWord": "elegance",
+    "oldMeaning": "우아함, 품격",
+    "newWord": "knowledge",
+    "newMeaning": "지식",
+    "source": "명화"
+  },
+  {
+    "day": 48,
+    "index": 2,
+    "oldWord": "essential",
+    "oldMeaning": "필수적인",
+    "newWord": "ritual",
+    "newMeaning": "의례, 의식",
+    "source": "세계문화"
+  },
+  {
+    "day": 49,
+    "index": 1,
+    "oldWord": "wilderness",
+    "oldMeaning": "야생, 황야",
+    "newWord": "environment",
+    "newMeaning": "환경",
+    "source": "명화"
+  },
+  {
+    "day": 50,
+    "index": 1,
+    "oldWord": "composition",
+    "oldMeaning": "구도, 구성",
+    "newWord": "symbolize",
+    "newMeaning": "상징하다",
+    "source": "명화"
+  },
+  {
+    "day": 50,
+    "index": 2,
+    "oldWord": "exchange",
+    "oldMeaning": "교환하다",
+    "newWord": "network",
+    "newMeaning": "네트워크, 연결망",
+    "source": "세계문화"
+  },
+  {
+    "day": 51,
+    "index": 1,
+    "oldWord": "recognizable",
+    "oldMeaning": "알아볼 수 있는",
+    "newWord": "reflect",
+    "newMeaning": "비추다, 반영하다",
+    "source": "명화"
+  },
+  {
+    "day": 51,
+    "index": 2,
+    "oldWord": "ritual",
+    "oldMeaning": "의식, 의례",
+    "newWord": "treasure",
+    "newMeaning": "보물, 국보",
+    "source": "세계문화"
+  },
+  {
+    "day": 52,
+    "index": 1,
+    "oldWord": "sketch",
+    "oldMeaning": "스케치하다",
+    "newWord": "geometry",
+    "newMeaning": "기하학",
+    "source": "명화"
+  },
+  {
+    "day": 52,
+    "index": 2,
+    "oldWord": "transform",
+    "oldMeaning": "변모하다",
+    "newWord": "republic",
+    "newMeaning": "공화국",
+    "source": "세계문화"
+  },
+  {
+    "day": 54,
+    "index": 0,
+    "oldWord": "equal",
+    "oldMeaning": "평등한",
+    "newWord": "belong",
+    "newMeaning": "속하다",
+    "source": "고전"
+  },
+  {
+    "day": 54,
+    "index": 1,
+    "oldWord": "heritage",
+    "oldMeaning": "유산, 전통",
+    "newWord": "insist",
+    "newMeaning": "고집하다",
+    "source": "명화"
+  },
+  {
+    "day": 55,
+    "index": 1,
+    "oldWord": "swirling",
+    "oldMeaning": "소용돌이치는",
+    "newWord": "tilt",
+    "newMeaning": "기울기",
+    "source": "명화"
+  },
+  {
+    "day": 57,
+    "index": 1,
+    "oldWord": "staircase",
+    "oldMeaning": "계단",
+    "newWord": "illustration",
+    "newMeaning": "삽화",
+    "source": "명화"
+  },
+  {
+    "day": 57,
+    "index": 2,
+    "oldWord": "reasoning",
+    "oldMeaning": "추론",
+    "newWord": "embrace",
+    "newMeaning": "껴안다",
+    "source": "세계문화"
+  },
+  {
+    "day": 58,
+    "index": 1,
+    "oldWord": "legendary",
+    "oldMeaning": "전설적인",
+    "newWord": "calligraphy",
+    "newMeaning": "서예",
+    "source": "명화"
+  },
+  {
+    "day": 59,
+    "index": 0,
+    "oldWord": "devote",
+    "oldMeaning": "바치다, 헌신하다",
+    "newWord": "service",
+    "newMeaning": "봉사, 서비스",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 59,
+    "index": 1,
+    "oldWord": "suffering",
+    "oldMeaning": "고통",
+    "newWord": "intensity",
+    "newMeaning": "강렬함",
+    "source": "명화"
+  },
+  {
+    "day": 59,
+    "index": 2,
+    "oldWord": "volunteer",
+    "oldMeaning": "자원봉사하다",
+    "newWord": "decade",
+    "newMeaning": "10년",
+    "source": "세계문화"
+  },
+  {
+    "day": 59,
+    "index": 3,
+    "oldWord": "decade",
+    "oldMeaning": "10년",
+    "newWord": "volunteer",
+    "newMeaning": "자원봉사하다",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 60,
+    "index": 1,
+    "oldWord": "solitude",
+    "oldMeaning": "고독",
+    "newWord": "contrast",
+    "newMeaning": "대조",
+    "source": "명화"
+  },
+  {
+    "day": 60,
+    "index": 2,
+    "oldWord": "boost",
+    "oldMeaning": "높이다, 증진시키다",
+    "newWord": "uncomfortable",
+    "newMeaning": "불편한",
+    "source": "세계문화"
+  },
+  {
+    "day": 61,
+    "index": 0,
+    "oldWord": "vision",
+    "oldMeaning": "비전, 전망",
+    "newWord": "belong",
+    "newMeaning": "속하다",
+    "source": "고전"
+  },
+  {
+    "day": 62,
+    "index": 1,
+    "oldWord": "elegance",
+    "oldMeaning": "우아함",
+    "newWord": "discus",
+    "newMeaning": "원반",
+    "source": "명화"
+  },
+  {
+    "day": 64,
+    "index": 0,
+    "oldWord": "instinct",
+    "oldMeaning": "본능",
+    "newWord": "civilization",
+    "newMeaning": "문명",
+    "source": "고전"
+  },
+  {
+    "day": 64,
+    "index": 1,
+    "oldWord": "exotic",
+    "oldMeaning": "이국적인",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 65,
+    "index": 1,
+    "oldWord": "censorship",
+    "oldMeaning": "검열",
+    "newWord": "grandeur",
+    "newMeaning": "장엄함, 위대함",
+    "source": "명화"
+  },
+  {
+    "day": 65,
+    "index": 2,
+    "oldWord": "coexist",
+    "oldMeaning": "공존하다",
+    "newWord": "community",
+    "newMeaning": "공동체",
+    "source": "세계문화"
+  },
+  {
+    "day": 66,
+    "index": 2,
+    "oldWord": "camouflage",
+    "oldMeaning": "위장",
+    "newWord": "system",
+    "newMeaning": "체계, 시스템",
+    "source": "세계문화"
+  },
+  {
+    "day": 67,
+    "index": 1,
+    "oldWord": "gaze",
+    "oldMeaning": "응시하다",
+    "newWord": "illustration",
+    "newMeaning": "삽화",
+    "source": "명화"
+  },
+  {
+    "day": 68,
+    "index": 0,
+    "oldWord": "origin",
+    "oldMeaning": "기원",
+    "newWord": "everything",
+    "newMeaning": "모든 것",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 68,
+    "index": 1,
+    "oldWord": "capture",
+    "oldMeaning": "포착하다",
+    "newWord": "civilization",
+    "newMeaning": "문명",
+    "source": "명화"
+  },
+  {
+    "day": 69,
+    "index": 0,
+    "oldWord": "comfort",
+    "oldMeaning": "위로하다",
+    "newWord": "places",
+    "newMeaning": "장소들",
+    "source": "고전"
+  },
+  {
+    "day": 70,
+    "index": 1,
+    "oldWord": "gracefully",
+    "oldMeaning": "우아하게",
+    "newWord": "collective",
+    "newMeaning": "집단적인",
+    "source": "명화"
+  },
+  {
+    "day": 70,
+    "index": 2,
+    "oldWord": "wit",
+    "oldMeaning": "재치",
+    "newWord": "decade",
+    "newMeaning": "10년",
+    "source": "세계문화"
+  },
+  {
+    "day": 71,
+    "index": 1,
+    "oldWord": "symbol",
+    "oldMeaning": "상징",
+    "newWord": "illustration",
+    "newMeaning": "삽화",
+    "source": "명화"
+  },
+  {
+    "day": 71,
+    "index": 2,
+    "oldWord": "encryption",
+    "oldMeaning": "암호화",
+    "newWord": "entirely",
+    "newMeaning": "완전히",
+    "source": "세계문화"
+  },
+  {
+    "day": 72,
+    "index": 0,
+    "oldWord": "blindfolded",
+    "oldMeaning": "눈이 가려진",
+    "newWord": "perch",
+    "newMeaning": "(새가) 내려앉다",
+    "source": "고전"
+  },
+  {
+    "day": 72,
+    "index": 1,
+    "oldWord": "perch",
+    "oldMeaning": "(새가) 내려앉다",
+    "newWord": "blindfolded",
+    "newMeaning": "눈이 가려진",
+    "source": "명화"
+  },
+  {
+    "day": 72,
+    "index": 2,
+    "oldWord": "bamboo",
+    "oldMeaning": "대나무",
+    "newWord": "instinctive",
+    "newMeaning": "본능적인",
+    "source": "세계문화"
+  },
+  {
+    "day": 73,
+    "index": 1,
+    "oldWord": "solemn",
+    "oldMeaning": "엄숙한",
+    "newWord": "reveal",
+    "newMeaning": "드러내다",
+    "source": "명화"
+  },
+  {
+    "day": 74,
+    "index": 1,
+    "oldWord": "terrifying",
+    "oldMeaning": "무시무시한",
+    "newWord": "brushstroke",
+    "newMeaning": "붓놀림",
+    "source": "명화"
+  },
+  {
+    "day": 75,
+    "index": 1,
+    "oldWord": "subtle",
+    "oldMeaning": "은밀한, 미묘한",
+    "newWord": "authority",
+    "newMeaning": "권위, 당국",
+    "source": "명화"
+  },
+  {
+    "day": 77,
+    "index": 0,
+    "oldWord": "masterpiece",
+    "oldMeaning": "걸작",
+    "newWord": "failed",
+    "newMeaning": "실패한",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 77,
+    "index": 1,
+    "oldWord": "trial",
+    "oldMeaning": "시도, 시험",
+    "newWord": "reflect",
+    "newMeaning": "비추다, 반영하다",
+    "source": "명화"
+  },
+  {
+    "day": 78,
+    "index": 0,
+    "oldWord": "proportion",
+    "oldMeaning": "비율",
+    "newWord": "truth",
+    "newMeaning": "진리",
+    "source": "고전"
+  },
+  {
+    "day": 78,
+    "index": 1,
+    "oldWord": "imperfection",
+    "oldMeaning": "불완전함",
+    "newWord": "convention",
+    "newMeaning": "협약, 관습",
+    "source": "명화"
+  },
+  {
+    "day": 78,
+    "index": 2,
+    "oldWord": "symmetry",
+    "oldMeaning": "대칭",
+    "newWord": "senses",
+    "newMeaning": "감각",
+    "source": "세계문화"
+  },
+  {
+    "day": 78,
+    "index": 3,
+    "oldWord": "aesthetics",
+    "oldMeaning": "미학, 미감",
+    "newWord": "symmetry",
+    "newMeaning": "대칭",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 79,
+    "index": 0,
+    "oldWord": "progress",
+    "oldMeaning": "진보, 발전",
+    "newWord": "universe",
+    "newMeaning": "우주",
+    "source": "고전"
+  },
+  {
+    "day": 79,
+    "index": 1,
+    "oldWord": "mural",
+    "oldMeaning": "벽화",
+    "newWord": "collective",
+    "newMeaning": "집단적인",
+    "source": "명화"
+  },
+  {
+    "day": 80,
+    "index": 1,
+    "oldWord": "painstaking",
+    "oldMeaning": "고된, 공들인",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 81,
+    "index": 1,
+    "oldWord": "peasant",
+    "oldMeaning": "농민",
+    "newWord": "fortress",
+    "newMeaning": "요새",
+    "source": "명화"
+  },
+  {
+    "day": 81,
+    "index": 2,
+    "oldWord": "steady",
+    "oldMeaning": "꾸준한",
+    "newWord": "relentless",
+    "newMeaning": "끈질긴, 가차 없는",
+    "source": "세계문화"
+  },
+  {
+    "day": 82,
+    "index": 1,
+    "oldWord": "playful",
+    "oldMeaning": "장난스러운, 활기찬",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 83,
+    "index": 0,
+    "oldWord": "pure",
+    "oldMeaning": "순수한",
+    "newWord": "children",
+    "newMeaning": "아이들",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 83,
+    "index": 1,
+    "oldWord": "filter",
+    "oldMeaning": "거르다, 스며들다",
+    "newWord": "renewal",
+    "newMeaning": "재생, 새로운 시작",
+    "source": "명화"
+  },
+  {
+    "day": 84,
+    "index": 1,
+    "oldWord": "slay",
+    "oldMeaning": "죽이다, 처치하다",
+    "newWord": "depict",
+    "newMeaning": "묘사하다, 그리다",
+    "source": "명화"
+  },
+  {
+    "day": 85,
+    "index": 1,
+    "oldWord": "slump",
+    "oldMeaning": "쓰러지다, 축 늘어지다",
+    "newWord": "discipline",
+    "newMeaning": "수련, 훈련",
+    "source": "명화"
+  },
+  {
+    "day": 85,
+    "index": 2,
+    "oldWord": "mortal",
+    "oldMeaning": "인간, 죽을 수 있는 존재",
+    "newWord": "current",
+    "newMeaning": "해류, 흐름",
+    "source": "세계문화"
+  },
+  {
+    "day": 86,
+    "index": 0,
+    "oldWord": "perception",
+    "oldMeaning": "인식, 지각",
+    "newWord": "things",
+    "newMeaning": "것들",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 86,
+    "index": 1,
+    "oldWord": "staircase",
+    "oldMeaning": "계단",
+    "newWord": "illusion",
+    "newMeaning": "착시, 환상",
+    "source": "명화"
+  },
+  {
+    "day": 87,
+    "index": 0,
+    "oldWord": "sacrifice",
+    "oldMeaning": "희생하다",
+    "newWord": "better",
+    "newMeaning": "더 나은",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 87,
+    "index": 1,
+    "oldWord": "shield",
+    "oldMeaning": "보호하다, 방패",
+    "newWord": "revolutionary",
+    "newMeaning": "혁명적인",
+    "source": "명화"
+  },
+  {
+    "day": 87,
+    "index": 2,
+    "oldWord": "endure",
+    "oldMeaning": "견디다, 참다",
+    "newWord": "preserve",
+    "newMeaning": "보존하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 88,
+    "index": 1,
+    "oldWord": "relentless",
+    "oldMeaning": "끈질긴, 가차 없는",
+    "newWord": "brushstroke",
+    "newMeaning": "붓놀림",
+    "source": "명화"
+  },
+  {
+    "day": 89,
+    "index": 0,
+    "oldWord": "symmetry",
+    "oldMeaning": "대칭",
+    "newWord": "truth",
+    "newMeaning": "진리",
+    "source": "고전"
+  },
+  {
+    "day": 89,
+    "index": 1,
+    "oldWord": "emerge",
+    "oldMeaning": "나타나다, 떠오르다",
+    "newWord": "dangerous",
+    "newMeaning": "위험한",
+    "source": "명화"
+  },
+  {
+    "day": 89,
+    "index": 2,
+    "oldWord": "embody",
+    "oldMeaning": "구현하다, 구체화하다",
+    "newWord": "pottery",
+    "newMeaning": "도자기",
+    "source": "세계문화"
+  },
+  {
+    "day": 89,
+    "index": 3,
+    "oldWord": "pottery",
+    "oldMeaning": "도자기",
+    "newWord": "interpret",
+    "newMeaning": "해석하다",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 90,
+    "index": 0,
+    "oldWord": "guardian",
+    "oldMeaning": "수호자",
+    "newWord": "glorify",
+    "newMeaning": "찬양하다",
+    "source": "고전"
+  },
+  {
+    "day": 90,
+    "index": 1,
+    "oldWord": "embrace",
+    "oldMeaning": "포옹, 껴안다",
+    "newWord": "combine",
+    "newMeaning": "결합하다",
+    "source": "명화"
+  },
+  {
+    "day": 91,
+    "index": 1,
+    "oldWord": "disguise",
+    "oldMeaning": "위장하다, 변장",
+    "newWord": "terrifying",
+    "newMeaning": "무시무시한",
+    "source": "명화"
+  },
+  {
+    "day": 92,
+    "index": 1,
+    "oldWord": "enormous",
+    "oldMeaning": "거대한",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 93,
+    "index": 1,
+    "oldWord": "provocative",
+    "oldMeaning": "도발적인",
+    "newWord": "amplify",
+    "newMeaning": "증폭시키다",
+    "source": "명화"
+  },
+  {
+    "day": 94,
+    "index": 0,
+    "oldWord": "metaphor",
+    "oldMeaning": "은유",
+    "newWord": "stage",
+    "newMeaning": "무대",
+    "source": "고전"
+  },
+  {
+    "day": 94,
+    "index": 1,
+    "oldWord": "rigid",
+    "oldMeaning": "단단한, 고정적인",
+    "newWord": "metaphor",
+    "newMeaning": "은유",
+    "source": "명화"
+  },
+  {
+    "day": 95,
+    "index": 1,
+    "oldWord": "strive",
+    "oldMeaning": "노력하다, 분투하다",
+    "newWord": "observation",
+    "newMeaning": "관찰",
+    "source": "명화"
+  },
+  {
+    "day": 96,
+    "index": 1,
+    "oldWord": "imperfection",
+    "oldMeaning": "불완전함",
+    "newWord": "haystack",
+    "newMeaning": "건초더미",
+    "source": "명화"
+  },
+  {
+    "day": 97,
+    "index": 0,
+    "oldWord": "horizon",
+    "oldMeaning": "지평선",
+    "newWord": "loved",
+    "newMeaning": "사랑한",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 97,
+    "index": 2,
+    "oldWord": "nostalgia",
+    "oldMeaning": "향수, 그리움",
+    "newWord": "absent",
+    "newMeaning": "부재하는",
+    "source": "세계문화"
+  },
+  {
+    "day": 98,
+    "index": 0,
+    "oldWord": "prejudice",
+    "oldMeaning": "편견",
+    "newWord": "cautious",
+    "newMeaning": "조심스러운",
+    "source": "고전"
+  },
+  {
+    "day": 98,
+    "index": 1,
+    "oldWord": "stereotype",
+    "oldMeaning": "고정관념",
+    "newWord": "prejudice",
+    "newMeaning": "편견",
+    "source": "명화"
+  },
+  {
+    "day": 98,
+    "index": 2,
+    "oldWord": "reinforce",
+    "oldMeaning": "강화하다",
+    "newWord": "apartheid",
+    "newMeaning": "아파르트헤이트(인종차별 정책)",
+    "source": "세계문화"
+  },
+  {
+    "day": 99,
+    "index": 2,
+    "oldWord": "turmoil",
+    "oldMeaning": "혼란, 격동",
+    "newWord": "cathedral",
+    "newMeaning": "대성당",
+    "source": "세계문화"
+  },
+  {
+    "day": 100,
+    "index": 1,
+    "oldWord": "suffering",
+    "oldMeaning": "고통",
+    "newWord": "process",
+    "newMeaning": "처리하다",
+    "source": "명화"
+  },
+  {
+    "day": 101,
+    "index": 0,
+    "oldWord": "intimate",
+    "oldMeaning": "친밀한",
+    "newWord": "redemption",
+    "newMeaning": "구원",
+    "source": "고전"
+  },
+  {
+    "day": 101,
+    "index": 1,
+    "oldWord": "embrace",
+    "oldMeaning": "껴안다, 포옹",
+    "newWord": "reveal",
+    "newMeaning": "드러내다",
+    "source": "명화"
+  },
+  {
+    "day": 102,
+    "index": 1,
+    "oldWord": "conscience",
+    "oldMeaning": "양심",
+    "newWord": "symbol",
+    "newMeaning": "상징",
+    "source": "명화"
+  },
+  {
+    "day": 103,
+    "index": 1,
+    "oldWord": "apprenticeship",
+    "oldMeaning": "도제 제도",
+    "newWord": "peasant",
+    "newMeaning": "농민",
+    "source": "명화"
+  },
+  {
+    "day": 103,
+    "index": 2,
+    "oldWord": "cognitive",
+    "oldMeaning": "인지의",
+    "newWord": "apprenticeship",
+    "newMeaning": "도제 제도",
+    "source": "세계문화"
+  },
+  {
+    "day": 103,
+    "index": 3,
+    "oldWord": "uplift",
+    "oldMeaning": "고양시키다",
+    "newWord": "cognitive",
+    "newMeaning": "인지적인",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 104,
+    "index": 0,
+    "oldWord": "absorb",
+    "oldMeaning": "몰두하다, 흡수하다",
+    "newWord": "reader",
+    "newMeaning": "독자",
+    "source": "고전"
+  },
+  {
+    "day": 104,
+    "index": 1,
+    "oldWord": "scroll",
+    "oldMeaning": "두루마리",
+    "newWord": "illustration",
+    "newMeaning": "삽화",
+    "source": "명화"
+  },
+  {
+    "day": 104,
+    "index": 2,
+    "oldWord": "fiction",
+    "oldMeaning": "소설, 허구",
+    "newWord": "knowledge",
+    "newMeaning": "지식",
+    "source": "세계문화"
+  },
+  {
+    "day": 105,
+    "index": 1,
+    "oldWord": "gravity",
+    "oldMeaning": "중력",
+    "newWord": "geometric",
+    "newMeaning": "기하학적인",
+    "source": "명화"
+  },
+  {
+    "day": 105,
+    "index": 2,
+    "oldWord": "stimulate",
+    "oldMeaning": "자극하다",
+    "newWord": "griots",
+    "newMeaning": "그리오 (서아프리카 음유시인)",
+    "source": "세계문화"
+  },
+  {
+    "day": 106,
+    "index": 0,
+    "oldWord": "aqueduct",
+    "oldMeaning": "수도교",
+    "newWord": "afterwards",
+    "newMeaning": "그 후에",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 106,
+    "index": 2,
+    "oldWord": "distribute",
+    "oldMeaning": "분배하다, 분산시키다",
+    "newWord": "aqueduct",
+    "newMeaning": "수도교",
+    "source": "세계문화"
+  },
+  {
+    "day": 107,
+    "index": 1,
+    "oldWord": "abundance",
+    "oldMeaning": "풍요",
+    "newWord": "transform",
+    "newMeaning": "변모시키다",
+    "source": "명화"
+  },
+  {
+    "day": 107,
+    "index": 2,
+    "oldWord": "nutrient",
+    "oldMeaning": "영양분",
+    "newWord": "strengthen",
+    "newMeaning": "강화하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 108,
+    "index": 1,
+    "oldWord": "impression",
+    "oldMeaning": "인상",
+    "newWord": "portrait",
+    "newMeaning": "초상화",
+    "source": "명화"
+  },
+  {
+    "day": 108,
+    "index": 2,
+    "oldWord": "layer",
+    "oldMeaning": "층, 겹",
+    "newWord": "elegance",
+    "newMeaning": "우아함",
+    "source": "세계문화"
+  },
+  {
+    "day": 109,
+    "index": 0,
+    "oldWord": "harmony",
+    "oldMeaning": "조화",
+    "newWord": "universe",
+    "newMeaning": "우주",
+    "source": "고전"
+  },
+  {
+    "day": 109,
+    "index": 1,
+    "oldWord": "sequence",
+    "oldMeaning": "수열, 순서",
+    "newWord": "reveal",
+    "newMeaning": "드러내다",
+    "source": "명화"
+  },
+  {
+    "day": 109,
+    "index": 2,
+    "oldWord": "spiral",
+    "oldMeaning": "나선",
+    "newWord": "system",
+    "newMeaning": "체계, 시스템",
+    "source": "세계문화"
+  },
+  {
+    "day": 110,
+    "index": 0,
+    "oldWord": "hieroglyph",
+    "oldMeaning": "상형문자",
+    "newWord": "limit",
+    "newMeaning": "제한하다",
+    "source": "고전"
+  },
+  {
+    "day": 110,
+    "index": 1,
+    "oldWord": "diverse",
+    "oldMeaning": "다양한",
+    "newWord": "community",
+    "newMeaning": "공동체",
+    "source": "명화"
+  },
+  {
+    "day": 110,
+    "index": 2,
+    "oldWord": "distinguish",
+    "oldMeaning": "구별하다",
+    "newWord": "diverse",
+    "newMeaning": "다양한",
+    "source": "세계문화"
+  },
+  {
+    "day": 111,
+    "index": 1,
+    "oldWord": "convey",
+    "oldMeaning": "전달하다",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 111,
+    "index": 2,
+    "oldWord": "posture",
+    "oldMeaning": "자세",
+    "newWord": "communicate",
+    "newMeaning": "소통하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 112,
+    "index": 0,
+    "oldWord": "contradiction",
+    "oldMeaning": "모순",
+    "newWord": "reflect",
+    "newMeaning": "비추다, 반영하다",
+    "source": "고전"
+  },
+  {
+    "day": 112,
+    "index": 1,
+    "oldWord": "transform",
+    "oldMeaning": "변화시키다",
+    "newWord": "precision",
+    "newMeaning": "정밀함",
+    "source": "명화"
+  },
+  {
+    "day": 112,
+    "index": 2,
+    "oldWord": "passenger",
+    "oldMeaning": "승객",
+    "newWord": "immigrant",
+    "newMeaning": "이민자",
+    "source": "세계문화"
+  },
+  {
+    "day": 113,
+    "index": 2,
+    "oldWord": "breathtaking",
+    "oldMeaning": "숨막히는",
+    "newWord": "measure",
+    "newMeaning": "측정하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 114,
+    "index": 0,
+    "oldWord": "chase",
+    "oldMeaning": "쫓다",
+    "newWord": "declare",
+    "newMeaning": "선언하다",
+    "source": "고전"
+  },
+  {
+    "day": 115,
+    "index": 1,
+    "oldWord": "resin",
+    "oldMeaning": "송진",
+    "newWord": "landscape",
+    "newMeaning": "풍경",
+    "source": "명화"
+  },
+  {
+    "day": 116,
+    "index": 0,
+    "oldWord": "swirl",
+    "oldMeaning": "소용돌이치다",
+    "newWord": "flies",
+    "newMeaning": "날다 (3인칭)",
+    "source": "고전"
+  },
+  {
+    "day": 116,
+    "index": 1,
+    "oldWord": "ancestor",
+    "oldMeaning": "조상",
+    "newWord": "radiate",
+    "newMeaning": "발산하다, 내뿜다",
+    "source": "명화"
+  },
+  {
+    "day": 116,
+    "index": 2,
+    "oldWord": "wavelength",
+    "oldMeaning": "파장",
+    "newWord": "ancestor",
+    "newMeaning": "조상",
+    "source": "세계문화"
+  },
+  {
+    "day": 117,
+    "index": 0,
+    "oldWord": "glow",
+    "oldMeaning": "빛나다",
+    "newWord": "stars",
+    "newMeaning": "별들",
+    "source": "고전"
+  },
+  {
+    "day": 117,
+    "index": 1,
+    "oldWord": "navigation",
+    "oldMeaning": "항해, 길 찾기",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 117,
+    "index": 2,
+    "oldWord": "distant",
+    "oldMeaning": "먼",
+    "newWord": "navigation",
+    "newMeaning": "항해, 길 찾기",
+    "source": "세계문화"
+  },
+  {
+    "day": 117,
+    "index": 3,
+    "oldWord": "astronomy",
+    "oldMeaning": "천문학",
+    "newWord": "reach",
+    "newMeaning": "도달하다",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 119,
+    "index": 1,
+    "oldWord": "aggressive",
+    "oldMeaning": "공격적인",
+    "newWord": "organize",
+    "newMeaning": "정리하다, 조직하다",
+    "source": "명화"
+  },
+  {
+    "day": 120,
+    "index": 1,
+    "oldWord": "unbearable",
+    "oldMeaning": "참을 수 없는",
+    "newWord": "glow",
+    "newMeaning": "빛나다",
+    "source": "명화"
+  },
+  {
+    "day": 120,
+    "index": 2,
+    "oldWord": "vibration",
+    "oldMeaning": "진동",
+    "newWord": "didgeridoo",
+    "newMeaning": "디저리두",
+    "source": "세계문화"
+  },
+  {
+    "day": 121,
+    "index": 1,
+    "oldWord": "thoughtfulness",
+    "oldMeaning": "사려 깊음",
+    "newWord": "absolute",
+    "newMeaning": "절대적인",
+    "source": "명화"
+  },
+  {
+    "day": 121,
+    "index": 2,
+    "oldWord": "faint",
+    "oldMeaning": "희미한",
+    "newWord": "thoughtfulness",
+    "newMeaning": "사려 깊음",
+    "source": "세계문화"
+  },
+  {
+    "day": 122,
+    "index": 0,
+    "oldWord": "sensation",
+    "oldMeaning": "감각, 느낌",
+    "newWord": "breakneck",
+    "newMeaning": "위험할 정도로 빠른",
+    "source": "고전"
+  },
+  {
+    "day": 122,
+    "index": 1,
+    "oldWord": "revolutionize",
+    "oldMeaning": "혁신하다",
+    "newWord": "woodblock",
+    "newMeaning": "목판",
+    "source": "명화"
+  },
+  {
+    "day": 122,
+    "index": 2,
+    "oldWord": "roughly",
+    "oldMeaning": "대략",
+    "newWord": "discipline",
+    "newMeaning": "수련, 훈련",
+    "source": "세계문화"
+  },
+  {
+    "day": 122,
+    "index": 3,
+    "oldWord": "incredibly",
+    "oldMeaning": "믿을 수 없을 만큼",
+    "newWord": "roughly",
+    "newMeaning": "대략",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 124,
+    "index": 1,
+    "oldWord": "harmony",
+    "oldMeaning": "조화",
+    "newWord": "perspective",
+    "newMeaning": "관점, 시각",
+    "source": "명화"
+  },
+  {
+    "day": 124,
+    "index": 2,
+    "oldWord": "gravity",
+    "oldMeaning": "중력",
+    "newWord": "architecture",
+    "newMeaning": "건축",
+    "source": "세계문화"
+  },
+  {
+    "day": 125,
+    "index": 0,
+    "oldWord": "deliberate",
+    "oldMeaning": "의도적인",
+    "newWord": "reader",
+    "newMeaning": "독자",
+    "source": "고전"
+  },
+  {
+    "day": 125,
+    "index": 1,
+    "oldWord": "embrace",
+    "oldMeaning": "받아들이다",
+    "newWord": "screen",
+    "newMeaning": "화면, 가리다",
+    "source": "명화"
+  },
+  {
+    "day": 125,
+    "index": 2,
+    "oldWord": "nucleus",
+    "oldMeaning": "핵",
+    "newWord": "embrace",
+    "newMeaning": "껴안다",
+    "source": "세계문화"
+  },
+  {
+    "day": 126,
+    "index": 1,
+    "oldWord": "commentary",
+    "oldMeaning": "논평",
+    "newWord": "mesmerizing",
+    "newMeaning": "최면적인",
+    "source": "명화"
+  },
+  {
+    "day": 127,
+    "index": 1,
+    "oldWord": "splash",
+    "oldMeaning": "튀김, 튀기다",
+    "newWord": "proverb",
+    "newMeaning": "속담",
+    "source": "명화"
+  },
+  {
+    "day": 128,
+    "index": 1,
+    "oldWord": "conquer",
+    "oldMeaning": "정복하다",
+    "newWord": "knowledge",
+    "newMeaning": "지식",
+    "source": "명화"
+  },
+  {
+    "day": 129,
+    "index": 1,
+    "oldWord": "animated",
+    "oldMeaning": "활기찬, 활발한",
+    "newWord": "spiritual",
+    "newMeaning": "영적인",
+    "source": "명화"
+  },
+  {
+    "day": 130,
+    "index": 0,
+    "oldWord": "persuade",
+    "oldMeaning": "설득하다",
+    "newWord": "repetition",
+    "newMeaning": "반복",
+    "source": "고전"
+  },
+  {
+    "day": 130,
+    "index": 1,
+    "oldWord": "cruelty",
+    "oldMeaning": "잔혹함",
+    "newWord": "persuade",
+    "newMeaning": "설득하다",
+    "source": "명화"
+  },
+  {
+    "day": 130,
+    "index": 2,
+    "oldWord": "rhetoric",
+    "oldMeaning": "수사학",
+    "newWord": "merchant",
+    "newMeaning": "상인",
+    "source": "세계문화"
+  },
+  {
+    "day": 131,
+    "index": 0,
+    "oldWord": "fiercely",
+    "oldMeaning": "격렬하게",
+    "newWord": "dialogue",
+    "newMeaning": "대화",
+    "source": "고전"
+  },
+  {
+    "day": 131,
+    "index": 1,
+    "oldWord": "parliament",
+    "oldMeaning": "의회",
+    "newWord": "debate",
+    "newMeaning": "토론하다",
+    "source": "명화"
+  },
+  {
+    "day": 131,
+    "index": 2,
+    "oldWord": "peer",
+    "oldMeaning": "동료",
+    "newWord": "formal",
+    "newMeaning": "정규의, 공식적인",
+    "source": "세계문화"
+  },
+  {
+    "day": 132,
+    "index": 1,
+    "oldWord": "reveal",
+    "oldMeaning": "밝히다",
+    "newWord": "compel",
+    "newMeaning": "강요하다",
+    "source": "명화"
+  },
+  {
+    "day": 133,
+    "index": 1,
+    "oldWord": "skepticism",
+    "oldMeaning": "회의주의",
+    "newWord": "depict",
+    "newMeaning": "묘사하다, 그리다",
+    "source": "명화"
+  },
+  {
+    "day": 133,
+    "index": 2,
+    "oldWord": "mislead",
+    "oldMeaning": "오도하다",
+    "newWord": "revolution",
+    "newMeaning": "혁명",
+    "source": "세계문화"
+  },
+  {
+    "day": 134,
+    "index": 1,
+    "oldWord": "unshakable",
+    "oldMeaning": "흔들리지 않는",
+    "newWord": "dramatic",
+    "newMeaning": "극적인",
+    "source": "명화"
+  },
+  {
+    "day": 134,
+    "index": 2,
+    "oldWord": "contradict",
+    "oldMeaning": "모순되다",
+    "newWord": "unshakable",
+    "newMeaning": "흔들리지 않는",
+    "source": "세계문화"
+  },
+  {
+    "day": 135,
+    "index": 0,
+    "oldWord": "speculate",
+    "oldMeaning": "추측하다",
+    "newWord": "sufficient",
+    "newMeaning": "충분한",
+    "source": "고전"
+  },
+  {
+    "day": 135,
+    "index": 1,
+    "oldWord": "sufficient",
+    "oldMeaning": "충분한",
+    "newWord": "enigmatic",
+    "newMeaning": "수수께끼 같은",
+    "source": "명화"
+  },
+  {
+    "day": 136,
+    "index": 1,
+    "oldWord": "arrangement",
+    "oldMeaning": "배치, 정돈",
+    "newWord": "astonishing",
+    "newMeaning": "놀라운",
+    "source": "명화"
+  },
+  {
+    "day": 136,
+    "index": 2,
+    "oldWord": "microscope",
+    "oldMeaning": "현미경",
+    "newWord": "observation",
+    "newMeaning": "관찰",
+    "source": "세계문화"
+  },
+  {
+    "day": 136,
+    "index": 3,
+    "oldWord": "bacterium",
+    "oldMeaning": "박테리아",
+    "newWord": "microscope",
+    "newMeaning": "현미경",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 137,
+    "index": 1,
+    "oldWord": "ethics",
+    "oldMeaning": "윤리",
+    "newWord": "boundary",
+    "newMeaning": "경계",
+    "source": "명화"
+  },
+  {
+    "day": 138,
+    "index": 1,
+    "oldWord": "propose",
+    "oldMeaning": "제안하다",
+    "newWord": "hypothesis",
+    "newMeaning": "가설",
+    "source": "명화"
+  },
+  {
+    "day": 138,
+    "index": 2,
+    "oldWord": "falsifiable",
+    "oldMeaning": "반증 가능한",
+    "newWord": "continent",
+    "newMeaning": "대륙",
+    "source": "세계문화"
+  },
+  {
+    "day": 139,
+    "index": 1,
+    "oldWord": "inspire",
+    "oldMeaning": "영감을 주다",
+    "newWord": "kaleidoscope",
+    "newMeaning": "만화경",
+    "source": "명화"
+  },
+  {
+    "day": 140,
+    "index": 0,
+    "oldWord": "statistics",
+    "oldMeaning": "통계",
+    "newWord": "truth",
+    "newMeaning": "진리",
+    "source": "고전"
+  },
+  {
+    "day": 140,
+    "index": 1,
+    "oldWord": "diagram",
+    "oldMeaning": "도표",
+    "newWord": "depict",
+    "newMeaning": "묘사하다, 그리다",
+    "source": "명화"
+  },
+  {
+    "day": 140,
+    "index": 2,
+    "oldWord": "sample",
+    "oldMeaning": "표본",
+    "newWord": "condition",
+    "newMeaning": "조건, 상태",
+    "source": "세계문화"
+  },
+  {
+    "day": 143,
+    "index": 0,
+    "oldWord": "substance",
+    "oldMeaning": "물질",
+    "newWord": "rounded",
+    "newMeaning": "둥근",
+    "source": "고전"
+  },
+  {
+    "day": 143,
+    "index": 1,
+    "oldWord": "shimmer",
+    "oldMeaning": "어렴풋이 빛나다",
+    "newWord": "dignity",
+    "newMeaning": "품위",
+    "source": "명화"
+  },
+  {
+    "day": 143,
+    "index": 2,
+    "oldWord": "durable",
+    "oldMeaning": "내구성 있는",
+    "newWord": "essential",
+    "newMeaning": "본질적인, 필수적인",
+    "source": "세계문화"
+  },
+  {
+    "day": 144,
+    "index": 1,
+    "oldWord": "abandon",
+    "oldMeaning": "버리다, 포기하다",
+    "newWord": "element",
+    "newMeaning": "요소",
+    "source": "명화"
+  },
+  {
+    "day": 145,
+    "index": 1,
+    "oldWord": "reveal",
+    "oldMeaning": "드러내다",
+    "newWord": "generation",
+    "newMeaning": "세대",
+    "source": "명화"
+  },
+  {
+    "day": 146,
+    "index": 1,
+    "oldWord": "otherworldly",
+    "oldMeaning": "초자연적인",
+    "newWord": "background",
+    "newMeaning": "배경",
+    "source": "명화"
+  },
+  {
+    "day": 147,
+    "index": 1,
+    "oldWord": "unnoticed",
+    "oldMeaning": "눈치채지 못한",
+    "newWord": "civilization",
+    "newMeaning": "문명",
+    "source": "명화"
+  },
+  {
+    "day": 149,
+    "index": 0,
+    "oldWord": "rivalry",
+    "oldMeaning": "경쟁, 라이벌 관계",
+    "newWord": "haven",
+    "newMeaning": "안식처",
+    "source": "고전"
+  },
+  {
+    "day": 149,
+    "index": 1,
+    "oldWord": "compete",
+    "oldMeaning": "경쟁하다",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 150,
+    "index": 0,
+    "oldWord": "cooperation",
+    "oldMeaning": "협력",
+    "newWord": "together",
+    "newMeaning": "함께",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 150,
+    "index": 1,
+    "oldWord": "depict",
+    "oldMeaning": "묘사하다",
+    "newWord": "synchronize",
+    "newMeaning": "동기화하다",
+    "source": "명화"
+  },
+  {
+    "day": 151,
+    "index": 1,
+    "oldWord": "rear",
+    "oldMeaning": "뒷발로 서다",
+    "newWord": "portray",
+    "newMeaning": "묘사하다",
+    "source": "명화"
+  },
+  {
+    "day": 152,
+    "index": 1,
+    "oldWord": "blur",
+    "oldMeaning": "흐리게 하다",
+    "newWord": "magnificent",
+    "newMeaning": "웅장한",
+    "source": "명화"
+  },
+  {
+    "day": 153,
+    "index": 1,
+    "oldWord": "unflinching",
+    "oldMeaning": "흔들림 없는, 단호한",
+    "newWord": "humility",
+    "newMeaning": "겸손",
+    "source": "명화"
+  },
+  {
+    "day": 154,
+    "index": 1,
+    "oldWord": "obey",
+    "oldMeaning": "따르다, 복종하다",
+    "newWord": "sleeping",
+    "newMeaning": "잠자는",
+    "source": "명화"
+  },
+  {
+    "day": 155,
+    "index": 1,
+    "oldWord": "clarity",
+    "oldMeaning": "선명함, 명확함",
+    "newWord": "confront",
+    "newMeaning": "직면하다",
+    "source": "명화"
+  },
+  {
+    "day": 155,
+    "index": 2,
+    "oldWord": "decay",
+    "oldMeaning": "쇠퇴, 부패",
+    "newWord": "transform",
+    "newMeaning": "변모시키다",
+    "source": "세계문화"
+  },
+  {
+    "day": 156,
+    "index": 1,
+    "oldWord": "gravity",
+    "oldMeaning": "중력",
+    "newWord": "terrifying",
+    "newMeaning": "무시무시한",
+    "source": "명화"
+  },
+  {
+    "day": 157,
+    "index": 0,
+    "oldWord": "superstition",
+    "oldMeaning": "미신",
+    "newWord": "emotion",
+    "newMeaning": "감정",
+    "source": "고전"
+  },
+  {
+    "day": 157,
+    "index": 2,
+    "oldWord": "pattern",
+    "oldMeaning": "패턴, 유형",
+    "newWord": "belief",
+    "newMeaning": "믿음, 신념",
+    "source": "세계문화"
+  },
+  {
+    "day": 158,
+    "index": 0,
+    "oldWord": "divine",
+    "oldMeaning": "신성한",
+    "newWord": "lame",
+    "newMeaning": "절뚝거리는",
+    "source": "고전"
+  },
+  {
+    "day": 158,
+    "index": 1,
+    "oldWord": "pilgrimage",
+    "oldMeaning": "순례",
+    "newWord": "canvas",
+    "newMeaning": "캔버스",
+    "source": "명화"
+  },
+  {
+    "day": 158,
+    "index": 2,
+    "oldWord": "civilization",
+    "oldMeaning": "문명",
+    "newWord": "pilgrimage",
+    "newMeaning": "순례",
+    "source": "세계문화"
+  },
+  {
+    "day": 159,
+    "index": 1,
+    "oldWord": "condition",
+    "oldMeaning": "조건, 상태",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 160,
+    "index": 1,
+    "oldWord": "document",
+    "oldMeaning": "기록하다, 서류",
+    "newWord": "tradition",
+    "newMeaning": "전통",
+    "source": "명화"
+  },
+  {
+    "day": 161,
+    "index": 1,
+    "oldWord": "prosperous",
+    "oldMeaning": "번영하는",
+    "newWord": "reveal",
+    "newMeaning": "드러내다",
+    "source": "명화"
+  },
+  {
+    "day": 162,
+    "index": 0,
+    "oldWord": "authoritarian",
+    "oldMeaning": "권위주의적인",
+    "newWord": "political",
+    "newMeaning": "정치적인",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 162,
+    "index": 1,
+    "oldWord": "referendum",
+    "oldMeaning": "국민투표",
+    "newWord": "transform",
+    "newMeaning": "변모시키다",
+    "source": "명화"
+  },
+  {
+    "day": 162,
+    "index": 2,
+    "oldWord": "fairness",
+    "oldMeaning": "공정함",
+    "newWord": "referendum",
+    "newMeaning": "국민투표",
+    "source": "세계문화"
+  },
+  {
+    "day": 163,
+    "index": 1,
+    "oldWord": "exercise",
+    "oldMeaning": "행사하다, 운동하다",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 163,
+    "index": 2,
+    "oldWord": "civic",
+    "oldMeaning": "시민의",
+    "newWord": "referendum",
+    "newMeaning": "국민투표",
+    "source": "세계문화"
+  },
+  {
+    "day": 164,
+    "index": 1,
+    "oldWord": "authority",
+    "oldMeaning": "권위, 당국",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 165,
+    "index": 1,
+    "oldWord": "satirical",
+    "oldMeaning": "풍자적인",
+    "newWord": "portray",
+    "newMeaning": "묘사하다",
+    "source": "명화"
+  },
+  {
+    "day": 166,
+    "index": 1,
+    "oldWord": "prosecute",
+    "oldMeaning": "기소하다",
+    "newWord": "reveal",
+    "newMeaning": "드러내다",
+    "source": "명화"
+  },
+  {
+    "day": 166,
+    "index": 2,
+    "oldWord": "testimony",
+    "oldMeaning": "증언",
+    "newWord": "establish",
+    "newMeaning": "확립하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 167,
+    "index": 1,
+    "oldWord": "atone",
+    "oldMeaning": "속죄하다",
+    "newWord": "dramatic",
+    "newMeaning": "극적인",
+    "source": "명화"
+  },
+  {
+    "day": 167,
+    "index": 2,
+    "oldWord": "inequality",
+    "oldMeaning": "불평등",
+    "newWord": "organize",
+    "newMeaning": "정리하다, 조직하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 168,
+    "index": 1,
+    "oldWord": "reform",
+    "oldMeaning": "교화하다, 개혁하다",
+    "newWord": "reflect",
+    "newMeaning": "비추다, 반영하다",
+    "source": "명화"
+  },
+  {
+    "day": 169,
+    "index": 1,
+    "oldWord": "attribute",
+    "oldMeaning": "속성, 특질",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 170,
+    "index": 1,
+    "oldWord": "devote",
+    "oldMeaning": "바치다, 헌신하다",
+    "newWord": "spiritual",
+    "newMeaning": "영적인",
+    "source": "명화"
+  },
+  {
+    "day": 171,
+    "index": 0,
+    "oldWord": "migrate",
+    "oldMeaning": "이주하다",
+    "newWord": "leaves",
+    "newMeaning": "잎, 떠나다",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 171,
+    "index": 1,
+    "oldWord": "drift",
+    "oldMeaning": "표류하다",
+    "newWord": "homeland",
+    "newMeaning": "고국",
+    "source": "명화"
+  },
+  {
+    "day": 172,
+    "index": 1,
+    "oldWord": "displace",
+    "oldMeaning": "이주시키다",
+    "newWord": "portray",
+    "newMeaning": "묘사하다",
+    "source": "명화"
+  },
+  {
+    "day": 172,
+    "index": 2,
+    "oldWord": "homeland",
+    "oldMeaning": "고국",
+    "newWord": "estimate",
+    "newMeaning": "추정하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 173,
+    "index": 0,
+    "oldWord": "warfare",
+    "oldMeaning": "전쟁, 전투",
+    "newWord": "destroy",
+    "newMeaning": "파괴하다",
+    "source": "고전"
+  },
+  {
+    "day": 173,
+    "index": 1,
+    "oldWord": "sovereignty",
+    "oldMeaning": "주권",
+    "newWord": "civilization",
+    "newMeaning": "문명",
+    "source": "명화"
+  },
+  {
+    "day": 173,
+    "index": 2,
+    "oldWord": "trample",
+    "oldMeaning": "짓밟다",
+    "newWord": "establish",
+    "newMeaning": "확립하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 174,
+    "index": 1,
+    "oldWord": "symbolize",
+    "oldMeaning": "상징하다",
+    "newWord": "illustrate",
+    "newMeaning": "설명하다",
+    "source": "명화"
+  },
+  {
+    "day": 174,
+    "index": 2,
+    "oldWord": "intention",
+    "oldMeaning": "의도",
+    "newWord": "exchange",
+    "newMeaning": "교환, 교류",
+    "source": "세계문화"
+  },
+  {
+    "day": 174,
+    "index": 3,
+    "oldWord": "essential",
+    "oldMeaning": "필수적인",
+    "newWord": "intention",
+    "newMeaning": "의도",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 175,
+    "index": 1,
+    "oldWord": "exotic",
+    "oldMeaning": "이국적인",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 176,
+    "index": 1,
+    "oldWord": "guarantee",
+    "oldMeaning": "보증, 보장",
+    "newWord": "examine",
+    "newMeaning": "살피다, 검토하다",
+    "source": "명화"
+  },
+  {
+    "day": 176,
+    "index": 2,
+    "oldWord": "propaganda",
+    "oldMeaning": "선전, 선동",
+    "newWord": "exist",
+    "newMeaning": "존재하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 177,
+    "index": 1,
+    "oldWord": "compound",
+    "oldMeaning": "복합적인, 복리의",
+    "newWord": "concentration",
+    "newMeaning": "집중",
+    "source": "명화"
+  },
+  {
+    "day": 177,
+    "index": 2,
+    "oldWord": "examine",
+    "oldMeaning": "살피다, 검사하다",
+    "newWord": "transform",
+    "newMeaning": "변모시키다",
+    "source": "세계문화"
+  },
+  {
+    "day": 178,
+    "index": 1,
+    "oldWord": "famine",
+    "oldMeaning": "기근",
+    "newWord": "embody",
+    "newMeaning": "구현하다, 구체화하다",
+    "source": "명화"
+  },
+  {
+    "day": 178,
+    "index": 2,
+    "oldWord": "devastating",
+    "oldMeaning": "참혹한, 파괴적인",
+    "newWord": "remain",
+    "newMeaning": "남다, 유지하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 178,
+    "index": 3,
+    "oldWord": "urgent",
+    "oldMeaning": "시급한",
+    "newWord": "reduce",
+    "newMeaning": "줄이다, 환원하다",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 179,
+    "index": 1,
+    "oldWord": "luxury",
+    "oldMeaning": "사치, 호화",
+    "newWord": "document",
+    "newMeaning": "기록하다, 서류",
+    "source": "명화"
+  },
+  {
+    "day": 180,
+    "index": 1,
+    "oldWord": "anticipate",
+    "oldMeaning": "기대하다, 예상하다",
+    "newWord": "spectacle",
+    "newMeaning": "장관",
+    "source": "명화"
+  },
+  {
+    "day": 180,
+    "index": 2,
+    "oldWord": "addictive",
+    "oldMeaning": "중독성 있는",
+    "newWord": "originate",
+    "newMeaning": "유래하다, 시작되다",
+    "source": "세계문화"
+  },
+  {
+    "day": 180,
+    "index": 3,
+    "oldWord": "discount",
+    "oldMeaning": "할인",
+    "newWord": "anticipate",
+    "newMeaning": "기대하다, 예상하다",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 181,
+    "index": 1,
+    "oldWord": "precision",
+    "oldMeaning": "정밀함",
+    "newWord": "tapestry",
+    "newMeaning": "태피스트리, 직물 벽걸이",
+    "source": "명화"
+  },
+  {
+    "day": 182,
+    "index": 1,
+    "oldWord": "minimize",
+    "oldMeaning": "최소화하다",
+    "newWord": "transform",
+    "newMeaning": "변모시키다",
+    "source": "명화"
+  },
+  {
+    "day": 182,
+    "index": 2,
+    "oldWord": "hexagonal",
+    "oldMeaning": "육각형의",
+    "newWord": "comfort",
+    "newMeaning": "위로하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 182,
+    "index": 3,
+    "oldWord": "pioneer",
+    "oldMeaning": "개척하다",
+    "newWord": "hexagonal",
+    "newMeaning": "육각형의",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 183,
+    "index": 0,
+    "oldWord": "obsessive",
+    "oldMeaning": "집착적인",
+    "newWord": "waste",
+    "newMeaning": "낭비하다",
+    "source": "고전"
+  },
+  {
+    "day": 183,
+    "index": 1,
+    "oldWord": "embrace",
+    "oldMeaning": "포용하다",
+    "newWord": "precious",
+    "newMeaning": "소중한",
+    "source": "명화"
+  },
+  {
+    "day": 183,
+    "index": 2,
+    "oldWord": "wander",
+    "oldMeaning": "방황하다, 떠돌다",
+    "newWord": "embrace",
+    "newMeaning": "껴안다",
+    "source": "세계문화"
+  },
+  {
+    "day": 184,
+    "index": 0,
+    "oldWord": "rehabilitation",
+    "oldMeaning": "재활",
+    "newWord": "places",
+    "newMeaning": "장소들",
+    "source": "고전"
+  },
+  {
+    "day": 184,
+    "index": 1,
+    "oldWord": "imperfection",
+    "oldMeaning": "불완전함",
+    "newWord": "rehabilitation",
+    "newMeaning": "재활",
+    "source": "명화"
+  },
+  {
+    "day": 184,
+    "index": 2,
+    "oldWord": "neuroplasticity",
+    "oldMeaning": "신경가소성",
+    "newWord": "reinvent",
+    "newMeaning": "재발명하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 184,
+    "index": 3,
+    "oldWord": "foundation",
+    "oldMeaning": "토대, 기초",
+    "newWord": "neuroplasticity",
+    "newMeaning": "신경가소성",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 185,
+    "index": 1,
+    "oldWord": "imbalance",
+    "oldMeaning": "불균형",
+    "newWord": "emerge",
+    "newMeaning": "나타나다, 떠오르다",
+    "source": "명화"
+  },
+  {
+    "day": 185,
+    "index": 2,
+    "oldWord": "immune",
+    "oldMeaning": "면역의",
+    "newWord": "imbalance",
+    "newMeaning": "불균형",
+    "source": "세계문화"
+  },
+  {
+    "day": 186,
+    "index": 1,
+    "oldWord": "humanity",
+    "oldMeaning": "인류, 인간성",
+    "newWord": "compassion",
+    "newMeaning": "자비",
+    "source": "명화"
+  },
+  {
+    "day": 186,
+    "index": 2,
+    "oldWord": "compassion",
+    "oldMeaning": "연민, 동정심",
+    "newWord": "background",
+    "newMeaning": "배경",
+    "source": "세계문화"
+  },
+  {
+    "day": 187,
+    "index": 1,
+    "oldWord": "addiction",
+    "oldMeaning": "중독",
+    "newWord": "reveal",
+    "newMeaning": "드러내다",
+    "source": "명화"
+  },
+  {
+    "day": 188,
+    "index": 1,
+    "oldWord": "productivity",
+    "oldMeaning": "생산성",
+    "newWord": "sleeping",
+    "newMeaning": "잠자는",
+    "source": "명화"
+  },
+  {
+    "day": 188,
+    "index": 2,
+    "oldWord": "replay",
+    "oldMeaning": "재생하다",
+    "newWord": "productivity",
+    "newMeaning": "생산성",
+    "source": "세계문화"
+  },
+  {
+    "day": 189,
+    "index": 0,
+    "oldWord": "nutrition",
+    "oldMeaning": "영양",
+    "newWord": "medicine",
+    "newMeaning": "약, 의학",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 189,
+    "index": 1,
+    "oldWord": "abundance",
+    "oldMeaning": "풍부함",
+    "newWord": "nourish",
+    "newMeaning": "영양을 공급하다",
+    "source": "명화"
+  },
+  {
+    "day": 189,
+    "index": 2,
+    "oldWord": "digestion",
+    "oldMeaning": "소화",
+    "newWord": "vegetable",
+    "newMeaning": "채소",
+    "source": "세계문화"
+  },
+  {
+    "day": 190,
+    "index": 0,
+    "oldWord": "athlete",
+    "oldMeaning": "운동선수",
+    "newWord": "fight",
+    "newMeaning": "싸우다, 투쟁",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 190,
+    "index": 1,
+    "oldWord": "excellence",
+    "oldMeaning": "탁월함",
+    "newWord": "intensity",
+    "newMeaning": "강렬함",
+    "source": "명화"
+  },
+  {
+    "day": 190,
+    "index": 2,
+    "oldWord": "altitude",
+    "oldMeaning": "고도, 해발",
+    "newWord": "demonstrate",
+    "newMeaning": "증명하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 190,
+    "index": 3,
+    "oldWord": "discus",
+    "oldMeaning": "원반",
+    "newWord": "efficient",
+    "newMeaning": "효율적인",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 191,
+    "index": 0,
+    "oldWord": "terrified",
+    "oldMeaning": "공포에 질린",
+    "newWord": "unreasoning",
+    "newMeaning": "비이성적인",
+    "source": "고전"
+  },
+  {
+    "day": 191,
+    "index": 2,
+    "oldWord": "cortisol",
+    "oldMeaning": "코르티솔 (스트레스 호르몬)",
+    "newWord": "productivity",
+    "newMeaning": "생산성",
+    "source": "세계문화"
+  },
+  {
+    "day": 192,
+    "index": 1,
+    "oldWord": "well-being",
+    "oldMeaning": "웰빙, 행복",
+    "newWord": "discipline",
+    "newMeaning": "수련, 훈련",
+    "source": "명화"
+  },
+  {
+    "day": 192,
+    "index": 2,
+    "oldWord": "radiate",
+    "oldMeaning": "발산하다, 내뿜다",
+    "newWord": "measure",
+    "newMeaning": "측정하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 193,
+    "index": 1,
+    "oldWord": "perceive",
+    "oldMeaning": "감지하다, 인식하다",
+    "newWord": "unspoken",
+    "newMeaning": "말해지지 않은",
+    "source": "명화"
+  },
+  {
+    "day": 193,
+    "index": 2,
+    "oldWord": "restless",
+    "oldMeaning": "불안한, 가만있지 못하는",
+    "newWord": "nearly",
+    "newMeaning": "거의",
+    "source": "세계문화"
+  },
+  {
+    "day": 194,
+    "index": 0,
+    "oldWord": "rage",
+    "oldMeaning": "격노, 분노",
+    "newWord": "angry",
+    "newMeaning": "화난",
+    "source": "고전"
+  },
+  {
+    "day": 194,
+    "index": 1,
+    "oldWord": "clench",
+    "oldMeaning": "꽉 쥐다",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 194,
+    "index": 2,
+    "oldWord": "adrenaline",
+    "oldMeaning": "아드레날린",
+    "newWord": "collective",
+    "newMeaning": "집단적인",
+    "source": "세계문화"
+  },
+  {
+    "day": 194,
+    "index": 3,
+    "oldWord": "outlet",
+    "oldMeaning": "배출구",
+    "newWord": "adrenaline",
+    "newMeaning": "아드레날린",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 195,
+    "index": 1,
+    "oldWord": "mourn",
+    "oldMeaning": "애도하다",
+    "newWord": "drift",
+    "newMeaning": "표류하다",
+    "source": "명화"
+  },
+  {
+    "day": 195,
+    "index": 2,
+    "oldWord": "endorphin",
+    "oldMeaning": "엔도르핀",
+    "newWord": "celebration",
+    "newMeaning": "축하, 기념행사",
+    "source": "세계문화"
+  },
+  {
+    "day": 195,
+    "index": 3,
+    "oldWord": "departed",
+    "oldMeaning": "떠난, 고인이 된",
+    "newWord": "endorphin",
+    "newMeaning": "엔도르핀",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 196,
+    "index": 0,
+    "oldWord": "vibrant",
+    "oldMeaning": "생생한, 활기 넘치는",
+    "newWord": "keep",
+    "newMeaning": "주탑",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 196,
+    "index": 2,
+    "oldWord": "simultaneously",
+    "oldMeaning": "동시에",
+    "newWord": "festival",
+    "newMeaning": "축제",
+    "source": "세계문화"
+  },
+  {
+    "day": 197,
+    "index": 0,
+    "oldWord": "oxytocin",
+    "oldMeaning": "옥시토신",
+    "newWord": "envy",
+    "newMeaning": "시기하다, 부러워하다",
+    "source": "고전"
+  },
+  {
+    "day": 197,
+    "index": 1,
+    "oldWord": "envy",
+    "oldMeaning": "시기하다, 부러워하다",
+    "newWord": "reveal",
+    "newMeaning": "드러내다",
+    "source": "명화"
+  },
+  {
+    "day": 197,
+    "index": 2,
+    "oldWord": "gravity",
+    "oldMeaning": "중력",
+    "newWord": "community",
+    "newMeaning": "공동체",
+    "source": "세계문화"
+  },
+  {
+    "day": 198,
+    "index": 1,
+    "oldWord": "rival",
+    "oldMeaning": "경쟁하다, 맞서다",
+    "newWord": "contrast",
+    "newMeaning": "대조",
+    "source": "명화"
+  },
+  {
+    "day": 199,
+    "index": 1,
+    "oldWord": "conscience",
+    "oldMeaning": "양심",
+    "newWord": "humanity",
+    "newMeaning": "인류, 인간성",
+    "source": "명화"
+  },
+  {
+    "day": 199,
+    "index": 2,
+    "oldWord": "blush",
+    "oldMeaning": "얼굴이 빨개지다",
+    "newWord": "distinguish",
+    "newMeaning": "구별하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 200,
+    "index": 1,
+    "oldWord": "self-esteem",
+    "oldMeaning": "자존감",
+    "newWord": "portrait",
+    "newMeaning": "초상화",
+    "source": "명화"
+  },
+  {
+    "day": 200,
+    "index": 2,
+    "oldWord": "affirmation",
+    "oldMeaning": "확인, 긍정",
+    "newWord": "philosophy",
+    "newMeaning": "철학",
+    "source": "세계문화"
+  },
+  {
+    "day": 201,
+    "index": 1,
+    "oldWord": "brushstroke",
+    "oldMeaning": "붓놀림",
+    "newWord": "reveal",
+    "newMeaning": "드러내다",
+    "source": "명화"
+  },
+  {
+    "day": 201,
+    "index": 2,
+    "oldWord": "purpose",
+    "oldMeaning": "목적",
+    "newWord": "entrepreneur",
+    "newMeaning": "기업가",
+    "source": "세계문화"
+  },
+  {
+    "day": 202,
+    "index": 0,
+    "oldWord": "willpower",
+    "oldMeaning": "의지력",
+    "newWord": "destroy",
+    "newMeaning": "파괴하다",
+    "source": "고전"
+  },
+  {
+    "day": 203,
+    "index": 0,
+    "oldWord": "observation",
+    "oldMeaning": "관찰",
+    "newWord": "forever",
+    "newMeaning": "영원히",
+    "source": "고전"
+  },
+  {
+    "day": 203,
+    "index": 2,
+    "oldWord": "neuron",
+    "oldMeaning": "뉴런, 신경세포",
+    "newWord": "consistent",
+    "newMeaning": "일관된",
+    "source": "세계문화"
+  },
+  {
+    "day": 204,
+    "index": 1,
+    "oldWord": "haystack",
+    "oldMeaning": "건초더미",
+    "newWord": "fleeting",
+    "newMeaning": "덧없는, 순간적인",
+    "source": "명화"
+  },
+  {
+    "day": 205,
+    "index": 1,
+    "oldWord": "rearrange",
+    "oldMeaning": "재배열하다",
+    "newWord": "creativity",
+    "newMeaning": "창의성",
+    "source": "명화"
+  },
+  {
+    "day": 205,
+    "index": 2,
+    "oldWord": "pottery",
+    "oldMeaning": "도자기",
+    "newWord": "continent",
+    "newMeaning": "대륙",
+    "source": "세계문화"
+  },
+  {
+    "day": 206,
+    "index": 1,
+    "oldWord": "dismiss",
+    "oldMeaning": "무시하다, 일축하다",
+    "newWord": "debate",
+    "newMeaning": "토론하다",
+    "source": "명화"
+  },
+  {
+    "day": 207,
+    "index": 1,
+    "oldWord": "serenity",
+    "oldMeaning": "평온함",
+    "newWord": "unflinching",
+    "newMeaning": "흔들림 없는, 단호한",
+    "source": "명화"
+  },
+  {
+    "day": 208,
+    "index": 0,
+    "oldWord": "refuse",
+    "oldMeaning": "거부하다",
+    "newWord": "prefer",
+    "newMeaning": "선호하다",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 209,
+    "index": 0,
+    "oldWord": "compromise",
+    "oldMeaning": "타협",
+    "newWord": "negotiate",
+    "newMeaning": "협상하다",
+    "source": "고전"
+  },
+  {
+    "day": 209,
+    "index": 1,
+    "oldWord": "negotiate",
+    "oldMeaning": "협상하다",
+    "newWord": "master",
+    "newMeaning": "장인, 거장",
+    "source": "명화"
+  },
+  {
+    "day": 209,
+    "index": 2,
+    "oldWord": "humble",
+    "oldMeaning": "소박한, 겸손한",
+    "newWord": "compromise",
+    "newMeaning": "타협",
+    "source": "세계문화"
+  },
+  {
+    "day": 211,
+    "index": 0,
+    "oldWord": "regret",
+    "oldMeaning": "후회",
+    "newWord": "saddest",
+    "newMeaning": "가장 슬픈",
+    "source": "고전"
+  },
+  {
+    "day": 211,
+    "index": 3,
+    "oldWord": "generation",
+    "oldMeaning": "세대",
+    "newWord": "regret",
+    "newMeaning": "후회하다",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 213,
+    "index": 0,
+    "oldWord": "boundary",
+    "oldMeaning": "경계",
+    "newWord": "continent",
+    "newMeaning": "대륙",
+    "source": "고전"
+  },
+  {
+    "day": 213,
+    "index": 1,
+    "oldWord": "continent",
+    "oldMeaning": "대륙",
+    "newWord": "boundary",
+    "newMeaning": "경계",
+    "source": "명화"
+  },
+  {
+    "day": 214,
+    "index": 0,
+    "oldWord": "crowd",
+    "oldMeaning": "군중",
+    "newWord": "dangerous",
+    "newMeaning": "위험한",
+    "source": "고전"
+  },
+  {
+    "day": 214,
+    "index": 1,
+    "oldWord": "invisible",
+    "oldMeaning": "보이지 않는",
+    "newWord": "overlap",
+    "newMeaning": "겹치다",
+    "source": "명화"
+  },
+  {
+    "day": 215,
+    "index": 0,
+    "oldWord": "hometown",
+    "oldMeaning": "고향",
+    "newWord": "because",
+    "newMeaning": "왜냐하면",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 215,
+    "index": 1,
+    "oldWord": "recall",
+    "oldMeaning": "떠올리다, 회상하다",
+    "newWord": "express",
+    "newMeaning": "표현하다",
+    "source": "명화"
+  },
+  {
+    "day": 216,
+    "index": 0,
+    "oldWord": "journey",
+    "oldMeaning": "여행, 여정",
+    "newWord": "travel",
+    "newMeaning": "여행하다",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 216,
+    "index": 1,
+    "oldWord": "encounter",
+    "oldMeaning": "마주치다",
+    "newWord": "reflect",
+    "newMeaning": "비추다, 반영하다",
+    "source": "명화"
+  },
+  {
+    "day": 217,
+    "index": 0,
+    "oldWord": "homecoming",
+    "oldMeaning": "귀향",
+    "newWord": "wander",
+    "newMeaning": "떠돌다, 방황하다",
+    "source": "고전"
+  },
+  {
+    "day": 217,
+    "index": 1,
+    "oldWord": "weave",
+    "oldMeaning": "짜다",
+    "newWord": "homecoming",
+    "newMeaning": "귀향",
+    "source": "명화"
+  },
+  {
+    "day": 217,
+    "index": 2,
+    "oldWord": "ancestor",
+    "oldMeaning": "조상",
+    "newWord": "unbreakable",
+    "newMeaning": "부서지지 않는",
+    "source": "세계문화"
+  },
+  {
+    "day": 218,
+    "index": 1,
+    "oldWord": "recital",
+    "oldMeaning": "낭송, 연주회",
+    "newWord": "laughter",
+    "newMeaning": "웃음",
+    "source": "명화"
+  },
+  {
+    "day": 218,
+    "index": 2,
+    "oldWord": "cognitive",
+    "oldMeaning": "인지적인",
+    "newWord": "discard",
+    "newMeaning": "버리다",
+    "source": "세계문화"
+  },
+  {
+    "day": 219,
+    "index": 1,
+    "oldWord": "harmony",
+    "oldMeaning": "조화",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 219,
+    "index": 2,
+    "oldWord": "gesture",
+    "oldMeaning": "동작, 몸짓",
+    "newWord": "ceremony",
+    "newMeaning": "의식",
+    "source": "세계문화"
+  },
+  {
+    "day": 220,
+    "index": 1,
+    "oldWord": "fleeting",
+    "oldMeaning": "덧없는",
+    "newWord": "inscribe",
+    "newMeaning": "새기다",
+    "source": "명화"
+  },
+  {
+    "day": 221,
+    "index": 1,
+    "oldWord": "emerge",
+    "oldMeaning": "나타나다, 떠오르다",
+    "newWord": "disguise",
+    "newMeaning": "위장하다, 변장",
+    "source": "명화"
+  },
+  {
+    "day": 221,
+    "index": 3,
+    "oldWord": "phenomenon",
+    "oldMeaning": "현상",
+    "newWord": "eclipse",
+    "newMeaning": "일식, 월식",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 222,
+    "index": 1,
+    "oldWord": "cosmos",
+    "oldMeaning": "우주(질서 있는)",
+    "newWord": "vast",
+    "newMeaning": "광활한",
+    "source": "명화"
+  },
+  {
+    "day": 223,
+    "index": 1,
+    "oldWord": "atmosphere",
+    "oldMeaning": "대기",
+    "newWord": "transform",
+    "newMeaning": "변모시키다",
+    "source": "명화"
+  },
+  {
+    "day": 223,
+    "index": 2,
+    "oldWord": "cliff",
+    "oldMeaning": "절벽",
+    "newWord": "measure",
+    "newMeaning": "측정하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 223,
+    "index": 3,
+    "oldWord": "shrink",
+    "oldMeaning": "줄이다, 줄어들다",
+    "newWord": "atmosphere",
+    "newMeaning": "대기",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 224,
+    "index": 0,
+    "oldWord": "ecology",
+    "oldMeaning": "생태학",
+    "newWord": "exist",
+    "newMeaning": "존재하다",
+    "source": "고전"
+  },
+  {
+    "day": 224,
+    "index": 1,
+    "oldWord": "guardian",
+    "oldMeaning": "수호자",
+    "newWord": "reflect",
+    "newMeaning": "비추다, 반영하다",
+    "source": "명화"
+  },
+  {
+    "day": 225,
+    "index": 0,
+    "oldWord": "climate",
+    "oldMeaning": "기후",
+    "newWord": "belong",
+    "newMeaning": "속하다",
+    "source": "고전"
+  },
+  {
+    "day": 225,
+    "index": 1,
+    "oldWord": "emission",
+    "oldMeaning": "배출",
+    "newWord": "overwhelming",
+    "newMeaning": "압도적인",
+    "source": "명화"
+  },
+  {
+    "day": 226,
+    "index": 0,
+    "oldWord": "disaster",
+    "oldMeaning": "재난",
+    "newWord": "opportunity",
+    "newMeaning": "기회",
+    "source": "고전"
+  },
+  {
+    "day": 226,
+    "index": 1,
+    "oldWord": "resilience",
+    "oldMeaning": "회복력",
+    "newWord": "civilization",
+    "newMeaning": "문명",
+    "source": "명화"
+  },
+  {
+    "day": 226,
+    "index": 2,
+    "oldWord": "threat",
+    "oldMeaning": "위협",
+    "newWord": "devastating",
+    "newMeaning": "참혹한, 파괴적인",
+    "source": "세계문화"
+  },
+  {
+    "day": 226,
+    "index": 3,
+    "oldWord": "crisis",
+    "oldMeaning": "위기",
+    "newWord": "disaster",
+    "newMeaning": "재난",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 227,
+    "index": 0,
+    "oldWord": "rescue",
+    "oldMeaning": "구조",
+    "newWord": "saved",
+    "newMeaning": "구한",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 227,
+    "index": 1,
+    "oldWord": "survivor",
+    "oldMeaning": "생존자",
+    "newWord": "rescue",
+    "newMeaning": "구조",
+    "source": "명화"
+  },
+  {
+    "day": 228,
+    "index": 1,
+    "oldWord": "preserve",
+    "oldMeaning": "보존하다",
+    "newWord": "laughter",
+    "newMeaning": "웃음",
+    "source": "명화"
+  },
+  {
+    "day": 229,
+    "index": 0,
+    "oldWord": "safety",
+    "oldMeaning": "안전",
+    "newWord": "dead",
+    "newMeaning": "죽은",
+    "source": "고전"
+  },
+  {
+    "day": 229,
+    "index": 1,
+    "oldWord": "protective",
+    "oldMeaning": "보호하는",
+    "newWord": "brushstroke",
+    "newMeaning": "붓놀림",
+    "source": "명화"
+  },
+  {
+    "day": 229,
+    "index": 2,
+    "oldWord": "drill",
+    "oldMeaning": "훈련, 연습",
+    "newWord": "civilization",
+    "newMeaning": "문명",
+    "source": "세계문화"
+  },
+  {
+    "day": 230,
+    "index": 1,
+    "oldWord": "celebration",
+    "oldMeaning": "축하, 기념행사",
+    "newWord": "decorative",
+    "newMeaning": "장식적인",
+    "source": "명화"
+  },
+  {
+    "day": 231,
+    "index": 1,
+    "oldWord": "grace",
+    "oldMeaning": "우아함",
+    "newWord": "discipline",
+    "newMeaning": "수련, 훈련",
+    "source": "명화"
+  },
+  {
+    "day": 231,
+    "index": 2,
+    "oldWord": "bow",
+    "oldMeaning": "인사(절)",
+    "newWord": "refuse",
+    "newMeaning": "거부하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 233,
+    "index": 1,
+    "oldWord": "portrait",
+    "oldMeaning": "초상화",
+    "newWord": "childhood",
+    "newMeaning": "어린 시절",
+    "source": "명화"
+  },
+  {
+    "day": 233,
+    "index": 2,
+    "oldWord": "honor",
+    "oldMeaning": "기리다, 존경하다",
+    "newWord": "remarkable",
+    "newMeaning": "주목할 만한",
+    "source": "세계문화"
+  },
+  {
+    "day": 234,
+    "index": 0,
+    "oldWord": "despair",
+    "oldMeaning": "절망",
+    "newWord": "passion",
+    "newMeaning": "열정",
+    "source": "고전"
+  },
+  {
+    "day": 234,
+    "index": 1,
+    "oldWord": "embrace",
+    "oldMeaning": "포옹",
+    "newWord": "determination",
+    "newMeaning": "결의, 결심",
+    "source": "명화"
+  },
+  {
+    "day": 234,
+    "index": 2,
+    "oldWord": "decoration",
+    "oldMeaning": "장식",
+    "newWord": "pattern",
+    "newMeaning": "패턴, 무늬",
+    "source": "세계문화"
+  },
+  {
+    "day": 235,
+    "index": 1,
+    "oldWord": "sketch",
+    "oldMeaning": "스케치, 밑그림",
+    "newWord": "brushstroke",
+    "newMeaning": "붓놀림",
+    "source": "명화"
+  },
+  {
+    "day": 236,
+    "index": 1,
+    "oldWord": "governess",
+    "oldMeaning": "가정교사",
+    "newWord": "transformation",
+    "newMeaning": "변환",
+    "source": "명화"
+  },
+  {
+    "day": 237,
+    "index": 0,
+    "oldWord": "absorb",
+    "oldMeaning": "몰두하다, 흡수하다",
+    "newWord": "reader",
+    "newMeaning": "독자",
+    "source": "고전"
+  },
+  {
+    "day": 237,
+    "index": 1,
+    "oldWord": "exchange",
+    "oldMeaning": "교환하다",
+    "newWord": "landscape",
+    "newMeaning": "풍경",
+    "source": "명화"
+  },
+  {
+    "day": 237,
+    "index": 2,
+    "oldWord": "fiction",
+    "oldMeaning": "소설, 허구",
+    "newWord": "tradition",
+    "newMeaning": "전통",
+    "source": "세계문화"
+  },
+  {
+    "day": 238,
+    "index": 1,
+    "oldWord": "calligraphy",
+    "oldMeaning": "서예",
+    "newWord": "honor",
+    "newMeaning": "기리다, 존경하다",
+    "source": "명화"
+  },
+  {
+    "day": 238,
+    "index": 2,
+    "oldWord": "meditative",
+    "oldMeaning": "명상적인",
+    "newWord": "tradition",
+    "newMeaning": "전통",
+    "source": "세계문화"
+  },
+  {
+    "day": 239,
+    "index": 1,
+    "oldWord": "soul",
+    "oldMeaning": "영혼",
+    "newWord": "identity",
+    "newMeaning": "정체성",
+    "source": "명화"
+  },
+  {
+    "day": 240,
+    "index": 0,
+    "oldWord": "graceful",
+    "oldMeaning": "우아한",
+    "newWord": "soul",
+    "newMeaning": "영혼",
+    "source": "고전"
+  },
+  {
+    "day": 240,
+    "index": 1,
+    "oldWord": "rehearsal",
+    "oldMeaning": "리허설, 연습",
+    "newWord": "embody",
+    "newMeaning": "구현하다, 구체화하다",
+    "source": "명화"
+  },
+  {
+    "day": 241,
+    "index": 1,
+    "oldWord": "aisle",
+    "oldMeaning": "통로",
+    "newWord": "portrait",
+    "newMeaning": "초상화",
+    "source": "명화"
+  },
+  {
+    "day": 241,
+    "index": 2,
+    "oldWord": "spectator",
+    "oldMeaning": "관객",
+    "newWord": "reputation",
+    "newMeaning": "평판, 명성",
+    "source": "세계문화"
+  },
+  {
+    "day": 242,
+    "index": 0,
+    "oldWord": "pioneer",
+    "oldMeaning": "개척자",
+    "newWord": "exist",
+    "newMeaning": "존재하다",
+    "source": "고전"
+  },
+  {
+    "day": 242,
+    "index": 1,
+    "oldWord": "stun",
+    "oldMeaning": "놀라게 하다",
+    "newWord": "anticipate",
+    "newMeaning": "기대하다, 예상하다",
+    "source": "명화"
+  },
+  {
+    "day": 243,
+    "index": 0,
+    "oldWord": "migrant",
+    "oldMeaning": "이주민",
+    "newWord": "secret",
+    "newMeaning": "비밀",
+    "source": "고전"
+  },
+  {
+    "day": 243,
+    "index": 1,
+    "oldWord": "iconic",
+    "oldMeaning": "상징적인",
+    "newWord": "precision",
+    "newMeaning": "정밀함",
+    "source": "명화"
+  },
+  {
+    "day": 243,
+    "index": 2,
+    "oldWord": "candid",
+    "oldMeaning": "자연스러운, 솔직한",
+    "newWord": "absolute",
+    "newMeaning": "절대적인",
+    "source": "세계문화"
+  },
+  {
+    "day": 244,
+    "index": 1,
+    "oldWord": "square",
+    "oldMeaning": "광장",
+    "newWord": "concentration",
+    "newMeaning": "집중",
+    "source": "명화"
+  },
+  {
+    "day": 245,
+    "index": 1,
+    "oldWord": "humanoid",
+    "oldMeaning": "인간형의",
+    "newWord": "illustration",
+    "newMeaning": "삽화",
+    "source": "명화"
+  },
+  {
+    "day": 245,
+    "index": 2,
+    "oldWord": "possess",
+    "oldMeaning": "소유하다, 지니다",
+    "newWord": "intelligence",
+    "newMeaning": "지능",
+    "source": "세계문화"
+  },
+  {
+    "day": 246,
+    "index": 1,
+    "oldWord": "boundary",
+    "oldMeaning": "경계",
+    "newWord": "artificial",
+    "newMeaning": "인공적인",
+    "source": "명화"
+  },
+  {
+    "day": 247,
+    "index": 1,
+    "oldWord": "observation",
+    "oldMeaning": "관찰",
+    "newWord": "depict",
+    "newMeaning": "묘사하다, 그리다",
+    "source": "명화"
+  },
+  {
+    "day": 247,
+    "index": 2,
+    "oldWord": "instantly",
+    "oldMeaning": "즉시",
+    "newWord": "tradition",
+    "newMeaning": "전통",
+    "source": "세계문화"
+  },
+  {
+    "day": 248,
+    "index": 1,
+    "oldWord": "analytical",
+    "oldMeaning": "분석적인",
+    "newWord": "resemble",
+    "newMeaning": "닮다",
+    "source": "명화"
+  },
+  {
+    "day": 249,
+    "index": 1,
+    "oldWord": "posture",
+    "oldMeaning": "자세",
+    "newWord": "concentration",
+    "newMeaning": "집중",
+    "source": "명화"
+  },
+  {
+    "day": 249,
+    "index": 2,
+    "oldWord": "correspondence",
+    "oldMeaning": "서신, 편지 왕래",
+    "newWord": "independence",
+    "newMeaning": "독립",
+    "source": "세계문화"
+  },
+  {
+    "day": 250,
+    "index": 1,
+    "oldWord": "perceive",
+    "oldMeaning": "인식하다",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 251,
+    "index": 1,
+    "oldWord": "dramatic",
+    "oldMeaning": "극적인",
+    "newWord": "revolutionize",
+    "newMeaning": "혁명을 일으키다",
+    "source": "명화"
+  },
+  {
+    "day": 252,
+    "index": 1,
+    "oldWord": "commerce",
+    "oldMeaning": "상업",
+    "newWord": "commercial",
+    "newMeaning": "광고, 상업적인",
+    "source": "명화"
+  },
+  {
+    "day": 253,
+    "index": 1,
+    "oldWord": "unified",
+    "oldMeaning": "통합된",
+    "newWord": "demonstrate",
+    "newMeaning": "증명하다",
+    "source": "명화"
+  },
+  {
+    "day": 254,
+    "index": 1,
+    "oldWord": "vivid",
+    "oldMeaning": "생생한",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 255,
+    "index": 0,
+    "oldWord": "candidate",
+    "oldMeaning": "지원자, 후보자",
+    "newWord": "everyone",
+    "newMeaning": "모든 사람",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 255,
+    "index": 1,
+    "oldWord": "impression",
+    "oldMeaning": "인상",
+    "newWord": "punishment",
+    "newMeaning": "형벌, 처벌",
+    "source": "명화"
+  },
+  {
+    "day": 255,
+    "index": 2,
+    "oldWord": "hire",
+    "oldMeaning": "고용하다",
+    "newWord": "background",
+    "newMeaning": "배경",
+    "source": "세계문화"
+  },
+  {
+    "day": 255,
+    "index": 3,
+    "oldWord": "background",
+    "oldMeaning": "배경",
+    "newWord": "impression",
+    "newMeaning": "인상",
+    "source": "왜왜왜"
+  },
+  {
+    "day": 256,
+    "index": 0,
+    "oldWord": "fluid",
+    "oldMeaning": "유동적인",
+    "newWord": "rounded",
+    "newMeaning": "둥근",
+    "source": "고전"
+  },
+  {
+    "day": 256,
+    "index": 1,
+    "oldWord": "eternal",
+    "oldMeaning": "영원한",
+    "newWord": "chandelier",
+    "newMeaning": "샹들리에",
+    "source": "명화"
+  },
+  {
+    "day": 256,
+    "index": 2,
+    "oldWord": "imagery",
+    "oldMeaning": "이미지, 심상",
+    "newWord": "eternal",
+    "newMeaning": "영원한",
+    "source": "세계문화"
+  },
+  {
+    "day": 257,
+    "index": 1,
+    "oldWord": "symphony",
+    "oldMeaning": "교향곡",
+    "newWord": "homecoming",
+    "newMeaning": "귀향",
+    "source": "명화"
+  },
+  {
+    "day": 257,
+    "index": 2,
+    "oldWord": "bittersweet",
+    "oldMeaning": "씁쓸달콤한",
+    "newWord": "genuine",
+    "newMeaning": "진심의, 진짜의",
+    "source": "세계문화"
+  },
+  {
+    "day": 258,
+    "index": 1,
+    "oldWord": "supposedly",
+    "oldMeaning": "추정상, ~라고 한다",
+    "newWord": "sleeping",
+    "newMeaning": "잠자는",
+    "source": "명화"
+  },
+  {
+    "day": 259,
+    "index": 1,
+    "oldWord": "resilience",
+    "oldMeaning": "회복력",
+    "newWord": "philosophical",
+    "newMeaning": "철학적인",
+    "source": "명화"
+  },
+  {
+    "day": 260,
+    "index": 0,
+    "oldWord": "vision",
+    "oldMeaning": "비전, 시야",
+    "newWord": "without",
+    "newMeaning": "~없이",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 260,
+    "index": 1,
+    "oldWord": "align",
+    "oldMeaning": "일치시키다, 정렬하다",
+    "newWord": "brushstroke",
+    "newMeaning": "붓놀림",
+    "source": "명화"
+  },
+  {
+    "day": 260,
+    "index": 2,
+    "oldWord": "filter",
+    "oldMeaning": "필터링하다, 걸러내다",
+    "newWord": "rhythmic",
+    "newMeaning": "리듬 있는",
+    "source": "세계문화"
+  },
+  {
+    "day": 261,
+    "index": 1,
+    "oldWord": "tireless",
+    "oldMeaning": "지칠 줄 모르는",
+    "newWord": "repetition",
+    "newMeaning": "반복",
+    "source": "명화"
+  },
+  {
+    "day": 261,
+    "index": 2,
+    "oldWord": "continuous",
+    "oldMeaning": "지속적인",
+    "newWord": "elementary",
+    "newMeaning": "기본적인",
+    "source": "세계문화"
+  },
+  {
+    "day": 263,
+    "index": 1,
+    "oldWord": "revolutionary",
+    "oldMeaning": "혁명적인",
+    "newWord": "landscape",
+    "newMeaning": "풍경",
+    "source": "명화"
+  },
+  {
+    "day": 264,
+    "index": 2,
+    "oldWord": "seal",
+    "oldMeaning": "밀봉하다",
+    "newWord": "devastate",
+    "newMeaning": "파괴하다, 황폐화하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 265,
+    "index": 1,
+    "oldWord": "serpent",
+    "oldMeaning": "뱀",
+    "newWord": "frosty",
+    "newMeaning": "서리가 내린",
+    "source": "명화"
+  },
+  {
+    "day": 266,
+    "index": 1,
+    "oldWord": "monument",
+    "oldMeaning": "기념물",
+    "newWord": "reflect",
+    "newMeaning": "비추다, 반영하다",
+    "source": "명화"
+  },
+  {
+    "day": 266,
+    "index": 2,
+    "oldWord": "eternal",
+    "oldMeaning": "영원한",
+    "newWord": "forever",
+    "newMeaning": "영원히",
+    "source": "세계문화"
+  },
+  {
+    "day": 267,
+    "index": 1,
+    "oldWord": "pottery",
+    "oldMeaning": "도자기",
+    "newWord": "transformative",
+    "newMeaning": "혁신적인",
+    "source": "명화"
+  },
+  {
+    "day": 268,
+    "index": 1,
+    "oldWord": "timeless",
+    "oldMeaning": "시대를 초월한",
+    "newWord": "preserve",
+    "newMeaning": "보존하다",
+    "source": "명화"
+  },
+  {
+    "day": 268,
+    "index": 2,
+    "oldWord": "millennium",
+    "oldMeaning": "천 년",
+    "newWord": "education",
+    "newMeaning": "교육",
+    "source": "세계문화"
+  },
+  {
+    "day": 269,
+    "index": 0,
+    "oldWord": "foam",
+    "oldMeaning": "거품",
+    "newWord": "chosen",
+    "newMeaning": "선택된",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 270,
+    "index": 0,
+    "oldWord": "unbearable",
+    "oldMeaning": "견딜 수 없는",
+    "newWord": "adventure",
+    "newMeaning": "모험",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 270,
+    "index": 1,
+    "oldWord": "altar",
+    "oldMeaning": "제단",
+    "newWord": "mystery",
+    "newMeaning": "신비",
+    "source": "명화"
+  },
+  {
+    "day": 270,
+    "index": 2,
+    "oldWord": "offering",
+    "oldMeaning": "공물",
+    "newWord": "celebration",
+    "newMeaning": "축하, 기념행사",
+    "source": "세계문화"
+  },
+  {
+    "day": 271,
+    "index": 1,
+    "oldWord": "anguish",
+    "oldMeaning": "고뇌",
+    "newWord": "express",
+    "newMeaning": "표현하다",
+    "source": "명화"
+  },
+  {
+    "day": 272,
+    "index": 0,
+    "oldWord": "regret",
+    "oldMeaning": "후회하다",
+    "newWord": "saddest",
+    "newMeaning": "가장 슬픈",
+    "source": "고전"
+  },
+  {
+    "day": 272,
+    "index": 1,
+    "oldWord": "unforgettable",
+    "oldMeaning": "잊을 수 없는",
+    "newWord": "vision",
+    "newMeaning": "비전, 시야",
+    "source": "명화"
+  },
+  {
+    "day": 272,
+    "index": 2,
+    "oldWord": "impermanent",
+    "oldMeaning": "영원하지 않은",
+    "newWord": "haunting",
+    "newMeaning": "잊히지 않는",
+    "source": "세계문화"
+  },
+  {
+    "day": 273,
+    "index": 0,
+    "oldWord": "ideology",
+    "oldMeaning": "이념, 사상",
+    "newWord": "ideological",
+    "newMeaning": "이념적인",
+    "source": "고전"
+  },
+  {
+    "day": 273,
+    "index": 2,
+    "oldWord": "polar",
+    "oldMeaning": "극성의",
+    "newWord": "partition",
+    "newMeaning": "분할, 분리",
+    "source": "세계문화"
+  },
+  {
+    "day": 274,
+    "index": 0,
+    "oldWord": "combine",
+    "oldMeaning": "결합하다",
+    "newWord": "together",
+    "newMeaning": "함께",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 275,
+    "index": 0,
+    "oldWord": "pit",
+    "oldMeaning": "(오케스트라) 연주석",
+    "newWord": "express",
+    "newMeaning": "표현하다",
+    "source": "고전"
+  },
+  {
+    "day": 276,
+    "index": 1,
+    "oldWord": "obstacle",
+    "oldMeaning": "장애물",
+    "newWord": "mythology",
+    "newMeaning": "신화",
+    "source": "명화"
+  },
+  {
+    "day": 277,
+    "index": 0,
+    "oldWord": "embrace",
+    "oldMeaning": "껴안다",
+    "newWord": "become",
+    "newMeaning": "되다",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 277,
+    "index": 1,
+    "oldWord": "unconditional",
+    "oldMeaning": "무조건적인",
+    "newWord": "simplicity",
+    "newMeaning": "단순함",
+    "source": "명화"
+  },
+  {
+    "day": 278,
+    "index": 0,
+    "oldWord": "insatiable",
+    "oldMeaning": "만족할 줄 모르는",
+    "newWord": "education",
+    "newMeaning": "교육",
+    "source": "고전"
+  },
+  {
+    "day": 278,
+    "index": 1,
+    "oldWord": "debate",
+    "oldMeaning": "토론하다",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 278,
+    "index": 2,
+    "oldWord": "neuroplasticity",
+    "oldMeaning": "신경가소성",
+    "newWord": "border",
+    "newMeaning": "국경, 경계",
+    "source": "세계문화"
+  },
+  {
+    "day": 279,
+    "index": 0,
+    "oldWord": "widow",
+    "oldMeaning": "과부",
+    "newWord": "living",
+    "newMeaning": "살아 있는, 생활",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 279,
+    "index": 1,
+    "oldWord": "portion",
+    "oldMeaning": "일부분",
+    "newWord": "illustrate",
+    "newMeaning": "설명하다",
+    "source": "명화"
+  },
+  {
+    "day": 279,
+    "index": 2,
+    "oldWord": "activate",
+    "oldMeaning": "활성화하다",
+    "newWord": "portion",
+    "newMeaning": "일부분",
+    "source": "세계문화"
+  },
+  {
+    "day": 280,
+    "index": 0,
+    "oldWord": "dignity",
+    "oldMeaning": "품위",
+    "newWord": "service",
+    "newMeaning": "봉사, 서비스",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 280,
+    "index": 1,
+    "oldWord": "compassion",
+    "oldMeaning": "자비",
+    "newWord": "embody",
+    "newMeaning": "구현하다, 구체화하다",
+    "source": "명화"
+  },
+  {
+    "day": 280,
+    "index": 2,
+    "oldWord": "selflessness",
+    "oldMeaning": "이타심",
+    "newWord": "community",
+    "newMeaning": "공동체",
+    "source": "세계문화"
+  },
+  {
+    "day": 281,
+    "index": 1,
+    "oldWord": "idealize",
+    "oldMeaning": "이상화하다",
+    "newWord": "determination",
+    "newMeaning": "결의, 결심",
+    "source": "명화"
+  },
+  {
+    "day": 282,
+    "index": 1,
+    "oldWord": "sacrifice",
+    "oldMeaning": "희생",
+    "newWord": "timeless",
+    "newMeaning": "시대를 초월한",
+    "source": "명화"
+  },
+  {
+    "day": 282,
+    "index": 2,
+    "oldWord": "intact",
+    "oldMeaning": "온전한",
+    "newWord": "inspire",
+    "newMeaning": "영감을 주다",
+    "source": "세계문화"
+  },
+  {
+    "day": 283,
+    "index": 0,
+    "oldWord": "betrayal",
+    "oldMeaning": "배신",
+    "newWord": "fall",
+    "newMeaning": "타락하다, 떨어지다",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 283,
+    "index": 1,
+    "oldWord": "oath",
+    "oldMeaning": "맹세",
+    "newWord": "betrayal",
+    "newMeaning": "배신",
+    "source": "명화"
+  },
+  {
+    "day": 284,
+    "index": 0,
+    "oldWord": "restore",
+    "oldMeaning": "복원하다",
+    "newWord": "courage",
+    "newMeaning": "용기",
+    "source": "고전"
+  },
+  {
+    "day": 284,
+    "index": 1,
+    "oldWord": "grime",
+    "oldMeaning": "때, 오물",
+    "newWord": "restoration",
+    "newMeaning": "복원",
+    "source": "명화"
+  },
+  {
+    "day": 285,
+    "index": 1,
+    "oldWord": "filth",
+    "oldMeaning": "오물",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 286,
+    "index": 0,
+    "oldWord": "belong",
+    "oldMeaning": "속하다",
+    "newWord": "understand",
+    "newMeaning": "이해하다",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 286,
+    "index": 1,
+    "oldWord": "inseparable",
+    "oldMeaning": "분리할 수 없는",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 287,
+    "index": 0,
+    "oldWord": "melt",
+    "oldMeaning": "녹다",
+    "newWord": "moment",
+    "newMeaning": "순간",
+    "source": "고전"
+  },
+  {
+    "day": 287,
+    "index": 1,
+    "oldWord": "preserve",
+    "oldMeaning": "보존하다",
+    "newWord": "dissolve",
+    "newMeaning": "녹다",
+    "source": "명화"
+  },
+  {
+    "day": 287,
+    "index": 2,
+    "oldWord": "flaw",
+    "oldMeaning": "결함",
+    "newWord": "generation",
+    "newMeaning": "세대",
+    "source": "세계문화"
+  },
+  {
+    "day": 288,
+    "index": 1,
+    "oldWord": "fading",
+    "oldMeaning": "사라져가는",
+    "newWord": "aristocrat",
+    "newMeaning": "귀족",
+    "source": "명화"
+  },
+  {
+    "day": 288,
+    "index": 2,
+    "oldWord": "olfactory",
+    "oldMeaning": "후각의",
+    "newWord": "rediscover",
+    "newMeaning": "재발견하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 289,
+    "index": 0,
+    "oldWord": "nostalgia",
+    "oldMeaning": "향수",
+    "newWord": "remembrance",
+    "newMeaning": "추모, 기억",
+    "source": "고전"
+  },
+  {
+    "day": 290,
+    "index": 0,
+    "oldWord": "ornament",
+    "oldMeaning": "장식",
+    "newWord": "change",
+    "newMeaning": "변화",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 290,
+    "index": 1,
+    "oldWord": "feudal",
+    "oldMeaning": "봉건의",
+    "newWord": "revolutionize",
+    "newMeaning": "혁명을 일으키다",
+    "source": "명화"
+  },
+  {
+    "day": 290,
+    "index": 2,
+    "oldWord": "genetic",
+    "oldMeaning": "유전의",
+    "newWord": "generation",
+    "newMeaning": "세대",
+    "source": "세계문화"
+  },
+  {
+    "day": 293,
+    "index": 1,
+    "oldWord": "bind",
+    "oldMeaning": "묶다",
+    "newWord": "staircase",
+    "newMeaning": "계단",
+    "source": "명화"
+  },
+  {
+    "day": 293,
+    "index": 2,
+    "oldWord": "loyalty",
+    "oldMeaning": "충성",
+    "newWord": "unbreakable",
+    "newMeaning": "부서지지 않는",
+    "source": "세계문화"
+  },
+  {
+    "day": 297,
+    "index": 0,
+    "oldWord": "discipline",
+    "oldMeaning": "수련, 훈련",
+    "newWord": "master",
+    "newMeaning": "장인, 거장",
+    "source": "고전"
+  },
+  {
+    "day": 297,
+    "index": 1,
+    "oldWord": "refine",
+    "oldMeaning": "다듬다",
+    "newWord": "discipline",
+    "newMeaning": "수련, 훈련",
+    "source": "명화"
+  },
+  {
+    "day": 297,
+    "index": 2,
+    "oldWord": "archer",
+    "oldMeaning": "궁수",
+    "newWord": "disguise",
+    "newMeaning": "위장하다, 변장",
+    "source": "세계문화"
+  },
+  {
+    "day": 298,
+    "index": 0,
+    "oldWord": "awe",
+    "oldMeaning": "경외감",
+    "newWord": "sharper",
+    "newMeaning": "더 날카로운 (sharp의 비교급)",
+    "source": "고전"
+  },
+  {
+    "day": 298,
+    "index": 1,
+    "oldWord": "vast",
+    "oldMeaning": "광활한",
+    "newWord": "survivor",
+    "newMeaning": "생존자",
+    "source": "명화"
+  },
+  {
+    "day": 299,
+    "index": 0,
+    "oldWord": "sensation",
+    "oldMeaning": "감각",
+    "newWord": "senses",
+    "newMeaning": "감각",
+    "source": "고전"
+  },
+  {
+    "day": 299,
+    "index": 1,
+    "oldWord": "perceive",
+    "oldMeaning": "감지하다",
+    "newWord": "depict",
+    "newMeaning": "묘사하다, 그리다",
+    "source": "명화"
+  },
+  {
+    "day": 299,
+    "index": 2,
+    "oldWord": "incense",
+    "oldMeaning": "향",
+    "newWord": "overwhelm",
+    "newMeaning": "압도하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 300,
+    "index": 0,
+    "oldWord": "tender",
+    "oldMeaning": "다정한",
+    "newWord": "habits",
+    "newMeaning": "습관",
+    "source": "고전"
+  },
+  {
+    "day": 300,
+    "index": 1,
+    "oldWord": "handshake",
+    "oldMeaning": "악수",
+    "newWord": "explore",
+    "newMeaning": "탐험하다",
+    "source": "명화"
+  },
+  {
+    "day": 300,
+    "index": 2,
+    "oldWord": "fingertip",
+    "oldMeaning": "손끝",
+    "newWord": "handshake",
+    "newMeaning": "악수",
+    "source": "세계문화"
+  },
+  {
+    "day": 301,
+    "index": 0,
+    "oldWord": "fragrance",
+    "oldMeaning": "향기",
+    "newWord": "diary",
+    "newMeaning": "일기",
+    "source": "고전"
+  },
+  {
+    "day": 301,
+    "index": 1,
+    "oldWord": "perfumer",
+    "oldMeaning": "조향사",
+    "newWord": "exquisite",
+    "newMeaning": "절묘한",
+    "source": "명화"
+  },
+  {
+    "day": 301,
+    "index": 2,
+    "oldWord": "limbic",
+    "oldMeaning": "변연계의",
+    "newWord": "reconciliation",
+    "newMeaning": "화해",
+    "source": "세계문화"
+  },
+  {
+    "day": 303,
+    "index": 0,
+    "oldWord": "landscape",
+    "oldMeaning": "풍경",
+    "newWord": "listen",
+    "newMeaning": "듣다",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 304,
+    "index": 0,
+    "oldWord": "rhythm",
+    "oldMeaning": "리듬",
+    "newWord": "happens",
+    "newMeaning": "일어나다",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 304,
+    "index": 1,
+    "oldWord": "overlap",
+    "oldMeaning": "겹치다",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 304,
+    "index": 2,
+    "oldWord": "signal",
+    "oldMeaning": "신호",
+    "newWord": "tradition",
+    "newMeaning": "전통",
+    "source": "세계문화"
+  },
+  {
+    "day": 305,
+    "index": 0,
+    "oldWord": "harmony",
+    "oldMeaning": "조화",
+    "newWord": "marvelous",
+    "newMeaning": "경이로운",
+    "source": "고전"
+  },
+  {
+    "day": 305,
+    "index": 1,
+    "oldWord": "ethnicity",
+    "oldMeaning": "민족",
+    "newWord": "harmony",
+    "newMeaning": "조화",
+    "source": "명화"
+  },
+  {
+    "day": 305,
+    "index": 2,
+    "oldWord": "predator",
+    "oldMeaning": "포식자",
+    "newWord": "demonstrate",
+    "newMeaning": "증명하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 306,
+    "index": 0,
+    "oldWord": "collision",
+    "oldMeaning": "충돌",
+    "newWord": "heights",
+    "newMeaning": "높이",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 306,
+    "index": 1,
+    "oldWord": "illumination",
+    "oldMeaning": "조명",
+    "newWord": "desperate",
+    "newMeaning": "필사적인",
+    "source": "명화"
+  },
+  {
+    "day": 307,
+    "index": 0,
+    "oldWord": "fusion",
+    "oldMeaning": "융합",
+    "newWord": "greater",
+    "newMeaning": "더 큰",
+    "source": "고전"
+  },
+  {
+    "day": 307,
+    "index": 1,
+    "oldWord": "blur",
+    "oldMeaning": "흐릿하게 하다",
+    "newWord": "boundary",
+    "newMeaning": "경계",
+    "source": "명화"
+  },
+  {
+    "day": 307,
+    "index": 2,
+    "oldWord": "merge",
+    "oldMeaning": "합치다",
+    "newWord": "income",
+    "newMeaning": "수입, 소득",
+    "source": "세계문화"
+  },
+  {
+    "day": 308,
+    "index": 1,
+    "oldWord": "dot",
+    "oldMeaning": "점",
+    "newWord": "specialize",
+    "newMeaning": "전문화하다, 특화하다",
+    "source": "명화"
+  },
+  {
+    "day": 309,
+    "index": 1,
+    "oldWord": "artifact",
+    "oldMeaning": "유물",
+    "newWord": "curiosities",
+    "newMeaning": "호기심, 신기한 것들",
+    "source": "명화"
+  },
+  {
+    "day": 309,
+    "index": 2,
+    "oldWord": "nectar",
+    "oldMeaning": "꿀",
+    "newWord": "communal",
+    "newMeaning": "공동체의",
+    "source": "세계문화"
+  },
+  {
+    "day": 310,
+    "index": 1,
+    "oldWord": "rectangle",
+    "oldMeaning": "직사각형",
+    "newWord": "architecture",
+    "newMeaning": "건축",
+    "source": "명화"
+  },
+  {
+    "day": 311,
+    "index": 1,
+    "oldWord": "dominant",
+    "oldMeaning": "지배적인",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 311,
+    "index": 2,
+    "oldWord": "evolve",
+    "oldMeaning": "진화하다",
+    "newWord": "coexist",
+    "newMeaning": "공존하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 312,
+    "index": 0,
+    "oldWord": "stubborn",
+    "oldMeaning": "고집 센",
+    "newWord": "waste",
+    "newMeaning": "낭비하다",
+    "source": "고전"
+  },
+  {
+    "day": 312,
+    "index": 1,
+    "oldWord": "insist",
+    "oldMeaning": "고집하다",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 313,
+    "index": 1,
+    "oldWord": "reinvent",
+    "oldMeaning": "재발명하다",
+    "newWord": "embody",
+    "newMeaning": "구현하다, 구체화하다",
+    "source": "명화"
+  },
+  {
+    "day": 313,
+    "index": 2,
+    "oldWord": "rigidity",
+    "oldMeaning": "경직됨",
+    "newWord": "dialogue",
+    "newMeaning": "대화",
+    "source": "세계문화"
+  },
+  {
+    "day": 314,
+    "index": 1,
+    "oldWord": "sophistication",
+    "oldMeaning": "세련됨",
+    "newWord": "profound",
+    "newMeaning": "깊은, 심오한",
+    "source": "명화"
+  },
+  {
+    "day": 314,
+    "index": 2,
+    "oldWord": "declare",
+    "oldMeaning": "선언하다",
+    "newWord": "decoration",
+    "newMeaning": "장식",
+    "source": "세계문화"
+  },
+  {
+    "day": 315,
+    "index": 0,
+    "oldWord": "complexity",
+    "oldMeaning": "복잡성",
+    "newWord": "understand",
+    "newMeaning": "이해하다",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 315,
+    "index": 1,
+    "oldWord": "interlock",
+    "oldMeaning": "맞물리다",
+    "newWord": "complexity",
+    "newMeaning": "복잡성",
+    "source": "명화"
+  },
+  {
+    "day": 316,
+    "index": 0,
+    "oldWord": "mystery",
+    "oldMeaning": "신비",
+    "newWord": "philosophy",
+    "newMeaning": "철학",
+    "source": "고전"
+  },
+  {
+    "day": 316,
+    "index": 1,
+    "oldWord": "melt",
+    "oldMeaning": "녹다",
+    "newWord": "intensity",
+    "newMeaning": "강렬함",
+    "source": "명화"
+  },
+  {
+    "day": 317,
+    "index": 1,
+    "oldWord": "prosecution",
+    "oldMeaning": "검찰",
+    "newWord": "humanity",
+    "newMeaning": "인류, 인간성",
+    "source": "명화"
+  },
+  {
+    "day": 318,
+    "index": 0,
+    "oldWord": "express",
+    "oldMeaning": "표현하다",
+    "newWord": "moment",
+    "newMeaning": "순간",
+    "source": "고전"
+  },
+  {
+    "day": 318,
+    "index": 1,
+    "oldWord": "intensity",
+    "oldMeaning": "강렬함",
+    "newWord": "express",
+    "newMeaning": "표현하다",
+    "source": "명화"
+  },
+  {
+    "day": 319,
+    "index": 0,
+    "oldWord": "suppress",
+    "oldMeaning": "억제하다",
+    "newWord": "tighten",
+    "newMeaning": "조이다",
+    "source": "고전"
+  },
+  {
+    "day": 319,
+    "index": 2,
+    "oldWord": "impulsive",
+    "oldMeaning": "충동적인",
+    "newWord": "revolution",
+    "newMeaning": "혁명",
+    "source": "세계문화"
+  },
+  {
+    "day": 320,
+    "index": 0,
+    "oldWord": "interpret",
+    "oldMeaning": "해석하다",
+    "newWord": "soul",
+    "newMeaning": "영혼",
+    "source": "고전"
+  },
+  {
+    "day": 320,
+    "index": 2,
+    "oldWord": "identical",
+    "oldMeaning": "동일한",
+    "newWord": "hieroglyph",
+    "newMeaning": "상형문자",
+    "source": "세계문화"
+  },
+  {
+    "day": 321,
+    "index": 1,
+    "oldWord": "composition",
+    "oldMeaning": "구도, 구성",
+    "newWord": "civilization",
+    "newMeaning": "문명",
+    "source": "명화"
+  },
+  {
+    "day": 322,
+    "index": 1,
+    "oldWord": "distorted",
+    "oldMeaning": "왜곡된",
+    "newWord": "transform",
+    "newMeaning": "변모시키다",
+    "source": "명화"
+  },
+  {
+    "day": 323,
+    "index": 1,
+    "oldWord": "utterly",
+    "oldMeaning": "완전히",
+    "newWord": "monastery",
+    "newMeaning": "수도원",
+    "source": "명화"
+  },
+  {
+    "day": 324,
+    "index": 1,
+    "oldWord": "unity",
+    "oldMeaning": "통합, 일치",
+    "newWord": "illustrate",
+    "newMeaning": "설명하다",
+    "source": "명화"
+  },
+  {
+    "day": 325,
+    "index": 1,
+    "oldWord": "immersive",
+    "oldMeaning": "몰입감 있는",
+    "newWord": "landscape",
+    "newMeaning": "풍경",
+    "source": "명화"
+  },
+  {
+    "day": 326,
+    "index": 1,
+    "oldWord": "miniature",
+    "oldMeaning": "축소 모형, 미니어처",
+    "newWord": "concentration",
+    "newMeaning": "집중",
+    "source": "명화"
+  },
+  {
+    "day": 326,
+    "index": 2,
+    "oldWord": "preserve",
+    "oldMeaning": "보존하다",
+    "newWord": "smaller",
+    "newMeaning": "더 작은",
+    "source": "세계문화"
+  },
+  {
+    "day": 327,
+    "index": 0,
+    "oldWord": "assemble",
+    "oldMeaning": "모으다, 조립하다",
+    "newWord": "together",
+    "newMeaning": "함께",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 327,
+    "index": 1,
+    "oldWord": "luminous",
+    "oldMeaning": "빛나는",
+    "newWord": "collective",
+    "newMeaning": "집단적인",
+    "source": "명화"
+  },
+  {
+    "day": 327,
+    "index": 2,
+    "oldWord": "agora",
+    "oldMeaning": "아고라 (고대 그리스 광장)",
+    "newWord": "scatter",
+    "newMeaning": "뿌리다, 흩뿌리다",
+    "source": "세계문화"
+  },
+  {
+    "day": 328,
+    "index": 0,
+    "oldWord": "deconstruct",
+    "oldMeaning": "해체하다",
+    "newWord": "examine",
+    "newMeaning": "살피다, 검토하다",
+    "source": "고전"
+  },
+  {
+    "day": 329,
+    "index": 0,
+    "oldWord": "construct",
+    "oldMeaning": "건설하다",
+    "newWord": "neither",
+    "newMeaning": "어느 쪽도 아닌",
+    "source": "고전"
+  },
+  {
+    "day": 329,
+    "index": 1,
+    "oldWord": "cathedral",
+    "oldMeaning": "성당, 대성당",
+    "newWord": "portray",
+    "newMeaning": "묘사하다",
+    "source": "명화"
+  },
+  {
+    "day": 330,
+    "index": 1,
+    "oldWord": "shred",
+    "oldMeaning": "파쇄하다, 찢다",
+    "newWord": "crumble",
+    "newMeaning": "무너지다",
+    "source": "명화"
+  },
+  {
+    "day": 331,
+    "index": 1,
+    "oldWord": "faithfully",
+    "oldMeaning": "충실하게",
+    "newWord": "devastating",
+    "newMeaning": "참혹한, 파괴적인",
+    "source": "명화"
+  },
+  {
+    "day": 331,
+    "index": 2,
+    "oldWord": "ruin",
+    "oldMeaning": "폐허, 파멸",
+    "newWord": "devastate",
+    "newMeaning": "파괴하다, 황폐화하다",
+    "source": "세계문화"
+  },
+  {
+    "day": 332,
+    "index": 0,
+    "oldWord": "explore",
+    "oldMeaning": "탐험하다",
+    "newWord": "disappoint",
+    "newMeaning": "실망시키다",
+    "source": "고전"
+  },
+  {
+    "day": 332,
+    "index": 1,
+    "oldWord": "wander",
+    "oldMeaning": "방랑하다, 떠돌다",
+    "newWord": "exploration",
+    "newMeaning": "탐험",
+    "source": "명화"
+  },
+  {
+    "day": 333,
+    "index": 0,
+    "oldWord": "settle",
+    "oldMeaning": "정착하다, 가라앉다",
+    "newWord": "cease",
+    "newMeaning": "멈추다, 중단하다",
+    "source": "고전"
+  },
+  {
+    "day": 333,
+    "index": 1,
+    "oldWord": "cease",
+    "oldMeaning": "멈추다, 중단하다",
+    "newWord": "symbolize",
+    "newMeaning": "상징하다",
+    "source": "명화"
+  },
+  {
+    "day": 334,
+    "index": 1,
+    "oldWord": "restless",
+    "oldMeaning": "쉬지 못하는, 끊임없는",
+    "newWord": "imagination",
+    "newMeaning": "상상력",
+    "source": "명화"
+  },
+  {
+    "day": 335,
+    "index": 1,
+    "oldWord": "seascape",
+    "oldMeaning": "바다 풍경(화)",
+    "newWord": "terrifying",
+    "newMeaning": "무시무시한",
+    "source": "명화"
+  },
+  {
+    "day": 336,
+    "index": 2,
+    "oldWord": "altitude",
+    "oldMeaning": "고도",
+    "newWord": "generation",
+    "newMeaning": "세대",
+    "source": "세계문화"
+  },
+  {
+    "day": 337,
+    "index": 1,
+    "oldWord": "sunlit",
+    "oldMeaning": "햇빛이 비치는",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 337,
+    "index": 2,
+    "oldWord": "harvest",
+    "oldMeaning": "수확하다, 채취하다",
+    "newWord": "underwater",
+    "newMeaning": "수중의",
+    "source": "세계문화"
+  },
+  {
+    "day": 338,
+    "index": 1,
+    "oldWord": "float",
+    "oldMeaning": "떠다니다",
+    "newWord": "dramatic",
+    "newMeaning": "극적인",
+    "source": "명화"
+  },
+  {
+    "day": 339,
+    "index": 1,
+    "oldWord": "glide",
+    "oldMeaning": "활공하다",
+    "newWord": "portray",
+    "newMeaning": "묘사하다",
+    "source": "명화"
+  },
+  {
+    "day": 340,
+    "index": 0,
+    "oldWord": "crossroads",
+    "oldMeaning": "교차로",
+    "newWord": "cross",
+    "newMeaning": "건너다, 십자가",
+    "source": "고전"
+  },
+  {
+    "day": 340,
+    "index": 1,
+    "oldWord": "overlap",
+    "oldMeaning": "겹치다",
+    "newWord": "tradition",
+    "newMeaning": "전통",
+    "source": "명화"
+  },
+  {
+    "day": 340,
+    "index": 2,
+    "oldWord": "converge",
+    "oldMeaning": "한 점에 모이다",
+    "newWord": "crossroads",
+    "newMeaning": "교차로",
+    "source": "세계문화"
+  },
+  {
+    "day": 341,
+    "index": 1,
+    "oldWord": "revolutionize",
+    "oldMeaning": "혁명을 일으키다",
+    "newWord": "journey",
+    "newMeaning": "여정",
+    "source": "명화"
+  },
+  {
+    "day": 341,
+    "index": 2,
+    "oldWord": "division",
+    "oldMeaning": "분단, 분할",
+    "newWord": "community",
+    "newMeaning": "공동체",
+    "source": "세계문화"
+  },
+  {
+    "day": 342,
+    "index": 1,
+    "oldWord": "shimmer",
+    "oldMeaning": "반짝이다",
+    "newWord": "capture",
+    "newMeaning": "포착하다",
+    "source": "명화"
+  },
+  {
+    "day": 343,
+    "index": 0,
+    "oldWord": "sequence",
+    "oldMeaning": "순서, 배열",
+    "newWord": "everything",
+    "newMeaning": "모든 것",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 343,
+    "index": 1,
+    "oldWord": "harmonious",
+    "oldMeaning": "조화로운",
+    "newWord": "sequence",
+    "newMeaning": "순서, 배열",
+    "source": "명화"
+  },
+  {
+    "day": 343,
+    "index": 2,
+    "oldWord": "precise",
+    "oldMeaning": "정확한",
+    "newWord": "homeland",
+    "newMeaning": "고국",
+    "source": "세계문화"
+  },
+  {
+    "day": 344,
+    "index": 1,
+    "oldWord": "geometric",
+    "oldMeaning": "기하학적인",
+    "newWord": "composition",
+    "newMeaning": "구도, 구성",
+    "source": "명화"
+  },
+  {
+    "day": 345,
+    "index": 1,
+    "oldWord": "marble",
+    "oldMeaning": "대리석",
+    "newWord": "simplicity",
+    "newMeaning": "단순함",
+    "source": "명화"
+  },
+  {
+    "day": 346,
+    "index": 0,
+    "oldWord": "transparent",
+    "oldMeaning": "투명한",
+    "newWord": "transparency",
+    "newMeaning": "투명성",
+    "source": "고전"
+  },
+  {
+    "day": 346,
+    "index": 1,
+    "oldWord": "corruption",
+    "oldMeaning": "부패",
+    "newWord": "architecture",
+    "newMeaning": "건축",
+    "source": "명화"
+  },
+  {
+    "day": 347,
+    "index": 0,
+    "oldWord": "opaque",
+    "oldMeaning": "불투명한",
+    "newWord": "respectable",
+    "newMeaning": "존경할 만한",
+    "source": "고전"
+  },
+  {
+    "day": 347,
+    "index": 1,
+    "oldWord": "respectable",
+    "oldMeaning": "존경할 만한",
+    "newWord": "landscape",
+    "newMeaning": "풍경",
+    "source": "명화"
+  },
+  {
+    "day": 348,
+    "index": 1,
+    "oldWord": "sacred",
+    "oldMeaning": "신성한",
+    "newWord": "highest",
+    "newMeaning": "가장 높은",
+    "source": "명화"
+  },
+  {
+    "day": 348,
+    "index": 2,
+    "oldWord": "fraction",
+    "oldMeaning": "일부분, 분수",
+    "newWord": "sacred",
+    "newMeaning": "신성한",
+    "source": "세계문화"
+  },
+  {
+    "day": 349,
+    "index": 1,
+    "oldWord": "contemplate",
+    "oldMeaning": "숙고하다",
+    "newWord": "sculpt",
+    "newMeaning": "조각하다",
+    "source": "명화"
+  },
+  {
+    "day": 350,
+    "index": 0,
+    "oldWord": "pottery",
+    "oldMeaning": "도자기",
+    "newWord": "others",
+    "newMeaning": "다른 사람들",
+    "source": "고전",
+    "fallback": true
+  },
+  {
+    "day": 350,
+    "index": 2,
+    "oldWord": "clay",
+    "oldMeaning": "점토",
+    "newWord": "intricate",
+    "newMeaning": "복잡한",
+    "source": "세계문화"
+  },
+  {
+    "day": 351,
+    "index": 1,
+    "oldWord": "tapestry",
+    "oldMeaning": "태피스트리, 직물 벽걸이",
+    "newWord": "honor",
+    "newMeaning": "기리다, 존경하다",
+    "source": "명화"
+  },
+  {
+    "day": 352,
+    "index": 1,
+    "oldWord": "manuscript",
+    "oldMeaning": "필사본, 원고",
+    "newWord": "revolutionary",
+    "newMeaning": "혁명적인",
+    "source": "명화"
+  },
+  {
+    "day": 352,
+    "index": 2,
+    "oldWord": "movable type",
+    "oldMeaning": "활자",
+    "newWord": "treasure",
+    "newMeaning": "보물, 국보",
+    "source": "세계문화"
+  },
+  {
+    "day": 353,
+    "index": 0,
+    "oldWord": "typeface",
+    "oldMeaning": "활자체, 서체",
+    "newWord": "movable",
+    "newMeaning": "이동할 수 있는",
+    "source": "고전"
+  },
+  {
+    "day": 353,
+    "index": 1,
+    "oldWord": "resemble",
+    "oldMeaning": "닮다",
+    "newWord": "absorb",
+    "newMeaning": "몰두하다, 흡수하다",
+    "source": "명화"
+  },
+  {
+    "day": 353,
+    "index": 2,
+    "oldWord": "woodblock",
+    "oldMeaning": "목판",
+    "newWord": "spread",
+    "newMeaning": "퍼뜨리다",
+    "source": "세계문화"
+  },
+  {
+    "day": 354,
+    "index": 1,
+    "oldWord": "observation",
+    "oldMeaning": "관찰",
+    "newWord": "meticulous",
+    "newMeaning": "꼼꼼한",
+    "source": "명화"
+  },
+  {
+    "day": 354,
+    "index": 2,
+    "oldWord": "calligraphy",
+    "oldMeaning": "서예",
+    "newWord": "breathtaking",
+    "newMeaning": "숨막히는",
+    "source": "세계문화"
+  },
+  {
+    "day": 355,
+    "index": 1,
+    "oldWord": "proportion",
+    "oldMeaning": "비율",
+    "newWord": "soul",
+    "newMeaning": "영혼",
+    "source": "명화"
+  },
+  {
+    "day": 356,
+    "index": 0,
+    "oldWord": "contemplation",
+    "oldMeaning": "사색, 명상",
+    "newWord": "unexamined",
+    "newMeaning": "검토되지 않은",
+    "source": "고전"
+  },
+  {
+    "day": 356,
+    "index": 1,
+    "oldWord": "examine",
+    "oldMeaning": "살피다, 검토하다",
+    "newWord": "contemplation",
+    "newMeaning": "사색, 명상",
+    "source": "명화"
+  },
+  {
+    "day": 356,
+    "index": 2,
+    "oldWord": "sculpture",
+    "oldMeaning": "조각",
+    "newWord": "monk",
+    "newMeaning": "승려",
+    "source": "세계문화"
+  },
+  {
+    "day": 357,
+    "index": 1,
+    "oldWord": "fertile",
+    "oldMeaning": "비옥한",
+    "newWord": "harvest",
+    "newMeaning": "수확, 수확하다",
+    "source": "명화"
+  },
+  {
+    "day": 357,
+    "index": 2,
+    "oldWord": "grain",
+    "oldMeaning": "곡물, 낟알",
+    "newWord": "civilization",
+    "newMeaning": "문명",
+    "source": "세계문화"
+  },
+  {
+    "day": 359,
+    "index": 2,
+    "oldWord": "unbearable",
+    "oldMeaning": "견딜 수 없는",
+    "newWord": "endure",
+    "newMeaning": "견디다, 참다",
+    "source": "세계문화"
+  },
+  {
+    "day": 360,
+    "index": 1,
+    "oldWord": "upright",
+    "oldMeaning": "똑바로, 곧게",
+    "newWord": "pattern",
+    "newMeaning": "패턴, 무늬",
+    "source": "명화"
+  },
+  {
+    "day": 361,
+    "index": 0,
+    "oldWord": "stem",
+    "oldMeaning": "줄기",
+    "newWord": "bamboo",
+    "newMeaning": "대나무",
+    "source": "고전"
+  },
+  {
+    "day": 361,
+    "index": 1,
+    "oldWord": "integrity",
+    "oldMeaning": "절개, 진실성",
+    "newWord": "express",
+    "newMeaning": "표현하다",
+    "source": "명화"
+  },
+  {
+    "day": 362,
+    "index": 0,
+    "oldWord": "petal",
+    "oldMeaning": "꽃잎",
+    "newWord": "precious",
+    "newMeaning": "소중한",
+    "source": "고전"
+  },
+  {
+    "day": 362,
+    "index": 1,
+    "oldWord": "fleeting",
+    "oldMeaning": "덧없는, 순간적인",
+    "newWord": "haunting",
+    "newMeaning": "잊히지 않는",
+    "source": "명화"
+  },
+  {
+    "day": 362,
+    "index": 2,
+    "oldWord": "pigment",
+    "oldMeaning": "색소",
+    "newWord": "enormous",
+    "newMeaning": "거대한",
+    "source": "세계문화"
+  },
+  {
+    "day": 363,
+    "index": 0,
+    "oldWord": "chlorophyll",
+    "oldMeaning": "엽록소",
+    "newWord": "survive",
+    "newMeaning": "생존하다",
+    "source": "고전"
+  },
+  {
+    "day": 363,
+    "index": 1,
+    "oldWord": "spectacular",
+    "oldMeaning": "장관의, 놀라운",
+    "newWord": "melancholy",
+    "newMeaning": "우울",
+    "source": "명화"
+  },
+  {
+    "day": 363,
+    "index": 2,
+    "oldWord": "blur",
+    "oldMeaning": "흐리게 하다",
+    "newWord": "autumn",
+    "newMeaning": "가을",
+    "source": "세계문화"
+  },
+  {
+    "day": 364,
+    "index": 0,
+    "oldWord": "sprout",
+    "oldMeaning": "새싹, 싹트다",
+    "newWord": "invincible",
+    "newMeaning": "무적의, 이길 수 없는",
+    "source": "고전"
+  },
+  {
+    "day": 364,
+    "index": 1,
+    "oldWord": "invincible",
+    "oldMeaning": "무적의, 이길 수 없는",
+    "newWord": "tender",
+    "newMeaning": "다정한",
+    "source": "명화"
+  },
+  {
+    "day": 364,
+    "index": 2,
+    "oldWord": "herb",
+    "oldMeaning": "허브, 풀",
+    "newWord": "community",
+    "newMeaning": "공동체",
+    "source": "세계문화"
+  },
+  {
+    "day": 365,
+    "index": 0,
+    "oldWord": "harvest",
+    "oldMeaning": "수확, 수확하다",
+    "newWord": "consequence",
+    "newMeaning": "결과",
+    "source": "고전"
+  },
+  {
+    "day": 365,
+    "index": 1,
+    "oldWord": "reap",
+    "oldMeaning": "거두다, 수확하다",
+    "newWord": "reward",
+    "newMeaning": "보상",
+    "source": "명화"
+  },
+  {
+    "day": 365,
+    "index": 2,
+    "oldWord": "ancestor",
+    "oldMeaning": "조상",
+    "newWord": "collective",
+    "newMeaning": "집단적인",
+    "source": "세계문화"
+  }
+]

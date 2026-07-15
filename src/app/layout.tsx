@@ -26,6 +26,11 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/manifest.json",
+  verification: {
+    other: {
+      "naver-site-verification": "b97ef530bba25caf1be85b2d918f48aa5ed5f3a6",
+    },
+  },
   metadataBase: new URL("https://www.dailyseed.net"),
   alternates: {
     canonical: "/",

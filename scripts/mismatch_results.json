@@ -1,0 +1,1375 @@
+{
+  "worldMismatches": [
+    {
+      "day": 22,
+      "keyword": "기억",
+      "country": "캄보디아",
+      "worldTitle": "앙코르와트 — 잊히지 않는 찬란한 기억",
+      "en": "The Aboriginal people of Australia pass down their history through oral storytelling rather than written records.",
+      "ko": "호주 원주민은 문자 기록 대신 구전 이야기를 통해 역사를 전승한다."
+    },
+    {
+      "day": 23,
+      "keyword": "지혜",
+      "country": "중국",
+      "worldTitle": "공자의 나라 — 배움으로 쌓은 지혜",
+      "en": "In many Indigenous cultures, elders are regarded as the living libraries of their communities.",
+      "ko": "많은 원주민 문화에서 어른들은 공동체의 살아있는 도서관으로 여겨진다."
+    },
+    {
+      "day": 25,
+      "keyword": "창조",
+      "country": "가나",
+      "worldTitle": "켄테 천 — 실 한 올에 담긴 창조의 예술",
+      "en": "The ancient Egyptians invented papyrus, one of the earliest writing materials, which made it possible to record and share knowledge.",
+      "ko": "고대 이집트인들은 가장 초기의 필기 재료 중 하나인 파피루스를 발명하여, 지식을 기록하고 공유하는 것을 가능하게 했다."
+    },
+    {
+      "day": 29,
+      "keyword": "질서",
+      "country": "싱가포르",
+      "worldTitle": "정원의 도시 — 질서가 만든 기적",
+      "en": "The caste system in ancient India divided society into strict hierarchical groups that determined people's occupations from birth.",
+      "ko": "고대 인도의 카스트 제도는 사회를 엄격한 계층 집단으로 나누어, 태어날 때부터 사람들의 직업을 결정했다."
+    },
+    {
+      "day": 35,
+      "keyword": "윤리",
+      "country": "노르웨이",
+      "worldTitle": "얀테의 법칙 — 겸손을 넘어선 윤리의 나라",
+      "en": "The Nuremberg Trials established that individuals cannot escape responsibility for crimes by claiming they were just following orders.",
+      "ko": "뉘른베르크 재판은 명령에 따랐을 뿐이라고 주장하는 것으로는 범죄에 대한 책임을 피할 수 없다는 것을 확립했다."
+    },
+    {
+      "day": 38,
+      "keyword": "탐구",
+      "country": "갈라파고스(에콰도르)",
+      "worldTitle": "다윈의 섬 — 탐구가 진화론을 낳다",
+      "en": "The Polynesians navigated thousands of miles across the Pacific Ocean using only the stars, ocean currents, and the flight patterns of birds.",
+      "ko": "폴리네시아인들은 별, 해류, 새의 비행 패턴만을 이용해 태평양을 수천 마일이나 항해했다."
+    },
+    {
+      "day": 39,
+      "keyword": "관계",
+      "country": "필리핀",
+      "worldTitle": "바야니한 — 온 마을이 집을 옮기다",
+      "en": "The concept of 'ubuntu' in Southern African philosophy means 'I am because we are,' emphasizing that our humanity is connected to others.",
+      "ko": "남아프리카 철학의 '우분투' 개념은 '우리가 있기에 내가 있다'를 뜻하며, 인간성이 타인과 연결되어 있음을 강조한다."
+    },
+    {
+      "day": 40,
+      "keyword": "풍요",
+      "country": "모로코",
+      "worldTitle": "마라케시의 미로 — 감각이 터지는 풍요의 세계",
+      "en": "Bhutan measures national success not by GDP but by Gross National Happiness, focusing on the well-being of its citizens.",
+      "ko": "부탄은 국가의 성공을 GDP가 아닌 국민총행복으로 측정하며, 국민의 안녕에 초점을 맞춘다."
+    },
+    {
+      "day": 41,
+      "keyword": "갈등",
+      "country": "키프로스",
+      "worldTitle": "분단된 섬 — 갈등의 한복판에서",
+      "en": "The partition of India in 1947 caused one of the largest mass migrations in history, as millions were forced to leave their homes.",
+      "ko": "1947년 인도 분할은 역사상 가장 큰 대규모 이주 중 하나를 초래했으며, 수백만 명이 집을 떠나야 했다."
+    },
+    {
+      "day": 54,
+      "keyword": "평등",
+      "country": "우루과이",
+      "worldTitle": "작지만 평등한 나라의 조용한 혁명",
+      "en": "In many Scandinavian countries, the gap between the richest and the poorest citizens is among the smallest in the world.",
+      "ko": "많은 북유럽 국가에서 가장 부유한 시민과 가장 가난한 시민 사이의 격차는 세계에서 가장 작은 축에 속한다."
+    },
+    {
+      "day": 55,
+      "keyword": "개성",
+      "country": "자메이카",
+      "worldTitle": "레게의 섬 — 개성이 세계를 춤추게 하다",
+      "en": "The Maori of New Zealand greet each other by pressing their noses together, a gesture called the hongi.",
+      "ko": "뉴질랜드의 마오리족은 서로 코를 맞대며 인사하는데, 이 제스처를 홍이라고 부른다."
+    },
+    {
+      "day": 59,
+      "keyword": "헌신",
+      "country": "이란",
+      "worldTitle": "페르시아의 정원 — 사막에 헌신으로 가꾼 낙원",
+      "en": "Mother Teresa spent decades caring for the poorest of the poor in the slums of Calcutta, asking nothing in return.",
+      "ko": "마더 테레사는 수십 년간 캘커타 빈민가에서 가장 가난한 이들을 돌보며, 아무런 대가도 요구하지 않았다."
+    },
+    {
+      "day": 79,
+      "keyword": "진보",
+      "country": "싱가포르",
+      "worldTitle": "제3세계에서 제1세계로 — 한 세대의 진보",
+      "en": "Rwanda has made remarkable progress since the 1994 genocide, becoming one of Africa's fastest-growing economies with near-universal healthcare.",
+      "ko": "르완다는 1994년 대학살 이후 놀라운 발전을 이루어, 거의 보편적인 의료보장을 갖춘 아프리카에서 가장 빠르게 성장하는 경제국 중 하나가 되었다."
+    },
+    {
+      "day": 82,
+      "keyword": "유머",
+      "country": "영국",
+      "worldTitle": "위트와 풍자 — 웃음에 담긴 영국식 지혜",
+      "en": "In many African cultures, storytelling uses humor and animal characters to teach moral lessons to the young.",
+      "ko": "많은 아프리카 문화에서 이야기를 들려줄 때 유머와 동물 캐릭터를 사용하여 젊은이들에게 도덕적 교훈을 가르친다."
+    },
+    {
+      "day": 83,
+      "keyword": "순수",
+      "country": "통가",
+      "worldTitle": "태평양의 왕국 — 순수하게 남은 마지막 섬",
+      "en": "In Bhutan, the government measures the nation's success not by wealth but by Gross National Happiness.",
+      "ko": "부탄에서는 정부가 국가의 성공을 부가 아니라 국민총행복으로 측정한다."
+    },
+    {
+      "day": 86,
+      "keyword": "착각",
+      "country": "인도",
+      "worldTitle": "마야 — 세상은 착각이라는 철학",
+      "en": "Desert travelers sometimes see mirages — shimmering pools of water that do not actually exist on the horizon.",
+      "ko": "사막 여행자들은 가끔 신기루를 본다 — 지평선에 실제로는 존재하지 않는 반짝이는 물웅덩이를."
+    },
+    {
+      "day": 88,
+      "keyword": "재능",
+      "country": "나이지리아",
+      "worldTitle": "놀리우드와 아프로비츠 — 재능이 폭발하는 대륙의 거인",
+      "en": "In ancient China, scholars had to pass the imperial examination, one of the toughest tests in history, to become government officials.",
+      "ko": "고대 중국에서 학자들은 역사상 가장 어려운 시험 중 하나인 과거 시험에 합격해야 관리가 될 수 있었다."
+    },
+    {
+      "day": 91,
+      "keyword": "거짓",
+      "country": "그리스",
+      "worldTitle": "오디세우스의 트로이 목마 — 역사상 가장 유명한 거짓",
+      "en": "During the Cold War, both sides spread propaganda disguised as news to shape public opinion in their favor.",
+      "ko": "냉전 동안 양 진영은 여론을 자신에게 유리하게 형성하기 위해 뉴스로 위장한 선전을 퍼뜨렸다."
+    },
+    {
+      "day": 92,
+      "keyword": "귀환",
+      "country": "에티오피아",
+      "worldTitle": "귀환한 시바의 여왕 — 솔로몬의 후예를 자처한 나라",
+      "en": "In many cultures, the journey home is considered the most important part of any adventure or pilgrimage.",
+      "ko": "많은 문화에서 집으로의 여정은 어떤 모험이나 순례에서 가장 중요한 부분으로 여겨진다."
+    },
+    {
+      "day": 93,
+      "keyword": "반항",
+      "country": "아르헨티나",
+      "worldTitle": "5월 광장의 어머니들 — 권력에 맞선 반항의 행진",
+      "en": "The punk movement of the 1970s rejected mainstream culture through loud music, torn clothing, and a do-it-yourself attitude.",
+      "ko": "1970년대의 펑크 운동은 시끄러운 음악, 찢어진 옷, 그리고 DIY 태도를 통해 주류 문화를 거부했다."
+    },
+    {
+      "day": 94,
+      "keyword": "비유",
+      "country": "레바논",
+      "worldTitle": "페니키아의 알파벳 — 비유 없이 직접 전달하는 힘",
+      "en": "In Chinese poetry, the moon often serves as a metaphor for longing, homesickness, and the passage of time.",
+      "ko": "중국 시에서 달은 종종 그리움, 향수, 그리고 시간의 흐름에 대한 은유로 사용된다."
+    },
+    {
+      "day": 95,
+      "keyword": "습관",
+      "country": "독일",
+      "worldTitle": "마이스터의 나라 — 습관이 장인을 만든다",
+      "en": "Buddhist monks begin each day at dawn with meditation, chanting, and mindful walking — a rhythm unchanged for centuries.",
+      "ko": "불교 승려들은 매일 새벽에 명상, 독경, 그리고 마음챙김 걷기로 하루를 시작한다 — 수 세기 동안 변하지 않은 리듬이다."
+    },
+    {
+      "day": 96,
+      "keyword": "소박",
+      "country": "라오스",
+      "worldTitle": "백만 마리 코끼리의 땅 — 소박한 행복의 나라",
+      "en": "The Amish community in Pennsylvania chooses to live without modern technology, finding fulfillment in a simpler way of life.",
+      "ko": "펜실베이니아의 아미시 공동체는 현대 기술 없이 살기를 선택하며, 더 단순한 삶의 방식에서 만족을 찾는다."
+    },
+    {
+      "day": 100,
+      "keyword": "치유",
+      "country": "아이슬란드",
+      "worldTitle": "온천의 나라 — 자연이 치유하는 섬",
+      "en": "In many Native American traditions, the sweat lodge ceremony is used as a ritual of purification and emotional healing.",
+      "ko": "많은 아메리카 원주민 전통에서 땀막 의식은 정화와 감정적 치유의 의례로 사용된다."
+    },
+    {
+      "day": 103,
+      "keyword": "노동",
+      "country": "방글라데시",
+      "worldTitle": "의류 공장의 땀 — 세계의 옷을 만드는 사람들",
+      "en": "In Germany, vocational training through apprenticeships is highly respected, blending classroom learning with hands-on work experience.",
+      "ko": "독일에서 도제 제도를 통한 직업 훈련은 매우 존경받으며, 교실 학습과 실습 경험을 결합한다."
+    },
+    {
+      "day": 106,
+      "keyword": "건축",
+      "country": "이집트",
+      "worldTitle": "피라미드 — 4,500년을 견딘 건축의 기적",
+      "en": "The ancient Romans built aqueducts that carried water across valleys and mountains, some of which still stand today after two thousand years.",
+      "ko": "고대 로마인들은 계곡과 산을 가로질러 물을 운반하는 수도교를 지었으며, 그 중 일부는 2천 년이 지난 오늘날에도 여전히 서 있다."
+    },
+    {
+      "day": 119,
+      "keyword": "색깔",
+      "country": "멕시코",
+      "worldTitle": "프리다의 팔레트 — 색깔로 말하는 나라",
+      "en": "In China, red symbolizes luck and prosperity, which is why it is the dominant color at weddings and New Year celebrations.",
+      "ko": "중국에서 빨간색은 행운과 번영을 상징하며, 그래서 결혼식과 새해 축하 행사에서 주된 색이다."
+    },
+    {
+      "day": 124,
+      "keyword": "중심",
+      "country": "중국",
+      "worldTitle": "중화 사상 — 세계의 중심이라는 믿음",
+      "en": "The concept of balance lies at the heart of traditional Korean architecture, where buildings are placed in harmony with mountains and streams.",
+      "ko": "균형의 개념은 한국 전통 건축의 핵심에 있으며, 건물은 산과 시내와 조화를 이루도록 배치된다."
+    },
+    {
+      "day": 126,
+      "keyword": "반복",
+      "country": "에티오피아",
+      "worldTitle": "커피 의식 분나 마플라트 — 매일 반복되는 정성",
+      "en": "Islamic geometric art uses repeating patterns that extend infinitely, reflecting the idea of an eternal and boundless universe.",
+      "ko": "이슬람 기하학적 예술은 무한히 확장되는 반복 패턴을 사용해 영원하고 끝없는 우주의 개념을 반영한다."
+    },
+    {
+      "day": 132,
+      "keyword": "증거",
+      "country": "호주",
+      "worldTitle": "6만 5천 년의 구전 증거 — 애보리진의 기억",
+      "en": "In a court of law, the burden of proof lies with the accuser — a person is presumed innocent until proven guilty.",
+      "ko": "법정에서 입증 책임은 고발자에게 있다 — 사람은 유죄가 증명될 때까지 무죄로 추정된다."
+    },
+    {
+      "day": 133,
+      "keyword": "의심",
+      "country": "폴란드",
+      "worldTitle": "코페르니쿠스의 의심 — 지구가 중심이 아니라고?",
+      "en": "The scientific revolution began when thinkers like Galileo dared to doubt the teachings that had been accepted for centuries.",
+      "ko": "과학 혁명은 갈릴레오 같은 사상가들이 수세기 동안 받아들여져 온 가르침에 감히 의문을 품었을 때 시작되었다."
+    },
+    {
+      "day": 139,
+      "keyword": "발명",
+      "country": "스코틀랜드",
+      "worldTitle": "증기기관에서 페니실린까지 — 세상을 바꾼 스코틀랜드 발명",
+      "en": "The printing press, invented by Gutenberg around 1440, is considered one of the most transformative inventions in human history.",
+      "ko": "1440년경 구텐베르크가 발명한 인쇄기는 인류 역사상 가장 혁신적인 발명 중 하나로 여겨진다."
+    },
+    {
+      "day": 141,
+      "keyword": "확률",
+      "country": "모나코",
+      "worldTitle": "몬테카를로 — 확률이 지배하는 화려한 공국",
+      "en": "In ancient China, officials were selected through an examination system that tested knowledge of literature and philosophy.",
+      "ko": "고대 중국에서는 문학과 철학 지식을 시험하는 과거제를 통해 관리를 선발했다."
+    },
+    {
+      "day": 145,
+      "keyword": "유전",
+      "country": "에티오피아",
+      "worldTitle": "루시 — 인류 최초 조상의 고향",
+      "en": "In many indigenous cultures, knowledge is passed down from elders to young people through storytelling rather than textbooks.",
+      "ko": "많은 원주민 문화에서 지식은 교과서가 아닌 이야기를 통해 어른에게서 젊은이에게 전해진다."
+    },
+    {
+      "day": 151,
+      "keyword": "리더",
+      "country": "싱가포르",
+      "worldTitle": "리콴유 — 작은 섬을 세계적 도시로",
+      "en": "Nelson Mandela spent twenty-seven years in prison before becoming the first democratically elected president of South Africa.",
+      "ko": "넬슨 만델라는 남아프리카공화국 최초의 민주적으로 선출된 대통령이 되기 전 27년을 감옥에서 보냈다."
+    },
+    {
+      "day": 152,
+      "keyword": "추종",
+      "country": "북한",
+      "worldTitle": "주체사상 — 절대 권력과 추종의 극단",
+      "en": "K-pop fans around the world organize massive streaming events, following their favorite groups with remarkable dedication.",
+      "ko": "전 세계 K-pop 팬들은 놀라운 헌신으로 좋아하는 그룹을 따르며 대규모 스트리밍 이벤트를 조직한다."
+    },
+    {
+      "day": 156,
+      "keyword": "환상",
+      "country": "콜롬비아",
+      "worldTitle": "마콘도와 마술적 사실주의 — 환상이 현실이 되는 곳",
+      "en": "The legend of El Dorado drove European explorers to search for a city made entirely of gold deep in the Amazon jungle.",
+      "ko": "엘도라도 전설은 유럽 탐험가들이 아마존 정글 깊은 곳에서 온전히 금으로 만들어진 도시를 찾게 만들었다."
+    },
+    {
+      "day": 160,
+      "keyword": "역사",
+      "country": "중국",
+      "worldTitle": "만리장성 — 역사를 쌓아올린 2,300년",
+      "en": "The Rosetta Stone was the key to deciphering ancient Egyptian hieroglyphs because it contained the same text in three scripts.",
+      "ko": "로제타석은 같은 내용이 세 가지 문자로 적혀 있어 고대 이집트 상형문자를 해독하는 열쇠가 되었다."
+    },
+    {
+      "day": 161,
+      "keyword": "경제",
+      "country": "칠레",
+      "worldTitle": "구리 왕국 — 한 가지 자원에 의존하는 경제",
+      "en": "The Silk Road connected East and West for centuries, allowing the exchange of goods, ideas, and technologies across continents.",
+      "ko": "실크로드는 수세기 동안 동양과 서양을 연결하여 대륙 간 물품, 사상, 기술의 교류를 가능하게 했다."
+    },
+    {
+      "day": 168,
+      "keyword": "형벌",
+      "country": "사우디아라비아",
+      "worldTitle": "샤리아 — 이슬람 법이 지배하는 사회",
+      "en": "Norway's prisons focus on rehabilitation rather than punishment, and the country has one of the lowest reoffending rates in the world.",
+      "ko": "노르웨이의 교도소는 처벌보다 재활에 초점을 맞추며, 세계에서 가장 낮은 재범률 중 하나를 기록하고 있다."
+    },
+    {
+      "day": 173,
+      "keyword": "전쟁",
+      "country": "캄보디아",
+      "worldTitle": "킬링필드 — 이념이 만든 비극",
+      "en": "The Treaty of Westphalia in 1648 established the idea that each nation has sovereignty over its own territory.",
+      "ko": "1648년 베스트팔렌 조약은 각 국가가 자국 영토에 대해 주권을 가진다는 개념을 확립했다."
+    },
+    {
+      "day": 175,
+      "keyword": "무역",
+      "country": "네덜란드",
+      "worldTitle": "VOC — 세계 최초 다국적 기업과 무역의 탄생",
+      "en": "The ancient Silk Road connected East and West, enabling the exchange of goods, ideas, and cultures across continents.",
+      "ko": "고대 실크로드는 동양과 서양을 연결하여 대륙을 가로지르는 물건, 사상, 문화의 교류를 가능하게 했다."
+    },
+    {
+      "day": 180,
+      "keyword": "소비",
+      "country": "일본",
+      "worldTitle": "편의점 문화 — 소비의 극치를 보여주는 나라",
+      "en": "Black Friday, which originated in the United States, has now become a global shopping event driven by massive discounts.",
+      "ko": "미국에서 시작된 블랙프라이데이는 이제 대규모 할인에 의해 주도되는 글로벌 쇼핑 행사가 되었다."
+    },
+    {
+      "day": 181,
+      "keyword": "생산",
+      "country": "베트남",
+      "worldTitle": "세계의 공장 — 베트남의 생산 혁명",
+      "en": "German engineering has long been associated with precision and quality, making 'Made in Germany' a symbol of reliability.",
+      "ko": "독일 공학은 오랫동안 정밀함과 품질과 연관되어 왔으며, '메이드 인 저머니'를 신뢰성의 상징으로 만들었다."
+    },
+    {
+      "day": 183,
+      "keyword": "낭비",
+      "country": "쿠바",
+      "worldTitle": "올드카 천국 — 시간이 멈춘 낭비 없는 사회",
+      "en": "In Denmark, the concept of 'hygge' embraces slow, cozy moments that might seem unproductive but are valued for mental well-being.",
+      "ko": "덴마크에서 '휘게' 개념은 비생산적으로 보일 수 있지만 정신 건강을 위해 가치 있게 여기는 느긋하고 아늑한 순간을 포용한다."
+    },
+    {
+      "day": 187,
+      "keyword": "약물",
+      "country": "아프가니스탄",
+      "worldTitle": "양귀비 밭 — 전쟁과 마약의 악순환",
+      "en": "In many indigenous cultures, certain plants were used in sacred rituals for healing, not for recreational purposes.",
+      "ko": "많은 원주민 문화에서 특정 식물은 오락 목적이 아니라 치유를 위한 신성한 의식에 사용되었다."
+    },
+    {
+      "day": 189,
+      "keyword": "영양",
+      "country": "페루",
+      "worldTitle": "슈퍼푸드의 보고 — 잉카의 영양 유산",
+      "en": "The Mediterranean diet, rich in olive oil, fish, and vegetables, is widely regarded as one of the healthiest in the world.",
+      "ko": "올리브 오일, 생선, 채소가 풍부한 지중해 식단은 세계에서 가장 건강한 식단 중 하나로 널리 알려져 있다."
+    },
+    {
+      "day": 197,
+      "keyword": "사랑",
+      "country": "파키스탄",
+      "worldTitle": "트럭 아트 — 사랑을 실은 화려한 트럭",
+      "en": "In many African cultures, marriages are not just the union of two individuals but the joining of two entire families and communities.",
+      "ko": "많은 아프리카 문화에서 결혼은 단지 두 개인의 결합이 아니라 두 가족과 공동체 전체의 합류이다."
+    },
+    {
+      "day": 199,
+      "keyword": "수치",
+      "country": "가나",
+      "worldTitle": "판타지 관(棺) — 죽음마저 당당하게",
+      "en": "Some Asian cultures distinguish between 'shame culture,' where behavior is guided by others' judgment, and 'guilt culture,' where inner conscience matters more.",
+      "ko": "일부 아시아 문화는 타인의 판단이 행동을 이끄는 '수치 문화'와 내면의 양심이 더 중요한 '죄책감 문화'를 구분한다."
+    },
+    {
+      "day": 203,
+      "keyword": "학습",
+      "country": "라트비아",
+      "worldTitle": "노래로 배우는 나라 — 라트비아 다이나",
+      "en": "In Finland, children do not start formal schooling until the age of seven, yet Finnish students consistently rank among the top in the world.",
+      "ko": "핀란드에서 아이들은 일곱 살까지 정규 학교를 시작하지 않지만, 핀란드 학생들은 지속적으로 세계 최상위권에 든다."
+    },
+    {
+      "day": 204,
+      "keyword": "집중",
+      "country": "부르네이",
+      "worldTitle": "고요한 풍요 — 보르네오의 작은 왕국",
+      "en": "Zen Buddhist monks practice zazen, a form of seated meditation that trains the mind to achieve deep concentration.",
+      "ko": "선불교 승려들은 좌선을 수행하는데, 이는 마음을 훈련시켜 깊은 집중에 도달하게 하는 앉아서 하는 명상이다."
+    },
+    {
+      "day": 206,
+      "keyword": "비판",
+      "country": "알바니아",
+      "worldTitle": "벙커의 나라 — 비판적 사고의 교훈",
+      "en": "In ancient Athens, citizens could vote to exile anyone they considered a threat to democracy — this practice was called ostracism.",
+      "ko": "고대 아테네에서 시민들은 민주주의에 위협이 된다고 생각하는 사람을 투표로 추방할 수 있었는데, 이 관행을 도편추방이라 불렀다."
+    },
+    {
+      "day": 209,
+      "keyword": "타협",
+      "country": "키르기스스탄",
+      "worldTitle": "유목민의 합의 — 쿠를타이 전통",
+      "en": "The Good Friday Agreement, a historic compromise, brought decades of violent conflict in Northern Ireland to an end.",
+      "ko": "역사적인 타협인 성금요일 협정은 북아일랜드의 수십 년간의 폭력적 분쟁을 종식시켰다."
+    },
+    {
+      "day": 212,
+      "keyword": "자아",
+      "country": "크로아티아",
+      "worldTitle": "넥타이의 발명 — 정체성을 매다",
+      "en": "In Hindu philosophy, the concept of Atman refers to the true self or soul that exists beyond the physical body.",
+      "ko": "힌두 철학에서 아트만이라는 개념은 육체 너머에 존재하는 진정한 자아, 즉 영혼을 가리킨다."
+    },
+    {
+      "day": 213,
+      "keyword": "타인",
+      "country": "우즈베키스탄",
+      "worldTitle": "실크로드의 심장 — 타인을 맞이하는 문화",
+      "en": "The Ubuntu philosophy from Southern Africa teaches that a person becomes a person through other people.",
+      "ko": "남아프리카의 우분투 철학은 사람은 다른 사람들을 통해 사람이 된다고 가르친다."
+    },
+    {
+      "day": 214,
+      "keyword": "군중",
+      "country": "방글라데시",
+      "worldTitle": "인간 홍수 — 군중의 나라",
+      "en": "During the Hajj pilgrimage, millions of Muslims gather in Mecca, forming one of the largest peaceful gatherings on Earth.",
+      "ko": "하지 순례 기간 동안 수백만 명의 무슬림이 메카에 모여, 지구상에서 가장 큰 평화로운 모임 중 하나를 이룬다."
+    },
+    {
+      "day": 216,
+      "keyword": "여행",
+      "country": "카자흐스탄",
+      "worldTitle": "끝없는 초원을 달리다 — 유목민의 여행",
+      "en": "The Silk Road was not a single road but a vast network of trade routes that connected East and West for over a thousand years.",
+      "ko": "실크로드는 하나의 길이 아니라 천 년 넘게 동양과 서양을 연결한 광대한 무역로 네트워크였다."
+    },
+    {
+      "day": 222,
+      "keyword": "우주",
+      "country": "동티모르",
+      "worldTitle": "21세기의 신생 국가 — 우주처럼 미지의 시작",
+      "en": "The ancient Mayans built observatories aligned with the stars and developed a calendar so accurate that it predicted eclipses centuries in advance.",
+      "ko": "고대 마야인들은 별과 정렬된 관측소를 짓고, 수세기 앞의 일식을 예측할 만큼 정확한 달력을 개발했다."
+    },
+    {
+      "day": 224,
+      "keyword": "생태",
+      "country": "슬로베니아",
+      "worldTitle": "유럽의 녹색 심장 — 생태의 모범",
+      "en": "The Maori people of New Zealand view themselves as guardians of the land, responsible for maintaining the balance between all living things.",
+      "ko": "뉴질랜드의 마오리족은 스스로를 땅의 수호자로 여기며, 모든 생명체 간의 균형을 유지할 책임이 있다고 본다."
+    },
+    {
+      "day": 239,
+      "keyword": "미술",
+      "country": "벨기에",
+      "worldTitle": "만화의 나라 — 벨기에 미술의 숨은 주인공",
+      "en": "Aboriginal dot paintings from Australia use patterns of tiny dots to tell stories about the land and the Dreamtime.",
+      "ko": "호주의 원주민 점묘화는 작은 점 패턴을 사용하여 땅과 드림타임에 대한 이야기를 전한다."
+    },
+    {
+      "day": 240,
+      "keyword": "무용",
+      "country": "파라과이",
+      "worldTitle": "보틀 댄스 — 머리 위의 균형 예술",
+      "en": "Indian classical dance forms like Bharatanatyam use intricate hand gestures called mudras to convey emotions and tell stories.",
+      "ko": "바라타나티암 같은 인도 고전 무용은 무드라라 불리는 정교한 손짓으로 감정을 전하고 이야기를 들려준다."
+    },
+    {
+      "day": 246,
+      "keyword": "인공",
+      "country": "튀니지",
+      "worldTitle": "타투인의 고향 — 인공과 자연이 만나는 땅",
+      "en": "Estonia has introduced coding and digital literacy classes for students as young as seven years old.",
+      "ko": "에스토니아는 7세 어린이를 대상으로 코딩과 디지털 문해력 수업을 도입했다."
+    },
+    {
+      "day": 251,
+      "keyword": "광고",
+      "country": "북마케도니아",
+      "worldTitle": "비르기니아 담배 — 발칸의 광고 역사",
+      "en": "Super Bowl commercials have become a cultural event of their own, with companies spending millions for just thirty seconds of airtime.",
+      "ko": "슈퍼볼 광고는 그 자체로 문화 행사가 되었으며, 기업들은 단 30초의 방송 시간에 수백만 달러를 쓴다."
+    },
+    {
+      "day": 253,
+      "keyword": "설계",
+      "country": "이라크",
+      "worldTitle": "바빌론의 설계도 — 인류 최초의 도시 계획",
+      "en": "Scandinavian design is known for its simplicity, clean lines, and use of natural materials like wood and leather.",
+      "ko": "스칸디나비아 디자인은 단순함, 깔끔한 선, 그리고 나무와 가죽 같은 천연 소재의 사용으로 유명하다."
+    },
+    {
+      "day": 254,
+      "keyword": "발표",
+      "country": "가봉",
+      "worldTitle": "부이티 의식 — 조상에게 고하는 발표",
+      "en": "In ancient Rome, studying rhetoric was essential for any citizen who wanted to participate in public life and politics.",
+      "ko": "고대 로마에서 수사학을 공부하는 것은 공적 생활과 정치에 참여하고자 하는 시민에게 필수적이었다."
+    },
+    {
+      "day": 256,
+      "keyword": "환희",
+      "country": "미크로네시아",
+      "worldTitle": "돌 화폐의 기쁨 — 태평양의 환희",
+      "en": "Australian Aboriginal people believe that the Dreamtime is not the past but an eternal present that shapes all of reality.",
+      "ko": "호주 원주민들은 드림타임이 과거가 아니라 모든 현실을 형성하는 영원한 현재라고 믿는다."
+    },
+    {
+      "day": 263,
+      "keyword": "출발",
+      "country": "에콰도르",
+      "worldTitle": "적도에서 시작되는 모험의 출발점",
+      "en": "The Silk Road started as small trading paths between villages and grew into the greatest trade network of the ancient world.",
+      "ko": "실크로드는 마을 간 작은 교역로에서 시작하여 고대 세계 최대의 교역 네트워크로 성장했다."
+    },
+    {
+      "day": 268,
+      "keyword": "고전",
+      "country": "이란",
+      "worldTitle": "페르시아 — 시간이 검증한 시의 나라",
+      "en": "The Analerta of Confucius, written over two thousand years ago, continues to shape East Asian education and values today.",
+      "ko": "2천 년 전에 쓰인 공자의 논어는 오늘날에도 동아시아의 교육과 가치관을 형성하고 있다."
+    },
+    {
+      "day": 271,
+      "keyword": "애도",
+      "country": "아르메니아",
+      "worldTitle": "크흐치악 — 잊지 않는 민족의 애도",
+      "en": "In Irish tradition, a wake is held before the funeral, where family and friends gather to share stories and honor the deceased.",
+      "ko": "아일랜드 전통에서 웨이크(장례 전 모임)는 장례 전에 열리며, 가족과 친구들이 모여 이야기를 나누고 고인을 기린다."
+    },
+    {
+      "day": 273,
+      "keyword": "분리",
+      "country": "키르기스스탄",
+      "worldTitle": "유르트와 도시 — 유목과 정착의 분리",
+      "en": "When India was partitioned in 1947, millions of people were separated from their families overnight.",
+      "ko": "1947년 인도가 분할되었을 때, 수백만 명이 하룻밤 사이에 가족과 떨어졌다."
+    },
+    {
+      "day": 274,
+      "keyword": "결합",
+      "country": "피지",
+      "worldTitle": "세부세부 — 용서로 하나가 되는 섬나라",
+      "en": "In many cultures, marriage symbolizes the union of two families, not just two individuals.",
+      "ko": "많은 문화에서 결혼은 두 개인만이 아닌 두 가족의 결합을 상징한다."
+    },
+    {
+      "day": 281,
+      "keyword": "정직",
+      "country": "벨기에",
+      "worldTitle": "마네켄 피스 — 정직의 상징이 된 소년",
+      "en": "In Scandinavian countries, transparency in government is considered a fundamental right, and citizens can access almost any public document.",
+      "ko": "스칸디나비아 국가에서 정부의 투명성은 기본권으로 간주되며, 시민들은 거의 모든 공문서에 접근할 수 있다."
+    },
+    {
+      "day": 284,
+      "keyword": "복원",
+      "country": "체코",
+      "worldTitle": "프라하의 벨벳 혁명 — 잃어버린 자유의 복원",
+      "en": "After centuries of neglect, the ancient city of Angkor Wat was rediscovered by French explorers in the nineteenth century.",
+      "ko": "수세기의 방치 끝에, 고대 도시 앙코르 와트는 19세기에 프랑스 탐험가들에 의해 재발견되었다."
+    },
+    {
+      "day": 287,
+      "keyword": "망각",
+      "country": "아이티",
+      "worldTitle": "크레올 — 잊혀지지 않는 말의 힘",
+      "en": "In many oral cultures, history is preserved not in books but in the memories of elders, who pass stories from generation to generation.",
+      "ko": "많은 구전 문화에서 역사는 책이 아닌 어른들의 기억 속에 보존되며, 이야기가 세대에서 세대로 전해진다."
+    },
+    {
+      "day": 292,
+      "keyword": "해방",
+      "country": "통가",
+      "worldTitle": "세계에서 가장 먼저 새해를 맞는 나라",
+      "en": "After decades of apartheid, South Africa finally achieved liberation when Nelson Mandela was elected president in 1994.",
+      "ko": "수십 년간의 아파르트헤이트 이후, 넬슨 만델라가 1994년 대통령으로 선출되면서 남아프리카는 마침내 해방을 이루었다."
+    },
+    {
+      "day": 308,
+      "keyword": "분화",
+      "country": "코스타리카",
+      "worldTitle": "뿌라 비다 — 자연과 함께 재활하는 삶",
+      "en": "Over thousands of years, the single ancestor language Proto-Indo-European diverged into hundreds of distinct languages spoken across Europe and Asia today.",
+      "ko": "수천 년에 걸쳐 하나의 조상 언어인 인도유럽조어는 오늘날 유럽과 아시아에서 사용되는 수백 개의 개별 언어로 분화했다."
+    },
+    {
+      "day": 310,
+      "keyword": "정리",
+      "country": "피지",
+      "worldTitle": "카바 한 잔의 위로",
+      "en": "Marie Kondo's tidying method asks a simple question: does this object spark joy? If not, it is time to let it go.",
+      "ko": "곤도 마리에의 정리법은 간단한 질문을 던진다: 이 물건이 기쁨을 불러일으키는가? 아니라면, 보내줄 때다."
+    },
+    {
+      "day": 312,
+      "keyword": "고집",
+      "country": "뉴질랜드",
+      "worldTitle": "와이카토의 경청 — 마오리의 마라에 문화",
+      "en": "German master bakers stubbornly guard traditional bread recipes that have been passed down for generations, refusing to use modern shortcuts.",
+      "ko": "독일의 마이스터 제빵사들은 여러 세대에 걸쳐 전해 내려온 전통 빵 레시피를 고집스럽게 지키며, 현대적 편법을 거부한다."
+    },
+    {
+      "day": 315,
+      "keyword": "복잡",
+      "country": "세네갈",
+      "worldTitle": "테랑가 — 환대로 설득하는 문화",
+      "en": "The ancient Incan road system stretched over 40,000 kilometers, connecting a complex network of cities, storehouses, and temples across the Andes.",
+      "ko": "고대 잉카 도로 체계는 4만 킬로미터에 걸쳐 뻗어, 안데스 전역의 도시, 창고, 사원의 복잡한 네트워크를 연결했다."
+    },
+    {
+      "day": 316,
+      "keyword": "신비",
+      "country": "오만",
+      "worldTitle": "술탄국의 조용한 협상 — 중동의 중재자",
+      "en": "The Moai statues of Easter Island remain one of archaeology's greatest mysteries — no one knows exactly how ancient people moved such enormous stones.",
+      "ko": "이스터섬의 모아이 석상은 고고학 최대의 미스터리 중 하나로 남아 있다 — 고대인들이 어떻게 그 거대한 돌을 옮겼는지 정확히 아는 사람은 없다."
+    },
+    {
+      "day": 317,
+      "keyword": "증명",
+      "country": "노르웨이",
+      "worldTitle": "노벨 평화상 — 분쟁을 중재하는 전통",
+      "en": "In a court of law, the burden of proof lies with the prosecution — a defendant is considered innocent until proven guilty.",
+      "ko": "법정에서 입증 책임은 검찰에 있다 — 피고인은 유죄가 증명될 때까지 무죄로 간주된다."
+    },
+    {
+      "day": 318,
+      "keyword": "표현",
+      "country": "사모아",
+      "worldTitle": "마타이 — 마을 추장의 판결",
+      "en": "Flamenco dancers express deep sorrow and fierce joy through powerful stomping, clapping, and sweeping arm movements.",
+      "ko": "플라멩코 무용수들은 강렬한 발 구르기, 손뼉 치기, 팔의 크고 넓은 움직임으로 깊은 슬픔과 격렬한 기쁨을 표현한다."
+    },
+    {
+      "day": 320,
+      "keyword": "해석",
+      "country": "폴란드",
+      "worldTitle": "5월 3일 헌법 — 유럽 최초의 성문 헌법",
+      "en": "The Rosetta Stone allowed scholars to interpret ancient Egyptian hieroglyphs by comparing them with Greek text carved on the same stone.",
+      "ko": "로제타석은 같은 돌에 새겨진 그리스어 텍스트와 비교하여 학자들이 고대 이집트 상형문자를 해석할 수 있게 해주었다."
+    },
+    {
+      "day": 321,
+      "keyword": "번역",
+      "country": "대만",
+      "worldTitle": "아시아의 등대 — 대만의 민주주의",
+      "en": "The Rosetta Stone allowed scholars to translate ancient Egyptian hieroglyphs for the first time.",
+      "ko": "로제타석 덕분에 학자들은 고대 이집트 상형문자를 처음으로 번역할 수 있었다."
+    },
+    {
+      "day": 328,
+      "keyword": "해체",
+      "country": "보스니아 헤르체고비나",
+      "worldTitle": "모스타르 다리 — 해체된 다리가 전하는 메시지",
+      "en": "After the fall of the Soviet Union, many countries that had been part of it became independent nations almost overnight.",
+      "ko": "소련이 붕괴한 후, 소련의 일부였던 많은 나라들이 거의 하룻밤 사이에 독립 국가가 되었다."
+    },
+    {
+      "day": 333,
+      "keyword": "정착",
+      "country": "헝가리",
+      "worldTitle": "마자르족의 대이동 — 유목민이 유럽에 정착하다",
+      "en": "The Pilgrims who settled in Plymouth in 1620 faced harsh winters and food shortages in their first years.",
+      "ko": "1620년 플리머스에 정착한 필그림들은 처음 몇 년간 혹독한 겨울과 식량 부족에 직면했다."
+    },
+    {
+      "day": 347,
+      "keyword": "불투명",
+      "country": "투르크메니스탄",
+      "worldTitle": "닫힌 나라의 비밀 — 세계에서 가장 폐쇄적인 국가",
+      "en": "In ancient China, walls within the Forbidden City were not merely decorative — they were designed to keep the emperor's private life opaque to outsiders.",
+      "ko": "고대 중국에서 자금성의 벽은 단순히 장식적인 것이 아니라 — 황제의 사생활을 외부인에게 불투명하게 유지하도록 설계되었다."
+    },
+    {
+      "day": 358,
+      "keyword": "씨앗",
+      "country": "에콰도르",
+      "worldTitle": "갈라파고스의 씨앗, 진화의 시작",
+      "en": "The Svalbard Global Seed Vault in Norway stores millions of seed samples to protect the world's crop diversity.",
+      "ko": "노르웨이의 스발바르 국제 종자 저장고는 세계 작물 다양성을 보호하기 위해 수백만 개의 종자 샘플을 저장한다."
+    }
+  ],
+  "whyMismatches": [
+    {
+      "day": 21,
+      "keyword": "희망",
+      "question": "절망적인 상황에서도 뇌는 왜 희망을 포기하지 않을까?",
+      "en": "After a forest fire, certain seeds actually need the heat to crack open and begin growing into new trees.",
+      "ko": "산불이 난 후, 특정 씨앗은 실제로 열에 의해 껍질이 갈라져야 새로운 나무로 자라기 시작한다."
+    },
+    {
+      "day": 30,
+      "keyword": "혁신",
+      "question": "인류의 가장 중대한 발명이 뭘까?",
+      "en": "Penicillin was discovered by accident when Alexander Fleming noticed mold killing bacteria in a petri dish he had left uncovered.",
+      "ko": "페니실린은 알렉산더 플레밍이 덮개를 덮지 않고 둔 배양접시에서 곰팡이가 세균을 죽이는 것을 발견했을 때 우연히 발견되었다."
+    },
+    {
+      "day": 36,
+      "keyword": "우정",
+      "question": "동물들도 친구를 사귈까?",
+      "en": "Having close friendships is as important to your health as regular exercise, according to studies on longevity.",
+      "ko": "장수에 관한 연구에 따르면, 친밀한 우정을 갖는 것은 규칙적인 운동만큼 건강에 중요하다."
+    },
+    {
+      "day": 38,
+      "keyword": "탐구",
+      "question": "과학자들은 어떻게 보이지 않는 것을 발견할까?",
+      "en": "The deep ocean remains one of the least explored places on Earth — we know more about the surface of Mars than about our own ocean floor.",
+      "ko": "심해는 지구에서 가장 탐사가 덜 된 곳 중 하나로 남아 있다 — 우리는 우리 바다 밑바닥보다 화성 표면에 대해 더 많이 안다."
+    },
+    {
+      "day": 40,
+      "keyword": "풍요",
+      "question": "지구는 80억 명을 먹일 수 있을까?",
+      "en": "Research shows that once basic needs are met, additional income does surprisingly little to increase long-term happiness.",
+      "ko": "연구에 따르면 기본적인 필요가 충족되면, 추가 수입은 놀랍게도 장기적 행복을 높이는 데 거의 도움이 되지 않는다."
+    },
+    {
+      "day": 41,
+      "keyword": "갈등",
+      "question": "같은 종의 동물끼리도 싸울까? 동물의 갈등은 어떻게 해결될까?",
+      "en": "When two tectonic plates collide, the enormous pressure can create both destructive earthquakes and magnificent mountain ranges.",
+      "ko": "두 지각판이 충돌하면 엄청난 압력이 파괴적인 지진과 장엄한 산맥 모두를 만들 수 있다."
+    },
+    {
+      "day": 42,
+      "keyword": "회복",
+      "question": "잘린 꼬리를 다시 자라게 하는 도마뱀의 비밀은 뭘까?",
+      "en": "Bones that have been broken and healed properly often become stronger at the fracture site than they were before the injury.",
+      "ko": "부러졌다가 제대로 치유된 뼈는 부상 전보다 골절 부위에서 더 강해지는 경우가 많다."
+    },
+    {
+      "day": 46,
+      "keyword": "규칙",
+      "question": "자연에는 숨겨진 수학적 규칙이 있을까?",
+      "en": "Without the rules of gravity, planets would not orbit the sun, and life as we know it could not exist.",
+      "ko": "중력의 법칙이 없다면 행성은 태양을 돌지 않을 것이고, 우리가 아는 형태의 생명체는 존재할 수 없을 것이다."
+    },
+    {
+      "day": 52,
+      "keyword": "기술",
+      "question": "AI는 정말 '생각'하는 걸까?",
+      "en": "Smartphones contain more computing power than the computers that sent astronauts to the moon in 1969.",
+      "ko": "스마트폰은 1969년에 우주비행사를 달에 보낸 컴퓨터보다 더 많은 연산 능력을 가지고 있다."
+    },
+    {
+      "day": 55,
+      "keyword": "개성",
+      "question": "왜 사람마다 좋아하는 색이 다를까?",
+      "en": "Every snowflake has a unique crystal structure because tiny differences in temperature and humidity affect how it forms.",
+      "ko": "모든 눈송이는 고유한 결정 구조를 가지는데, 온도와 습도의 미세한 차이가 형성 과정에 영향을 미치기 때문이다."
+    },
+    {
+      "day": 58,
+      "keyword": "명예",
+      "question": "왜 다이아몬드는 비싸고 물은 쌀까?",
+      "en": "Mirror neurons in our brain fire both when we perform an action and when we watch someone else do the same thing.",
+      "ko": "우리 뇌의 거울 뉴런은 우리가 행동을 할 때와 다른 사람이 같은 행동을 하는 것을 볼 때 모두 활성화된다."
+    },
+    {
+      "day": 61,
+      "keyword": "비전",
+      "question": "인류는 화성에서 살 수 있을까?",
+      "en": "Scientists predict that by 2050, renewable energy could supply most of the world's electricity needs.",
+      "ko": "과학자들은 2050년까지 재생 에너지가 세계 전력 수요의 대부분을 공급할 수 있을 것이라고 예측한다."
+    },
+    {
+      "day": 65,
+      "keyword": "관용",
+      "question": "바닷물은 왜 소금을 녹이고도 넘치지 않을까?",
+      "en": "Exposure to diverse perspectives during childhood helps the brain develop empathy and reduces prejudice later in life.",
+      "ko": "어린 시절 다양한 관점에 노출되면 뇌가 공감 능력을 발달시키고, 이후 삶에서 편견을 줄이는 데 도움이 된다."
+    },
+    {
+      "day": 67,
+      "keyword": "모험",
+      "question": "에베레스트 꼭대기에서는 왜 밥이 설익을까?",
+      "en": "Deep-sea creatures survive in complete darkness under crushing pressure that would instantly kill a human being.",
+      "ko": "심해 생물은 인간을 즉사시킬 엄청난 압력 아래의 완전한 어둠 속에서 생존한다."
+    },
+    {
+      "day": 68,
+      "keyword": "기원",
+      "question": "지구의 물은 어디서 왔을까?",
+      "en": "The Big Bang theory suggests that the entire universe originated from a single point smaller than an atom about 13.8 billion years ago.",
+      "ko": "빅뱅 이론은 약 138억 년 전 원자보다 작은 하나의 점에서 온 우주가 시작되었다고 제안한다."
+    },
+    {
+      "day": 71,
+      "keyword": "비밀",
+      "question": "블랙홀 안에는 무엇이 있을까?",
+      "en": "Encryption works by scrambling information into an unreadable format that can only be decoded with the correct key.",
+      "ko": "암호화는 올바른 키로만 해독할 수 있는 읽을 수 없는 형식으로 정보를 뒤섞어 작동한다."
+    },
+    {
+      "day": 72,
+      "keyword": "소망",
+      "question": "씨앗은 어떻게 언제 싹을 틔울지 알까?",
+      "en": "The placebo effect shows that believing you will get better can actually trigger real healing processes in the body.",
+      "ko": "플라시보 효과는 나아질 것이라고 믿는 것이 실제로 몸에서 진짜 치유 과정을 촉발할 수 있음을 보여준다."
+    },
+    {
+      "day": 74,
+      "keyword": "위험",
+      "question": "번개를 맞으면 어떤 일이 일어날까?",
+      "en": "Adrenaline sharpens your senses and increases your strength, preparing your body to handle dangerous situations in an instant.",
+      "ko": "아드레날린은 감각을 예리하게 하고 힘을 증가시켜, 위험한 상황을 순간적으로 처리할 수 있도록 몸을 준비시킨다."
+    },
+    {
+      "day": 77,
+      "keyword": "실패",
+      "question": "역사상 가장 유명한 실패한 실험은?",
+      "en": "The human brain actually learns more from mistakes than from successes, because errors force the brain to create new neural pathways.",
+      "ko": "인간의 뇌는 실제로 성공보다 실수에서 더 많이 배우는데, 오류가 뇌에 새로운 신경 경로를 만들도록 강제하기 때문이다."
+    },
+    {
+      "day": 78,
+      "keyword": "미감",
+      "question": "하늘은 왜 파란색이고, 석양은 왜 빨간색일까?",
+      "en": "Studies suggest that humans are attracted to symmetrical faces because symmetry signals good health and strong genetics.",
+      "ko": "연구에 따르면 인간은 대칭적인 얼굴에 끌리는데, 대칭이 건강과 좋은 유전자를 신호하기 때문이다."
+    },
+    {
+      "day": 81,
+      "keyword": "근면",
+      "question": "개미는 잠을 안 자고 일할까?",
+      "en": "Muscles grow stronger not during exercise but during rest, when tiny damaged fibers repair themselves.",
+      "ko": "근육은 운동 중이 아니라 휴식할 때 더 강해지는데, 손상된 미세한 근섬유가 스스로 복구되기 때문이다."
+    },
+    {
+      "day": 83,
+      "keyword": "순수",
+      "question": "물은 왜 투명할까?",
+      "en": "Babies are born with about 270 bones, but many of them fuse together as the child grows, leaving adults with only 206.",
+      "ko": "아기는 약 270개의 뼈를 가지고 태어나지만, 성장하면서 많은 뼈가 합쳐져 어른이 되면 206개만 남는다."
+    },
+    {
+      "day": 84,
+      "keyword": "복수",
+      "question": "동물들은 왜 독을 만들까?",
+      "en": "The desire for revenge activates the brain's reward center, but acting on it rarely brings lasting satisfaction.",
+      "ko": "복수에 대한 욕구는 뇌의 보상 중추를 활성화하지만, 실제로 행동에 옮기면 지속적인 만족을 가져다주는 경우는 드물다."
+    },
+    {
+      "day": 85,
+      "keyword": "영웅",
+      "question": "인간의 몸은 어떻게 질병과 싸울까?",
+      "en": "In emergencies, adrenaline can give ordinary people extraordinary strength, a phenomenon known as hysterical strength.",
+      "ko": "긴급 상황에서 아드레날린은 평범한 사람에게 비범한 힘을 줄 수 있는데, 이를 히스테리 근력이라 부른다."
+    },
+    {
+      "day": 87,
+      "keyword": "희생",
+      "question": "수혈은 어떻게 생명을 살릴까?",
+      "en": "Some species of penguins take turns standing on the outside of the group, enduring the freezing wind to protect the colony.",
+      "ko": "일부 펭귄 종은 무리의 바깥쪽에 교대로 서서, 군집을 보호하기 위해 혹독한 바람을 견딘다."
+    },
+    {
+      "day": 90,
+      "keyword": "보호",
+      "question": "동물들은 어떻게 자신을 보호할까?",
+      "en": "The ozone layer acts as Earth's sunscreen, absorbing most of the Sun's harmful ultraviolet radiation before it reaches the surface.",
+      "ko": "오존층은 지구의 선크림 역할을 하며, 태양의 해로운 자외선 대부분을 지표에 도달하기 전에 흡수한다."
+    },
+    {
+      "day": 93,
+      "keyword": "반항",
+      "question": "전기는 원래 자연에 있었을까?",
+      "en": "Adolescent brains are wired to seek independence, which explains why teenagers often push back against rules set by adults.",
+      "ko": "청소년의 뇌는 독립을 추구하도록 설계되어 있어서, 십대들이 어른들이 정한 규칙에 자주 반발하는 이유가 설명된다."
+    },
+    {
+      "day": 94,
+      "keyword": "비유",
+      "question": "세상에서 가장 작은 것은 무엇일까?",
+      "en": "Metaphorical thinking helps the brain understand abstract concepts by linking them to familiar physical experiences.",
+      "ko": "은유적 사고는 추상적 개념을 익숙한 신체적 경험에 연결하여 뇌가 이해하도록 돕는다."
+    },
+    {
+      "day": 96,
+      "keyword": "소박",
+      "question": "식물은 어떻게 물을 꼭대기까지 올릴까?",
+      "en": "Studies show that people with fewer choices often feel more satisfied than those overwhelmed by too many options.",
+      "ko": "연구에 따르면 선택지가 적은 사람들이 너무 많은 선택지에 압도된 사람들보다 더 만족감을 느끼는 경우가 많다."
+    },
+    {
+      "day": 97,
+      "keyword": "동경",
+      "question": "우주에서 가장 먼 곳에는 뭐가 있을까?",
+      "en": "Nostalgia was once considered a medical illness, but psychologists now believe it actually strengthens a person's sense of identity.",
+      "ko": "향수병은 한때 의학적 질병으로 여겨졌지만, 심리학자들은 이제 그것이 실제로 사람의 정체성 감각을 강화한다고 믿는다."
+    },
+    {
+      "day": 99,
+      "keyword": "광기",
+      "question": "지구 내부는 얼마나 뜨거울까?",
+      "en": "Studies suggest a link between high creativity and certain mental health conditions, though the relationship is far more complex than a simple cause and effect.",
+      "ko": "연구에 따르면 높은 창의성과 특정 정신 건강 상태 사이에 연관이 있지만, 그 관계는 단순한 인과관계보다 훨씬 복잡하다."
+    },
+    {
+      "day": 101,
+      "keyword": "가족",
+      "question": "가족끼리 왜 닮을까?",
+      "en": "Oxytocin, sometimes called the bonding hormone, is released when family members hug, strengthening emotional connections between them.",
+      "ko": "유대 호르몬이라 불리는 옥시토신은 가족이 포옹할 때 분비되어, 가족 간의 감정적 유대를 강화한다."
+    },
+    {
+      "day": 102,
+      "keyword": "권리",
+      "question": "사람은 왜 숨을 쉬어야 할까?",
+      "en": "Children develop a sense of fairness as early as age three, instinctively protesting when resources are distributed unequally.",
+      "ko": "아이들은 빠르면 세 살부터 공정함에 대한 감각을 발달시키며, 자원이 불평등하게 분배되면 본능적으로 항의한다."
+    },
+    {
+      "day": 107,
+      "keyword": "요리",
+      "question": "양파를 자를 때 왜 눈물이 나올까?",
+      "en": "Cooking food allowed early humans to extract more calories and nutrients, freeing up energy for brain development over thousands of years.",
+      "ko": "음식을 조리하는 것은 초기 인류가 더 많은 칼로리와 영양분을 추출할 수 있게 해주었고, 수천 년에 걸쳐 뇌 발달을 위한 에너지를 확보하게 했다."
+    },
+    {
+      "day": 108,
+      "keyword": "패션",
+      "question": "왜 검은 옷을 입으면 더울까?",
+      "en": "Research shows that people form first impressions within seven seconds, and clothing plays a major role in shaping those judgments.",
+      "ko": "연구에 따르면 사람들은 7초 안에 첫인상을 형성하며, 옷차림이 그 판단을 형성하는 데 주요한 역할을 한다."
+    },
+    {
+      "day": 124,
+      "keyword": "중심",
+      "question": "지구의 중심에는 무엇이 있을까?",
+      "en": "The center of gravity determines whether an object will stand upright or topple over, which is crucial in engineering and sports alike.",
+      "ko": "무게 중심은 물체가 똑바로 서 있을지 쓰러질지를 결정하며, 이는 공학과 스포츠 모두에서 중요하다."
+    },
+    {
+      "day": 132,
+      "keyword": "증거",
+      "question": "화석은 어떻게 만들어질까?",
+      "en": "In science, a claim is not considered valid unless it can be tested repeatedly and produce the same results each time.",
+      "ko": "과학에서 주장은 반복적으로 검증되어 매번 같은 결과를 낼 수 없다면 유효하다고 여기지 않는다."
+    },
+    {
+      "day": 133,
+      "keyword": "의심",
+      "question": "중력은 정말 힘일까?",
+      "en": "Healthy skepticism is essential in science — researchers must question their own results to avoid being misled by faulty data.",
+      "ko": "건강한 회의주의는 과학에서 필수적이다 — 연구자들은 잘못된 데이터에 의해 오도되지 않기 위해 자신의 결과에 의문을 품어야 한다."
+    },
+    {
+      "day": 140,
+      "keyword": "통계",
+      "question": "숫자는 어떻게 거짓말을 할까?",
+      "en": "Statistics can reveal patterns that are invisible to the naked eye, but they can also be misleading if the sample size is too small.",
+      "ko": "통계는 육안으로 보이지 않는 패턴을 드러낼 수 있지만, 표본 크기가 너무 작으면 오해를 불러일으킬 수도 있다."
+    },
+    {
+      "day": 143,
+      "keyword": "물질",
+      "question": "물질의 상태는 왜 변할까?",
+      "en": "Everything you can see and touch is made of atoms, yet an atom itself is mostly empty space.",
+      "ko": "네가 보고 만질 수 있는 모든 것은 원자로 이루어져 있지만, 원자 자체는 대부분 빈 공간이다."
+    },
+    {
+      "day": 149,
+      "keyword": "경쟁",
+      "question": "인간의 신체 능력은 어디까지 갈 수 있을까?",
+      "en": "Trees in a dense forest compete for sunlight by growing taller, which is why forests have such high canopies.",
+      "ko": "빽빽한 숲의 나무들은 더 높이 자라 햇빛을 두고 경쟁하는데, 그래서 숲의 나무 윗부분이 그토록 높다."
+    },
+    {
+      "day": 152,
+      "keyword": "추종",
+      "question": "사람들은 왜 군중심리에 빠질까?",
+      "en": "Lemmings do not actually follow each other off cliffs — that myth was created by a documentary that staged the scene.",
+      "ko": "레밍은 실제로 서로를 따라 절벽에서 뛰어내리지 않는다 — 그 신화는 장면을 연출한 다큐멘터리가 만들어낸 것이다."
+    },
+    {
+      "day": 153,
+      "keyword": "반성",
+      "question": "과학은 자기 실수를 어떻게 고칠까?",
+      "en": "Your brain replays the day's events during sleep, strengthening important memories and discarding unimportant ones.",
+      "ko": "뇌는 수면 중 하루의 사건을 다시 재생하여 중요한 기억은 강화하고 중요하지 않은 것은 버린다."
+    },
+    {
+      "day": 157,
+      "keyword": "미신",
+      "question": "미신은 왜 생길까?",
+      "en": "Humans tend to see patterns even where none exist — this is called pareidolia, and it explains why we see faces in clouds.",
+      "ko": "인간은 패턴이 없는 곳에서도 패턴을 보는 경향이 있는데 — 이를 파레이돌리아라 하며, 구름에서 얼굴을 보는 이유를 설명해준다."
+    },
+    {
+      "day": 159,
+      "keyword": "철학",
+      "question": "'나'는 어디에 있을까?",
+      "en": "Philosophy asks questions that science cannot answer, such as whether it is possible to know anything with absolute certainty.",
+      "ko": "철학은 과학이 답할 수 없는 질문들을 던진다. 예를 들어, 절대적 확신으로 무엇이든 알 수 있는지 같은 것이다."
+    },
+    {
+      "day": 161,
+      "keyword": "경제",
+      "question": "돈은 왜 존재할까?",
+      "en": "Inflation occurs when too much money chases too few goods, causing the prices of everyday items to rise.",
+      "ko": "인플레이션은 너무 많은 돈이 너무 적은 상품을 쫓을 때 발생하여, 일상 물품의 가격이 오르게 한다."
+    },
+    {
+      "day": 163,
+      "keyword": "민주",
+      "question": "다수결이 항상 옳을까?",
+      "en": "Research shows that diverse groups make better decisions than homogeneous ones, because different perspectives reduce blind spots.",
+      "ko": "연구에 따르면 다양한 집단이 동질적 집단보다 더 나은 결정을 내리는데, 다른 관점이 사각지대를 줄이기 때문이다."
+    },
+    {
+      "day": 164,
+      "keyword": "투표",
+      "question": "여론조사는 어떻게 수천만 명의 생각을 알까?",
+      "en": "Studies have found that voter turnout increases when polling stations are closer to people's homes.",
+      "ko": "연구에 따르면 투표소가 집에서 가까울수록 투표율이 높아진다."
+    },
+    {
+      "day": 170,
+      "keyword": "복지",
+      "question": "깨끗한 물은 왜 의학보다 더 많은 생명을 구했을까?",
+      "en": "Economists debate whether universal basic income would reduce poverty or discourage people from working.",
+      "ko": "경제학자들은 보편적 기본소득이 빈곤을 줄일지 아니면 사람들의 근로 의욕을 꺾을지 논쟁한다."
+    },
+    {
+      "day": 172,
+      "keyword": "난민",
+      "question": "지구 온난화는 왜 사람들을 '기후 난민'으로 만들까?",
+      "en": "Chronic stress from displacement can physically shrink the hippocampus, the part of the brain responsible for memory.",
+      "ko": "이주로 인한 만성 스트레스는 기억을 담당하는 뇌 부위인 해마를 물리적으로 줄어들게 할 수 있다."
+    },
+    {
+      "day": 177,
+      "keyword": "투자",
+      "question": "투자는 과학일까 도박일까?",
+      "en": "Compound interest allows your money to grow exponentially because you earn interest on your interest over time.",
+      "ko": "복리는 시간이 지나면서 이자에 이자가 붙기 때문에 돈이 기하급수적으로 성장하게 해준다."
+    },
+    {
+      "day": 179,
+      "keyword": "부유",
+      "question": "부자는 왜 더 부자가 될까?",
+      "en": "Research suggests that beyond a certain income level, additional wealth does not significantly increase happiness.",
+      "ko": "연구에 따르면 일정 소득 수준을 넘어서면, 추가적인 부는 행복을 크게 증가시키지 않는다."
+    },
+    {
+      "day": 182,
+      "keyword": "효율",
+      "question": "효율을 높이면 왜 오히려 더 많이 쓸까?",
+      "en": "Bees build hexagonal honeycombs because hexagons use the least amount of wax to create the most storage space.",
+      "ko": "벌은 육각형 벌집을 짓는데, 육각형이 가장 적은 밀랍으로 가장 많은 저장 공간을 만들기 때문이다."
+    },
+    {
+      "day": 183,
+      "keyword": "낭비",
+      "question": "낭비는 정말 나쁘기만 할까?",
+      "en": "Letting your mind wander without focus, known as the default mode network, actually helps your brain solve problems creatively.",
+      "ko": "디폴트 모드 네트워크라 불리는, 집중 없이 마음을 방황하게 놔두는 것은 실제로 뇌가 문제를 창의적으로 풀도록 돕는다."
+    },
+    {
+      "day": 185,
+      "keyword": "건강",
+      "question": "건강하다는 건 정확히 뭘까?",
+      "en": "Your immune system has memory cells that remember past infections, allowing your body to fight the same disease faster the second time.",
+      "ko": "면역 체계에는 과거 감염을 기억하는 기억 세포가 있어, 두 번째에는 같은 질병을 더 빨리 퇴치할 수 있다."
+    },
+    {
+      "day": 188,
+      "keyword": "수면",
+      "question": "잠을 안 자면 어떻게 될까?",
+      "en": "During REM sleep, your brain replays and organizes the day's experiences, which is essential for forming long-term memories.",
+      "ko": "렘 수면 동안 뇌는 하루의 경험을 재생하고 정리하는데, 이는 장기 기억 형성에 필수적이다."
+    },
+    {
+      "day": 215,
+      "keyword": "고향",
+      "question": "왜 특정 냄새가 어릴 적 기억을 갑자기 떠올리게 할까?",
+      "en": "Nostalgia, the bittersweet longing for home, actually serves a psychological purpose by strengthening your sense of identity.",
+      "ko": "고향에 대한 달콤쌉쌀한 그리움인 노스탤지어는 실제로 정체성을 강화하는 심리적 기능을 한다."
+    },
+    {
+      "day": 220,
+      "keyword": "상징",
+      "question": "빨간색은 왜 전 세계에서 '위험'이나 '정지'를 의미할까?",
+      "en": "Humans are the only species known to create symbols — the ability to let one thing stand for another is what makes language possible.",
+      "ko": "인간은 상징을 만드는 것으로 알려진 유일한 종이다 — 한 가지가 다른 것을 대신하게 하는 능력이 언어를 가능하게 한다."
+    },
+    {
+      "day": 226,
+      "keyword": "재난",
+      "question": "초거대 화산이 폭발하면 지구는 어떻게 될까?",
+      "en": "The human brain is wired to respond to threats faster than to rewards, which is why fear spreads so quickly during a disaster.",
+      "ko": "인간의 뇌는 보상보다 위협에 더 빠르게 반응하도록 설계되어 있어서, 재난 때 공포가 빠르게 퍼지는 이유가 된다."
+    },
+    {
+      "day": 228,
+      "keyword": "예방",
+      "question": "손 씻기가 어떻게 인류의 생명을 가장 많이 구한 행동이 됐을까?",
+      "en": "Vaccines work by exposing the immune system to a weakened version of a virus, training it to fight the real thing before it arrives.",
+      "ko": "백신은 면역 체계를 약화된 바이러스에 노출시켜, 진짜 바이러스가 오기 전에 싸우도록 훈련시키는 방식으로 작동한다."
+    },
+    {
+      "day": 232,
+      "keyword": "세대",
+      "question": "세대 간 경험이 DNA로 전달될 수 있을까?",
+      "en": "Scientists have found that each generation's brain develops differently because of the unique environment it grows up in.",
+      "ko": "과학자들은 각 세대의 뇌가 자라난 고유한 환경 때문에 다르게 발달한다는 것을 발견했다."
+    },
+    {
+      "day": 235,
+      "keyword": "유년",
+      "question": "왜 아기는 태어나자마자 걷지 못할까?",
+      "en": "A child's brain forms about one million new neural connections every single second during the first few years of life.",
+      "ko": "아이의 뇌는 생후 처음 몇 년 동안 매초 약 백만 개의 새로운 신경 연결을 형성한다."
+    },
+    {
+      "day": 247,
+      "keyword": "정보",
+      "question": "왜 같은 데이터가 정반대의 결론을 만들까?",
+      "en": "The human brain can store roughly two-point-five petabytes of information — enough to hold three million hours of video.",
+      "ko": "인간의 뇌는 약 2.5페타바이트의 정보를 저장할 수 있다 — 300만 시간의 비디오를 담기에 충분한 양이다."
+    },
+    {
+      "day": 250,
+      "keyword": "방송",
+      "question": "왜 가짜 뉴스는 진짜 뉴스보다 빨리 퍼질까?",
+      "en": "Radio waves travel at the speed of light, which means a live broadcast can reach the other side of the planet in a fraction of a second.",
+      "ko": "전파는 빛의 속도로 이동하기 때문에, 생방송이 1초도 안 되는 시간에 지구 반대편에 도달할 수 있다."
+    },
+    {
+      "day": 256,
+      "keyword": "환희",
+      "question": "왜 웃음은 전염될까?",
+      "en": "During REM sleep, the brain is almost as active as when you are awake, processing memories and generating vivid dream imagery.",
+      "ko": "렘수면 중 뇌는 깨어 있을 때만큼이나 활발하며, 기억을 처리하고 생생한 꿈 이미지를 생성한다."
+    },
+    {
+      "day": 262,
+      "keyword": "완성",
+      "question": "왜 완벽함을 추구하면 오히려 완성하지 못할까?",
+      "en": "A caterpillar dissolves its own body inside a cocoon before reassembling into a butterfly — completion through total transformation.",
+      "ko": "애벌레는 고치 안에서 자신의 몸을 녹인 뒤 나비로 재조립된다 — 완전한 변환을 통한 완성이다."
+    },
+    {
+      "day": 263,
+      "keyword": "출발",
+      "question": "로켓은 어떻게 지구를 벗어날까?",
+      "en": "Every star begins as a cloud of gas and dust that slowly collapses under its own gravity.",
+      "ko": "모든 별은 자체 중력에 의해 서서히 붕괴하는 가스와 먼지 구름에서 시작된다."
+    },
+    {
+      "day": 266,
+      "keyword": "영원",
+      "question": "다이아몬드는 정말 영원할까?",
+      "en": "Light from distant stars takes millions of years to reach us, meaning we see the past when we look at the night sky.",
+      "ko": "먼 별의 빛은 우리에게 도달하는 데 수백만 년이 걸리며, 이는 밤하늘을 볼 때 우리가 과거를 본다는 뜻이다."
+    },
+    {
+      "day": 267,
+      "keyword": "재생",
+      "question": "도마뱀은 어떻게 꼬리를 다시 자라게 할까?",
+      "en": "A starfish can regrow an entire arm if one is cut off, and some species can even regenerate their whole body from a single arm.",
+      "ko": "불가사리는 팔 하나가 잘려도 전체 팔을 재생할 수 있고, 일부 종은 팔 하나에서 몸 전체를 재생할 수도 있다."
+    },
+    {
+      "day": 279,
+      "keyword": "나눔",
+      "question": "음식을 나눠 먹으면 왜 더 맛있게 느껴질까?",
+      "en": "Research shows that spending money on others activates reward centers in the brain more strongly than spending on yourself.",
+      "ko": "연구에 따르면 남을 위해 돈을 쓸 때 자신을 위해 쓸 때보다 뇌의 보상 중추가 더 강하게 활성화된다."
+    },
+    {
+      "day": 285,
+      "keyword": "탈출",
+      "question": "동물들은 어떻게 위험에서 탈출할까?",
+      "en": "Houdini studied locks, chains, and handcuffs for years, understanding their mechanisms so well that no restraint could hold him for long.",
+      "ko": "후디니는 수년간 자물쇠, 사슬, 수갑을 연구하여 그 메커니즘을 너무 잘 이해해서 어떤 구속도 그를 오래 잡아둘 수 없었다."
+    },
+    {
+      "day": 286,
+      "keyword": "귀속",
+      "question": "왜 사람은 어딘가에 '소속'되고 싶어할까?",
+      "en": "Salmon travel thousands of kilometers through the ocean but always return to the exact river where they were born, guided by their sense of smell.",
+      "ko": "연어는 바다에서 수천 킬로미터를 이동하지만, 후각에 이끌려 항상 자신이 태어난 바로 그 강으로 돌아온다."
+    },
+    {
+      "day": 291,
+      "keyword": "보존",
+      "question": "영구동토층이 녹으면 어떤 일이 벌어질까?",
+      "en": "Amber can preserve insects for millions of years, trapping them in a drop of sticky resin that hardens over time.",
+      "ko": "호박(앰버)은 끈적이는 수지 한 방울에 곤충을 가둬 수백만 년 동안 보존할 수 있다."
+    },
+    {
+      "day": 293,
+      "keyword": "속박",
+      "question": "왜 손가락 관절을 꺾으면 '뚝' 소리가 날까?",
+      "en": "Gravity is the invisible force that keeps the moon bound to the Earth, preventing it from drifting into deep space.",
+      "ko": "중력은 달을 지구에 묶어두어 깊은 우주로 떠내려가지 못하게 하는 보이지 않는 힘이다."
+    },
+    {
+      "day": 301,
+      "keyword": "향기",
+      "question": "왜 꽃에서 향기가 날까?",
+      "en": "Smell is the only sense that travels directly to the brain's limbic system, which is why a familiar scent can instantly trigger a vivid memory.",
+      "ko": "후각은 뇌의 변연계로 직접 전달되는 유일한 감각이며, 그래서 익숙한 냄새가 생생한 기억을 즉시 떠올릴 수 있다."
+    },
+    {
+      "day": 302,
+      "keyword": "미각",
+      "question": "왜 매운 것을 먹으면 아픈 걸까?",
+      "en": "Taste buds regenerate approximately every ten days, which means the ones on your tongue right now are entirely different from those two weeks ago.",
+      "ko": "미뢰는 약 10일마다 재생되는데, 이것은 지금 혀에 있는 미뢰가 2주 전 것과 완전히 다르다는 뜻이다."
+    },
+    {
+      "day": 303,
+      "keyword": "풍경",
+      "question": "왜 산 위에서 보는 풍경이 아래에서보다 더 멀리 보일까?",
+      "en": "The Grand Canyon was not carved in a day — the Colorado River slowly cut through layers of rock over nearly six million years.",
+      "ko": "그랜드 캐니언은 하루 만에 깎인 것이 아니다 — 콜로라도 강이 거의 600만 년에 걸쳐 천천히 암석 층을 깎아냈다."
+    },
+    {
+      "day": 305,
+      "keyword": "조화",
+      "question": "왜 자연에서는 좌우 대칭이 많을까?",
+      "en": "An ecosystem thrives when predators, prey, and plants exist in delicate balance — remove one element and the whole system can collapse.",
+      "ko": "생태계는 포식자, 먹이, 식물이 미묘한 균형 속에 존재할 때 번성한다 — 하나의 요소를 제거하면 전체 시스템이 붕괴할 수 있다."
+    },
+    {
+      "day": 316,
+      "keyword": "신비",
+      "question": "왜 양자역학은 이해하기 어려울까?",
+      "en": "Dark matter makes up about twenty-seven percent of the universe, yet scientists cannot see it or touch it — its existence is inferred only from its gravitational effects.",
+      "ko": "암흑물질은 우주의 약 27%를 차지하지만, 과학자들은 그것을 보거나 만질 수 없다 — 그 존재는 중력 효과에서만 추론된다."
+    },
+    {
+      "day": 326,
+      "keyword": "축소",
+      "question": "왜 원자는 대부분 빈 공간일까?",
+      "en": "When you look at objects through the wrong end of a telescope, everything appears smaller because the lenses reduce the image.",
+      "ko": "망원경을 반대로 보면 렌즈가 이미지를 축소하기 때문에 모든 것이 작게 보인다."
+    },
+    {
+      "day": 328,
+      "keyword": "해체",
+      "question": "왜 우리 몸의 세포는 스스로 죽을까?",
+      "en": "Scientists deconstruct complex molecules into simpler elements to understand how chemical reactions work.",
+      "ko": "과학자들은 화학 반응이 어떻게 작용하는지 이해하기 위해 복잡한 분자를 더 단순한 원소로 해체한다."
+    },
+    {
+      "day": 329,
+      "keyword": "구축",
+      "question": "거미줄은 왜 강철보다 강할까?",
+      "en": "Coral reefs are built by tiny organisms called polyps, which secrete calcium carbonate to form hard structures over time.",
+      "ko": "산호초는 폴립이라는 작은 유기체가 시간이 지나며 탄산칼슘을 분비하여 단단한 구조를 형성함으로써 만들어진다."
+    },
+    {
+      "day": 333,
+      "keyword": "정착",
+      "question": "왜 식물은 한곳에 뿌리를 내릴까?",
+      "en": "When sediment settles at the bottom of a lake over millions of years, it gradually turns into solid rock.",
+      "ko": "수백만 년에 걸쳐 퇴적물이 호수 바닥에 가라앉으면, 점차 단단한 암석으로 변한다."
+    },
+    {
+      "day": 334,
+      "keyword": "유랑",
+      "question": "철새는 어떻게 길을 잃지 않고 수천 km를 이동할까?",
+      "en": "Some planets do not orbit any star — they wander through space alone, and scientists call them rogue planets.",
+      "ko": "어떤 행성은 아무 별 주위를 돌지 않고 혼자 우주를 떠도는데, 과학자들은 이를 떠돌이 행성이라 부른다."
+    },
+    {
+      "day": 336,
+      "keyword": "등반",
+      "question": "에베레스트 정상에서는 왜 숨쉬기 힘들까?",
+      "en": "As altitude increases, air pressure drops and oxygen becomes scarce, which is why climbers often need supplemental oxygen above 8,000 meters.",
+      "ko": "고도가 높아지면 기압이 떨어지고 산소가 희박해지는데, 이것이 등반가들이 8,000미터 이상에서 보충 산소가 필요한 이유다."
+    },
+    {
+      "day": 339,
+      "keyword": "착륙",
+      "question": "고양이는 왜 높은 곳에서 떨어져도 살아남을까?",
+      "en": "Birds slow down before landing by spreading their tail feathers and angling their wings to increase air resistance.",
+      "ko": "새들은 착륙 전에 꼬리 깃털을 펼치고 날개 각도를 조절해 공기 저항을 높여 속도를 줄인다."
+    },
+    {
+      "day": 340,
+      "keyword": "교차",
+      "question": "물과 기름은 왜 섞이지 않을까?",
+      "en": "When light rays cross through a convex lens, they converge at a single point called the focal point.",
+      "ko": "빛이 볼록 렌즈를 통과하며 교차하면, 초점이라 불리는 한 점에서 모인다."
+    },
+    {
+      "day": 342,
+      "keyword": "합류",
+      "question": "강물은 왜 바다로 흘러갈까?",
+      "en": "When two rivers merge, the combined flow becomes stronger, carrying more sediment and shaping the landscape downstream.",
+      "ko": "두 강이 합류하면 합쳐진 흐름이 더 강해져서, 더 많은 퇴적물을 운반하고 하류의 지형을 만든다."
+    },
+    {
+      "day": 344,
+      "keyword": "혼합",
+      "question": "왜 달걀을 익히면 투명한 흰자가 하얗게 변할까?",
+      "en": "When you mix baking soda and vinegar, a chemical reaction occurs that produces carbon dioxide gas, causing the mixture to fizz and bubble.",
+      "ko": "베이킹소다와 식초를 섞으면 이산화탄소를 생성하는 화학 반응이 일어나 혼합물이 거품을 내며 부글거린다."
+    },
+    {
+      "day": 345,
+      "keyword": "순도",
+      "question": "다이아몬드는 왜 그렇게 단단할까?",
+      "en": "Gold in its purest form is actually too soft to be used in jewelry, so other metals are mixed in to make it stronger.",
+      "ko": "가장 순수한 형태의 금은 사실 장신구에 사용하기에 너무 부드러워서, 더 강하게 만들기 위해 다른 금속을 섞는다."
+    },
+    {
+      "day": 348,
+      "keyword": "그림",
+      "question": "왜 노을은 빨간색일까?",
+      "en": "Our eyes detect only a tiny fraction of the electromagnetic spectrum — most of the light in the universe is invisible to us.",
+      "ko": "우리 눈은 전자기 스펙트럼의 아주 작은 부분만 감지한다 — 우주에 있는 대부분의 빛은 우리에게 보이지 않는다."
+    },
+    {
+      "day": 349,
+      "keyword": "조각",
+      "question": "눈송이는 왜 모두 다른 모양일까?",
+      "en": "Erosion acts as nature's sculptor, slowly carving mountains, valleys, and canyons over millions of years through wind and water.",
+      "ko": "침식은 자연의 조각가 역할을 하며, 바람과 물을 통해 수백만 년에 걸쳐 산, 계곡, 협곡을 천천히 깎아낸다."
+    },
+    {
+      "day": 352,
+      "keyword": "인쇄",
+      "question": "종이는 왜 오래되면 누렇게 변할까?",
+      "en": "Modern printers can produce thousands of pages per hour because tiny droplets of ink are fired with extreme precision.",
+      "ko": "현대 프린터는 아주 작은 잉크 방울이 극도로 정밀하게 분사되기 때문에 시간당 수천 페이지를 생산할 수 있다."
+    },
+    {
+      "day": 361,
+      "keyword": "줄기",
+      "question": "대나무는 어떻게 하루에 1미터씩 자랄까?",
+      "en": "Plant stems transport water and nutrients from the roots to the leaves through tiny tubes called xylem and phloem.",
+      "ko": "식물의 줄기는 물관과 체관이라는 작은 관을 통해 뿌리에서 잎으로 물과 영양분을 운반한다."
+    },
+    {
+      "day": 364,
+      "keyword": "새싹",
+      "question": "씨앗은 어느 쪽이 위인지 어떻게 알까?",
+      "en": "A sprout pushes through the soil by building up water pressure inside its cells, generating a force strong enough to crack concrete.",
+      "ko": "새싹은 세포 안에 수압을 높여 토양을 뚫고 나오는데, 그 힘은 콘크리트를 깨뜨릴 정도로 강하다."
+    }
+  ]
+}
